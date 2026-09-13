@@ -1,0 +1,68 @@
+[
+  {
+    "case": "Uniform rectangular sheet, ideal end columns",
+    "expected_mOhm": 2.450684999999999,
+    "relative_error": 8.097966741615892e-13,
+    "nodes": 4000,
+    "solver_info": 0,
+    "R20_mOhm": 2.4506850000019837,
+    "R85_mOhm": 3.0767124832524906,
+    "source_grid_nodes": 20,
+    "target_grid_nodes": 20,
+    "grid_mm": 0.05,
+    "filled_area_mm2": [
+      10.0
+    ],
+    "residual_relative": 4.304440816749811e-15
+  },
+  {
+    "case": "Uniform rectangular sheet, ideal end columns",
+    "expected_mOhm": 2.4568424999999996,
+    "relative_error": 3.603339848723408e-12,
+    "nodes": 16000,
+    "solver_info": 0,
+    "R20_mOhm": 2.4568425000088525,
+    "R85_mOhm": 3.084442916636114,
+    "source_grid_nodes": 40,
+    "target_grid_nodes": 40,
+    "grid_mm": 0.025,
+    "filled_area_mm2": [
+      10.0
+    ],
+    "residual_relative": 6.434696010592898e-15
+  },
+  {
+    "case": "1 plated barrels between equipotential layers",
+    "expected_mOhm": 1.4732179429367205,
+    "relative_error": 1.667554982986985e-13,
+    "nodes": 3174,
+    "solver_info": 0,
+    "R20_mOhm": 1.4732179429369663,
+    "R85_mOhm": 1.8495514664602142,
+    "source_grid_nodes": 1587,
+    "target_grid_nodes": 1587,
+    "grid_mm": 0.05,
+    "filled_area_mm2": [
+      3.969,
+      3.969
+    ],
+    "residual_relative": 0.0
+  },
+  {
+    "case": "4 plated barrels between equipotential layers",
+    "expected_mOhm": 0.3683044857341801,
+    "relative_error": 5.240252676230739e-14,
+    "nodes": 3096,
+    "solver_info": 0,
+    "R20_mOhm": 0.3683044857341994,
+    "R85_mOhm": 0.4623878666150006,
+    "source_grid_nodes": 1548,
+    "target_grid_nodes": 1548,
+    "grid_mm": 0.05,
+    "filled_area_mm2": [
+      3.875,
+      3.875
+    ],
+    "residual_relative": 0.0
+  }
+]

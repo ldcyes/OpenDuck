@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T01:16:42",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/867793ff-2a12-585e-9fa6-4fdbe6ed0bcb",
+            "violations": []
+        }
+    ],
+    "source": "Microduck_Entry_5V_R22.kicad_sch"
+}

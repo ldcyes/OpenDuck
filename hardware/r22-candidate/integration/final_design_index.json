@@ -1,0 +1,65 @@
+{
+  "status": "R22_ENGINEERING_CANDIDATE_VERIFIED_WITH_OPEN_PHYSICAL_AND_HOST_INTEGRATION_ITEMS",
+  "entry_mm": [
+    52,
+    42,
+    1.6
+  ],
+  "power_outline_area_mm2": 4510,
+  "power_bounding_mm": [
+    65,
+    75
+  ],
+  "area_change_percent": {
+    "entry": -25.3333333333,
+    "power_regen": -7.2016460905,
+    "scoped_total": -14.0141297367
+  },
+  "native_pcb_sha256": {
+    "entry": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+    "power_regen": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4"
+  },
+  "original_protected_files_checked": 174,
+  "original_protected_files_unchanged": true,
+  "geometry": {
+    "items": 733,
+    "retained": 468,
+    "new_installed_references": 265,
+    "service": 9,
+    "total_delta_pairs": 159000,
+    "dynamic_pairs": 93595,
+    "minimum_dynamic_bound_mm": 2.230402828900228,
+    "unclassified_static_intersections": 0
+  },
+  "sources": {
+    "work/r22-compact-power/README.md": "5c9cd0ff071699041112d4c066b2222c74115b2801db87cbe0f52ec24ee092bb",
+    "work/r22-compact-power/entry/DELIVERABLE_SHA256.json": "fe2a435373ba1336f4cf9f93b95c0a2a0938c39ff96227f88058a59818f76f31",
+    "work/r22-compact-power/power_regen/final_sha256.json": "8121d4b1a6719130679f8ebe9c421b75597d506be894bc2805e24a3ee0951c53",
+    "work/r22-compact-power/final_verification/freeze_v1/entry/summary.json": "1038dc474b958177381ae28cc3a0d42c69ad0f98322b3020afeef94be180bbbc",
+    "work/r22-compact-power/final_verification/freeze_v2/power_regen/summary.json": "e4ce74bf55fdda3bb7779eba34d88b1599a0a6522b4803af98ba3b2670e15f75",
+    "work/r22-compact-power/integration/native_geometry_binding.json": "079ec34d57ea94f5abe7e6240a287f7287bb492070df4dbc849f06928c49ab2c",
+    "work/r22-compact-power/integration/assembly_selection.json": "d1bb5998201cf7da3a30ae38e3912fb9a57821eda78636d9bd22de3dc1b3a557",
+    "work/r22-compact-power/integration/mass_review/mass_COM_bounded_review.json": "bb5646c040e2bb33cb4464e0061c7110916f231ea1f1601f5e5b18b14fd121a3",
+    "work/r22-compact-power/mechanics/entry_mount/manifest.json": "5b8cf7edee2f6494c39ab864478da2378e64e2f66e0ab0e8a0a87dd83ed4f6fe",
+    "work/r22-compact-power/mechanics/entry_mount/R22-ENTRY-001_dimensions.pdf": "4afe85a92d9c2debfcd75ea3595632187a237ff1a69a35f406beeca7d66f00f1",
+    "work/r22-compact-power/mechanics/power_cap_mount/manifest.json": "ec27f2dc7fe01d1fd3a5ae357c65b0bafdf56f5cdc996cccab483d1fb06f716b",
+    "work/r22-compact-power/mechanics/power_reference/manifest.json": "ea6c953829356d2338750eaee80ad18aee2e95b92703b7e419d121208ec6b1fa",
+    "work/r22-compact-power/mechanics/insulation_v2/subset_proof.json": "6676d03cf734a96da85e062e3ac27fd270644f20bc74ea6aecf628ccddc2fcdb",
+    "work/r22-compact-power/mechanics/motion_delta/latest_summary.json": "becb6212dd478cabd7b1cf71f07ce656b53a4eccc767d3b1b981713ff6ea47ba",
+    "work/r22-compact-power/mechanics/motion_delta/latest_verification.json": "ea168e1541d3d9ded1e1b043816ddce74c3c924aba0137fd1559d8cd503a8255",
+    "work/r22-compact-power/mechanics/motion_delta/CAP_FINAL_SUPPLEMENT.md": "714bafd03ea1861dbbde825eb13b589b32cc077aa5acdfd6f7fd6aa5b5515a42",
+    "work/r22-compact-power/visual/readback.json": "2f580bab829aa555bde9a09e0501a74d72a59cd6e180045bd725f3c9562ca377",
+    "work/r22-compact-power/visual/Microduck_R22_紧凑电源候选.blend": "d2159b634c30f0e57b559c43b1989b5372c033d0130aa84ff9faa23db69780b1",
+    "work/r22-compact-power/fabrication/README.md": "a0155addc362c6b40d3649045bb9460a65a17c649de48d85bf2e8ec9b3820f08",
+    "work/r22-compact-power/fabrication/automatic_job_disposition.json": "ee7572ad58a4c9768465b42433b06c4e268ed65c10ac8598106f7efb140b479b"
+  },
+  "open_items": [
+    "Power-to-chassis main mounting, complete power/resistor harness and thermal attachment",
+    "Manufacturing process and tolerance confirmation, solder/via filling, capacitor forming and insulation, tie retention/creep and fastener coupons",
+    "Electrical transient, full-load voltage/ripple/current/temperature and regeneration clamp tests",
+    "Measured full mass/inertia/COM, new dynamics/torque validation and physical load/walking acceptance"
+  ],
+  "manufacturing_approved": false,
+  "physical_test_performed": false,
+  "new_R22_mass_dynamics_qualified": false
+}

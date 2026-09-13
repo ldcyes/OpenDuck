@@ -2,6 +2,8 @@
 
 本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
+**本次更新：[R22紧凑电源候选](hardware/r22-candidate/README.md) · [模型与完整工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r22-compact-power-candidate-20260914)。**
+
 | 范围 | 当前基线 | 已有结果与边界 |
 |---|---|---|
 | 结构与装配 | R20 / R13.7 | 557件，名义质量4.195094 kg；72对参考窄/未证、34对实际名义接口仍保留 |
@@ -51,3 +53,16 @@
 R8软件保留其原profile、限位、策略及标定门禁。代码、模拟输入测试和61→14策略接口均不能替代新机械结构的实测标定或批准策略。软件入口默认使用未批准模板或dry-run，当前资料不构成上机运动许可。
 
 项目派生自 Pollen Robotics 的 Microduck。软件、模型、KiCad库和Linux参考源码的许可分别见 [NOTICE.md](NOTICE.md)；本仓库没有给不明第三方资料统一增加商业许可。
+
+
+## R22 紧凑电源候选（独立预发布）
+
+[R22工程入口](hardware/r22-candidate/README.md)提供新的52×42 mm入口板、舵机电源与回生阶梯合板、原生KiCad/原理图/本地库、Gerber/钻孔和实际安装CAD。本次三个旧板改为两个候选板，总板面积减少14.01%；两块候选的冻结ERC/DRC及额外检查为0。原R13十二种板与R20/R21基线资料继续保留。
+
+新增几何对原R21轨迹关节范围的93,595个动态配对满足≥2.2 mm的保守间隙证据；完整模型为733项装态几何/包络，并非733件制造BOM。这是几何复核，尚未按R22质量重新求解步态，也没有样机制造、温升、回生或行走验收。合板到机身主支架、完整线束及热连接仍需闭合。
+
+- [R22独立预发布](https://github.com/ldcyes/OpenDuck/releases/tag/r22-compact-power-candidate-20260914)：[完整工程ZIP](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-engineering-candidate.zip)、[可独立打开的静态Blender装配](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/Microduck-R22-static-candidate.blend)、[两板制造与检查包](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-PCB-review.zip)、[SHA256](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/SHA256SUMS.txt)。
+- [入口板安装](hardware/r22-candidate/mechanics/entry_mount/README.md)、[电容托架最终组合](hardware/r22-candidate/mechanics/motion_delta/CAP_FINAL_SUPPLEMENT.md)、[制造与验收边界](hardware/r22-candidate/fabrication/README.md)。
+- [原始来源映射](provenance/r22-source-mapping.json)、[文档路径转换](provenance/r22-document-path-conversions.json)、[Git副本校验](provenance/r22-publication-file-check.json)、[附件摘要](provenance/r22-release-assets.json)。GitHub自动生成的Source code包不含完整工程ZIP和Blender。
+
+R22没有更新RK3576驱动接口、保护阈值或批准训练权重；软件仍以既有R8真实入口及其未验收范围为准。来源和分别适用的许可继续见[NOTICE](NOTICE.md)。

@@ -1,0 +1,593 @@
+{
+  "status": "ALL_DISTINCT_PIN_R5_ENVELOPES_SEPARATED",
+  "pair_count": 73,
+  "minimum_AABB_lower_bound_mm": 0.1400890350341797,
+  "rows": [
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_2_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_3_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_4_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_5_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 3.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_6_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 4.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 5.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_1_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 6.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_3_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_4_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_5_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_6_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 3.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 4.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_2_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 5.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_3_R5_BEND",
+      "b": "R22_Entry_J5_4_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_3_R5_BEND",
+      "b": "R22_Entry_J5_5_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_3_R5_BEND",
+      "b": "R22_Entry_J5_6_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_3_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 3.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_3_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 4.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_4_R5_BEND",
+      "b": "R22_Entry_J5_5_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_4_R5_BEND",
+      "b": "R22_Entry_J5_6_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_4_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_4_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 3.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_5_R5_BEND",
+      "b": "R22_Entry_J5_6_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_5_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_5_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_6_R5_BEND",
+      "b": "R22_Entry_J5_7_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_6_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J5_7_R5_BEND",
+      "b": "R22_Entry_J5_8_R5_BEND",
+      "reference": "J5",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J7_1_R5_BEND",
+      "b": "R22_Entry_J7_2_R5_BEND",
+      "reference": "J7",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.1400890350341797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J7_1_R5_BEND",
+      "b": "R22_Entry_J7_3_R5_BEND",
+      "reference": "J7",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1400890350341797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J7_2_R5_BEND",
+      "b": "R22_Entry_J7_3_R5_BEND",
+      "reference": "J7",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.1400890350341797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_1_R5_BEND",
+      "b": "R22_Entry_J8_2_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_1_R5_BEND",
+      "b": "R22_Entry_J8_3_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_1_R5_BEND",
+      "b": "R22_Entry_J8_4_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_1_R5_BEND",
+      "b": "R22_Entry_J8_5_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 3.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_2_R5_BEND",
+      "b": "R22_Entry_J8_3_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_2_R5_BEND",
+      "b": "R22_Entry_J8_4_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_2_R5_BEND",
+      "b": "R22_Entry_J8_5_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 2.140148162841797,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_3_R5_BEND",
+      "b": "R22_Entry_J8_4_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_3_R5_BEND",
+      "b": "R22_Entry_J8_5_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401481628417969,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J8_4_R5_BEND",
+      "b": "R22_Entry_J8_5_R5_BEND",
+      "reference": "J8",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.14014816284179688,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J3_1_R5_BEND",
+      "b": "R22_Entry_J3_2_R5_BEND",
+      "reference": "J3",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.1400909423828125,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J6_1_R5_BEND",
+      "b": "R22_Entry_J6_2_R5_BEND",
+      "reference": "J6",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.1400909423828125,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J6_1_R5_BEND",
+      "b": "R22_Entry_J6_3_R5_BEND",
+      "reference": "J6",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 1.1400909423828125,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Entry_J6_2_R5_BEND",
+      "b": "R22_Entry_J6_3_R5_BEND",
+      "reference": "J6",
+      "group": "entry_reference",
+      "invariant_AABB_lower_bound_mm": 0.1400909423828125,
+      "link_frame": "jaw_soft"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_2_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_3_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_4_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 2.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_5_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 3.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_6_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 4.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 5.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_1_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 6.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_3_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_4_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_5_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 2.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_6_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 3.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 4.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_2_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 5.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_3_R5_BEND",
+      "b": "R22_Power_J1_4_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_3_R5_BEND",
+      "b": "R22_Power_J1_5_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_3_R5_BEND",
+      "b": "R22_Power_J1_6_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 2.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_3_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 3.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_3_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 4.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_4_R5_BEND",
+      "b": "R22_Power_J1_5_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_4_R5_BEND",
+      "b": "R22_Power_J1_6_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_4_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 2.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_4_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 3.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_5_R5_BEND",
+      "b": "R22_Power_J1_6_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_5_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_5_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 2.140134811401367,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_6_R5_BEND",
+      "b": "R22_Power_J1_7_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_6_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 1.1401348114013672,
+      "link_frame": "trunk_base"
+    },
+    {
+      "a": "R22_Power_J1_7_R5_BEND",
+      "b": "R22_Power_J1_8_R5_BEND",
+      "reference": "J1",
+      "group": "power_reference",
+      "invariant_AABB_lower_bound_mm": 0.1401348114013672,
+      "link_frame": "trunk_base"
+    }
+  ],
+  "effective_inputs_sha256": "84e8676e2f1e2fcf76d1a1e0e6fe33deb1da6d1d43a6e3493ace40c247036cae",
+  "note": "Each pin envelope is checked against every other pin of the same header; BODY/MATED and straight-continuation exclusions never exempt distinct pin wires."
+}

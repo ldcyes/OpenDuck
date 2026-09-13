@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_REBOUND_ALL_COMPUTED_VALUES_EXACTLY_UNCHANGED",
+  "changed_reference_parts": [
+    "R22_Power_C101_1_INSULATION",
+    "R22_Power_C101_2_INSULATION"
+  ],
+  "unchanged_reference_part_count": 124,
+  "total_reference_parts": 126,
+  "all_mass_COM_envelopes_sensitivity_and_material_estimates_exactly_equal": true,
+  "source_changes": {
+    "work/r22-compact-power/mechanics/power_reference/manifest.json": {
+      "old": "612a15a2394c84935b16dd31304271c12e32edfb5e04c88ccafd4b27f1c81230",
+      "new": "ea6c953829356d2338750eaee80ad18aee2e95b92703b7e419d121208ec6b1fa"
+    }
+  },
+  "subset_proof_path": "work/r22-compact-power/mechanics/insulation_v2/subset_proof.json",
+  "subset_proof_sha256": "6676d03cf734a96da85e062e3ac27fd270644f20bc74ea6aecf628ccddc2fcdb",
+  "subset_proof_claims_checked_against_manifest": true,
+  "scope": "Read and bind root-produced exact STEP subset evidence; mass review did not repeat CAD booleans. No new mass was inferred for reference-only sleeve volume.",
+  "computed_input_scope": "Existing mass envelope calculation includes PCB and component_reference parts; lead_insulation_reference parts are excluded, and their new solids are strict subsets of old solids.",
+  "notes": [
+    "Only two upper sleeve ends changed from z8.1 to7.9mm.",
+    "No original model/PCB or foreign directory was modified."
+  ]
+}

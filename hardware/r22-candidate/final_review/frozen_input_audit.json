@@ -1,0 +1,286 @@
+{
+  "utc": "2026-09-13T17:16:46.213228+00:00",
+  "scope": "Independent frozen-file, report and geometry audit; supplemental ERC exact copies only; no native source mutation or repeated DC solve.",
+  "checks": [
+    {
+      "check": "entry_frozen_source_hashes",
+      "pass_": true,
+      "files": 34,
+      "mismatches": []
+    },
+    {
+      "check": "entry_exact_native_handoff_hashes",
+      "pass_": true,
+      "files": 32,
+      "mismatches": []
+    },
+    {
+      "check": "entry_native_sha_binding",
+      "pass_": true,
+      "native_pcb_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95"
+    },
+    {
+      "check": "entry_ERC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "entry_ERC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ]
+    },
+    {
+      "check": "entry_DRC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "entry_DRC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+      ]
+    },
+    {
+      "check": "entry_ALL_RULES_DRC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "entry_ALL_RULES_DRC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [],
+      "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+      ]
+    },
+    {
+      "check": "entry_all_ignored_DRC_checks_enabled",
+      "pass_": true
+    },
+    {
+      "check": "entry_supplemental_ERC_enabled",
+      "pass_": true,
+      "returncode": 0,
+      "violation_count": 0,
+      "types": {},
+      "ignored_checks": [],
+      "report": "work/r22-compact-power/final_review/supplemental_erc/entry/ERC_ALL_CHECKS.json"
+    },
+    {
+      "check": "entry_supplemental_ERC_native_schematic_unchanged",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_frozen_source_hashes",
+      "pass_": true,
+      "files": 36,
+      "mismatches": []
+    },
+    {
+      "check": "power_regen_exact_native_handoff_hashes",
+      "pass_": true,
+      "files": 34,
+      "mismatches": []
+    },
+    {
+      "check": "power_regen_native_sha_binding",
+      "pass_": true,
+      "native_pcb_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4"
+    },
+    {
+      "check": "power_regen_ERC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_ERC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ]
+    },
+    {
+      "check": "power_regen_DRC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_DRC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [],
+      "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+      ]
+    },
+    {
+      "check": "power_regen_ALL_RULES_DRC_report_hash",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_ALL_RULES_DRC_zero",
+      "pass_": true,
+      "violations": 0,
+      "ignored_checks": [],
+      "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+      ]
+    },
+    {
+      "check": "power_regen_all_ignored_DRC_checks_enabled",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_supplemental_ERC_enabled",
+      "pass_": true,
+      "returncode": 0,
+      "violation_count": 0,
+      "types": {},
+      "ignored_checks": [],
+      "report": "work/r22-compact-power/final_review/supplemental_erc/power_regen/ERC_ALL_CHECKS.json"
+    },
+    {
+      "check": "power_regen_supplemental_ERC_native_schematic_unchanged",
+      "pass_": true
+    },
+    {
+      "check": "entry_geometry_source_hashes",
+      "pass_": true,
+      "files": 2,
+      "mismatches": []
+    },
+    {
+      "check": "entry_independent_native_component_geometry_equivalence",
+      "pass_": true,
+      "components": 58,
+      "pad_instances": 278,
+      "source_pcb_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95"
+    },
+    {
+      "check": "entry_geometry_frozen_pcb_binding",
+      "pass_": true
+    },
+    {
+      "check": "power_geometry_source_hashes",
+      "pass_": true,
+      "files": 2,
+      "mismatches": []
+    },
+    {
+      "check": "power_independent_native_component_geometry_equivalence",
+      "pass_": true,
+      "components": 84,
+      "pad_instances": 292,
+      "source_pcb_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4"
+    },
+    {
+      "check": "power_geometry_frozen_pcb_binding",
+      "pass_": true
+    },
+    {
+      "check": "entry_DC_geometry_frozen_hashes",
+      "pass_": true,
+      "files": 2,
+      "mismatches": []
+    },
+    {
+      "check": "entry_disclosed_local_0p175_only",
+      "pass_": true,
+      "pairs": 4,
+      "actual_mm": [
+        0.175
+      ],
+      "zone_pairs": 0,
+      "report_sha256": "c0e45664361c7c9719c800d08362607ce21263e8ef3efa00d4651ccdfdb35043"
+    },
+    {
+      "check": "power_regen_disclosed_local_0p175_only",
+      "pass_": true,
+      "pairs": 15,
+      "actual_mm": [
+        0.175
+      ],
+      "zone_pairs": 0,
+      "report_sha256": "d7dee039949937ee18787784bc67ea9937c611cb021ce65f79c68a94912948b5"
+    },
+    {
+      "check": "combined_board_area_reduction",
+      "pass_": true,
+      "old_mm2": 7785,
+      "new_mm2": 6694,
+      "reduction_pct": 14.01412973667309,
+      "does_not_establish_weight_reduction": true
+    }
+  ],
+  "failed": []
+}

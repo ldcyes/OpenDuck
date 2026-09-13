@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-13T17:20:09.502896+00:00",
+  "status": "PASS",
+  "source_count": 278,
+  "source_or_product_mismatches": [],
+  "blend_sha256": "d2159b634c30f0e57b559c43b1989b5372c033d0130aa84ff9faa23db69780b1",
+  "part_count": 733,
+  "bound_readback_sha256": "2f580bab829aa555bde9a09e0501a74d72a59cd6e180045bd725f3c9562ca377",
+  "claim_limit": "Hashes bind the author readback to current assets; this audit did not repeat Blender import or render."
+}

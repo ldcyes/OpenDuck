@@ -1,0 +1,651 @@
+{
+  "status": "APPROXIMATE DC GEOMETRY SCREEN; NOT ELECTROTHERMAL OR HARDWARE ACCEPTANCE",
+  "method": {
+    "geometry": "All native filled-zone contours and holes; actual pad polygons; tracks; every relevant plated via and THT barrel. 32 distributed barrel sectors; named pad boundaries ideal1V/0V.",
+    "source_layers_mm": [
+      0.07,
+      0.07
+    ],
+    "new_layers_mm": [
+      0.07,
+      0.035,
+      0.035,
+      0.07
+    ],
+    "via_wall_min_assumed_mm": 0.025,
+    "copper_rho20_ohm_mm": 1.7241e-05,
+    "grid_mm": [
+      0.1,
+      0.075
+    ],
+    "linear_solve": "Sparse direct for small systems; algebraic multigrid preconditioned CG for large GND systems, residual target1e-9; preconditioner changes speed, not the DC equations.",
+    "external": "No external wire, connector contact, resistor, MOS or shunt resistance is in the copper solve. No simultaneous servo and regen/logic ground injections."
+  },
+  "new_paths": [
+    {
+      "net": "SERVO_BUS",
+      "from": [
+        "W3.1"
+      ],
+      "to": [
+        "W103.1"
+      ],
+      "R20_0p10_mOhm": 3.98365402356922,
+      "R20_0p075_mOhm": 3.9592370830789196,
+      "grid_difference_percent": 0.6167082187286566,
+      "source_regen_corresponding_R20_0p075_mOhm": 0.384387495541009,
+      "solver_residual": 6.4648958546222506e-15,
+      "solver_info": 0
+    },
+    {
+      "net": "RG_RH_LOW",
+      "from": [
+        "W104.1"
+      ],
+      "to": [
+        "Q101.5"
+      ],
+      "R20_0p10_mOhm": 0.29600179112318686,
+      "R20_0p075_mOhm": 0.2891873551457806,
+      "grid_difference_percent": 2.3564086935858874,
+      "source_regen_corresponding_R20_0p075_mOhm": 0.266313504352936,
+      "solver_residual": 1.390483811494836e-15,
+      "solver_info": 0
+    },
+    {
+      "net": "RG_BRAKE_SHUNT_P",
+      "from": [
+        "Q101.1",
+        "Q101.2",
+        "Q101.3"
+      ],
+      "to": [
+        "RS101.1",
+        "RS101.2"
+      ],
+      "R20_0p10_mOhm": 0.2626372648659848,
+      "R20_0p075_mOhm": 0.24611983787393005,
+      "grid_difference_percent": 6.711131916361612,
+      "source_regen_corresponding_R20_0p075_mOhm": 0.5338303375569255,
+      "solver_residual": 2.2644495583662253e-15,
+      "solver_info": 0
+    },
+    {
+      "net": "GND",
+      "from": [
+        "RS101.4"
+      ],
+      "to": [
+        "W2.1"
+      ],
+      "R20_0p10_mOhm": 0.3719457406652676,
+      "R20_0p075_mOhm": 0.3718267713757782,
+      "grid_difference_percent": 0.03199589127194091,
+      "source_regen_corresponding_R20_0p075_mOhm": 1.7625703257008813,
+      "solver_residual": 7.938838466247629e-10,
+      "solver_info": 0
+    },
+    {
+      "net": "GND",
+      "from": [
+        "RS101.4"
+      ],
+      "to": [
+        "W4.1"
+      ],
+      "R20_0p10_mOhm": 0.4116141692544223,
+      "R20_0p075_mOhm": 0.41142440682164405,
+      "grid_difference_percent": 0.04612328039657054,
+      "source_regen_corresponding_R20_0p075_mOhm": 1.7625703257008813,
+      "solver_residual": 4.070908192490223e-10,
+      "solver_info": 0
+    }
+  ],
+  "source_power_W4_to_W2_GND_R20_mOhm": 0.09607831806163863,
+  "transition_array_sharing": [
+    {
+      "grid_mm": 0.1,
+      "sum_current_fraction": 1.0000000000269686,
+      "maximum_fraction": 0.09897806374810855,
+      "minimum_fraction": 0.06648717717998437,
+      "coefficient_of_variation": 0.11049325156472513,
+      "rows": [
+        {
+          "pos": [
+            30.8,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08318317346358793,
+            0.08318317346359634,
+            0.0831831734635936
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.06648717717997497,
+            0.06648717717998437,
+            0.06648717717998245
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08583979044214961,
+            0.08583979044215934,
+            0.08583979044215627
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08356538754503473,
+            0.08356538754504791,
+            0.08356538754504743
+          ]
+        },
+        {
+          "pos": [
+            30.8,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09469863827308728,
+            0.09469863827309442,
+            0.0946986382730905
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.06866019382681195,
+            0.06866019382682409,
+            0.06866019382682224
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.07510529976375843,
+            0.07510529976376716,
+            0.07510529976376501
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08920287674699043,
+            0.08920287674699667,
+            0.08920287674699032
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.0891672943077126,
+            0.0891672943077234,
+            0.08916729430772025
+          ]
+        },
+        {
+          "pos": [
+            30.8,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09897806374810039,
+            0.09897806374810855,
+            0.09897806374810378
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.0819990180267537,
+            0.08199901802676293,
+            0.0819990180267591
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.083113086702896,
+            0.08311308670290353,
+            0.08311308670289898
+          ]
+        }
+      ]
+    },
+    {
+      "grid_mm": 0.075,
+      "sum_current_fraction": 1.0000000000505664,
+      "maximum_fraction": 0.09898065685713016,
+      "minimum_fraction": 0.06691236288889188,
+      "coefficient_of_variation": 0.10815111177369122,
+      "rows": [
+        {
+          "pos": [
+            30.8,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08347164620902224,
+            0.08347164620903477,
+            0.08347164620903177
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.06691236288888655,
+            0.06691236288889188,
+            0.06691236288888405
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08599903756049543,
+            0.08599903756050178,
+            0.08599903756049372
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08326916583303752,
+            0.08326916583305255,
+            0.08326916583305821
+          ]
+        },
+        {
+          "pos": [
+            30.8,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09402258219874993,
+            0.0940225821987631,
+            0.0940225821987646
+          ]
+        },
+        {
+          "pos": [
+            31.6,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.06874871224771961,
+            0.06874871224772798,
+            0.06874871224772701
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            8.0
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.07563247120016549,
+            0.07563247120018055,
+            0.0756324712001764
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08939258665303662,
+            0.08939258665304198,
+            0.08939258665303937
+          ]
+        },
+        {
+          "pos": [
+            33.2,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.0886495830092118,
+            0.0886495830092226,
+            0.0886495830092273
+          ]
+        },
+        {
+          "pos": [
+            30.8,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09898065685711667,
+            0.09898065685713016,
+            0.09898065685712812
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            8.8
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.0820539057514061,
+            0.0820539057514218,
+            0.08205390575141595
+          ]
+        },
+        {
+          "pos": [
+            32.4,
+            7.2
+          ],
+          "drill_mm": 0.3,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08286728964159001,
+            0.08286728964159729,
+            0.08286728964159112
+          ]
+        }
+      ]
+    }
+  ],
+  "full_selected_copper_loop": {
+    "new_W3_RH_MOS_shunt_to_W2_R20_mOhm": 4.866371047474408,
+    "source_two_board_copper_R20_mOhm_excluding_interboard_pair": 3.043179981213391,
+    "difference_before_removed_interboard_wire_mOhm": 1.8231910662610176,
+    "comparison_limit": "Source path includes Regen copper and Power W4-W2 return, but omits the original two board-to-board wires. New path replaces those wires. Overall resistance comparison cannot be concluded until their actual wire/contact resistance is provided."
+  },
+  "conditional_12V_over_0p99ohm": {
+    "current_A": 12.121212121212121,
+    "new_selected_copper_drop_V": 0.05898631572696252,
+    "new_selected_copper_loss20_W": 0.7149856451753033,
+    "new_selected_copper_loss75_W": 0.8695297923799451,
+    "new_ground_W2_drop_V": 0.00450699116819125,
+    "new_ground_W2_loss20_W": 0.05463019597807576,
+    "transition_max_via_A": 1.1997655376621836,
+    "meaning": "Only if bus<=12V and external resistor>=.99ohm. This does not establish achieved clamp upper voltage, pulse length or permitted sustained current."
+  },
+  "ground_flow_screens": [
+    {
+      "to": [
+        "W2.1"
+      ],
+      "net_current_crossing_layer_boundaries_fraction": [
+        0.6644816522009058,
+        0.45830225682925785,
+        0.22740332571529803
+      ],
+      "largest_internal_barrel_fractions": [
+        {
+          "pos": [
+            25.0,
+            2.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.14782251478466354,
+            0.05928809178233486,
+            0.007522449297413778
+          ]
+        },
+        {
+          "pos": [
+            15.0,
+            3.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.1399684471747944,
+            0.04475886471741051,
+            0.02335581343696774
+          ]
+        },
+        {
+          "pos": [
+            28.0,
+            1.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09490485683561327,
+            0.09490485666507456,
+            0.038807601990561574
+          ]
+        },
+        {
+          "pos": [
+            36.0,
+            6.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09226577745280576,
+            0.038182465503081534,
+            0.018737054256627254
+          ]
+        },
+        {
+          "pos": [
+            35.6,
+            -8.5
+          ],
+          "drill_mm": 0.5,
+          "name": "P101.1",
+          "layer_current_fraction": [
+            0.08242630302028617,
+            0.06238449115025751,
+            0.04428390857037126
+          ]
+        },
+        {
+          "pos": [
+            20.0,
+            3.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.08124681095729834,
+            0.03790128360227897,
+            0.014482001659836674
+          ]
+        }
+      ]
+    },
+    {
+      "to": [
+        "W4.1"
+      ],
+      "net_current_crossing_layer_boundaries_fraction": [
+        0.7910151420590776,
+        0.556425647758209,
+        0.332476264123232
+      ],
+      "largest_internal_barrel_fractions": [
+        {
+          "pos": [
+            25.0,
+            2.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.1454052733340218,
+            0.058570697441962284,
+            0.007333488329654877
+          ]
+        },
+        {
+          "pos": [
+            15.0,
+            3.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.13674691182319917,
+            0.04382276203401401,
+            0.022396153610129168
+          ]
+        },
+        {
+          "pos": [
+            28.0,
+            1.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09361686167163448,
+            0.09361686164474836,
+            0.03778710445098537
+          ]
+        },
+        {
+          "pos": [
+            36.0,
+            6.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.09245792984004413,
+            0.038215104949167626,
+            0.019411051389638903
+          ]
+        },
+        {
+          "pos": [
+            35.6,
+            -8.5
+          ],
+          "drill_mm": 0.5,
+          "name": "P101.1",
+          "layer_current_fraction": [
+            0.08246426841846642,
+            0.06315371798383544,
+            0.04754398333172207
+          ]
+        },
+        {
+          "pos": [
+            20.0,
+            3.0
+          ],
+          "drill_mm": 0.2,
+          "name": "via",
+          "layer_current_fraction": [
+            0.07979371847164002,
+            0.03732271004757293,
+            0.013958103442681589
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Grid extrema are numerical spread, not guaranteed manufacturing bounds. The short source-to-shunt neck has about7% grid sensitivity and must not be quoted as precision resistance.",
+    "PTH barrels including P101 are internal cross-layer conductors; modeled barrel current is NOT the current assigned to its external signal wire.",
+    "Global trace/pour connectivity is verified, but local peak current-density cells near ideal pad boundaries are mesh-dependent and are not a current rating.",
+    "25um hole copper is an assumption requiring explicit fabrication acceptance and microsection verification.",
+    "The original20J/60J energy screen is not a measured physical I2t bound. No transient, low-battery, thermal or motion sample testing was performed."
+  ],
+  "file_sha256": {
+    "new_board": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+    "source_regen_board": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+    "source_power_board": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+    "r22_dc_geometry": "74b9958bfb5351da1a75d3c5747aad43c6cbc4a389415ef55e13bacf26cee4fb",
+    "source_regen_dc_geometry": "398b6c6bea72a151953642f1a7c9e66016eb7def1f086fdbefeb9fce581a8741",
+    "source_power_dc_geometry": "47645a1f3f8dce240c7e33c04c40f22f4cd958c07517c463c6e95c10dbc19b67",
+    "solver": "e45141059cacc451ca07c54e7ff432f51079dc5b09c1c483e1e33da6b5a0699d"
+  }
+}

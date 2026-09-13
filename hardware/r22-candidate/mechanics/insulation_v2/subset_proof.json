@@ -1,0 +1,343 @@
+{
+  "status": "EXACT_STEP_SUBSET_AND_LEAD_CLEARANCE_PASS",
+  "rows": [
+    {
+      "name": "R22_Power_C101_1_INSULATION",
+      "old": {
+        "name": "R22_Power_C101_1_INSULATION",
+        "material": "REFERENCE_ONLY_NO_CAD_MASS",
+        "density_assumption_g_cm3": null,
+        "mass_from_CAD_g": null,
+        "link": "trunk_base",
+        "notes": "Independent thin-wall insulating sleeve engineering envelope; assembly from loose end before solder, not an adhesive applied to the vent.",
+        "interfaces": [],
+        "STEP": "STEP_毫米/R22_Power_C101_1_INSULATION.step",
+        "STL": "STL_装配坐标_毫米/R22_Power_C101_1_INSULATION.stl",
+        "sha256_STEP": "93acd47d12bd71b924fce6c7cf16047ca2d3df8bf3731a3e02156afcff3a8ec0",
+        "sha256_STL": "61ef8d79604bf3dd58e5def2d7ca56b81f7ca40d971c29c245c68b01ae1ac068",
+        "volume_mm3": 5.654866776461626,
+        "center_mm": [
+          1.7999999999999998,
+          -6.000000000000001,
+          5.1
+        ],
+        "unit_density_inertia_mm5": [
+          [
+            17.735075927677826,
+            0.0,
+            -7.105427357601002e-15
+          ],
+          [
+            0.0,
+            17.73507592767777,
+            0.0
+          ],
+          [
+            -7.105427357601002e-15,
+            0.0,
+            1.5409511965857519
+          ]
+        ],
+        "bounds_mm": [
+          [
+            1.1499998999999999,
+            -6.650000100000001,
+            2.0999999
+          ],
+          [
+            2.4500001,
+            -5.349999899999999,
+            8.100000099999999
+          ]
+        ],
+        "solid_count": 1,
+        "valid_BRep": true,
+        "kind": "lead_insulation_reference",
+        "reference": "C101",
+        "reference_only": true,
+        "step": "work/r22-compact-power/mechanics/power_reference/STEP_毫米/R22_Power_C101_1_INSULATION.step",
+        "mesh": "work/r22-compact-power/mechanics/power_reference/STL_装配坐标_毫米/R22_Power_C101_1_INSULATION.stl",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25.23550047278404,
+          -31.25542050600052,
+          74.54043605923653
+        ],
+        "link_frame": "trunk_base",
+        "not_a_manufacturing_part": true
+      },
+      "new": {
+        "name": "R22_Power_C101_1_INSULATION",
+        "material": "REFERENCE_ONLY_NO_CAD_MASS",
+        "density_assumption_g_cm3": null,
+        "mass_from_CAD_g": null,
+        "link": "trunk_base",
+        "notes": "Sleeve ID0.70/OD1.30; z2.1..7.9. Trimmed0.2mm from upper end to clear conservative formed-lead joint sphere. Not material mass.",
+        "interfaces": [],
+        "STEP": "STEP_毫米/R22_Power_C101_1_INSULATION.step",
+        "STL": "STL_装配坐标_毫米/R22_Power_C101_1_INSULATION.stl",
+        "sha256_STEP": "12d738f9846db5c7cc938a0a34d2ed4df694b6dffcc1fb043a72648f85fbdec2",
+        "sha256_STL": "aad018b5ce03a47acfa0f0e542382896f9abe66ec4d56cc0850f7e465ac04180",
+        "volume_mm3": 5.466371217246239,
+        "center_mm": [
+          1.7999999999999998,
+          -6.000000000000001,
+          4.999999999999999
+        ],
+        "unit_density_inertia_mm5": [
+          [
+            16.068853724030134,
+            -7.105427357601002e-15,
+            -7.105427357601002e-15
+          ],
+          [
+            -7.105427357601002e-15,
+            16.068853724030134,
+            0.0
+          ],
+          [
+            -7.105427357601002e-15,
+            0.0,
+            1.4895861566995166
+          ]
+        ],
+        "bounds_mm": [
+          [
+            1.149999899999999,
+            -6.6500001000000015,
+            2.0999998999999994
+          ],
+          [
+            2.450000100000001,
+            -5.3499998999999985,
+            7.9000001000000015
+          ]
+        ],
+        "solid_count": 1,
+        "valid_BRep": true,
+        "kind": "lead_insulation_reference",
+        "reference": "C101",
+        "reference_only": true,
+        "step": "work/r22-compact-power/mechanics/insulation_v2/STEP_毫米/R22_Power_C101_1_INSULATION.step",
+        "mesh": "work/r22-compact-power/mechanics/insulation_v2/STL_装配坐标_毫米/R22_Power_C101_1_INSULATION.stl",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25.23550047278404,
+          -31.25542050600052,
+          74.54043605923653
+        ],
+        "link_frame": "trunk_base",
+        "not_a_manufacturing_part": true
+      },
+      "new_outside_old_volume_mm3": 0.0,
+      "new_lead_intersection_mm3": 0.0,
+      "new_lead_gap_mm": 0.024999999999999595,
+      "old_reference_retained": true
+    },
+    {
+      "name": "R22_Power_C101_2_INSULATION",
+      "old": {
+        "name": "R22_Power_C101_2_INSULATION",
+        "material": "REFERENCE_ONLY_NO_CAD_MASS",
+        "density_assumption_g_cm3": null,
+        "mass_from_CAD_g": null,
+        "link": "trunk_base",
+        "notes": "Independent thin-wall insulating sleeve engineering envelope; assembly from loose end before solder, not an adhesive applied to the vent.",
+        "interfaces": [],
+        "STEP": "STEP_毫米/R22_Power_C101_2_INSULATION.step",
+        "STL": "STL_装配坐标_毫米/R22_Power_C101_2_INSULATION.stl",
+        "sha256_STEP": "cef9f8eeed00db9cac3588072b3868cc2be3f6e5e490a5c0433af83efb89875c",
+        "sha256_STL": "06b420a9a34f6250c7a19052ffee5aebb8135f8465e4f2f4d406a533f9c2dcb0",
+        "volume_mm3": 5.654866776461627,
+        "center_mm": [
+          1.7999999999999996,
+          -1.0,
+          5.099999999999999
+        ],
+        "unit_density_inertia_mm5": [
+          [
+            17.735075927677855,
+            0.0,
+            -7.105427357601002e-15
+          ],
+          [
+            0.0,
+            17.735075927677798,
+            0.0
+          ],
+          [
+            -7.105427357601002e-15,
+            0.0,
+            1.5409511965858016
+          ]
+        ],
+        "bounds_mm": [
+          [
+            1.1499998999999999,
+            -1.6500001,
+            2.0999999
+          ],
+          [
+            2.4500001,
+            -0.3499999,
+            8.100000099999999
+          ]
+        ],
+        "solid_count": 1,
+        "valid_BRep": true,
+        "kind": "lead_insulation_reference",
+        "reference": "C101",
+        "reference_only": true,
+        "step": "work/r22-compact-power/mechanics/power_reference/STEP_毫米/R22_Power_C101_2_INSULATION.step",
+        "mesh": "work/r22-compact-power/mechanics/power_reference/STL_装配坐标_毫米/R22_Power_C101_2_INSULATION.stl",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25.23550047278404,
+          -31.25542050600052,
+          74.54043605923653
+        ],
+        "link_frame": "trunk_base",
+        "not_a_manufacturing_part": true
+      },
+      "new": {
+        "name": "R22_Power_C101_2_INSULATION",
+        "material": "REFERENCE_ONLY_NO_CAD_MASS",
+        "density_assumption_g_cm3": null,
+        "mass_from_CAD_g": null,
+        "link": "trunk_base",
+        "notes": "Sleeve ID0.70/OD1.30; z2.1..7.9. Trimmed0.2mm from upper end to clear conservative formed-lead joint sphere. Not material mass.",
+        "interfaces": [],
+        "STEP": "STEP_毫米/R22_Power_C101_2_INSULATION.step",
+        "STL": "STL_装配坐标_毫米/R22_Power_C101_2_INSULATION.stl",
+        "sha256_STEP": "1880bdceb7c63857cb243401a8e2bae4777799548e6c89e28f049348c6ea6ccf",
+        "sha256_STL": "9ffffe2e1a923622537fe30298c224dcc61c71bc5fe4e4e71d8947cb40cb44a7",
+        "volume_mm3": 5.466371217246239,
+        "center_mm": [
+          1.8,
+          -1.0,
+          5.0
+        ],
+        "unit_density_inertia_mm5": [
+          [
+            16.068853724030106,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            16.068853724030078,
+            -3.552713678800501e-15
+          ],
+          [
+            0.0,
+            -3.552713678800501e-15,
+            1.4895861566996054
+          ]
+        ],
+        "bounds_mm": [
+          [
+            1.1499998999999994,
+            -1.6500001000000004,
+            2.0999999
+          ],
+          [
+            2.4500001000000005,
+            -0.3499998999999995,
+            7.900000100000001
+          ]
+        ],
+        "solid_count": 1,
+        "valid_BRep": true,
+        "kind": "lead_insulation_reference",
+        "reference": "C101",
+        "reference_only": true,
+        "step": "work/r22-compact-power/mechanics/insulation_v2/STEP_毫米/R22_Power_C101_2_INSULATION.step",
+        "mesh": "work/r22-compact-power/mechanics/insulation_v2/STL_装配坐标_毫米/R22_Power_C101_2_INSULATION.stl",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25.23550047278404,
+          -31.25542050600052,
+          74.54043605923653
+        ],
+        "link_frame": "trunk_base",
+        "not_a_manufacturing_part": true
+      },
+      "new_outside_old_volume_mm3": 0.0,
+      "new_lead_intersection_mm3": 0.0,
+      "new_lead_gap_mm": 0.024999999999999467,
+      "old_reference_retained": true
+    }
+  ],
+  "previous_manifest": "work/r22-compact-power/mechanics/insulation_v2/manifest_before.json",
+  "previous_manifest_sha256": "612a15a2394c84935b16dd31304271c12e32edfb5e04c88ccafd4b27f1c81230",
+  "new_manifest_sha256": "ea6c953829356d2338750eaee80ad18aee2e95b92703b7e419d121208ec6b1fa",
+  "new_collision_possible_under_same_rigid_pose": false,
+  "limits": [
+    "Subset monotonicity preserves prior nonintersection/lower-distance certificates only for unchanged rigid transforms; it does not prove actual assembly tolerance or wire retention.",
+    "Original rod radius is0.325mm with conservative0.355mm joint spheres. This is engineering envelope geometry, not a manufacturer lead diameter claim."
+  ]
+}

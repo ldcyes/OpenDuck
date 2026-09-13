@@ -1,0 +1,5 @@
+(version 1)
+# Source project dimensions remain unchanged. These rules only tighten them.
+(rule "2oz absolute fabrication spacing" (constraint clearance (min 0.16mm)))
+(rule "New traces minimum width" (condition "A.Type == 'Track'") (constraint track_width (min 0.20mm)))
+(rule "Zone copper separation" (condition "A.Type == 'Zone' || B.Type == 'Zone'") (constraint clearance (min 0.205mm)))

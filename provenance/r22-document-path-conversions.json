@@ -1,0 +1,50 @@
+{
+  "status": "PUBLISHING_COPY_ONLY_MARKDOWN_PATH_AND_HISTORICAL_STATUS_NOTICES",
+  "original_source_mapping_sha256": "dda5c1e8f1f8e5d922f1a09e365ac70a9dd870e7cc584dc5786a0545603b65ad",
+  "documents": [
+    {
+      "source": "work/r22-compact-power/mechanics/entry_mount/README.md",
+      "git_path": "hardware/r22-candidate/mechanics/entry_mount/README.md",
+      "source_sha256": "44f72d02720a83dff6b0bbbf63e356490534a5266963485702b67dda0d891b47",
+      "published_sha256": "01d9213cb5e87bdab0bc2b0e5b3ee79e84769ba735a85cf71920df8069475b3b",
+      "edits": [
+        {
+          "from": "[静态检查](../entry_home_check.json)",
+          "to": "[静态检查（工程包）](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-engineering-candidate.zip)",
+          "kind": "release_archive_member",
+          "resolved_source": "work/r22-compact-power/mechanics/entry_home_check.json"
+        },
+        {
+          "from": "[逐线检查](../individual_connector_wire_separation.json)",
+          "to": "[逐线检查（工程包）](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-engineering-candidate.zip)",
+          "kind": "release_archive_member",
+          "resolved_source": "work/r22-compact-power/mechanics/individual_connector_wire_separation.json"
+        }
+      ],
+      "archive_references": [
+        {
+          "original_target": "../entry_home_check.json",
+          "archive_path": "work/r22-compact-power/mechanics/entry_home_check.json"
+        },
+        {
+          "original_target": "../individual_connector_wire_separation.json",
+          "archive_path": "work/r22-compact-power/mechanics/individual_connector_wire_separation.json"
+        }
+      ]
+    },
+    {
+      "source": "work/r22-compact-power/mechanics/power_cap_mount/README.md",
+      "git_path": "hardware/r22-candidate/mechanics/power_cap_mount/README.md",
+      "source_sha256": "bb59f0ceac56e0c14c54aa404c544c0bda92b59c7fcc615fcd42919538cac9ce",
+      "published_sha256": "d39a8dab45131ee707498f26db539e18f7b3e9d3fa110693e8c96575c4cea014",
+      "edits": [
+        {
+          "kind": "historical_status_notice",
+          "text": "> 当前组合状态见[托架最终整板补充](../motion_delta/CAP_FINAL_SUPPLEMENT.md)：最终126件参考与套管v2已复核。本页保留113件历史快照的设计过程与当时待办。\n\n"
+        }
+      ],
+      "archive_references": []
+    }
+  ],
+  "source_JSON_and_native_files_modified": false
+}

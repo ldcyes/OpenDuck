@@ -1,0 +1,38 @@
+{
+  "status": "EXHAUSTIVE_LEDGER_AND_SOURCE_BINDINGS_VERIFIED",
+  "pair_count": 159000,
+  "dynamic_target_pair_count": 93595,
+  "minimum_dynamic_lower_bound_mm": 2.230402828900228,
+  "source_geometry_hash_checks": 1432,
+  "raw_and_target_partitions_contiguous_complete_nonoverlapping": true,
+  "source_integration_selection": {
+    "status": "MATCH",
+    "source": "work/r22-compact-power/integration/assembly_selection.json",
+    "captured_copy": "work/r22-compact-power/mechanics/motion_delta/snapshot/integration_assembly_selection.original.json",
+    "sha256": "8279a357e58de0f7fcc1ed6ed737ce7020f17f9edc7999131894cf264cc2f241",
+    "item_count": 733,
+    "differences": [],
+    "service_count": 9
+  },
+  "motion_core_tests": {
+    "command": "python -m pytest -q work/r18-leg-hip-covers/review/test_motion_core.py work/r18-leg-hip-covers/review/test_differential_check.py",
+    "exit_code": 0,
+    "result": "18 passed in2.49s"
+  },
+  "sources": {
+    "work/r22-compact-power/mechanics/motion_delta/inputs.json": "6ad6f6453c802809d5b3e2ec5884e1f5f75da114c034d14d016b8fb45022cfbe",
+    "work/r22-compact-power/mechanics/motion_delta/result.json": "06f2250e03ba9dacc1f3274623d2271a3978cfcd83bc593125107cdaa609e589",
+    "work/r22-compact-power/mechanics/motion_delta/target_refinement.json": "fd64e3af1c06fbd3c45a222abc3ec8071ad6f7c99fe8c9f3fe7ba75cc93f2eef",
+    "work/r22-compact-power/mechanics/motion_delta/pair_index.json": "148d62c6868c1f7cb605aac7a3edd7f7db8cb237e469f76d80e849467dd6bb41",
+    "work/r22-compact-power/mechanics/motion_delta/pair_arrays.npz": "2f6d820d6ed026962a686ab115510a37383d0e5d1383750b328f8398a78ac7d9",
+    "work/r22-compact-power/mechanics/motion_delta/contact_STEP_adjudication.json": "11e340328aff38a25ea86d68500e59b6224991fffafcd3fce6c2b3b32d739076",
+    "work/r22-compact-power/mechanics/motion_delta/static_contact_ledger.json": "5ad108a02cce48ffc8726c53264323c4dcb6a80f4f0d4d77327e0748c0459bbd",
+    "work/r22-compact-power/mechanics/motion_delta/cap_final_reference_rebind.json": "7f026d4830e73fcd3562cb7d87061c0bdfb980f9d1f9a41a0ce9ee24f1ea693e",
+    "work/r22-compact-power/mechanics/motion_delta/summary.json": "d7ad600868a4b71a5f705deaa0a54e995d9222620105d56497232b2b80d564ee"
+  },
+  "checker_sha256": "2e0e4172a0508f916d97ea63498ac4c9a2e6f8e471bb734cb3377aa9bdd13f98",
+  "limits": [
+    "Two exact STEP sleeve/formed-lead conflicts intentionally remain in the captured baseline report until separately source-bound subset correction.",
+    "Passing interval partition verification is not physical manufacturing or hardware motion acceptance."
+  ]
+}

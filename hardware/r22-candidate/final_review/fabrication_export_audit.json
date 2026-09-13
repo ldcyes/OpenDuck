@@ -1,0 +1,245 @@
+{
+  "utc": "2026-09-13T17:21:35.245610+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "entry_misleading_job_removed_and_preserved",
+      "pass_": true
+    },
+    {
+      "check": "power_regen_misleading_job_removed_and_preserved",
+      "pass_": true
+    },
+    {
+      "check": "entry_fresh_frozen_native_export_equals_delivery",
+      "pass_": true,
+      "files": [
+        {
+          "file": "Microduck_Entry_5V_R22-B_Cu.gbl",
+          "exported_sha256": "b5a552ad3021a09c8a0fe324ed7f2d60c4dc4b8fa8cdd74cb6fd7391cfd9887c",
+          "delivery_sha256": "5218851d16e1567ea062d9924187da3fb460891ccf384c0fee525aac86ada216",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-B_Mask.gbs",
+          "exported_sha256": "7e1635aa9ca42daf32dd00602b147f31fc2619f0c6a18594aa0ad909efe5d9e0",
+          "delivery_sha256": "294fb9b2f88263d1b319e66d5c32dd29f1e5b138731ef625e70ece7aff97401d",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-B_Paste.gbp",
+          "exported_sha256": "30270911841904cc86112f4660e0120d0008470dc7e6695060f132dd77d850bb",
+          "delivery_sha256": "bd887e9a6f896edccbbe549ff5eda7f0726badde6719b0ab0474834c6bed4cc6",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-B_Silkscreen.gbo",
+          "exported_sha256": "865986e6e4b6f3d17799f1ba3be1e683bf296c494ae6d19eb67783c8ce32db77",
+          "delivery_sha256": "5f15d472950ddb3326fa9f23368f4ae1e45828aa86c9d58fd58e5b4e3dabb3d9",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-Edge_Cuts.gm1",
+          "exported_sha256": "dfdd653116ccd45679ccf14d3e29811ec81d8793640edad28535b83abd2b275c",
+          "delivery_sha256": "bc48bfbf3ed2b54c6986ee00ef73a5635c86f6159085a687bcf46368847442ac",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-F_Cu.gtl",
+          "exported_sha256": "80a29db31376a77e7efbfd75302a5b4af88fae6e3922a003d217d70922b6d328",
+          "delivery_sha256": "7b9c44d71dd86c16736fff459e3483ca8869f45d601fcbaefc4f46abdb331547",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-F_Mask.gts",
+          "exported_sha256": "fbdabe84ec0212478a24490ff49669e5993c1f980b3e75281261cc993d50d939",
+          "delivery_sha256": "6a7ee0f4ff6c185d2e579b8e857685f0689008cf662ef3b16307a40ca67aaaf2",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-F_Paste.gtp",
+          "exported_sha256": "32b5388dcfe4895ac174a4f8e402ce373231a4a0c76ca69cf77d7fda4f46033e",
+          "delivery_sha256": "54c0de0753e04b0146b8f4ebeeaefd6f1677dd4a780992b0d90eb185cb835b21",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-F_Silkscreen.gto",
+          "exported_sha256": "55b65cfc88ddb39849f9b1d8e1842aa5707fb64c127fe6d9b05bbb9169980c3b",
+          "delivery_sha256": "eb8311bc43b7d305fda5a137968d8861419ede56dd020e26d3914565b91992e2",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-In1_Cu.g1",
+          "exported_sha256": "14e55a12ba16b202b7f6368a83491fa67917b7667262646ced62475b782cdaa9",
+          "delivery_sha256": "117cdce87e40bf411831d85a473d30d36f1911bc33787982d19a3713a7d7eeb1",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-In2_Cu.g2",
+          "exported_sha256": "861dd1f6110603865345e366681ab031836b7d3d9f08da0a8f2a4488afff43f8",
+          "delivery_sha256": "e157f7c616cc60f91d0e575c455eb206acd5a5e145d4c4834c04ea3915d97b42",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-NPTH.drl",
+          "exported_sha256": "60625ff47bdac2d29199e8de95f1d2fe7ddb00829f8fa7907d3ae1c844e51411",
+          "delivery_sha256": "b802c5431227e5fe47ae6f708f076da8cf50892104d5dc151bfc1028c76e2022",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Entry_5V_R22-PTH.drl",
+          "exported_sha256": "01bcdab80572c22af198ec0827e9f44996640747728a74f0ea1dd64be7510a34",
+          "delivery_sha256": "522b73557b519b5951a4b11454b66f01edb318d7f75bbdebd5a91b21d600d800",
+          "equal_except_timestamp_comments": true
+        }
+      ],
+      "commands": [
+        {
+          "args": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts",
+            "--output",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_review/fabrication_reexport/entry",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_verification/freeze_v1/entry/native/Microduck_Entry_5V_R22.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "args": [
+            "pcb",
+            "export",
+            "drill",
+            "--excellon-separate-th",
+            "--output",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_review/fabrication_reexport/entry",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_verification/freeze_v1/entry/native/Microduck_Entry_5V_R22.kicad_pcb"
+          ],
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "check": "power_regen_fresh_frozen_native_export_equals_delivery",
+      "pass_": true,
+      "files": [
+        {
+          "file": "Microduck_Power_Regen_R22-B_Cu.gbl",
+          "exported_sha256": "a09bbf6b609f455d7d2cb8278f65593b28c7e2965cbc428bcd7aa7f38cc64838",
+          "delivery_sha256": "9d77088a99cafea55647c7538b09caa25c2697028b5804dfe617f7ee02362c1c",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-B_Mask.gbs",
+          "exported_sha256": "f19ee718150edfb75e06ad35f612af638fee9843a6851bf19cec3d4b9862e87e",
+          "delivery_sha256": "bf9ee195f22d4d3806987897c9dbdb8ee0fdc3e37de1b9eb893c2650ea13bd42",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-B_Paste.gbp",
+          "exported_sha256": "4620ecea49128d953701abf40135114f43964bc2ddf01be0414c0842639b8359",
+          "delivery_sha256": "986ac2919a07de07d656b7c2eeeacb1a1fcfa2f58aa50067e0483519a32d5f95",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-B_Silkscreen.gbo",
+          "exported_sha256": "971dffacfb95c64579040c95d8db43e22675eb2ae05f62dd2a5d5c45363bfdf0",
+          "delivery_sha256": "5d30a3ffb9f62f43d13448078bf48e670328debde9651f178404bf9e2a0ec5ff",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-Edge_Cuts.gm1",
+          "exported_sha256": "1b1344e21f51d762520352930229a409a4041fea3dd99d75e697c4c191aaac4d",
+          "delivery_sha256": "dbee60d113ea5011f4ffadf2ff732a79ad6da56ca6d7a3eeac83fc4e9a1171bd",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-F_Cu.gtl",
+          "exported_sha256": "3694501c6b50a0bd1a64c0b045f19b9cb73cc2e1058ad1880555749f264bddd1",
+          "delivery_sha256": "f18e597630e42c8fd602e14d00817939889a1ea499f3097d6bcfddf08a2a2e26",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-F_Mask.gts",
+          "exported_sha256": "5995b1687c2127058f49dba96a5038c9ad77631f9b5366b5770779f4601a35ae",
+          "delivery_sha256": "090691627454ceb7904ea7874eb5118e5f1d98029efc1811c35aafd6092d6da5",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-F_Paste.gtp",
+          "exported_sha256": "59fd248d2324e87dc8cd81162fb199eeb48be5d0c06a511cedbcdc5a0a7d99ad",
+          "delivery_sha256": "362932f3a16166f0af58667fa6d9e2e7a10117c8711853e88616c0198307e886",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-F_Silkscreen.gto",
+          "exported_sha256": "64a0ec0d2e5ce5fcdd167aa6accf9b0b06a557121beff0c26c47cd206f45781b",
+          "delivery_sha256": "e658a2eb970e5830b27ede9f98fb614f8516a0c184bcff0110aeafe51e3b1505",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-In1_Cu.g1",
+          "exported_sha256": "0eb2d41f98efc587e85b0613934fcac66eaf6346997b49f3702f7e3bb202a9c5",
+          "delivery_sha256": "48030e383837a619feaed0e614cc483d55a4d076de30cda1b9ed3dc8991eca04",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-In2_Cu.g2",
+          "exported_sha256": "1088d99e7207bed8e828b89dec693e92c0731616d121a898d113b20d9f31f57b",
+          "delivery_sha256": "1027a714b4182452c3928fa0656b763fdf95c1894667dd76fd5f3bb43bfe2a4c",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-NPTH.drl",
+          "exported_sha256": "4d913c45709a02b79ae9eab78627efe082e4bdc189f9e5655726d094b9747729",
+          "delivery_sha256": "9e87698c411beb388fde8b2a40fde96775a1d4fef04c46e7afcada10afd07dec",
+          "equal_except_timestamp_comments": true
+        },
+        {
+          "file": "Microduck_Power_Regen_R22-PTH.drl",
+          "exported_sha256": "fb3e0970f06f7814a3eb83cf6bf7a96f37a07356c13ebbca202f64399e007b14",
+          "delivery_sha256": "d89b4f3e3bc9a09486e65b0a734754c6e40de1f678950f1aeafc3f5bec380b40",
+          "equal_except_timestamp_comments": true
+        }
+      ],
+      "commands": [
+        {
+          "args": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts",
+            "--output",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_review/fabrication_reexport/power_regen",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_verification/freeze_v2/power_regen/native/Microduck_Power_Regen_R22.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "args": [
+            "pcb",
+            "export",
+            "drill",
+            "--excellon-separate-th",
+            "--output",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_review/fabrication_reexport/power_regen",
+            "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/final_verification/freeze_v2/power_regen/native/Microduck_Power_Regen_R22.kicad_pcb"
+          ],
+          "returncode": 0
+        }
+      ]
+    }
+  ],
+  "normalized_fields": [
+    "TF.CreationDate comment",
+    "G04 Created by KiCad timestamp comment",
+    "; DRILL file KiCad timestamp comment"
+  ],
+  "notes": [
+    "11 Gerber layers plus PTH and NPTH files checked per board; copper, pads, mask, paste, profile and drill coordinates otherwise byte-identical.",
+    "Removed automatic gbrjob metadata is diagnostic only; no claim of impedance-control qualification."
+  ]
+}

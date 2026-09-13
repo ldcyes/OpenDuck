@@ -1,0 +1,50 @@
+{
+  "status": "CURRENT_REVIEW_ENTRYPOINTS",
+  "files": [
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/README.md",
+      "sha256": "4988d2222ed440b70739c661d409c29add0a55c79136b33a08988a4a46467e6a",
+      "bytes": 7473
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/CAP_FINAL_SUPPLEMENT.md",
+      "sha256": "714bafd03ea1861dbbde825eb13b589b32cc077aa5acdfd6f7fd6aa5b5515a42",
+      "bytes": 2098
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/latest_summary.json",
+      "sha256": "becb6212dd478cabd7b1cf71f07ce656b53a4eccc767d3b1b981713ff6ea47ba",
+      "bytes": 2537
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/latest_verification.json",
+      "sha256": "ea168e1541d3d9ded1e1b043816ddce74c3c924aba0137fd1559d8cd503a8255",
+      "bytes": 224854
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/effective_inputs.json",
+      "sha256": "84e8676e2f1e2fcf76d1a1e0e6fe33deb1da6d1d43a6e3493ace40c247036cae",
+      "bytes": 1761104
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/cap_final_reference_rebind_v2.json",
+      "sha256": "53a51503e2c1f8b0395d26156c3df52a8129944e102faefdd216c7165259e8a6",
+      "bytes": 467619
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/insulation_subset_extension.json",
+      "sha256": "37b74b8f7e39a8b0e0097e1cb7bdcc3375fefe5c4e1e581d5fe849593aa8fb16",
+      "bytes": 24059
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/static_contact_ledger_v2.json",
+      "sha256": "63b82d7e7c539e002acb8dc5a7576f9018d928cabf810c9e3f1194f98e24fa8b",
+      "bytes": 459631
+    },
+    {
+      "path": "work/r22-compact-power/mechanics/motion_delta/individual_pin_wire_check.json",
+      "sha256": "fb3b45c84035c6c62c56b25486342b24233eaa20e4fb5289ef8e1ad9fdd302b4",
+      "bytes": 17673
+    }
+  ]
+}

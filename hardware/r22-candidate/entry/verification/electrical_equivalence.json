@@ -1,0 +1,95 @@
+{
+  "footprints": 58,
+  "numbered_copper_pad_instances": 200,
+  "schematic_physical_pins": 159,
+  "native_pad_net_multiset_equal": true,
+  "schematic_pin_net_map_equal": true,
+  "unchanged_MPN_count": 53,
+  "all_values_and_all_IC_MPN_identical": true,
+  "explicit_connector_MPN_substitutions": [
+    {
+      "ref": "J3",
+      "source_MPN": "SM02B-SRSS-TB(LF)(SN)",
+      "r22_MPN": "BM02B-SRSS-TB(LF)(SN)",
+      "reason": "Host clearance requires top-entry; same SH-family SHR housing/SSH contact, all pin/net functions retained"
+    },
+    {
+      "ref": "J5",
+      "source_MPN": "SM08B-SRSS-TB(LF)(SN)",
+      "r22_MPN": "BM08B-SRSS-TB(LF)(SN)",
+      "reason": "Host clearance requires top-entry; same SH-family SHR housing/SSH contact, all pin/net functions retained"
+    },
+    {
+      "ref": "J6",
+      "source_MPN": "SM03B-SRSS-TB(LF)(SN)",
+      "r22_MPN": "BM03B-SRSS-TB(LF)(SN)",
+      "reason": "Host clearance requires top-entry; same SH-family SHR housing/SSH contact, all pin/net functions retained"
+    },
+    {
+      "ref": "J7",
+      "source_MPN": "SM03B-SRSS-TB(LF)(SN)",
+      "r22_MPN": "BM03B-SRSS-TB(LF)(SN)",
+      "reason": "Host clearance requires top-entry; same SH-family SHR housing/SSH contact, all pin/net functions retained"
+    },
+    {
+      "ref": "J8",
+      "source_MPN": "SM05B-SRSS-TB(LF)(SN)",
+      "r22_MPN": "BM05B-SRSS-TB(LF)(SN)",
+      "reason": "Host clearance requires top-entry; same SH-family SHR housing/SSH contact, all pin/net functions retained"
+    }
+  ],
+  "schematic_change_limited_to_seven_footprint_properties_and_five_connector_MPN_properties": true,
+  "footprint_changes": [
+    {
+      "ref": "J3",
+      "source_footprint": "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",
+      "new_footprint": "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+      "reason": "JST BM top-entry manufacturer package, physical pin numbering retained"
+    },
+    {
+      "ref": "J5",
+      "source_footprint": "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal",
+      "new_footprint": "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical",
+      "reason": "JST BM top-entry manufacturer package, physical pin numbering retained"
+    },
+    {
+      "ref": "J6",
+      "source_footprint": "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal",
+      "new_footprint": "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical",
+      "reason": "JST BM top-entry manufacturer package, physical pin numbering retained"
+    },
+    {
+      "ref": "J7",
+      "source_footprint": "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal",
+      "new_footprint": "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical",
+      "reason": "JST BM top-entry manufacturer package, physical pin numbering retained"
+    },
+    {
+      "ref": "J8",
+      "source_footprint": "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal",
+      "new_footprint": "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical",
+      "reason": "JST BM top-entry manufacturer package, physical pin numbering retained"
+    },
+    {
+      "ref": "U1",
+      "source_footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+      "new_footprint": "Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30",
+      "reason": "TI DGS0010A official 1.45x0.30mm pad,4.4mm row span; physical package/MPN/pin numbering retained"
+    },
+    {
+      "ref": "U2",
+      "source_footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+      "new_footprint": "Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30",
+      "reason": "TI DGS0010A official 1.45x0.30mm pad,4.4mm row span; physical package/MPN/pin numbering retained"
+    }
+  ],
+  "logic_connectors": 8,
+  "power_wire_joints": 8,
+  "shunt": "WSL27262L000FEA;2mOhm;4 terminals",
+  "logic_fuse": "0448002.MR;2A",
+  "module": "LMZM33603RLRR;5.10V;3A maximum IC rating",
+  "load_budget": "2.7A design load;3A budget ceiling;no physical load or temperature validation",
+  "pcb_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+  "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+  "source_schematic_sha256": "706ad3ca2b3a332714a78366f6962d1604a7eb739af1dabbcde82db034ddddc1"
+}

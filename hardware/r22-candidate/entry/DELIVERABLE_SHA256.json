@@ -1,0 +1,461 @@
+{
+  "status": "Review deliverables only; generated cache and exploratory history excluded",
+  "file_count": 91,
+  "files": [
+    {
+      "path": "Board_Interface_R22_Entry.json",
+      "bytes": 75211,
+      "sha256": "a64fdeb48b861481143fe53e1b974b756e21f5c53ef7973fccf2ebc3639683ee"
+    },
+    {
+      "path": "Microduck_Entry_5V_R22.kicad_dru",
+      "bytes": 391,
+      "sha256": "f2cd3c5124d8d0e283d2e22f7cccc32c747fcd4ccd69f17df78eb137ff3881cc"
+    },
+    {
+      "path": "Microduck_Entry_5V_R22.kicad_pcb",
+      "bytes": 1601630,
+      "sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95"
+    },
+    {
+      "path": "Microduck_Entry_5V_R22.kicad_pro",
+      "bytes": 9793,
+      "sha256": "c2f615966e710d3664558da1e6f1c1eea0c9c15ded100b78f915ffbc54015192"
+    },
+    {
+      "path": "Microduck_Entry_5V_R22.kicad_sch",
+      "bytes": 126893,
+      "sha256": "9117d37ccfbd65d0a05164ddcfb83787ff16cfa0dc7cca9e966919ad243f4068"
+    },
+    {
+      "path": "Microduck_Entry_R8.kicad_sym",
+      "bytes": 18709,
+      "sha256": "1f1e3e2e0d337164b3665dd22cc58f13a6ce8485614a51761447ca42658eae78"
+    },
+    {
+      "path": "README_R22_Entry.md",
+      "bytes": 8185,
+      "sha256": "0aa3441fd3842d08d3d4148768ea02576bd8cf8a7ec0a6694e03630bdadb3eae"
+    },
+    {
+      "path": "apply_routes.py",
+      "bytes": 3569,
+      "sha256": "b71698aabac0a16fa704dff12b3b803d724f19192f8a468c57a0b140383005e1"
+    },
+    {
+      "path": "assembly/BOM_R22_Entry.csv",
+      "bytes": 7884,
+      "sha256": "5c740e130c34790174bbd21ac769c143c1712dd156d29ae71e5bccb913500412"
+    },
+    {
+      "path": "assembly/Pin_to_Net_R22_Entry.csv",
+      "bytes": 2295,
+      "sha256": "f25cc8c8293cfb70077d5e8007b1083dd329ed4092890dae727390d51902fa94"
+    },
+    {
+      "path": "build_entry.py",
+      "bytes": 9010,
+      "sha256": "07d3cbb5261e22c898b5e4fb5b074b6f9599f219cf26583b88f897ccdfe6d2fa"
+    },
+    {
+      "path": "export_dc_geometry.py",
+      "bytes": 2544,
+      "sha256": "10eb77d3bbf1e8eb38a4d16f80c18b63b34f02c2b5b0cde4bb1ab9b0a627bad7"
+    },
+    {
+      "path": "export_interface.py",
+      "bytes": 5988,
+      "sha256": "468abcd4dc03b1e2e78365cfe9b99697f2866c8fb6211fefccd245b1dde446b9"
+    },
+    {
+      "path": "final_power_report.py",
+      "bytes": 5190,
+      "sha256": "2bb16f9e0f3e7a0880b8e269dbea99fe9839dcc574a346bc8204afbbd7f4c58d"
+    },
+    {
+      "path": "finalize_labels.py",
+      "bytes": 850,
+      "sha256": "052a76c74710ac73f8c41c91211a3d3c6c81f8f36c91e7e9ac4efea5a6af4e48"
+    },
+    {
+      "path": "finalize_manifest.py",
+      "bytes": 4048,
+      "sha256": "d25f8b01eab9b334b178eb9b04ecea2341ef2bbb963b202733c554bc135a4643"
+    },
+    {
+      "path": "footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "bytes": 1928,
+      "sha256": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405"
+    },
+    {
+      "path": "footprints/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+      "bytes": 2030,
+      "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+    },
+    {
+      "path": "footprints/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "bytes": 1936,
+      "sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f"
+    },
+    {
+      "path": "footprints/Capacitor_THT.pretty/CP_Radial_D6.3mm_P2.50mm.kicad_mod",
+      "bytes": 18300,
+      "sha256": "e81a44655d3a9e86e6745c01be07bb025069d56a88e72074fba35f4b042e25e0"
+    },
+    {
+      "path": "footprints/Capacitor_THT.pretty/CP_Radial_D8.0mm_P3.50mm.kicad_mod",
+      "bytes": 20822,
+      "sha256": "e7256cc327aa5d1bc5410a487248fa9b5e3d25153b2315201d5da5108cb49580"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.kicad_mod",
+      "bytes": 5140,
+      "sha256": "81561c239d2643e9e8e21ce7c280dd60fbd994ea06f6b26ad31637ef5a17d259"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.kicad_mod",
+      "bytes": 5389,
+      "sha256": "68c2fd25436efe41ba7868898c2dc2a1adc5d4975a915d31ea60e609d8d24284"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical.kicad_mod",
+      "bytes": 5894,
+      "sha256": "fd9246c0b5e995d132c4edbd2238e0356ba6f37a726147fb2dd550211d17bb34"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical.kicad_mod",
+      "bytes": 6660,
+      "sha256": "69ba7bffb24fa75fdf18a22f9f3ef36a143feb5e73bc87aa1821282684b54a30"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal.kicad_mod",
+      "bytes": 4969,
+      "sha256": "9990af7ee96e3d1c8a5c4d4f522e102048830449531e45bf5789d4c640bf2553"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.kicad_mod",
+      "bytes": 5086,
+      "sha256": "d158bf48fe4176444468de6a26a694f8c7e3756db6c7416e4cbc03f8372eda9c"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal.kicad_mod",
+      "bytes": 5327,
+      "sha256": "22e7d2c00d937d424a03ed2d4ecb415aece56e5f1fa150e772bf721794450719"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.kicad_mod",
+      "bytes": 5697,
+      "sha256": "e9040746c909918d7fa28e056a92b8f8f066717a1dcb493a92768be7c5c1645a"
+    },
+    {
+      "path": "footprints/Connector_JST.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod",
+      "bytes": 5943,
+      "sha256": "722ee628302edc008d93a3b20cb4e8f597dcc85c5e7c185fc85ebeb32817bbc5"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/CSD18540Q5B_DNK.kicad_mod",
+      "bytes": 6313,
+      "sha256": "ecf11f7974d62573dab101ac39e187afcc443a78a699c2a97e6792b882a3db43"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/Fuse_Littelfuse_448.kicad_mod",
+      "bytes": 3331,
+      "sha256": "b1244b8c50f43f580292c7af416cfcf6d17488da3003023a650c4f1e3ce3e466"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/LMZM33603_RLR.kicad_mod",
+      "bytes": 20931,
+      "sha256": "817ecaf340baeebe9e4c20079f7ca379c7150ffc99c7215ff205ce2a9f2cfdce"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/TDK_i7C_P03.kicad_mod",
+      "bytes": 4223,
+      "sha256": "926798e8d989f122ba09fedb0674ecbfb0746dd7221e34f2c6d046e6156c8dce"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/TI_DGS0010A_Manufacturer_1p45x0p30.kicad_mod",
+      "bytes": 7331,
+      "sha256": "f146990d1038172553483e1b558ca46b473cd9e2385169fe7b31027751b55b91"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/TPS2117_DRL.kicad_mod",
+      "bytes": 3628,
+      "sha256": "790dbb303917876572f5aa85b96416ef2afc553b3500634d1976b251de82d391"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/WSL2726_Kelvin.kicad_mod",
+      "bytes": 3093,
+      "sha256": "ea572cc43cbe0b55b6ee433f782c90d673719df4361e8df34f3141c0475ef9cf"
+    },
+    {
+      "path": "footprints/Microduck_Entry_R8.pretty/WirePad_2p4mm_6mm.kicad_mod",
+      "bytes": 2694,
+      "sha256": "9a3bd676a485b5fb6a2e8b6ed0e824c0b08d47a0982a516f7d28a849947a0a11"
+    },
+    {
+      "path": "footprints/MountingHole.pretty/MountingHole_2.2mm_M2.kicad_mod",
+      "bytes": 1287,
+      "sha256": "1b38bd9b2279c528f6e6bd4cf43f4aea04facae04f4afb1649dae640330a7178"
+    },
+    {
+      "path": "footprints/Package_SO.pretty/MSOP-10_3x3mm_P0.5mm.kicad_mod",
+      "bytes": 4814,
+      "sha256": "c179dbee33613027667b07b4dba02648f193fc65f63616c9d73d6f1162c6bb9d"
+    },
+    {
+      "path": "footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "bytes": 1943,
+      "sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23"
+    },
+    {
+      "path": "fp-lib-table",
+      "bytes": 979,
+      "sha256": "354ab9c9b213de8c7d858d3eac447152fc84341cb8f413d0023aa957414b9489"
+    },
+    {
+      "path": "inspect_copper.py",
+      "bytes": 1146,
+      "sha256": "f1f05b7c2b4de76e13cf2f747d6a8308e8310c11b763301b2630e3f555e29d7d"
+    },
+    {
+      "path": "make_validation_copies.py",
+      "bytes": 1300,
+      "sha256": "0fcbc27b8c4404751e67694df5b6eeb9f64091ed86847765e6bf1a5dff189230"
+    },
+    {
+      "path": "power_audit.py",
+      "bytes": 7175,
+      "sha256": "9dd8819045d5393c787f2636e4386135120706f13e18e7ef33c349ac1de05efc"
+    },
+    {
+      "path": "preview/Entry_R22_Bottom.png",
+      "bytes": 64410,
+      "sha256": "7ec7068081612450e88fac7efa0f5779df84e24af81d6af47f41a9b24b303467"
+    },
+    {
+      "path": "preview/Entry_R22_Bottom.svg",
+      "bytes": 304480,
+      "sha256": "67d1dfee940259113cfffe337948a9d1c3001aa2419d9a00ad0eb8240e0803bc"
+    },
+    {
+      "path": "preview/Entry_R22_PCB.pdf",
+      "bytes": 607905,
+      "sha256": "6da923497caaa163de5f5e88bc10f9cf8c77c9445741a78d8f71ccb8cf71e4ee"
+    },
+    {
+      "path": "preview/Entry_R22_Schematic.pdf",
+      "bytes": 215219,
+      "sha256": "05dcfbc84524be1d2bf7ce44061058e246e4b75d247b4c83632b0cfc37c2cab2"
+    },
+    {
+      "path": "preview/Entry_R22_Top.png",
+      "bytes": 77645,
+      "sha256": "00d539d9eecb637fe8f6204269d2d422ef5c96e61705fa9283b70ae4fa0e30f6"
+    },
+    {
+      "path": "preview/Entry_R22_Top.svg",
+      "bytes": 365975,
+      "sha256": "ea33f55d084aa6c9f355e17b289f4c9973b588030abc1756164aef76e06af056"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-B_Cu.svg",
+      "bytes": 263164,
+      "sha256": "5353f660832c11496b07e85e092ee6395520b0d63eaef48d637d324fe3bb1a4b"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-B_Fab.svg",
+      "bytes": 41653,
+      "sha256": "f5c67d25f0a28046417109f5bdc5dae1f09d4cc473b09839131a724a59ab1e9b"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-F_Cu.svg",
+      "bytes": 294557,
+      "sha256": "0797bad6fba17160151576b7e1efce5f1d835102707a45aec833527d8b871a2b"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-F_Fab.svg",
+      "bytes": 45079,
+      "sha256": "903778d8c0ff39f0108729eb583fe2d74d4e1f1612d5636378a528d02c2902dd"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-In1_Cu.svg",
+      "bytes": 83924,
+      "sha256": "6f5fb1726b5dc700210a47cc601f7ac7747ccd515ee50a16a67e69017ee38e29"
+    },
+    {
+      "path": "preview/layers/Microduck_Entry_5V_R22-In2_Cu.svg",
+      "bytes": 173253,
+      "sha256": "75be56d16a633c53958a9d7fa79a49c32b9e10bc8048524bc354800b9cf887dd"
+    },
+    {
+      "path": "preview/schematic/Microduck_Entry_5V_R22.svg",
+      "bytes": 1508215,
+      "sha256": "14aedb3ef62395808d4b353f836f05dafd47b57b9b33ad7fde22328521cc9569"
+    },
+    {
+      "path": "routes.json",
+      "bytes": 448314,
+      "sha256": "7d95a5c47b805e70474ae5b8fd94d27f9f1357d8ff49535e3d0b40982ae3b26a"
+    },
+    {
+      "path": "solve_dc_copper.py",
+      "bytes": 5442,
+      "sha256": "4833fc46f93a744ff7294e048d308dbe9e7cfd45ff9eda929ee659871823d52f"
+    },
+    {
+      "path": "sym-lib-table",
+      "bytes": 162,
+      "sha256": "d2e29d224f005e47bf00373e17e81bf900a5795b8b09720a36257e0b6ff27e6c"
+    },
+    {
+      "path": "validate_dc_solver.py",
+      "bytes": 1388,
+      "sha256": "eec720010f2200c7b883879c264dfe229db5700e02e1c2aae14bdb7471e98f23"
+    },
+    {
+      "path": "verification/DC_New_vs_Source_Final.json",
+      "bytes": 11642,
+      "sha256": "fc6d87aefed793204a8289707c839bea80ab130be038e9d6e8d0064d473fc19f"
+    },
+    {
+      "path": "verification/DRC_all_rules_enabled.json",
+      "bytes": 381,
+      "sha256": "a118261030b7798dc35852834c8e89ea72ea601e40b9db153efae7f99877e454"
+    },
+    {
+      "path": "verification/DRC_fabrication_rules.json",
+      "bytes": 381,
+      "sha256": "fe304809cd62184040de6b2756af9c960e541d19f73906ff9c72526cf19adaaa"
+    },
+    {
+      "path": "verification/DRC_nominal_0p20.json",
+      "bytes": 3778,
+      "sha256": "c0e45664361c7c9719c800d08362607ce21263e8ef3efa00d4651ccdfdb35043"
+    },
+    {
+      "path": "verification/DRC_original_rules.json",
+      "bytes": 1079,
+      "sha256": "ef4888f6d160b58a6c9238ea969c0c96dd5d1b6e8409fb58617ce5c706ff821d"
+    },
+    {
+      "path": "verification/ERC.json",
+      "bytes": 995,
+      "sha256": "985763eddc9b57f51b917bc357c50ea4d4f27eec660138bff467f05eb20aa36c"
+    },
+    {
+      "path": "verification/FINAL_VALIDATION.json",
+      "bytes": 3774,
+      "sha256": "b8a824b795a7d989a9c3a40b8db06f27b483b61cb8d1e8474c30270de8c4f9d6"
+    },
+    {
+      "path": "verification/JST_SH_BM_3.png",
+      "bytes": 164582,
+      "sha256": "ab1f2657c810a22c4bd575309c65f5d514517f7c6f7d3dc175d4e2ea934f23dc"
+    },
+    {
+      "path": "verification/JST_SH_BM_4.png",
+      "bytes": 80493,
+      "sha256": "eb4b7fa5a4bf770e06ff55be7d77368ffeb521f4449e65a3621e9bfd2f202989"
+    },
+    {
+      "path": "verification/ads1115_DGS_land.png",
+      "bytes": 69933,
+      "sha256": "245b2e3bcabdecdfa2ba87d98e7bbbd81628463eca83ece14cc461f6a9109f3d"
+    },
+    {
+      "path": "verification/copper_polygons.json",
+      "bytes": 834079,
+      "sha256": "30a2320dfee2076848f6c3f126876efca9e11384a9247c8cb2b97b610b894059"
+    },
+    {
+      "path": "verification/dc_sheet_r22_0.075.json",
+      "bytes": 2947,
+      "sha256": "9f8b5190e5f9205d25bc20219e98b811e69d871b09e82bcf462b0335e4df7638"
+    },
+    {
+      "path": "verification/dc_sheet_r22_0.1.json",
+      "bytes": 2921,
+      "sha256": "881520cb5fb8a77ea0ef93821dcce6cef0b8c91d278fd99519107d882dc41c59"
+    },
+    {
+      "path": "verification/dc_sheet_r22_fine_power.json",
+      "bytes": 3687,
+      "sha256": "9efb66350e45b6e6c1c638b5e9cab8fa8ee1a88142f6ec0bf39aa16acdbc33a5"
+    },
+    {
+      "path": "verification/dc_sheet_source_0.075.json",
+      "bytes": 2788,
+      "sha256": "96d92c1cf4249a037ae008076c5e41c69b7fbdb422c6b64765b6f81f116413a8"
+    },
+    {
+      "path": "verification/dc_sheet_source_0.1.json",
+      "bytes": 2769,
+      "sha256": "4310df7c2de1d014d2d1701020c31e07e1058b63097ea0285486001ca97e3ae2"
+    },
+    {
+      "path": "verification/dc_sheet_source_fine_power.json",
+      "bytes": 3499,
+      "sha256": "2e1e1fb32a3a6de6732b9d77cbc7189e9106d2110efbc3cf824d1f898ee04405"
+    },
+    {
+      "path": "verification/dc_solver_analytic_checks.json",
+      "bytes": 1752,
+      "sha256": "bc0e6aecd82e3ac159dbbd347e3c7c74fb57b7c787a793ff9fffd97afb884827"
+    },
+    {
+      "path": "verification/electrical_equivalence.json",
+      "bytes": 4278,
+      "sha256": "ff630ce982727440777abd3c5690dc5f9c62b8b8e837b9e15684f15aae9f9532"
+    },
+    {
+      "path": "verification/full_rule_promotions.json",
+      "bytes": 154,
+      "sha256": "02f01f28f251bf4c25eb1377d58bef2b467d63f3940cea9c97cbff34119fafeb"
+    },
+    {
+      "path": "verification/ina226_DGS_land.png",
+      "bytes": 69933,
+      "sha256": "245b2e3bcabdecdfa2ba87d98e7bbbd81628463eca83ece14cc461f6a9109f3d"
+    },
+    {
+      "path": "verification/native_geometry_binding.json",
+      "bytes": 426,
+      "sha256": "b80efcc2fd051ab655e55b90ef93a22224cf637b2886fdfb5a3bc63b81c7113c"
+    },
+    {
+      "path": "verification/new_schematic.xml",
+      "bytes": 83546,
+      "sha256": "9f59dcba7d81e0cc003fd1a39093b0c63b4fb3e4aeedde0d3030a34dbb343096"
+    },
+    {
+      "path": "verification/pin_equivalence.csv",
+      "bytes": 4365,
+      "sha256": "13521eee1aba0420194a7e45554c92d2723d5e603aab71b988fe8aa838274c54"
+    },
+    {
+      "path": "verification/power_copper_thermal_audit.json",
+      "bytes": 9087,
+      "sha256": "e4eeef33301d082da40d791e9707e7b44de1469d5cc0e351a576da6732a75169"
+    },
+    {
+      "path": "verification/r22_dc_geometry.json",
+      "bytes": 1031588,
+      "sha256": "876aa0a81a186797ca0b253b5fe61861636d1f1ca0ba8b3e93f4a89ea84daf59"
+    },
+    {
+      "path": "verification/source_dc_geometry.json",
+      "bytes": 388228,
+      "sha256": "0ff64738625b7b54abeb3f78492d696d661df4ca17de71abb8899ca44c25bf4d"
+    },
+    {
+      "path": "verification/source_schematic.xml",
+      "bytes": 83374,
+      "sha256": "d5ea8e3fc90a65c30415e8a303eeb9ba5235c62ab50b9c0b9d8e0864dd5ecd7c"
+    },
+    {
+      "path": "verify_electrical.py",
+      "bytes": 4675,
+      "sha256": "4097a6c938d38458205628f82ddda0a73cac78bc189456077ec7bd9dadd290ae"
+    }
+  ]
+}

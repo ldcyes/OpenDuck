@@ -1,0 +1,15 @@
+{
+  "status": "ARCHIVED_BYTES_MATCH_PREVIOUS_EVIDENCE",
+  "aliases": [
+    {
+      "original_path": "work/r22-compact-power/mechanics/build_power_reference.py",
+      "expected_sha256": "644e7d8541e6e3c42f558c5071f7edb3be56a1601914df84a9176f65ded51c6c",
+      "immutable_archive_path": "work/r22-compact-power/mechanics/insulation_v2/build_power_reference_before.py"
+    },
+    {
+      "original_path": "work/r22-compact-power/mechanics/power_reference/manifest.json",
+      "expected_sha256": "612a15a2394c84935b16dd31304271c12e32edfb5e04c88ccafd4b27f1c81230",
+      "immutable_archive_path": "work/r22-compact-power/mechanics/insulation_v2/manifest_before.json"
+    }
+  ]
+}

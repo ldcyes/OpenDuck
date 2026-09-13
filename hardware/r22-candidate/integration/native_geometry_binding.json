@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "boards": [
+    {
+      "board": "entry",
+      "status": "ALL_NATIVE_COMPONENT_PAD_DRILL_FAB_AND_EDGE_GEOMETRY_EQUAL",
+      "components": 58,
+      "frozen_pcb_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+      "old_reference_pcb_sha256": "073d7c7e94d3889ba126b803cd0392fe9b423c545e2ebe8f821393f5933c204d",
+      "order_changes_ignored": true,
+      "sources": {
+        "work/r22-compact-power/mechanics/entry_native_placement.json": "fa2360523fcb67fbd6ef9fa1a2dedb1003be8fa2a26c71534fe88773035273da",
+        "work/r22-compact-power/integration/entry_final_native_geometry.json": "40dba3a1f48cac8afa1cae3f47bb30f6b2222ff2a0a26d958ef83a352564ca06"
+      }
+    },
+    {
+      "board": "power",
+      "status": "ALL_NATIVE_COMPONENT_PAD_DRILL_FAB_AND_EDGE_GEOMETRY_EQUAL",
+      "components": 84,
+      "frozen_pcb_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+      "old_reference_pcb_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+      "order_changes_ignored": true,
+      "sources": {
+        "work/r22-compact-power/mechanics/power_native_placement.json": "99187f55c7f929b49ba1a503202bb25834390489d3ab3ff19205940b66dddf28",
+        "work/r22-compact-power/integration/power_final_native_geometry.json": "99187f55c7f929b49ba1a503202bb25834390489d3ab3ff19205940b66dddf28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "board": "source",
+    "net": "LOGIC_VIN",
+    "from_pins": [
+      "F1.2"
+    ],
+    "to_pins": [
+      "U3.4"
+    ],
+    "nodes": 3376,
+    "solver_info": 0,
+    "R20_mOhm": 8.695178804473048,
+    "R85_mOhm": 10.916362230075688,
+    "source_grid_nodes": 608,
+    "target_grid_nodes": 34,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      24.111,
+      10.214
+    ],
+    "residual_relative": 3.447516364052855e-15,
+    "elapsed_s": 0.02
+  },
+  {
+    "board": "source",
+    "net": "MOBILE_5V",
+    "from_pins": [
+      "U3.8"
+    ],
+    "to_pins": [
+      "U4.6"
+    ],
+    "nodes": 7410,
+    "solver_info": 0,
+    "R20_mOhm": 13.650308989661463,
+    "R85_mOhm": 17.137280421070482,
+    "source_grid_nodes": 560,
+    "target_grid_nodes": 21,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      59.028,
+      15.594
+    ],
+    "residual_relative": 1.1615623424712468e-14,
+    "elapsed_s": 0.03
+  },
+  {
+    "board": "source",
+    "net": "BENCH_5V",
+    "from_pins": [
+      "W5.1"
+    ],
+    "to_pins": [
+      "U4.3"
+    ],
+    "nodes": 5928,
+    "solver_info": 0,
+    "R20_mOhm": 6.121432768171973,
+    "R85_mOhm": 7.685152768801503,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 21,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      31.705,
+      27.669
+    ],
+    "residual_relative": 1.7816699577689764e-15,
+    "elapsed_s": 0.02
+  },
+  {
+    "board": "source",
+    "net": "SYSTEM_5V",
+    "from_pins": [
+      "U4.2",
+      "U4.7"
+    ],
+    "to_pins": [
+      "W7.1"
+    ],
+    "nodes": 6489,
+    "solver_info": 0,
+    "R20_mOhm": 9.989944099970907,
+    "R85_mOhm": 12.541875320308476,
+    "source_grid_nodes": 42,
+    "target_grid_nodes": 4752,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      39.016,
+      25.72
+    ],
+    "residual_relative": 6.534956840246695e-15,
+    "elapsed_s": 0.01
+  },
+  {
+    "board": "source",
+    "net": "GND",
+    "from_pins": [
+      "W8.1"
+    ],
+    "to_pins": [
+      "U3.14",
+      "U3.15",
+      "U3.18"
+    ],
+    "nodes": 462758,
+    "solver_info": 0,
+    "R20_mOhm": 0.43419799923541,
+    "R85_mOhm": 0.5451138781400955,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 618,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      2159.643,
+      2464.163
+    ],
+    "residual_relative": 9.946775185355522e-10,
+    "elapsed_s": 30.36
+  },
+  {
+    "board": "source",
+    "net": "GND",
+    "from_pins": [
+      "W8.1"
+    ],
+    "to_pins": [
+      "W6.1"
+    ],
+    "nodes": 462758,
+    "solver_info": 0,
+    "R20_mOhm": 0.05243595632995705,
+    "R85_mOhm": 0.06583072137444457,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 4752,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      2159.643,
+      2464.163
+    ],
+    "residual_relative": 9.977492835129133e-10,
+    "elapsed_s": 28.8
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "READY",
+  "tag": "r22-compact-power-candidate-20260914",
+  "release_url": "https://github.com/ldcyes/OpenDuck/releases/tag/r22-compact-power-candidate-20260914",
+  "assets": [
+    {
+      "name": "R22-engineering-candidate.zip",
+      "bytes": 185258008,
+      "sha256": "09bf54abb6d6369fae69842fa6c4bdf39a34c81ea19013542304f6da39144723",
+      "source": "work/r22-compact-power/publication/release-assets/R22-engineering-candidate.zip",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-engineering-candidate.zip"
+    },
+    {
+      "name": "R22-PCB-review.zip",
+      "bytes": 5652905,
+      "sha256": "57c8efe625e84066ee054f3c85752acef3f5a4a1862e235abce3675fe4185218",
+      "source": "work/r22-compact-power/publication/release-assets/R22-PCB-review.zip",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-PCB-review.zip"
+    },
+    {
+      "name": "Microduck-R22-static-candidate.blend",
+      "bytes": 80834006,
+      "sha256": "d2159b634c30f0e57b559c43b1989b5372c033d0130aa84ff9faa23db69780b1",
+      "source": "work/r22-compact-power/publication/release-assets/Microduck-R22-static-candidate.blend",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/Microduck-R22-static-candidate.blend"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 284,
+      "sha256": "50cc6e55f390354fd67d8986fe6eec01806a97cd15575e12a1d95a2801130275",
+      "source": "work/r22-compact-power/publication/release-assets/SHA256SUMS.txt",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/SHA256SUMS.txt"
+    }
+  ]
+}

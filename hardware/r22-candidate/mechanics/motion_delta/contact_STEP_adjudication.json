@@ -1,0 +1,66 @@
+{
+  "status": "EXACT_CAPTURED_STEP_ADJUDICATION",
+  "rows": [
+    {
+      "pair_id": 149806,
+      "a": "R22_Power_C101_BODY",
+      "b": "R22_C101_saddle_liner_1_MAX_D13",
+      "mesh_intersection_mm3": 0.026413884893440858,
+      "STEP_intersection_mm3": 0.0,
+      "STEP_gap_mm": 0.0,
+      "elapsed_s": 0.08390242999303155
+    },
+    {
+      "pair_id": 149807,
+      "a": "R22_Power_C101_BODY",
+      "b": "R22_C101_saddle_liner_2_MAX_D13",
+      "mesh_intersection_mm3": 0.02641388489344194,
+      "STEP_intersection_mm3": 0.0,
+      "STEP_gap_mm": 0.0,
+      "elapsed_s": 0.010758085991255939
+    },
+    {
+      "pair_id": 158472,
+      "a": "R22_Power_C101_1_FORMED_LEAD",
+      "b": "R22_Power_C101_1_INSULATION",
+      "mesh_intersection_mm3": 0.0003925925177133674,
+      "STEP_intersection_mm3": 0.0004382898309654975,
+      "STEP_gap_mm": 0.0,
+      "elapsed_s": 0.1144949109875597
+    },
+    {
+      "pair_id": 158535,
+      "a": "R22_Power_C101_2_FORMED_LEAD",
+      "b": "R22_Power_C101_2_INSULATION",
+      "mesh_intersection_mm3": 0.0003925899090816789,
+      "STEP_intersection_mm3": 0.0004382898207500232,
+      "STEP_gap_mm": 0.0,
+      "elapsed_s": 0.10665184300160035
+    },
+    {
+      "pair_id": 158895,
+      "a": "R22_C101_PEEK_front_beam_cradle",
+      "b": "R22_C101_saddle_liner_1_MAX_D13",
+      "mesh_intersection_mm3": 0.02011786067142509,
+      "STEP_intersection_mm3": 0.0,
+      "STEP_gap_mm": 0.0,
+      "elapsed_s": 0.1175788120017387
+    }
+  ],
+  "sources": {
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_reference/STEP/R22_Power_C101_BODY.step": "17e78221e7a441c4b7e0b7da9ec1e198be061f19e73374a0582a637a98245d88",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_cap_mount/STEP/R22_C101_saddle_liner_1_MAX_D13.step": "368c9bce6afda8c205099f4b6aaf47dfe1b87a55faa8f2a04baf74aff488d730",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_cap_mount/STEP/R22_C101_saddle_liner_2_MAX_D13.step": "c3c29af89c6f3a26a33472275648ef5db8bb0e8414171d2482a25ab877883563",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_reference/STEP/R22_Power_C101_1_FORMED_LEAD.step": "b71453aaf7d4d5e7777c7ce41045fa3c95ffc7bbe65058e3f78f46822398ba6f",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_reference/STEP/R22_Power_C101_1_INSULATION.step": "93acd47d12bd71b924fce6c7cf16047ca2d3df8bf3731a3e02156afcff3a8ec0",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_reference/STEP/R22_Power_C101_2_FORMED_LEAD.step": "6f81f7d77c5c9a26b142071f1c91112c7b43420ea5399ce477fa2ef0b3d462ab",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_reference/STEP/R22_Power_C101_2_INSULATION.step": "cef9f8eeed00db9cac3588072b3868cc2be3f6e5e490a5c0433af83efb89875c",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/power_cap_mount/STEP/R22_C101_PEEK_front_beam_cradle.step": "c0d51d1f5639f593eb54ce765ee4e807935cab5f2eff4063fc58fe4c7d81c348"
+  },
+  "inputs_sha256": "6ad6f6453c802809d5b3e2ec5884e1f5f75da114c034d14d016b8fb45022cfbe",
+  "checker_sha256": "42102585e17d7f12a2e95e255334b23fbab2585af6f2e7e825c892dc806e99d2",
+  "limits": [
+    "Nominal BRep geometry only; zero volume contact does not qualify compression, tolerance or strength.",
+    "This adjudication supplements the triangulation report; the raw mesh evidence remains preserved."
+  ]
+}

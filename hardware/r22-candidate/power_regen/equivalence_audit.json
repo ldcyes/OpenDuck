@@ -1,0 +1,1426 @@
+{
+  "source_to_merged_components_checked": 84,
+  "actual_numbered_pad_instances_checked": 292,
+  "component_pin_net_errors": [],
+  "source_file_hashes_checked": 110,
+  "source_hash_changes": [],
+  "footprints": 84,
+  "track_count": 3486,
+  "via_count": 185,
+  "minimum_track_width_mm": 0.2,
+  "tracks_below_0p2mm": 0,
+  "zones": [
+    {
+      "layer": "F.Cu",
+      "net": "GND",
+      "clearance_mm": 0.2
+    },
+    {
+      "layer": "B.Cu",
+      "net": "GND",
+      "clearance_mm": 0.2
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "clearance_mm": 0.2
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "GND",
+      "clearance_mm": 0.2
+    }
+  ],
+  "footprint_change_allowlist": [
+    "C101",
+    "U3",
+    "U4",
+    "U105",
+    "J1"
+  ],
+  "mapping": [
+    {
+      "source_domain": "power",
+      "source_reference": "H2",
+      "new_reference": "H2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "NO PART",
+      "MPN_after": "NO PART",
+      "footprint_before": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_after": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C3",
+      "new_reference": "C3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "EEUFR1E681",
+      "MPN_after": "EEUFR1E681",
+      "footprint_before": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_after": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "RS1",
+      "new_reference": "RS1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "WSL27262L000FEA",
+      "MPN_after": "WSL27262L000FEA",
+      "footprint_before": "Microduck_Power_R8:WSL2726_Kelvin",
+      "footprint_after": "Microduck_Power_R8:WSL2726_Kelvin",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C2",
+      "new_reference": "C2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "EEUFR1E681",
+      "MPN_after": "EEUFR1E681",
+      "footprint_before": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_after": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "W3",
+      "new_reference": "W3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "W4",
+      "new_reference": "W4",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "H1",
+      "new_reference": "H1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "NO PART",
+      "MPN_after": "NO PART",
+      "footprint_before": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_after": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "U1",
+      "new_reference": "U1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "i7C2W020A120V-P03-R",
+      "MPN_after": "i7C2W020A120V-P03-R",
+      "footprint_before": "Microduck_Power_R8:TDK_i7C_P03",
+      "footprint_after": "Microduck_Power_R8:TDK_i7C_P03",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "Q1",
+      "new_reference": "Q1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "CSD18540Q5B",
+      "MPN_after": "CSD18540Q5B",
+      "footprint_before": "Microduck_Power_R8:CSD18540Q5B_DNK",
+      "footprint_after": "Microduck_Power_R8:CSD18540Q5B_DNK",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "Q2",
+      "new_reference": "Q2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "CSD18540Q5B",
+      "MPN_after": "CSD18540Q5B",
+      "footprint_before": "Microduck_Power_R8:CSD18540Q5B_DNK",
+      "footprint_after": "Microduck_Power_R8:CSD18540Q5B_DNK",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "W1",
+      "new_reference": "W1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "H4",
+      "new_reference": "H4",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "NO PART",
+      "MPN_after": "NO PART",
+      "footprint_before": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_after": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "J1",
+      "new_reference": "J1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SM08B-SRSS-TB(LF)(SN)",
+      "MPN_after": "BM08B-SRSS-TB(LF)(SN)",
+      "footprint_before": "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal",
+      "footprint_after": "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical",
+      "footprint_change_basis": "JST same-family BM08 top-entry mechanical correction; 8 pin nets, housing and terminal unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "W2",
+      "new_reference": "W2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Power_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "H3",
+      "new_reference": "H3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "NO PART",
+      "MPN_after": "NO PART",
+      "footprint_before": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_after": "MountingHole:MountingHole_2.2mm_M2",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C1",
+      "new_reference": "C1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "EEUFR1E681",
+      "MPN_after": "EEUFR1E681",
+      "footprint_before": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_after": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "Q3",
+      "new_reference": "Q3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "BSS138",
+      "MPN_after": "BSS138",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R4",
+      "new_reference": "R4",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD078K38L",
+      "MPN_after": "RT0603BRD078K38L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C13",
+      "new_reference": "C13",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C6",
+      "new_reference": "C6",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R5",
+      "new_reference": "R5",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD071KL",
+      "MPN_after": "RT0603BRD071KL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C10",
+      "new_reference": "C10",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C17",
+      "new_reference": "C17",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R11",
+      "new_reference": "R11",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0710RL",
+      "MPN_after": "RT0603BRD0710RL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "U4",
+      "new_reference": "U4",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "INA300AIDGSR",
+      "MPN_after": "INA300AIDGSR",
+      "footprint_before": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+      "footprint_after": "Microduck_R22:TI_DGS0010A_1p45x0p30",
+      "footprint_change_basis": "TI DGS0010A official 1.45 x 0.30mm lands; body/centers unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "U3",
+      "new_reference": "U3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "INA226AIDGSR",
+      "MPN_after": "INA226AIDGSR",
+      "footprint_before": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+      "footprint_after": "Microduck_R22:TI_DGS0010A_1p45x0p30",
+      "footprint_change_basis": "TI DGS0010A official 1.45 x 0.30mm lands; body/centers unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R6",
+      "new_reference": "R6",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1201V",
+      "MPN_after": "ERJ-3EKF1201V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C12",
+      "new_reference": "C12",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R1",
+      "new_reference": "R1",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD072K45L",
+      "MPN_after": "RT0603BRD072K45L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C18",
+      "new_reference": "C18",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "U2",
+      "new_reference": "U2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "LM74800QDRRRQ1",
+      "MPN_after": "LM74800QDRRRQ1",
+      "footprint_before": "Package_SON:WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm",
+      "footprint_after": "Package_SON:WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C14",
+      "new_reference": "C14",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C4",
+      "new_reference": "C4",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C9",
+      "new_reference": "C9",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C7",
+      "new_reference": "C7",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R8",
+      "new_reference": "R8",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1003V",
+      "MPN_after": "ERJ-3EKF1003V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C16",
+      "new_reference": "C16",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R7",
+      "new_reference": "R7",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1003V",
+      "MPN_after": "ERJ-3EKF1003V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C5",
+      "new_reference": "C5",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R9",
+      "new_reference": "R9",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD071K1L",
+      "MPN_after": "RT0603BRD071K1L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C19",
+      "new_reference": "C19",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71H106KA12L",
+      "MPN_after": "GRM32ER71H106KA12L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C11",
+      "new_reference": "C11",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C8",
+      "new_reference": "C8",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "C15",
+      "new_reference": "C15",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R3",
+      "new_reference": "R3",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1001V",
+      "MPN_after": "ERJ-3EKF1001V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R10",
+      "new_reference": "R10",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0710RL",
+      "MPN_after": "RT0603BRD0710RL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "power",
+      "source_reference": "R2",
+      "new_reference": "R2",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0717K4L",
+      "MPN_after": "RT0603BRD0717K4L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "P5",
+      "new_reference": "P105",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG28 PIGTAIL",
+      "MPN_after": "SOLDER AWG28 PIGTAIL",
+      "footprint_before": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_after": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "H3",
+      "new_reference": null,
+      "action": "merged board uses original power mounting holes"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "H1",
+      "new_reference": null,
+      "action": "merged board uses original power mounting holes"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C1",
+      "new_reference": "C101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "EEUFR1C222",
+      "MPN_after": "EEUFR1C222",
+      "footprint_before": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+      "footprint_after": "Microduck_R22:CP_EEUFR1C222_Horizontal_Clip",
+      "footprint_change_basis": "C101 formed leads and horizontal clipped same full body"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "P2",
+      "new_reference": "P102",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG28 PIGTAIL",
+      "MPN_after": "SOLDER AWG28 PIGTAIL",
+      "footprint_before": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_after": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "RS1",
+      "new_reference": "RS101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "WSL27262L000FEA",
+      "MPN_after": "WSL27262L000FEA",
+      "footprint_before": "Microduck_Brake_R8:WSL2726_Kelvin",
+      "footprint_after": "Microduck_Brake_R8:WSL2726_Kelvin",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "Q1",
+      "new_reference": "Q101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "CSD18540Q5B",
+      "MPN_after": "CSD18540Q5B",
+      "footprint_before": "Microduck_Brake_R8:CSD18540Q5B_DNK",
+      "footprint_after": "Microduck_Brake_R8:CSD18540Q5B_DNK",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "W4",
+      "new_reference": "W104",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Brake_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Brake_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C11",
+      "new_reference": "C111",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71E226KE15L",
+      "MPN_after": "GRM32ER71E226KE15L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "W3",
+      "new_reference": "W103",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG16",
+      "MPN_after": "SOLDER AWG16",
+      "footprint_before": "Microduck_Brake_R8:WirePad_2p4mm_6mm",
+      "footprint_after": "Microduck_Brake_R8:WirePad_2p4mm_6mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "H2",
+      "new_reference": null,
+      "action": "merged board uses original power mounting holes"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C10",
+      "new_reference": "C110",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71E226KE15L",
+      "MPN_after": "GRM32ER71E226KE15L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C12",
+      "new_reference": "C112",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM32ER71E226KE15L",
+      "MPN_after": "GRM32ER71E226KE15L",
+      "footprint_before": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_after": "Capacitor_SMD:C_1210_3225Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "P3",
+      "new_reference": "P103",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG28 PIGTAIL",
+      "MPN_after": "SOLDER AWG28 PIGTAIL",
+      "footprint_before": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_after": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "P1",
+      "new_reference": "P101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG28 PIGTAIL",
+      "MPN_after": "SOLDER AWG28 PIGTAIL",
+      "footprint_before": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_after": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "W2",
+      "new_reference": null,
+      "action": "duplicate input GND replaced by same-board copper"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "H4",
+      "new_reference": null,
+      "action": "merged board uses original power mounting holes"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "P4",
+      "new_reference": "P104",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "SOLDER AWG28 PIGTAIL",
+      "MPN_after": "SOLDER AWG28 PIGTAIL",
+      "footprint_before": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_after": "Microduck_Brake_R8:WireSignal_0p5mm",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "W1",
+      "new_reference": null,
+      "action": "duplicate input SERVO_BUS replaced by same-board copper"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R4",
+      "new_reference": "R104",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF4R7V",
+      "MPN_after": "ERJ-3EKF4R7V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C4",
+      "new_reference": "C104",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R9",
+      "new_reference": "R109",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0710RL",
+      "MPN_after": "RT0603BRD0710RL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "U2",
+      "new_reference": "U102",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "REF3312AIDBZR",
+      "MPN_after": "REF3312AIDBZR",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R5",
+      "new_reference": "R105",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF2R2V",
+      "MPN_after": "ERJ-3EKF2R2V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C5",
+      "new_reference": "C105",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R3",
+      "new_reference": "R103",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD072M2L",
+      "MPN_after": "RT0603BRD072M2L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C7",
+      "new_reference": "C107",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R6",
+      "new_reference": "R106",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1003V",
+      "MPN_after": "ERJ-3EKF1003V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C3",
+      "new_reference": "C103",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C8",
+      "new_reference": "C108",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "U3",
+      "new_reference": "U103",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "TLV3201AIDBVR",
+      "MPN_after": "TLV3201AIDBVR",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23-5",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23-5",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C9",
+      "new_reference": "C109",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "U4",
+      "new_reference": "U104",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "UCC27511DBVR",
+      "MPN_after": "UCC27511DBVR",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23-6",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23-6",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R7",
+      "new_reference": "R107",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1003V",
+      "MPN_after": "ERJ-3EKF1003V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R8",
+      "new_reference": "R108",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0710RL",
+      "MPN_after": "RT0603BRD0710RL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "U1",
+      "new_reference": "U101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "TLV76050DBZR",
+      "MPN_after": "TLV76050DBZR",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R10",
+      "new_reference": "R110",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "ERJ-3EKF1002V",
+      "MPN_after": "ERJ-3EKF1002V",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C2",
+      "new_reference": "C102",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71H104KA93D",
+      "MPN_after": "GRM188R71H104KA93D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R1",
+      "new_reference": "R101",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0780K6L",
+      "MPN_after": "RT0603BRD0780K6L",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "C6",
+      "new_reference": "C106",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "GRM188R71A105KA61D",
+      "MPN_after": "GRM188R71A105KA61D",
+      "footprint_before": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_after": "Capacitor_SMD:C_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "Q2",
+      "new_reference": "Q102",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "BSS138",
+      "MPN_after": "BSS138",
+      "footprint_before": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_after": "Package_TO_SOT_SMD:SOT-23",
+      "footprint_change_basis": "unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "U5",
+      "new_reference": "U105",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "INA226AIDGSR",
+      "MPN_after": "INA226AIDGSR",
+      "footprint_before": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+      "footprint_after": "Microduck_R22:TI_DGS0010A_1p45x0p30",
+      "footprint_change_basis": "TI DGS0010A official 1.45 x 0.30mm lands; body/centers unchanged"
+    },
+    {
+      "source_domain": "regen",
+      "source_reference": "R2",
+      "new_reference": "R102",
+      "checks": {
+        "value": true,
+        "MPN": true,
+        "pin_to_net": true,
+        "footprint_authorized": true
+      },
+      "MPN_before": "RT0603BRD0710KL",
+      "MPN_after": "RT0603BRD0710KL",
+      "footprint_before": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_after": "Resistor_SMD:R_0603_1608Metric",
+      "footprint_change_basis": "unchanged"
+    }
+  ],
+  "completed_board_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+  "status": "PASS",
+  "physical_acceptance": "NO SAMPLE; thermal, regen transient, low voltage, manufacturing and motion acceptance NOT performed"
+}

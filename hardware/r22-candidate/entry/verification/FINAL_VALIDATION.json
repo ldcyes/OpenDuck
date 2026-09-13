@@ -1,0 +1,129 @@
+{
+  "ERC_violations": 0,
+  "DRC_original_rules": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "DRC_all_rules_enabled": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "DRC_fabrication_rules": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "strict_0p20_local_exceptions": [
+    {
+      "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+      "items": [
+        {
+          "description": "Via [I2C_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 45.3,
+            "y": 7.5
+          },
+          "uuid": "10ed4357-2cd4-4aa6-83e9-e7a088767b88"
+        },
+        {
+          "description": "Track [+3V3] on B.Cu, length 4.2000 mm",
+          "pos": {
+            "x": 43.2,
+            "y": 7.0
+          },
+          "uuid": "b79be0bf-7f28-4b5b-a0a2-dccb3c8fd76b"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+      "items": [
+        {
+          "description": "Via [LOGIC_VIN] on F.Cu - B.Cu",
+          "pos": {
+            "x": 10.6,
+            "y": 23.7
+          },
+          "uuid": "773f04dd-ff54-4f2c-8ab9-1f24fe47358a"
+        },
+        {
+          "description": "Track [RT_5V] on F.Cu, length 2.8500 mm",
+          "pos": {
+            "x": 12.65,
+            "y": 24.2
+          },
+          "uuid": "cfe0fe29-ba39-46a3-9fc3-98fba413e403"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+      "items": [
+        {
+          "description": "Via [LOGIC_VIN] on F.Cu - B.Cu",
+          "pos": {
+            "x": 10.6,
+            "y": 24.7
+          },
+          "uuid": "462ee6dc-9048-4d2d-94be-2e724baa9689"
+        },
+        {
+          "description": "Track [RT_5V] on F.Cu, length 2.8500 mm",
+          "pos": {
+            "x": 12.65,
+            "y": 24.2
+          },
+          "uuid": "cfe0fe29-ba39-46a3-9fc3-98fba413e403"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+      "items": [
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 17.3,
+            "y": 15.5
+          },
+          "uuid": "2f4ff8dd-61e5-4539-a199-6ee3e84aaeae"
+        },
+        {
+          "description": "Track [BAT_MON] on B.Cu, length 1.7000 mm",
+          "pos": {
+            "x": 16.2,
+            "y": 16.0
+          },
+          "uuid": "d8b3cebb-6231-4f7a-8f65-6b57ef9c2e4e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    }
+  ],
+  "status": "FROZEN DESIGN REVIEW CANDIDATE; NOT MANUFACTURING/THERMAL QUALIFIED",
+  "native_pcb_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+  "source_sha256": {
+    "Microduck_Entry_5V_R8.kicad_pcb": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+    "Microduck_Entry_5V_R8.kicad_pro": "c2f615966e710d3664558da1e6f1c1eea0c9c15ded100b78f915ffbc54015192",
+    "Microduck_Entry_5V_R8.kicad_sch": "706ad3ca2b3a332714a78366f6962d1604a7eb739af1dabbcde82db034ddddc1"
+  },
+  "source_pro_unchanged": true,
+  "all_ref_value_and_IC_MPN_retained": true,
+  "all_159_schematic_pins_and_200_numeric_copper_pad_instances_equal": true,
+  "board_mm": [
+    52,
+    42,
+    1.6
+  ],
+  "area_reduction_percent": 25.3333333333333,
+  "physical_tests_performed": false
+}

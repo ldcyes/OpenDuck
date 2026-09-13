@@ -1,0 +1,51 @@
+{
+  "status": "FOUR_SUB_THRESHOLD_MESH_GAPS_ADJUDICATED_AS_NOMINAL_BEARING_CONTACTS",
+  "rows": [
+    {
+      "pair_id": 124134,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H1_washer",
+      "STL_gap_mm": 3.5762786865234375e-07,
+      "STEP_gap_mm": 0.0,
+      "STEP_intersection_mm3": 0.0,
+      "status": "NOMINAL_ZERO_VOLUME_WASHER_TO_PCB_BEARING_CONTACT"
+    },
+    {
+      "pair_id": 124137,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H2_washer",
+      "STL_gap_mm": 3.5762786865234375e-07,
+      "STEP_gap_mm": 0.0,
+      "STEP_intersection_mm3": 0.0,
+      "status": "NOMINAL_ZERO_VOLUME_WASHER_TO_PCB_BEARING_CONTACT"
+    },
+    {
+      "pair_id": 124140,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H3_washer",
+      "STL_gap_mm": 3.5762786865234375e-07,
+      "STEP_gap_mm": 0.0,
+      "STEP_intersection_mm3": 0.0,
+      "status": "NOMINAL_ZERO_VOLUME_WASHER_TO_PCB_BEARING_CONTACT"
+    },
+    {
+      "pair_id": 124143,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H4_washer",
+      "STL_gap_mm": 3.5762786865234375e-07,
+      "STEP_gap_mm": 0.0,
+      "STEP_intersection_mm3": 0.0,
+      "status": "NOMINAL_ZERO_VOLUME_WASHER_TO_PCB_BEARING_CONTACT"
+    }
+  ],
+  "sources": {
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/entry_reference/STEP/R22_Entry_PCB_FINISHED.step": "854d9eabd324cdcc1d3a433d0e114f391ff9a6ae923e3100845d24e07d385604",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/entry_mount/STEP/R22_Entry_H1_washer.step": "231fefb1c2596c39a1e0e2d34544d0fe12739e6c7b394445280393ba4266ddb9",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/entry_mount/STEP/R22_Entry_H2_washer.step": "b82e16727c0b2f4c3e829efd1144e7d0345c19c0892c72b8d59bdae4da9707a6",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/entry_mount/STEP/R22_Entry_H3_washer.step": "754c6f25b4de523fdc127eb100d5e391ebc4ce6dbbaafaa3d8fafeffdc2cf169",
+    "work/r22-compact-power/mechanics/motion_delta/snapshot/entry_mount/STEP/R22_Entry_H4_washer.step": "1f8c37528df6ea10c3c6992038f4b43dac8dee6d5506da549e9e6cf400308cab"
+  },
+  "inputs_sha256": "6ad6f6453c802809d5b3e2ec5884e1f5f75da114c034d14d016b8fb45022cfbe",
+  "original_result_sha256": "06f2250e03ba9dacc1f3274623d2271a3978cfcd83bc593125107cdaa609e589",
+  "checker_sha256": "94ee0648fd5f1d9774e550dc9974c8f050db2e4446e024e4f63701f1e8a1f3ce"
+}

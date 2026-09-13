@@ -1,0 +1,52 @@
+{
+  "status": "EFFECTIVE_R22_DELTA_GEOMETRY_CERTIFIED_OVER_R21_RECORDED_JOINT_ENCLOSURES",
+  "installed_parts": 733,
+  "new_parts": 265,
+  "retained_parts": 468,
+  "service_excluded": 9,
+  "removed_original_parts": 89,
+  "total_delta_pairs": 159000,
+  "dynamic_pairs": 93595,
+  "invariant_pairs": 65405,
+  "intervals": 9773,
+  "duration_s": 195.4417499971064,
+  "target_mm": 2.2,
+  "minimum_certified_dynamic_lower_bound_mm": 2.230402828900228,
+  "global_all_joint_box_target_pairs": 92660,
+  "trajectory_interval_refinement_pairs": 935,
+  "dynamic_groups": {
+    "Entry_involved": 58875,
+    "Power_or_cap_involved": 34720
+  },
+  "dynamic_lower_bound_by_group_mm": {
+    "Entry_involved": 2.286118330160295,
+    "Power_or_cap_involved": 2.230402828900228
+  },
+  "static_positive_pairs": 65088,
+  "named_zero_volume_static_contacts": 256,
+  "named_thread_or_same_representation_pairs": 61,
+  "cap_final_reference_pair_count": 1980,
+  "cap_unclassified_intersections": 0,
+  "exact_calls_initial": 889,
+  "exact_calls_target_refinement": 307,
+  "exact_timeouts": 0,
+  "all_159000_pair_interval_partitions_independently_verified": true,
+  "all_93595_dynamic_target_partitions_independently_verified": true,
+  "source_geometry_hash_checks": 1432,
+  "physical_approved": false,
+  "remaining_unclassified_static_intersections": 0,
+  "individual_pin_pairs": 73,
+  "minimum_individual_pin_AABB_gap_mm": 0.1400890350341797,
+  "insulation_v2_affected_pairs": 1463,
+  "insulation_v2_affected_dynamic_pairs": 746,
+  "current_integration_selection_matches": true,
+  "effective_inputs_sha256": "84e8676e2f1e2fcf76d1a1e0e6fe33deb1da6d1d43a6e3493ace40c247036cae",
+  "limits": [
+    "R21 195.44175s recorded simulation and interval joint enclosures only; changed R22 masses/inertias/controller dynamics are not simulated here.",
+    "Rigid model self-clearance only; no old-old revalidation, ground/external obstacles or actual flexible-harness deformation.",
+    "Whole global joint box proves92660dynamic pairs; remaining935use continuous enclosure of source interval groups, not sampling-only tests.",
+    "The2.2mm goal applies to pairs with relative motion. Fixed assembled contacts, thread representations and small component/lead clearances are explicitly distinct.",
+    "73distinct pin pairs clear at least0.140089mm nominal AABB; cable/manufacturing tolerances and bending variation are not approved.",
+    "No physical manufacturing, electrical insulation, thermal, creep, fatigue or TDK-to-main-body structural mounting qualification."
+  ]
+}

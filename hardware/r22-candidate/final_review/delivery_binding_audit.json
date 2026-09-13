@@ -1,0 +1,97 @@
+{
+  "utc": "2026-09-13T17:18:22.919798+00:00",
+  "assembly_selection_sha256": "d1bb5998201cf7da3a30ae38e3912fb9a57821eda78636d9bd22de3dc1b3a557",
+  "checks": [
+    {
+      "check": "entry_91_delivery_file_hashes",
+      "pass_": true,
+      "files": 91,
+      "mismatches": []
+    },
+    {
+      "check": "power_delivery_file_hashes",
+      "pass_": true,
+      "files": 81,
+      "mismatches": []
+    },
+    {
+      "check": "110_unchanged_authoritative_power_source_files",
+      "pass_": true,
+      "files": 110,
+      "mismatches": []
+    },
+    {
+      "check": "733_installed_reference_items",
+      "pass_": true,
+      "retained": 468,
+      "new": 265,
+      "service_count": 9,
+      "manufacturing_parts_not_implied": true
+    },
+    {
+      "check": "retained_R20_468_exact_rows_unchanged",
+      "pass_": true,
+      "changed_names": []
+    },
+    {
+      "check": "removed_89_and_added_265_scope",
+      "pass_": true
+    },
+    {
+      "check": "service_9_separate_from_installed_count",
+      "pass_": true
+    },
+    {
+      "check": "all_733_plus_9_installed_and_service_assets",
+      "pass_": true,
+      "files": 1249,
+      "mismatches": []
+    },
+    {
+      "check": "assembly_manifest_bound_sources",
+      "pass_": true,
+      "files": 553,
+      "mismatches": []
+    },
+    {
+      "check": "physical_and_manufacturing_not_approved",
+      "pass_": true,
+      "status": "R22_STATIC_INSTALLATION_CANDIDATE_NOT_WALKING_OR_MASS_VALIDATED"
+    },
+    {
+      "check": "mass_review_file_hashes",
+      "pass_": true,
+      "files": 12,
+      "mismatches": []
+    },
+    {
+      "check": "mass_native_copper_source_bindings",
+      "pass_": true,
+      "files": 5,
+      "mismatches": []
+    },
+    {
+      "check": "mass_model_source_binding",
+      "pass_": true,
+      "files": 1,
+      "mismatches": []
+    },
+    {
+      "check": "mass_reports_four_layer_effect_separately",
+      "pass_": true,
+      "entry_bare_delta_g": -1.9491196896273788,
+      "power_bare_delta_g": 1.0123106160124284,
+      "combined_bare_delta_g": -0.9368090736149504,
+      "whole_robot_mass_not_recomputed": true
+    },
+    {
+      "check": "five_board_material_arithmetic",
+      "pass_": true
+    }
+  ],
+  "failed": [],
+  "notes": [
+    "This manifest audit is a snapshot; final motion/packaging binding must be checked after root freezes the integration handoff.",
+    "Area and bare-material scenarios do not establish net whole-robot mass or motion performance."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "status": "CONDITIONAL_MASS_AND_LOAD_BUDGET_NOT_STRENGTH_QUALIFICATION",
+  "accessory_estimated_mass_g": 2.438566928330559,
+  "estimated_added_mass_excludes_capacitor": true,
+  "accessory_center_native_mm": [
+    27.633209629411663,
+    1.373040134192635,
+    4.118570350583851
+  ],
+  "accessory_center_trunk_base_mm": [
+    -29.35407082336789,
+    -3.6222108765888557,
+    73.16739592504389
+  ],
+  "capacitor_mass_budget_g": 8.0,
+  "capacitor_mass_requires_weighing": true,
+  "group_mass_with_assumed_capacitor_g": 10.438566928330559,
+  "group_center_native_mm": [
+    19.484037657881483,
+    -2.3616028815777153,
+    7.936281868739785
+  ],
+  "group_center_trunk_base_mm": [
+    -33.17178234152382,
+    -11.771382848119035,
+    76.90203894081424
+  ],
+  "load_cases": [
+    {
+      "assumed_acceleration_g": 1.0,
+      "total_force_N": 0.10236737236771287,
+      "maximum_arbitrary_direction_moment_at_H1H2_midpoint_Nmm": 1.5802768247711443,
+      "gravity_native_minusY_moment_Nmm": [
+        0.6486285254840732,
+        0.0,
+        1.3324098637997743
+      ]
+    },
+    {
+      "assumed_acceleration_g": 5.0,
+      "total_force_N": 0.5118368618385644,
+      "maximum_arbitrary_direction_moment_at_H1H2_midpoint_Nmm": 7.901384123855721,
+      "gravity_native_minusY_moment_Nmm": [
+        3.243142627420366,
+        0.0,
+        6.662049318998871
+      ]
+    },
+    {
+      "assumed_acceleration_g": 10.0,
+      "total_force_N": 1.0236737236771287,
+      "maximum_arbitrary_direction_moment_at_H1H2_midpoint_Nmm": 15.802768247711443,
+      "gravity_native_minusY_moment_Nmm": [
+        6.486285254840732,
+        0.0,
+        13.324098637997743
+      ]
+    }
+  ],
+  "preload_screen": {
+    "proposed_initial_lacing_tension_sweep_N": [
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "each_loop_nominal_contact_arc_rad": 4.71238898038469,
+    "two_loops_at2N_ideal_integrated_normal_N": 18.84955592153876,
+    "friction_coefficient_required_for2N_pull_at_two2N_loops": 0.1061032953945969,
+    "coefficient_measured_or_guaranteed": false,
+    "proposed_M2_torque_test_Nm": [
+      0.01,
+      0.02
+    ],
+    "friction_factor_K_assumed_range": [
+      0.15,
+      0.3
+    ],
+    "resulting_clamp_force_estimate_range_N": [
+      16.666666666666668,
+      66.66666666666667
+    ],
+    "boss_annular_nominal_area_mm2": 15.833626974092557
+  },
+  "stack_screen": {
+    "nominal_mm": {
+      "PEEK": 4.6,
+      "front_washer": 0.3,
+      "PCB": 1.6,
+      "rear_washer": 0.3,
+      "thin_nut": 1.2
+    },
+    "total_nominal_mm": 8.0,
+    "illustrative_each_tolerance_mm": {
+      "PEEK": 0.05,
+      "front_washer": 0.05,
+      "PCB": 0.1,
+      "rear_washer": 0.05,
+      "thin_nut": 0.05,
+      "screw_length": 0.1
+    },
+    "illustrative_tip_range_beyond_nut_mm": [
+      -0.4,
+      0.4
+    ],
+    "required_measured_effective_engagement_min_mm": 0.9,
+    "required_measured_tip_max_mm": 0.3,
+    "nominal_match_is_not_tolerance_proof": true
+  },
+  "required_physical_tests": [
+    "Weigh capacitor and complete cradle hardware; rerun loads if capacitor>8g or assembly mass above budget.",
+    "Instrumented tension0.5..3N sweep, two-loop axial±2N and single-loop1N pull in each direction without lead load; select lowest successful tension, inspect can sleeve/case and knot.",
+    "Repeat pull after24h75C dwell and thermal cycles; creep/slip must remain≤0.2mm. These are proposed screening criteria, not manufacturer ratings.",
+    "M2 torque0.010..0.020Nm sweep on actual PCB/PEEK/washer/nut lot; retain torque and verify no board crush, crack, creep or looseness.",
+    "Full installed vibration/impact and main PCB-to-host structure remain parent integration work."
+  ],
+  "sources": {
+    "manifest_sha256": "ec27f2dc7fe01d1fd3a5ae357c65b0bafdf56f5cdc996cccab483d1fb06f716b",
+    "geometry_sha256": "1b1496aab249c5fcb8f4eb033a3222448de7120194158b9428c480da49448865"
+  },
+  "limits": [
+    "No friction coefficient, shock load, can mass, knot strength or hot creep performance has been measured.",
+    "Loop tensile strength is never equated to assembled retention.",
+    "Capacitor and source component envelope volume are not treated as material mass."
+  ]
+}

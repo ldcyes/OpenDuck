@@ -1,0 +1,56 @@
+{
+  "source": {
+    "polys": {
+      "independently_read_count": 113,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "pads": {
+      "independently_read_count": 96,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "tracks": {
+      "independently_read_count": 376,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "vias": {
+      "independently_read_count": 89,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    }
+  },
+  "r22": {
+    "polys": {
+      "independently_read_count": 167,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "pads": {
+      "independently_read_count": 96,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "tracks": {
+      "independently_read_count": 543,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    },
+    "vias": {
+      "independently_read_count": 148,
+      "same_native_geometry": true,
+      "missing_in_DC": 0,
+      "extra_in_DC": 0
+    }
+  },
+  "read_entry_native_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+  "read_entry_dc_sha256": "876aa0a81a186797ca0b253b5fe61861636d1f1ca0ba8b3e93f4a89ea84daf59"
+}

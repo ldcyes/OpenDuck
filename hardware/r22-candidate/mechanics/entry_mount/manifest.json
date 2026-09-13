@@ -1,0 +1,1162 @@
+{
+  "status": "ACTUAL_MOUNT_CANDIDATE_PENDING_ASSEMBLY_AND_TOOL_REVIEW",
+  "parts": [
+    {
+      "name": "R22_Entry5V_rigid_frame",
+      "material": "6061-T651",
+      "density_assumption_g_cm3": 2.7,
+      "mass_from_CAD_g": 10.048027304730729,
+      "link": "jaw_soft",
+      "notes": "52x42 Entry support, asymmetric lower H2. M2x0.4 tapped holes, minimum effective thread2.5mm; 3mm frame section, original two M2.5 host holes and mast lower path retained. Structural load not yet tested.",
+      "interfaces": [
+        {
+          "center_mm": [
+            0,
+            -3,
+            262
+          ],
+          "axis_into_material": [
+            0,
+            1,
+            0
+          ],
+          "thread": "M2x0.4 THRU",
+          "tap_drill_mm": 1.6,
+          "effective_thread_min_mm": 2.5
+        },
+        {
+          "center_mm": [
+            20,
+            -3,
+            262
+          ],
+          "axis_into_material": [
+            0,
+            1,
+            0
+          ],
+          "thread": "M2x0.4 THRU",
+          "tap_drill_mm": 1.6,
+          "effective_thread_min_mm": 2.5
+        },
+        {
+          "center_mm": [
+            0,
+            -3,
+            298
+          ],
+          "axis_into_material": [
+            0,
+            1,
+            0
+          ],
+          "thread": "M2x0.4 THRU",
+          "tap_drill_mm": 1.6,
+          "effective_thread_min_mm": 2.5
+        },
+        {
+          "center_mm": [
+            46,
+            -3,
+            298
+          ],
+          "axis_into_material": [
+            0,
+            1,
+            0
+          ],
+          "thread": "M2x0.4 THRU",
+          "tap_drill_mm": 1.6,
+          "effective_thread_min_mm": 2.5
+        }
+      ],
+      "STEP": "STEP_毫米/R22_Entry5V_rigid_frame.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry5V_rigid_frame.stl",
+      "sha256_STEP": "614cda8b43657faaf9b33ba62c86a8eb71b13c27d3e1328767dc16fb7bded0d6",
+      "sha256_STL": "92e7d69fa7295ff7358e2cf4b1673c9a72e884e164d4084c4c1198bd014d74ba",
+      "volume_mm3": 3721.491594344714,
+      "center_mm": [
+        29.469473469109328,
+        -1.590574949442875,
+        269.8335490965059
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          2238291.217521429,
+          8161.943569666066,
+          918642.6109929569
+        ],
+        [
+          8161.943569666066,
+          3786268.132004738,
+          -13955.922775869258
+        ],
+        [
+          918642.6109929569,
+          -13955.922775869258,
+          1572498.1972846445
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -3.0000051,
+          -10.0000051,
+          221.9999949
+        ],
+        [
+          60.0000051,
+          6.0000051,
+          301.0000051
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry5V_rigid_frame.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry5V_rigid_frame.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "replaces_name": "R13_Entry5V_rigid_frame"
+    },
+    {
+      "name": "R22_Entry_H1_PEEK_5mm",
+      "material": "unfilled PEEK",
+      "density_assumption_g_cm3": 1.3,
+      "mass_from_CAD_g": 0.1029185753316017,
+      "link": "jaw_soft",
+      "notes": "5mm spacer between PCB rear and metal frame; max2.7mm rear components leave nominal2.3mm gap where frame overlaps.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H1_PEEK_5mm.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H1_PEEK_5mm.stl",
+      "sha256_STEP": "c9e9afc87962bffc035308b16c197d02e9346f63d2e29a93e05d5dcc2fcf9707",
+      "sha256_STL": "1fbb511b2ec6d72d247b846236a9debcce6e5299cc6c863ddf80d2000953ea07",
+      "volume_mm3": 79.16813487046284,
+      "center_mm": [
+        8.309530933949883e-18,
+        -5.500000000000001,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          312.58218584768474,
+          -7.099748146989106e-30,
+          1.1695463424675689e-14
+        ],
+        [
+          -7.099748146989106e-30,
+          295.29714306630194,
+          -2.9103830456733704e-11
+        ],
+        [
+          1.1695463424675689e-14,
+          -2.9103830456733704e-11,
+          312.5821858468794
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -2.5000001,
+          -8.0000001,
+          259.4999999
+        ],
+        [
+          2.5000001,
+          -2.9999999,
+          264.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H1_PEEK_5mm.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H1_PEEK_5mm.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "hardware_station": "H1"
+    },
+    {
+      "name": "R22_Entry_H1_M2x10",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.42737598140904726,
+      "link": "jaw_soft",
+      "notes": "Nominal shank/head only, socket cavity and thread helix omitted; 3.1mm insertion into 3mm frame yields0.1mm nominal tip. Head underside at-9.9, washer0.3, PCB1.6, PEEK5.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H1_M2x10.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H1_M2x10.stl",
+      "sha256_STEP": "6702bd998a4e64f679e623358997942a843365f358dcc5fe4cb3412761434a5f",
+      "sha256_STL": "2d8b1ae40389dbced7a32db35cc8556319cafa4d93a4e3e89335de6e842b08c8",
+      "volume_mm3": 54.098225494816106,
+      "center_mm": [
+        -1.3252412807850028e-17,
+        -7.4156794425087105,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          771.8793138852343,
+          5.821257602688821e-15,
+          1.7201254591589392e-15
+        ],
+        [
+          5.821257602688821e-15,
+          56.64951288886368,
+          1.4551915228366852e-11
+        ],
+        [
+          1.7201254591589392e-15,
+          1.4551915228366852e-11,
+          771.8793138855203
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -1.9000001,
+          -11.9000001,
+          260.0999999
+        ],
+        [
+          1.9000001,
+          0.10000009999999965,
+          263.9000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H1_M2x10.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H1_M2x10.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "host_thread_engagement": [
+        "R22_Entry5V_rigid_frame"
+      ],
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H1"
+    },
+    {
+      "name": "R22_Entry_H1_washer",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.02540802328498913,
+      "link": "jaw_soft",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3 nominal",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H1_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H1_washer.stl",
+      "sha256_STEP": "231fefb1c2596c39a1e0e2d34544d0fe12739e6c7b394445280393ba4266ddb9",
+      "sha256_STL": "972caa70b927976f1b33d728a56e03ac7d55378e4398d2e95c9febbfa3032ba1",
+      "volume_mm3": 3.216205479112548,
+      "center_mm": [
+        -1.3416296230228825e-17,
+        -9.749999999999998,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.713751155388309,
+          2.2991320665592084e-18,
+          8.278961689076436e-16
+        ],
+        [
+          2.2991320665592084e-18,
+          9.37925922847353,
+          1.8189894035458565e-12
+        ],
+        [
+          8.278961689076436e-16,
+          1.8189894035458565e-12,
+          4.7137511553244735
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -2.1500000999999997,
+          -9.9000001,
+          259.8499999
+        ],
+        [
+          2.1500000999999997,
+          -9.5999999,
+          264.1500001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H1_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H1_washer.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H1"
+    },
+    {
+      "name": "R22_Entry_H2_PEEK_5mm",
+      "material": "unfilled PEEK",
+      "density_assumption_g_cm3": 1.3,
+      "mass_from_CAD_g": 0.1029185753316017,
+      "link": "jaw_soft",
+      "notes": "5mm spacer between PCB rear and metal frame; max2.7mm rear components leave nominal2.3mm gap where frame overlaps.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H2_PEEK_5mm.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H2_PEEK_5mm.stl",
+      "sha256_STEP": "2b42f32bcce4facd33fbfed2870011d3089c9c9c78a0cc2e0d810b0fcf5f9e01",
+      "sha256_STL": "c0589cf0c5b5530ddb674befd139327dece8da1ff6a0aa06165f6bc76ccd7992",
+      "volume_mm3": 79.16813487046284,
+      "center_mm": [
+        20.000000000000007,
+        -5.500000000000001,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          312.58218584768474,
+          -5.4569682106375694e-12,
+          1.1641532182693481e-10
+        ],
+        [
+          -5.4569682106375694e-12,
+          295.29714306723326,
+          -2.9103830456733704e-11
+        ],
+        [
+          1.1641532182693481e-10,
+          -2.9103830456733704e-11,
+          312.5821858468553
+        ]
+      ],
+      "bounds_mm": [
+        [
+          17.4999999,
+          -8.0000001,
+          259.4999999
+        ],
+        [
+          22.5000001,
+          -2.9999999,
+          264.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H2_PEEK_5mm.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H2_PEEK_5mm.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "hardware_station": "H2"
+    },
+    {
+      "name": "R22_Entry_H2_M2x10",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.42737598140904726,
+      "link": "jaw_soft",
+      "notes": "Nominal shank/head only, socket cavity and thread helix omitted; 3.1mm insertion into 3mm frame yields0.1mm nominal tip. Head underside at-9.9, washer0.3, PCB1.6, PEEK5.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H2_M2x10.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H2_M2x10.stl",
+      "sha256_STEP": "3ac5c8719334fdf33b8e4062b3fd3a30c885b454dc858f5c601cce50e5381401",
+      "sha256_STL": "99e633cc9cdc57ab1d79982c2c53c2746f267c29b4ce72e5a512d07b7ccd21c5",
+      "volume_mm3": 54.098225494816106,
+      "center_mm": [
+        19.999999999999996,
+        -7.4156794425087105,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          771.8793138852343,
+          9.094947017729282e-13,
+          -5.820766091346741e-11
+        ],
+        [
+          9.094947017729282e-13,
+          56.64951288886368,
+          1.4551915228366852e-11
+        ],
+        [
+          -5.820766091346741e-11,
+          1.4551915228366852e-11,
+          771.8793138855217
+        ]
+      ],
+      "bounds_mm": [
+        [
+          18.0999999,
+          -11.9000001,
+          260.0999999
+        ],
+        [
+          21.9000001,
+          0.10000009999999965,
+          263.9000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H2_M2x10.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H2_M2x10.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "host_thread_engagement": [
+        "R22_Entry5V_rigid_frame"
+      ],
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H2"
+    },
+    {
+      "name": "R22_Entry_H2_washer",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.025408023284989135,
+      "link": "jaw_soft",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3 nominal",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H2_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H2_washer.stl",
+      "sha256_STEP": "b82e16727c0b2f4c3e829efd1144e7d0345c19c0892c72b8d59bdae4da9707a6",
+      "sha256_STL": "e0c6762fbe6f55a02c8d3f7cd8000e7863fb37da76071a5f949004fa5126db7c",
+      "volume_mm3": 3.2162054791125483,
+      "center_mm": [
+        19.999999999999996,
+        -9.749999999999998,
+        262.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.713751155388309,
+          1.1368683772161603e-13,
+          -3.637978807091713e-12
+        ],
+        [
+          1.1368683772161603e-13,
+          9.37925922847353,
+          1.8189894035458565e-12
+        ],
+        [
+          -3.637978807091713e-12,
+          1.8189894035458565e-12,
+          4.713751155324644
+        ]
+      ],
+      "bounds_mm": [
+        [
+          17.8499999,
+          -9.9000001,
+          259.8499999
+        ],
+        [
+          22.1500001,
+          -9.5999999,
+          264.1500001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H2_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H2_washer.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H2"
+    },
+    {
+      "name": "R22_Entry_H3_PEEK_5mm",
+      "material": "unfilled PEEK",
+      "density_assumption_g_cm3": 1.3,
+      "mass_from_CAD_g": 0.1029185753316017,
+      "link": "jaw_soft",
+      "notes": "5mm spacer between PCB rear and metal frame; max2.7mm rear components leave nominal2.3mm gap where frame overlaps.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H3_PEEK_5mm.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H3_PEEK_5mm.stl",
+      "sha256_STEP": "2308b3dd8383ecd55b475567e88f74f1fb88818551740077b47189099c3ddb15",
+      "sha256_STL": "6c864dce0a4639b25686f03aa527c793f31343e4723059ddd61c23d9cd00ea07",
+      "volume_mm3": 79.16813487046284,
+      "center_mm": [
+        8.309530933949883e-18,
+        -5.500000000000001,
+        298.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          312.58218584768474,
+          -7.099748146989106e-30,
+          1.1695463424675966e-14
+        ],
+        [
+          -7.099748146989106e-30,
+          295.29714306723326,
+          -1.4551915228366852e-11
+        ],
+        [
+          1.1695463424675966e-14,
+          -1.4551915228366852e-11,
+          312.5821858468794
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -2.5000001,
+          -8.0000001,
+          295.4999999
+        ],
+        [
+          2.5000001,
+          -2.9999999,
+          300.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H3_PEEK_5mm.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H3_PEEK_5mm.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "hardware_station": "H3"
+    },
+    {
+      "name": "R22_Entry_H3_M2x10",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.42737598140904726,
+      "link": "jaw_soft",
+      "notes": "Nominal shank/head only, socket cavity and thread helix omitted; 3.1mm insertion into 3mm frame yields0.1mm nominal tip. Head underside at-9.9, washer0.3, PCB1.6, PEEK5.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H3_M2x10.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H3_M2x10.stl",
+      "sha256_STEP": "8883d2b44e10a3eb132f161ec6a20464131664b7d3c5007b258235eb27b6e917",
+      "sha256_STL": "736894d19ec0f2b9a280a08c344ed1f3145bb698c2ac0a408eab26bb91da95af",
+      "volume_mm3": 54.098225494816106,
+      "center_mm": [
+        -2.1550777867872657e-17,
+        -7.4156794425087105,
+        298.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          771.8793138852343,
+          8.486433806119904e-15,
+          3.048206324451654e-15
+        ],
+        [
+          8.486433806119904e-15,
+          56.64951288793236,
+          1.4551915228366852e-11
+        ],
+        [
+          3.048206324451654e-15,
+          1.4551915228366852e-11,
+          771.8793138855199
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -1.9000001,
+          -11.9000001,
+          296.0999999
+        ],
+        [
+          1.9000001,
+          0.10000009999999965,
+          299.9000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H3_M2x10.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H3_M2x10.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "host_thread_engagement": [
+        "R22_Entry5V_rigid_frame"
+      ],
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H3"
+    },
+    {
+      "name": "R22_Entry_H3_washer",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.02540802328498913,
+      "link": "jaw_soft",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3 nominal",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H3_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H3_washer.stl",
+      "sha256_STEP": "754c6f25b4de523fdc127eb100d5e391ebc4ce6dbbaafaa3d8fafeffdc2cf169",
+      "sha256_STL": "9f6f69a37f5dff3399e6fa203583071817dcd581b9403d99bbcb4ab55ce7f3d3",
+      "volume_mm3": 3.216205479112548,
+      "center_mm": [
+        -1.3416296230228825e-17,
+        -9.749999999999998,
+        297.99999999999994
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.71375115547562,
+          2.2991320665592084e-18,
+          8.278961689076483e-16
+        ],
+        [
+          2.2991320665592084e-18,
+          9.379259228648152,
+          5.4569682106375694e-12
+        ],
+        [
+          8.278961689076483e-16,
+          5.4569682106375694e-12,
+          4.7137511553244735
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -2.1500000999999997,
+          -9.9000001,
+          295.8499999
+        ],
+        [
+          2.1500000999999997,
+          -9.5999999,
+          300.1500001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H3_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H3_washer.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H3"
+    },
+    {
+      "name": "R22_Entry_H4_PEEK_5mm",
+      "material": "unfilled PEEK",
+      "density_assumption_g_cm3": 1.3,
+      "mass_from_CAD_g": 0.10291857533160172,
+      "link": "jaw_soft",
+      "notes": "5mm spacer between PCB rear and metal frame; max2.7mm rear components leave nominal2.3mm gap where frame overlaps.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H4_PEEK_5mm.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H4_PEEK_5mm.stl",
+      "sha256_STEP": "cd007de40be14fc19f2e0dca0bf16ff7277e878a3d0ca674f82f0a1490abbace",
+      "sha256_STL": "f9244e079e51f0cb91fb1263b0f6bba85453caea3c06f49c9d6906070b5f02c7",
+      "volume_mm3": 79.16813487046285,
+      "center_mm": [
+        46.0,
+        -5.500000000000001,
+        298.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          312.58218584768474,
+          -3.637978807091713e-12,
+          0.0
+        ],
+        [
+          -3.637978807091713e-12,
+          295.2971430653706,
+          -2.9103830456733704e-11
+        ],
+        [
+          0.0,
+          -2.9103830456733704e-11,
+          312.58218584689894
+        ]
+      ],
+      "bounds_mm": [
+        [
+          43.4999999,
+          -8.0000001,
+          295.4999999
+        ],
+        [
+          48.5000001,
+          -2.9999999,
+          300.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H4_PEEK_5mm.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H4_PEEK_5mm.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "hardware_station": "H4"
+    },
+    {
+      "name": "R22_Entry_H4_M2x10",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.42737598140904715,
+      "link": "jaw_soft",
+      "notes": "Nominal shank/head only, socket cavity and thread helix omitted; 3.1mm insertion into 3mm frame yields0.1mm nominal tip. Head underside at-9.9, washer0.3, PCB1.6, PEEK5.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H4_M2x10.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H4_M2x10.stl",
+      "sha256_STEP": "cc50e5344fdeef4f19091d9003bb4f0ede6c7329d97558ff78d3bc6da96f24d7",
+      "sha256_STL": "5fa7b0f23e622272f93f8162c83ae166dbab8c027edc015b1452d5a4d23827eb",
+      "volume_mm3": 54.09822549481609,
+      "center_mm": [
+        46.0,
+        -7.41567944250871,
+        298.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          771.8793138861656,
+          0.0,
+          1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          56.64951288793236,
+          1.4551915228366852e-11
+        ],
+        [
+          1.1641532182693481e-10,
+          1.4551915228366852e-11,
+          771.8793138855253
+        ]
+      ],
+      "bounds_mm": [
+        [
+          44.0999999,
+          -11.9000001,
+          296.0999999
+        ],
+        [
+          47.9000001,
+          0.10000009999999965,
+          299.9000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H4_M2x10.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H4_M2x10.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "host_thread_engagement": [
+        "R22_Entry5V_rigid_frame"
+      ],
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H4"
+    },
+    {
+      "name": "R22_Entry_H4_washer",
+      "material": "A2 steel nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.025408023284989128,
+      "link": "jaw_soft",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3 nominal",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_Entry_H4_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_Entry_H4_washer.stl",
+      "sha256_STEP": "1f8c37528df6ea10c3c6992038f4b43dac8dee6d5506da549e9e6cf400308cab",
+      "sha256_STL": "c25c54a777f1e58ad291b76339804151ba065ee907ada987ca4499e62d281b7a",
+      "volume_mm3": 3.2162054791125474,
+      "center_mm": [
+        46.00000000000001,
+        -9.75,
+        298.0
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.713751155359205,
+          -2.2737367544323206e-13,
+          7.275957614183426e-12
+        ],
+        [
+          -2.2737367544323206e-13,
+          9.37925922847353,
+          1.8189894035458565e-12
+        ],
+        [
+          7.275957614183426e-12,
+          1.8189894035458565e-12,
+          4.713751155324644
+        ]
+      ],
+      "bounds_mm": [
+        [
+          43.8499999,
+          -9.9000001,
+          295.8499999
+        ],
+        [
+          48.1500001,
+          -9.5999999,
+          300.1500001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/entry_mount/STEP_毫米/R22_Entry_H4_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/entry_mount/STL_装配坐标_毫米/R22_Entry_H4_washer.stl",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "link_frame": "jaw_soft",
+      "STEP_readback_verified": true,
+      "reference_only": true,
+      "mass_relative_uncertainty": 0.15,
+      "hardware_station": "H4"
+    }
+  ],
+  "replaces": [
+    "R13_Entry5V_rigid_frame",
+    "R13_Entry_PEEK_0_262",
+    "R13_Entry_PEEK_0_301",
+    "R13_Entry_PEEK_59_262",
+    "R13_Entry_PEEK_59_301",
+    "R13_H_Entry_PCB_0_262_M2x10",
+    "R13_H_Entry_PCB_0_262_washer",
+    "R13_H_Entry_PCB_0_301_M2x10",
+    "R13_H_Entry_PCB_0_301_washer",
+    "R13_H_Entry_PCB_59_262_M2x10",
+    "R13_H_Entry_PCB_59_262_washer",
+    "R13_H_Entry_PCB_59_301_M2x10",
+    "R13_H_Entry_PCB_59_301_washer"
+  ],
+  "retains": [
+    "R13_head_shell_carrier_Entry_ports",
+    "six original Entry foot M2.5 fastener parts"
+  ],
+  "native_board_R": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "native_board_t_mm": [
+    -3,
+    -8,
+    259
+  ],
+  "native_holes_xy_mm": [
+    [
+      3,
+      3
+    ],
+    [
+      23,
+      3
+    ],
+    [
+      3,
+      39
+    ],
+    [
+      49,
+      39
+    ]
+  ],
+  "accessory_mass_g": 12.270837624833282,
+  "old_replaced_accessory_mass_g": 13.735365212637022,
+  "accessory_mass_delta_g": -1.4645275878037403,
+  "sources": {
+    "work/r13-electronics/mechanics/Entry_mount_v2/manifest.json": "5212fc15201482e776a5966305d4f8698a69262cf79dae9ebbedefd442dabdf6",
+    "work/r22-compact-power/mechanics/build_entry_mount.py": "ae59df41e563cbc37968b5eccd8d1c65203c2dfd5d40edfd9320192fd94ac2e5"
+  },
+  "manufacturing_approved": false
+}

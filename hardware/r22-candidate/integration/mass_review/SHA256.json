@@ -1,0 +1,72 @@
+{
+  "status": "Finite scope review; source files unchanged",
+  "files": [
+    {
+      "path": "bare_board_materials.csv",
+      "sha256": "05c0fd866b08f23814a525bc5a5923582f2fb58a77c0fc48d32c48f9bb1a0234",
+      "bytes": 1141
+    },
+    {
+      "path": "bare_material_comparison.pdf",
+      "sha256": "008e03c82a23f5efb8886bd982aa723f7ea3b1614931403167391e14ceb297dd",
+      "bytes": 17683
+    },
+    {
+      "path": "bare_material_comparison.png",
+      "sha256": "16f1b52e42f53e9cbe7a2b0177e175d2c6ad523fa4362d374c08cb67ae5c99a9",
+      "bytes": 75896
+    },
+    {
+      "path": "bare_material_comparison.svg",
+      "sha256": "5e89808e991c70c52d08f2efcc6b091bd98fe3db0d98a69a8fbd236686985465",
+      "bytes": 52042
+    },
+    {
+      "path": "calculate_review.py",
+      "sha256": "3e6b9c94a2906ab05a580dc9b066a216faca2b0974626f059f9fb2f649de3ba1",
+      "bytes": 8596
+    },
+    {
+      "path": "extract_bare_copper.py",
+      "sha256": "c28c919062c107a8897f3906c047e1bf043357dcd229916515b08fb64d0f29fe",
+      "bytes": 2496
+    },
+    {
+      "path": "insulation_v2_rebind.json",
+      "sha256": "c9c596f36fa70f390005c132039d0e365966b662ead0df6a1ca93ba7601ab868",
+      "bytes": 1358
+    },
+    {
+      "path": "mass_COM_bounded_review.json",
+      "sha256": "bb5646c040e2bb33cb4464e0061c7110916f231ea1f1601f5e5b18b14fd121a3",
+      "bytes": 12559
+    },
+    {
+      "path": "native_copper_inputs.json",
+      "sha256": "d6009a69c70ae9315e53c15a6f1253e932a690ce84127eb34103cfe77fa6b4e9",
+      "bytes": 3620103
+    },
+    {
+      "path": "rebind_insulation_v2.py",
+      "sha256": "a3b53edc216a10ea32151d74f2810c6f43b699516a29b54dfef6c9cd461379b5",
+      "bytes": 3268
+    },
+    {
+      "path": "write_report.py",
+      "sha256": "34f692117b18bb5a889df84faf90f6c3f6c6d8b9dab364cc09c24e7016a5f6a8",
+      "bytes": 11222
+    },
+    {
+      "path": "质量与重心影响_有限范围审查.md",
+      "sha256": "a5ac677aef7e03dfee2381e1849dcc30249bd38058340668180d4fe654de8e60",
+      "bytes": 7498
+    }
+  ],
+  "source_pcb_sha256": {
+    "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+    "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+    "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+    "work/r22-compact-power/entry/Microduck_Entry_5V_R22.kicad_pcb": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+    "work/r22-compact-power/power_regen/Microduck_Power_Regen_R22.kicad_pcb": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4"
+  }
+}

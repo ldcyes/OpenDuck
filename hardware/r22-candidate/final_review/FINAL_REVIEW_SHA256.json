@@ -1,0 +1,19 @@
+{
+  "status": "FINAL_REVIEW_EVIDENCE_HASHES",
+  "files": {
+    "independent_delivery_review.md": "eb52b8d66222ec4823f4ca5db3d39081088f3817919ce311b9e351e6f45582e6",
+    "final_review.json": "0eed49b3a8b8f283e11d895519c9677d0fcdd141702ecafc1b2b6dab39af6ca0",
+    "frozen_input_audit.json": "865a1add258f6d7900723c97606b18bc254aa3183baa45f52ac7db7c6b56eb81",
+    "delivery_binding_audit.json": "2828c00a5251ff207cd937009653c5d5c4bda964cf34efeeaeb1bc6bdc643bbf",
+    "fabrication_export_audit.json": "ba2a92239a8014da138b10392f94e60a2ac2dc67c98f115af70624bca167ccfe",
+    "visual_binding_audit.json": "54333b76a000f6cadf952e0c6c34317b555ba891e019ef723a66d528b3e989ed",
+    "readme_facts_audit.json": "2b3a294a55e26c001a745c9dc473c81eb24523ce3c6662612dc6fedbac1fa42f",
+    "final_handoff_audit.json": "b3e5e3848915bcd297471d8e58dd7b73c6bef507087e313043f9d7eec82dea47",
+    "supplemental_erc/entry/ERC_ALL_CHECKS.json": "ffda069b9a3c05187758649606ea4c84eed73844d56b1609017c84c85f815a9a",
+    "supplemental_erc/power_regen/ERC_ALL_CHECKS.json": "ba823723314ccb9dc9bf252949bc1a6f5ffde1eb4c54524d2d1d30814720864d",
+    "audit_delivery_bindings.py": "c5389d2af58a8a7bf017dcbf25bd177a50fdc036bb89791554d39a4f2baf742a",
+    "audit_fabrication_exports.py": "fbb27071b8abaf03048ac906df5867f0051fa4a91663f7b7cb555987a7f1549e",
+    "audit_final_handoff.py": "1c31f9d90177cf232d0daad5fe00c3c30375ee2c6f6347056c28214bd948b7ed",
+    "audit_frozen_inputs.py": "993683a6614f08693cbf4e9dac36235b9843aa9d85699215a79f6fc84458a54f"
+  }
+}

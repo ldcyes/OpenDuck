@@ -1,0 +1,4 @@
+(version 1)
+(rule "Finished 2oz fabrication minimum" (constraint clearance (min 0.16mm)))
+(rule "Nominal signal width" (constraint track_width (min 0.20mm)))
+(rule "Ground pours nominal clearance" (condition "A.Type == 'Zone' || B.Type == 'Zone'") (constraint clearance (min 0.20mm)))

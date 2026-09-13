@@ -1,0 +1,451 @@
+{
+  "status": "DYNAMIC_DELTA_2P2MM_CERTIFIED_STATIC_SLEEVE_REFERENCE_CONFLICTS_PENDING",
+  "installed_parts": 733,
+  "new_parts": 265,
+  "retained_parts": 468,
+  "service_excluded": 9,
+  "removed_original_parts": 89,
+  "total_delta_pairs": 159000,
+  "dynamic_pairs": 93595,
+  "invariant_pairs": 65405,
+  "intervals": 9773,
+  "duration_s": 195.4417499971064,
+  "target_mm": 2.2,
+  "minimum_certified_dynamic_lower_bound_mm": 2.230402828900228,
+  "global_all_joint_box_target_pairs": 92660,
+  "trajectory_interval_refinement_pairs": 935,
+  "dynamic_groups": {
+    "Entry_involved": 58875,
+    "Power_or_cap_involved": 34720
+  },
+  "dynamic_lower_bound_by_group_mm": {
+    "Entry_involved": 2.286118330160295,
+    "Power_or_cap_involved": 2.230402828900228
+  },
+  "static_positive_pairs": 65086,
+  "named_zero_volume_static_contacts": 252,
+  "named_thread_or_same_representation_pairs": 61,
+  "remaining_static_reference_conflicts": [
+    {
+      "pair_id": 124134,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H1_washer",
+      "mesh_gap_mm": 3.5762786865234375e-07,
+      "mesh_intersection_mm3": null,
+      "exact_STEP": null,
+      "basis": "Exact Entry H1-H4 board bearing face to spacer or washer.",
+      "bindings": {
+        "R22_Entry_PCB_FINISHED": {
+          "mesh_sha256": "71ae04b6f18c5bab57855f17e49da8b8a520cc9fa2a8d58ba2956ad248dcb0c7",
+          "step_sha256": "854d9eabd324cdcc1d3a433d0e114f391ff9a6ae923e3100845d24e07d385604",
+          "R": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -3,
+            -8,
+            259
+          ],
+          "link_frame": "jaw_soft"
+        },
+        "R22_Entry_H1_washer": {
+          "mesh_sha256": "972caa70b927976f1b33d728a56e03ac7d55378e4398d2e95c9febbfa3032ba1",
+          "step_sha256": "231fefb1c2596c39a1e0e2d34544d0fe12739e6c7b394445280393ba4266ddb9",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0,
+            0,
+            0
+          ],
+          "link_frame": "jaw_soft"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    },
+    {
+      "pair_id": 124137,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H2_washer",
+      "mesh_gap_mm": 3.5762786865234375e-07,
+      "mesh_intersection_mm3": null,
+      "exact_STEP": null,
+      "basis": "Exact Entry H1-H4 board bearing face to spacer or washer.",
+      "bindings": {
+        "R22_Entry_PCB_FINISHED": {
+          "mesh_sha256": "71ae04b6f18c5bab57855f17e49da8b8a520cc9fa2a8d58ba2956ad248dcb0c7",
+          "step_sha256": "854d9eabd324cdcc1d3a433d0e114f391ff9a6ae923e3100845d24e07d385604",
+          "R": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -3,
+            -8,
+            259
+          ],
+          "link_frame": "jaw_soft"
+        },
+        "R22_Entry_H2_washer": {
+          "mesh_sha256": "e0c6762fbe6f55a02c8d3f7cd8000e7863fb37da76071a5f949004fa5126db7c",
+          "step_sha256": "b82e16727c0b2f4c3e829efd1144e7d0345c19c0892c72b8d59bdae4da9707a6",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0,
+            0,
+            0
+          ],
+          "link_frame": "jaw_soft"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    },
+    {
+      "pair_id": 124140,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H3_washer",
+      "mesh_gap_mm": 3.5762786865234375e-07,
+      "mesh_intersection_mm3": null,
+      "exact_STEP": null,
+      "basis": "Exact Entry H1-H4 board bearing face to spacer or washer.",
+      "bindings": {
+        "R22_Entry_PCB_FINISHED": {
+          "mesh_sha256": "71ae04b6f18c5bab57855f17e49da8b8a520cc9fa2a8d58ba2956ad248dcb0c7",
+          "step_sha256": "854d9eabd324cdcc1d3a433d0e114f391ff9a6ae923e3100845d24e07d385604",
+          "R": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -3,
+            -8,
+            259
+          ],
+          "link_frame": "jaw_soft"
+        },
+        "R22_Entry_H3_washer": {
+          "mesh_sha256": "9f6f69a37f5dff3399e6fa203583071817dcd581b9403d99bbcb4ab55ce7f3d3",
+          "step_sha256": "754c6f25b4de523fdc127eb100d5e391ebc4ce6dbbaafaa3d8fafeffdc2cf169",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0,
+            0,
+            0
+          ],
+          "link_frame": "jaw_soft"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    },
+    {
+      "pair_id": 124143,
+      "a": "R22_Entry_PCB_FINISHED",
+      "b": "R22_Entry_H4_washer",
+      "mesh_gap_mm": 3.5762786865234375e-07,
+      "mesh_intersection_mm3": null,
+      "exact_STEP": null,
+      "basis": "Exact Entry H1-H4 board bearing face to spacer or washer.",
+      "bindings": {
+        "R22_Entry_PCB_FINISHED": {
+          "mesh_sha256": "71ae04b6f18c5bab57855f17e49da8b8a520cc9fa2a8d58ba2956ad248dcb0c7",
+          "step_sha256": "854d9eabd324cdcc1d3a433d0e114f391ff9a6ae923e3100845d24e07d385604",
+          "R": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -3,
+            -8,
+            259
+          ],
+          "link_frame": "jaw_soft"
+        },
+        "R22_Entry_H4_washer": {
+          "mesh_sha256": "c25c54a777f1e58ad291b76339804151ba065ee907ada987ca4499e62d281b7a",
+          "step_sha256": "1f8c37528df6ea10c3c6992038f4b43dac8dee6d5506da549e9e6cf400308cab",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0,
+            0,
+            0
+          ],
+          "link_frame": "jaw_soft"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    },
+    {
+      "pair_id": 158472,
+      "a": "R22_Power_C101_1_FORMED_LEAD",
+      "b": "R22_Power_C101_1_INSULATION",
+      "mesh_gap_mm": 0.0,
+      "mesh_intersection_mm3": 0.0003925925177133674,
+      "exact_STEP": {
+        "pair_id": 158472,
+        "a": "R22_Power_C101_1_FORMED_LEAD",
+        "b": "R22_Power_C101_1_INSULATION",
+        "mesh_intersection_mm3": 0.0003925925177133674,
+        "STEP_intersection_mm3": 0.0004382898309654975,
+        "STEP_gap_mm": 0.0,
+        "elapsed_s": 0.1144949109875597
+      },
+      "basis": null,
+      "bindings": {
+        "R22_Power_C101_1_FORMED_LEAD": {
+          "mesh_sha256": "90b8e62dec034abb5895ca73bc02808bab3ef7d800599a7df7fa36fb0be15992",
+          "step_sha256": "b71453aaf7d4d5e7777c7ce41045fa3c95ffc7bbe65058e3f78f46822398ba6f",
+          "R": [
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -25.23550047278404,
+            -31.25542050600052,
+            74.54043605923653
+          ],
+          "link_frame": "trunk_base"
+        },
+        "R22_Power_C101_1_INSULATION": {
+          "mesh_sha256": "61ef8d79604bf3dd58e5def2d7ca56b81f7ca40d971c29c245c68b01ae1ac068",
+          "step_sha256": "93acd47d12bd71b924fce6c7cf16047ca2d3df8bf3731a3e02156afcff3a8ec0",
+          "R": [
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -25.23550047278404,
+            -31.25542050600052,
+            74.54043605923653
+          ],
+          "link_frame": "trunk_base"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    },
+    {
+      "pair_id": 158535,
+      "a": "R22_Power_C101_2_FORMED_LEAD",
+      "b": "R22_Power_C101_2_INSULATION",
+      "mesh_gap_mm": 0.0,
+      "mesh_intersection_mm3": 0.0003925899090816789,
+      "exact_STEP": {
+        "pair_id": 158535,
+        "a": "R22_Power_C101_2_FORMED_LEAD",
+        "b": "R22_Power_C101_2_INSULATION",
+        "mesh_intersection_mm3": 0.0003925899090816789,
+        "STEP_intersection_mm3": 0.0004382898207500232,
+        "STEP_gap_mm": 0.0,
+        "elapsed_s": 0.10665184300160035
+      },
+      "basis": null,
+      "bindings": {
+        "R22_Power_C101_2_FORMED_LEAD": {
+          "mesh_sha256": "99707131d6122d760822313abfcd271b4bc6f9b3adfd81809adf53320f21c5b4",
+          "step_sha256": "6f81f7d77c5c9a26b142071f1c91112c7b43420ea5399ce477fa2ef0b3d462ab",
+          "R": [
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -25.23550047278404,
+            -31.25542050600052,
+            74.54043605923653
+          ],
+          "link_frame": "trunk_base"
+        },
+        "R22_Power_C101_2_INSULATION": {
+          "mesh_sha256": "06b420a9a34f6250c7a19052ffee5aebb8135f8465e4f2f4d406a533f9c2dcb0",
+          "step_sha256": "cef9f8eeed00db9cac3588072b3868cc2be3f6e5e490a5c0433af83efb89875c",
+          "R": [
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "t_mm": [
+            -25.23550047278404,
+            -31.25542050600052,
+            74.54043605923653
+          ],
+          "link_frame": "trunk_base"
+        }
+      },
+      "status": "STATIC_REFERENCE_MODEL_CONFLICT_OR_UNCLASSIFIED"
+    }
+  ],
+  "cap_final_reference_pair_count": 1980,
+  "cap_unclassified_intersections": 0,
+  "exact_calls_initial": 889,
+  "exact_calls_target_refinement": 307,
+  "exact_timeouts": 0,
+  "all_159000_pair_interval_partitions_independently_verified": true,
+  "all_93595_dynamic_target_partitions_independently_verified": true,
+  "source_geometry_hash_checks": 1432,
+  "physical_approved": false
+}

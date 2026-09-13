@@ -1,0 +1,11 @@
+{
+  "area_reduction_pct": 14.01412973667309,
+  "old_board_types_and_pieces_source": "work/r13-electronics/R13_配电与整机电路说明.md:3",
+  "new_board_types": 11,
+  "new_board_pieces": 12,
+  "root_readme_sha256": "5c9cd0ff071699041112d4c066b2222c74115b2801db87cbe0f52ec24ee092bb",
+  "local_markdown_link_missing_targets": [],
+  "candidate_scope_and_unclosed_main_mount_explicit": true,
+  "release_link_validation_deferred_to_root_published_asset_check": true,
+  "utc": "2026-09-13T17:25:00.571871+00:00"
+}

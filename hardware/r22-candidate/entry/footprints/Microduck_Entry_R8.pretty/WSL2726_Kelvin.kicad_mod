@@ -1,0 +1,160 @@
+(footprint "WSL2726_Kelvin"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Vishay 30131 29-Jun-2026 p2. Current pads b2.69 x a5.71; Kelvin pads2.69x.89 gap.89; outer widthw7.62. Local numbering1=I+ 2=S+ 3=S- 4=I- not manufacturer numeric pins.")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "e2f34b01-b0e2-4a17-b16d-fab707084a36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e9f6ca0-dc03-4d45-bdb3-bd4f4e664ddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8543f417-6f8a-4499-8192-dc89c6041cd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e25a1a7-8033-4f4d-827b-4b2b0533a569")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.849999 -3.75)
+		(end 3.849999 -3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3651df7-ee68-4a88-8147-b26ec5fb0bfe")
+	)
+	(fp_line
+		(start -3.849999 3.75)
+		(end -3.849999 -3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "058d7f1e-8e66-4dc0-b69c-f51ec4111d12")
+	)
+	(fp_line
+		(start 3.849999 -3.75)
+		(end 3.849999 3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c70d2bf-62b3-4085-b06d-5560c5e040c1")
+	)
+	(fp_line
+		(start 3.849999 3.75)
+		(end -3.849999 3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff93c706-b801-4730-bfcc-756511f66b98")
+	)
+	(fp_line
+		(start -3.55 -3.45)
+		(end 3.55 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "40404c1d-13dc-4a56-a04a-a6619a737660")
+	)
+	(fp_line
+		(start -3.55 3.45)
+		(end -3.55 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "444e6c0d-0efa-42a6-a0ca-6d52ccfdeedb")
+	)
+	(fp_line
+		(start 3.55 -3.45)
+		(end 3.55 3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1fdd1d28-12f2-4874-97a7-3fdb2f69ea94")
+	)
+	(fp_line
+		(start 3.55 3.45)
+		(end -3.55 3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f016e02f-d7e3-4568-a2c5-4577cebf663f")
+	)
+	(pad "1" smd rect
+		(at -2.465 -0.89)
+		(size 2.69 5.71)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "29c7975a-fbe4-483e-9ca9-041b05757e05")
+	)
+	(pad "2" smd rect
+		(at -2.465 3.3)
+		(size 2.69 0.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ecd751d1-eb2f-4052-8a5d-a7ad55297dfc")
+	)
+	(pad "3" smd rect
+		(at 2.465 3.3)
+		(size 2.69 0.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e08b3818-fd1a-437c-b37d-5d3ab24a3590")
+	)
+	(pad "4" smd rect
+		(at 2.465 -0.89)
+		(size 2.69 5.71)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3900b9e0-183d-44fd-895c-08efc6b26fdb")
+	)
+	(embedded_fonts no)
+)

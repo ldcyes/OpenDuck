@@ -1,0 +1,398 @@
+{
+  "status": "BOUNDED MASS/COM IMPACT REVIEW; NO NEW WHOLE-MODEL MASS/COM OR DYNAMIC QUALIFICATION",
+  "baseline": {
+    "model_path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+    "sha256": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "mass_kg": 4.195093550269524,
+    "COM_HOME_mm": [
+      1.8042775054374585,
+      0.09472129960147621,
+      17.424621373995706
+    ],
+    "rows": 501,
+    "row_mass_and_moment_recomputed": true,
+    "electronics": [
+      {
+        "name": "electrical_Entry5V",
+        "mass_g": 33.152265,
+        "COM_HOME_mm": [
+          29.499999999999996,
+          -14.75,
+          281.5
+        ]
+      },
+      {
+        "name": "electrical_TDK_power",
+        "mass_g": 62.203019999999995,
+        "COM_HOME_mm": [
+          -33.43550047278404,
+          1.5570794939994794,
+          44.54043605923653
+        ]
+      },
+      {
+        "name": "electrical_Regen",
+        "mass_g": 16.496128,
+        "COM_HOME_mm": [
+          31.564499527215954,
+          -33.75542050600052,
+          49.54043605923653
+        ]
+      }
+    ],
+    "status": "DIAGNOSTIC_ESTIMATED_RIGID_MODEL_ONLY",
+    "frame": "Source model HOME coordinates in mm, matched directly to manifest part R/t; no camera/display offsets applied."
+  },
+  "bare_materials": [
+    {
+      "board": "Entry_source",
+      "source": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "outline_area_mm2": 2925.0,
+      "layer_copper_mm": [
+        0.07,
+        0.07
+      ],
+      "dielectric_mm": 1.44,
+      "native_stack_sum_mm": 1.6,
+      "native_board_thickness_mm": 1.6,
+      "actual_copper_area_by_layer_mm2": [
+        2544.7943292224204,
+        2662.6444059912483
+      ],
+      "copper_coverage_fraction": [
+        0.8700151552897164,
+        0.9103057798260678
+      ],
+      "copper_plane_volume_mm3": 364.52071146495683,
+      "copper_barrel_volume_mm3": 5.5958048345741505,
+      "FR4_volume_mm3": 4124.362150336619,
+      "planar_plus_barrel_copper_g": 3.3162439860437973,
+      "FR4_g": 7.630069978122746,
+      "mask_upper_area_nominal_g": 0.0702,
+      "bare_material_nominal_g": 11.016513964166544,
+      "bare_material_assumption_interval_g": [
+        8.98040275545473,
+        13.243631037388454
+      ],
+      "hole_count": 132
+    },
+    {
+      "board": "TDK_source",
+      "source": "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+      "source_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "outline_area_mm2": 3900.0,
+      "layer_copper_mm": [
+        0.07,
+        0.07
+      ],
+      "dielectric_mm": 1.44,
+      "native_stack_sum_mm": 1.6,
+      "native_board_thickness_mm": 1.6,
+      "actual_copper_area_by_layer_mm2": [
+        3479.6721308154906,
+        3441.3905437781445
+      ],
+      "copper_coverage_fraction": [
+        0.8922236232860232,
+        0.8824078317379858
+      ],
+      "copper_plane_volume_mm3": 484.4743872215545,
+      "copper_barrel_volume_mm3": 6.905888241029274,
+      "FR4_volume_mm3": 5525.012987157727,
+      "planar_plus_barrel_copper_g": 4.40276726814475,
+      "FR4_g": 10.221274026241796,
+      "mask_upper_area_nominal_g": 0.09359999999999999,
+      "bare_material_nominal_g": 14.717641294386546,
+      "bare_material_assumption_interval_g": [
+        11.999820657275237,
+        17.69091232111259
+      ],
+      "hole_count": 157
+    },
+    {
+      "board": "Regen_source",
+      "source": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "outline_area_mm2": 960.0,
+      "layer_copper_mm": [
+        0.07,
+        0.07
+      ],
+      "dielectric_mm": 1.44,
+      "native_stack_sum_mm": 1.6,
+      "native_board_thickness_mm": 1.6,
+      "actual_copper_area_by_layer_mm2": [
+        806.2193472511304,
+        762.6941690012424
+      ],
+      "copper_coverage_fraction": [
+        0.8398118200532608,
+        0.7944730927096274
+      ],
+      "copper_plane_volume_mm3": 109.82394613766611,
+      "copper_barrel_volume_mm3": 2.829436153547478,
+      "FR4_volume_mm3": 1325.0176708683155,
+      "planar_plus_barrel_copper_g": 1.0093743053292736,
+      "FR4_g": 2.4512826911063836,
+      "mask_upper_area_nominal_g": 0.023039999999999998,
+      "bare_material_nominal_g": 3.4836969964356572,
+      "bare_material_assumption_interval_g": [
+        2.837730956311206,
+        4.191493566686158
+      ],
+      "hole_count": 59
+    },
+    {
+      "board": "Entry_R22",
+      "source": "work/r22-compact-power/entry/Microduck_Entry_5V_R22.kicad_pcb",
+      "source_sha256": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+      "outline_area_mm2": 2184.0,
+      "layer_copper_mm": [
+        0.07,
+        0.035,
+        0.035,
+        0.07
+      ],
+      "dielectric_mm": 1.37,
+      "native_stack_sum_mm": 1.6,
+      "native_board_thickness_mm": 1.6,
+      "actual_copper_area_by_layer_mm2": [
+        1877.865662450016,
+        2018.1124881981705,
+        1892.9671388885217,
+        1839.719856035243
+      ],
+      "copper_coverage_fraction": [
+        0.8598286000229012,
+        0.9240441795779168,
+        0.8667431954617774,
+        0.8423625714447084
+      ],
+      "copper_plane_volume_mm3": 397.1187732420025,
+      "copper_barrel_volume_mm3": 7.046945751175396,
+      "FR4_volume_mm3": 2915.488341816374,
+      "planar_plus_barrel_copper_g": 3.6213248421788733,
+      "FR4_g": 5.393653432360292,
+      "mask_upper_area_nominal_g": 0.052416,
+      "bare_material_nominal_g": 9.067394274539165,
+      "bare_material_assumption_interval_g": [
+        7.362838846542991,
+        10.909646352789832
+      ],
+      "hole_count": 202
+    },
+    {
+      "board": "Power_R22",
+      "source": "work/r22-compact-power/power_regen/Microduck_Power_Regen_R22.kicad_pcb",
+      "source_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+      "outline_area_mm2": 4510.0,
+      "layer_copper_mm": [
+        0.07,
+        0.035,
+        0.035,
+        0.07
+      ],
+      "dielectric_mm": 1.37,
+      "native_stack_sum_mm": 1.6,
+      "native_board_thickness_mm": 1.6,
+      "actual_copper_area_by_layer_mm2": [
+        4119.952824511251,
+        4201.343401803103,
+        4228.52870574628,
+        4048.4061151522915
+      ],
+      "copper_coverage_fraction": [
+        0.9135150386942906,
+        0.9315617298898233,
+        0.9375895134692417,
+        0.897651023315364
+      ],
+      "copper_plane_volume_mm3": 866.8306495406765,
+      "copper_barrel_volume_mm3": 9.066597128351944,
+      "FR4_volume_mm3": 6085.064636043318,
+      "planar_plus_barrel_copper_g": 7.848039330154495,
+      "FR4_g": 11.257369576680139,
+      "mask_upper_area_nominal_g": 0.10823999999999999,
+      "bare_material_nominal_g": 19.21364890683463,
+      "bare_material_assumption_interval_g": [
+        15.613819344188864,
+        23.099760408561707
+      ],
+      "hole_count": 218
+    }
+  ],
+  "assumptions": {
+    "FR4_nominal_g_cm3": 1.85,
+    "FR4_range_g_cm3": [
+      1.7,
+      2.0
+    ],
+    "FR4_volume_factor": [
+      0.9,
+      1.1
+    ],
+    "copper_density_g_cm3": 8.96,
+    "copper_thickness_factor": [
+      0.8,
+      1.2
+    ],
+    "barrel_plating_nominal_mm": 0.025,
+    "barrel_volume_factor": [
+      0.5,
+      1.5
+    ],
+    "mask_thickness_each_nominal_mm": 0.01,
+    "mask_thickness_each_range_mm": [
+      0.005,
+      0.02
+    ],
+    "mask_density_nominal_g_cm3": 1.2,
+    "mask_density_range_g_cm3": [
+      1.1,
+      1.5
+    ],
+    "mask_coverage": "Uses full outline area, thus conservative material area; actual pad openings reduce it.",
+    "exclusions": [
+      "Solder,finish metallurgy,components,connector substitution mass,wire tails and potting are not included.",
+      "Ranges are stated engineering scenarios,not statistically identified tolerances or supplier guarantees.",
+      "No component-envelope volume was converted into component mass.",
+      "Legacy electrical row cannot be replaced by bare board material alone."
+    ]
+  },
+  "accessory_partial_delta": {
+    "entry_old_g": 13.735365212637022,
+    "entry_new_g": 12.270837624833282,
+    "entry_delta_g": -1.4645275878037403,
+    "entry_only_delta_COM_HOME_mm": [
+      -0.028265961957087946,
+      0.0005567600135401989,
+      -0.09628252140387933
+    ],
+    "cap_new_estimate_g": 2.438566928330559,
+    "cap_COM_HOME_mm": [
+      -29.35407082336789,
+      -3.6222108765888557,
+      73.16739592504389
+    ],
+    "cap_excludes_existing_capacitor_mass": true,
+    "cap_contains_unweighed_braid_budget_g": 0.3,
+    "gross_accessory_delta_g": 0.9740393405268186,
+    "gross_accessories_only_delta_COM_HOME_mm": [
+      -0.046357374384278414,
+      -0.0016036783928163522,
+      -0.06383135731319349
+    ],
+    "warning": "Partial nominal delta only. Any shared fixture/harness reserve deduction remains unresolved; no new whole-robot mass or COM is asserted."
+  },
+  "per_10g_addition_sensitivity": {
+    "entry_reference": {
+      "HOME_bounds_mm": [
+        [
+          -3.0000001,
+          -22.6000001,
+          258.9999999
+        ],
+        [
+          49.0000001,
+          -5.2999949,
+          301.0000001
+        ]
+      ],
+      "delta_COM_per_10g_added_mm": [
+        [
+          -0.011424900654420709,
+          -0.05396959931639777,
+          0.5744827686663965
+        ],
+        [
+          0.11223465549663586,
+          -0.012829004004573699,
+          0.6743616410337141
+        ]
+      ],
+      "factor": 0.0023780683783739018,
+      "scope": "Physical PCB/component conservative material envelope; excludes mating,wire and service/tool budget solids."
+    },
+    "power_reference": {
+      "HOME_bounds_mm": [
+        [
+          -44.33550057278404,
+          -31.25542060600052,
+          14.540435959236525
+        ],
+        [
+          -22.53549537278404,
+          33.744579593999475,
+          89.54043615923652
+        ]
+      ],
+      "delta_COM_per_10g_added_mm": [
+        [
+          -0.10972354723300791,
+          -0.07455278112324665,
+          -0.006858790132206023
+        ],
+        [
+          -0.057881644218501276,
+          0.08002166394667064,
+          0.1714963387214503
+        ]
+      ],
+      "factor": 0.0023780683783739018,
+      "scope": "Physical PCB/component conservative material envelope; excludes mating,wire and service/tool budget solids."
+    }
+  },
+  "Regen_same_mass_relocation_bound": {
+    "assumed_unchanged_mass_g": 16.496128,
+    "old_reserved_COM_HOME_mm": [
+      31.564499527215954,
+      -33.75542050600052,
+      49.54043605923653
+    ],
+    "new_Regen_package_and_board_extension_HOME_box_mm": [
+      [
+        -40.83550057278404,
+        -31.25542050600052,
+        37.19043095923652
+      ],
+      [
+        -24.03549537278404,
+        18.74457949399948,
+        89.54043605923653
+      ]
+    ],
+    "delta_COM_bounds_mm": [
+      [
+        -0.2846944065819178,
+        0.009830607948504608,
+        -0.048563223320053
+      ],
+      [
+        -0.21863270072030228,
+        0.20644276691859678,
+        0.15728972717607373
+      ]
+    ],
+    "maximum_norm_COM_shift_mm": 0.38523963896146524,
+    "note": "Counterfactual relocation of the full inherited Regen mass; includes old PCB budget and does not represent the new merged electrical mass. Do not add again alongside a bare-board replacement estimate."
+  },
+  "source_sha256": {
+    "work/r22-compact-power/mechanics/entry_mount/manifest.json": "5b8cf7edee2f6494c39ab864478da2378e64e2f66e0ab0e8a0a87dd83ed4f6fe",
+    "work/r22-compact-power/mechanics/power_cap_mount/manifest.json": "ec27f2dc7fe01d1fd3a5ae357c65b0bafdf56f5cdc996cccab483d1fb06f716b",
+    "work/r22-compact-power/mechanics/entry_reference/manifest.json": "0c11c79c752a6b48f6bcfe03b28839bd86219bec5fbe4e76dbe188797435d9b9",
+    "work/r22-compact-power/mechanics/power_reference/manifest.json": "ea6c953829356d2338750eaee80ad18aee2e95b92703b7e419d121208ec6b1fa"
+  },
+  "bare_material_subtotal_comparison": {
+    "source_g": 29.217852254988745,
+    "r22_g": 28.281043181373796,
+    "delta_g": -0.936809073614949,
+    "copper_delta_g": 2.740978612815546,
+    "independent_parameter_extreme_delta_g": [
+      -12.149378734455347,
+      10.19145239231037
+    ],
+    "bare_material_plus_gross_accessory_nominal_delta_g": 0.03723026691186959,
+    "not_a_new_whole_robot_mass": true
+  }
+}

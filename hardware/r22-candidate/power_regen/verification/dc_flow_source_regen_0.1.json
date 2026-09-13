@@ -1,0 +1,390 @@
+[
+  {
+    "board": "source_regen",
+    "net": "SERVO_BUS",
+    "from_pins": [
+      "W1.1"
+    ],
+    "to_pins": [
+      "W3.1"
+    ],
+    "via_flows": [
+      {
+        "pos": [
+          4.75,
+          11.5
+        ],
+        "drill_mm": 1.2,
+        "name": "C1.1",
+        "layer_current_fraction": [
+          -5.260786973358944e-14
+        ]
+      },
+      {
+        "pos": [
+          28.0,
+          8.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W3.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          18.0,
+          6.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W1.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          26.0,
+          12.2
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          2.7,
+          18.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -8.88885143737916e-15
+        ]
+      },
+      {
+        "pos": [
+          24.6,
+          6.2
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -1.8986548444566154e-15
+        ]
+      }
+    ],
+    "nodes": 17586,
+    "solver_info": 0,
+    "R20_mOhm": 0.38839667308854886,
+    "R85_mOhm": 0.48761260322901867,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 4752,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      120.249,
+      55.592
+    ],
+    "residual_relative": 3.924955332730087e-15,
+    "elapsed_s": 0.05
+  },
+  {
+    "board": "source_regen",
+    "net": "RH_LOW",
+    "from_pins": [
+      "W4.1"
+    ],
+    "to_pins": [
+      "Q1.5"
+    ],
+    "via_flows": [
+      {
+        "pos": [
+          28.0,
+          16.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W4.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          23.2,
+          24.8
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          23.2,
+          22.2
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          24.2,
+          22.2
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          25.2,
+          24.8
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          25.2,
+          22.2
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          24.2,
+          23.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          24.2,
+          24.8
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          23.2,
+          23.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          25.2,
+          23.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0
+        ]
+      }
+    ],
+    "nodes": 8315,
+    "solver_info": 0,
+    "R20_mOhm": 0.27388525604056885,
+    "R85_mOhm": 0.34384924469613215,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 1761,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      52.369,
+      30.536
+    ],
+    "residual_relative": 1.0615319409240198e-15,
+    "elapsed_s": 0.02
+  },
+  {
+    "board": "source_regen",
+    "net": "BRAKE_SHUNT_P",
+    "from_pins": [
+      "Q1.1",
+      "Q1.2",
+      "Q1.3"
+    ],
+    "to_pins": [
+      "RS1.1",
+      "RS1.2"
+    ],
+    "via_flows": [],
+    "nodes": 3734,
+    "solver_info": 0,
+    "R20_mOhm": 0.5454969186231216,
+    "R85_mOhm": 0.684844106485398,
+    "source_grid_nodes": 273,
+    "target_grid_nodes": 1566,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      37.094,
+      0.0
+    ],
+    "residual_relative": 2.687446912409077e-15,
+    "elapsed_s": 0.01
+  },
+  {
+    "board": "source_regen",
+    "net": "GND",
+    "from_pins": [
+      "RS1.4"
+    ],
+    "to_pins": [
+      "W2.1"
+    ],
+    "via_flows": [
+      {
+        "pos": [
+          9.75,
+          11.5
+        ],
+        "drill_mm": 1.2,
+        "name": "C1.2",
+        "layer_current_fraction": [
+          -0.2614692971627401
+        ]
+      },
+      {
+        "pos": [
+          15.5,
+          28.5
+        ],
+        "drill_mm": 0.5,
+        "name": "P1.1",
+        "layer_current_fraction": [
+          5.418027360075801e-14
+        ]
+      },
+      {
+        "pos": [
+          18.0,
+          15.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W2.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.17181018141136664
+        ]
+      },
+      {
+        "pos": [
+          15.0,
+          22.6
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -3.319127859559477e-15
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.15831577664296248
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.014398911892158606
+        ]
+      },
+      {
+        "pos": [
+          21.0,
+          27.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -3.1953928300012743e-14
+        ]
+      },
+      {
+        "pos": [
+          22.6,
+          16.6
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -9.73423815511798e-16
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.46523988856066556
+        ]
+      }
+    ],
+    "nodes": 118713,
+    "solver_info": 0,
+    "R20_mOhm": 1.7829781679303687,
+    "R85_mOhm": 2.238439940928181,
+    "source_grid_nodes": 1566,
+    "target_grid_nodes": 4752,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      572.508,
+      613.508
+    ],
+    "residual_relative": 5.526370279211254e-15,
+    "elapsed_s": 0.27
+  }
+]

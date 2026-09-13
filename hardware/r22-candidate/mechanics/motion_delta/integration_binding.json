@@ -1,0 +1,9 @@
+{
+  "status": "MATCH",
+  "source": "work/r22-compact-power/integration/assembly_selection.json",
+  "captured_copy": "work/r22-compact-power/mechanics/motion_delta/snapshot/integration_assembly_selection.original.json",
+  "sha256": "8279a357e58de0f7fcc1ed6ed737ce7020f17f9edc7999131894cf264cc2f241",
+  "item_count": 733,
+  "differences": [],
+  "service_count": 9
+}

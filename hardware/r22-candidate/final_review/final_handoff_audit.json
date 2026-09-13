@@ -1,0 +1,105 @@
+{
+  "utc": "2026-09-13T17:29:34.313157+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "final_design_index_sources",
+      "pass_": true,
+      "files": 20,
+      "mismatches": []
+    },
+    {
+      "check": "all_174_immutable_baseline_sources",
+      "pass_": true,
+      "files": 174,
+      "mismatches": []
+    },
+    {
+      "check": "final_motion_certificate_sources",
+      "pass_": true,
+      "files": 1264,
+      "mismatches": []
+    },
+    {
+      "check": "733_effective_motion_rows_match_current_selection",
+      "pass_": true,
+      "differences": []
+    },
+    {
+      "check": "effective_input_hash_binding",
+      "pass_": true
+    },
+    {
+      "check": "all_dynamic_pair_counts_and_bounds_consistent",
+      "pass_": true,
+      "minimum_lower_bound_mm": 2.230402828900228
+    },
+    {
+      "check": "159000_pair_static_dynamic_partition_consistent",
+      "pass_": true,
+      "static_positive": 65088,
+      "named_bearings": 256,
+      "named_representations": 61
+    },
+    {
+      "check": "final_geometry_not_physical_qualification",
+      "pass_": true
+    },
+    {
+      "check": "final_viewer_sources",
+      "pass_": true,
+      "files": 278,
+      "mismatches": []
+    },
+    {
+      "check": "final_blender_and_images",
+      "pass_": true,
+      "files": 4,
+      "mismatches": []
+    },
+    {
+      "check": "staging_1880_source_records_match",
+      "pass_": true,
+      "files": 1880,
+      "mismatches": []
+    },
+    {
+      "check": "staging_1880_copies_match_bytes_and_SHA",
+      "pass_": true,
+      "files": 1880,
+      "mismatches": []
+    },
+    {
+      "check": "mapping_counts_and_unique_destinations",
+      "pass_": true,
+      "archive_files": 1880,
+      "git_files": 343
+    },
+    {
+      "check": "staging_inventory_has_no_missing_or_stale_extra_files",
+      "pass_": true,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "check": "native_hierarchy_libraries_and_final_geometry_entrypoints_in_archive",
+      "pass_": true,
+      "missing": []
+    },
+    {
+      "check": "misleading_automatic_jobs_absent_from_package_order_set",
+      "pass_": true,
+      "unexpected_job_files": []
+    }
+  ],
+  "source_mapping_sha256": "aa19ca45a70914e3bab9c76ab851be60ccba9a0a51abe0aa7bc6acf154a20747",
+  "final_design_index_sha256": "eebe1cf652699538a6aa3d16f920a36db9ca3bcbae3edfa331068844ed81195d",
+  "latest_summary_sha256": "becb6212dd478cabd7b1cf71f07ce656b53a4eccc767d3b1b981713ff6ea47ba",
+  "latest_verification_sha256": "ea168e1541d3d9ded1e1b043816ddce74c3c924aba0137fd1559d8cd503a8255",
+  "blend_sha256": "d2159b634c30f0e57b559c43b1989b5372c033d0130aa84ff9faa23db69780b1",
+  "notes": [
+    "Snapshot audit before root final prepare; final report additions require another byte-preserving prepare pass by root.",
+    "Full ZIP CRC/SHA and remote publication asset checks are assigned to root; this review does not claim those actions happened.",
+    "No geometry recomputation: verified certificate and effective-geometry bindings, counts and limits."
+  ]
+}

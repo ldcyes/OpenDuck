@@ -1,0 +1,1094 @@
+[
+  {
+    "board": "source_power",
+    "net": "GND",
+    "from_pins": [
+      "W4.1"
+    ],
+    "to_pins": [
+      "W2.1"
+    ],
+    "via_flows": [
+      {
+        "pos": [
+          52.0,
+          23.0
+        ],
+        "drill_mm": 1.0,
+        "name": "C3.2",
+        "layer_current_fraction": [
+          -0.0026840500951469267
+        ]
+      },
+      {
+        "pos": [
+          52.0,
+          10.0
+        ],
+        "drill_mm": 1.0,
+        "name": "C2.2",
+        "layer_current_fraction": [
+          0.0009243530882789046
+        ]
+      },
+      {
+        "pos": [
+          44.0,
+          56.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W4.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          8.5,
+          32.04
+        ],
+        "drill_mm": 1.3,
+        "name": "U1.3",
+        "layer_current_fraction": [
+          0.0018761106255025613
+        ]
+      },
+      {
+        "pos": [
+          36.44,
+          32.04
+        ],
+        "drill_mm": 1.9,
+        "name": "U1.4",
+        "layer_current_fraction": [
+          6.977819481008174e-05
+        ]
+      },
+      {
+        "pos": [
+          20.57,
+          32.04
+        ],
+        "drill_mm": 1.3,
+        "name": "U1.32",
+        "layer_current_fraction": [
+          -0.003947287966039161
+        ]
+      },
+      {
+        "pos": [
+          31.0,
+          53.0
+        ],
+        "drill_mm": 2.4,
+        "name": "W2.1",
+        "layer_current_fraction": [
+          0.0
+        ]
+      },
+      {
+        "pos": [
+          23.0,
+          52.0
+        ],
+        "drill_mm": 1.0,
+        "name": "C1.2",
+        "layer_current_fraction": [
+          -0.0004841401516772115
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00034002199394212715
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0005190898797176062
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00048647798684117065
+        ]
+      },
+      {
+        "pos": [
+          15.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00014572002054087486
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.004304613686852119
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0033364034097934734
+        ]
+      },
+      {
+        "pos": [
+          15.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00013704889123751775
+        ]
+      },
+      {
+        "pos": [
+          45.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00021227981359798044
+        ]
+      },
+      {
+        "pos": [
+          41.2,
+          41.25
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -1.715818978462873e-12
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0002828654011829968
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0014055483872282887
+        ]
+      },
+      {
+        "pos": [
+          58.0,
+          16.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0002817423288262097
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.000367118887316596
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0010029022030790503
+        ]
+      },
+      {
+        "pos": [
+          58.0,
+          23.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -1.5773809697788377e-11
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.001028254149051698
+        ]
+      },
+      {
+        "pos": [
+          55.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00010116163620480423
+        ]
+      },
+      {
+        "pos": [
+          55.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -1.1616752953695451e-06
+        ]
+      },
+      {
+        "pos": [
+          45.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.002914115147236869
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00015197876833786722
+        ]
+      },
+      {
+        "pos": [
+          39.0,
+          28.175
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -5.383340352833379e-11
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -5.6839845302587925e-05
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00016110260521295767
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00033681889752749353
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0002701805003131612
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.001149315806196848
+        ]
+      },
+      {
+        "pos": [
+          55.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0007804978949173787
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0005790376669790888
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          35.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0005563323760318781
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          2.224038376380347e-12
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0006298883890510521
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0001279353621680032
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0004081657836563371
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.000997776163456207
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.001654840546181991
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0012689949969461592
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0011193509454456973
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0013588637241902133
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00034859885814211367
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0002511095108271553
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.000545111244746338
+        ]
+      },
+      {
+        "pos": [
+          55.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          6.954659633626711e-05
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.002712428369490451
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.001068261763530326
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00027909282031886046
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          35.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0013259268875100085
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00010303121416552847
+        ]
+      },
+      {
+        "pos": [
+          49.2,
+          29.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          5.077420740169889e-11
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.007251469911041696
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          30.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0002143000110088251
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00066152581769657
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.001280845505950421
+        ]
+      },
+      {
+        "pos": [
+          26.8,
+          45.5
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0010559059109393116
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0003608558702358707
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00047487087048494466
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -5.434754059713717e-05
+        ]
+      },
+      {
+        "pos": [
+          15.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00046662535615645434
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          35.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00046253182621764727
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.000687694233498893
+        ]
+      },
+      {
+        "pos": [
+          30.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0012667600003863316
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0009176383093769028
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00021990400627609796
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          50.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0016714023608583079
+        ]
+      },
+      {
+        "pos": [
+          55.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -5.479702013697844e-11
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0008146530709855671
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0012393586464302334
+        ]
+      },
+      {
+        "pos": [
+          25.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -3.7430024103469545e-05
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          20.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.000696071861239496
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -4.381952747823244e-06
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          55.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -6.937289488200601e-05
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          35.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0002682109160657304
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0006646815281632285
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          9.585146944709066e-05
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0027486557954225434
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          35.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0003964750714899134
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          8.858653439213555e-11
+        ]
+      },
+      {
+        "pos": [
+          10.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00011972621104657956
+        ]
+      },
+      {
+        "pos": [
+          20.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00020647142366492154
+        ]
+      },
+      {
+        "pos": [
+          50.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0003852822624226672
+        ]
+      },
+      {
+        "pos": [
+          40.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00046170390364491323
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0006991184713616649
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0003136635260437415
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          40.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.00035506156563141984
+        ]
+      },
+      {
+        "pos": [
+          45.0,
+          15.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0019284673504553645
+        ]
+      },
+      {
+        "pos": [
+          35.0,
+          5.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0004541967683373876
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          10.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.00011508723701833168
+        ]
+      },
+      {
+        "pos": [
+          60.0,
+          25.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          -0.0013249164154747225
+        ]
+      },
+      {
+        "pos": [
+          33.2,
+          44.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0009625932985198771
+        ]
+      },
+      {
+        "pos": [
+          5.0,
+          45.0
+        ],
+        "drill_mm": 0.2,
+        "name": "via",
+        "layer_current_fraction": [
+          0.0004020047806887768
+        ]
+      }
+    ],
+    "nodes": 606289,
+    "solver_info": 0,
+    "R20_mOhm": 0.09606752417784084,
+    "R85_mOhm": 0.12060797322907028,
+    "source_grid_nodes": 4752,
+    "target_grid_nodes": 4752,
+    "grid_mm": 0.1,
+    "filled_area_mm2": [
+      2826.611,
+      3240.186
+    ],
+    "residual_relative": 8.790256334598951e-10,
+    "elapsed_s": 1.81
+  }
+]

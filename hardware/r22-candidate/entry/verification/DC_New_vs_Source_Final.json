@@ -1,0 +1,359 @@
+{
+  "status": "DESIGN REVIEW CANDIDATE; NOT HARDWARE OR MANUFACTURING QUALIFIED",
+  "method": {
+    "copper": "Union of native filled zones, actual pad polygons, trace widths and via annuli. 2D sheet networks connected by 32 distributed barrel sectors.",
+    "rho20_Ohm_mm": 1.7241e-05,
+    "temp_coefficient_per_K": 0.00393,
+    "plating_minimum_assumed_mm": 0.025,
+    "source_copper_mm": [
+      0.07,
+      0.07
+    ],
+    "r22_copper_mm": [
+      0.07,
+      0.035,
+      0.035,
+      0.07
+    ],
+    "terminals": "All cells within named source/target pads held at1V/0V;ideal solder/contact;PTH terminal pads ideal on all copper layers. No wire/contact resistance included.",
+    "ground": "W8 to PGND14/15/18 for mobile;W8 to W6 for bench;existing high-current battery-return sharing is not modeled as a simultaneous injection.",
+    "limits": "Grid comparison and analytic checks validate the numerical method only. Etch, copper/plating tolerance, thermoelectric effects, thermal gradients, vias-in-pad assembly, feedback sense error and dynamic output require hardware validation."
+  },
+  "pin_path_comparison": [
+    {
+      "net": "LOGIC_VIN",
+      "from_pins": [
+        "F1.2"
+      ],
+      "to_pins": [
+        "U3.4"
+      ],
+      "source_R20_mOhm": 8.433049949634608,
+      "r22_R20_mOhm": 7.114165832829064,
+      "source_R85_mOhm": 10.587272559268769,
+      "r22_R85_mOhm": 8.931479494825249,
+      "change_percent": -15.639467626569548
+    },
+    {
+      "net": "MOBILE_5V",
+      "from_pins": [
+        "U3.8"
+      ],
+      "to_pins": [
+        "U4.6"
+      ],
+      "source_R20_mOhm": 12.490728653826594,
+      "r22_R20_mOhm": 7.792302497842152,
+      "source_R85_mOhm": 15.681485288446597,
+      "r22_R85_mOhm": 9.78284617091593,
+      "change_percent": -37.61530881182866
+    },
+    {
+      "net": "BENCH_5V",
+      "from_pins": [
+        "W5.1"
+      ],
+      "to_pins": [
+        "U4.3"
+      ],
+      "source_R20_mOhm": 4.664841447478845,
+      "r22_R20_mOhm": 4.387054079353858,
+      "source_R85_mOhm": 5.856475195237316,
+      "r22_R85_mOhm": 5.507727043924801,
+      "change_percent": -5.95491553684252
+    },
+    {
+      "net": "SYSTEM_5V",
+      "from_pins": [
+        "U4.2",
+        "U4.7"
+      ],
+      "to_pins": [
+        "W7.1"
+      ],
+      "source_R20_mOhm": 8.366965400729951,
+      "r22_R20_mOhm": 2.42399556269746,
+      "source_R85_mOhm": 10.504306712346416,
+      "r22_R85_mOhm": 3.043205229188526,
+      "change_percent": -71.02897589984075
+    },
+    {
+      "net": "GND",
+      "from_pins": [
+        "W8.1"
+      ],
+      "to_pins": [
+        "U3.14",
+        "U3.15",
+        "U3.18"
+      ],
+      "source_R20_mOhm": 0.431994182996542,
+      "r22_R20_mOhm": 0.2861361953925361,
+      "source_R85_mOhm": 0.5423470970430087,
+      "r22_R85_mOhm": 0.3592296865055594,
+      "change_percent": -33.76387769674516
+    },
+    {
+      "net": "GND",
+      "from_pins": [
+        "W8.1"
+      ],
+      "to_pins": [
+        "W6.1"
+      ],
+      "source_R20_mOhm": 0.052216687923608396,
+      "r22_R20_mOhm": 0.12196852046509349,
+      "source_R85_mOhm": 0.06555544085369416,
+      "r22_R85_mOhm": 0.1531253790179016,
+      "change_percent": 133.58149533254604
+    }
+  ],
+  "complete_board_loop_comparison": [
+    {
+      "mode": "MOBILE",
+      "source_R20_mOhm": 21.28968823755309,
+      "source_R85_mOhm": 26.728139097836024,
+      "r22_R20_mOhm": 10.502434255932148,
+      "r22_R85_mOhm": 13.185281086610015,
+      "change_percent": -50.66891474057943
+    },
+    {
+      "mode": "BENCH",
+      "source_R20_mOhm": 13.084023536132404,
+      "source_R85_mOhm": 16.426337348437425,
+      "r22_R20_mOhm": 6.933018162516411,
+      "r22_R85_mOhm": 8.704057652131228,
+      "change_percent": -47.011573745870926
+    }
+  ],
+  "grid_convergence": [
+    {
+      "board": "source",
+      "net": "LOGIC_VIN",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 8.492421459266728,
+      "fine_R20_mOhm": 8.433049949634608,
+      "relative_difference_percent": 0.7040336531469515
+    },
+    {
+      "board": "source",
+      "net": "MOBILE_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 12.5593038918253,
+      "fine_R20_mOhm": 12.490728653826594,
+      "relative_difference_percent": 0.5490091082692494
+    },
+    {
+      "board": "source",
+      "net": "BENCH_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 4.799015299776304,
+      "fine_R20_mOhm": 4.664841447478845,
+      "relative_difference_percent": 2.8762789434134906
+    },
+    {
+      "board": "source",
+      "net": "SYSTEM_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 8.774585607912925,
+      "fine_R20_mOhm": 8.366965400729951,
+      "relative_difference_percent": 4.871780719296548
+    },
+    {
+      "board": "source",
+      "net": "GND",
+      "to_pins": [
+        "U3.14",
+        "U3.15",
+        "U3.18"
+      ],
+      "coarse_grid_mm": 0.1,
+      "fine_grid_mm": 0.075,
+      "coarse_R20_mOhm": 0.43419799923541,
+      "fine_R20_mOhm": 0.431994182996542,
+      "relative_difference_percent": 0.5101495171951465
+    },
+    {
+      "board": "source",
+      "net": "GND",
+      "to_pins": [
+        "W6.1"
+      ],
+      "coarse_grid_mm": 0.1,
+      "fine_grid_mm": 0.075,
+      "coarse_R20_mOhm": 0.05243595632995705,
+      "fine_R20_mOhm": 0.052216687923608396,
+      "relative_difference_percent": 0.41992017316272445
+    },
+    {
+      "board": "r22",
+      "net": "LOGIC_VIN",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 7.146906834100587,
+      "fine_R20_mOhm": 7.114165832829064,
+      "relative_difference_percent": 0.46022263243339356
+    },
+    {
+      "board": "r22",
+      "net": "MOBILE_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 7.844168975785752,
+      "fine_R20_mOhm": 7.792302497842152,
+      "relative_difference_percent": 0.6656117105048542
+    },
+    {
+      "board": "r22",
+      "net": "BENCH_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 4.496350805884172,
+      "fine_R20_mOhm": 4.387054079353858,
+      "relative_difference_percent": 2.4913466885371216
+    },
+    {
+      "board": "r22",
+      "net": "SYSTEM_5V",
+      "coarse_grid_mm": 0.05,
+      "fine_grid_mm": 0.025,
+      "coarse_R20_mOhm": 2.4492045341251862,
+      "fine_R20_mOhm": 2.42399556269746,
+      "relative_difference_percent": 1.0399759725497892
+    },
+    {
+      "board": "r22",
+      "net": "GND",
+      "to_pins": [
+        "U3.14",
+        "U3.15",
+        "U3.18"
+      ],
+      "coarse_grid_mm": 0.1,
+      "fine_grid_mm": 0.075,
+      "coarse_R20_mOhm": 0.28564648031868933,
+      "fine_R20_mOhm": 0.2861361953925361,
+      "relative_difference_percent": 0.17114754502657314
+    },
+    {
+      "board": "r22",
+      "net": "GND",
+      "to_pins": [
+        "W6.1"
+      ],
+      "coarse_grid_mm": 0.1,
+      "fine_grid_mm": 0.075,
+      "coarse_R20_mOhm": 0.12236639486856433,
+      "fine_R20_mOhm": 0.12196852046509349,
+      "relative_difference_percent": 0.3262107320427088
+    }
+  ],
+  "regulator": {
+    "nominal_V": 5.1,
+    "VFB_full_temperature_min_V": 0.98,
+    "RFBT_Ohm": 41000,
+    "RFBB_Ohm": 10000,
+    "resistor_initial_tolerance": 0.001,
+    "resistor_TCR_max_ppm_K": 25,
+    "TCR_temperature_excursion_K": 80,
+    "VFB_full_temperature_min_with_initial_resistor_tolerance_V": 4.989972027972028,
+    "divider_min_including_worst_independent_TCR_V": 4.973964107676969,
+    "ripple_typical_pp_V": 0.01,
+    "ripple_max_V": null,
+    "load_regulation_typical_percent": 0.04,
+    "load_regulation_max_percent": null,
+    "warning": "Ripple and load regulation are typical-only datasheet values. The quoted divider lower bound is not a guaranteed all-load instantaneous output minimum."
+  },
+  "TPS2117": {
+    "Ron_max_25C_Ohm": 0.025,
+    "Ron_max_85C_Ohm": 0.031,
+    "Ron_max_105C_Ohm": 0.033,
+    "conditions": "VIN=5V or3.3V;datasheet characterization at200mA;current/thermal and transient behavior require bench validation."
+  },
+  "conditional_voltage_scenarios": [
+    {
+      "mode": "MOBILE",
+      "current_A": 2.7,
+      "copper_temp_C": 105,
+      "copper_cross_section_fraction": 0.8,
+      "numerical_model_allowance": 1.05,
+      "mux_max_Ohm": 0.033,
+      "PCB_loop_drop_V": 0.04965067476027876,
+      "mux_drop_V": 0.08910000000000001,
+      "module_min_with_tolerance_and_TCR_V": 4.973964107676969,
+      "at_W7_W8_before_ripple_harness_V": 4.8352134329166905,
+      "bench_required_at_W5_W6_for_4p75V_out_before_ripple_harness_V": null,
+      "remaining_to_4p75_V": 0.08521343291669048,
+      "conditional_ripple_pp_budget_V": 0.05,
+      "conditional_dynamic_extra_droop_budget_V": 0.02,
+      "max_external_loop_R_if_budgets_met_mOhm": 14.893864043218695
+    },
+    {
+      "mode": "BENCH",
+      "current_A": 2.7,
+      "copper_temp_C": 105,
+      "copper_cross_section_fraction": 0.8,
+      "numerical_model_allowance": 1.05,
+      "mux_max_Ohm": 0.033,
+      "PCB_loop_drop_V": 0.032776118517454655,
+      "mux_drop_V": 0.08910000000000001,
+      "module_min_with_tolerance_and_TCR_V": null,
+      "at_W7_W8_before_ripple_harness_V": null,
+      "bench_required_at_W5_W6_for_4p75V_out_before_ripple_harness_V": 4.871876118517455,
+      "remaining_to_4p75_V": null,
+      "conditional_ripple_pp_budget_V": 0.05,
+      "conditional_dynamic_extra_droop_budget_V": 0.02,
+      "max_external_loop_R_if_budgets_met_mOhm": null
+    },
+    {
+      "mode": "MOBILE",
+      "current_A": 3.0,
+      "copper_temp_C": 105,
+      "copper_cross_section_fraction": 0.8,
+      "numerical_model_allowance": 1.05,
+      "mux_max_Ohm": 0.033,
+      "PCB_loop_drop_V": 0.05516741640030973,
+      "mux_drop_V": 0.099,
+      "module_min_with_tolerance_and_TCR_V": 4.973964107676969,
+      "at_W7_W8_before_ripple_harness_V": 4.819796691276659,
+      "bench_required_at_W5_W6_for_4p75V_out_before_ripple_harness_V": null,
+      "remaining_to_4p75_V": 0.06979669127665922,
+      "conditional_ripple_pp_budget_V": 0.05,
+      "conditional_dynamic_extra_droop_budget_V": 0.02,
+      "max_external_loop_R_if_budgets_met_mOhm": 8.265563758886405
+    },
+    {
+      "mode": "BENCH",
+      "current_A": 3.0,
+      "copper_temp_C": 105,
+      "copper_cross_section_fraction": 0.8,
+      "numerical_model_allowance": 1.05,
+      "mux_max_Ohm": 0.033,
+      "PCB_loop_drop_V": 0.03641790946383851,
+      "mux_drop_V": 0.099,
+      "module_min_with_tolerance_and_TCR_V": null,
+      "at_W7_W8_before_ripple_harness_V": null,
+      "bench_required_at_W5_W6_for_4p75V_out_before_ripple_harness_V": 4.885417909463839,
+      "remaining_to_4p75_V": null,
+      "conditional_ripple_pp_budget_V": 0.05,
+      "conditional_dynamic_extra_droop_budget_V": 0.02,
+      "max_external_loop_R_if_budgets_met_mOhm": null
+    }
+  ],
+  "primary_sources": [
+    "https://www.ti.com/lit/ds/symlink/lmzm33603.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps2117.pdf",
+    "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0710KL",
+    "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+  ],
+  "file_sha256": {
+    "Microduck_Entry_5V_R22.kicad_pcb": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+    "source_dc_geometry.json": "0ff64738625b7b54abeb3f78492d696d661df4ca17de71abb8899ca44c25bf4d",
+    "r22_dc_geometry.json": "876aa0a81a186797ca0b253b5fe61861636d1f1ca0ba8b3e93f4a89ea84daf59",
+    "solve_dc_copper.py": "4833fc46f93a744ff7294e048d308dbe9e7cfd45ff9eda929ee659871823d52f"
+  }
+}

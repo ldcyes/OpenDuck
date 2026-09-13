@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T00:59:52",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Microduck_Entry_5V_R22.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Via [I2C_SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 45.3,
+                        "y": 7.5
+                    },
+                    "uuid": "10ed4357-2cd4-4aa6-83e9-e7a088767b88"
+                },
+                {
+                    "description": "Track [+3V3] on B.Cu, length 4.2000 mm",
+                    "pos": {
+                        "x": 43.2,
+                        "y": 7.0
+                    },
+                    "uuid": "b79be0bf-7f28-4b5b-a0a2-dccb3c8fd76b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Via [LOGIC_VIN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 10.6,
+                        "y": 23.7
+                    },
+                    "uuid": "773f04dd-ff54-4f2c-8ab9-1f24fe47358a"
+                },
+                {
+                    "description": "Track [RT_5V] on F.Cu, length 2.8500 mm",
+                    "pos": {
+                        "x": 12.65,
+                        "y": 24.2
+                    },
+                    "uuid": "cfe0fe29-ba39-46a3-9fc3-98fba413e403"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Via [LOGIC_VIN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 10.6,
+                        "y": 24.7
+                    },
+                    "uuid": "462ee6dc-9048-4d2d-94be-2e724baa9689"
+                },
+                {
+                    "description": "Track [RT_5V] on F.Cu, length 2.8500 mm",
+                    "pos": {
+                        "x": 12.65,
+                        "y": 24.2
+                    },
+                    "uuid": "cfe0fe29-ba39-46a3-9fc3-98fba413e403"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule '2oz absolute fabrication spacing' clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.3,
+                        "y": 15.5
+                    },
+                    "uuid": "2f4ff8dd-61e5-4539-a199-6ee3e84aaeae"
+                },
+                {
+                    "description": "Track [BAT_MON] on B.Cu, length 1.7000 mm",
+                    "pos": {
+                        "x": 16.2,
+                        "y": 16.0
+                    },
+                    "uuid": "d8b3cebb-6231-4f7a-8f65-6b57ef9c2e4e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

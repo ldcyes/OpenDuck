@@ -1,0 +1,1301 @@
+{
+  "status": "C101_BOARD_MOUNT_CANDIDATE_NOT_HOST_MOUNT_OR_MANUFACTURING_APPROVAL",
+  "parts": [
+    {
+      "name": "R22_C101_PEEK_front_beam_cradle",
+      "material": "unfilled PEEK, nominal Victrex450G-type stock",
+      "density_assumption_g_cm3": 1.3,
+      "mass_from_CAD_g": 1.0443728775304806,
+      "link": "trunk_base",
+      "notes": "One CNC solid. Two3mm saddles x8..11/21..24, R6.6 bore, clipped z1.75. Two2.2x0.8 lacing slots and2.2x0.9 horizontal tunnels. RS101 reliefx28.6..37.4,y0..0.8. No+X vent stop. H1/H2 throughØ2.2.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_PEEK_front_beam_cradle.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_PEEK_front_beam_cradle.stl",
+      "sha256_STEP": "c0d51d1f5639f593eb54ce765ee4e807935cab5f2eff4063fc58fe4c7d81c348",
+      "sha256_STL": "6da76d8a2e03d678ae8851eed1a11cfd3774b813d164e873cf3f1be5e8efbebb",
+      "volume_mm3": 803.3637519465234,
+      "center_mm": [
+        26.07323526816435,
+        1.1459905015791891,
+        3.3188887694919127
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          13888.734211819607,
+          -13925.79004123673,
+          4883.705234758811
+        ],
+        [
+          -13925.79004123673,
+          312877.424841719,
+          476.25754823102216
+        ],
+        [
+          4883.705234758811,
+          476.25754823102216,
+          323628.29328241386
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -5.1e-06,
+          -11.338372276906169,
+          1.5999949
+        ],
+        [
+          65.0000051,
+          5.5000051,
+          7.5000051
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_PEEK_front_beam_cradle.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_PEEK_front_beam_cradle.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "manufacturing_candidate",
+      "part_number": "R22-CAP-001",
+      "expected_contacts": [
+        "R22_Power_PCB_FINISHED",
+        "R22_C101_H1_front_washer",
+        "R22_C101_H2_front_washer"
+      ]
+    },
+    {
+      "name": "R22_C101_saddle_liner_1_MAX_D13",
+      "material": "die-cut insulating VMQ50A silicone, density assumption",
+      "density_assumption_g_cm3": 1.2,
+      "mass_from_CAD_g": 0.006244099049567609,
+      "link": "trunk_base",
+      "notes": "MAXØ13 seated case:0.10mm radial liner. Select actual thickness0.10..0.60mm from measured canØ12..13; supplier and compression qualification pending. No adhesive at vent.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_saddle_liner_1_MAX_D13.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_saddle_liner_1_MAX_D13.stl",
+      "sha256_STEP": "368c9bce6afda8c205099f4b6aaf47dfe1b87a55faa8f2a04baf74aff488d730",
+      "sha256_STL": "e8be1169691c12fe0d0faf0fea59e12f83edff6a17bfa4ec79ead015812cbf32",
+      "volume_mm3": 5.203415874639674,
+      "center_mm": [
+        9.500000000000009,
+        -3.4999999999999933,
+        4.3027306540778465
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          103.50387133457548,
+          2.842170943040401e-14,
+          -1.9895196601282805e-13
+        ],
+        [
+          2.842170943040401e-14,
+          15.749079171580775,
+          8.526512829121202e-14
+        ],
+        [
+          -1.9895196601282805e-13,
+          8.526512829121202e-14,
+          95.55991597495017
+        ]
+      ],
+      "bounds_mm": [
+        [
+          7.99999985,
+          -9.903124387432849,
+          2.49999985
+        ],
+        [
+          11.00000015,
+          2.9031243874328485,
+          7.50000015
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_saddle_liner_1_MAX_D13.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_saddle_liner_1_MAX_D13.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "compliant_part_design",
+      "variant": "max_diameter_case",
+      "mass_relative_uncertainty": 0.3
+    },
+    {
+      "name": "R22_C101_saddle_liner_2_MAX_D13",
+      "material": "die-cut insulating VMQ50A silicone, density assumption",
+      "density_assumption_g_cm3": 1.2,
+      "mass_from_CAD_g": 0.006244099049567609,
+      "link": "trunk_base",
+      "notes": "MAXØ13 seated case:0.10mm radial liner. Select actual thickness0.10..0.60mm from measured canØ12..13; supplier and compression qualification pending. No adhesive at vent.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_saddle_liner_2_MAX_D13.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_saddle_liner_2_MAX_D13.stl",
+      "sha256_STEP": "c3c29af89c6f3a26a33472275648ef5db8bb0e8414171d2482a25ab877883563",
+      "sha256_STL": "9a64de9800083128d3dd515594a278f8142affd828dcd3d3bbe658145fe37448",
+      "volume_mm3": 5.203415874639674,
+      "center_mm": [
+        22.500000000000036,
+        -3.4999999999999933,
+        4.3027306540778465
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          103.50387133457548,
+          -7.958078640513122e-13,
+          -6.252776074688882e-13
+        ],
+        [
+          -7.958078640513122e-13,
+          15.749079171579524,
+          8.526512829121202e-14
+        ],
+        [
+          -6.252776074688882e-13,
+          8.526512829121202e-14,
+          95.55991597494312
+        ]
+      ],
+      "bounds_mm": [
+        [
+          20.99999985,
+          -9.903124387432849,
+          2.49999985
+        ],
+        [
+          24.00000015,
+          2.9031243874328485,
+          7.50000015
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_saddle_liner_2_MAX_D13.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_saddle_liner_2_MAX_D13.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "compliant_part_design",
+      "variant": "max_diameter_case",
+      "mass_relative_uncertainty": 0.3
+    },
+    {
+      "name": "R22_C101_lacing_1_installed_envelope",
+      "material": "Daburn2049-A PTFE flat braid purchase envelope",
+      "density_assumption_g_cm3": null,
+      "mass_from_CAD_g": null,
+      "link": "trunk_base",
+      "notes": "Nominal installed braid width1.8288max, thickness0.3556max. Closed smooth envelope is not the braided/knot material topology or rated restraint. Seat through independent slot and tie surgeon knot plus locking half hitches; procedure must pass pull/creep test.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_lacing_1_installed_envelope.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_lacing_1_installed_envelope.stl",
+      "sha256_STEP": "a87d1174f2ab7ccfd1db7972630e48308a729d796a3b6b0338f3412f2934ab95",
+      "sha256_STL": "b262154ab07b53688feed634101bbaa14fa44dbf61e4e7b3442dbcfda4a191c7",
+      "volume_mm3": 30.31913804250311,
+      "center_mm": [
+        12.999999999999998,
+        -2.6585448704326478,
+        8.502496301586138
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          1538.6613384767525,
+          1.5916157281026244e-12,
+          1.5916157281026244e-11
+        ],
+        [
+          1.5916157281026244e-12,
+          743.7200992624294,
+          119.25326933633846
+        ],
+        [
+          1.5916157281026244e-11,
+          119.25326933633846,
+          811.8416797802947
+        ]
+      ],
+      "bounds_mm": [
+        [
+          12.08559985,
+          -10.378061167063374,
+          2.2219998499999996
+        ],
+        [
+          13.914400150000002,
+          4.178000150000001,
+          15.978061167063375
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_lacing_1_installed_envelope.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_lacing_1_installed_envelope.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "lacing_reference",
+      "reference_only": true,
+      "mass_budget_g": 0.15,
+      "source_url": "https://www.daburn.com/2048-to-2049-PTFE-Flat-Braided-Lacing-Tape-A-A-52082-Type-III.aspx"
+    },
+    {
+      "name": "R22_C101_lacing_1_knot_budget",
+      "material": "knot clearance budget, no material mass",
+      "density_assumption_g_cm3": null,
+      "mass_from_CAD_g": null,
+      "link": "trunk_base",
+      "notes": "2.6x2.6x2.08mm maximum tied-knot clearance budget. Actual knot must fit; trim tails only after pull test. This is a service/material allowance, not a fabricated block.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_lacing_1_knot_budget.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_lacing_1_knot_budget.stl",
+      "sha256_STEP": "ebad6a5f6b51b9e0a85e89019f55f0c07bc75de9c580dff4d0c68ef1444a6afa",
+      "sha256_STL": "91c06df9b4b1ad41f8d4b415b0efcab76cff8c529f9913e675b538a25f1e940f",
+      "volume_mm3": 14.060799999999995,
+      "center_mm": [
+        13.0,
+        -3.5,
+        16.96
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          12.990304426666626,
+          0.0,
+          -4.547473508864641e-13
+        ],
+        [
+          0.0,
+          12.990304426667535,
+          0.0
+        ],
+        [
+          -4.547473508864641e-13,
+          0.0,
+          15.841834666666728
+        ]
+      ],
+      "bounds_mm": [
+        [
+          11.6999999,
+          -4.8000001,
+          15.919999900000002
+        ],
+        [
+          14.3000001,
+          -2.1999999000000003,
+          18.0000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_lacing_1_knot_budget.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_lacing_1_knot_budget.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "knot_budget",
+      "reference_only": true
+    },
+    {
+      "name": "R22_C101_lacing_2_installed_envelope",
+      "material": "Daburn2049-A PTFE flat braid purchase envelope",
+      "density_assumption_g_cm3": null,
+      "mass_from_CAD_g": null,
+      "link": "trunk_base",
+      "notes": "Nominal installed braid width1.8288max, thickness0.3556max. Closed smooth envelope is not the braided/knot material topology or rated restraint. Seat through independent slot and tie surgeon knot plus locking half hitches; procedure must pass pull/creep test.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_lacing_2_installed_envelope.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_lacing_2_installed_envelope.stl",
+      "sha256_STEP": "0e5f2a77b72109fcc3893828e4d9e11c0480eacec140fd8ea96f7f63221d7472",
+      "sha256_STL": "5940df3bd56306e18f4371e89c21a347f34fa311e75bb9d5ab82e970f4a9bbe2",
+      "volume_mm3": 30.319138042502868,
+      "center_mm": [
+        18.999999999999908,
+        -2.6585448704326513,
+        8.502496301586135
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          1538.661338476753,
+          -5.6843418860808015e-12,
+          -1.1823431123048067e-11
+        ],
+        [
+          -5.6843418860808015e-12,
+          743.7200992625349,
+          119.25326933633721
+        ],
+        [
+          -1.1823431123048067e-11,
+          119.25326933633721,
+          811.8416797804093
+        ]
+      ],
+      "bounds_mm": [
+        [
+          18.085599849999998,
+          -10.378061167063374,
+          2.2219998499999996
+        ],
+        [
+          19.91440015000001,
+          4.178000150000001,
+          15.978061167063375
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_lacing_2_installed_envelope.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_lacing_2_installed_envelope.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "lacing_reference",
+      "reference_only": true,
+      "mass_budget_g": 0.15,
+      "source_url": "https://www.daburn.com/2048-to-2049-PTFE-Flat-Braided-Lacing-Tape-A-A-52082-Type-III.aspx"
+    },
+    {
+      "name": "R22_C101_lacing_2_knot_budget",
+      "material": "knot clearance budget, no material mass",
+      "density_assumption_g_cm3": null,
+      "mass_from_CAD_g": null,
+      "link": "trunk_base",
+      "notes": "2.6x2.6x2.08mm maximum tied-knot clearance budget. Actual knot must fit; trim tails only after pull test. This is a service/material allowance, not a fabricated block.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_lacing_2_knot_budget.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_lacing_2_knot_budget.stl",
+      "sha256_STEP": "308fd0c14595565feae4f7907c3f55390695221a5da4a9e00542583a29fc0f2f",
+      "sha256_STL": "d54ac2c91fdd50248afe878dad426d02c27792e24fbabab13223abd8f2bfea1f",
+      "volume_mm3": 14.060799999999995,
+      "center_mm": [
+        19.0,
+        -3.5,
+        16.96
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          12.990304426665716,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          12.990304426664807,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          15.841834666666728
+        ]
+      ],
+      "bounds_mm": [
+        [
+          17.699999899999998,
+          -4.8000001,
+          15.919999900000002
+        ],
+        [
+          20.300000100000002,
+          -2.1999999000000003,
+          18.0000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_lacing_2_knot_budget.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_lacing_2_knot_budget.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "knot_budget",
+      "reference_only": true
+    },
+    {
+      "name": "R22_C101_H1_front_washer",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.02540802328498915,
+      "link": "trunk_base",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3. Dimension acceptance and burr removal required.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H1_front_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H1_front_washer.stl",
+      "sha256_STEP": "b8187615a5bc44bbd2b89fc8b3fc855c3bd5e35ec978e9404606bf227faac124",
+      "sha256_STL": "6337aa6bb76dd3c13b51372a2f381020c522c4d7141b4273efdd67993bc602e7",
+      "volume_mm3": 3.21620547911255,
+      "center_mm": [
+        3.0000000000000004,
+        3.0000000000000004,
+        6.349999999999999
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.713751155324417,
+          0.0,
+          7.105427357601002e-15
+        ],
+        [
+          0.0,
+          4.71375115532436,
+          0.0
+        ],
+        [
+          7.105427357601002e-15,
+          0.0,
+          9.379259228462018
+        ]
+      ],
+      "bounds_mm": [
+        [
+          0.8499999000000001,
+          0.8499999000000001,
+          6.199999899999999
+        ],
+        [
+          5.150000100000001,
+          5.150000100000001,
+          6.500000099999999
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H1_front_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H1_front_washer.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H1",
+      "mass_relative_uncertainty": 0.15
+    },
+    {
+      "name": "R22_C101_H1_rear_washer",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.025408023284989156,
+      "link": "trunk_base",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3. Dimension acceptance and burr removal required.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H1_rear_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H1_rear_washer.stl",
+      "sha256_STEP": "70a8392a05c3041c143de5638415f47c44d883789732013a3fd227243dab35d1",
+      "sha256_STL": "eebf11311b4791f99311f3d0f7241f2084621f7110755261c46f160b41697c3e",
+      "volume_mm3": 3.216205479112551,
+      "center_mm": [
+        3.0,
+        2.9999999999999996,
+        -0.14999999999999997
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.713751155324406,
+          -1.0658141036401503e-14,
+          2.220446049250313e-16
+        ],
+        [
+          -1.0658141036401503e-14,
+          4.713751155324321,
+          4.440892098500626e-16
+        ],
+        [
+          2.220446049250313e-16,
+          4.440892098500626e-16,
+          9.379259228462033
+        ]
+      ],
+      "bounds_mm": [
+        [
+          0.8499999000000001,
+          0.8499999000000001,
+          -0.3000001
+        ],
+        [
+          5.150000100000001,
+          5.150000100000001,
+          1e-07
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H1_rear_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H1_rear_washer.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H1",
+      "mass_relative_uncertainty": 0.15
+    },
+    {
+      "name": "R22_C101_H1_M2x8",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.3777388174823295,
+      "link": "trunk_base",
+      "notes": "Nominal M2x8 under-head length8, headØ3.8x2.0; helix/socket omitted. Underheadz6.5, tipz-1.5. No nominal protrusion beyond1.2mm thin nut; stack tolerances remain an acceptance item.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H1_M2x8.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H1_M2x8.stl",
+      "sha256_STEP": "1a9b35b711712c5e80c60f9b1528cec4cc05a77b92ba847dd685970f22a53681",
+      "sha256_STL": "351cf4e2bfef38f5eb25b076b050a82edd168bb1faaba15477c6ef324c58e114",
+      "volume_mm3": 47.81504018763665,
+      "center_mm": [
+        2.9999999999999996,
+        3.0,
+        4.871879106438897
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          466.41513203006957,
+          -5.684341886080802e-14,
+          1.1368683772161603e-13
+        ],
+        [
+          -5.684341886080802e-14,
+          466.41513203006934,
+          1.1368683772161603e-13
+        ],
+        [
+          1.1368683772161603e-13,
+          1.1368683772161603e-13,
+          53.50792023520671
+        ]
+      ],
+      "bounds_mm": [
+        [
+          1.0999999,
+          1.0999999,
+          -1.5000001
+        ],
+        [
+          4.900000100000001,
+          4.900000100000001,
+          8.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H1_M2x8.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H1_M2x8.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H1",
+      "mass_relative_uncertainty": 0.15,
+      "host_thread_engagement": [
+        "R22_C101_H1_SHNS_M2_LP"
+      ]
+    },
+    {
+      "name": "R22_C101_H1_SHNS_M2_LP",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.1122980622981637,
+      "link": "trunk_base",
+      "notes": "NBK SHNS-M2-LP, AF4, height1.2. Thread3pitches nominal; true end chamfer and engagement must be measured. Standard tallM2 nut is not interchangeable in this stack.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H1_SHNS_M2_LP.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H1_SHNS_M2_LP.stl",
+      "sha256_STEP": "aaccce437548d79736928871067c43153e32f869d2da2059efc13bacd6bd25de",
+      "sha256_STL": "51279f00b4020e152d91d4014f65f5589315ef86e46db4d7ec61df170e8daca6",
+      "volume_mm3": 14.214944594704265,
+      "center_mm": [
+        3.0,
+        2.999999999999999,
+        -0.8999999999999998
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          19.79496306015949,
+          -2.842170943040401e-14,
+          1.4210854715202004e-14
+        ],
+        [
+          -2.842170943040401e-14,
+          19.79496306015946,
+          2.1316282072803006e-14
+        ],
+        [
+          1.4210854715202004e-14,
+          2.1316282072803006e-14,
+          36.17833941758994
+        ]
+      ],
+      "bounds_mm": [
+        [
+          0.6905988232414967,
+          0.9999998999999987,
+          -1.5000001
+        ],
+        [
+          5.309401176758503,
+          5.0000001,
+          -0.29999990000000004
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H1_SHNS_M2_LP.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H1_SHNS_M2_LP.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H1",
+      "mass_relative_uncertainty": 0.4,
+      "manufacturer_listed_mass_g": 0.08,
+      "source_url": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/lowsmallheadscrew/SHNS-LP/?SelectedLanguage=en-US"
+    },
+    {
+      "name": "R22_C101_H2_front_washer",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.02540802328498914,
+      "link": "trunk_base",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3. Dimension acceptance and burr removal required.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H2_front_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H2_front_washer.stl",
+      "sha256_STEP": "48d46687964bb7a6260792d796c65edfc37813fbb582de409f955455090704ed",
+      "sha256_STL": "a38aafb4a509a4650d35a0124c3e3562ed5a5d6fec6de9a6beb61b4d6a4763c3",
+      "volume_mm3": 3.216205479112549,
+      "center_mm": [
+        61.99999999999999,
+        2.9999999999999996,
+        6.349999999999998
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.7137511553244735,
+          0.0,
+          -4.547473508864641e-13
+        ],
+        [
+          0.0,
+          4.713751155326463,
+          -1.4210854715202004e-14
+        ],
+        [
+          -4.547473508864641e-13,
+          -1.4210854715202004e-14,
+          9.379259228460796
+        ]
+      ],
+      "bounds_mm": [
+        [
+          59.8499999,
+          0.8499999000000001,
+          6.199999899999999
+        ],
+        [
+          64.1500001,
+          5.150000100000001,
+          6.500000099999999
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H2_front_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H2_front_washer.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H2",
+      "mass_relative_uncertainty": 0.15
+    },
+    {
+      "name": "R22_C101_H2_rear_washer",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.025408023284989145,
+      "link": "trunk_base",
+      "notes": "M2 washer OD4.3 ID2.2 t0.3. Dimension acceptance and burr removal required.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H2_rear_washer.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H2_rear_washer.stl",
+      "sha256_STEP": "6a856a6e699cbab5d356b05e425f06962eb5a6dd7b2f1b5dd78affa9086cef04",
+      "sha256_STL": "b92fe9c06ab4183d4c7f4fed5053e53579a2d7c15a96a0cc4b9544593b417635",
+      "volume_mm3": 3.2162054791125496,
+      "center_mm": [
+        61.999999999999986,
+        2.9999999999999996,
+        -0.15
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          4.7137511553244025,
+          1.1368683772161603e-13,
+          7.105427357601002e-15
+        ],
+        [
+          1.1368683772161603e-13,
+          4.713751155326463,
+          0.0
+        ],
+        [
+          7.105427357601002e-15,
+          0.0,
+          9.379259228462615
+        ]
+      ],
+      "bounds_mm": [
+        [
+          59.8499999,
+          0.8499999000000001,
+          -0.3000001
+        ],
+        [
+          64.1500001,
+          5.150000100000001,
+          1e-07
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H2_rear_washer.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H2_rear_washer.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H2",
+      "mass_relative_uncertainty": 0.15
+    },
+    {
+      "name": "R22_C101_H2_M2x8",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.3777388174823295,
+      "link": "trunk_base",
+      "notes": "Nominal M2x8 under-head length8, headØ3.8x2.0; helix/socket omitted. Underheadz6.5, tipz-1.5. No nominal protrusion beyond1.2mm thin nut; stack tolerances remain an acceptance item.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H2_M2x8.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H2_M2x8.stl",
+      "sha256_STEP": "cfe94ac2e58e278dbf228f839dd64c86fcbf4fc1d61bcf25472e37766df05814",
+      "sha256_STL": "a969bf52f7cc7cba0ba2f39237e148874e064abddb395a9f8e5d16ea0065eaf5",
+      "volume_mm3": 47.81504018763665,
+      "center_mm": [
+        62.0,
+        3.0,
+        4.871879106438897
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          466.41513203006934,
+          0.0,
+          3.637978807091713e-12
+        ],
+        [
+          0.0,
+          466.4151320300589,
+          1.1368683772161603e-13
+        ],
+        [
+          3.637978807091713e-12,
+          1.1368683772161603e-13,
+          53.50792023522081
+        ]
+      ],
+      "bounds_mm": [
+        [
+          60.0999999,
+          1.0999999,
+          -1.5000001
+        ],
+        [
+          63.9000001,
+          4.900000100000001,
+          8.5000001
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H2_M2x8.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H2_M2x8.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H2",
+      "mass_relative_uncertainty": 0.15,
+      "host_thread_engagement": [
+        "R22_C101_H2_SHNS_M2_LP"
+      ]
+    },
+    {
+      "name": "R22_C101_H2_SHNS_M2_LP",
+      "material": "A2 stainless nominal purchase geometry",
+      "density_assumption_g_cm3": 7.9,
+      "mass_from_CAD_g": 0.11229806229816376,
+      "link": "trunk_base",
+      "notes": "NBK SHNS-M2-LP, AF4, height1.2. Thread3pitches nominal; true end chamfer and engagement must be measured. Standard tallM2 nut is not interchangeable in this stack.",
+      "interfaces": [],
+      "STEP": "STEP_毫米/R22_C101_H2_SHNS_M2_LP.step",
+      "STL": "STL_装配坐标_毫米/R22_C101_H2_SHNS_M2_LP.stl",
+      "sha256_STEP": "2b83fe5821a8954930b20f07147124ce2a8077afe81e2c0343349c9f8763bbe0",
+      "sha256_STL": "efea74d9f58aa01f9a4a7900c3d4b5832456f486d643989c5c94cd829bc1a678",
+      "volume_mm3": 14.214944594704273,
+      "center_mm": [
+        62.0,
+        3.0,
+        -0.9000000000000004
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          19.794963060159432,
+          -9.094947017729282e-13,
+          -1.1368683772161603e-13
+        ],
+        [
+          -9.094947017729282e-13,
+          19.794963060165173,
+          -7.105427357601002e-15
+        ],
+        [
+          -1.1368683772161603e-13,
+          -7.105427357601002e-15,
+          36.17833941759454
+        ]
+      ],
+      "bounds_mm": [
+        [
+          59.690598823241494,
+          0.9999998999999987,
+          -1.5000001000000003
+        ],
+        [
+          64.3094011767585,
+          5.0000001,
+          -0.29999990000000004
+        ]
+      ],
+      "solid_count": 1,
+      "valid_BRep": true,
+      "step": "work/r22-compact-power/mechanics/power_cap_mount/STEP_毫米/R22_C101_H2_SHNS_M2_LP.step",
+      "mesh": "work/r22-compact-power/mechanics/power_cap_mount/STL_装配坐标_毫米/R22_C101_H2_SHNS_M2_LP.stl",
+      "R": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "t_mm": [
+        -25.23550047278404,
+        -31.25542050600052,
+        74.54043605923653
+      ],
+      "link_frame": "trunk_base",
+      "STEP_readback_verified": true,
+      "kind": "fastener_reference",
+      "reference_only": true,
+      "station": "H2",
+      "mass_relative_uncertainty": 0.4,
+      "manufacturer_listed_mass_g": 0.08,
+      "source_url": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/lowsmallheadscrew/SHNS-LP/?SelectedLanguage=en-US"
+    }
+  ],
+  "native_coordinate_contract": "PCB backside z0, front z1.6; parts STEP and STL both native mm; apply R,t for trunk_base.",
+  "board_transform": {
+    "R": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "t_mm": [
+      -25.23550047278404,
+      -31.25542050600052,
+      74.54043605923653
+    ]
+  },
+  "mounts_xy_mm": [
+    [
+      3,
+      3
+    ],
+    [
+      62,
+      3
+    ]
+  ],
+  "dimensions": {
+    "cradle_bore_radius_mm": 6.6,
+    "saddle_x_spans_mm": [
+      [
+        8,
+        11
+      ],
+      [
+        21,
+        24
+      ]
+    ],
+    "cap_max_radius_mm": 6.5,
+    "cap_axis_yz_mm": [
+      -3.5,
+      9.1
+    ],
+    "open_vent_plane_x_mm": 28,
+    "vent_obstruction_by_this_design": false,
+    "lacing_centers_x_mm": [
+      13,
+      19
+    ],
+    "slots_x_width_mm": 2.2,
+    "slots_y_width_mm": 0.8,
+    "slot_floor_z_mm": 2.0,
+    "under_cap_braid_min_z_mm": 2.222
+  },
+  "accessory_mass_estimate_g": 2.438566928330559,
+  "accessory_center_native_mm": [
+    27.633209629411663,
+    1.373040134192635,
+    4.118570350583851
+  ],
+  "capacitor_mass_included": false,
+  "capacitor_mass_budget_g": 8.0,
+  "capacitor_mass_budget_is_assumption": true,
+  "sources": {
+    "work/r22-compact-power/mechanics/power_cap_mount/reference_snapshot/manifest.json": "2d61dd48dc2f95ffedccd39f2563238f5f2afe5410fb62fc90e5330519bf4d8d",
+    "work/r22-compact-power/mechanics/power_cap_mount/reference_snapshot/interface_snapshot.json": "29ccb5f39c8e13ecf32a70185670191fcb6aad50dffbd2b38e0b2a045416c7c4",
+    "work/r22-compact-power/mechanics/power_cap_mount/build.py": "c76514de542fc203e29c37b008aee0cfe7ed54b4722cfeb1a0e8825a789b2263",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43"
+  },
+  "manufacturing_approved": false,
+  "whole_robot_mount_complete": false,
+  "physical_retention_test_passed": false,
+  "limits": [
+    "Two H1/H2 joints secure the cradle to the PCB. The board-to-host structural attachment is outside this part.",
+    "MAXdiameter seated geometry only: match liners and adjust lead forming jig to measured can body, never bend by installed leads.",
+    "PositiveX axial retention depends on two independent tied loops and measured friction; no coefficient or pullout rating is inferred.",
+    "M2x8 nominal8mm complete stack has no thread-length tolerance margin. Match measured fastener/stack, require≥0.9mm effective engagement and≤0.3mm protrusion; do not assume full three pitches are engaged.",
+    "Reference/knot/strap envelopes are not converted to solid material mass. Braid budget0.30g is a weigh-before-assembly assumption."
+  ]
+}

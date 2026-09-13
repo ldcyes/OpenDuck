@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r22-compact-power/entry/Microduck_Entry_5V_R22.kicad_sch</source>
+    <date>2026-09-14T00:50:29</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Microduck R8 Protected TDK Regulator</title>
+        <company>CONTROLLED PROTOTYPE</company>
+        <rev>R8</rev>
+        <date>2026-09-06</date>
+        <source>Microduck_Entry_5V_R22.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62668624-6abd-5193-9c42-554bb0ea8345</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27090dad-197b-5eeb-94d5-625fe0400723</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46e27e14-d5b7-5f49-b1d5-6fdf8a7390f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb6ff18d-3255-51fa-b573-336435d9eba1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80a2f93f-5fbb-50d9-b5ee-37044554f6f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab11ca70-2c50-5c1a-a9fe-b7450ef77651</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09dcec0b-e9ea-55d6-91da-222fafe4fbb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100pF C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM1885C1H101JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM1885C1H101JA01D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa8ff17b-3db9-52ba-a174-df454cc68c0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>10uF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71H106KA12L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71H106KA12L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3907848-5b78-5fdf-9363-f854b9c4cb69</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71H106KA12L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71H106KA12L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d8dd73-70c5-573e-91b7-daa29dc8e858</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf</datasheet>
+      <fields>
+        <field name="MPN">EEUFR1V101</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="EEUFR1V101"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c2cc53-bc0c-5cc9-bb0a-25b066eef422</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>22uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>937644b4-ce7b-5a35-9005-74199f1934f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>22uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bb2f74c-73da-59f1-b076-d5a49a7aa517</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>22uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1524e5b-b90a-5a2d-9c6b-5f82366312be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>22uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62f5056f-e681-5706-8df5-88b92214a790</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>10uF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR71A106KE51L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM21BR71A106KE51L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc8ce303-c2a7-5158-b41b-fe950ad29f7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/products/capacitor/mlcc</datasheet>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/capacitor/mlcc</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e4638cb-d8ab-5989-aaf5-599e1c3641a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>270uF 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf</datasheet>
+      <fields>
+        <field name="MPN">EEUFR1A271</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="cap" description=""/>
+      <property name="MPN" value="EEUFR1A271"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a9165df-f10e-567a-8154-827fd8681a85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2A 125V LOGIC INPUT</value>
+      <footprint>Microduck_Entry_R8:Fuse_Littelfuse_448</footprint>
+      <datasheet>https://www.littelfuse.com/assetdocs/littelfuse_fuse_448_datasheet.pdf?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a</datasheet>
+      <fields>
+        <field name="MPN">0448002.MR</field>
+        <field name="Footprint">Microduck_Entry_R8:Fuse_Littelfuse_448</field>
+        <field name="Datasheet">https://www.littelfuse.com/assetdocs/littelfuse_fuse_448_datasheet.pdf?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="fuse" description=""/>
+      <property name="MPN" value="0448002.MR"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>934fe5fe-310b-541a-abe2-f5c98cfdb968</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M2 NPTH</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">NO PART</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="mount" description=""/>
+      <property name="MPN" value="NO PART"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2963dfb7-e2ea-586e-a134-fe241766dd78</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M2 NPTH</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">NO PART</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="mount" description=""/>
+      <property name="MPN" value="NO PART"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35878706-9d3c-5148-816a-9a46be30c17f</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M2 NPTH</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">NO PART</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="mount" description=""/>
+      <property name="MPN" value="NO PART"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>723e3efd-ce73-595e-8179-a6f9c39dce1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M2 NPTH</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">NO PART</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="mount" description=""/>
+      <property name="MPN" value="NO PART"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a54f1eca-be8d-5714-86c7-66975f41b7fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>NTC BAT 10k 3977K</value>
+      <footprint>Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">SM02B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn2" description=""/>
+      <property name="MPN" value="SM02B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42150432-d279-5234-8315-9eddb778565a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>NTC TDK 10k 3977K</value>
+      <footprint>Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">SM02B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn2" description=""/>
+      <property name="MPN" value="SM02B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce291069-8c7b-539f-967b-468979dc46d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>NTC BRAKE 10k 3977K</value>
+      <footprint>Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">BM02B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn2" description=""/>
+      <property name="MPN" value="BM02B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b9467fc-ad71-5f08-b4e7-0837fe265e5f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>TO CM4 LOGIC CTRL</value>
+      <footprint>Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">SM10B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn10" description=""/>
+      <property name="MPN" value="SM10B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc1fce7f-3cc1-54ae-b9e6-ed469bb76bb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>TO TDK POWER CTRL</value>
+      <footprint>Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">BM08B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn8" description=""/>
+      <property name="MPN" value="BM08B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40b0939-e3e1-5993-b487-4f2ebfe372a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>TMP302 THERMAL STOP</value>
+      <footprint>Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">BM03B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn3" description=""/>
+      <property name="MPN" value="BM03B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3facc827-7214-56c4-b1b5-368feb5708ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>TMP302 THERMAL STOP</value>
+      <footprint>Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">BM03B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn3" description=""/>
+      <property name="MPN" value="BM03B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8939e511-e9d8-51d5-8c48-ff9e10b54399</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>BRAKE INA226 0x42 TELEMETRY</value>
+      <footprint>Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="MPN">BM05B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="conn5" description=""/>
+      <property name="MPN" value="BM05B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b54e2fbb-f35e-530e-9a75-871969a45da0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10R 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710RL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2fdb6e8-63b3-5790-a397-c2020dccb964</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10R 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710RL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04299a75-1098-511e-ab64-5b9f5131f550</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df836b45-e3b7-5b0d-951f-d357d28e106c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>380384c9-d0d6-5751-8610-1b5a08a5e7e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>789bdb62-37d4-5a87-ad05-55f27aaf6832</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERJ-3EKF1001V</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="ERJ-3EKF1001V"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb3fb75-b596-538e-afe7-a5e1fc727ee1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERJ-3EKF1001V</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="ERJ-3EKF1001V"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c85e38b-1d2a-5b0e-ae5f-71671590fb63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERJ-3EKF1001V</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="ERJ-3EKF1001V"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05d99d50-099c-59f1-90cd-465e43e3da09</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">ERJ-3EKF1001V</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="ERJ-3EKF1001V"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3905bb0f-8a24-5406-b869-8c9fa8841d01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>41.0k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0741KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0741KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad8735ce-41b3-5b9d-ae3b-325c11227393</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10.0k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e26a29ec-8644-599b-829f-b3c157030bae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>88.7k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0788K7L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0788K7L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5545842d-ef36-5197-90ff-943750dfd57d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>32.4k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0732K4L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0732K4L"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a425b853-c14e-50b7-8980-c755ad3e640b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="res" description=""/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a69687e6-9ec3-5898-8577-5ce564a44e9a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RS1">
+      <value>2mOhm 1% 3W KELVIN</value>
+      <footprint>Microduck_Entry_R8:WSL2726_Kelvin</footprint>
+      <datasheet>https://www.vishay.com/docs/30131/wsl2726.pdf</datasheet>
+      <fields>
+        <field name="MPN">WSL27262L000FEA</field>
+        <field name="Footprint">Microduck_Entry_R8:WSL2726_Kelvin</field>
+        <field name="Datasheet">https://www.vishay.com/docs/30131/wsl2726.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="shunt" description=""/>
+      <property name="MPN" value="WSL27262L000FEA"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bd67806-aebc-5013-bde1-b82ceae0974b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>BATTERY INA226 0x40</value>
+      <footprint>Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ina226.pdf</datasheet>
+      <fields>
+        <field name="MPN">INA226AIDGSR</field>
+        <field name="Footprint">Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina226.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="ina226" description=""/>
+      <property name="MPN" value="INA226AIDGSR"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0619469d-55c3-5b0c-9f30-78d891ac3a3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>NTC AND EXCITATION 0x48</value>
+      <footprint>Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1115.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Footprint">Microduck_Entry_R8:TI_DGS0010A_Manufacturer_1p45x0p30</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1115.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="ads" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b5ed9fd-5a64-5829-bd9c-facb162e77ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>4S to 5.10V 3A MODULE</value>
+      <footprint>Microduck_Entry_R8:LMZM33603_RLR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmzm33603.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMZM33603RLRR</field>
+        <field name="Footprint">Microduck_Entry_R8:LMZM33603_RLR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmzm33603.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="lmzm" description=""/>
+      <property name="MPN" value="LMZM33603RLRR"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51fead4a-6ff3-59a3-924c-c2bd6b28be06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="18"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>BENCH PRIORITY REVERSE BLOCK</value>
+      <footprint>Microduck_Entry_R8:TPS2117_DRL</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2117.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2117DRLR</field>
+        <field name="Footprint">Microduck_Entry_R8:TPS2117_DRL</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2117.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="mux" description=""/>
+      <property name="MPN" value="TPS2117DRLR"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b201d565-b5d3-563a-bd20-97660f83b9c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W1">
+      <value>BAT_FUSED</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG16</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG16"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>665d1637-cb80-5eca-975e-b4e0fb7c980a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W2">
+      <value>GND</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG16</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG16"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0c80666-6582-5f17-b3ea-80a9cc352ca9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W3">
+      <value>BAT_MON</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG16</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG16"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b29d5ae-7d17-50d4-8402-a28278c4ba0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W4">
+      <value>GND</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG16</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG16"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0dc8cea-c2d5-53eb-a5e2-04d31ed0d58e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W5">
+      <value>BENCH_5V</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG20</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG20"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea77a590-4482-5929-aa35-0269802e219b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W6">
+      <value>GND</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG20</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG20"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd0c66fe-1fc1-5bbe-9627-e63a76413ab2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W7">
+      <value>SYSTEM_5V</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG20</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG20"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6cdb544-e897-5a09-919a-976832ab6e1c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="W8">
+      <value>GND</value>
+      <footprint>Microduck_Entry_R8:WirePad_2p4mm_6mm</footprint>
+      <fields>
+        <field name="MPN">SOLDER AWG20</field>
+        <field name="Footprint">Microduck_Entry_R8:WirePad_2p4mm_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Microduck_Entry_R8" part="wire" description=""/>
+      <property name="MPN" value="SOLDER AWG20"/>
+      <property name="Sheetname" value="Microduck_Entry_5V_R22"/>
+      <property name="Sheetfile" value="Microduck_Entry_5V_R22.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>916278c6-18f2-5f1e-b98f-918963df07c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Microduck_Entry_R8" part="ads">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ads</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT" type="open_collector"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="cap">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">cap</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="conn10">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+        <pin num="4" name="PIN4" type="passive"/>
+        <pin num="5" name="PIN5" type="passive"/>
+        <pin num="6" name="PIN6" type="passive"/>
+        <pin num="7" name="PIN7" type="passive"/>
+        <pin num="8" name="PIN8" type="passive"/>
+        <pin num="9" name="PIN9" type="passive"/>
+        <pin num="10" name="PIN10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="conn2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="conn3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="conn5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+        <pin num="4" name="PIN4" type="passive"/>
+        <pin num="5" name="PIN5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="conn8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+        <pin num="4" name="PIN4" type="passive"/>
+        <pin num="5" name="PIN5" type="passive"/>
+        <pin num="6" name="PIN6" type="passive"/>
+        <pin num="7" name="PIN7" type="passive"/>
+        <pin num="8" name="PIN8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="fuse">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="ina226">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ina226</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="ALERT" type="open_collector"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="IN-" type="input"/>
+        <pin num="10" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="lmzm">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">lmzm</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AGND_INTERNAL" type="passive"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="RT" type="passive"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="PGND" type="power_in"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="VOUT" type="passive"/>
+        <pin num="8" name="EP_VOUT" type="passive"/>
+        <pin num="9" name="SW" type="passive"/>
+        <pin num="10" name="SW" type="passive"/>
+        <pin num="11" name="SW" type="passive"/>
+        <pin num="12" name="DNC" type="passive"/>
+        <pin num="13" name="DNC" type="passive"/>
+        <pin num="14" name="PGND" type="power_in"/>
+        <pin num="15" name="PGND" type="power_in"/>
+        <pin num="16" name="FB" type="input"/>
+        <pin num="17" name="PG" type="open_collector"/>
+        <pin num="18" name="EP_PGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="mount">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">mount</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="mux">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">mux</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN1" type="power_in"/>
+        <pin num="4" name="PR1" type="input"/>
+        <pin num="5" name="MODE" type="input"/>
+        <pin num="6" name="VIN2" type="power_in"/>
+        <pin num="7" name="VOUT" type="passive"/>
+        <pin num="8" name="ST" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="res">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">res</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="shunt">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">shunt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="I+" type="passive"/>
+        <pin num="2" name="S+" type="passive"/>
+        <pin num="3" name="S-" type="passive"/>
+        <pin num="4" name="I-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microduck_Entry_R8" part="wire">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">wire</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="WIRE" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Microduck_Entry_R8">
+      <uri>${KIPRJMOD}/Microduck_Entry_R8.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VS_6" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+    </net>
+    <net code="2" name="ADC_BAT" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0_4" pintype="input"/>
+    </net>
+    <net code="3" name="ADC_BRAKE" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="AIN2_6" pintype="input"/>
+    </net>
+    <net code="4" name="ADC_EXC" class="Default">
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AIN3_7" pintype="input"/>
+    </net>
+    <net code="5" name="ADC_TDK" class="Default">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="AIN1_5" pintype="input"/>
+    </net>
+    <net code="6" name="AGND_5V" class="Default">
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="AGND_INTERNAL_1" pintype="passive"/>
+    </net>
+    <net code="7" name="BAT_FUSED" class="Default">
+      <node ref="RS1" pin="1" pinfunction="I+_1" pintype="passive"/>
+      <node ref="W1" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+    </net>
+    <net code="8" name="BAT_MON" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RS1" pin="4" pinfunction="I-_4" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VBUS_8" pintype="input"/>
+      <node ref="W3" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+    </net>
+    <net code="9" name="BAT_SENSE_N" class="Default">
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RS1" pin="3" pinfunction="S-_3" pintype="passive"/>
+    </net>
+    <net code="10" name="BAT_SENSE_P" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RS1" pin="2" pinfunction="S+_2" pintype="passive"/>
+    </net>
+    <net code="11" name="BENCH_5V" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VIN1_3" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="MODE_5" pintype="input"/>
+      <node ref="W5" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+    </net>
+    <net code="12" name="BENCH_VALID" class="Default">
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="PR1_4" pintype="input"/>
+    </net>
+    <net code="13" name="BRAKE_ACTIVE_N" class="Default">
+      <node ref="J4" pin="8" pinfunction="PIN8_8" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="PIN5_5" pintype="passive"/>
+    </net>
+    <net code="14" name="FB_5V" class="Default">
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="FB_16" pintype="input"/>
+    </net>
+    <net code="15" name="GND" class="Default">
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="PIN10_10" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="PIN9_9" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="PIN8_8" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A1_1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="A0_2" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="ADDR_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="PGND_14" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="PGND_15" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="EP_PGND_18" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="PGND_5" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="W2" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+      <node ref="W4" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+      <node ref="W6" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+      <node ref="W8" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+    </net>
+    <net code="16" name="I2C_SCL" class="Default">
+      <node ref="J4" pin="4" pinfunction="PIN4_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="PIN4_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="PIN4_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SCL_5" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="SCL_10" pintype="input"/>
+    </net>
+    <net code="17" name="I2C_SDA" class="Default">
+      <node ref="J4" pin="3" pinfunction="PIN3_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="PIN3_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="PIN3_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SDA_4" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="SDA_9" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="INA_N" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IN-_9" pintype="input"/>
+    </net>
+    <net code="19" name="INA_P" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IN+_10" pintype="input"/>
+    </net>
+    <net code="20" name="LOGIC_VIN" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="EN_2" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="VIN_4" pintype="power_in"/>
+    </net>
+    <net code="21" name="MOBILE_5V" class="Default">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VOUT_6" pintype="power_out"/>
+      <node ref="U3" pin="7" pinfunction="VOUT_7" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="EP_VOUT_8" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="VIN2_6" pintype="power_in"/>
+    </net>
+    <net code="22" name="NTC_BAT" class="Default">
+      <node ref="J1" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="23" name="NTC_BRAKE" class="Default">
+      <node ref="J3" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="24" name="NTC_TDK" class="Default">
+      <node ref="J2" pin="1" pinfunction="PIN1_1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="RT_5V" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="RT_3" pintype="passive"/>
+    </net>
+    <net code="26" name="RUN_OK" class="Default">
+      <node ref="J4" pin="6" pinfunction="PIN6_6" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="PIN6_6" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="PIN3_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="PIN3_3" pintype="passive"/>
+    </net>
+    <net code="27" name="RUN_REQ" class="Default">
+      <node ref="J4" pin="5" pinfunction="PIN5_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="PIN5_5" pintype="passive"/>
+    </net>
+    <net code="28" name="SW_INTERNAL" class="Default">
+      <node ref="U3" pin="10" pinfunction="SW_10" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="SW_11" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="SW_9" pintype="passive"/>
+    </net>
+    <net code="29" name="SYSTEM_5V" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VOUT_2" pintype="power_out"/>
+      <node ref="U4" pin="7" pinfunction="VOUT_7" pintype="passive"/>
+      <node ref="W7" pin="1" pinfunction="WIRE_1" pintype="passive"/>
+    </net>
+    <net code="30" name="TDK_IMON" class="Default">
+      <node ref="J4" pin="7" pinfunction="PIN7_7" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="PIN7_7" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(U1-ALERT-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="ALERT_3" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-ALERT-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="ALERT_2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-DNC-Pad12)" class="Default">
+      <node ref="U3" pin="12" pinfunction="DNC_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U3-DNC-Pad13)" class="Default">
+      <node ref="U3" pin="13" pinfunction="DNC_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U3-PG-Pad17)" class="Default">
+      <node ref="U3" pin="17" pinfunction="PG_17" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U4-ST-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="ST_8" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

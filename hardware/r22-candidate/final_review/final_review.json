@@ -1,0 +1,45 @@
+{
+  "status": "INDEPENDENT_ENGINEERING_CANDIDATE_HANDOFF_REVIEW_PASS",
+  "utc": "2026-09-13T17:30:46.902868+00:00",
+  "open_blocking_findings": [],
+  "closed_findings": [
+    {
+      "id": "R22-FR-01",
+      "issue": "Original native freeze report did not enable all four default-ignored ERC check categories.",
+      "resolution": "Independent exact-copy supplementary ERC with all four promoted and all severities: 0 violations, 0 ignored checks on both boards."
+    },
+    {
+      "id": "R22-FR-02",
+      "issue": "Automatic gbrjob metadata conflicts with final custom rules, nominal centerline dimensions and undefined impedance target.",
+      "resolution": "Root removed automatic jobs from fabrication order file sets and preserved unchanged raw metadata as diagnostics; independent fresh reexport of 26 Gerber/drill files matches delivery except timestamps."
+    }
+  ],
+  "read_only_scope": "Two frozen PCB projects, reports and libraries; R22 effective assembly, motion certificate bindings, bounded mass review and pre-final-prepare staging map. No source design mutation and no repeated large DC or full geometry simulation.",
+  "reviewed_native_pcb_sha256": {
+    "entry": "4bc1e078a2154a1cc74f0e4f09b0d707fa98e8a63f1475ab6f4e5a411cb70c95",
+    "power_regen": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4"
+  },
+  "reviewed_blend_sha256": "d2159b634c30f0e57b559c43b1989b5372c033d0130aa84ff9faa23db69780b1",
+  "staging_snapshot": {
+    "copied_files": 1880,
+    "git_paths": 343,
+    "source_mapping_sha256": "aa19ca45a70914e3bab9c76ab851be60ccba9a0a51abe0aa7bc6acf154a20747",
+    "final_reports_will_be_added_by_root_final_prepare": true
+  },
+  "review_input_sha256": {
+    "frozen_input_audit.json": "865a1add258f6d7900723c97606b18bc254aa3183baa45f52ac7db7c6b56eb81",
+    "delivery_binding_audit.json": "2828c00a5251ff207cd937009653c5d5c4bda964cf34efeeaeb1bc6bdc643bbf",
+    "fabrication_export_audit.json": "ba2a92239a8014da138b10392f94e60a2ac2dc67c98f115af70624bca167ccfe",
+    "visual_binding_audit.json": "54333b76a000f6cadf952e0c6c34317b555ba891e019ef723a66d528b3e989ed",
+    "readme_facts_audit.json": "2b3a294a55e26c001a745c9dc473c81eb24523ce3c6662612dc6fedbac1fa42f",
+    "final_handoff_audit.json": "b3e5e3848915bcd297471d8e58dd7b73c6bef507087e313043f9d7eec82dea47",
+    "supplemental_erc/entry/ERC_ALL_CHECKS.json": "ffda069b9a3c05187758649606ea4c84eed73844d56b1609017c84c85f815a9a",
+    "supplemental_erc/power_regen/ERC_ALL_CHECKS.json": "ba823723314ccb9dc9bf252949bc1a6f5ffde1eb4c54524d2d1d30814720864d"
+  },
+  "report_sha256": "eb52b8d66222ec4823f4ca5db3d39081088f3817919ce311b9e351e6f45582e6",
+  "delivery_boundaries": [
+    "Power-to-chassis main support, complete resistor/power harness and thermal connection remain open.",
+    "Manufacturing, measured full-load/low-voltage/ripple/transient/regeneration, actual mass/inertia/COM and physical motion not qualified.",
+    "ZIP CRC/SHA, final byte-preserving prepare and remote publication checks remain root-owned and are not claimed by this review."
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "status": "CAD_AND_BOUND_EVIDENCE_PASS_PHYSICAL_QUALIFICATION_PENDING",
+  "checked_at_utc": "2026-09-13T16:51:48.694720+00:00",
+  "STEP_readback_checks": [
+    {
+      "part": "R22_C101_PEEK_front_beam_cradle",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 803.3637519463961,
+      "STEP_sha256": "c0d51d1f5639f593eb54ce765ee4e807935cab5f2eff4063fc58fe4c7d81c348",
+      "STL_sha256": "6da76d8a2e03d678ae8851eed1a11cfd3774b813d164e873cf3f1be5e8efbebb"
+    },
+    {
+      "part": "R22_C101_saddle_liner_1_MAX_D13",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 5.203415874608453,
+      "STEP_sha256": "368c9bce6afda8c205099f4b6aaf47dfe1b87a55faa8f2a04baf74aff488d730",
+      "STL_sha256": "e8be1169691c12fe0d0faf0fea59e12f83edff6a17bfa4ec79ead015812cbf32"
+    },
+    {
+      "part": "R22_C101_saddle_liner_2_MAX_D13",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 5.203415874608439,
+      "STEP_sha256": "c3c29af89c6f3a26a33472275648ef5db8bb0e8414171d2482a25ab877883563",
+      "STL_sha256": "9a64de9800083128d3dd515594a278f8142affd828dcd3d3bbe658145fe37448"
+    },
+    {
+      "part": "R22_C101_lacing_1_installed_envelope",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 30.319138042486216,
+      "STEP_sha256": "a87d1174f2ab7ccfd1db7972630e48308a729d796a3b6b0338f3412f2934ab95",
+      "STL_sha256": "b262154ab07b53688feed634101bbaa14fa44dbf61e4e7b3442dbcfda4a191c7"
+    },
+    {
+      "part": "R22_C101_lacing_1_knot_budget",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 14.060800000000008,
+      "STEP_sha256": "ebad6a5f6b51b9e0a85e89019f55f0c07bc75de9c580dff4d0c68ef1444a6afa",
+      "STL_sha256": "91c06df9b4b1ad41f8d4b415b0efcab76cff8c529f9913e675b538a25f1e940f"
+    },
+    {
+      "part": "R22_C101_lacing_2_installed_envelope",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 30.319138042486244,
+      "STEP_sha256": "0e5f2a77b72109fcc3893828e4d9e11c0480eacec140fd8ea96f7f63221d7472",
+      "STL_sha256": "5940df3bd56306e18f4371e89c21a347f34fa311e75bb9d5ab82e970f4a9bbe2"
+    },
+    {
+      "part": "R22_C101_lacing_2_knot_budget",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 14.060800000000008,
+      "STEP_sha256": "308fd0c14595565feae4f7907c3f55390695221a5da4a9e00542583a29fc0f2f",
+      "STL_sha256": "d54ac2c91fdd50248afe878dad426d02c27792e24fbabab13223abd8f2bfea1f"
+    },
+    {
+      "part": "R22_C101_H1_front_washer",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 3.2162054791126193,
+      "STEP_sha256": "b8187615a5bc44bbd2b89fc8b3fc855c3bd5e35ec978e9404606bf227faac124",
+      "STL_sha256": "6337aa6bb76dd3c13b51372a2f381020c522c4d7141b4273efdd67993bc602e7"
+    },
+    {
+      "part": "R22_C101_H1_rear_washer",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 3.2162054791126216,
+      "STEP_sha256": "70a8392a05c3041c143de5638415f47c44d883789732013a3fd227243dab35d1",
+      "STL_sha256": "eebf11311b4791f99311f3d0f7241f2084621f7110755261c46f160b41697c3e"
+    },
+    {
+      "part": "R22_C101_H1_M2x8",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 47.8150401876364,
+      "STEP_sha256": "1a9b35b711712c5e80c60f9b1528cec4cc05a77b92ba847dd685970f22a53681",
+      "STL_sha256": "351cf4e2bfef38f5eb25b076b050a82edd168bb1faaba15477c6ef324c58e114"
+    },
+    {
+      "part": "R22_C101_H1_SHNS_M2_LP",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 14.214944594705544,
+      "STEP_sha256": "aaccce437548d79736928871067c43153e32f869d2da2059efc13bacd6bd25de",
+      "STL_sha256": "51279f00b4020e152d91d4014f65f5589315ef86e46db4d7ec61df170e8daca6"
+    },
+    {
+      "part": "R22_C101_H2_front_washer",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 3.2162054791126247,
+      "STEP_sha256": "48d46687964bb7a6260792d796c65edfc37813fbb582de409f955455090704ed",
+      "STL_sha256": "a38aafb4a509a4650d35a0124c3e3562ed5a5d6fec6de9a6beb61b4d6a4763c3"
+    },
+    {
+      "part": "R22_C101_H2_rear_washer",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 3.2162054791126273,
+      "STEP_sha256": "6a856a6e699cbab5d356b05e425f06962eb5a6dd7b2f1b5dd78affa9086cef04",
+      "STL_sha256": "b92fe9c06ab4183d4c7f4fed5053e53579a2d7c15a96a0cc4b9544593b417635"
+    },
+    {
+      "part": "R22_C101_H2_M2x8",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 47.81504018763638,
+      "STEP_sha256": "cfe94ac2e58e278dbf228f839dd64c86fcbf4fc1d61bcf25472e37766df05814",
+      "STL_sha256": "a969bf52f7cc7cba0ba2f39237e148874e064abddb395a9f8e5d16ea0065eaf5"
+    },
+    {
+      "part": "R22_C101_H2_SHNS_M2_LP",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "STEP_volume_mm3": 14.21494459470555,
+      "STEP_sha256": "2b83fe5821a8954930b20f07147124ce2a8077afe81e2c0343349c9f8763bbe0",
+      "STL_sha256": "efea74d9f58aa01f9a4a7900c3d4b5832456f486d643989c5c94cd829bc1a678"
+    }
+  ],
+  "new_STEP_STL_pairs": 15,
+  "immutable_reference_STEP_STL_pairs": 113,
+  "bound_source_hash_checks": 621,
+  "legacy_parts_checked": 556,
+  "new_board_reference_parts_checked": 113,
+  "pair_count": 10140,
+  "unexplained_finite_intersections": 0,
+  "vent_check": "No new mount material in +X D13x5mm engineering cylinder",
+  "approved_tool_directions": [
+    "H1_front_hex_driver_D4_30mm",
+    "H2_front_hex_driver_D4_30mm",
+    "H1_rear_AF4_thin_spanner_from_negativeX",
+    "H2_rear_AF4_thin_spanner_from_positiveY"
+  ],
+  "known_limits": [
+    "Knot1-to-legacy-screw nominal clearance2.904mm, not all>=3mm.",
+    "In-place upward capacitor extraction obstructed; bench installation only.",
+    "Final J1/top-entry board revision and whole robot mounting remain parent integration checks.",
+    "Mass/loads/torque/preload/slip limits are engineering assumptions and proposed screening conditions, not measured ratings."
+  ],
+  "manufacturing_approved": false,
+  "physical_retention_test_passed": false,
+  "board_to_host_main_mount_complete": false,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 8965,
+      "sha256": "bb59f0ceac56e0c14c54aa404c544c0bda92b59c7fcc615fcd42919538cac9ce"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 37504,
+      "sha256": "ec27f2dc7fe01d1fd3a5ae357c65b0bafdf56f5cdc996cccab483d1fb06f716b"
+    },
+    {
+      "path": "geometry_check.json",
+      "bytes": 153604,
+      "sha256": "1b1496aab249c5fcb8f4eb033a3222448de7120194158b9428c480da49448865"
+    },
+    {
+      "path": "mass_load_budget.json",
+      "bytes": 4179,
+      "sha256": "94cff2c410343394e70162e6d51c82241acc021b92cfff5cd7bcdf88c7c14604"
+    },
+    {
+      "path": "parts_inventory.csv",
+      "bytes": 4665,
+      "sha256": "18ceebf6f3e3a68376c206120dc1470b4602412c1e2cbc0883effc565f6b00e2"
+    },
+    {
+      "path": "R22-CAP-001_dimensions.pdf",
+      "bytes": 69084,
+      "sha256": "22c4ca341100f9c8bba05a44c296f508315ae8eb63015654b073594a037e75af"
+    },
+    {
+      "path": "R22-CAP-001_dimensions.svg",
+      "bytes": 613594,
+      "sha256": "e7ce92ee7e84b44ff0c66926c11a4d696e8f1cb33559cb0e4f122584665f0d0d"
+    },
+    {
+      "path": "R22-CAP-001_dimensions.png",
+      "bytes": 381260,
+      "sha256": "f1f4652feb2160a9f841381e8413614c74d1810aca947bccfcd7ede8c2c039b1"
+    },
+    {
+      "path": "C101_cradle_actual_CAD.png",
+      "bytes": 56235,
+      "sha256": "1ff796f653f173de040cdf7b3393b622ecede2ad0573b19c2779bcfac577ed6f"
+    },
+    {
+      "path": "build.py",
+      "bytes": 9413,
+      "sha256": "c76514de542fc203e29c37b008aee0cfe7ed54b4722cfeb1a0e8825a789b2263"
+    },
+    {
+      "path": "check_geometry.py",
+      "bytes": 8413,
+      "sha256": "821ddd1a474d4f1f7f6042a201df515e8e79b1993a5be4bd695f14765ec3fead"
+    },
+    {
+      "path": "make_documents.py",
+      "bytes": 11293,
+      "sha256": "64e92de5daf22e6db363adccb47f2b801afe301af1eff4e3f5091ee9531d7121"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4449,
+      "sha256": "80c07547aaeadb3747152c23e4de0cf119b2a2a31c05053c8f5c46c5d607c081"
+    },
+    {
+      "path": "reference_snapshot/manifest.json",
+      "bytes": 249560,
+      "sha256": "2d61dd48dc2f95ffedccd39f2563238f5f2afe5410fb62fc90e5330519bf4d8d"
+    },
+    {
+      "path": "reference_snapshot/manifest.original.json",
+      "bytes": 248079,
+      "sha256": "97b6ed08666ea6b48cbc808b09f6f4100e1ccb4697221a48e3e0a7a16751ac14"
+    }
+  ]
+}

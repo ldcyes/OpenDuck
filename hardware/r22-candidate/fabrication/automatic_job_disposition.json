@@ -1,0 +1,21 @@
+{
+  "status": "REMOVED_FROM_ORDER_FILES_PRESERVED_AS_DIAGNOSTIC",
+  "rows": [
+    {
+      "board": "entry",
+      "original_generated_file": "Microduck_Entry_5V_R22-job.gbrjob",
+      "retained_diagnostic": "diagnostics/entry_automatic_gbrjob.json",
+      "sha256": "75b71ec9d4d5c566dc3cf6974c559713e66fe23a8b66a9fdac1162e8b146d248",
+      "action": "Non-authoritative auto job metadata removed from board fabrication file set; copper/drill unchanged.",
+      "reason": "KiCad gbrjob derives old project rule defaults rather than final custom DRU and includes Edge.Cuts stroke width in Size; Power additionally declares impedance without target."
+    },
+    {
+      "board": "power_regen",
+      "original_generated_file": "Microduck_Power_Regen_R22-job.gbrjob",
+      "retained_diagnostic": "diagnostics/power_regen_automatic_gbrjob.json",
+      "sha256": "372b8c1165092f64d6fda263458213626af823038b68d9ddc911c86dab1ea5ec",
+      "action": "Non-authoritative auto job metadata removed from board fabrication file set; copper/drill unchanged.",
+      "reason": "KiCad gbrjob derives old project rule defaults rather than final custom DRU and includes Edge.Cuts stroke width in Size; Power additionally declares impedance without target."
+    }
+  ]
+}

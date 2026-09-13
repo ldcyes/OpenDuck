@@ -1,0 +1,345 @@
+{
+  "source_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+  "candidate_sha256": "ef5de594e8bd6cd100a9dcf30c199a215c0227087a3f633df344f4f3dfbe78a4",
+  "source_main_trace_segments_over_0p65mm_checked": 24,
+  "not_exactly_retained": 0,
+  "rows": [
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        41.0,
+        31.0
+      ],
+      "b_mm": [
+        41.0,
+        33.2
+      ],
+      "source_width_mm": 4.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        41.0,
+        34.365
+      ],
+      "b_mm": [
+        42.27,
+        35.635
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        43.0,
+        10.0
+      ],
+      "b_mm": [
+        43.0,
+        16.8
+      ],
+      "source_width_mm": 3.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        41.0,
+        33.2
+      ],
+      "b_mm": [
+        41.0,
+        34.365
+      ],
+      "source_width_mm": 1.6,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        43.0,
+        16.8
+      ],
+      "b_mm": [
+        43.0,
+        29.0
+      ],
+      "source_width_mm": 4.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        36.44,
+        16.8
+      ],
+      "b_mm": [
+        43.0,
+        16.8
+      ],
+      "source_width_mm": 4.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        43.0,
+        10.0
+      ],
+      "b_mm": [
+        47.0,
+        10.0
+      ],
+      "source_width_mm": 3.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        43.0,
+        29.0
+      ],
+      "b_mm": [
+        41.0,
+        31.0
+      ],
+      "source_width_mm": 4.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        43.0,
+        23.0
+      ],
+      "b_mm": [
+        47.0,
+        23.0
+      ],
+      "source_width_mm": 3.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        41.0,
+        33.095
+      ],
+      "b_mm": [
+        43.23,
+        33.095
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        42.27,
+        35.635
+      ],
+      "b_mm": [
+        43.23,
+        35.635
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "REG_RAW",
+      "a_mm": [
+        41.0,
+        34.365
+      ],
+      "b_mm": [
+        43.23,
+        34.365
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "PRE_SHUNT",
+      "a_mm": [
+        59.77,
+        36.905
+      ],
+      "b_mm": [
+        62.0,
+        36.905
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "PRE_SHUNT",
+      "a_mm": [
+        62.0,
+        42.535
+      ],
+      "b_mm": [
+        53.89,
+        42.535
+      ],
+      "source_width_mm": 3.8,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "PRE_SHUNT",
+      "a_mm": [
+        62.0,
+        35.635
+      ],
+      "b_mm": [
+        62.0,
+        42.535
+      ],
+      "source_width_mm": 3.8,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "PRE_SHUNT",
+      "a_mm": [
+        59.77,
+        34.365
+      ],
+      "b_mm": [
+        62.0,
+        34.365
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "PRE_SHUNT",
+      "a_mm": [
+        59.77,
+        35.635
+      ],
+      "b_mm": [
+        62.0,
+        35.635
+      ],
+      "source_width_mm": 0.7,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "SERVO_BUS",
+      "a_mm": [
+        53.89,
+        54.0
+      ],
+      "b_mm": [
+        54.0,
+        54.0
+      ],
+      "source_width_mm": 5.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "SERVO_BUS",
+      "a_mm": [
+        53.89,
+        47.465
+      ],
+      "b_mm": [
+        53.89,
+        54.0
+      ],
+      "source_width_mm": 5.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "BAT_SW",
+      "a_mm": [
+        13.5,
+        52.0
+      ],
+      "b_mm": [
+        13.5,
+        16.8
+      ],
+      "source_width_mm": 5.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "BAT_SW",
+      "a_mm": [
+        13.5,
+        16.8
+      ],
+      "b_mm": [
+        8.5,
+        16.8
+      ],
+      "source_width_mm": 5.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "BAT_SW",
+      "a_mm": [
+        13.5,
+        52.0
+      ],
+      "b_mm": [
+        18.0,
+        52.0
+      ],
+      "source_width_mm": 3.6,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "BAT_SW",
+      "a_mm": [
+        8.0,
+        52.0
+      ],
+      "b_mm": [
+        13.5,
+        52.0
+      ],
+      "source_width_mm": 5.0,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    },
+    {
+      "net": "MID_DRAIN",
+      "a_mm": [
+        46.941,
+        35.0
+      ],
+      "b_mm": [
+        56.059,
+        35.0
+      ],
+      "source_width_mm": 4.4,
+      "layer": "F.Cu",
+      "retained_same_or_wider": true
+    }
+  ],
+  "meaning": "Original forward power centerline and at-least-source width preserved; this verifies no layout narrowing but does not certify current or thermal rating."
+}

@@ -1,0 +1,338 @@
+{
+  "purpose": "Stricter diagnostic only: 0.20mm versus final 0.16mm minimum/0.20mm all-zone minimum. Not ignored violations under final rules.",
+  "total_local_clearance_pairs_below_0p20": 15,
+  "minimum_actual_mm": 0.175,
+  "ground_zone_pairs": 0,
+  "pairs": [
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 41.2,
+            "y": 41.25
+          },
+          "uuid": "10b9b171-7ada-408d-8e16-139173e15533"
+        },
+        {
+          "description": "Track [HGATE] on B.Cu, length 1.8625 mm",
+          "pos": {
+            "x": 42.5625,
+            "y": 40.75
+          },
+          "uuid": "bd111343-dabc-4357-b282-85cf6336c42d"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 26.8,
+            "y": 45.5
+          },
+          "uuid": "9bf9bc9f-8a8d-4dda-9644-43dfd657f507"
+        },
+        {
+          "description": "Track [SERVO_BUS] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 27.9,
+            "y": 45.0
+          },
+          "uuid": "a37b7e44-2ed0-48b1-9447-476d27fbd75b"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Track [REG_RAW] on B.Cu, length 2.6625 mm",
+          "pos": {
+            "x": 45.4375,
+            "y": 39.25
+          },
+          "uuid": "b405b406-e5e1-4ab3-b3e4-fadd84e433b3"
+        },
+        {
+          "description": "Via [MID_DRAIN] on F.Cu - B.Cu",
+          "pos": {
+            "x": 47.3,
+            "y": 39.75
+          },
+          "uuid": "ba23f0d2-2cb5-406f-9226-61e7f6f1cc2b"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [PRE_SHUNT] on F.Cu - B.Cu",
+          "pos": {
+            "x": 41.5,
+            "y": 40.25
+          },
+          "uuid": "b1035b36-0a7a-40f6-9dd4-8cd43702c65f"
+        },
+        {
+          "description": "Track [HGATE] on B.Cu, length 1.8625 mm",
+          "pos": {
+            "x": 42.5625,
+            "y": 40.75
+          },
+          "uuid": "bd111343-dabc-4357-b282-85cf6336c42d"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Track [SENSE_N] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 55.1,
+            "y": 28.5
+          },
+          "uuid": "0e7897e3-950d-4428-8cc4-fdcc7928bd43"
+        },
+        {
+          "description": "Via [SENSE_P] on F.Cu - B.Cu",
+          "pos": {
+            "x": 56.3,
+            "y": 28.0
+          },
+          "uuid": "50c9832f-b73b-4cca-b738-0c78e9ee5ce7"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Track [SENSE_N] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 55.1,
+            "y": 28.5
+          },
+          "uuid": "0e7897e3-950d-4428-8cc4-fdcc7928bd43"
+        },
+        {
+          "description": "Via [OC_LIMIT] on F.Cu - B.Cu",
+          "pos": {
+            "x": 56.3,
+            "y": 29.0
+          },
+          "uuid": "933cabcb-08dd-421d-acd0-b326d1fe7832"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Track [OV_SENSE] on B.Cu, length 1.8625 mm",
+          "pos": {
+            "x": 45.4375,
+            "y": 40.75
+          },
+          "uuid": "20f39995-560f-4132-9842-e57fe0d25845"
+        },
+        {
+          "description": "Via [MID_DRAIN] on F.Cu - B.Cu",
+          "pos": {
+            "x": 46.5,
+            "y": 40.25
+          },
+          "uuid": "f9ca6e30-a72b-4635-8837-579a297ec1c8"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [INA_N] on F.Cu - B.Cu",
+          "pos": {
+            "x": 26.7,
+            "y": 44.5
+          },
+          "uuid": "4e876598-d597-4417-b47c-5947a1a6fdce"
+        },
+        {
+          "description": "Track [INA_P] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 27.9,
+            "y": 44.0
+          },
+          "uuid": "8b85e948-69a0-431e-93de-f3603bf76e72"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [CP_CAP] on F.Cu - B.Cu",
+          "pos": {
+            "x": 41.5,
+            "y": 39.25
+          },
+          "uuid": "005df8f2-44b2-4e9c-b494-ab28cdb08f97"
+        },
+        {
+          "description": "Track [MID_DRAIN] on B.Cu, length 1.8625 mm",
+          "pos": {
+            "x": 42.5625,
+            "y": 39.75
+          },
+          "uuid": "3d58c4a0-8368-4583-82d8-edee0c52bbeb"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [CP_CAP] on F.Cu - B.Cu",
+          "pos": {
+            "x": 41.5,
+            "y": 39.25
+          },
+          "uuid": "005df8f2-44b2-4e9c-b494-ab28cdb08f97"
+        },
+        {
+          "description": "Track [MID_DRAIN] on B.Cu, length 1.8625 mm",
+          "pos": {
+            "x": 42.5625,
+            "y": 38.75
+          },
+          "uuid": "3103956f-ca10-4a28-ba5a-fdae772d5be2"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [I2C_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 33.299999,
+            "y": 45.5
+          },
+          "uuid": "0b2311e1-7c45-4896-b04b-3df767c9ab8d"
+        },
+        {
+          "description": "Track [I2C_SCL] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 32.1,
+            "y": 46.0
+          },
+          "uuid": "412a77e7-e22a-4b30-8174-551afa57d095"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [OC_LIMIT] on F.Cu - B.Cu",
+          "pos": {
+            "x": 56.3,
+            "y": 29.0
+          },
+          "uuid": "933cabcb-08dd-421d-acd0-b326d1fe7832"
+        },
+        {
+          "description": "Track [+3V3] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 55.1,
+            "y": 29.5
+          },
+          "uuid": "f0e34a07-b2d4-4e75-91d9-ea9faee72cc9"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R106 on B.Cu",
+          "pos": {
+            "x": 46.175,
+            "y": -2.0
+          },
+          "uuid": "0c0c770c-5099-43e0-ba97-e4e39c4cdfb8"
+        },
+        {
+          "description": "Track [RG_RH_LOW] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 43.2,
+            "y": -2.2
+          },
+          "uuid": "a8969ddd-7371-4c05-bae7-d29f1b03127c"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Track [RG_I2C_SCL] on B.Cu, length 1.8000 mm",
+          "pos": {
+            "x": 28.1,
+            "y": 5.0
+          },
+          "uuid": "37e337fc-64a3-4572-975f-44de6e36eed6"
+        },
+        {
+          "description": "Via [RG_I2C_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 27.0,
+            "y": 4.5
+          },
+          "uuid": "948a5127-e032-4011-a077-ecb1513ea4a5"
+        }
+      ],
+      "type": "clearance"
+    },
+    {
+      "actual_clearance_mm": 0.175,
+      "items": [
+        {
+          "description": "Via [INA_N] on F.Cu - B.Cu",
+          "pos": {
+            "x": 26.7,
+            "y": 44.5
+          },
+          "uuid": "4e876598-d597-4417-b47c-5947a1a6fdce"
+        },
+        {
+          "description": "Track [SERVO_BUS] on B.Cu, length 2.0000 mm",
+          "pos": {
+            "x": 27.9,
+            "y": 45.0
+          },
+          "uuid": "a37b7e44-2ed0-48b1-9447-476d27fbd75b"
+        }
+      ],
+      "type": "clearance"
+    }
+  ]
+}
