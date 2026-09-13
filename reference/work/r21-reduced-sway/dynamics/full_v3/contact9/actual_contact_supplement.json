@@ -1,0 +1,309 @@
+{
+  "status": "SUPPLEMENTAL_ACTUAL_LOADED_CONTACT_DIAGNOSTIC",
+  "physical_approved": false,
+  "force_threshold_N": 2.0,
+  "feet": {
+    "ankle_left": {
+      "actual_loaded_contact_intervals": [
+        {
+          "start_s": 0.020000000000000014,
+          "end_s": 63.36000000021152,
+          "sample_count": 3168,
+          "maximum_normal_force_N": 41.30959955251834,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.4260409592580662,
+          "phases": [
+            "cycle1_initial_settle_hold",
+            "cycle1_double_transfer_to_left",
+            "cycle1_pre_unload_right",
+            "cycle1_right_step_lift",
+            "cycle1_right_step_advance",
+            "cycle1_right_step_lower",
+            "cycle1_right_landing_still_unloaded",
+            "cycle1_double_transfer_to_right",
+            "cycle1_pre_unload_left",
+            "cycle1_left_step_lift"
+          ],
+          "planned_support_sample_count": 3154
+        },
+        {
+          "start_s": 77.95999999988446,
+          "end_s": 78.01999999988304,
+          "sample_count": 4,
+          "maximum_normal_force_N": 2.1118575113381635,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.02304929055914058,
+          "phases": [
+            "cycle1_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 78.07999999988162,
+          "end_s": 161.07999999791895,
+          "sample_count": 4151,
+          "maximum_normal_force_N": 41.30893773561269,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.43885712780097275,
+          "phases": [
+            "cycle1_left_step_lower",
+            "cycle1_left_landing_still_unloaded",
+            "cycle1_double_recenter",
+            "cycle1_cycle_end_center",
+            "cycle2_initial_settle",
+            "cycle2_double_transfer_to_left",
+            "cycle2_pre_unload_right",
+            "cycle2_right_step_lift",
+            "cycle2_right_step_advance",
+            "cycle2_right_step_lower",
+            "cycle2_right_landing_still_unloaded",
+            "cycle2_double_transfer_to_right",
+            "cycle2_pre_unload_left",
+            "cycle2_left_step_lift"
+          ],
+          "planned_support_sample_count": 4123
+        },
+        {
+          "start_s": 175.6799999975737,
+          "end_s": 175.73999999757228,
+          "sample_count": 4,
+          "maximum_normal_force_N": 2.094940548074443,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.023027560533318937,
+          "phases": [
+            "cycle2_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 175.77999999757134,
+          "end_s": 175.79999999757086,
+          "sample_count": 2,
+          "maximum_normal_force_N": 2.0095238654663943,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.0032359533266997746,
+          "phases": [
+            "cycle2_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 175.83999999756992,
+          "end_s": 195.4417499971064,
+          "sample_count": 982,
+          "maximum_normal_force_N": 20.972256732348814,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.38122813794124505,
+          "phases": [
+            "cycle2_left_step_lower",
+            "cycle2_left_landing_still_unloaded",
+            "cycle2_double_recenter",
+            "cycle2_cycle_end_center"
+          ],
+          "planned_support_sample_count": 969
+        }
+      ],
+      "actual_loaded_during_planned_swing_intervals": [
+        {
+          "start_s": 63.10000000021028,
+          "end_s": 63.36000000021152,
+          "sample_count": 14,
+          "maximum_normal_force_N": 5.433387916642145,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.04078920471906055,
+          "phases": [
+            "cycle1_left_step_lift"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 77.95999999988446,
+          "end_s": 78.01999999988304,
+          "sample_count": 4,
+          "maximum_normal_force_N": 2.1118575113381635,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.02304929055914058,
+          "phases": [
+            "cycle1_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 78.07999999988162,
+          "end_s": 78.359999999875,
+          "sample_count": 15,
+          "maximum_normal_force_N": 5.240136234601386,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.04392086919613942,
+          "phases": [
+            "cycle1_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 160.83999999792462,
+          "end_s": 161.07999999791895,
+          "sample_count": 13,
+          "maximum_normal_force_N": 5.06429271382681,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.03966406280047183,
+          "phases": [
+            "cycle2_left_step_lift"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 175.6799999975737,
+          "end_s": 175.73999999757228,
+          "sample_count": 4,
+          "maximum_normal_force_N": 2.094940548074443,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.023027560533318937,
+          "phases": [
+            "cycle2_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 175.77999999757134,
+          "end_s": 175.79999999757086,
+          "sample_count": 2,
+          "maximum_normal_force_N": 2.0095238654663943,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.0032359533266997746,
+          "phases": [
+            "cycle2_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 175.83999999756992,
+          "end_s": 176.07999999756424,
+          "sample_count": 13,
+          "maximum_normal_force_N": 5.18085009309521,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.03871416344854756,
+          "phases": [
+            "cycle2_left_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        }
+      ],
+      "maximum_loaded_group_polygon_XY_displacement_mm": 0.43885712780097275,
+      "maximum_force_during_planned_swing_N": 5.433387916642145
+    },
+    "ankle_right": {
+      "actual_loaded_contact_intervals": [
+        {
+          "start_s": 0.020000000000000014,
+          "end_s": 20.8200000000084,
+          "sample_count": 1041,
+          "maximum_normal_force_N": 20.51774565947303,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.319074552783374,
+          "phases": [
+            "cycle1_initial_settle_hold",
+            "cycle1_double_transfer_to_left",
+            "cycle1_pre_unload_right",
+            "cycle1_right_step_lift"
+          ],
+          "planned_support_sample_count": 1029
+        },
+        {
+          "start_s": 33.2400000000677,
+          "end_s": 118.53999999892487,
+          "sample_count": 4266,
+          "maximum_normal_force_N": 41.30937442919748,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.28960925344969557,
+          "phases": [
+            "cycle1_right_step_lower",
+            "cycle1_right_landing_still_unloaded",
+            "cycle1_double_transfer_to_right",
+            "cycle1_pre_unload_left",
+            "cycle1_left_step_lift",
+            "cycle1_left_step_advance",
+            "cycle1_left_step_lower",
+            "cycle1_left_landing_still_unloaded",
+            "cycle1_double_recenter",
+            "cycle1_cycle_end_center",
+            "cycle2_initial_settle",
+            "cycle2_double_transfer_to_left",
+            "cycle2_pre_unload_right",
+            "cycle2_right_step_lift"
+          ],
+          "planned_support_sample_count": 4234
+        },
+        {
+          "start_s": 130.9599999986312,
+          "end_s": 195.4417499971064,
+          "sample_count": 3226,
+          "maximum_normal_force_N": 41.307925283027494,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.2933101629254316,
+          "phases": [
+            "cycle2_right_step_lower",
+            "cycle2_right_landing_still_unloaded",
+            "cycle2_double_transfer_to_right",
+            "cycle2_pre_unload_left",
+            "cycle2_left_step_lift",
+            "cycle2_left_step_advance",
+            "cycle2_left_step_lower",
+            "cycle2_left_landing_still_unloaded",
+            "cycle2_double_recenter",
+            "cycle2_cycle_end_center"
+          ],
+          "planned_support_sample_count": 3207
+        }
+      ],
+      "actual_loaded_during_planned_swing_intervals": [
+        {
+          "start_s": 20.60000000000735,
+          "end_s": 20.8200000000084,
+          "sample_count": 12,
+          "maximum_normal_force_N": 4.587867094097061,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.03298543220193406,
+          "phases": [
+            "cycle1_right_step_lift"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 33.2400000000677,
+          "end_s": 33.62000000006952,
+          "sample_count": 20,
+          "maximum_normal_force_N": 4.828150832831751,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.04535241101844867,
+          "phases": [
+            "cycle1_right_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 118.31999999893007,
+          "end_s": 118.53999999892487,
+          "sample_count": 12,
+          "maximum_normal_force_N": 4.556625202959138,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.032923721939466334,
+          "phases": [
+            "cycle2_right_step_lift"
+          ],
+          "planned_support_sample_count": 0
+        },
+        {
+          "start_s": 130.9599999986312,
+          "end_s": 131.31999999862268,
+          "sample_count": 19,
+          "maximum_normal_force_N": 4.764798263896761,
+          "max_polygon_point_XY_displacement_from_first_loaded_sample_mm": 0.04122722832156255,
+          "phases": [
+            "cycle2_right_step_lower"
+          ],
+          "planned_support_sample_count": 0
+        }
+      ],
+      "maximum_loaded_group_polygon_XY_displacement_mm": 0.319074552783374,
+      "maximum_force_during_planned_swing_N": 4.828150832831751
+    }
+  },
+  "all_actual_loaded_groups_within_original_3mm_slip_limit": true,
+  "limits": [
+    "Groups use actual saved normal force >2 N, irrespective of planned support labels.",
+    "All samples are saved numerical states near20 ms; not every solver force iteration or physical foot sensor reading.",
+    "Force-threshold crossings split groups; short low-force gaps are reported as separate groups, with no invented sticking assumption.",
+    "This does not replace original frozen acceptance criteria, actual CAD/floor checks, or evidence of a physical startup/contact-sensing controller.",
+    "Horizontal movement is maximum source-polygon-point displacement from the first loaded sample within each group, not a full material-friction characterization."
+  ],
+  "sources": {
+    "work/r21-reduced-sway/dynamics/full_v3/contact9/report.json": "858cae8cdfc0811b8e27d4369aaf213fa5888fc45a3074cf6f140511ac543227",
+    "work/r21-reduced-sway/dynamics/full_v3/contact9/trajectory.json": "f04f9810e8109e7a2da13f1200d6424b6c2ab57755f63bc3f8c2a386fa91f8a5",
+    "work/r20-walking-fix/dynamics/acceptance_criteria.json": "40c0635714c37afed95456e3ccadd26dff92b0253b09b70815fd940d9ba4ab73",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact9.xml": "4c86e42449eb3766336d94c28a63bba62c0b56845305928192cff765adee8405",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact9.json": "e179f11e98109f5f482c923244f4b7d5a62b310b9b0592b17105751647dd1fe5",
+    "work/r21-reduced-sway/dynamics/supplement_actual_contact_v1.py": "557829046af8be3cfff23f527f23597d44ee1983f06c481868531a6b7fc2ac35"
+  }
+}

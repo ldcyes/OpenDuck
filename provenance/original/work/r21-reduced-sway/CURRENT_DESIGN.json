@@ -1,0 +1,23 @@
+{
+  "status": "CURRENT_REDUCED_SWAY_SIMULATION_WITH_R20_HARDWARE_BASE",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "normal_speed_walking_qualified": false,
+  "structure_revision": "R20 / R13.7",
+  "motion_revision": "R21 / R13.8",
+  "electrical_revision": "R13 native source; 2026-09-13 read-only DRC review",
+  "selection_path": "work/r20-walking-fix/assembly_final/assembly_selection.json",
+  "selection_sha256": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+  "reference_path": "work/r21-reduced-sway/gait/trajectory_4steps_v3.json",
+  "reference_sha256": "9ae29d7be2dd7e211482bfb13ba49b2234e4ecaf782c945b46b9a944b41a7d5d",
+  "final_review": "work/r21-reduced-sway/final_review_index.json",
+  "final_review_sha256": "c591bfe4d699eed639c479a64d02ef7f628ed7d24b4fc2832f761750d53bad99",
+  "actual_trace": "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json",
+  "complete_viewer": "outputs/Microduck_R13_8_减摆步态与PCB复核/模型/Microduck_R21_实际减摆对照.blend",
+  "guide": "outputs/Microduck_R13_8_减摆步态与PCB复核/00_减摆结果与查看说明.md",
+  "archive": "outputs/R13_8_减摆步态更新包.zip",
+  "archive_sha256": "87a3992fee6710c913c366cd7232e1a2079173aa754b95118425ecee66b1658c",
+  "pcb_review": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13/00_PCB检查与缩板结论.md",
+  "predeclared_sway_targets_met": false,
+  "preparation_transition_qualified": false
+}

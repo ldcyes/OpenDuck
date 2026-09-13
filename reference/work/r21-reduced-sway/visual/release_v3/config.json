@@ -1,0 +1,31 @@
+{
+  "purpose": "FINAL_FOUR_STEP",
+  "publication_gate": "WAITING_ROOT_FINAL_CAD_AND_FINAL_NUMERICAL_REVIEW",
+  "output_dir": "work/r21-reduced-sway/visual/release_v3",
+  "candidate": {
+    "trace_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json",
+    "trace_sha256": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "contract_path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+    "contract_sha256": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "report_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/report.json",
+    "report_sha256": "81b4423fa399bfc89fbeb425c18f9c8e7ee75c7557bc934db5958ad10ab81b02"
+  },
+  "phase_map": {
+    "path": "work/r21-reduced-sway/visual/release_v3/actual_phase_mapping.json",
+    "sha256": "24f02f3a3482d4722505fb1f1aa02d1f9e918b9a09008ed61ecfe613c1d585ae"
+  },
+  "final_evidence": [
+    {
+      "path": "work/r21-reduced-sway/dynamics/full_v3/nominal/acceptance.json",
+      "sha256": "47f308361b139cfb44502ffdec2f610933701852136bbdaaba9b684d4f95f17b"
+    },
+    {
+      "path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.json",
+      "sha256": "d1b2e54df9375da5067cd39e6e4bdf96622bb596f757c03949d0cabb50fad2b5"
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/frozen_baseline_source_graph_audit.json",
+      "sha256": "6998f77c6d271a0c1a5460598ba3f999f9180f26fca5008a3b506b47398fe362"
+    }
+  ]
+}

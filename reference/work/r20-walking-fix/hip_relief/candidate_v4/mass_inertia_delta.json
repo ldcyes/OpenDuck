@@ -1,0 +1,145 @@
+{
+  "status": "CAD_NOMINAL_MASS_INERTIA_DELTA",
+  "physical_approved": false,
+  "remove_mass_rows": [
+    "R11_hip_l_rail_2"
+  ],
+  "add_mass_rows": [
+    {
+      "name": "R20_left_hip_rail_offset",
+      "link": "hip_l",
+      "COM_home_mm": [
+        3.344683554332479,
+        58.3605390666742,
+        -50.37947425138401
+      ],
+      "low_g": 21.372540913358858,
+      "nominal_g": 21.372540913358858,
+      "high_g": 21.372540913358858,
+      "measured": false,
+      "category": "R20 rerouted full-section original interface rail",
+      "basis": "Original STEP end interfaces, new valid single-solid CAD at inherited7075density2.8g/cm3; material and load assumptions not hardware-qualified.",
+      "I_COM_home_kg_m2": [
+        [
+          6.698225613970835e-06,
+          -1.9356680834759045e-06,
+          5.167292311561452e-07
+        ],
+        [
+          -1.9356680834759045e-06,
+          1.982219781029019e-06,
+          4.4416993886723524e-07
+        ],
+        [
+          5.167292311561452e-07,
+          4.4416993886723524e-07,
+          7.64213011662723e-06
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          0.00031340333566909313,
+          -9.056799055024942e-05,
+          2.4177248425954107e-05
+        ],
+        [
+          -9.056799055024942e-05,
+          9.274609832610199e-05,
+          2.0782271077071968e-05
+        ],
+        [
+          2.4177248425954107e-05,
+          2.0782271077071968e-05,
+          0.00035756769153500747
+        ]
+      ],
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "sources": {
+        "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+        "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6"
+      }
+    }
+  ],
+  "old_mass_row": {
+    "name": "R11_hip_l_rail_2",
+    "link": "hip_l",
+    "COM_home_mm": [
+      4.540716054809548,
+      59.553682302838006,
+      -54.44625035694479
+    ],
+    "low_g": 19.27986360535874,
+    "nominal_g": 19.27986360535874,
+    "high_g": 19.27986360535874,
+    "category": "actual87 manufacturing candidate CAD",
+    "basis": "Actual CAD volume times stated density; assembly/strength/fastener qualification pending",
+    "measured": false,
+    "I_COM_home_kg_m2": [
+      [
+        5.17610445680738e-06,
+        -1.6782232523773214e-06,
+        9.877795640813409e-08
+      ],
+      [
+        -1.6782232523773214e-06,
+        1.6910617419969273e-06,
+        2.1571741236409244e-07
+      ],
+      [
+        9.877795640813409e-08,
+        2.1571741236409244e-07,
+        6.537876343483366e-06
+      ]
+    ],
+    "I_COM_home_per_kg_m2": [
+      [
+        0.00026847204745622305,
+        -8.704539029575226e-05,
+        5.1233742328280396e-06
+      ],
+      [
+        -8.704539029575226e-05,
+        8.771129177111527e-05,
+        1.1188741620772402e-05
+      ],
+      [
+        5.1233742328280396e-06,
+        1.1188741620772402e-05,
+        0.0003391038690577767
+      ]
+    ],
+    "COM_uncertainty_halfwidth_HOME_mm": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+  },
+  "delta_nominal_g": 2.092677308000116,
+  "before_nominal_kg": 4.193000872961529,
+  "after_nominal_kg": 4.1950935502695295,
+  "sources": {
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3"
+  }
+}

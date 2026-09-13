@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "host": "x86_64 WSL CPU; not RK3566",
+  "onnxruntime": "1.27.0 native C++ API (cached library; matching official headers)",
+  "policies_tested": 9,
+  "total_finite_inferences": 1890,
+  "scope": "original official policies: exact61/14 input/output, finite inference and nonconstant response",
+  "not_validated": [
+    "R1 hardware policy",
+    "Python ONNX Runtime1.24.4 wrapper on RK3566",
+    "real-time50Hz on RK3566",
+    "new training convergence"
+  ],
+  "results": [
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/alpha_ground_pick.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008389,
+      "p99_ms": 0.013658,
+      "max_ms": 0.020972,
+      "response_variation": 0.0239351
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/alpha_sitstand.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008521,
+      "p99_ms": 0.01353,
+      "max_ms": 0.018875,
+      "response_variation": 0.0858747
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/alpha_stand.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008483,
+      "p99_ms": 0.013024,
+      "max_ms": 0.019938,
+      "response_variation": 0.040834
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/alpha_walking.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008451,
+      "p99_ms": 0.021162,
+      "max_ms": 0.027157,
+      "response_variation": 0.0495575
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/ball_kick_left.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008296,
+      "p99_ms": 0.025273,
+      "max_ms": 0.025994,
+      "response_variation": 0.137887
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/ball_kick_right.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008437,
+      "p99_ms": 0.021632,
+      "max_ms": 0.033201,
+      "response_variation": 0.0893579
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/roller.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008482,
+      "p99_ms": 0.023813,
+      "max_ms": 0.085303,
+      "response_variation": 0.0288001
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/roller_crouch.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008399,
+      "p99_ms": 0.023857,
+      "max_ms": 0.034541,
+      "response_variation": 0.0519119
+    },
+    {
+      "file": "outputs/Microduck_RK_R1/\u8f6f\u4ef6\u4e0e\u8bad\u7ec3/reference_policies_NOT_R1/roulade.onnx",
+      "runtime": "1.27.0",
+      "shape": "1x61 -> 1x14",
+      "finite_inferences": 210,
+      "p50_ms": 0.008303,
+      "p99_ms": 0.018383,
+      "max_ms": 0.018902,
+      "response_variation": 0.0580827
+    }
+  ]
+}

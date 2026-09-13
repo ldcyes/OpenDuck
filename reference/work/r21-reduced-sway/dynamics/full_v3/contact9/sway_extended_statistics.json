@@ -1,0 +1,226 @@
+{
+  "status": "ACTUAL_WORLD_SIGNAL_STATISTICS",
+  "physical_approved": false,
+  "statistics": {
+    "R20 actual baseline": {
+      "trunk_roll_deg": {
+        "initial_value": -5.146533345576966e-23,
+        "final_value": 0.00011126603705528643,
+        "min": -22.82833237757974,
+        "max": 23.907580221893348,
+        "peak_to_peak": 46.73591259947309,
+        "maximum_absolute": 23.907580221893348,
+        "time_weighted_mean": 0.7523706656543735,
+        "time_weighted_RMS": 15.162949190492727,
+        "sample_median": 0.00017887282410850827
+      },
+      "trunk_pitch_deg": {
+        "initial_value": 0.0,
+        "final_value": -0.03078751847810167,
+        "min": -9.915129693376539,
+        "max": 0.004711534568384125,
+        "peak_to_peak": 9.919841227944923,
+        "maximum_absolute": 9.915129693376539,
+        "time_weighted_mean": -6.096748213488963,
+        "time_weighted_RMS": 6.685674519327041,
+        "sample_median": -6.659327398059233
+      },
+      "trunk_yaw_deg": {
+        "initial_value": -5.4187418234832884e-17,
+        "final_value": 0.032309382756727574,
+        "min": -11.125900287091653,
+        "max": 11.357644489361634,
+        "peak_to_peak": 22.483544776453286,
+        "maximum_absolute": 11.357644489361634,
+        "time_weighted_mean": 0.43811935444730027,
+        "time_weighted_RMS": 7.803344596804831,
+        "sample_median": 0.18519057488188642
+      },
+      "root_world_X_mm": {
+        "initial_value": 0.0,
+        "final_value": 20.29208920490867,
+        "min": -18.384097933378456,
+        "max": 20.29501734426996,
+        "peak_to_peak": 38.67911527764842,
+        "maximum_absolute": 20.29501734426996,
+        "time_weighted_mean": 0.945840581041436,
+        "time_weighted_RMS": 8.207001172686443,
+        "sample_median": 0.2007072519144132
+      },
+      "root_world_Y_mm": {
+        "initial_value": 0.0,
+        "final_value": -0.08374074439800315,
+        "min": -17.453922995335816,
+        "max": 18.87721657574419,
+        "peak_to_peak": 36.33113957108,
+        "maximum_absolute": 18.87721657574419,
+        "time_weighted_mean": 0.2758714694583815,
+        "time_weighted_RMS": 11.91986144195739,
+        "sample_median": -0.03865563314904626
+      },
+      "root_world_Z_mm": {
+        "initial_value": 255.89753818531463,
+        "final_value": 255.8029462933597,
+        "min": 248.80490990322585,
+        "max": 257.05491050512126,
+        "peak_to_peak": 8.250000601895408,
+        "maximum_absolute": 257.05491050512126,
+        "time_weighted_mean": 253.41176286016596,
+        "time_weighted_RMS": 253.42448418011833,
+        "sample_median": 253.87963450719553
+      },
+      "head_marker_world_X_mm": {
+        "initial_value": 32.15540619630929,
+        "final_value": 52.29144017917309,
+        "min": -12.786398413126886,
+        "max": 52.29144017917309,
+        "peak_to_peak": 65.07783859229997,
+        "maximum_absolute": 52.29144017917309,
+        "time_weighted_mean": 13.919964213301817,
+        "time_weighted_RMS": 20.94200783205723,
+        "sample_median": 13.253419770273162
+      },
+      "head_marker_world_Y_mm": {
+        "initial_value": -0.0025424526004277368,
+        "final_value": -0.06827958052635204,
+        "min": -129.18257868569788,
+        "max": 128.65183343601726,
+        "peak_to_peak": 257.8344121217151,
+        "maximum_absolute": 129.18257868569788,
+        "time_weighted_mean": -2.7918084828333924,
+        "time_weighted_RMS": 84.64121411305696,
+        "sample_median": -0.03200009651615004
+      },
+      "head_marker_world_Z_mm": {
+        "initial_value": 539.9163476622019,
+        "final_value": 539.8387095980357,
+        "min": 512.9968620132361,
+        "max": 542.6865512185124,
+        "peak_to_peak": 29.689689205276295,
+        "maximum_absolute": 542.6865512185124,
+        "time_weighted_mean": 529.1449546788326,
+        "time_weighted_RMS": 529.2480088818432,
+        "sample_median": 531.7675934444466
+      },
+      "duration_s": 174.8464999975934
+    },
+    "R21 actual candidate": {
+      "trunk_roll_deg": {
+        "initial_value": 3.7915166377812095e-22,
+        "final_value": -0.0008332905604875317,
+        "min": -16.089320834348396,
+        "max": 17.210046987201867,
+        "peak_to_peak": 33.29936782155026,
+        "maximum_absolute": 17.210046987201867,
+        "time_weighted_mean": 0.7875436800341403,
+        "time_weighted_RMS": 11.346354374825204,
+        "sample_median": 0.31281782390496116
+      },
+      "trunk_pitch_deg": {
+        "initial_value": 0.0,
+        "final_value": 0.030384012680390596,
+        "min": -8.879353423641417,
+        "max": 0.08752542388328975,
+        "peak_to_peak": 8.966878847524708,
+        "maximum_absolute": 8.879353423641417,
+        "time_weighted_mean": -6.165795190096571,
+        "time_weighted_RMS": 6.771663744703748,
+        "sample_median": -7.31679034428563
+      },
+      "trunk_yaw_deg": {
+        "initial_value": 1.3170069899435523e-15,
+        "final_value": 0.012813749545361467,
+        "min": -1.942018394614201,
+        "max": 1.99560989090049,
+        "peak_to_peak": 3.937628285514691,
+        "maximum_absolute": 1.99560989090049,
+        "time_weighted_mean": 0.16187695398121565,
+        "time_weighted_RMS": 1.0108234797387476,
+        "sample_median": 0.12244970887755519
+      },
+      "root_world_X_mm": {
+        "initial_value": -1.3322676295501878e-15,
+        "final_value": 20.228644960771877,
+        "min": -8.069639097517404,
+        "max": 20.240965748149115,
+        "peak_to_peak": 28.310604845666518,
+        "maximum_absolute": 20.240965748149115,
+        "time_weighted_mean": 4.214009482324342,
+        "time_weighted_RMS": 7.893094066371371,
+        "sample_median": 4.884340858361818
+      },
+      "root_world_Y_mm": {
+        "initial_value": -1.7763568394002505e-15,
+        "final_value": -0.031030832904070074,
+        "min": -10.277095614669511,
+        "max": 12.996955800980018,
+        "peak_to_peak": 23.27405141564953,
+        "maximum_absolute": 12.996955800980018,
+        "time_weighted_mean": 0.7722739207572641,
+        "time_weighted_RMS": 6.987356063518732,
+        "sample_median": -0.005600959348608568
+      },
+      "root_world_Z_mm": {
+        "initial_value": 253.51943636100853,
+        "final_value": 253.48170447480624,
+        "min": 250.72692342348668,
+        "max": 259.82596454554573,
+        "peak_to_peak": 9.099041122059049,
+        "maximum_absolute": 259.82596454554573,
+        "time_weighted_mean": 255.99319576330075,
+        "time_weighted_RMS": 256.0037486829335,
+        "sample_median": 256.24203566753374
+      },
+      "head_marker_world_X_mm": {
+        "initial_value": 32.15540619630929,
+        "final_value": 52.53712075169506,
+        "min": -15.403495718366436,
+        "max": 52.594834773316826,
+        "peak_to_peak": 67.99833049168326,
+        "maximum_absolute": 52.594834773316826,
+        "time_weighted_mean": 7.1158793404362894,
+        "time_weighted_RMS": 18.4170055704016,
+        "sample_median": 2.020749754639993
+      },
+      "head_marker_world_Y_mm": {
+        "initial_value": -0.0025424526004287433,
+        "final_value": -0.022215989193514783,
+        "min": -91.90798795042151,
+        "max": 91.81963680348368,
+        "peak_to_peak": 183.7276247539052,
+        "maximum_absolute": 91.90798795042151,
+        "time_weighted_mean": -3.0765383210310584,
+        "time_weighted_RMS": 62.40363595545094,
+        "sample_median": -1.0286427747750202
+      },
+      "head_marker_world_Z_mm": {
+        "initial_value": 537.5382458378959,
+        "final_value": 537.4835843568038,
+        "min": 523.905762080616,
+        "max": 545.485969848014,
+        "peak_to_peak": 21.58020776739795,
+        "maximum_absolute": 545.485969848014,
+        "time_weighted_mean": 535.9922404099309,
+        "time_weighted_RMS": 536.0257680052442,
+        "sample_median": 536.7077337082437
+      },
+      "duration_s": 195.4417499971064
+    }
+  },
+  "methods": [
+    "Trunk roll/pitch/yaw use the same extrinsic xyz convention as the frozen metric contract.",
+    "Time-weighted mean/RMS use trapezoidal integration over saved actual time samples; median is explicitly a sample median.",
+    "No offset, camera transform, amplitude normalization or phase warping is applied to metrics.",
+    "Separate-column plot has independent actual elapsed-time axes and identical vertical limits in each row.",
+    "Shared-time overlay plots original actual samples directly; each trace stops at its own last sample, with no extension or phase resampling.",
+    "The same contract upper-head-shell source volume centroid is the head marker; not a moving mesh bounding-box center."
+  ],
+  "sources": {
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+    "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+    "work/r21-reduced-sway/dynamics/full_v3/contact9/dynamic_trace_for_CAD.json": "2b28c5afc080a463428b72a0ad76aa99a64458871ae1ea56cbbb93d05d4658ac",
+    "work/r21-reduced-sway/dynamics/full_v3/contact9/acceptance.json": "6fd04522e145951498b22c16505c021f21f08bb52cd2fb7254736d8bcde05695",
+    "work/r21-reduced-sway/evidence/sway_metrics.py": "44137a614da204b05271b8e7e4a787985244294fb47b214af30eb55094c23c9c",
+    "work/r21-reduced-sway/dynamics/plot_sway_comparison_v2.py": "a9e4e20f7279ed270d036037ce3b934604d163696a765b9b05aa26efb7850199"
+  }
+}

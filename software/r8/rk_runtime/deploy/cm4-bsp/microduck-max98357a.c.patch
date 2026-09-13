@@ -1,0 +1,49 @@
+--- linux-v6.1/sound/soc/codecs/max98357a.c
++++ microduck-max98357a.c
+@@ -32,6 +32,10 @@
+ 	struct snd_soc_component *component = dai->component;
+ 	struct max98357a_priv *max98357a =
+ 		snd_soc_component_get_drvdata(component);
++
++	/* A shared link may call this codec for capture on older BSP ASoC. */
++	if (substream->stream != SNDRV_PCM_STREAM_PLAYBACK)
++		return 0;
+ 
+ 	if (!max98357a->sdmode)
+ 		return 0;
+@@ -153,31 +157,22 @@
+ 
+ #ifdef CONFIG_OF
+ static const struct of_device_id max98357a_device_id[] = {
+-	{ .compatible = "maxim,max98357a" },
+-	{ .compatible = "maxim,max98360a" },
++	{ .compatible = "microduck,max98357a-duplex" },
+ 	{}
+ };
+ MODULE_DEVICE_TABLE(of, max98357a_device_id);
+ #endif
+ 
+-#ifdef CONFIG_ACPI
+-static const struct acpi_device_id max98357a_acpi_match[] = {
+-	{ "MX98357A", 0 },
+-	{ "MX98360A", 0 },
+-	{},
+-};
+-MODULE_DEVICE_TABLE(acpi, max98357a_acpi_match);
+-#endif
++
+ 
+ static struct platform_driver max98357a_platform_driver = {
+ 	.driver = {
+-		.name = "max98357a",
++		.name = "microduck-max98357a",
+ 		.of_match_table = of_match_ptr(max98357a_device_id),
+-		.acpi_match_table = ACPI_PTR(max98357a_acpi_match),
+ 	},
+ 	.probe	= max98357a_platform_probe,
+ };
+ module_platform_driver(max98357a_platform_driver);
+ 
+-MODULE_DESCRIPTION("Maxim MAX98357A Codec Driver");
++MODULE_DESCRIPTION("Microduck MAX98357A playback-only trigger derivative");
+ MODULE_LICENSE("GPL v2");

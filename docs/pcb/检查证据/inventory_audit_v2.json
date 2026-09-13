@@ -1,0 +1,13 @@
+{
+  "status": "PASS_V2_EXPLICIT_CORRECTION_WITH_V1_UNCHANGED",
+  "v1_json_sha256": "1bc4df0e39143cd75a8f485516a660e7a9c94c2c87bf71a384c3a98cf6df2df8",
+  "v1_md_sha256": "82cd82e095dd07ca4a83deca09ae2b219acb7adfe837ec0671dd7d378e337301",
+  "v2_json_sha256": "0cc50bd08da74e5da06cf70e282b0180ed3881a3f4d111bbde26bcd3050ef16b",
+  "v2_md_sha256": "af46550d07550dc8a0d722cd0bd3bb59c1cdee39b9ee3d1c0ac7224aabc55768",
+  "source_hash_count": 549,
+  "all_sources_unchanged": true,
+  "correction": "原始43项警告数不变：5项过孔警告实际是4项CORE_5V、1项SYSTEM_5V；不再写5项全为CORE_5V。板/功能/安装/面积/孔和制造源不变。",
+  "source_warning_adjudication_sha256": "7770b1f5ce882977957304c771aa928f1381fbe6059c7882cf9fd54a1d48b5cd",
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

@@ -1,0 +1,44 @@
+{
+  "artifacts": [
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+      "sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+      "destination": "模型/Microduck_R21_实际减摆对照.blend"
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/R21_完整实际四步_约24倍速.mp4",
+      "sha256": "94d06a9f2d111a77a5b18bf8732404f9eb4814849008c75ea3381cd470ce7daa",
+      "destination": "视频/R21_完整实际四步_约24倍速.mp4"
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/R20_R21_同参考阶段_对照.mp4",
+      "sha256": "bbda309839ccdfbdc76f3656a4587d691537f1e9079aa9b629d2f8ee465073db",
+      "destination": "视频/R20_R21_同参考阶段_对照.mp4"
+    },
+    {
+      "path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_actual_time_overlay.png",
+      "sha256": "54c1f6c68244d050a95ab925d6573d48ec663cfd553330cf21c99af80f1ebbfc",
+      "destination": "图/实际时间与摆幅对照.png"
+    },
+    {
+      "path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.png",
+      "sha256": "32b8763ba12e4f804a0b922494e2b06a8723e51a3d7ec4160a05e98ac0ee4607",
+      "destination": "图/完整四步摆幅对照.png"
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0030.png",
+      "sha256": "fe06d4ab35d40243a14e0abfc4f9ed292452d35e0ba21bb0e8e7bb678510c062",
+      "destination": "图/同阶段装配对照.png"
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/R21_模型与视频查看说明.md",
+      "sha256": "fee22c3519639e3d8221c89d65bebb9313c6915d3473cd55a427a6c60e963e59",
+      "destination": "02_模型与视频查看说明.md"
+    },
+    {
+      "path": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "sha256": "993be1eb1547067de457e4d3d6e073a49b78b6022253930cedd643ab21856898",
+      "destination": "PCB/PCB_功能_DRC与尺寸复核_2026-09-13.zip"
+    }
+  ]
+}

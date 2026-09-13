@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_WARNINGS_AND_REPORT_FACTS",
+  "source_warning_adjudication_sha256": "7770b1f5ce882977957304c771aa928f1381fbe6059c7882cf9fd54a1d48b5cd",
+  "witness_disk_count": 5,
+  "witnesses_independently_checked_without_numpy": true,
+  "warning_source_hashes_verified": 96,
+  "area_sum_mm2": 16681,
+  "area_percentages_verified": [
+    17.53,
+    29.13,
+    15.65,
+    23.26,
+    9.93,
+    4.5
+  ],
+  "reserved_uninstalled_electronics_group_count": 8,
+  "reserved_mass_g": 63.85628400000002,
+  "model_source": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+  "model_sha256": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+  "report_reviewed": "work/r21-reduced-sway/pcb_review/PCB_DRC与缩板评估.md",
+  "report_hash_at_review": "7d1223e5d6a8f125e4e10a325d0d24565be5e1fd85a986cf4736b184933ea611",
+  "report_scope_review": "接口约束、未给新尺寸、PCB/CAD/质量保持、建议先补警告再实际布局均无矛盾；其表格面积份额与8组预留质量复核一致。",
+  "physical_approved": false
+}

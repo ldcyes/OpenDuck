@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T21:33:05",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Microduck_Main_Fuse_R8.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W1",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 5.0
+                    },
+                    "uuid": "5aa324af-8719-4b3d-8b47-5d4c133d5bd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W2",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 20.0
+                    },
+                    "uuid": "6650c34d-226e-41e6-aa70-013a2e6fb1a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        }
+    ]
+}

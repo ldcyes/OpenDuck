@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "kernel_repo": "https://github.com/radxa/kernel",
+  "kernel_branch": "linux-6.1-stan-rkr4.1",
+  "kernel_commit": "270a678f8364683447f994adec9d31eb182eaf85",
+  "bsp_profile": "rk2410",
+  "read_date": "2026-09-06",
+  "reference_is_full_kernel": false,
+  "target_arm64_kernel_built": false,
+  "target_hardware_loaded": false,
+  "files": [
+    {
+      "file": "reference/arch__arm64__boot__dts__rockchip__rk3576-pinctrl.dtsi",
+      "sha256": "1fe6ca509ee0e7561fceb261a5354ee06a85fab38e3944469b70254d6e565d3f",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-pinctrl.dtsi"
+    },
+    {
+      "file": "reference/arch__arm64__boot__dts__rockchip__rk3576-radxa-cm4-io.dts",
+      "sha256": "42d872a248dc2ea784cdf9426a3f52dc21b8b98e06f02eee78e06ce82d68fc8c",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4-io.dts"
+    },
+    {
+      "file": "reference/arch__arm64__boot__dts__rockchip__rk3576-radxa-cm4.dtsi",
+      "sha256": "83d4e55ece4fd0b02ab2d11ac9d6338c3c68ca0a37511b27da371a15e911cf79",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4.dtsi"
+    },
+    {
+      "file": "reference/arch__arm64__boot__dts__rockchip__rk3576.dtsi",
+      "sha256": "1d7bc8b0e83006f7e3a3d8e9e5a9d39b7604fcc5b2ccc9d9a0abbb678eff0442",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576.dtsi"
+    },
+    {
+      "file": "reference/rk2410-fork.conf",
+      "sha256": "3678f151b4a1aa5b95599956ea26fffd09cd039644393434b4af484d7c1b3eb6",
+      "url": "https://raw.githubusercontent.com/radxa-repo/bsp/main/linux/rk2410/fork.conf"
+    },
+    {
+      "file": "reference/rockchip_linux_defconfig",
+      "sha256": "48688a497fe967c63599c58f234765f20530a2d822c4edbe959ac5deccf7147f",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/configs/rockchip_linux_defconfig"
+    },
+    {
+      "file": "reference/sound__soc__codecs__dmic.c",
+      "sha256": "72a153e6ef776b26ad09dfade64170056f5a60f7b409f67aca7e3838e3adcfab",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/codecs/dmic.c"
+    },
+    {
+      "file": "reference/sound__soc__codecs__max98357a.c",
+      "sha256": "1e46270a593f40fadb39cf4029f178dc863e70a57778e6dc11edf65ecf84fda3",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/codecs/max98357a.c"
+    },
+    {
+      "file": "reference/sound__soc__rockchip__Kconfig",
+      "sha256": "18c2ed5cef2cc6dc1b21312192489ed9b3c991e43c5b3ad15221d9d32d51d947",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/rockchip/Kconfig"
+    },
+    {
+      "file": "reference/sound__soc__rockchip__Makefile",
+      "sha256": "df03f185872c2d9ad0cecac342d9cbd2464497c851b6cd92f704d63cb0f8f41d",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/rockchip/Makefile"
+    },
+    {
+      "file": "reference/sound__soc__rockchip__rockchip_sai.c",
+      "sha256": "a9fffa0b9b3267ce944611661860bfcbf8ce51d1182d0052dd512eb4ebd383cc",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/rockchip/rockchip_sai.c"
+    },
+    {
+      "file": "reference/sound__soc__rockchip__rockchip_sai.h",
+      "sha256": "0168c0a18f6abda7211af572f6778ff41b77e22602f6ad00f3ffee83e97884ed",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/rockchip/rockchip_sai.h"
+    },
+    {
+      "file": "reference/sound__soc__soc-pcm.c",
+      "sha256": "79008b6d64a969b35e14794eaab801e621d2f33eaa59ff376a6f40b4506ba018",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/sound/soc/soc-pcm.c"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576-linux.dtsi",
+      "sha256": "183e1b296115bfb12550e0384cc6dd3f60865d0aeeec84a0aefcb394907a186b",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-linux.dtsi"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576-pinctrl.dtsi",
+      "sha256": "1fe6ca509ee0e7561fceb261a5354ee06a85fab38e3944469b70254d6e565d3f",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-pinctrl.dtsi"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4-io.dts",
+      "sha256": "42d872a248dc2ea784cdf9426a3f52dc21b8b98e06f02eee78e06ce82d68fc8c",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4-io.dts"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4.dtsi",
+      "sha256": "83d4e55ece4fd0b02ab2d11ac9d6338c3c68ca0a37511b27da371a15e911cf79",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-radxa-cm4.dtsi"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576-rk806.dtsi",
+      "sha256": "844f797e3fbfb3284484fc98ec5fd8321ce341ad7f20bac599610935a24531a5",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576-rk806.dtsi"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rk3576.dtsi",
+      "sha256": "1d7bc8b0e83006f7e3a3d8e9e5a9d39b7604fcc5b2ccc9d9a0abbb678eff0442",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rk3576.dtsi"
+    },
+    {
+      "file": "reference/tree/arch/arm64/boot/dts/rockchip/rockchip-pinconf.dtsi",
+      "sha256": "27321de904e0fe682ca7aa08bcc289a99cf8db045a805afda59b3c309b4d83e8",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/boot/dts/rockchip/rockchip-pinconf.dtsi"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/clock/rockchip,rk3576-cru.h",
+      "sha256": "94778832f7455e484aef23a04f75f4730db0811e270b8ad29628cf1077296257",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/clock/rockchip,rk3576-cru.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/display/drm_mipi_dsi.h",
+      "sha256": "f5f6136c8e14bb67575c163c3791feff94d9b109d98ddb78751f682355020ecc",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/display/drm_mipi_dsi.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/display/rockchip_vop.h",
+      "sha256": "c8f58a1abc5872353d2fc445ba09577ce4f14ceaf6540b06deeddc13ecf6d120",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/display/rockchip_vop.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/gpio/gpio.h",
+      "sha256": "316d53bb1a58752ab9d8fa47ab8a233759f12da5b3cd0569a92cd2d4941edba0",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/gpio/gpio.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/input/rk-input.h",
+      "sha256": "1068a33b40aeac9b0510946faffb5e4887c24bcdc00343f50119f1bc22606921",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/input/rk-input.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/interrupt-controller/arm-gic.h",
+      "sha256": "a0e0b6ab839734b481d8842769f45c88cd6912f8f97ed0b32a9a45c5d9d65fda",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/interrupt-controller/arm-gic.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/interrupt-controller/irq.h",
+      "sha256": "392400a309a54ea5b1a2ac2e52773d3ab68e07323109b9aed88a69fedc74e082",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/interrupt-controller/irq.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/phy/phy.h",
+      "sha256": "f4221e68541c911f2d24a16473ac48530152e1956a90ba25ca232055cea1bde7",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/phy/phy.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/pinctrl/rockchip.h",
+      "sha256": "73da3a36fd77e90a44a6fd6d12ed9bb2f1eba9898456cd199ae3ac85d1f31397",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/pinctrl/rockchip.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/power/rk3576-power.h",
+      "sha256": "8460759d217e8027fbded78ea01b770d90463d0af62c06d53811851ca79b3d91",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/power/rk3576-power.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/pwm/pwm.h",
+      "sha256": "7f76b7b4f29c24cc87710f60cff99e0ac571ed7b6fa69dc127ae370dabd8546a",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/pwm/pwm.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/sensor-dev.h",
+      "sha256": "a683e64f5e183e8fb0c54ee318643657fb2ce2ee3d4d13bedf42423e7a3ad9f5",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/sensor-dev.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/soc/rockchip,boot-mode.h",
+      "sha256": "2bc0ed9446c422e03cdc8d2a4445d01745cd619844c9b88d38cff4918cc33bd4",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/soc/rockchip,boot-mode.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/soc/rockchip-csu.h",
+      "sha256": "6850cdfa3e177121834af1b88cfc2c2dbf425b7855dbe607c5b69ea722a43972",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/soc/rockchip-csu.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/soc/rockchip-system-status.h",
+      "sha256": "1f0ca00a3c012b9081275192253ab4cf78c648241a51a18633372eed9bca0bb2",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/soc/rockchip-system-status.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/suspend/rockchip-rk3576.h",
+      "sha256": "bde61ef4839f38ed5a1fe721373686a5da58a6975d83bfa89ca2e1567962a171",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/suspend/rockchip-rk3576.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/thermal/thermal.h",
+      "sha256": "d74d498871c3bf3d6aa985ad01c15dfa916614369dbcd832bdcb9d2d45b15e08",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/thermal/thermal.h"
+    },
+    {
+      "file": "reference/tree/include/dt-bindings/usb/pd.h",
+      "sha256": "04b003479b5fb3380f054c40c48515340f7b2550bedce50a066c3bfd25501c7a",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/include/dt-bindings/usb/pd.h"
+    },
+    {
+      "file": "reference/kernel_Makefile.reference",
+      "sha256": "8f79ddf3932dcb5131f4b66afdda3c22424b4cad2e277776df23273a444ec75a",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/Makefile"
+    },
+    {
+      "file": "reference/arch__arm64__configs__rockchip_linux_defconfig",
+      "sha256": "48688a497fe967c63599c58f234765f20530a2d822c4edbe959ac5deccf7147f",
+      "url": "https://raw.githubusercontent.com/radxa/kernel/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/configs/rockchip_linux_defconfig"
+    }
+  ]
+}

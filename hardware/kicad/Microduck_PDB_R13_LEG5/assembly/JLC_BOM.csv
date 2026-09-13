@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC Part #,Manufacturer Part Number
+PORT 1,J1,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,,S3B-EH(LF)(SN)
+3A VERY FAST,F1,Microduck_PDB_R13:Fuse_Littelfuse_448,,0448003.MR
+PORT 2,J2,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,,S3B-EH(LF)(SN)
+3A VERY FAST,F2,Microduck_PDB_R13:Fuse_Littelfuse_448,,0448003.MR
+PORT 3,J3,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,,S3B-EH(LF)(SN)
+3A VERY FAST,F3,Microduck_PDB_R13:Fuse_Littelfuse_448,,0448003.MR
+PORT 4,J4,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,,S3B-EH(LF)(SN)
+3A VERY FAST,F4,Microduck_PDB_R13:Fuse_Littelfuse_448,,0448003.MR
+PORT 5,J5,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,,S3B-EH(LF)(SN)
+3A VERY FAST,F5,Microduck_PDB_R13:Fuse_Littelfuse_448,,0448003.MR
+GND/DATA IN-OUT,J6,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,SM04B-SRSS-TB(LF)(SN)

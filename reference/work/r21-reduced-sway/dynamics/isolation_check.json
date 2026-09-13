@@ -1,0 +1,12 @@
+{
+  "status": "OUTPUT_ISOLATION_AND_FROZEN_MODEL_GUARDS_CHECKED",
+  "original_numeric_controller_function_unchanged": true,
+  "rejected_output_paths": [
+    "work/r20-walking-fix/dynamics",
+    "outputs"
+  ],
+  "sources": {
+    "work/r21-reduced-sway/dynamics/controller_r21_v1.py": "1f04fd2560f1e9496471092ce11ae9da59b9e60ef95ec619b70a888e72b2743b",
+    "work/r21-reduced-sway/dynamics/pipeline_preparation.json": "420f96483fb642094e6dd3db4fd3cd1ab65ca854cd32ac95e62eebccc7c6b0e0"
+  }
+}

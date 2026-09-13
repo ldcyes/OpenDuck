@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "platform": {
+    "module": "Radxa CM4 RK3576 V1.20",
+    "carrier": "Microduck R8 CM4",
+    "servo_nominal_V": 10.8,
+    "ina_addresses": [
+      64,
+      65,
+      66
+    ],
+    "ads_address": 72,
+    "shunt_ohm": 0.002,
+    "current_lsb_A": 0.001,
+    "ina_config": 17191,
+    "gpio_run_req": "MICRODUCK_RUN_REQ",
+    "gpio_run_ok": "MICRODUCK_RUN_OK",
+    "active_high": true,
+    "ntc_MPN": "NTCLE100E3103GB0",
+    "voltage_window": {
+      "revision": "R8-10V8-window-20260906-1",
+      "bench_W3_min_V": 10.5,
+      "bench_branch_drop_max_V": 0.2,
+      "bench_XM_terminal_min_V": 10.3,
+      "startup_W3_min_V": 10.4,
+      "run_W3_soft_V": 10.3,
+      "run_W3_soft_s": 0.04,
+      "run_W3_hard_V": 10.1,
+      "run_max_V": 11.65,
+      "brake_sense_min_V": 10.1,
+      "servo_readback_stop_V": 10.2,
+      "servo_readback_soft_V": 10.3,
+      "firmware_min_V": 10.0,
+      "firmware_max_V": 11.8,
+      "automatic_stable_derating_implemented": false
+    }
+  },
+  "measurements_verified": false,
+  "measurement_report": null,
+  "i2c_device": "/dev/REPLACE_WITH_CM4_SENSOR_I2C",
+  "ina226": {
+    "battery": {
+      "current_gain": null,
+      "current_offset_A": null,
+      "bus_gain": null,
+      "bus_offset_V": null
+    },
+    "servo": {
+      "current_gain": null,
+      "current_offset_A": null,
+      "bus_gain": null,
+      "bus_offset_V": null
+    },
+    "brake": {
+      "current_gain": null,
+      "current_offset_A": null,
+      "bus_gain": null,
+      "bus_offset_V": null
+    }
+  },
+  "adc": {
+    "gain": null,
+    "offset_V": null
+  },
+  "ntc": {
+    "battery": {
+      "pullup_ohm": null,
+      "ratio_at_25C": null,
+      "ratio_at_60C": null
+    },
+    "module": {
+      "pullup_ohm": null,
+      "ratio_at_25C": null,
+      "ratio_at_60C": null
+    },
+    "brake": {
+      "pullup_ohm": null,
+      "ratio_at_25C": null,
+      "ratio_at_60C": null
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "status": "SIMULATION_THRESHOLDS_MET",
+  "physical_approved": false,
+  "checks": {
+    "completed_requested_duration": true,
+    "root_orientation_tracking": true,
+    "joint_tracking": true,
+    "saturation_duration": true,
+    "torque_caps_preserved": true,
+    "stance_slip": true,
+    "two_forward_steps_each": true,
+    "net_forward_each_foot": true,
+    "swing_clearance": true,
+    "numerical_interval_coverage": true
+  },
+  "feet": {
+    "ankle_left": {
+      "stance_intervals": [
+        {
+          "start_s": 0.0,
+          "end_s": 63.09999999937187,
+          "first_loaded_s": 0.020000000000000014,
+          "last_loaded_s": 63.09999999937187,
+          "loaded_samples": 3155,
+          "max_polygon_point_XY_displacement_mm": 0.8139838365205938,
+          "center_delta_mm": [
+            0.03164555181888601,
+            0.7158268178444199,
+            0.09077296434381245
+          ]
+        },
+        {
+          "start_s": 78.37999999901055,
+          "end_s": 160.8199999970611,
+          "first_loaded_s": 78.37999999901055,
+          "last_loaded_s": 160.8199999970611,
+          "loaded_samples": 4123,
+          "max_polygon_point_XY_displacement_mm": 0.6763464187949074,
+          "center_delta_mm": [
+            0.05345697172870825,
+            0.25799948992491495,
+            0.011202246418436968
+          ]
+        },
+        {
+          "start_s": 176.09999999669978,
+          "end_s": 195.4417499962424,
+          "first_loaded_s": 176.09999999669978,
+          "last_loaded_s": 195.4417499962424,
+          "loaded_samples": 969,
+          "max_polygon_point_XY_displacement_mm": 0.5896880312549327,
+          "center_delta_mm": [
+            0.02411401814617249,
+            -0.5242197823959044,
+            -0.08680099927961923
+          ]
+        }
+      ],
+      "swing_intervals": [
+        {
+          "start_s": 63.119999999371394,
+          "end_s": 78.35999999901102,
+          "peak_minimum_sole_z_mm": 3.2754307866664987,
+          "peak_time_s": 73.21999999913257,
+          "center_forward_change_mm": 10.101668263991854,
+          "maximum_contact_force_N": 6.9280521393100285
+        },
+        {
+          "start_s": 160.83999999706063,
+          "end_s": 176.07999999670025,
+          "peak_minimum_sole_z_mm": 3.2755504134387365,
+          "peak_time_s": 170.9399999968218,
+          "center_forward_change_mm": 10.10123666703247,
+          "maximum_contact_force_N": 6.948388231757531
+        }
+      ],
+      "net_center_displacement_mm": [
+        20.275452279726302,
+        -0.11845791767392533,
+        -0.08102291731029154
+      ],
+      "maximum_stance_slip_mm": 0.8139838365205938,
+      "completed_forward_steps": 2
+    },
+    "ankle_right": {
+      "stance_intervals": [
+        {
+          "start_s": 0.0,
+          "end_s": 20.58000000005276,
+          "first_loaded_s": 0.020000000000000014,
+          "last_loaded_s": 20.58000000005276,
+          "loaded_samples": 1029,
+          "max_polygon_point_XY_displacement_mm": 0.6079966104272859,
+          "center_delta_mm": [
+            0.005113978649926021,
+            -0.49037563192762257,
+            0.0771426829347619
+          ]
+        },
+        {
+          "start_s": 33.640000000068504,
+          "end_s": 118.29999999806657,
+          "first_loaded_s": 33.640000000068504,
+          "last_loaded_s": 118.29999999806657,
+          "loaded_samples": 4234,
+          "max_polygon_point_XY_displacement_mm": 0.6479837699444824,
+          "center_delta_mm": [
+            0.004319240902706661,
+            -0.2264563579448542,
+            0.00821681146246233
+          ]
+        },
+        {
+          "start_s": 131.3399999977582,
+          "end_s": 195.4417499962424,
+          "first_loaded_s": 131.3399999977582,
+          "last_loaded_s": 195.4417499962424,
+          "loaded_samples": 3207,
+          "max_polygon_point_XY_displacement_mm": 0.6386698443945519,
+          "center_delta_mm": [
+            -0.00944353173810454,
+            0.32841616854087374,
+            -0.08672292027014789
+          ]
+        }
+      ],
+      "swing_intervals": [
+        {
+          "start_s": 20.600000000052855,
+          "end_s": 33.62000000006898,
+          "peak_minimum_sole_z_mm": 3.3526716063071795,
+          "peak_time_s": 28.360000000089908,
+          "center_forward_change_mm": 10.096275910863563,
+          "maximum_contact_force_N": 7.219727525422227
+        },
+        {
+          "start_s": 118.3199999980661,
+          "end_s": 131.31999999775869,
+          "peak_minimum_sole_z_mm": 3.352960079259178,
+          "peak_time_s": 126.09999999788212,
+          "center_forward_change_mm": 10.09476107389513,
+          "maximum_contact_force_N": 7.184606101355908
+        }
+      ],
+      "net_center_displacement_mm": [
+        20.154274689569004,
+        0.06004319931966762,
+        -0.0886436567312418
+      ],
+      "maximum_stance_slip_mm": 0.6479837699444824,
+      "completed_forward_steps": 2
+    }
+  },
+  "root_error_deg": 0.4993741536097639,
+  "max_joint_tracking_error_deg": 0.23398670536248864,
+  "max_continuous_saturation_s": 0.0,
+  "sources": {
+    "work/r21-reduced-sway/dynamics/full_v3/half_timestep/report.json": "81a1943f99441df3a2b5f16f929109663a0d43a1ea067a78c8c31f493a4b866a",
+    "work/r21-reduced-sway/dynamics/full_v3/half_timestep/trajectory.json": "894bceaf678c4e448da3b8b35dd801a788e250249c48fa3500f34d32c46be017",
+    "work/r21-reduced-sway/dynamics/full_v3/half_timestep/interval_joint_bounds.json": "ab653e88e4bb053b19c51022c34ffdd3ce6a2cea92f6766bbd5664e62171bf63",
+    "work/r20-walking-fix/dynamics/acceptance_criteria.json": "40c0635714c37afed95456e3ccadd26dff92b0253b09b70815fd940d9ba4ab73",
+    "work/r21-reduced-sway/dynamics/analyze_run_r21_v1.py": "c1181c6e6e628d5a7f0d026d286a9dfa2b7e6657a5ed84e7cb470833197cd3f0"
+  }
+}

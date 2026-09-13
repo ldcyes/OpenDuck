@@ -1,0 +1,31 @@
+{
+  "model": "m6",
+  "actuator": "microduck_r8_xm430",
+  "physical_fit_verified": false,
+  "measurement_report": null,
+  "kt": null,
+  "R": null,
+  "armature": null,
+  "q_offset": null,
+  "friction_base": null,
+  "friction_viscous": null,
+  "friction_stribeck": null,
+  "load_friction_motor": null,
+  "load_friction_external": null,
+  "load_friction_motor_stribeck": null,
+  "load_friction_external_stribeck": null,
+  "load_friction_motor_quad": null,
+  "load_friction_external_quad": null,
+  "dtheta_stribeck": null,
+  "alpha": null,
+  "r8_actuator": {
+    "model_number": 1020,
+    "voltage_V": 10.8,
+    "error_gain": null,
+    "max_pwm": null,
+    "hardware_platform_sha256": "d0557995ea758281473a28a7b51692a925037cf84505db43aca5011adce30e3d",
+    "power_configuration_sha256": null,
+    "motion_limits_sha256": "9afd167d27a2f63da1ac767f2307cd5f98c75a4e255bb06eca08b0024b980366",
+    "drive_profile_sha256": "67a60cf9873c6865da1a1b8fc7c0df25ca025803c6628c7b782af0be32e8eefb"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "target_commit": "270a678f8364683447f994adec9d31eb182eaf85",
+  "target_arch": "arm64",
+  "target_kernel_source_version": "6.1.84",
+  "official_defconfig": "rockchip_linux_defconfig",
+  "config_modversions": true,
+  "executed_target_module_build": false,
+  "target_module_build_passed": false,
+  "tools": {
+    "aarch64-linux-gnu-gcc": null,
+    "aarch64-linux-gnu-ld": null,
+    "clang": "/usr/bin/clang",
+    "ld.lld": null,
+    "ld.lld-14": null,
+    "make": "/usr/bin/make"
+  },
+  "standard_kernel_source_roots": [
+    "/usr/src/python3.10"
+  ],
+  "bundled_reference_full_kernel_makefile": false,
+  "bundled_reference_target_config": false,
+  "bundled_reference_Module_symvers": false,
+  "clang_version": "Ubuntu clang version 14.0.0-1ubuntu1.1\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n",
+  "result": "NOT_BUILT_missing_complete_target_tree_config_symvers_and_ARM64_linker",
+  "reason": "Clang14 exists, but no AArch64 GCC/binutils or LLVM lld. Bundled reference contains DTS and audited source fragments, not a prepared exact ARM64 kernel. CONFIG_MODVERSIONS=y requires a full matching kernel build/Module.symvers; modules_prepare or unrelated AMD64 headers cannot establish ABI compatibility.",
+  "sources": [
+    "https://raw.githubusercontent.com/radxa-repo/bsp/main/linux/rk2410/fork.conf",
+    "https://github.com/radxa/kernel/blob/270a678f8364683447f994adec9d31eb182eaf85/Makefile",
+    "https://github.com/radxa/kernel/blob/270a678f8364683447f994adec9d31eb182eaf85/arch/arm64/configs/rockchip_linux_defconfig",
+    "https://docs.kernel.org/6.1/kbuild/modules.html"
+  ]
+}

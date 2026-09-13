@@ -1,0 +1,142 @@
+{
+  "status": "SAME_FOOT_MATERIAL_UNION_BOUNDARY_AND_HEIGHT",
+  "physical_approved": false,
+  "models": [
+    {
+      "partitions": 4,
+      "checks": [
+        {
+          "link": "ankle_left",
+          "source_minus_union_volume_mm3": 1.8474111129762605e-13,
+          "union_minus_source_volume_mm3": 0.0,
+          "maximum_pair_overlap_volume_mm3": 0.0,
+          "union_bounds_mm": [
+            -39.00000309199095,
+            -86.18382871613339,
+            -47.35589553451997,
+            68.40000224858522,
+            18.48883018803926,
+            -45.355895534519966
+          ],
+          "source_bounds_mm": [
+            -39.00000309199095,
+            -86.18382871613339,
+            -47.35589553451997,
+            68.40000224858522,
+            18.48883018803926,
+            -45.355895534519966
+          ],
+          "source_volume_m3": 2.2211622606981956e-05,
+          "sum_partition_volume_m3": 2.2211622606981956e-05,
+          "volume_error_m3": 0.0,
+          "bottom_height_difference_m": 0.0,
+          "top_height_difference_m": 0.0,
+          "every_prism_closed_consistent_positive": true,
+          "identical_friction_condim_solref_solimp": true
+        },
+        {
+          "link": "ankle_right",
+          "source_minus_union_volume_mm3": 0.0,
+          "union_minus_source_volume_mm3": -1.1368683772161603e-13,
+          "maximum_pair_overlap_volume_mm3": 0.0,
+          "union_bounds_mm": [
+            -39.00000309199095,
+            -18.49578494104714,
+            -47.35589553451997,
+            68.40000987797976,
+            86.18474327375937,
+            -45.355895534519966
+          ],
+          "source_bounds_mm": [
+            -39.00000309199095,
+            -18.49578494104714,
+            -47.35589553451997,
+            68.40000987797976,
+            86.18474327375937,
+            -45.355895534519966
+          ],
+          "source_volume_m3": 2.2212242012549944e-05,
+          "sum_partition_volume_m3": 2.2212242012549934e-05,
+          "volume_error_m3": -1.0164395367051604e-20,
+          "bottom_height_difference_m": 0.0,
+          "top_height_difference_m": 0.0,
+          "every_prism_closed_consistent_positive": true,
+          "identical_friction_condim_solref_solimp": true
+        }
+      ],
+      "sources": {
+        "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+        "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact4.xml": "07853dbc0732042d31aae1c6c935a3374a355a07e74eeffe04efe46aefb23839",
+        "work/r20-walking-fix/dynamics/verify_release_contact_partition.py": "f948c6c41496290616d3d94bf95ae5db1dc6d866613ce3a8b69369705414ffac"
+      }
+    },
+    {
+      "partitions": 9,
+      "checks": [
+        {
+          "link": "ankle_left",
+          "source_minus_union_volume_mm3": 1.4210854715202004e-13,
+          "union_minus_source_volume_mm3": 2.842170943040401e-14,
+          "maximum_pair_overlap_volume_mm3": 0.0,
+          "union_bounds_mm": [
+            -39.00000309199095,
+            -86.18382871613339,
+            -47.35589553451997,
+            68.40000224858522,
+            18.48883018803926,
+            -45.355895534519966
+          ],
+          "source_bounds_mm": [
+            -39.00000309199095,
+            -86.18382871613339,
+            -47.35589553451997,
+            68.40000224858522,
+            18.48883018803926,
+            -45.355895534519966
+          ],
+          "source_volume_m3": 2.2211622606981956e-05,
+          "sum_partition_volume_m3": 2.221162260698196e-05,
+          "volume_error_m3": 3.3881317890172014e-21,
+          "bottom_height_difference_m": 0.0,
+          "top_height_difference_m": 0.0,
+          "every_prism_closed_consistent_positive": true,
+          "identical_friction_condim_solref_solimp": true
+        },
+        {
+          "link": "ankle_right",
+          "source_minus_union_volume_mm3": 4.263256414560601e-13,
+          "union_minus_source_volume_mm3": 0.0,
+          "maximum_pair_overlap_volume_mm3": 5.684341886080802e-14,
+          "union_bounds_mm": [
+            -39.00000309199095,
+            -18.49578494104714,
+            -47.35589553451997,
+            68.40000987797976,
+            86.18474327375937,
+            -45.355895534519966
+          ],
+          "source_bounds_mm": [
+            -39.00000309199095,
+            -18.49578494104714,
+            -47.35589553451997,
+            68.40000987797976,
+            86.18474327375937,
+            -45.355895534519966
+          ],
+          "source_volume_m3": 2.2212242012549944e-05,
+          "sum_partition_volume_m3": 2.221224201254994e-05,
+          "volume_error_m3": -3.3881317890172014e-21,
+          "bottom_height_difference_m": 0.0,
+          "top_height_difference_m": 0.0,
+          "every_prism_closed_consistent_positive": true,
+          "identical_friction_condim_solref_solimp": true
+        }
+      ],
+      "sources": {
+        "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact9.json": "e179f11e98109f5f482c923244f4b7d5a62b310b9b0592b17105751647dd1fe5",
+        "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact9.xml": "4c86e42449eb3766336d94c28a63bba62c0b56845305928192cff765adee8405",
+        "work/r20-walking-fix/dynamics/verify_release_contact_partition.py": "f948c6c41496290616d3d94bf95ae5db1dc6d866613ce3a8b69369705414ffac"
+      }
+    }
+  ]
+}

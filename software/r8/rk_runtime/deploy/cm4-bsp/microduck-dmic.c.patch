@@ -1,0 +1,42 @@
+--- linux-v6.1/sound/soc/codecs/dmic.c
++++ microduck-dmic.c
+@@ -35,6 +35,10 @@
+ {
+ 	struct snd_soc_component *component = dai->component;
+ 	struct dmic *dmic = snd_soc_component_get_drvdata(component);
++
++	/* Do not let playback triggers affect the capture endpoint. */
++	if (substream->stream != SNDRV_PCM_STREAM_CAPTURE)
++		return 0;
+ 
+ 	switch (cmd) {
+ 	case SNDRV_PCM_TRIGGER_STOP:
+@@ -170,17 +174,17 @@
+ 			&soc_dmic, dai_drv, 1);
+ }
+ 
+-MODULE_ALIAS("platform:dmic-codec");
++MODULE_ALIAS("platform:microduck-dmic");
+ 
+ static const struct of_device_id dmic_dev_match[] = {
+-	{.compatible = "dmic-codec"},
++	{.compatible = "microduck,dmic-duplex"},
+ 	{}
+ };
+ MODULE_DEVICE_TABLE(of, dmic_dev_match);
+ 
+ static struct platform_driver dmic_driver = {
+ 	.driver = {
+-		.name = "dmic-codec",
++		.name = "microduck-dmic",
+ 		.of_match_table = dmic_dev_match,
+ 	},
+ 	.probe = dmic_dev_probe,
+@@ -188,6 +192,6 @@
+ 
+ module_platform_driver(dmic_driver);
+ 
+-MODULE_DESCRIPTION("Generic DMIC driver");
++MODULE_DESCRIPTION("Microduck DMIC capture-only trigger derivative");
+ MODULE_AUTHOR("Liam Girdwood <lrg@slimlogic.co.uk>");
+ MODULE_LICENSE("GPL");

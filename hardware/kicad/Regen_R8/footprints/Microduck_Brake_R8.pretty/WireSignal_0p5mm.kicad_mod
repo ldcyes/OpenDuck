@@ -1,0 +1,1 @@
+(footprint "WireSignal_0p5mm" (layer "F.Cu") (attr through_hole) (pad "1" thru_hole circle (at 0 0) (size 1 1) (drill .5) (layers "*.Cu" "*.Mask")))

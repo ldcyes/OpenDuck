@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "check": "One-step prefix rejected before writing a full-gait amplitude comparison plot or statistics.",
+  "source": "work/r21-reduced-sway/dynamics/plot_sway_comparison_v2.py",
+  "source_sha256": "a9e4e20f7279ed270d036037ce3b934604d163696a765b9b05aa26efb7850199",
+  "reference_input": "work/r21-reduced-sway/dynamics/prefix_v1/nominal/acceptance.json",
+  "input_sha256": "6b78d9d958df2d58267112533f2064aff7a436f313a32963c21952eae7b16e5d"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "FROZEN_SOURCES_FOR_VISUALIZATION",
+  "selection_sha256": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+  "trace_path": "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json",
+  "trace_sha256": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+  "report_path": "work/r20-walking-fix/dynamics/release_v4/runs/nominal/report.json",
+  "report_sha256": "532410710b389a9f0a92a1f9d740a582ac598b6616ecff21b45a602752ae1523",
+  "contract_path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+  "contract_sha256": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+  "render_label": "R20 四步实际自由积分 · 实物未验收",
+  "physics_label": "SOURCE-BOUND FREE-BASE SIMULATION / NOT HARDWARE QUALIFIED"
+}

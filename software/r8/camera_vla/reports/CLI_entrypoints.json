@@ -1,0 +1,26 @@
+[
+  {
+    "module": "microduck_vision.client",
+    "exit": 0,
+    "output": "usage: microduck_vision.client [-h] [--host HOST] [--local LOCAL] --telemetry\n                               TELEMETRY --task TASK --pipeline PIPELINE\n                               [--seconds SECONDS] [--live]\n                               [--ca-file CA_FILE] [--report REPORT]\n                               --rotation {0,180}\n\noptions:\n  -h, --help            show this help message and exit\n  --host HOST\n  --local LOCAL\n  --telemetry TELEMETRY\n  --task TASK\n  --pipeline PIPELINE\n  --seconds SECONDS\n  --live\n  --ca-file CA_FILE\n  --report REPORT\n  --rotation {0,180}\n",
+    "error": ""
+  },
+  {
+    "module": "microduck_vision.record",
+    "exit": 0,
+    "output": "usage: microduck_vision.record [-h] --pipeline PIPELINE --telemetry TELEMETRY\n                               --task TASK [--seconds SECONDS] --output OUTPUT\n                               [--local LOCAL] --rotation {0,180}\n\noptions:\n  -h, --help            show this help message and exit\n  --pipeline PIPELINE\n  --telemetry TELEMETRY\n  --task TASK\n  --seconds SECONDS\n  --output OUTPUT\n  --local LOCAL\n  --rotation {0,180}\n",
+    "error": ""
+  },
+  {
+    "module": "microduck_vision.host",
+    "exit": 0,
+    "output": "usage: microduck_vision.host [-h] [--bind BIND] [--port PORT]\n                             [--backend {mock,smolvla}] [--manifest MANIFEST]\n                             [--cert CERT] [--key KEY]\n\noptions:\n  -h, --help            show this help message and exit\n  --bind BIND\n  --port PORT\n  --backend {mock,smolvla}\n  --manifest MANIFEST\n  --cert CERT\n  --key KEY\n",
+    "error": ""
+  },
+  {
+    "module": "microduck_vision.dataset",
+    "exit": 0,
+    "output": "usage: microduck_vision.dataset [-h] [--root ROOT] [--repo-id REPO_ID]\n                                [--validate-only]\n                                episodes [episodes ...]\n\npositional arguments:\n  episodes\n\noptions:\n  -h, --help         show this help message and exit\n  --root ROOT\n  --repo-id REPO_ID\n  --validate-only\n",
+    "error": ""
+  }
+]

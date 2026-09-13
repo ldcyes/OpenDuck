@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.kicad_prl
+*.lck
+*.blend1
+/recomputed-sway.json
+/downloads/

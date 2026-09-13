@@ -1,0 +1,83 @@
+{
+  "status": "EXACT_SOURCE_PORT_MATERIAL_PRESERVED",
+  "interfaces": [
+    {
+      "name": "left_hip_roll_idler",
+      "source_holes_HOME_mm": [
+        [
+          6.249994495734553,
+          27.74999797263632,
+          -53.75000443636138
+        ],
+        [
+          6.249995906721727,
+          45.74999797263621,
+          -53.750006009971266
+        ]
+      ],
+      "normal_out": [
+        -0.9999999999999838,
+        7.838818983841763e-08,
+        1.6263317119671936e-07
+      ],
+      "plate_thickness_mm": 3.0,
+      "through_diameter_mm": 3.4,
+      "countersink_diameter_mm": 6.3,
+      "countersink_angle_deg": 90.0,
+      "minimum_plate_under_countersink_mm": 1.55,
+      "minimum_outer_edge_to_through_hole_mm": 2.3,
+      "minimum_outer_edge_to_countersink_mm": 0.85,
+      "protected_plate_removed_mm3": 0.0,
+      "protected_plate_added_mm3": 0.0
+    },
+    {
+      "name": "left_hip_pitch_active",
+      "source_holes_HOME_mm": [
+        [
+          7.842266789417383,
+          84.38507541859465,
+          -60.2199449188048
+        ],
+        [
+          23.987957685604485,
+          85.07885762037759,
+          -52.29307089802774
+        ]
+      ],
+      "normal_out": [
+        8.222727317540734e-08,
+        -0.9961917595708683,
+        0.08718932367607055
+      ],
+      "plate_thickness_mm": 3.0,
+      "through_diameter_mm": 3.4,
+      "countersink_diameter_mm": 6.3,
+      "countersink_angle_deg": 90.0,
+      "minimum_plate_under_countersink_mm": 1.55,
+      "minimum_outer_edge_to_through_hole_mm": 2.3,
+      "minimum_outer_edge_to_countersink_mm": 0.85,
+      "protected_plate_removed_mm3": 0.0,
+      "protected_plate_added_mm3": 0.0
+    }
+  ],
+  "sources": {
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3"
+  }
+}

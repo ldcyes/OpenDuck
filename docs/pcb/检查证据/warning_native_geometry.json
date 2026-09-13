@@ -1,0 +1,2541 @@
+{
+  "status": "READ_ONLY_UUID_BOUND_43_WARNINGS",
+  "warnings": [
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W5",
+            "pos": {
+              "x": 41.0,
+              "y": 40.0
+            },
+            "uuid": "134ec8dd-e963-453b-9f64-7bfbeb9817cc"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "134ec8dd-e963-453b-9f64-7bfbeb9817cc",
+        "reference": "W5",
+        "value": "BENCH_5V",
+        "fields": {
+          "Reference": "W5",
+          "Value": "BENCH_5V",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          41.0,
+          40.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BENCH_5V",
+            "position_mm": [
+              41.0,
+              40.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W4",
+            "pos": {
+              "x": 26.0,
+              "y": 20.0
+            },
+            "uuid": "245d16bb-8415-4f80-8c51-5286ece1647c"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "245d16bb-8415-4f80-8c51-5286ece1647c",
+        "reference": "W4",
+        "value": "GND",
+        "fields": {
+          "Reference": "W4",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          26.0,
+          20.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              26.0,
+              20.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 6.0,
+              "y": 20.0
+            },
+            "uuid": "2d0d327d-be71-422c-a3ea-0c9b1a883c17"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "2d0d327d-be71-422c-a3ea-0c9b1a883c17",
+        "reference": "W2",
+        "value": "GND",
+        "fields": {
+          "Reference": "W2",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          6.0,
+          20.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              6.0,
+              20.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W8",
+            "pos": {
+              "x": 57.0,
+              "y": 39.0
+            },
+            "uuid": "4096f5d9-62f1-4913-b512-8441e80e0af8"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "4096f5d9-62f1-4913-b512-8441e80e0af8",
+        "reference": "W8",
+        "value": "GND",
+        "fields": {
+          "Reference": "W8",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          57.0,
+          39.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              57.0,
+              39.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W3",
+            "pos": {
+              "x": 26.0,
+              "y": 9.0
+            },
+            "uuid": "6ad1d633-7e19-4ce0-bfb6-2d360c17d8fe"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "6ad1d633-7e19-4ce0-bfb6-2d360c17d8fe",
+        "reference": "W3",
+        "value": "BAT_MON",
+        "fields": {
+          "Reference": "W3",
+          "Value": "BAT_MON",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          26.0,
+          9.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BAT_MON",
+            "position_mm": [
+              26.0,
+              9.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W7",
+            "pos": {
+              "x": 59.0,
+              "y": 32.0
+            },
+            "uuid": "9e7b0fc5-ac8a-4d5f-b52f-b7a4983f3270"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "9e7b0fc5-ac8a-4d5f-b52f-b7a4983f3270",
+        "reference": "W7",
+        "value": "SYSTEM_5V",
+        "fields": {
+          "Reference": "W7",
+          "Value": "SYSTEM_5V",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          59.0,
+          32.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "SYSTEM_5V",
+            "position_mm": [
+              59.0,
+              32.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 6.0,
+              "y": 9.0
+            },
+            "uuid": "d15efe2e-ed4c-4ea0-a6a9-68212b4cd598"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "d15efe2e-ed4c-4ea0-a6a9-68212b4cd598",
+        "reference": "W1",
+        "value": "BAT_FUSED",
+        "fields": {
+          "Reference": "W1",
+          "Value": "BAT_FUSED",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          6.0,
+          9.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BAT_FUSED",
+            "position_mm": [
+              6.0,
+              9.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Entry_5V_R8",
+      "source_pcb": "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+      "source_pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W6",
+            "pos": {
+              "x": 48.0,
+              "y": 40.0
+            },
+            "uuid": "d877babe-c292-47d2-92c3-0fac98ccd400"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "d877babe-c292-47d2-92c3-0fac98ccd400",
+        "reference": "W6",
+        "value": "GND",
+        "fields": {
+          "Reference": "W6",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          48.0,
+          40.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              48.0,
+              40.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Main_Fuse_R8",
+      "source_pcb": "work/r13-electronics/inherited/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb",
+      "source_pcb_sha256": "e785d7ae8ad6bcc0908122bd986ea8a8b6c5919be4dfc5a76c3a4ff947b95679",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Main_Fuse_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 22.5,
+              "y": 5.0
+            },
+            "uuid": "5aa324af-8719-4b3d-8b47-5d4c133d5bd8"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "5aa324af-8719-4b3d-8b47-5d4c133d5bd8",
+        "reference": "W1",
+        "value": "CELL4",
+        "fields": {
+          "Reference": "W1",
+          "Value": "CELL4",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "AWG16 solder with independent clamp"
+        },
+        "footprint": "Wire_SMD5",
+        "position_mm": [
+          22.5,
+          5.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "CELL4",
+            "position_mm": [
+              22.5,
+              5.0
+            ],
+            "size_mm": [
+              5.0,
+              5.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Main_Fuse_R8",
+      "source_pcb": "work/r13-electronics/inherited/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb",
+      "source_pcb_sha256": "e785d7ae8ad6bcc0908122bd986ea8a8b6c5919be4dfc5a76c3a4ff947b95679",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Main_Fuse_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 22.5,
+              "y": 20.0
+            },
+            "uuid": "6650c34d-226e-41e6-aa70-013a2e6fb1a3"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "6650c34d-226e-41e6-aa70-013a2e6fb1a3",
+        "reference": "W2",
+        "value": "BAT_FUSED",
+        "fields": {
+          "Reference": "W2",
+          "Value": "BAT_FUSED",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "AWG16 solder with independent clamp"
+        },
+        "footprint": "Wire_SMD5",
+        "position_mm": [
+          22.5,
+          20.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BAT_FUSED",
+            "position_mm": [
+              22.5,
+              20.0
+            ],
+            "size_mm": [
+              5.0,
+              5.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint P5",
+            "pos": {
+              "x": 20.58,
+              "y": 28.5
+            },
+            "uuid": "0143e7f1-6f46-4aa3-a7ad-a2e260163477"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "0143e7f1-6f46-4aa3-a7ad-a2e260163477",
+        "reference": "P5",
+        "value": "BRAKE_ACTIVE_N",
+        "fields": {
+          "Reference": "P5",
+          "Value": "BRAKE_ACTIVE_N",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG28 PIGTAIL"
+        },
+        "footprint": "WireSignal_0p5mm",
+        "position_mm": [
+          20.58,
+          28.5
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BRAKE_ACTIVE_N",
+            "position_mm": [
+              20.58,
+              28.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint P2",
+            "pos": {
+              "x": 16.77,
+              "y": 28.5
+            },
+            "uuid": "372574f0-ef34-422b-87e9-c815b4c00492"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "372574f0-ef34-422b-87e9-c815b4c00492",
+        "reference": "P2",
+        "value": "+3V3",
+        "fields": {
+          "Reference": "P2",
+          "Value": "+3V3",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG28 PIGTAIL"
+        },
+        "footprint": "WireSignal_0p5mm",
+        "position_mm": [
+          16.77,
+          28.5
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "position_mm": [
+              16.77,
+              28.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W4",
+            "pos": {
+              "x": 28.0,
+              "y": 16.0
+            },
+            "uuid": "5e21f00a-1a6f-44e6-a8d0-053dde0714da"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "5e21f00a-1a6f-44e6-a8d0-053dde0714da",
+        "reference": "W4",
+        "value": "RH_LOW",
+        "fields": {
+          "Reference": "W4",
+          "Value": "RH_LOW",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          28.0,
+          16.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "RH_LOW",
+            "position_mm": [
+              28.0,
+              16.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W3",
+            "pos": {
+              "x": 28.0,
+              "y": 8.0
+            },
+            "uuid": "765bfe04-ffcc-4edf-b72f-f1d3c053c52e"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "765bfe04-ffcc-4edf-b72f-f1d3c053c52e",
+        "reference": "W3",
+        "value": "SERVO_BUS",
+        "fields": {
+          "Reference": "W3",
+          "Value": "SERVO_BUS",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          28.0,
+          8.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "SERVO_BUS",
+            "position_mm": [
+              28.0,
+              8.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint P3",
+            "pos": {
+              "x": 18.04,
+              "y": 28.5
+            },
+            "uuid": "8b3c5ece-6ffc-429e-a8d9-cc663811c854"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "8b3c5ece-6ffc-429e-a8d9-cc663811c854",
+        "reference": "P3",
+        "value": "I2C_SDA",
+        "fields": {
+          "Reference": "P3",
+          "Value": "I2C_SDA",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG28 PIGTAIL"
+        },
+        "footprint": "WireSignal_0p5mm",
+        "position_mm": [
+          18.04,
+          28.5
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "I2C_SDA",
+            "position_mm": [
+              18.04,
+              28.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint P1",
+            "pos": {
+              "x": 15.5,
+              "y": 28.5
+            },
+            "uuid": "a308533d-aeb0-4b72-b25a-bfe794c8da24"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "a308533d-aeb0-4b72-b25a-bfe794c8da24",
+        "reference": "P1",
+        "value": "GND",
+        "fields": {
+          "Reference": "P1",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG28 PIGTAIL"
+        },
+        "footprint": "WireSignal_0p5mm",
+        "position_mm": [
+          15.5,
+          28.5
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              15.5,
+              28.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 18.0,
+              "y": 15.0
+            },
+            "uuid": "bf3f30ee-dba2-4961-8d91-966258f4bdc2"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "bf3f30ee-dba2-4961-8d91-966258f4bdc2",
+        "reference": "W2",
+        "value": "GND",
+        "fields": {
+          "Reference": "W2",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          18.0,
+          15.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              18.0,
+              15.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint P4",
+            "pos": {
+              "x": 19.31,
+              "y": 28.5
+            },
+            "uuid": "f4de7d03-884a-47e6-b268-2d63f120e48c"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "f4de7d03-884a-47e6-b268-2d63f120e48c",
+        "reference": "P4",
+        "value": "I2C_SCL",
+        "fields": {
+          "Reference": "P4",
+          "Value": "I2C_SCL",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG28 PIGTAIL"
+        },
+        "footprint": "WireSignal_0p5mm",
+        "position_mm": [
+          19.31,
+          28.5
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "I2C_SCL",
+            "position_mm": [
+              19.31,
+              28.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "Regen_R8",
+      "source_pcb": "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+      "source_pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 18.0,
+              "y": 6.0
+            },
+            "uuid": "f93d8120-c05b-4234-9f7c-9f79387bfc18"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "f93d8120-c05b-4234-9f7c-9f79387bfc18",
+        "reference": "W1",
+        "value": "SERVO_BUS",
+        "fields": {
+          "Reference": "W1",
+          "Value": "SERVO_BUS",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          18.0,
+          6.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "SERVO_BUS",
+            "position_mm": [
+              18.0,
+              6.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "TDK_Power_R8",
+      "source_pcb": "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+      "source_pcb_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W3",
+            "pos": {
+              "x": 54.0,
+              "y": 54.0
+            },
+            "uuid": "2fbcf94a-ddac-46af-9f84-95128b1a9782"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "2fbcf94a-ddac-46af-9f84-95128b1a9782",
+        "reference": "W3",
+        "value": "SERVO 10.8V",
+        "fields": {
+          "Reference": "W3",
+          "Value": "SERVO 10.8V",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          54.0,
+          54.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "SERVO_BUS",
+            "position_mm": [
+              54.0,
+              54.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "TDK_Power_R8",
+      "source_pcb": "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+      "source_pcb_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W4",
+            "pos": {
+              "x": 44.0,
+              "y": 56.0
+            },
+            "uuid": "7314d819-56f1-4a6b-8983-5e4275ab056a"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "7314d819-56f1-4a6b-8983-5e4275ab056a",
+        "reference": "W4",
+        "value": "GND OUTPUT",
+        "fields": {
+          "Reference": "W4",
+          "Value": "GND OUTPUT",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          44.0,
+          56.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              44.0,
+              56.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "TDK_Power_R8",
+      "source_pcb": "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+      "source_pcb_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 8.0,
+              "y": 52.0
+            },
+            "uuid": "bf3aced4-c9bb-47f9-9a1a-be871a21197b"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "bf3aced4-c9bb-47f9-9a1a-be871a21197b",
+        "reference": "W1",
+        "value": "4S SWITCHED +",
+        "fields": {
+          "Reference": "W1",
+          "Value": "4S SWITCHED +",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          8.0,
+          52.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BAT_SW",
+            "position_mm": [
+              8.0,
+              52.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "TDK_Power_R8",
+      "source_pcb": "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+      "source_pcb_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 31.0,
+              "y": 53.0
+            },
+            "uuid": "cf8dbc3a-bec6-4977-a7b6-31657d9b222c"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "cf8dbc3a-bec6-4977-a7b6-31657d9b222c",
+        "reference": "W2",
+        "value": "GND INPUT",
+        "fields": {
+          "Reference": "W2",
+          "Value": "GND INPUT",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG16"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          31.0,
+          53.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              31.0,
+              53.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Track endpoint not centered on via",
+        "items": [
+          {
+            "description": "Track [CORE_5V] on F.Cu, length 0.0707 mm",
+            "pos": {
+              "x": 30.05,
+              "y": 16.75
+            },
+            "uuid": "054d6e8a-8f9a-4fd0-8c0d-17ff725a9548"
+          },
+          {
+            "description": "Via [CORE_5V] on F.Cu - B.Cu",
+            "pos": {
+              "x": 29.8,
+              "y": 16.8
+            },
+            "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+          }
+        ],
+        "severity": "warning",
+        "type": "track_not_centered_on_via"
+      },
+      "track": {
+        "uuid": "054d6e8a-8f9a-4fd0-8c0d-17ff725a9548",
+        "net": "CORE_5V",
+        "layer": "F.Cu",
+        "start_mm": [
+          30.05,
+          16.75
+        ],
+        "end_mm": [
+          30.0,
+          16.8
+        ],
+        "width_mm": 0.15
+      },
+      "via": {
+        "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca",
+        "net": "CORE_5V",
+        "center_mm": [
+          29.8,
+          16.8
+        ],
+        "outer_diameter_mm": 0.6,
+        "drill_diameter_mm": 0.3,
+        "spans_track_layer": true,
+        "via_type": 4
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Track endpoint not centered on via",
+        "items": [
+          {
+            "description": "Track [CORE_5V] on F.Cu, length 16.2000 mm",
+            "pos": {
+              "x": 30.0,
+              "y": 16.8
+            },
+            "uuid": "8a165645-e725-4983-aff0-dc1498639746"
+          },
+          {
+            "description": "Via [CORE_5V] on F.Cu - B.Cu",
+            "pos": {
+              "x": 29.8,
+              "y": 16.8
+            },
+            "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+          }
+        ],
+        "severity": "warning",
+        "type": "track_not_centered_on_via"
+      },
+      "track": {
+        "uuid": "8a165645-e725-4983-aff0-dc1498639746",
+        "net": "CORE_5V",
+        "layer": "F.Cu",
+        "start_mm": [
+          30.0,
+          16.8
+        ],
+        "end_mm": [
+          30.0,
+          33.0
+        ],
+        "width_mm": 1.2
+      },
+      "via": {
+        "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca",
+        "net": "CORE_5V",
+        "center_mm": [
+          29.8,
+          16.8
+        ],
+        "outer_diameter_mm": 0.6,
+        "drill_diameter_mm": 0.3,
+        "spans_track_layer": true,
+        "via_type": 4
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Track endpoint not centered on via",
+        "items": [
+          {
+            "description": "Track [CORE_5V] on F.Cu, length 0.1000 mm",
+            "pos": {
+              "x": 30.05,
+              "y": 16.649999
+            },
+            "uuid": "a9027c89-0d34-4c0c-b258-fdf4448fa5f2"
+          },
+          {
+            "description": "Via [CORE_5V] on F.Cu - B.Cu",
+            "pos": {
+              "x": 29.8,
+              "y": 16.8
+            },
+            "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+          }
+        ],
+        "severity": "warning",
+        "type": "track_not_centered_on_via"
+      },
+      "track": {
+        "uuid": "a9027c89-0d34-4c0c-b258-fdf4448fa5f2",
+        "net": "CORE_5V",
+        "layer": "F.Cu",
+        "start_mm": [
+          30.05,
+          16.649999
+        ],
+        "end_mm": [
+          30.05,
+          16.75
+        ],
+        "width_mm": 0.15
+      },
+      "via": {
+        "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca",
+        "net": "CORE_5V",
+        "center_mm": [
+          29.8,
+          16.8
+        ],
+        "outer_diameter_mm": 0.6,
+        "drill_diameter_mm": 0.3,
+        "spans_track_layer": true,
+        "via_type": 4
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Track endpoint not centered on via",
+        "items": [
+          {
+            "description": "Track [CORE_5V] on F.Cu, length 0.0707 mm",
+            "pos": {
+              "x": 30.1,
+              "y": 16.6
+            },
+            "uuid": "b9540f46-2d4d-451f-a27c-268ae12b850c"
+          },
+          {
+            "description": "Via [CORE_5V] on F.Cu - B.Cu",
+            "pos": {
+              "x": 29.8,
+              "y": 16.8
+            },
+            "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+          }
+        ],
+        "severity": "warning",
+        "type": "track_not_centered_on_via"
+      },
+      "track": {
+        "uuid": "b9540f46-2d4d-451f-a27c-268ae12b850c",
+        "net": "CORE_5V",
+        "layer": "F.Cu",
+        "start_mm": [
+          30.1,
+          16.6
+        ],
+        "end_mm": [
+          30.05,
+          16.649999
+        ],
+        "width_mm": 0.15
+      },
+      "via": {
+        "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca",
+        "net": "CORE_5V",
+        "center_mm": [
+          29.8,
+          16.8
+        ],
+        "outer_diameter_mm": 0.6,
+        "drill_diameter_mm": 0.3,
+        "spans_track_layer": true,
+        "via_type": 4
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Track endpoint not centered on via",
+        "items": [
+          {
+            "description": "Track [SYSTEM_5V] on B.Cu, length 0.9500 mm",
+            "pos": {
+              "x": 32.95,
+              "y": 15.75
+            },
+            "uuid": "3f8eb973-6725-4671-9011-d731de8b03d6"
+          },
+          {
+            "description": "Via [SYSTEM_5V] on F.Cu - B.Cu",
+            "pos": {
+              "x": 33.9,
+              "y": 15.7
+            },
+            "uuid": "fa1675e4-02bb-440c-ae05-3e1610bf02e8"
+          }
+        ],
+        "severity": "warning",
+        "type": "track_not_centered_on_via"
+      },
+      "track": {
+        "uuid": "3f8eb973-6725-4671-9011-d731de8b03d6",
+        "net": "SYSTEM_5V",
+        "layer": "B.Cu",
+        "start_mm": [
+          32.95,
+          15.75
+        ],
+        "end_mm": [
+          33.9,
+          15.75
+        ],
+        "width_mm": 0.3
+      },
+      "via": {
+        "uuid": "fa1675e4-02bb-440c-ae05-3e1610bf02e8",
+        "net": "SYSTEM_5V",
+        "center_mm": [
+          33.9,
+          15.7
+        ],
+        "outer_diameter_mm": 0.6,
+        "drill_diameter_mm": 0.3,
+        "spans_track_layer": true,
+        "via_type": 4
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP7",
+            "pos": {
+              "x": 32.0,
+              "y": 21.0
+            },
+            "uuid": "19cf82b4-f290-4614-9111-70b13e4edb09"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "19cf82b4-f290-4614-9111-70b13e4edb09",
+        "reference": "TP7",
+        "value": "CORE_FAULT_N",
+        "fields": {
+          "Reference": "TP7",
+          "Value": "CORE_FAULT_N",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          32.0,
+          21.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "CORE_FAULT_N",
+            "position_mm": [
+              32.0,
+              21.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP4",
+            "pos": {
+              "x": 34.0,
+              "y": 35.0
+            },
+            "uuid": "26063829-d73d-4c6e-8c77-2480b422a4e8"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "26063829-d73d-4c6e-8c77-2480b422a4e8",
+        "reference": "TP4",
+        "value": "RESET_N",
+        "fields": {
+          "Reference": "TP4",
+          "Value": "RESET_N",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          34.0,
+          35.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "RESET_N",
+            "position_mm": [
+              34.0,
+              35.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP6",
+            "pos": {
+              "x": 42.0,
+              "y": 35.0
+            },
+            "uuid": "2e0f5f3b-9f40-45f8-b822-c83a6f44ea23"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "2e0f5f3b-9f40-45f8-b822-c83a6f44ea23",
+        "reference": "TP6",
+        "value": "GND",
+        "fields": {
+          "Reference": "TP6",
+          "Value": "GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          42.0,
+          35.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              42.0,
+              35.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP3",
+            "pos": {
+              "x": 30.0,
+              "y": 35.0
+            },
+            "uuid": "509e434a-1320-4fdd-9585-4531f84784ca"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "509e434a-1320-4fdd-9585-4531f84784ca",
+        "reference": "TP3",
+        "value": "MASKROM",
+        "fields": {
+          "Reference": "TP3",
+          "Value": "MASKROM",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          30.0,
+          35.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "MASKROM",
+            "position_mm": [
+              30.0,
+              35.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP2",
+            "pos": {
+              "x": 8.0,
+              "y": 24.0
+            },
+            "uuid": "5b3418cd-ebf6-4e1d-9cc8-fe43d88640cc"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "5b3418cd-ebf6-4e1d-9cc8-fe43d88640cc",
+        "reference": "TP2",
+        "value": "OTG_VBUS_ONLY",
+        "fields": {
+          "Reference": "TP2",
+          "Value": "OTG_VBUS_ONLY",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          8.0,
+          24.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "OTG_VBUS_ONLY",
+            "position_mm": [
+              8.0,
+              24.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP9",
+            "pos": {
+              "x": 28.0,
+              "y": 21.0
+            },
+            "uuid": "97d35145-aa94-4bfd-b60d-a79034c726cf"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "97d35145-aa94-4bfd-b60d-a79034c726cf",
+        "reference": "TP9",
+        "value": "BRAKE_ACTIVE_N",
+        "fields": {
+          "Reference": "TP9",
+          "Value": "BRAKE_ACTIVE_N",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          28.0,
+          21.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BRAKE_ACTIVE_N",
+            "position_mm": [
+              28.0,
+              21.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP1",
+            "pos": {
+              "x": 8.0,
+              "y": 22.0
+            },
+            "uuid": "b6cf70af-af5a-4e01-9bde-f521205dca42"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "b6cf70af-af5a-4e01-9bde-f521205dca42",
+        "reference": "TP1",
+        "value": "VBUSDET_TP",
+        "fields": {
+          "Reference": "TP1",
+          "Value": "VBUSDET_TP",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          8.0,
+          22.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "VBUSDET_TP",
+            "position_mm": [
+              8.0,
+              22.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 36.0,
+              "y": 9.0
+            },
+            "uuid": "c8b9fcd1-ba49-4f94-a37a-398382df3bf7"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "c8b9fcd1-ba49-4f94-a37a-398382df3bf7",
+        "reference": "W1",
+        "value": "SYSTEM_5V IN",
+        "fields": {
+          "Reference": "W1",
+          "Value": "SYSTEM_5V IN",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "Wire_SMD4",
+        "position_mm": [
+          36.0,
+          9.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "SYSTEM_5V",
+            "position_mm": [
+              36.0,
+              9.0
+            ],
+            "size_mm": [
+              4.0,
+              4.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 42.0,
+              "y": 9.0
+            },
+            "uuid": "d0f6b634-4730-43bd-999b-edc517125f8d"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "d0f6b634-4730-43bd-999b-edc517125f8d",
+        "reference": "W2",
+        "value": "SYSTEM GND",
+        "fields": {
+          "Reference": "W2",
+          "Value": "SYSTEM GND",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "SOLDER AWG20"
+        },
+        "footprint": "Wire_SMD4",
+        "position_mm": [
+          42.0,
+          9.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              42.0,
+              9.0
+            ],
+            "size_mm": [
+              4.0,
+              4.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP5",
+            "pos": {
+              "x": 38.0,
+              "y": 35.0
+            },
+            "uuid": "e5770c5d-f98d-4601-9a1d-5383796ca048"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "e5770c5d-f98d-4601-9a1d-5383796ca048",
+        "reference": "TP5",
+        "value": "PWRON_N",
+        "fields": {
+          "Reference": "TP5",
+          "Value": "PWRON_N",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          38.0,
+          35.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "PWRON_N",
+            "position_mm": [
+              38.0,
+              35.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "CM4_Carrier_R13",
+      "source_pcb": "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+      "source_pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint TP8",
+            "pos": {
+              "x": 24.0,
+              "y": 21.0
+            },
+            "uuid": "fd54074d-2493-47d6-9328-8969250ebf1b"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "fd54074d-2493-47d6-9328-8969250ebf1b",
+        "reference": "TP8",
+        "value": "TDK_IMON",
+        "fields": {
+          "Reference": "TP8",
+          "Value": "TDK_IMON",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "TEST ONLY"
+        },
+        "footprint": "Test_SMD1",
+        "position_mm": [
+          24.0,
+          21.0
+        ],
+        "side": "B.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "TDK_IMON",
+            "position_mm": [
+              24.0,
+              21.0
+            ],
+            "size_mm": [
+              1.0,
+              1.0
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "LEG5",
+      "source_pcb": "work/r13-electronics/pdb/LEG5/Microduck_PDB_R13_LEG5.kicad_pcb",
+      "source_pcb_sha256": "dd02cd9213c7cb89ed49d66761165444fc2a4f599a0e2bff7ef84acadf4f78bf",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_LEG5/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 31.0,
+              "y": 31.0
+            },
+            "uuid": "587a3207-5086-41d4-a7b0-15a32b8d1570"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "587a3207-5086-41d4-a7b0-15a32b8d1570",
+        "reference": "W2",
+        "value": "GND AWG16",
+        "fields": {
+          "Reference": "W2",
+          "Value": "GND AWG16",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "WIRE55A0111-16-0"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          31.0,
+          31.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              31.0,
+              31.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "LEG5",
+      "source_pcb": "work/r13-electronics/pdb/LEG5/Microduck_PDB_R13_LEG5.kicad_pcb",
+      "source_pcb_sha256": "dd02cd9213c7cb89ed49d66761165444fc2a4f599a0e2bff7ef84acadf4f78bf",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_LEG5/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 20.0,
+              "y": 18.0
+            },
+            "uuid": "780d47aa-4caa-4b4f-bed3-68eae4a59381"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "780d47aa-4caa-4b4f-bed3-68eae4a59381",
+        "reference": "W1",
+        "value": "10.8V AWG16",
+        "fields": {
+          "Reference": "W1",
+          "Value": "10.8V AWG16",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "WIRE55A0111-16-2"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          20.0,
+          18.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "VIN_MAIN",
+            "position_mm": [
+              20.0,
+              18.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "HEAD3",
+      "source_pcb": "work/r13-electronics/pdb/HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb",
+      "source_pcb_sha256": "8a51d9b9b8ddee52aa9101152f4b52a248510ac9b6adbc6cc79c0bc1e482f5b4",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_HEAD3/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W1",
+            "pos": {
+              "x": 20.0,
+              "y": 18.0
+            },
+            "uuid": "3cb7bc32-e773-4466-86e8-8eb86b52e6f7"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "3cb7bc32-e773-4466-86e8-8eb86b52e6f7",
+        "reference": "W1",
+        "value": "10.8V AWG16",
+        "fields": {
+          "Reference": "W1",
+          "Value": "10.8V AWG16",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "WIRE55A0111-16-2"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          20.0,
+          18.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "VIN_MAIN",
+            "position_mm": [
+              20.0,
+              18.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "board_id": "HEAD3",
+      "source_pcb": "work/r13-electronics/pdb/HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb",
+      "source_pcb_sha256": "8a51d9b9b8ddee52aa9101152f4b52a248510ac9b6adbc6cc79c0bc1e482f5b4",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_HEAD3/DRC.json",
+      "warning": {
+        "description": "Footprint has no courtyard defined",
+        "items": [
+          {
+            "description": "Footprint W2",
+            "pos": {
+              "x": 5.0,
+              "y": 21.0
+            },
+            "uuid": "c8f13c76-7f95-499f-a2e1-d7cd9cc0f955"
+          }
+        ],
+        "severity": "warning",
+        "type": "missing_courtyard"
+      },
+      "footprint": {
+        "uuid": "c8f13c76-7f95-499f-a2e1-d7cd9cc0f955",
+        "reference": "W2",
+        "value": "GND AWG16",
+        "fields": {
+          "Reference": "W2",
+          "Value": "GND AWG16",
+          "Datasheet": "",
+          "Description": "",
+          "MPN": "WIRE55A0111-16-0"
+        },
+        "footprint": "WirePad_2p4mm_6mm",
+        "position_mm": [
+          5.0,
+          21.0
+        ],
+        "side": "F.Cu",
+        "DNP_in_PCB": false,
+        "courtyard_shapes": 0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "position_mm": [
+              5.0,
+              21.0
+            ],
+            "size_mm": [
+              6.0,
+              6.0
+            ],
+            "drill_mm": [
+              2.4,
+              2.4
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sources": {
+    "work/r21-reduced-sway/pcb_review/enabled_rule_checks.json": "9521658d44b848708a8c81d2bc6c91c2a07b8735ae0af7b981942cfbd26bc359",
+    "work/r21-reduced-sway/pcb_review/native_pcb_extract.json": "04dcfb797d2158aed94f2665023366011527a50aaa4aa167257897cffe829a72",
+    "work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json": "fcd1955bec3c0706f23d8258d50e2a1ab3796ad5876c6cccf987e5d52823c791",
+    "work/r13-electronics/inherited/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb": "e785d7ae8ad6bcc0908122bd986ea8a8b6c5919be4dfc5a76c3a4ff947b95679",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Main_Fuse_R8/DRC.json": "e438d09ea63b51b11c0852f9f4e28bf8f2c152bb6854dac13580b46833af9b62",
+    "work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json": "dbbfe1b8466d845c10b778e9751fb1cccefc67d382e7ee19c6b568bfd491df34",
+    "work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json": "05d00af831d623bdbd681f274d74ed3a44554a817bd9befb9cc5160952444ac0",
+    "work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json": "50b7d05bb5de3ce42f7084c9c603fbd8a8a1b157820357dc4a7ee50b0d25d073",
+    "work/r13-electronics/pdb/LEG5/Microduck_PDB_R13_LEG5.kicad_pcb": "dd02cd9213c7cb89ed49d66761165444fc2a4f599a0e2bff7ef84acadf4f78bf",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_LEG5/DRC.json": "86fdd78084d64d9ecbcfa5f106366192047d2c9ab8d67eb2a7bfcf5f3945c476",
+    "work/r13-electronics/pdb/HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb": "8a51d9b9b8ddee52aa9101152f4b52a248510ac9b6adbc6cc79c0bc1e482f5b4",
+    "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_HEAD3/DRC.json": "2bfc854787bfbf3506b148e05abf88dd2a0580ad215cf0968b363be42c80f8c4",
+    "work/r21-reduced-sway/pcb_review/extract_warning_geometry.py": "d7a50166faf7ac2fde7184e660c0d974d77dafd481009d6971235fd63c4f9779"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "EXACT_REFERENCE_CONTROLLER_PHASE_BOUNDARIES_NOT_MEASURED_CONTACT_EVENTS",
+  "duration_s": 195.44174451701414,
+  "rows": [
+    {
+      "name": "cycle1_initial_settle_hold",
+      "start_s": 0.0,
+      "end_s": 2.0
+    },
+    {
+      "name": "cycle1_double_transfer_to_left",
+      "start_s": 2.0,
+      "end_s": 19.98000294286965
+    },
+    {
+      "name": "cycle1_pre_unload_right",
+      "start_s": 19.98000294286965,
+      "end_s": 20.58000294286965
+    },
+    {
+      "name": "cycle1_right_step_lift",
+      "start_s": 20.58000294286965,
+      "end_s": 25.31451335023474
+    },
+    {
+      "name": "cycle1_right_step_advance",
+      "start_s": 25.31451335023474,
+      "end_s": 28.450633072239203
+    },
+    {
+      "name": "cycle1_right_step_lower",
+      "start_s": 28.450633072239203,
+      "end_s": 33.61240365859401
+    },
+    {
+      "name": "cycle1_right_landing_still_unloaded",
+      "start_s": 33.61240365859401,
+      "end_s": 34.21240365859401
+    },
+    {
+      "name": "cycle1_double_transfer_to_right",
+      "start_s": 34.21240365859401,
+      "end_s": 62.499638374921474
+    },
+    {
+      "name": "cycle1_pre_unload_left",
+      "start_s": 62.499638374921474,
+      "end_s": 63.099638374921476
+    },
+    {
+      "name": "cycle1_left_step_lift",
+      "start_s": 63.099638374921476,
+      "end_s": 67.86288269414058
+    },
+    {
+      "name": "cycle1_left_step_advance",
+      "start_s": 67.86288269414058,
+      "end_s": 73.61055888053679
+    },
+    {
+      "name": "cycle1_left_step_lower",
+      "start_s": 73.61055888053679,
+      "end_s": 78.36801326869377
+    },
+    {
+      "name": "cycle1_left_landing_still_unloaded",
+      "start_s": 78.36801326869377,
+      "end_s": 78.96801326869377
+    },
+    {
+      "name": "cycle1_double_recenter",
+      "start_s": 78.96801326869377,
+      "end_s": 97.12087225850703
+    },
+    {
+      "name": "cycle1_cycle_end_center",
+      "start_s": 97.12087225850703,
+      "end_s": 97.72087225850703
+    },
+    {
+      "name": "cycle2_initial_settle",
+      "start_s": 97.72087225850703,
+      "end_s": 99.72087225850703
+    },
+    {
+      "name": "cycle2_double_transfer_to_left",
+      "start_s": 99.72087225850703,
+      "end_s": 117.70087520137663
+    },
+    {
+      "name": "cycle2_pre_unload_right",
+      "start_s": 117.70087520137663,
+      "end_s": 118.30087520137663
+    },
+    {
+      "name": "cycle2_right_step_lift",
+      "start_s": 118.30087520137663,
+      "end_s": 123.03538560874173
+    },
+    {
+      "name": "cycle2_right_step_advance",
+      "start_s": 123.03538560874173,
+      "end_s": 126.17150533074619
+    },
+    {
+      "name": "cycle2_right_step_lower",
+      "start_s": 126.17150533074619,
+      "end_s": 131.33327591710093
+    },
+    {
+      "name": "cycle2_right_landing_still_unloaded",
+      "start_s": 131.33327591710093,
+      "end_s": 131.93327591710093
+    },
+    {
+      "name": "cycle2_double_transfer_to_right",
+      "start_s": 131.93327591710093,
+      "end_s": 160.22051063342838
+    },
+    {
+      "name": "cycle2_pre_unload_left",
+      "start_s": 160.22051063342838,
+      "end_s": 160.82051063342837
+    },
+    {
+      "name": "cycle2_left_step_lift",
+      "start_s": 160.82051063342837,
+      "end_s": 165.58375495264744
+    },
+    {
+      "name": "cycle2_left_step_advance",
+      "start_s": 165.58375495264744,
+      "end_s": 171.33143113904364
+    },
+    {
+      "name": "cycle2_left_step_lower",
+      "start_s": 171.33143113904364,
+      "end_s": 176.08888552720066
+    },
+    {
+      "name": "cycle2_left_landing_still_unloaded",
+      "start_s": 176.08888552720066,
+      "end_s": 176.68888552720065
+    },
+    {
+      "name": "cycle2_double_recenter",
+      "start_s": 176.68888552720065,
+      "end_s": 194.84174451701415
+    },
+    {
+      "name": "cycle2_cycle_end_center",
+      "start_s": 194.84174451701415,
+      "end_s": 195.44174451701414
+    }
+  ],
+  "sources": {
+    "work/r21-reduced-sway/gait/trajectory_4steps_v3.json": "9ae29d7be2dd7e211482bfb13ba49b2234e4ecaf782c945b46b9a944b41a7d5d",
+    "work/r21-reduced-sway/gait/trajectory_segments_4steps_v3.json": "ee996121ee5e1fd0f35455ab0b462212d96fdfecd7962540a70db8ae8ff8431b"
+  }
+}

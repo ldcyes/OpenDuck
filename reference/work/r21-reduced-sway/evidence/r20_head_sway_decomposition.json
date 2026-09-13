@@ -1,0 +1,29 @@
+{
+  "status": "EXACT_SAME_TWO_EXTREMA_DECOMPOSITION_NOT_SUM_OF_INDEPENDENT_RANGES",
+  "minimum_marker_time_s": 152.0199999981332,
+  "maximum_marker_time_s": 25.780000000032082,
+  "actual_head_marker_Y_peak_to_peak_mm": 257.8344121217151,
+  "contributions_between_those_same_two_times_mm": {
+    "root_translation": 35.244508258692875,
+    "root_rotation_of_fixed_HOME_marker": 222.59369382787406,
+    "head_joint_motion_relative_to_HOME": -0.003789964851804939
+  },
+  "individual_component_ranges_mm": {
+    "root_translation": 36.33113957108,
+    "root_rotation_of_fixed_HOME_marker": 222.60704557285413,
+    "head_joint_motion_relative_to_HOME": 0.06713376652301406
+  },
+  "method": "head_worldY = root_translationY + worldY(Rroot * fixed_HOME_marker) + worldY(Rroot * (current_marker_in_trunk - fixed_HOME_marker)); all terms compared at the same two total-marker extrema.",
+  "limits": [
+    "Rotation term includes full measured-in-simulation roll/pitch/yaw coupling, not roll alone.",
+    "The separate component ranges cannot generally be added.",
+    "Head joint correction is observed numerical tracking motion, not an active head-stabilization command.",
+    "No physical weighing, inertial calibration or hardware motion measurement."
+  ],
+  "sources": {
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+    "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+    "work/r21-reduced-sway/evidence/sway_metrics.py": "44137a614da204b05271b8e7e4a787985244294fb47b214af30eb55094c23c9c",
+    "work/r21-reduced-sway/evidence/decompose_head_sway.py": "84f0ecc0729f6fb5b826bb5dddbdde5527f814a67baa6fcd73fe0948f91e4d9e"
+  }
+}

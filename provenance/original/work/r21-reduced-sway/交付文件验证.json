@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "archive": "outputs/R13_8_减摆步态更新包.zip",
+  "archive_sha256": "87a3992fee6710c913c366cd7232e1a2079173aa754b95118425ecee66b1658c",
+  "archive_bytes": 603509009,
+  "member_count": 400,
+  "source_files_verified": 1851,
+  "protected_R20_files_unchanged": 10,
+  "public_folder": "outputs/Microduck_R13_8_减摆步态与PCB复核",
+  "all_copied_hashes_and_zip_crc_passed": true,
+  "base_dependency_index_sha256": "7347c892651bbce28324d87ad175268724e75fad61d28097dae8640a31323fa1"
+}

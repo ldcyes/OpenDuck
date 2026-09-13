@@ -1,0 +1,23 @@
+"""Independent output-level source, interpolation and fixed-foot audit."""
+from reduced_core_v2 import *
+import argparse
+SOURCES.bind(__file__);ap=argparse.ArgumentParser();ap.add_argument('--tag',required=True);args=ap.parse_args();p=OUT/f'trajectory_{args.tag}.json';D=SOURCES.json(p);sp=OUT/f'trajectory_segments_{args.tag}.json';SS=SOURCES.json(sp)['trajectories']['forward'];assert SS['trajectory_sha256']==hashlib.sha256(p.read_bytes()).hexdigest();K=D['keypoints'];segs=SS['segments'];samples=D['samples'];assert len(segs)==len(K)-1
+for rel,h in D['sources'].items():SOURCES.bind(rel,h)
+maxq=maxqd=maxqdd=maxB=maxsole=0.;minz=1e6;mindouble=1e6
+for i,s in enumerate(segs):
+ a,b=K[i:i+2];assert s['id']==f'{i:04d}'and s['source_keypoint_indices']==[i,i+1];assert np.isfinite([s['start_s'],s['end_s']]).all()and s['end_s']>s['start_s'];assert s['start_s']==a['time_s']and s['end_s']==b['time_s'];assert s['q0']==a['q_HOME_delta_deg']and s['q1']==b['q_HOME_delta_deg'];assert set(s['q0'])==set(names)==set(s['q1']);assert s['support_link']in s['support_links'];assert all(x in ['ankle_left','ankle_right']for x in s['support_links']);dt=s['end_s']-s['start_s'];dq=max(abs(s['q1'][n]-s['q0'][n])for n in names);assert abs(s['peak_joint_speed_deg_s']-1.875*dq/dt)<1e-9;assert abs(s['peak_joint_acceleration_deg_s2']-(10/3)*np.sqrt(3)*dq/dt**2)<1e-8
+ assert max(abs(np.array(a['foot_target_transforms_mm'][l])[:3,:3]-np.array(b['foot_target_transforms_mm'][l])[:3,:3]).max()for l in feet)<1e-9
+assert abs(samples[0]['time_s'])<1e-12 and abs(samples[-1]['time_s']-D['duration_s'])<1e-10;times=np.array([r['time_s']for r in samples]);assert np.isfinite(times).all()and np.all(np.diff(times)>0)and np.max(np.diff(times))<=.0250000001
+for r in samples:
+ i=int(r['segment_id']);s=segs[i];a,b=K[i:i+2];dt=s['end_s']-s['start_s'];u=float(np.clip((r['time_s']-s['start_s'])/dt,0,1));f=u**3*(10+u*(-15+6*u));v=30*u*u*(1-u)**2/dt;ac=60*u*(1-u)*(1-2*u)/dt**2;assert abs(f-r['source_linear_q_parameter'])<2e-12;assert s['start_s']-1e-10<=r['time_s']<=s['end_s']+1e-10
+ q0=np.array([s['q0'][n]for n in names]);dq=np.array([s['q1'][n]-s['q0'][n]for n in names]);maxq=max(maxq,float(np.max(abs(np.array([r['q_HOME_delta_deg'][n]for n in names])-(q0+f*dq)))));maxqd=max(maxqd,float(np.max(abs(np.array([r['joint_velocity_deg_s'][n]for n in names])-v*dq))));maxqdd=max(maxqdd,float(np.max(abs(np.array([r['joint_acceleration_deg_s2'][n]for n in names])-ac*dq))));T=transforms(J,r['q_HOME_delta_deg']);targets={}
+ for l in feet:
+  targets[l]=np.array(a['foot_target_transforms_mm'][l]);targets[l][:3,3]=(1-f)*np.array(a['foot_target_transforms_mm'][l])[:3,3]+f*np.array(b['foot_target_transforms_mm'][l])[:3,3]
+ B=np.array(r['base_transform_m']);B[:3,3]*=1000;expected=targets[r['support_link']]@np.linalg.inv(T[r['support_link']]);maxB=max(maxB,float(np.max(abs(B-expected))));assert np.isfinite(B).all()and np.max(abs(B[:3,:3].T@B[:3,:3]-np.eye(3)))<1e-10
+ for l in feet:
+  actual=apply_points(feet[l]['sole'],B@T[l]);target=apply_points(feet[l]['sole'],targets[l]);maxsole=max(maxsole,float(np.linalg.norm(actual-target,axis=1).max()));minz=min(minz,float(actual[:,2].min()))
+ assert r['support_link']in r['support_links'];fractions=r['desired_load_fraction_by_link'];assert set(fractions)==set(feet)and min(fractions.values())>=-1e-12 and abs(sum(fractions.values())-1)<1e-10
+ assert r['contact_mode']==('double'if len(r['support_links'])==2 else'left'if r['support_links']==['ankle_left']else'right')
+assert maxq<1e-10 and maxqd<1e-9 and maxqdd<1e-8 and maxB<1e-7 and maxsole<.01
+assert abs(maxsole-D['summary']['max_sampled_foot_target_point_error_mm'])<1e-9
+SOURCES.verify();out=dict(status='OUTPUT_LEVEL_SOURCE_MATH_AND_STANCE_RECONSTRUCTION_CHECKED_NOT_PHYSICS_APPROVED',trajectory_sha256=hashlib.sha256(p.read_bytes()).hexdigest(),sample_count=len(samples),segment_count=len(segs),max_q_math_error_deg=maxq,max_qdot_math_error_deg_s=maxqd,max_qddot_math_error_deg_s2=maxqdd,max_root_matrix_element_error_mm_or_dimensionless=maxB,max_actual_sole_target_point_error_mm=maxsole,minimum_actual_sole_vertex_Z_mm=minz,limits=['The0.01mm interpolation error test is an accuracy budget, not a clearance or TPU compression approval.','Designated stance foot reconstruction is a kinematic reference and does not weld the actual dynamic root.','All-pair body collision, dynamic contact, hardware strength and encoder qualification are separate.'],sources=SOURCES.entries);(OUT/f'math_review_{args.tag}.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps({k:v for k,v in out.items()if k!='sources'},indent=2))

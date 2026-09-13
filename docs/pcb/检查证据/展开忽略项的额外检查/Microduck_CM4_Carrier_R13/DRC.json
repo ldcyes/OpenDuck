@@ -1,0 +1,297 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T21:33:12",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Microduck_CM4_Carrier_R13.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [CORE_5V] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 30.05,
+                        "y": 16.75
+                    },
+                    "uuid": "054d6e8a-8f9a-4fd0-8c0d-17ff725a9548"
+                },
+                {
+                    "description": "Via [CORE_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.8,
+                        "y": 16.8
+                    },
+                    "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [CORE_5V] on F.Cu, length 16.2000 mm",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 16.8
+                    },
+                    "uuid": "8a165645-e725-4983-aff0-dc1498639746"
+                },
+                {
+                    "description": "Via [CORE_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.8,
+                        "y": 16.8
+                    },
+                    "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [CORE_5V] on F.Cu, length 0.1000 mm",
+                    "pos": {
+                        "x": 30.05,
+                        "y": 16.649999
+                    },
+                    "uuid": "a9027c89-0d34-4c0c-b258-fdf4448fa5f2"
+                },
+                {
+                    "description": "Via [CORE_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.8,
+                        "y": 16.8
+                    },
+                    "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [CORE_5V] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 30.1,
+                        "y": 16.6
+                    },
+                    "uuid": "b9540f46-2d4d-451f-a27c-268ae12b850c"
+                },
+                {
+                    "description": "Via [CORE_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 29.8,
+                        "y": 16.8
+                    },
+                    "uuid": "e83beed8-89b9-4c5b-b582-a0a8e81da0ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [SYSTEM_5V] on B.Cu, length 0.9500 mm",
+                    "pos": {
+                        "x": 32.95,
+                        "y": 15.75
+                    },
+                    "uuid": "3f8eb973-6725-4671-9011-d731de8b03d6"
+                },
+                {
+                    "description": "Via [SYSTEM_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 33.9,
+                        "y": 15.7
+                    },
+                    "uuid": "fa1675e4-02bb-440c-ae05-3e1610bf02e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP7",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 21.0
+                    },
+                    "uuid": "19cf82b4-f290-4614-9111-70b13e4edb09"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 35.0
+                    },
+                    "uuid": "26063829-d73d-4c6e-8c77-2480b422a4e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP6",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 35.0
+                    },
+                    "uuid": "2e0f5f3b-9f40-45f8-b822-c83a6f44ea23"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP3",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 35.0
+                    },
+                    "uuid": "509e434a-1320-4fdd-9585-4531f84784ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 24.0
+                    },
+                    "uuid": "5b3418cd-ebf6-4e1d-9cc8-fe43d88640cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP9",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 21.0
+                    },
+                    "uuid": "97d35145-aa94-4bfd-b60d-a79034c726cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP1",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 22.0
+                    },
+                    "uuid": "b6cf70af-af5a-4e01-9bde-f521205dca42"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W1",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 9.0
+                    },
+                    "uuid": "c8b9fcd1-ba49-4f94-a37a-398382df3bf7"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 9.0
+                    },
+                    "uuid": "d0f6b634-4730-43bd-999b-edc517125f8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP5",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 35.0
+                    },
+                    "uuid": "e5770c5d-f98d-4601-9a1d-5383796ca048"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint TP8",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 21.0
+                    },
+                    "uuid": "fd54074d-2493-47d6-9328-8969250ebf1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        }
+    ]
+}

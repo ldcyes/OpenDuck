@@ -1,0 +1,112 @@
+{
+  "schema": 2,
+  "robot": "Microduck-RK-R8-RK3576-XM430-XC330",
+  "measured": false,
+  "geometry_verified": false,
+  "mode5_current_limit_fit_verified": false,
+  "holdout_verified": false,
+  "calibration_sha256": null,
+  "bam_sha256_by_model": {
+    "1020": null,
+    "1210": null,
+    "1220": null
+  },
+  "measurement_report": null,
+  "holdout_report": null,
+  "vin_range": null,
+  "vin_drop_gain_range": null,
+  "delay_min_lag": null,
+  "delay_max_lag": null,
+  "delay_units": "physics_steps; derive from measured U2D2/firmware timing and actual simulation dt; VLA perception delay is an additional separate high-level delay",
+  "joint_fits": {
+    "left_hip_yaw": {
+      "model_number": 1220,
+      "goal_current_raw": 300,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "left_hip_roll": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "left_hip_pitch": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "left_knee": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "left_ankle": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "neck_pitch": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "head_pitch": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "head_yaw": {
+      "model_number": 1210,
+      "goal_current_raw": 300,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "head_roll": {
+      "model_number": 1210,
+      "goal_current_raw": 300,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "right_hip_yaw": {
+      "model_number": 1220,
+      "goal_current_raw": 300,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "right_hip_roll": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "right_hip_pitch": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "right_knee": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    },
+    "right_ankle": {
+      "model_number": 1020,
+      "goal_current_raw": 111,
+      "effective_current_limit_A": null,
+      "p_gain": null
+    }
+  },
+  "bodies": {},
+  "bodies_note": "Fill every inertial body exported by the actual R8 MJCF; do not reuse R1 mesh mass/inertia or 1.25kg budget.",
+  "hardware_platform_sha256": "d0557995ea758281473a28a7b51692a925037cf84505db43aca5011adce30e3d",
+  "power_configuration_sha256": null,
+  "motion_limits_sha256": "9afd167d27a2f63da1ac767f2307cd5f98c75a4e255bb06eca08b0024b980366"
+}

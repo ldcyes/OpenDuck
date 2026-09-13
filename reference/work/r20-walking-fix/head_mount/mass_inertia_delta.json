@@ -1,0 +1,1954 @@
+{
+  "status": "CONDITIONAL_SOURCE_MASS_AND_INERTIA_DELTA_NO_DUPLICATE_RESERVE",
+  "physical_approved": false,
+  "measured": false,
+  "baseline_R17_mass_rows": 441,
+  "retained_R18_new_cover_rows": 34,
+  "before_nominal_kg": 4.1944782914623335,
+  "after_nominal_kg": 4.193000872961529,
+  "after_mass_row_count": 501,
+  "remove_mass_rows": [
+    "R11_CM4_front_clamp_bar_1",
+    "R11_CM4_front_clamp_bar_2",
+    "head_fasteners_remaining_after_R13"
+  ],
+  "add_mass_rows": [
+    {
+      "name": "R20_CM4_stack_1_M2_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        110.98633294154753,
+        21.65270971649808,
+        264.50426732470385
+      ],
+      "low_g": 0.5699944715142374,
+      "nominal_g": 0.7124930893927968,
+      "high_g": 0.8549917072713561,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          5.93876422509849e-10,
+          -4.178906412562355e-17,
+          3.4267092589288946e-16
+        ],
+        [
+          -4.178906412562355e-17,
+          4.0527023064837024e-08,
+          -1.8463470041751862e-21
+        ],
+        [
+          3.4267092589288946e-16,
+          -1.8463470041751862e-21,
+          4.0527023064425287e-08
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          8.335188528157716e-07,
+          -5.86518869414399e-14,
+          4.809463151213461e-13
+        ],
+        [
+          -5.86518869414399e-14,
+          5.688058406205048e-05,
+          -2.5913893505250503e-18
+        ],
+        [
+          4.809463151213461e-13,
+          -2.5913893505250503e-18,
+          5.68805840614726e-05
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_screw.step": "0979487ffb76b2f160a4c4fa432a366c7272604c720c22cbbc4987b25ffab674",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_screw.stl": "2ff5bcc7806715fe64405226bec7283191ad0495a09ed738520f1dc2dfc6b0ef"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_front_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        102.89454072117807,
+        21.652709722518924,
+        264.5042672753334
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067174038e-10,
+          2.8849171940237285e-23,
+          2.307933755218983e-22
+        ],
+        [
+          2.8849171940237285e-23,
+          7.05337018257199e-11,
+          2.8849171940237285e-23
+        ],
+        [
+          2.307933755218983e-22,
+          2.8849171940237285e-23,
+          7.053370182468132e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000144574e-06,
+          7.658760714447135e-19,
+          6.127008571557708e-18
+        ],
+        [
+          7.658760714447135e-19,
+          1.872500000022214e-06,
+          7.658760714447135e-19
+        ],
+        [
+          6.127008571557708e-18,
+          7.658760714447135e-19,
+          1.8724999999946422e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_front_washer.step": "9bf930f67f3fcead91ea7e2c79969041752aaaf7e3ab9be26ec5a0e35399142a",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_front_washer.stl": "0a083c86eac1d256393e3e029f2c9a408324fc4058f68ec31a940047d9d8fa54"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_rear_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        120.49454072117805,
+        21.652709722518924,
+        264.5042672753334
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067174038e-10,
+          1.4424585970118642e-23,
+          0.0
+        ],
+        [
+          1.4424585970118642e-23,
+          7.053370182525832e-11,
+          2.8849171940237285e-23
+        ],
+        [
+          0.0,
+          2.8849171940237285e-23,
+          7.053370182491213e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000144574e-06,
+          3.8293803572235674e-19,
+          0.0
+        ],
+        [
+          3.8293803572235674e-19,
+          1.8725000000099601e-06,
+          7.658760714447135e-19
+        ],
+        [
+          0.0,
+          7.658760714447135e-19,
+          1.8725000000007696e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_rear_washer.step": "ea1f923aa33515b1ddd9c9aec4aeab74040fd72f03f66c16494a7143349cb980",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_rear_washer.stl": "e59ab097c8ede0f2035c98076045ae489346e1c93e2903cdcb785722df4f1025"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        121.44453999999986,
+        21.65271004709767,
+        264.50427046246597
+      ],
+      "low_g": 0.12023941243453491,
+      "nominal_g": 0.15029926554316864,
+      "high_g": 0.18035911865180235,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          3.8252527779020135e-10,
+          -1.1539668776094914e-22,
+          -9.231735020875931e-22
+        ],
+        [
+          -1.1539668776094914e-22,
+          2.2332639113503973e-10,
+          0.0
+        ],
+        [
+          -9.231735020875931e-22,
+          0.0,
+          2.2332657329101928e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.5450907987327007e-06,
+          -7.677794521744029e-19,
+          -6.142235617395223e-18
+        ],
+        [
+          -7.677794521744029e-19,
+          1.4858781267357316e-06,
+          0.0
+        ],
+        [
+          -6.142235617395223e-18,
+          0.0,
+          1.4858793386909524e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_nut.step": "311603bb39f414e84a51b3086a4fa79a0edbb15b8dac5cd447b9b6061bec1bc7",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_nut.stl": "ca7df6417be52f136fe4575c84737598bc1ef339385408dbea95269b2f4735d7"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        110.9863329415475,
+        21.652709716498084,
+        297.5042673247039
+      ],
+      "low_g": 0.5699944715142383,
+      "nominal_g": 0.7124930893927979,
+      "high_g": 0.8549917072713574,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          5.938764225024637e-10,
+          -4.1789525712374594e-17,
+          3.4266723319888117e-16
+        ],
+        [
+          -4.1789525712374594e-17,
+          4.0527023064837024e-08,
+          -1.8463470041751862e-21
+        ],
+        [
+          3.4266723319888117e-16,
+          -1.8463470041751862e-21,
+          4.052702306442713e-08
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          8.335188528054049e-07,
+          -5.865253478877744e-14,
+          4.809411323426444e-13
+        ],
+        [
+          -5.865253478877744e-14,
+          5.688058406205039e-05,
+          -2.5913893505250465e-18
+        ],
+        [
+          4.809411323426444e-13,
+          -2.5913893505250465e-18,
+          5.68805840614751e-05
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_screw.step": "1e34448451a97dd54cb5ab2572cc67b38fddce38b935671430e26c8b124c93a0",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_screw.stl": "76555814fadb22aa886d5ee5dd5ffa2236f326c74ca8f2856b41f95a841749f7"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_front_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        102.89454072117807,
+        21.652709722518924,
+        297.5042672753334
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067127882e-10,
+          2.8849171940237285e-23,
+          2.307933755218983e-22
+        ],
+        [
+          2.8849171940237285e-23,
+          7.05337018257199e-11,
+          5.769834388047457e-23
+        ],
+        [
+          2.307933755218983e-22,
+          5.769834388047457e-23,
+          7.053370182468132e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000022043e-06,
+          7.658760714447135e-19,
+          6.127008571557708e-18
+        ],
+        [
+          7.658760714447135e-19,
+          1.872500000022214e-06,
+          1.531752142889427e-18
+        ],
+        [
+          6.127008571557708e-18,
+          1.531752142889427e-18,
+          1.8724999999946422e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_front_washer.step": "b0e4c3e94976daadeaff0c6b3bfd66f2b15106c09437004bd161408ccbc088f2",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_front_washer.stl": "9ffd89723bb36da72c1a8406c3021279413ebffe5f97e68be0636ea5ded76107"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_rear_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        120.49454072117805,
+        21.652709722518924,
+        297.5042672753334
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067174038e-10,
+          1.4424585970118642e-23,
+          -2.307933755218983e-22
+        ],
+        [
+          1.4424585970118642e-23,
+          7.053370182479674e-11,
+          5.769834388047457e-23
+        ],
+        [
+          -2.307933755218983e-22,
+          5.769834388047457e-23,
+          7.053370182491213e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000144574e-06,
+          3.8293803572235674e-19,
+          -6.127008571557708e-18
+        ],
+        [
+          3.8293803572235674e-19,
+          1.8724999999977063e-06,
+          1.531752142889427e-18
+        ],
+        [
+          -6.127008571557708e-18,
+          1.531752142889427e-18,
+          1.8725000000007696e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_rear_washer.step": "e6ad909432d562adb129fa9880733ba8b44407489adb9ce18afc1dcd236025c4",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_rear_washer.stl": "c473eaa50882cbd8cbf6262c299cf7ec7da17df4e37e2a7020dc6ca0ffbc901a"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        121.44453999999986,
+        21.652710047097678,
+        297.5042704624659
+      ],
+      "low_g": 0.12023941243453531,
+      "nominal_g": 0.15029926554316914,
+      "high_g": 0.18035911865180296,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          3.825252777957404e-10,
+          -1.1539668776094914e-22,
+          -1.8463470041751862e-21
+        ],
+        [
+          -1.1539668776094914e-22,
+          2.2332639113503973e-10,
+          -2.307933755218983e-22
+        ],
+        [
+          -1.8463470041751862e-21,
+          -2.307933755218983e-22,
+          2.2332657329148087e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.545090798769546e-06,
+          -7.677794521744005e-19,
+          -1.2284471234790408e-17
+        ],
+        [
+          -7.677794521744005e-19,
+          1.4858781267357268e-06,
+          -1.535558904348801e-18
+        ],
+        [
+          -1.2284471234790408e-17,
+          -1.535558904348801e-18,
+          1.4858793386940186e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_nut.step": "f662ea2e44ab4b8a2f4c9c9291ad7d0599dcaff46b6ee53d346ad559d7ec25fe",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_nut.stl": "2982cd52b745ded4b8911d1a737b7a6c3893855f8648ac8a0beaac412551f839"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        110.98633294154749,
+        -26.297290283501905,
+        264.484267324704
+      ],
+      "low_g": 0.5699944715142372,
+      "nominal_g": 0.7124930893927965,
+      "high_g": 0.8549917072713559,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          5.938764224581512e-10,
+          -4.178883333224803e-17,
+          3.426635405048728e-16
+        ],
+        [
+          -4.178883333224803e-17,
+          4.052702306482964e-08,
+          1.8463470041751862e-21
+        ],
+        [
+          3.426635405048728e-16,
+          1.8463470041751862e-21,
+          4.052702306443452e-08
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          8.335188527432129e-07,
+          -5.86515630177711e-14,
+          4.809359495639442e-13
+        ],
+        [
+          -5.86515630177711e-14,
+          5.688058406204013e-05,
+          2.591389350525051e-18
+        ],
+        [
+          4.809359495639442e-13,
+          2.591389350525051e-18,
+          5.688058406148557e-05
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_screw.step": "447a47928573e702e8d15d0f9513fe2f0e638bfe3e220c41531725add5ca897e",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_screw.stl": "1c1a53a5fd251efecae59ae4450f8c97ff0540f2b601160fc9f66879548f1c18"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_front_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        102.89454072117806,
+        -26.297290277481075,
+        264.48426727533337
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067174038e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.05337018257199e-11,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.053370182491213e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000144574e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.872500000022214e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.8725000000007696e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_front_washer.step": "a79d6bbc72980047ff8c34567a88bc2a24b8273962fd6b1de639860c57e9bf67",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_front_washer.stl": "03f91e2ac93750cc78c127b10a39c5a2b93f1fe92e8b89a47e292da19adbfc21"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_rear_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        120.49454072117803,
+        -26.297290277481075,
+        264.48426727533337
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067174038e-10,
+          1.4424585970118642e-23,
+          -2.307933755218983e-22
+        ],
+        [
+          1.4424585970118642e-23,
+          7.05337018257199e-11,
+          0.0
+        ],
+        [
+          -2.307933755218983e-22,
+          0.0,
+          7.053370182502752e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000144574e-06,
+          3.8293803572235674e-19,
+          -6.127008571557708e-18
+        ],
+        [
+          3.8293803572235674e-19,
+          1.872500000022214e-06,
+          0.0
+        ],
+        [
+          -6.127008571557708e-18,
+          0.0,
+          1.8725000000038331e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_rear_washer.step": "45373323131ab4d6f2e4ff8ecaba676fe59a9d618a73e00a343e22e6e61d1669",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_rear_washer.stl": "ccbdcee1951cf07c243632dbceafef8c3ee51da6d299110dc68ccd67630d27a4"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        121.44453999999988,
+        -26.29728995290231,
+        264.48427046246593
+      ],
+      "low_g": 0.12023941243453554,
+      "nominal_g": 0.1502992655431694,
+      "high_g": 0.1803591186518033,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          3.8252527779204767e-10,
+          5.769834388047457e-23,
+          -9.231735020875931e-22
+        ],
+        [
+          5.769834388047457e-23,
+          2.2332639113503973e-10,
+          4.615867510437966e-22
+        ],
+        [
+          -9.231735020875931e-22,
+          4.615867510437966e-22,
+          2.233265732905577e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.545090798744972e-06,
+          3.838897260871995e-19,
+          -6.142235617395192e-18
+        ],
+        [
+          3.838897260871995e-19,
+          1.485878126735724e-06,
+          3.071117808697596e-18
+        ],
+        [
+          -6.142235617395192e-18,
+          3.071117808697596e-18,
+          1.4858793386878738e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_nut.step": "a7c42a268a6309e5540aa92c4ca5a28a5f1276ece99c7231281ee81b7999af5c",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_nut.stl": "7c19f8a971a27e7124327092e634c292a344bd171c1a281894eb82c5fdb27d24"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        110.98633294154756,
+        -26.29729028350192,
+        297.484267324704
+      ],
+      "low_g": 0.5699944715142374,
+      "nominal_g": 0.7124930893927968,
+      "high_g": 0.8549917072713561,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          5.938764224950782e-10,
+          -4.1790679679252205e-17,
+          3.4266723319888117e-16
+        ],
+        [
+          -4.1790679679252205e-17,
+          4.0527023064851794e-08,
+          -9.231735020875931e-22
+        ],
+        [
+          3.4266723319888117e-16,
+          -9.231735020875931e-22,
+          4.052702306442345e-08
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          8.335188527950405e-07,
+          -5.865415440712161e-14,
+          4.809411323426451e-13
+        ],
+        [
+          -5.865415440712161e-14,
+          5.6880584062071206e-05,
+          -1.2956946752625252e-18
+        ],
+        [
+          4.809411323426451e-13,
+          -1.2956946752625252e-18,
+          5.6880584061470016e-05
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_screw.step": "9799f05b1ec3f81a86f6b4e97961aaa7e9cc99e7106ad0c231a5778299ff3e76",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_screw.stl": "dfd028b74bc9a25b40d3f1312056bd4543fc16336ca2337da62ac7573b08591e"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_front_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        102.89454072117806,
+        -26.297290277481075,
+        297.48426727533337
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067127882e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.053370182664309e-11,
+          5.769834388047457e-23
+        ],
+        [
+          0.0,
+          5.769834388047457e-23,
+          7.053370182491213e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000022043e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.8725000000467222e-06,
+          1.531752142889427e-18
+        ],
+        [
+          0.0,
+          1.531752142889427e-18,
+          1.8725000000007696e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_front_washer.step": "2d03e83b46637386f6157498aaeb00e83bea1a2716658b0a2dd87bc6d0fb193e",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_front_washer.stl": "81e6b5de11e36c7d77645c40b11f13596b50ce5f09339cd776102face428799e"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_rear_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        120.49454072117803,
+        -26.297290277481075,
+        297.48426727533337
+      ],
+      "low_g": 0.03013455885709293,
+      "nominal_g": 0.03766819857136616,
+      "high_g": 0.045201838285639395,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.4050238067127882e-10,
+          1.4424585970118642e-23,
+          -2.307933755218983e-22
+        ],
+        [
+          1.4424585970118642e-23,
+          7.053370182618149e-11,
+          5.769834388047457e-23
+        ],
+        [
+          -2.307933755218983e-22,
+          5.769834388047457e-23,
+          7.053370182502752e-11
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          3.7300000000022043e-06,
+          3.8293803572235674e-19,
+          -6.127008571557708e-18
+        ],
+        [
+          3.8293803572235674e-19,
+          1.8725000000344682e-06,
+          1.531752142889427e-18
+        ],
+        [
+          -6.127008571557708e-18,
+          1.531752142889427e-18,
+          1.8725000000038331e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_rear_washer.step": "cf4cde0190f7ba1cfae2b93d1ce592b72445326e0589f57044b07a3b8b361aed",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_rear_washer.stl": "c422af54a9b2d575af122957049ea8e356ac402900f0ffa4a42a7fa78adfbb32"
+      }
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        121.44454000000016,
+        -26.297289952902318,
+        297.4842704624652
+      ],
+      "low_g": 0.12023941243459751,
+      "nominal_g": 0.15029926554324688,
+      "high_g": 0.18035911865189624,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          3.825252778031258e-10,
+          5.769834388047457e-23,
+          -2.769520506262779e-21
+        ],
+        [
+          5.769834388047457e-23,
+          2.2332639114427148e-10,
+          4.615867510437966e-22
+        ],
+        [
+          -2.769520506262779e-21,
+          4.615867510437966e-22,
+          2.2332657329101928e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.545090798817367e-06,
+          3.8388972608700167e-19,
+          -1.8426706852176078e-17
+        ],
+        [
+          3.8388972608700167e-19,
+          1.4858781267963807e-06,
+          3.0711178086960134e-18
+        ],
+        [
+          -1.8426706852176078e-17,
+          3.0711178086960134e-18,
+          1.485879338690179e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.3,
+        0.15,
+        0.15
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_nut.step": "8570f0983e27085fc14998b78479c9ab3229d02efa36fb473b4880ee31c0ef80",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_nut.stl": "b7f89b5cf1cc0b2711f364a68a3a75b219003911487e8486746b01dd4e693d4e"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.999999999999986,
+        16.652709708893298,
+        223.0954951764341
+      ],
+      "low_g": 0.5372702843294292,
+      "nominal_g": 0.6715878554117866,
+      "high_g": 0.8059054264941439,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.0168402192287957e-08,
+          -1.1539668776094914e-22,
+          -1.8463470041751862e-21
+        ],
+        [
+          -1.1539668776094914e-22,
+          1.0168402183750448e-08,
+          3.9388582226820285e-17
+        ],
+        [
+          -1.8463470041751862e-21,
+          3.9388582226820285e-17,
+          1.0839012494797633e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          1.5140836914111801e-05,
+          -1.7182664461702223e-19,
+          -2.7492263138723556e-18
+        ],
+        [
+          -1.7182664461702223e-19,
+          1.514083690139938e-05,
+          5.864993226041742e-14
+        ],
+        [
+          -2.7492263138723556e-18,
+          5.864993226041742e-14,
+          1.6139381329568048e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_screw.step": "2e55e3b92c35b234fcfc54a0258fba44ee2794cb1364d08c0360a5ace7ab5dfb",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_screw.stl": "e615bca77038fdf68b0075d69df61d10472859e442c32ceddf43abb5d37d1720"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_top_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.0,
+        16.652709722518924,
+        225.25000000000006
+      ],
+      "low_g": 0.07152473419205839,
+      "nominal_g": 0.08940591774007298,
+      "high_g": 0.10728710128808756,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          2.437615094698337e-10,
+          0.0,
+          2.307933755218983e-22
+        ],
+        [
+          0.0,
+          2.437615094698337e-10,
+          1.1539668776094914e-22
+        ],
+        [
+          2.307933755218983e-22,
+          1.1539668776094914e-22,
+          4.837977723709804e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.7264583333120508e-06,
+          0.0,
+          2.5814105078913977e-18
+        ],
+        [
+          0.0,
+          2.7264583333120508e-06,
+          1.2907052539456988e-18
+        ],
+        [
+          2.5814105078913977e-18,
+          1.2907052539456988e-18,
+          5.411250000000118e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_top_washer.step": "772ad3cc945d03ba94c037346ef7f63b68100ed623cdbb87b33fce6416eb6b02",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_top_washer.stl": "e9d9f9bb490c0a0d5402df9e7705847c1cdcc8e5e5c372f63ed7fd17f2e3ea7c"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.999999999999986,
+        16.652710052844494,
+        217.99999999999997
+      ],
+      "low_g": 0.23075721553340875,
+      "nominal_g": 0.2884465194167609,
+      "high_g": 0.3461358233001131,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          6.771528934982093e-10,
+          5.769834388047457e-23,
+          -9.231735020875931e-22
+        ],
+        [
+          5.769834388047457e-23,
+          6.771531740543292e-10,
+          2.307933755218983e-22
+        ],
+        [
+          -9.231735020875931e-22,
+          2.307933755218983e-22,
+          1.162008387935983e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.3475855935700417e-06,
+          2.0003134028845507e-19,
+          -3.200501444615281e-18
+        ],
+        [
+          2.0003134028845507e-19,
+          2.3475865662152327e-06,
+          8.001253611538203e-19
+        ],
+        [
+          -3.200501444615281e-18,
+          8.001253611538203e-19,
+          4.028505493099951e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_nut.step": "c3cec858c1e09463b7c1434aeba303da45faf0946cc1958ef1c5b51dbf96cffa",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_nut.stl": "73f9ddb612d718eceb5b8c2a81a1cd76352c71e26baf60708f8118c65a9bcfe6"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.99999999999997,
+        26.652709708893298,
+        223.09549517643404
+      ],
+      "low_g": 0.5372702843294291,
+      "nominal_g": 0.6715878554117864,
+      "high_g": 0.8059054264941438,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.0168402192302728e-08,
+          -6.923801265656948e-22,
+          -5.539041012525558e-21
+        ],
+        [
+          -6.923801265656948e-22,
+          1.0168402183757833e-08,
+          3.938535111956298e-17
+        ],
+        [
+          -5.539041012525558e-21,
+          3.938535111956298e-17,
+          1.083901249481148e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          1.5140836914133799e-05,
+          -1.0309598677021334e-18,
+          -8.247678941617068e-18
+        ],
+        [
+          -1.0309598677021334e-18,
+          1.5140836901410378e-05,
+          5.864512111436815e-14
+        ],
+        [
+          -8.247678941617068e-18,
+          5.864512111436815e-14,
+          1.6139381329588669e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_screw.step": "15f11edbcc151ae2082f50a2d9bc0214e83914216b631591a7944b44742be582",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_screw.stl": "b488e2417726cd5c61cb57bae1784f3b084dff96c9df7d8de64ae71d6503149f"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_top_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.0,
+        26.652709722518924,
+        225.25000000000006
+      ],
+      "low_g": 0.07152473419205839,
+      "nominal_g": 0.08940591774007298,
+      "high_g": 0.10728710128808756,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          2.437615094689105e-10,
+          0.0,
+          2.307933755218983e-22
+        ],
+        [
+          0.0,
+          2.437615094698337e-10,
+          1.1539668776094914e-22
+        ],
+        [
+          2.307933755218983e-22,
+          1.1539668776094914e-22,
+          4.837977723710381e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.726458333301725e-06,
+          0.0,
+          2.5814105078913977e-18
+        ],
+        [
+          0.0,
+          2.7264583333120508e-06,
+          1.2907052539456988e-18
+        ],
+        [
+          2.5814105078913977e-18,
+          1.2907052539456988e-18,
+          5.411250000000763e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_top_washer.step": "679ae14bc32035fb0f7d7b4c26796f9e4fde8fe305df2da23ec8d59de284f5cd",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_top_washer.stl": "a46ffb97914ead5906101aa7c95eb3dcbb2345897ec6ec5e72647d8d3dbbe4c6"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.99999999999999,
+        26.652710052844494,
+        217.99999999999997
+      ],
+      "low_g": 0.2307572155334084,
+      "nominal_g": 0.28844651941676047,
+      "high_g": 0.34613582330011256,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          6.771528935000556e-10,
+          -5.769834388047457e-23,
+          -9.231735020875931e-22
+        ],
+        [
+          -5.769834388047457e-23,
+          6.771531740598684e-10,
+          -6.923801265656948e-22
+        ],
+        [
+          -9.231735020875931e-22,
+          -6.923801265656948e-22,
+          1.1620083879362138e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.3475855935764465e-06,
+          -2.000313402884554e-19,
+          -3.2005014446152866e-18
+        ],
+        [
+          -2.000313402884554e-19,
+          2.34758656623444e-06,
+          -2.4003760834614646e-18
+        ],
+        [
+          -3.2005014446152866e-18,
+          -2.4003760834614646e-18,
+          4.028505493100758e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_nut.step": "4626c373af0256d9ce1b786248a7e19b1da2b362b17340ab03f19687214e077f",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_nut.stl": "b16f3f7dc9dd2d8407d826c55d80b5a134cec495b796679e39ec3b80f6ccc167"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.000000000000014,
+        -31.29729029110669,
+        223.09549517643404
+      ],
+      "low_g": 0.5372702843294291,
+      "nominal_g": 0.6715878554117864,
+      "high_g": 0.8059054264941438,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.0168402192302728e-08,
+          -2.307933755218983e-22,
+          0.0
+        ],
+        [
+          -2.307933755218983e-22,
+          1.0168402183743063e-08,
+          3.9389043813571333e-17
+        ],
+        [
+          0.0,
+          3.9389043813571333e-17,
+          1.0839012494779166e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          1.5140836914133799e-05,
+          -3.436532892340445e-19,
+          0.0
+        ],
+        [
+          -3.436532892340445e-19,
+          1.5140836901388386e-05,
+          5.86506195669959e-14
+        ],
+        [
+          0.0,
+          5.86506195669959e-14,
+          1.6139381329540553e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_screw.step": "6c1dd4a67b5dd2a68b1d19f497417a71282f0fa9b05e49c4149f39d0d0f966bd",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_screw.stl": "372fc3de7b9d9006b4761e2f96eb150859f4418f3f8589980197858bcf88a305"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_top_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.00000000000001,
+        -31.297290277481085,
+        225.25000000000006
+      ],
+      "low_g": 0.0715247341920584,
+      "nominal_g": 0.089405917740073,
+      "high_g": 0.1072871012880876,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          2.4376150947075687e-10,
+          0.0,
+          2.307933755218983e-22
+        ],
+        [
+          0.0,
+          2.4376150947075687e-10,
+          -1.1539668776094914e-22
+        ],
+        [
+          2.307933755218983e-22,
+          -1.1539668776094914e-22,
+          4.837977723709227e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.726458333322376e-06,
+          0.0,
+          2.581410507891397e-18
+        ],
+        [
+          0.0,
+          2.726458333322376e-06,
+          -1.2907052539456985e-18
+        ],
+        [
+          2.581410507891397e-18,
+          -1.2907052539456985e-18,
+          5.411249999999471e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_top_washer.step": "43ad6ae16520eb7eec63c28847726ca087a33000fcfbfdd232823c7e95700867",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_top_washer.stl": "e70effc10de163dc9be3dad92bffff765cacdf39bd3728525ea41b9a99772a41"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.0,
+        -31.297289947155505,
+        217.99999999999994
+      ],
+      "low_g": 0.23075721553340425,
+      "nominal_g": 0.2884465194167553,
+      "high_g": 0.34613582330010634,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          6.771528934982093e-10,
+          0.0,
+          -9.231735020875931e-22
+        ],
+        [
+          0.0,
+          6.771531740543292e-10,
+          6.923801265656948e-22
+        ],
+        [
+          -9.231735020875931e-22,
+          6.923801265656948e-22,
+          1.1620083879362138e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.347585593570088e-06,
+          0.0,
+          -3.2005014446153436e-18
+        ],
+        [
+          0.0,
+          2.3475865662152785e-06,
+          2.4003760834615074e-18
+        ],
+        [
+          -3.2005014446153436e-18,
+          2.4003760834615074e-18,
+          4.028505493100829e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_nut.step": "a22dc02d671265e403b57085f3d91d019fede1d8ec347bdafd6e21ca0f1da092",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_nut.stl": "f2c058a48fd4a0f68739f682941989cd8e65800f77651a417e53b3a292659963"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_screw",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.99999999999999,
+        -21.297290291106695,
+        223.095495176434
+      ],
+      "low_g": 0.5372702843294294,
+      "nominal_g": 0.6715878554117867,
+      "high_g": 0.805905426494144,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          1.0168402192302728e-08,
+          3.461900632828474e-22,
+          0.0
+        ],
+        [
+          3.461900632828474e-22,
+          1.0168402183743063e-08,
+          3.9388582226820285e-17
+        ],
+        [
+          0.0,
+          3.9388582226820285e-17,
+          1.0839012494797633e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          1.5140836914133792e-05,
+          5.154799338510664e-19,
+          0.0
+        ],
+        [
+          5.154799338510664e-19,
+          1.5140836901388379e-05,
+          5.864993226041739e-14
+        ],
+        [
+          0.0,
+          5.864993226041739e-14,
+          1.6139381329568044e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_screw.step": "19bce162b26484c95c4e6ab1f2ee7f784503406f9c178e808752343d0f173a56",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_screw.stl": "9d428c0340217eadd1ffe2c3f6fee5852f1095ad3569df9cc18fbe835056cd0f"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_top_washer",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        55.00000000000001,
+        -21.297290277481082,
+        225.24999999999997
+      ],
+      "low_g": 0.0715247341920584,
+      "nominal_g": 0.089405917740073,
+      "high_g": 0.1072871012880876,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          2.4376150947352637e-10,
+          -1.4424585970118642e-23,
+          0.0
+        ],
+        [
+          -1.4424585970118642e-23,
+          2.4376150947352637e-10,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.837977723709227e-10
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.7264583333533525e-06,
+          -1.613381567432123e-19,
+          0.0
+        ],
+        [
+          -1.613381567432123e-19,
+          2.7264583333533525e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          5.411249999999471e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_top_washer.step": "41ad37a54b5896df195eb8a9ca4ab1c6a618122fc3eeed63a649f9c58a148ddd",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_top_washer.stl": "714a77e4b63bf12b5e3534ae777fb497ffa94e185c97738f67d52019335624d6"
+      }
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_nut",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        54.99999999999999,
+        -21.29728994715551,
+        217.99999999999994
+      ],
+      "low_g": 0.23075721553340484,
+      "nominal_g": 0.28844651941675603,
+      "high_g": 0.3461358233001072,
+      "category": "R20 explicit purchased-fastener nominal geometry estimate",
+      "basis": "Nominal smooth outer-thread / root-bore CAD volume at7.93g/cm3. Actual threads/chamfers/lotmass differ. ±20% masscases are declared sensitivity assumptions, not supplier tolerance.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          6.771528935000556e-10,
+          1.1539668776094914e-22,
+          -9.231735020875931e-22
+        ],
+        [
+          1.1539668776094914e-22,
+          6.771531740561756e-10,
+          2.307933755218983e-22
+        ],
+        [
+          -9.231735020875931e-22,
+          2.307933755218983e-22,
+          1.1620083879364446e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          2.3475855935764825e-06,
+          4.00062680576917e-19,
+          -3.200501444615336e-18
+        ],
+        [
+          4.00062680576917e-19,
+          2.347586566221674e-06,
+          8.00125361153834e-19
+        ],
+        [
+          -3.200501444615336e-18,
+          8.00125361153834e-19,
+          4.028505493101619e-06
+        ]
+      ],
+      "R13_inertia_basis": "Uniform-density shape inertia scaled from this nominal fastener solid; excludes unmodeled thread flank distribution.",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "sources": {
+        "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_nut.step": "af3da1d86992a298c17943c95924ee16190f40d608730c2b8cfcabe596bf9c04",
+        "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_nut.stl": "ea6c2f88526a7548ab0e2ebf6070617f7ffc3d43b6071acb64e68cae21b80223"
+      }
+    },
+    {
+      "name": "head_fasteners_remaining_after_R20",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        40.0,
+        0.0,
+        240.0
+      ],
+      "low_g": 0,
+      "nominal_g": 7.772787548770668,
+      "high_g": 22.77278754877067,
+      "category": "unbuilt remaining planning reserve",
+      "basis": "Remaining original head_fasteners excluding explicitly materialized R13 parts; fixed nominal allocation removed from every case, not measured residual and not assurance future items fit; R20 now explicitly allocates the28CM4stack/frame fasteners at fixed nominalCADmass from each reserve case. Negative residual is prohibited; the old lowcase reserve is exhausted and the lower estimate is raised to the explicit newhardware lowcase.",
+      "measured": false,
+      "old_pool_name": "head_fasteners_remaining_after_R13",
+      "old_mass_cases_g": {
+        "low_g": 12.5,
+        "nominal_g": 22.5,
+        "high_g": 37.5
+      },
+      "allocated_nominal_g": 6.776936272639989,
+      "excluded_R13_items": [
+        "R13_H_foot_-52_M2p5x8",
+        "R13_H_foot_-52_washer",
+        "R13_H_foot_-43_M2p5x8",
+        "R13_H_foot_-43_washer",
+        "R13_H_board_-60_M2p5x10",
+        "R13_H_board_-60_washer",
+        "R13_H_board_-26_M2p5x10",
+        "R13_H_board_-26_washer",
+        "R13_H_Entry_PCB_0_262_M2x10",
+        "R13_H_Entry_PCB_0_262_washer",
+        "R13_H_Entry_PCB_0_301_M2x10",
+        "R13_H_Entry_PCB_0_301_washer",
+        "R13_H_Entry_PCB_59_262_M2x10",
+        "R13_H_Entry_PCB_59_262_washer",
+        "R13_H_Entry_PCB_59_301_M2x10",
+        "R13_H_Entry_PCB_59_301_washer",
+        "R13_H_Entry_foot_-6_M2p5x10",
+        "R13_H_Entry_foot_-6_washer",
+        "R13_H_Entry_foot_-6_nut",
+        "R13_H_Entry_foot_2_M2p5x10",
+        "R13_H_Entry_foot_2_washer",
+        "R13_H_Entry_foot_2_nut"
+      ],
+      "R13_assumed_containment_radius_m": 0.15,
+      "I_COM_home_per_kg_m2": [
+        [
+          0.0225,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0225,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0225
+        ]
+      ],
+      "I_COM_home_kg_m2": [
+        [
+          0.00017488771984734003,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.00017488771984734003,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.00017488771984734003
+        ]
+      ],
+      "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        50,
+        40,
+        40
+      ],
+      "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance. Remaining unbuilt pieces keep the existing unmeasured center/containment assumptions.",
+      "allocated_R20_nominal_g": 7.950276178589342,
+      "excluded_R20_items": [
+        "R20_CM4_stack_1_M2_screw",
+        "R20_CM4_stack_1_M2_front_washer",
+        "R20_CM4_stack_1_M2_rear_washer",
+        "R20_CM4_stack_1_M2_nut",
+        "R20_CM4_stack_2_M2_screw",
+        "R20_CM4_stack_2_M2_front_washer",
+        "R20_CM4_stack_2_M2_rear_washer",
+        "R20_CM4_stack_2_M2_nut",
+        "R20_CM4_stack_3_M2_screw",
+        "R20_CM4_stack_3_M2_front_washer",
+        "R20_CM4_stack_3_M2_rear_washer",
+        "R20_CM4_stack_3_M2_nut",
+        "R20_CM4_stack_4_M2_screw",
+        "R20_CM4_stack_4_M2_front_washer",
+        "R20_CM4_stack_4_M2_rear_washer",
+        "R20_CM4_stack_4_M2_nut",
+        "R20_CM4_foot_1_M2p5_screw",
+        "R20_CM4_foot_1_M2p5_top_washer",
+        "R20_CM4_foot_1_M2p5_nut",
+        "R20_CM4_foot_2_M2p5_screw",
+        "R20_CM4_foot_2_M2p5_top_washer",
+        "R20_CM4_foot_2_M2p5_nut",
+        "R20_CM4_foot_3_M2p5_screw",
+        "R20_CM4_foot_3_M2p5_top_washer",
+        "R20_CM4_foot_3_M2p5_nut",
+        "R20_CM4_foot_4_M2p5_screw",
+        "R20_CM4_foot_4_M2p5_top_washer",
+        "R20_CM4_foot_4_M2p5_nut"
+      ]
+    }
+  ],
+  "removed_bar_rows": [
+    {
+      "name": "R11_CM4_front_clamp_bar_1",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        104.29454072117807,
+        21.652709722518924,
+        281.0042672753335
+      ],
+      "low_g": 0.7387092504021663,
+      "nominal_g": 0.7387092504021663,
+      "high_g": 0.7387092504021663,
+      "category": "actual electrical mounting CAD",
+      "basis": "Current electrical100manifest; RHretainer excluded becausefinalshellalreadyincludes it. No referencebox mass derived.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          8.579821501843817e-08,
+          3.14321368932724e-22,
+          1.5087425708770755e-20
+        ],
+        [
+          3.14321368932724e-22,
+          8.434291220463329e-08,
+          1.8859282135963443e-21
+        ],
+        [
+          1.5087425708770755e-20,
+          1.8859282135963443e-21,
+          1.7323187826951966e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          0.00011614612240435343,
+          4.2550078906092207e-19,
+          2.0424037874924262e-17
+        ],
+        [
+          4.2550078906092207e-19,
+          0.0001141760606879033,
+          2.5530047343655328e-18
+        ],
+        [
+          2.0424037874924262e-17,
+          2.5530047343655328e-18,
+          2.345061716435921e-06
+        ]
+      ],
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+    },
+    {
+      "name": "R11_CM4_front_clamp_bar_2",
+      "link": "jaw_soft",
+      "COM_home_mm": [
+        104.29454072117807,
+        -26.297290277481082,
+        280.9842672753335
+      ],
+      "low_g": 0.7387092504021663,
+      "nominal_g": 0.7387092504021663,
+      "high_g": 0.7387092504021663,
+      "category": "actual electrical mounting CAD",
+      "basis": "Current electrical100manifest; RHretainer excluded becausefinalshellalreadyincludes it. No referencebox mass derived.",
+      "measured": false,
+      "I_COM_home_kg_m2": [
+        [
+          8.57982150184583e-08,
+          -3.14321368932724e-22,
+          7.543712854385377e-21
+        ],
+        [
+          -3.14321368932724e-22,
+          8.434291220466345e-08,
+          6.28642737865448e-22
+        ],
+        [
+          7.543712854385377e-21,
+          6.28642737865448e-22,
+          1.7323187826951966e-09
+        ]
+      ],
+      "I_COM_home_per_kg_m2": [
+        [
+          0.00011614612240438068,
+          -4.2550078906092207e-19,
+          1.0212018937462131e-17
+        ],
+        [
+          -4.2550078906092207e-19,
+          0.00011417606068794413,
+          8.510015781218441e-19
+        ],
+        [
+          1.0212018937462131e-17,
+          8.510015781218441e-19,
+          2.345061716435921e-06
+        ]
+      ],
+      "COM_uncertainty_halfwidth_HOME_mm": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+    }
+  ],
+  "board_representation_delta_g": 0,
+  "case_accounting": {
+    "low_g": {
+      "old_head_fastener_pool_g": 5.723063727360011,
+      "fixed_nominal_allocation_g": 7.950276178589342,
+      "new_explicit_hardware_g": 6.360220942871473,
+      "remaining_pool_g": 0,
+      "new_group_g": 6.360220942871473,
+      "group_delta_g": 0.6371572155114622,
+      "removed_bars_g": 1.4774185008043326,
+      "whole_robot_delta_g": -0.8402612852928704
+    },
+    "nominal_g": {
+      "old_head_fastener_pool_g": 15.72306372736001,
+      "fixed_nominal_allocation_g": 7.950276178589342,
+      "new_explicit_hardware_g": 7.950276178589342,
+      "remaining_pool_g": 7.772787548770668,
+      "new_group_g": 15.72306372736001,
+      "group_delta_g": 0.0,
+      "removed_bars_g": 1.4774185008043326,
+      "whole_robot_delta_g": -1.4774185008043326
+    },
+    "high_g": {
+      "old_head_fastener_pool_g": 30.72306372736001,
+      "fixed_nominal_allocation_g": 7.950276178589342,
+      "new_explicit_hardware_g": 9.540331414307213,
+      "remaining_pool_g": 22.77278754877067,
+      "new_group_g": 32.31311896307788,
+      "group_delta_g": 1.5900552357178732,
+      "removed_bars_g": 1.4774185008043326,
+      "whole_robot_delta_g": 0.11263673491354065
+    }
+  },
+  "supplier_crosscheck": {
+    "product": "AccuSSC-M2-22-A2",
+    "url": "https://www.accu.co.uk/metric-cap-head-screws/10634-SSC-M2-22-A2",
+    "catalog_nominal_g_each": 0.53,
+    "modeled_g_each": 0.7124930893927968,
+    "interpretation": "Catalog mass is lower than the smooth-outer-diameter reference. For consistency this delivery uses the declared conservativeCADestimate and reserves the hardware, not two simultaneous screw masses. Weigh selected production lots before replacing this estimate."
+  },
+  "limits": [
+    "These are conditional design mass and inertia cases; no physical measurement or validated uncertainty distribution.",
+    "The lowreserve cannot pay the fixed nominalallocation. Its residual is zero; the explicit hardware lowcase sets a higherfastenergroup lower estimate, recorded numerically.",
+    "The residual pool keeps its oldCOM/inertialcontainmentassumptions; no new internalpositions are invented."
+  ],
+  "sources": {
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/motion_diagnostic/diagnostic_selection.json": "070b3f7db0172ccbda9b959a3231917881ed1b4e67f329f0bad66ec51dbc0b75",
+    "work/r9-appearance/r9_selected_component_layout.json": "b2c97f0cfe4222bc8402109aa458b52a3a7116fa9c817182b800446f7a1def29",
+    "work/r20-walking-fix/head_mount/head_mount_delta.json": "121912d01bcd7f2666e4b9321a699561841057f48550dbc51f193418fc1c9172",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/head_mount/finalize_engineering.py": "ed9ff5cbe5bec0e8b92126c181d48692f00d4c12d762d4d81131a59d7f73b425",
+    "work/r20-walking-fix/head_mount/head_common.py": "3fc4f03c4d11f57de4e700a6df37b6ee2c58a340299340bd7bc03c2f2a25edfe",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/mount_candidate_manifest.json": "6c4f72ac63547934b16a9453ef07276a6c67e7da760d91e57d00adc8a6f7d881"
+  }
+}

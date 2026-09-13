@@ -1,0 +1,15 @@
+{
+  "status": "PASS_GENERATION_ONLY_SYNTHETIC_INPUTS",
+  "routes": 14,
+  "xm430_axes": 10,
+  "xc330_axes": 4,
+  "independent_mouth": true,
+  "model_bodies": 15,
+  "compiled_ast_files": 38,
+  "physics_or_training_executed": false,
+  "hardware_pass": false,
+  "hardware_platform_sha256": "1574f91205013728d730f88d0733bf02c770aa578417d3b10e82cba8e34b3c88",
+  "power_configuration_sha256": "a0976cedf8c290ae6ad2b42488bcbe07f14c9e40ee4db95fe027de46b181d519",
+  "superseded_by": "R8_real_upstream_synthetic_generation_CM4_regen.json",
+  "current_three_INA_profile": false
+}

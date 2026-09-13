@@ -1,0 +1,113 @@
+{
+  "board_type": "Thermal_65C_R8",
+  "quantity": 1,
+  "source_pcb": "outputs/Microduck_RK_R13_配电电路与扭矩验证/电路板/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb",
+  "source_PCB_sha256": "0df9205fe70e3c02d7f19ddfb315337ddf17f5f2178c24b1ecd5dbeef6ffd966",
+  "check_copy": "work/r21-reduced-sway/pcb_review/check_copies/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb",
+  "source_and_copy_PCB_unchanged": true,
+  "commands": [
+    {
+      "kind": "ERC",
+      "returncode": 0,
+      "arguments": [
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--exit-code-violations",
+        "-o",
+        "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/checks/Thermal_65C_R8/ERC.json",
+        "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/check_copies/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_sch"
+      ]
+    },
+    {
+      "kind": "DRC",
+      "returncode": 0,
+      "arguments": [
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--refill-zones",
+        "--format",
+        "json",
+        "--exit-code-violations",
+        "-o",
+        "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/checks/Thermal_65C_R8/DRC.json",
+        "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/check_copies/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb"
+      ]
+    }
+  ],
+  "ignored_rule_severities": {
+    "footprint_filters_mismatch": "ignore",
+    "footprint_type_mismatch": "ignore",
+    "missing_courtyard": "ignore",
+    "track_not_centered_on_via": "ignore",
+    "tuning_profile_track_geometries": "ignore"
+  },
+  "drc_exclusions": [],
+  "design_rules": {
+    "max_error": 0.005,
+    "min_clearance": 0.15,
+    "min_connection": 0.0,
+    "min_copper_edge_clearance": 0.25,
+    "min_groove_width": 0.0,
+    "min_hole_clearance": 0.15,
+    "min_hole_to_hole": 0.2,
+    "min_microvia_diameter": 0.2,
+    "min_microvia_drill": 0.1,
+    "min_resolved_spokes": 2,
+    "min_silk_clearance": 0.08,
+    "min_text_height": 0.8,
+    "min_text_thickness": 0.1,
+    "min_through_hole_diameter": 0.2,
+    "min_track_width": 0.15,
+    "min_via_annular_width": 0.1,
+    "min_via_diameter": 0.45,
+    "solder_mask_to_copper_clearance": 0.0,
+    "use_height_for_length_calcs": true
+  },
+  "custom_rules": null,
+  "ERC": 0,
+  "DRC": 0,
+  "unconnected": 0,
+  "parity": 0,
+  "DRC_items": {
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T21:29:37",
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ],
+    "included_severities": [
+      "error",
+      "warning",
+      "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Microduck_Thermal_65C_R8.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+  }
+}

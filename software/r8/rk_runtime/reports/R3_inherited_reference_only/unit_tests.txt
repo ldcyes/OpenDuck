@@ -1,0 +1,45 @@
+test_action_order_and_mouth_independent (test_contract.ContractTests) ... ok
+test_nonfinite_rejected (test_contract.ContractTests) ... ok
+test_slots_mouth_and_units (test_contract.ContractTests) ... ok
+test_template_refuses_motion (test_contract.ContractTests) ... ok
+test_rk_adapter_exists (test_contract.ImplementationExists) ... ok
+test_fifo_identity_is_valid_measurement (test_contract.ImuTests) ... ok
+test_freshness_and_startup_gate (test_contract.ImuTests) ... ok
+test_half_precision_and_mount (test_contract.ImuTests) ... ok
+test_mount_must_be_unit_rotation (test_contract.ImuTests) ... ok
+test_nan_and_corruption_fail_closed (test_contract.ImuTests) ... ok
+test_same_value_new_fifo_samples_are_fresh (test_contract.ImuTests) ... ok
+test_fifo_overrun_is_fatal (test_hardware_logic.HardwareLogicTests) ... ok
+test_fifo_tag_shift_and_fresh_identity (test_hardware_logic.HardwareLogicTests) ... ok
+test_missing_fifo_never_synthesizes_upright (test_hardware_logic.HardwareLogicTests) ... ok
+test_real_register_sequence_selects_sflp120_and_gyro500 (test_hardware_logic.HardwareLogicTests) ... ok
+test_signed_register_decoding (test_hardware_logic.HardwareLogicTests) ... ok
+test_torque_already_on_blocks_verify (test_hardware_logic.HardwareLogicTests) ... ok
+test_torque_off_attempts_every_servo_after_failure (test_hardware_logic.HardwareLogicTests) ... ok
+test_wrong_chip_rejected_before_setup (test_hardware_logic.HardwareLogicTests) ... ok
+test_commission_clears_startup_after_all_torque_off_and_reads_back (test_hardware_logic.StartupConfigurationTests) ... ok
+test_commission_refuses_failed_startup_readback_without_enabling_torque (test_hardware_logic.StartupConfigurationTests) ... ok
+test_enable_rejects_startup_configuration_before_any_write (test_hardware_logic.StartupConfigurationTests) ... ok
+test_inspect_reports_firmware_and_skips_unsupported_startup_register (test_hardware_logic.StartupConfigurationTests) ... ok
+test_old_firmware_commission_turns_all_off_before_refusing_eeprom_changes (test_hardware_logic.StartupConfigurationTests) ... ok
+test_old_firmware_rejects_verification_and_enable_without_reading_startup (test_hardware_logic.StartupConfigurationTests) ... ok
+test_verify_rejects_each_nonzero_startup_configuration (test_hardware_logic.StartupConfigurationTests) ... ok
+test_existing_stop_prevents_any_hardware_startup (test_safety.GuardTests) ... ok
+test_hard_brownout_immediate (test_safety.GuardTests) ... ok
+test_missing_lease_stops (test_safety.GuardTests) ... ok
+test_mouth_outside_measured_range_refused (test_safety.GuardTests) ... ok
+test_mouth_reaches_requested_opening_gradually (test_safety.GuardTests) ... ok
+test_power_group_protection (test_safety.GuardTests) ... ok
+test_soft_brownout_debounced (test_safety.GuardTests) ... ok
+test_temperature_and_fall (test_safety.GuardTests) ... ok
+test_guard_exists (test_safety.SafetyAvailable) ... ok
+test_negative_inertia_refused (test_training.InertialTests) ... ok
+test_null_measurement_refused (test_training.InertialTests) ... ok
+test_physical_inertia (test_training.InertialTests) ... ok
+test_triangle_inequality_refused (test_training.InertialTests) ... ok
+test_model_preparer_exists (test_training.TrainingAvailable) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.008s
+
+OK

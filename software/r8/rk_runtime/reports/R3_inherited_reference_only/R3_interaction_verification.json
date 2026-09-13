@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-05",
+  "scope": "R3 interaction and copied R1 runtime; camera_vla separately verified by root",
+  "unit": {
+    "tests": 81,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "command": "python3 -m unittest discover -s tests -v",
+  "environment": "Linux Python3 via WSL on x86_64; no RK/ALSA/Dynamixel",
+  "process_integration": {
+    "command": "python3 work/r3-software/integration_demo.py /absolute/R3/rk_runtime",
+    "result": "passed",
+    "transport": "real subprocess daemon + authenticated loopback HTTP",
+    "cli": [
+      "demo",
+      "play examples/synthetic_duck_cue.wav"
+    ],
+    "frames": 181,
+    "mouth_max_rad": 0.06614019240229109,
+    "silence_closes_target": true,
+    "no_live_command_file": true,
+    "no_lease_after_stop": true,
+    "SIGTERM_exit_code": 2
+  },
+  "real_model_or_audio_hardware_tested": false,
+  "optional_dependencies_installed": {
+    "faster_whisper": false,
+    "espeak_ng": false,
+    "aplay": false
+  },
+  "not_tested": [
+    "RK3566 50Hz scheduling under combined camera/audio/LLM load",
+    "Linux faster-whisper ASR and eSpeak NG TTS backend/models",
+    "ALSA microphone capture, DAC output and audio-mouth physical offset",
+    "cloud HTTP endpoints",
+    "physical closure, balance, controlled stopping, power consumption"
+  ],
+  "inherited_reports": "Other copied reports describe R1 only; they are not rerun claims for R3",
+  "review_fixes": {
+    "speech_port": 8768,
+    "llm_port": 8081,
+    "speech_bind": "127.0.0.1 enforced",
+    "real_process_group_timeout_and_shutdown_tests": "passed",
+    "reviewed_by": "root"
+  },
+  "pc_existing_speech_backend_smoke": {
+    "backend": "Windows SAPI Microsoft Huihui Desktop zh-CN",
+    "real_synthesis_to_WAV": true,
+    "duration_s": 2.648791666666667,
+    "WavData_and_Playback_dry_run": "passed",
+    "envelope_frames": 133,
+    "details": "PC_SAPI_speech_smoke.json",
+    "RK_or_ALSA": false,
+    "Linux_gateway_or_ASR": false
+  }
+}

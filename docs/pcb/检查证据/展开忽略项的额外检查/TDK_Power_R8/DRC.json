@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T21:33:08",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Microduck_TDK_Power_R8.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W3",
+                    "pos": {
+                        "x": 54.0,
+                        "y": 54.0
+                    },
+                    "uuid": "2fbcf94a-ddac-46af-9f84-95128b1a9782"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W4",
+                    "pos": {
+                        "x": 44.0,
+                        "y": 56.0
+                    },
+                    "uuid": "7314d819-56f1-4a6b-8983-5e4275ab056a"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W1",
+                    "pos": {
+                        "x": 8.0,
+                        "y": 52.0
+                    },
+                    "uuid": "bf3aced4-c9bb-47f9-9a1a-be871a21197b"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "Footprint W2",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 53.0
+                    },
+                    "uuid": "cf8dbc3a-bec6-4977-a7b6-31657d9b222c"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        }
+    ]
+}

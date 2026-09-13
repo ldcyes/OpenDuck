@@ -1,0 +1,21 @@
+{
+  "lerobot": {
+    "sha": "3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e"
+  },
+  "llama_cpp": {
+    "sha": "4d9176092d00586775af140581bb0b558ddc4389"
+  },
+  "qwen": {
+    "sha": "9217f5db79a29953eb74d5343926648285ec7e67",
+    "file": {
+      "rfilename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "blobId": "a0ee18ee2bcb22c2b6c95360b292c2c40a2d7a03",
+      "size": 491400032,
+      "lfs": {
+        "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+        "size": 491400032,
+        "pointerSize": 134
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/pcb_inventory_v2.json",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/native_pcb_extract.json",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Main_Fuse_R8/assembly/BOM_R8_Main_Fuse.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/TDK_Power_R8/assembly/BOM_R8_Power.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Entry_5V_R8/assembly/BOM_R8_Entry.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Regen_R8/assembly/BOM_R8_Brake.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_65C_R8/assembly/BOM_R8_Thermal.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/Thermal_75C_R8/assembly/BOM_R8_Thermal.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/carrier/Microduck_CM4_Carrier_R13.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/carrier/assembly/BOM_R13_CM4_Carrier.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/LEG5/Microduck_PDB_R13_LEG5.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/LEG5/Microduck_PDB_R13_LEG5.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/LEG5/assembly/BOM.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/HEAD3/Microduck_PDB_R13_HEAD3.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/pdb/HEAD3/assembly/BOM.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/IMU_P0/assembly/BOM_JLC.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/AMP_R3/Microduck_Audio_AMP_R3.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/AMP_R3/Microduck_Audio_AMP_R3.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/AMP_R3/装配/BOM.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/MIC_R3/Microduck_Audio_MIC_R3.kicad_sch",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/MIC_R3/Microduck_Audio_MIC_R3.kicad_pcb",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r13-electronics/inherited/MIC_R3/装配/BOM.csv",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/fresh_checks.json",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/01_全部PCB功能与主要器件.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/enabled_rule_checks.json",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/AMP_R3/Microduck_Audio_AMP_R3.kicad_pcb",
+    "published_link": "../../hardware/kicad/AMP_R3/Microduck_Audio_AMP_R3.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/AMP_R3/Microduck_Audio_AMP_R3.kicad_sch",
+    "published_link": "../../hardware/kicad/AMP_R3/Microduck_Audio_AMP_R3.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_pcb",
+    "published_link": "../../hardware/kicad/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_sch",
+    "published_link": "../../hardware/kicad/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/MIC_R3/Microduck_Audio_MIC_R3.kicad_pcb",
+    "published_link": "../../hardware/kicad/MIC_R3/Microduck_Audio_MIC_R3.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/MIC_R3/Microduck_Audio_MIC_R3.kicad_sch",
+    "published_link": "../../hardware/kicad/MIC_R3/Microduck_Audio_MIC_R3.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/Regen_R8/Microduck_Brake_Control_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Regen_R8/Microduck_Brake_Control_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/Regen_R8/Microduck_Brake_Control_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_pcb",
+    "published_link": "../../hardware/kicad/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_sch",
+    "published_link": "../../hardware/kicad/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_CM4_Carrier_R13/Microduck_CM4_Carrier_R13.kicad_pcb",
+    "published_link": "../../hardware/kicad/Microduck_CM4_Carrier_R13/Microduck_CM4_Carrier_R13.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_CM4_Carrier_R13/Microduck_CM4_Carrier_R13.kicad_sch",
+    "published_link": "../../hardware/kicad/Microduck_CM4_Carrier_R13/Microduck_CM4_Carrier_R13.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_PDB_R13_LEG5/Microduck_PDB_R13_LEG5.kicad_pcb",
+    "published_link": "../../hardware/kicad/Microduck_PDB_R13_LEG5/Microduck_PDB_R13_LEG5.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_PDB_R13_LEG5/Microduck_PDB_R13_LEG5.kicad_sch",
+    "published_link": "../../hardware/kicad/Microduck_PDB_R13_LEG5/Microduck_PDB_R13_LEG5.kicad_sch"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_PDB_R13_HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb",
+    "published_link": "../../hardware/kicad/Microduck_PDB_R13_HEAD3/Microduck_PDB_R13_HEAD3.kicad_pcb"
+  },
+  {
+    "file": "docs/pcb/原生电气设计入口.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/原生电气设计/Microduck_PDB_R13_HEAD3/Microduck_PDB_R13_HEAD3.kicad_sch",
+    "published_link": "../../hardware/kicad/Microduck_PDB_R13_HEAD3/Microduck_PDB_R13_HEAD3.kicad_sch"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/Microduck_R13_8_减摆步态与PCB复核/模型/Microduck_R21_实际减摆对照.blend",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/Microduck-R21-actual-comparison.blend"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/Microduck_R13_8_减摆步态与PCB复核/视频/R21_完整实际四步_约24倍速.mp4",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R21-four-steps-24x.mp4"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/Microduck_R13_8_减摆步态与PCB复核/视频/R20_R21_同参考阶段_对照.mp4",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R20-R21-phase-comparison.mp4"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/01_全部PCB功能与主要器件.md",
+    "published_link": "../pcb/01_全部PCB功能与主要器件.md"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13/00_PCB检查与缩板结论.md",
+    "published_link": "../pcb/00_PCB检查与缩板结论.md"
+  },
+  {
+    "file": "docs/motion-r21/00_减摆结果与查看说明.md",
+    "original_link": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+    "published_link": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/PCB-R13-review.zip"
+  }
+]

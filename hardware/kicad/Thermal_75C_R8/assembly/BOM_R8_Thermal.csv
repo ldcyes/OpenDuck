@@ -1,0 +1,6 @@
+reference,value,MPN,footprint,side,x_mm,y_mm,rotation_deg,datasheet
+U1,75C HARD THERMAL STOP,TMP302BDRLR,Package_TO_SOT_SMD:SOT-563,B,8,10,0,https://www.ti.com/lit/ds/symlink/tmp302.pdf
+C1,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,11,9,90,https://www.murata.com/en-global/products/capacitor/mlcc
+J1,3V3 / FAULT OD,SM03B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,F,8,4,0,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+H1,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,2,2,0,
+H2,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,14,2,0,

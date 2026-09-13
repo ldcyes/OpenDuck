@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,Manufacturer,Manufacturer Part Number,Quantity,LCSC Part #
+100nF,"C1,C2",Capacitor_SMD:C_0603_1608Metric,YAGEO,CC0603KRX7R9BB104,2,
+2.2uF,C3,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71A225KE15D,1,
+4.7k,"R1,R2",Resistor_SMD:R_0603_1608Metric,YAGEO,RC0603FR-074K7L,2,
+LSM6DSV16XTR,U1,Microduck_IMU:LSM6DSV16X_LGA14,STMicroelectronics,LSM6DSV16XTR,1,C5267406
+Qwiic_3V3_ONLY,J1,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST,SM04B-SRSS-TB(LF)(SN),1,

@@ -1,0 +1,36 @@
+(kicad_symbol_lib (version 20250114) (generator "kicad_symbol_editor") (symbol "imu"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 21.59 0) (effects (font (size 1.27 1.27)) )) (property "Value" "imu" (at 0 -21.59 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "imu_0_1" (rectangle (start -10.16 19.05) (end 10.16 -19.05) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "imu_1_1" (pin input line (at -15.24 15.24 0) (length 5.08) (name "SDO/SA0" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) )))(pin passive line (at -15.24 10.16 0) (length 5.08) (name "SDx_Mode1_GND" (effects (font (size 0.9 0.9)) )) (number "2" (effects (font (size 0.9 0.9)) )))(pin passive line (at -15.24 5.08 0) (length 5.08) (name "SCx_Mode1_GND" (effects (font (size 0.9 0.9)) )) (number "3" (effects (font (size 0.9 0.9)) )))(pin output line (at -15.24 0.0 0) (length 5.08) (name "INT1" (effects (font (size 0.9 0.9)) )) (number "4" (effects (font (size 0.9 0.9)) )))(pin power_in line (at -15.24 -5.08 0) (length 5.08) (name "VDDIO" (effects (font (size 0.9 0.9)) )) (number "5" (effects (font (size 0.9 0.9)) )))(pin power_in line (at -15.24 -10.159999999999998 0) (length 5.08) (name "GND" (effects (font (size 0.9 0.9)) )) (number "6" (effects (font (size 0.9 0.9)) )))(pin power_in line (at -15.24 -15.24 0) (length 5.08) (name "GND" (effects (font (size 0.9 0.9)) )) (number "7" (effects (font (size 0.9 0.9)) )))(pin power_in line (at 15.24 15.24 180) (length 5.08) (name "VDD" (effects (font (size 0.9 0.9)) )) (number "8" (effects (font (size 0.9 0.9)) )))(pin output line (at 15.24 10.16 180) (length 5.08) (name "INT2" (effects (font (size 0.9 0.9)) )) (number "9" (effects (font (size 0.9 0.9)) )))(pin input line (at 15.24 5.08 180) (length 5.08) (name "OCS_Aux" (effects (font (size 0.9 0.9)) )) (number "10" (effects (font (size 0.9 0.9)) )))(pin input line (at 15.24 0.0 180) (length 5.08) (name "SDO_Aux" (effects (font (size 0.9 0.9)) )) (number "11" (effects (font (size 0.9 0.9)) )))(pin input line (at 15.24 -5.08 180) (length 5.08) (name "CS" (effects (font (size 0.9 0.9)) )) (number "12" (effects (font (size 0.9 0.9)) )))(pin input line (at 15.24 -10.159999999999998 180) (length 5.08) (name "SCL" (effects (font (size 0.9 0.9)) )) (number "13" (effects (font (size 0.9 0.9)) )))(pin bidirectional line (at 15.24 -15.24 180) (length 5.08) (name "SDA" (effects (font (size 0.9 0.9)) )) (number "14" (effects (font (size 0.9 0.9)) ))))
+    )(symbol "conn4"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 13.969999999999999 0) (effects (font (size 1.27 1.27)) )) (property "Value" "conn4" (at 0 -13.969999999999999 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "conn4_0_1" (rectangle (start -2.54 11.43) (end 5.08 -11.43) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "conn4_1_1" (pin passive line (at -7.62 7.62 0) (length 2.54) (name "GND" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) )))(pin passive line (at -7.62 2.54 0) (length 2.54) (name "3V3" (effects (font (size 0.9 0.9)) )) (number "2" (effects (font (size 0.9 0.9)) )))(pin passive line (at -7.62 -2.54 0) (length 2.54) (name "SDA" (effects (font (size 0.9 0.9)) )) (number "3" (effects (font (size 0.9 0.9)) )))(pin passive line (at -7.62 -7.62 0) (length 2.54) (name "SCL" (effects (font (size 0.9 0.9)) )) (number "4" (effects (font (size 0.9 0.9)) ))))
+    )(symbol "cap"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "cap" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "cap_0_1" (polyline (pts (xy -0.762 -2.54) (xy -0.762 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0.762 -2.54) (xy 0.762 2.54)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol "cap_1_1" (pin passive line (at -5.08 0 0) (length 4.318) (name "1" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) )))(pin passive line (at 5.08 0 180) (length 4.318) (name "2" (effects (font (size 0.9 0.9)) )) (number "2" (effects (font (size 0.9 0.9)) ))))
+    )(symbol "res"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "res" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "res_0_1" (rectangle (start -2.54 1.27) (end 2.54 -1.27) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "res_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "1" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) )))(pin passive line (at 5.08 0 180) (length 2.54) (name "2" (effects (font (size 0.9 0.9)) )) (number "2" (effects (font (size 0.9 0.9)) ))))
+    )(symbol "tp"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "tp" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "tp_0_1" (rectangle (start -2.54 1.27) (end 2.54 -1.27) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "tp_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "1" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) ))))
+    )(symbol "mount"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "mount" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "mount_0_1" (rectangle (start -2.54 1.27) (end 2.54 -1.27) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "mount_1_1" )
+    )(symbol "flag"
+      (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 3.81 0) (effects (font (size 1.27 1.27)) )) (property "Value" "flag" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) ))
+      (symbol "flag_0_1" (rectangle (start -2.54 1.27) (end 2.54 -1.27) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "flag_1_1" (pin power_out line (at -5.08 0 0) (length 2.54) (name "PWR" (effects (font (size 0.9 0.9)) )) (number "1" (effects (font (size 0.9 0.9)) ))))
+    ))

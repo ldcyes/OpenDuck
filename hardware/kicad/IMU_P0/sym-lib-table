@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Microduck_IMU") (type "KiCad") (uri "${KIPRJMOD}/Microduck_IMU.kicad_sym") (options "") (descr "Mode 1 prototype symbols")))

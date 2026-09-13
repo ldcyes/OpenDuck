@@ -1,0 +1,2947 @@
+{
+  "status": "ALL57_NAMED_RAW_HOME_POSITIVES_ADJUDICATED_NO_UNEXPECTED_NEW_MATERIAL_PENETRATION",
+  "selection_count": 557,
+  "pair_count": 15718,
+  "positive_count": 57,
+  "unexpected_positive_count": 0,
+  "classification_counts": {
+    "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING": 41,
+    "SOURCE_EXACT_WASHER_BEARING_FACE_BINARY_STL_ROUNDING": 4,
+    "HIDDEN_SUPPLIER_MAXIMUM_BOX_OVER_VERIFIED_EXISTING_NPTH": 4,
+    "NAMED_NOMINAL_MATING_THREAD_ENVELOPES": 8
+  },
+  "rows": [
+    {
+      "a": "R10_HEAD_CM4carrier_J101",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002660315428246191,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J101",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          20.11,
+          42.81,
+          37.81,
+          41.29,
+          1.6,
+          3.05
+        ],
+        "bounds_mm": [
+          [
+            -28.05,
+            -13.810000000000002,
+            58.81
+          ],
+          [
+            -26.6,
+            8.89,
+            62.29
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "DF40C-100DS-0.4V(51)",
+        "component_side": "F",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J102",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00026603154274587305,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J102",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          20.11,
+          42.81,
+          3.75,
+          7.23,
+          1.6,
+          3.05
+        ],
+        "bounds_mm": [
+          [
+            -28.05,
+            -13.810000000000002,
+            24.75
+          ],
+          [
+            -26.6,
+            8.89,
+            28.23
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "DF40C-100DS-0.4V(51)",
+        "component_side": "F",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J103",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002660317906784289,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J103",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          51.240074,
+          54.720074,
+          11.250111,
+          33.950111,
+          1.6,
+          3.05
+        ],
+        "bounds_mm": [
+          [
+            -28.05,
+            -25.720073999999997,
+            32.250111000000004
+          ],
+          [
+            -26.6,
+            -22.240074,
+            54.950111
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "DF40C-100DS-0.4V(51)",
+        "component_side": "F",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002243165909480233,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J1",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          21.95,
+          34.05,
+          23.275,
+          27.625,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -5.049999999999997,
+            44.275
+          ],
+          [
+            -22.0,
+            7.050000000000001,
+            48.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM10B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J2",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0001130852095602958,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J2",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          10.95,
+          17.05,
+          23.375,
+          27.725,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            11.95,
+            44.375
+          ],
+          [
+            -22.0,
+            18.05,
+            48.725
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM04B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J3",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00018723945209576207,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J3",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          35.95,
+          46.05,
+          24.375,
+          28.725,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -17.049999999999997,
+            45.375
+          ],
+          [
+            -22.0,
+            -6.950000000000003,
+            49.725
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM08B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00011308518425646416,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J4",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          51.775,
+          56.125,
+          8.95,
+          15.05,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -27.125,
+            29.95
+          ],
+          [
+            -22.0,
+            -22.775,
+            36.05
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM04B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J5",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00011308518425646416,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J5",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          51.775,
+          56.125,
+          17.95,
+          24.05,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -27.125,
+            38.95
+          ],
+          [
+            -22.0,
+            -22.775,
+            45.05
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM04B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J6",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0001130852095602958,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J6",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          10.95,
+          17.05,
+          6.275,
+          10.625,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            11.95,
+            27.275
+          ],
+          [
+            -22.0,
+            18.05,
+            31.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM04B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J7",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 7.600807036697406e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J7",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          5.95,
+          10.05,
+          14.275,
+          18.625,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            18.95,
+            35.275
+          ],
+          [
+            -22.0,
+            23.05,
+            39.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM02B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J8",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 7.600810133885024e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J8",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          21.95,
+          26.05,
+          10.275,
+          14.625,
+          -3.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            2.9499999999999993,
+            31.275
+          ],
+          [
+            -22.0,
+            7.050000000000001,
+            35.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "SM02B-SRSS-TB(LF)(SN)",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_U1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 1.8794294454383006e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_U1",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          30.95,
+          33.05,
+          13.95,
+          16.05,
+          -0.8,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -4.049999999999997,
+            34.95
+          ],
+          [
+            -24.2,
+            -1.9499999999999993,
+            37.05
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "TPS259530DSGR",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701485005171204e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R1",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          26.15,
+          27.85,
+          16.0375,
+          16.9625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            1.1499999999999986,
+            37.0375
+          ],
+          [
+            -24.0,
+            2.8500000000000014,
+            37.9625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "RT0603BRD071K43L",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_C1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.520405157273494e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_C1",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          31.15,
+          32.85,
+          11.55,
+          12.45,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -3.8500000000000014,
+            32.55
+          ],
+          [
+            -24.0,
+            -2.1499999999999986,
+            33.45
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "GRM1885C1H472JA01D",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_C2",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 1.2082067322587423e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_C2",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          34.95,
+          37.05,
+          14.325,
+          15.675,
+          -1.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -8.049999999999997,
+            35.325
+          ],
+          [
+            -23.55,
+            -5.950000000000003,
+            36.675
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "GRM21BR71A106KE51L",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_C3",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 1.2082067322587315e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_C3",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          34.95,
+          37.05,
+          18.325,
+          19.675,
+          -1.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -8.049999999999997,
+            39.325
+          ],
+          [
+            -23.55,
+            -5.950000000000003,
+            40.675
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "GRM21BR71A106KE51L",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_C4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.520405157273494e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_C4",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          31.15,
+          32.85,
+          17.55,
+          18.45,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -3.8500000000000014,
+            38.55
+          ],
+          [
+            -24.0,
+            -2.1499999999999986,
+            39.45
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "GRM188R71H104KA93D",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R2",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701488299514482e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R2",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          19.15,
+          20.85,
+          19.5375,
+          20.4625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            8.149999999999999,
+            40.5375
+          ],
+          [
+            -24.0,
+            9.850000000000001,
+            41.4625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF1003V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R3",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701598854786522e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R3",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          39.15,
+          40.85,
+          19.8875,
+          20.8125,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -11.850000000000001,
+            40.8875
+          ],
+          [
+            -24.0,
+            -10.149999999999999,
+            41.8125
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF1003V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R7",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701484542671193e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R7",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          11.75,
+          13.45,
+          19.5375,
+          20.4625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            15.55,
+            40.5375
+          ],
+          [
+            -24.0,
+            17.25,
+            41.4625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF1002V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R8",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701488299514373e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R8",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          14.15,
+          15.85,
+          17.5375,
+          18.4625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            13.15,
+            38.5375
+          ],
+          [
+            -24.0,
+            14.85,
+            39.4625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF2002V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.7014882995144795e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R4",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          49.15,
+          50.85,
+          25.5375,
+          26.4625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -21.85,
+            46.5375
+          ],
+          [
+            -24.0,
+            -20.15,
+            47.4625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF22R0V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R5",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.701488299514371e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R5",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          49.15,
+          50.85,
+          28.0375,
+          28.9625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -21.85,
+            49.0375
+          ],
+          [
+            -24.0,
+            -20.15,
+            49.9625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF22R0V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_R6",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.7014882995143744e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_R6",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          47.65,
+          49.35,
+          29.5375,
+          30.4625,
+          -1.0,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -20.35,
+            50.5375
+          ],
+          [
+            -24.0,
+            -18.65,
+            51.4625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "ERJ-3EKF22R0V",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_F1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.520494175471992e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_F1",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          39.55,
+          40.45,
+          13.15,
+          14.85,
+          -0.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -11.450000000000003,
+            34.15
+          ],
+          [
+            -24.55,
+            -10.549999999999997,
+            35.85
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "0467.250NRHF",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_F2",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.520494175471992e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_F2",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          41.05,
+          41.95,
+          17.15,
+          18.85,
+          -0.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -12.950000000000003,
+            38.15
+          ],
+          [
+            -24.55,
+            -12.049999999999997,
+            39.85
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "0467.750NRHF",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_F3",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.520507992278456e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_F3",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          7.55,
+          8.45,
+          10.15,
+          11.85,
+          -0.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            20.55,
+            31.15
+          ],
+          [
+            -24.55,
+            21.45,
+            32.85
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "0467.250NRHF",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_F4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 6.52049417547194e-06,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_F4",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          23.55,
+          24.45,
+          6.15,
+          7.85,
+          -0.45,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            4.550000000000001,
+            27.15
+          ],
+          [
+            -24.55,
+            5.449999999999999,
+            28.85
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "0467.500NRHF",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_U4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 2.1734843471676868e-05,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_U4",
+        "board": "CM4carrier",
+        "kind": "component_envelope",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          18.15,
+          19.85,
+          12.5,
+          15.5,
+          -1.2,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            9.149999999999999,
+            33.5
+          ],
+          [
+            -23.8,
+            10.850000000000001,
+            36.5
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mpn": "USBLC6-2SC6",
+        "component_side": "B",
+        "body_note": "Fab/package conservative bounding envelope, not exact shaped vendor solid"
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J1_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00042600310682739594,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J1_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          21.2,
+          34.8,
+          23.275,
+          30.625,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -5.799999999999997,
+            44.275
+          ],
+          [
+            -21.7,
+            7.800000000000001,
+            51.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J1",
+          "header": "SM10B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-10V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            13,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            21.2,
+            34.8,
+            23.275,
+            30.625,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J2_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002380605351650324,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J2_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          10.2,
+          17.8,
+          20.375,
+          27.725,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            11.2,
+            41.375
+          ],
+          [
+            -21.7,
+            18.8,
+            48.725
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J2",
+          "header": "SM04B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-04V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            7,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            10.2,
+            17.8,
+            20.375,
+            27.725,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            -1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J3_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0003633555626904106,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J3_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          35.2,
+          46.8,
+          21.375,
+          28.725,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -17.799999999999997,
+            42.375
+          ],
+          [
+            -21.7,
+            -6.200000000000003,
+            49.725
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J3",
+          "header": "SM08B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-08V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            11,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            35.2,
+            46.8,
+            21.375,
+            28.725,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            -1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J4_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002016227124806869,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J4_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          51.775,
+          59.125,
+          8.2,
+          15.8,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -30.125,
+            29.2
+          ],
+          [
+            -21.7,
+            -22.775,
+            36.8
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J4",
+          "header": "SM04B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-04V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            7,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            51.775,
+            59.125,
+            8.2,
+            15.8,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            1,
+            0,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J5_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.0002016227124806869,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J5_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          51.775,
+          59.125,
+          17.2,
+          24.8,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            -30.125,
+            38.2
+          ],
+          [
+            -21.7,
+            -22.775,
+            45.8
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J5",
+          "header": "SM04B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-04V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            7,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            51.775,
+            59.125,
+            17.2,
+            24.8,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            1,
+            0,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J6_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00023806053516503282,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J6_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          10.2,
+          17.8,
+          6.275,
+          13.625,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            11.2,
+            27.275
+          ],
+          [
+            -21.7,
+            18.8,
+            34.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J6",
+          "header": "SM04B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-04V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            7,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            10.2,
+            17.8,
+            6.275,
+            13.625,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J7_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00017541299125541985,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J7_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          5.2,
+          10.8,
+          14.275,
+          21.625,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            18.2,
+            35.275
+          ],
+          [
+            -21.7,
+            23.8,
+            42.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J7",
+          "header": "SM02B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-02V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            5,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            5.2,
+            10.8,
+            14.275,
+            21.625,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4carrier_J8_PLUG",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 0.00017541304338725955,
+      "same_link": true,
+      "precise_source_component": {
+        "name": "CM4carrier_J8_PLUG",
+        "board": "CM4carrier",
+        "kind": "mated_plug_budget",
+        "link": "trunk_base",
+        "R": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "t_mm": [
+          -25,
+          29,
+          21
+        ],
+        "native_bbox_mm": [
+          21.2,
+          26.8,
+          10.275,
+          17.625,
+          -3.3,
+          0
+        ],
+        "bounds_mm": [
+          [
+            -25.0,
+            2.1999999999999993,
+            31.275
+          ],
+          [
+            -21.7,
+            7.800000000000001,
+            38.625
+          ]
+        ],
+        "holes_native_mm": [],
+        "reference_only": true,
+        "mating_contract": {
+          "ref": "J8",
+          "header": "SM02B-SRSS-TB(LF)(SN)",
+          "housing": "SHR-02V-S",
+          "terminal": "SSH-003T-P0.2-H",
+          "wire": "AWG28 OD0.4..0.8mm",
+          "housing_actual_size_mm": [
+            5,
+            5,
+            2.8
+          ],
+          "mating_engineering_bbox_xyz_minmax_mm": [
+            21.2,
+            26.8,
+            10.275,
+            17.625,
+            -3.3,
+            0
+          ],
+          "wire_exit_pcb": [
+            0,
+            1,
+            0
+          ],
+          "straight_after_housing_budget_mm": 5,
+          "bend_center_radius_budget_mm": 5,
+          "unplug_translation_budget_mm": 8,
+          "note": "Mated bbox is a conservative body+3mm extension budget, not exact engaged registration. First cable sample and shell clearance must pass. USB uses short shielded/twisted28AWG pair and continuity/eye qualification; SH is not certified USB connector.",
+          "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+        }
+      },
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "b": "R20_CM4_stack_1_M2_front_washer",
+      "common_mm3": 7.077121656184845e-06,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_WASHER_BEARING_FACE_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Nominal front washer bears on the original mounting lug face; the independently measured rigid contact area is recorded ininterface_audit."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "b": "R20_CM4_stack_2_M2_front_washer",
+      "common_mm3": 7.077121655463201e-06,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_WASHER_BEARING_FACE_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Nominal front washer bears on the original mounting lug face; the independently measured rigid contact area is recorded ininterface_audit."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "b": "R20_CM4_stack_3_M2_front_washer",
+      "common_mm3": 7.077117759319484e-06,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_WASHER_BEARING_FACE_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Nominal front washer bears on the original mounting lug face; the independently measured rigid contact area is recorded ininterface_audit."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "b": "R20_CM4_stack_4_M2_front_washer",
+      "common_mm3": 7.07711776009664e-06,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_WASHER_BEARING_FACE_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Nominal front washer bears on the original mounting lug face; the independently measured rigid contact area is recorded ininterface_audit."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 2.3001001682849954e-05,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 2.3001001680400548e-05,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 2.3000964174738188e-05,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "common_mm3": 2.3000964175487616e-05,
+      "same_link": true,
+      "classification": "SOURCE_EXACT_BOARD_FACE_CONTACT_BINARY_STL_ROUNDING",
+      "source_exact_common_mm3": 0.0,
+      "reason": "Each named envelope/PEEK face is tested at precise declared source coordinates against the new1.6mmholedboard. Positive binarySTL residue is not positive exact source material."
+    },
+    {
+      "a": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "b": "R20_CM4_stack_1_M2_screw",
+      "common_mm3": 13.141735924633489,
+      "same_link": true,
+      "classification": "HIDDEN_SUPPLIER_MAXIMUM_BOX_OVER_VERIFIED_EXISTING_NPTH",
+      "supplier_material_checks": [
+        {
+          "solid_index": 0,
+          "hardware": "R20_CM4_stack_1_M2_screw",
+          "actual_STEP_common_mm3": 0.0,
+          "STEP_gap_mm": 0.299999999996584
+        }
+      ],
+      "reason": "The selected item is explicitly the supplier maximum box, hidden and not a material part. All385originalsolidbboxes screened; the only nearby valid PCB solid has diameter2.6NPTH and no positive material intersection. The one invalid source body is bbox-separated."
+    },
+    {
+      "a": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "b": "R20_CM4_stack_2_M2_screw",
+      "common_mm3": 13.14173592463349,
+      "same_link": true,
+      "classification": "HIDDEN_SUPPLIER_MAXIMUM_BOX_OVER_VERIFIED_EXISTING_NPTH",
+      "supplier_material_checks": [
+        {
+          "solid_index": 0,
+          "hardware": "R20_CM4_stack_2_M2_screw",
+          "actual_STEP_common_mm3": 0.0,
+          "STEP_gap_mm": 0.299999999996584
+        }
+      ],
+      "reason": "The selected item is explicitly the supplier maximum box, hidden and not a material part. All385originalsolidbboxes screened; the only nearby valid PCB solid has diameter2.6NPTH and no positive material intersection. The one invalid source body is bbox-separated."
+    },
+    {
+      "a": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "b": "R20_CM4_stack_3_M2_screw",
+      "common_mm3": 13.141731543088147,
+      "same_link": true,
+      "classification": "HIDDEN_SUPPLIER_MAXIMUM_BOX_OVER_VERIFIED_EXISTING_NPTH",
+      "supplier_material_checks": [
+        {
+          "solid_index": 0,
+          "hardware": "R20_CM4_stack_3_M2_screw",
+          "actual_STEP_common_mm3": 0.0,
+          "STEP_gap_mm": 0.29999999999670557
+        }
+      ],
+      "reason": "The selected item is explicitly the supplier maximum box, hidden and not a material part. All385originalsolidbboxes screened; the only nearby valid PCB solid has diameter2.6NPTH and no positive material intersection. The one invalid source body is bbox-separated."
+    },
+    {
+      "a": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "b": "R20_CM4_stack_4_M2_screw",
+      "common_mm3": 13.141731543088152,
+      "same_link": true,
+      "classification": "HIDDEN_SUPPLIER_MAXIMUM_BOX_OVER_VERIFIED_EXISTING_NPTH",
+      "supplier_material_checks": [
+        {
+          "solid_index": 0,
+          "hardware": "R20_CM4_stack_4_M2_screw",
+          "actual_STEP_common_mm3": 0.0,
+          "STEP_gap_mm": 0.29999999999670557
+        }
+      ],
+      "reason": "The selected item is explicitly the supplier maximum box, hidden and not a material part. All385originalsolidbboxes screened; the only nearby valid PCB solid has diameter2.6NPTH and no positive material intersection. The one invalid source body is bbox-separated."
+    },
+    {
+      "a": "R20_CM4_stack_1_M2_screw",
+      "b": "R20_CM4_stack_1_M2_nut",
+      "common_mm3": 1.8092826948899259,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 1.8095573684657333,
+      "thread_ROI": {
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "front_mm": [
+          120.64454072117805,
+          21.65270972251892,
+          264.5042672753334
+        ],
+        "rear_mm": [
+          122.24454072117804,
+          21.65270972251892,
+          264.5042672753334
+        ],
+        "max_radius_mm": 1.0
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_stack_2_M2_screw",
+      "b": "R20_CM4_stack_2_M2_nut",
+      "common_mm3": 1.8092826948899232,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 1.8095573684657338,
+      "thread_ROI": {
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "front_mm": [
+          120.64454072117805,
+          21.65270972251892,
+          297.5042672753334
+        ],
+        "rear_mm": [
+          122.24454072117804,
+          21.65270972251892,
+          297.5042672753334
+        ],
+        "max_radius_mm": 1.0
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_stack_3_M2_screw",
+      "b": "R20_CM4_stack_3_M2_nut",
+      "common_mm3": 1.8092857236101518,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 1.8095573684720212,
+      "thread_ROI": {
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "front_mm": [
+          120.64454072117805,
+          -26.29729027748108,
+          264.4842672753334
+        ],
+        "rear_mm": [
+          122.24454072117804,
+          -26.29729027748108,
+          264.4842672753334
+        ],
+        "max_radius_mm": 1.0
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_stack_4_M2_screw",
+      "b": "R20_CM4_stack_4_M2_nut",
+      "common_mm3": 1.8092857236101518,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 1.8095573684774529,
+      "thread_ROI": {
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "front_mm": [
+          120.64454072117805,
+          -26.29729027748108,
+          297.4842672753334
+        ],
+        "rear_mm": [
+          122.24454072117804,
+          -26.29729027748108,
+          297.4842672753334
+        ],
+        "max_radius_mm": 1.0
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_foot_1_M2p5_screw",
+      "b": "R20_CM4_foot_1_M2p5_nut",
+      "common_mm3": 2.8897529386958922,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 2.8902652413026937,
+      "thread_ROI": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "front_mm": [
+          55.0,
+          16.65270972251892,
+          219.0
+        ],
+        "rear_mm": [
+          55.0,
+          16.65270972251892,
+          217.0
+        ],
+        "max_radius_mm": 1.25
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_foot_2_M2p5_screw",
+      "b": "R20_CM4_foot_2_M2p5_nut",
+      "common_mm3": 2.8897540145214093,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 2.890265241302994,
+      "thread_ROI": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "front_mm": [
+          55.0,
+          26.65270972251892,
+          219.0
+        ],
+        "rear_mm": [
+          55.0,
+          26.65270972251892,
+          217.0
+        ],
+        "max_radius_mm": 1.25
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_foot_3_M2p5_screw",
+      "b": "R20_CM4_foot_3_M2p5_nut",
+      "common_mm3": 2.88975259031334,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 2.890265241302968,
+      "thread_ROI": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "front_mm": [
+          55.0,
+          -31.29729027748108,
+          219.0
+        ],
+        "rear_mm": [
+          55.0,
+          -31.29729027748108,
+          217.0
+        ],
+        "max_radius_mm": 1.25
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    },
+    {
+      "a": "R20_CM4_foot_4_M2p5_screw",
+      "b": "R20_CM4_foot_4_M2p5_nut",
+      "common_mm3": 2.8897524858233137,
+      "same_link": true,
+      "classification": "NAMED_NOMINAL_MATING_THREAD_ENVELOPES",
+      "exact_nominal_thread_common_mm3": 2.890265241302939,
+      "thread_ROI": {
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "front_mm": [
+          55.0,
+          -21.29729027748108,
+          219.0
+        ],
+        "rear_mm": [
+          55.0,
+          -21.29729027748108,
+          217.0
+        ],
+        "max_radius_mm": 1.25
+      },
+      "outside_named_thread_ROI_mm3": 0.0,
+      "reason": "The external-thread maximum-cylinder and mating nut root bore are deliberately dimensioned nominal thread representations. This specific engagement volume is not unexpected metal intrusion; it does not permit any other same-link overlap."
+    }
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "whole_robot_assembly_approved": false,
+  "limits": [
+    "Only new/replacement geometry at HOME is adjudicated here; parent performs continuousmoving-pairchecks and retains unrelated oldsame-linkreviewitems.",
+    "No whole-assembly2.2mmclearancepass is implied; named shank holes and bolted bearing faces have intentionally smaller mating clearances.",
+    "A declared nominal thread pair is not a supplier lot/strength/preload/vibration qualification."
+  ],
+  "sources": {
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/motion_diagnostic/diagnostic_selection.json": "070b3f7db0172ccbda9b959a3231917881ed1b4e67f329f0bad66ec51dbc0b75",
+    "work/r9-appearance/r9_selected_component_layout.json": "b2c97f0cfe4222bc8402109aa458b52a3a7116fa9c817182b800446f7a1def29",
+    "work/r20-walking-fix/head_mount/head_mount_delta.json": "121912d01bcd7f2666e4b9321a699561841057f48550dbc51f193418fc1c9172",
+    "work/r20-walking-fix/head_mount/raw_full_assembly_HOME.json": "6cd492306cbd32355aa6bc69198c79c9ff1ca8a715ce261c57457f533f59b68b",
+    "work/r20-walking-fix/head_mount/interface_audit.json": "921d1359bef8374d6c130cbcc86a738752aaed37cc5d8368e96c5c14d1d02806",
+    "work/r20-walking-fix/head_mount/adjudicate_contacts.py": "1a13ed62ca67f6709794f6119a8e3d0218df5b6f7add71575d00adfc0bd44fec",
+    "work/r20-walking-fix/head_mount/head_common.py": "3fc4f03c4d11f57de4e700a6df37b6ee2c58a340299340bd7bc03c2f2a25edfe",
+    "work/r8-design/integration/electronics_world_envelopes.json": "77f518819fed944cd73997c625cd300e4dd372c86956f94846abd24ab8fc4545",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_screw.step": "0979487ffb76b2f160a4c4fa432a366c7272604c720c22cbbc4987b25ffab674",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_front_washer.step": "9bf930f67f3fcead91ea7e2c79969041752aaaf7e3ab9be26ec5a0e35399142a",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_rear_washer.step": "ea1f923aa33515b1ddd9c9aec4aeab74040fd72f03f66c16494a7143349cb980",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_nut.step": "311603bb39f414e84a51b3086a4fa79a0edbb15b8dac5cd447b9b6061bec1bc7",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_screw.step": "1e34448451a97dd54cb5ab2572cc67b38fddce38b935671430e26c8b124c93a0",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_front_washer.step": "b0e4c3e94976daadeaff0c6b3bfd66f2b15106c09437004bd161408ccbc088f2",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_rear_washer.step": "e6ad909432d562adb129fa9880733ba8b44407489adb9ce18afc1dcd236025c4",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_nut.step": "f662ea2e44ab4b8a2f4c9c9291ad7d0599dcaff46b6ee53d346ad559d7ec25fe",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_screw.step": "447a47928573e702e8d15d0f9513fe2f0e638bfe3e220c41531725add5ca897e",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_front_washer.step": "a79d6bbc72980047ff8c34567a88bc2a24b8273962fd6b1de639860c57e9bf67",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_rear_washer.step": "45373323131ab4d6f2e4ff8ecaba676fe59a9d618a73e00a343e22e6e61d1669",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_nut.step": "a7c42a268a6309e5540aa92c4ca5a28a5f1276ece99c7231281ee81b7999af5c",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_screw.step": "9799f05b1ec3f81a86f6b4e97961aaa7e9cc99e7106ad0c231a5778299ff3e76",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_front_washer.step": "2d03e83b46637386f6157498aaeb00e83bea1a2716658b0a2dd87bc6d0fb193e",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_rear_washer.step": "cf4cde0190f7ba1cfae2b93d1ce592b72445326e0589f57044b07a3b8b361aed",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_nut.step": "8570f0983e27085fc14998b78479c9ab3229d02efa36fb473b4880ee31c0ef80",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_screw.step": "2e55e3b92c35b234fcfc54a0258fba44ee2794cb1364d08c0360a5ace7ab5dfb",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_top_washer.step": "772ad3cc945d03ba94c037346ef7f63b68100ed623cdbb87b33fce6416eb6b02",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_nut.step": "c3cec858c1e09463b7c1434aeba303da45faf0946cc1958ef1c5b51dbf96cffa",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_screw.step": "15f11edbcc151ae2082f50a2d9bc0214e83914216b631591a7944b44742be582",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_top_washer.step": "679ae14bc32035fb0f7d7b4c26796f9e4fde8fe305df2da23ec8d59de284f5cd",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_nut.step": "4626c373af0256d9ce1b786248a7e19b1da2b362b17340ab03f19687214e077f",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_screw.step": "6c1dd4a67b5dd2a68b1d19f497417a71282f0fa9b05e49c4149f39d0d0f966bd",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_top_washer.step": "43ad6ae16520eb7eec63c28847726ca087a33000fcfbfdd232823c7e95700867",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_nut.step": "a22dc02d671265e403b57085f3d91d019fede1d8ec347bdafd6e21ca0f1da092",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_screw.step": "19bce162b26484c95c4e6ab1f2ee7f784503406f9c178e808752343d0f173a56",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_top_washer.step": "41ad37a54b5896df195eb8a9ca4ab1c6a618122fc3eeed63a649f9c58a148ddd",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_nut.step": "af3da1d86992a298c17943c95924ee16190f40d608730c2b8cfcabe596bf9c04",
+    "work/r20-walking-fix/head_mount/board_representation/STEP_毫米/R20_CM4carrier_PCB_existing_NPTH_geometry.step": "8541274223218201e2047da8746870be51c4ce731c2212533d284ae5397d517c",
+    "work/r9-appearance/selected_components/HEAD_R8_CM4_6061_finned_heatsink.stl": "22cdc43465734ecc751245c040e655955ab098e81e210154396f0fadc6fdcdc9",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_R8_CM4_6061_finned_heatsink.stl": "22cdc43465734ecc751245c040e655955ab098e81e210154396f0fadc6fdcdc9",
+    "outputs/Microduck_RK_R8_制造设计/结构/外壳与后舱/STEP_毫米/R8_CM4_6061_finned_heatsink.step": "5775c4b3bdf0a011492f87459d50f697f1e7d1789477e5bd8d31c901eac40d45",
+    "work/r9-appearance/selected_components/HEAD_R8_CM4_PEEK_B2B_1p50mm_1.stl": "601bdbfd79f5ec289b055126ef5a3e49a589a9f75b77e35abf04e8ec50901803",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1.stl": "601bdbfd79f5ec289b055126ef5a3e49a589a9f75b77e35abf04e8ec50901803",
+    "outputs/Microduck_RK_R8_制造设计/结构/外壳与后舱/STEP_毫米/R8_CM4_PEEK_B2B_1p50mm_1.step": "f5788973e6e495103e43292637e9613da48c9b214eb3e63b4874f33851ea399c",
+    "work/r9-appearance/selected_components/HEAD_R8_CM4_PEEK_B2B_1p50mm_2.stl": "053177f9e408ec4e5eb94393b2ec7ffd3e5ded834e359c935108b2236e3d3463",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2.stl": "053177f9e408ec4e5eb94393b2ec7ffd3e5ded834e359c935108b2236e3d3463",
+    "outputs/Microduck_RK_R8_制造设计/结构/外壳与后舱/STEP_毫米/R8_CM4_PEEK_B2B_1p50mm_2.step": "82af3627015946eec744cce3903de45016b6859b7d8cf3c7c29a4fd412b0852c",
+    "work/r9-appearance/selected_components/HEAD_R8_CM4_PEEK_B2B_1p50mm_3.stl": "793131ef0ac2469862fdb5eee7c65005f819babdd79f7dcc03f5b94a3c92e921",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3.stl": "793131ef0ac2469862fdb5eee7c65005f819babdd79f7dcc03f5b94a3c92e921",
+    "outputs/Microduck_RK_R8_制造设计/结构/外壳与后舱/STEP_毫米/R8_CM4_PEEK_B2B_1p50mm_3.step": "801b81d3fe97cd45723c0f19577a32ed01ca58bf8a86f408463010991ca57285",
+    "work/r9-appearance/selected_components/HEAD_R8_CM4_PEEK_B2B_1p50mm_4.stl": "81cfed1557093e5b4c41dffe6c2ad18e2a5c337f00a54396571090ed17080057",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4.stl": "81cfed1557093e5b4c41dffe6c2ad18e2a5c337f00a54396571090ed17080057",
+    "outputs/Microduck_RK_R8_制造设计/结构/外壳与后舱/STEP_毫米/R8_CM4_PEEK_B2B_1p50mm_4.step": "e23cc565d5673a0df60801572af6145e7bd9ed3855fef535638f93903d93b6d6"
+  }
+}

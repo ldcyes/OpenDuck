@@ -1,0 +1,1 @@
+lerobot[smolvla] @ git+https://github.com/huggingface/lerobot.git@3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e

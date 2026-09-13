@@ -1,0 +1,1558 @@
+{
+  "status": "MASS_BUDGET_INCLUDED_INSTALLATION_GEOMETRY_AND_FINAL_INERTIA_NOT_PROVEN",
+  "model_unchanged": true,
+  "final_nominal_total_kg": 4.195093550269524,
+  "pending_electronics_groups_nominal_g": 63.856284,
+  "pending_electronics_groups_low_g": 48.235355999999996,
+  "pending_electronics_groups_high_g": 79.47721200000001,
+  "rows": [
+    {
+      "item": "Regen",
+      "mass_row_name": "electrical_Regen",
+      "nominal_g": 16.496128,
+      "low_g": 11.195072,
+      "high_g": 21.797184,
+      "link": "trunk_base",
+      "COM_HOME_mm": [
+        31.564499527215958,
+        -33.75542050600052,
+        49.54043605923653
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Regen_population_solder_connectors,Regen_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/6"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/6"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/7"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_Regen",
+        "link": "trunk_base",
+        "mass_kg": 0.016496128,
+        "COM_HOME_m": [
+          0.031564499527215954,
+          -0.03375542050600052,
+          0.049540436059236526
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            3.0856557294933334e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            3.370708821333334e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.8932009028266667e-06
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_Regen",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          31.564499527215958,
+          -33.75542050600052,
+          49.54043605923653
+        ],
+        "low_g": 11.195072,
+        "nominal_g": 16.496128,
+        "high_g": 21.797184,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Regen_population_solder_connectors,Regen_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            3.0856557294933334e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            3.370708821333334e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.8932009028266667e-06
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            0.00018705333333333336,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00020433333333333339,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00017538666666666667
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "IMU",
+      "mass_row_name": "electrical_IMU",
+      "nominal_g": 2.6759888000000003,
+      "low_g": 1.8582512000000002,
+      "high_g": 3.4937264,
+      "link": "trunk_base",
+      "COM_HOME_mm": [
+        1.5644995272159576,
+        1.2445794939994812,
+        14.540436059236526
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:IMU_7_SMT_population_solder,IMU_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/11"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/11"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/12"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_IMU",
+        "link": "trunk_base",
+        "mass_kg": 0.0026759888,
+        "COM_HOME_m": [
+          0.0015644995272159575,
+          0.0012445794939994813,
+          0.014540436059236526
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            1.9713117493333342e-07,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.3023145493333335e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.827628165333334e-07
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_IMU",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          1.5644995272159576,
+          1.2445794939994812,
+          14.540436059236526
+        ],
+        "low_g": 1.8582512000000002,
+        "nominal_g": 2.6759888000000003,
+        "high_g": 3.4937264,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:IMU_7_SMT_population_solder,IMU_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            1.9713117493333342e-07,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.3023145493333335e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.827628165333334e-07
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            7.366666666666669e-05,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.8666666666666666e-05,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00010566666666666668
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "Thermal75",
+      "mass_row_name": "electrical_Thermal75",
+      "nominal_g": 1.4861056000000001,
+      "low_g": 0.9258944,
+      "high_g": 2.0463168,
+      "link": "trunk_base",
+      "COM_HOME_mm": [
+        6.564499527215958,
+        1.2445794939994812,
+        59.54043605923653
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Thermal75_population_solder_connectors,Thermal75_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/12"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/12"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/13"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_Thermal75",
+        "link": "trunk_base",
+        "mass_kg": 0.0014861056000000001,
+        "COM_HOME_m": [
+          0.006564499527215958,
+          0.0012445794939994813,
+          0.05954043605923653
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            8.124043946666666e-08,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            6.192106666666667e-08,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            4.4087799466666664e-08
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_Thermal75",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          6.564499527215958,
+          1.2445794939994812,
+          59.54043605923653
+        ],
+        "low_g": 0.9258944,
+        "nominal_g": 1.4861056000000001,
+        "high_g": 2.0463168,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Thermal75_population_solder_connectors,Thermal75_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            8.124043946666666e-08,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            6.192106666666667e-08,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            4.4087799466666664e-08
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            5.4666666666666656e-05,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.1666666666666665e-05,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.966666666666666e-05
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "Thermal65",
+      "mass_row_name": "electrical_Thermal65",
+      "nominal_g": 1.4861056000000001,
+      "low_g": 0.9258944,
+      "high_g": 2.0463168,
+      "link": "trunk_base",
+      "COM_HOME_mm": [
+        -53.43550047278404,
+        1.2445794939994812,
+        44.54043605923653
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Thermal65_population_solder_connectors,Thermal65_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/13"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/13"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/14"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_Thermal65",
+        "link": "trunk_base",
+        "mass_kg": 0.0014861056000000001,
+        "COM_HOME_m": [
+          -0.053435500472784045,
+          0.0012445794939994813,
+          0.04454043605923653
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            8.124043946666666e-08,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.4087799466666664e-08,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            6.192106666666667e-08
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_Thermal65",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          -53.43550047278404,
+          1.2445794939994812,
+          44.54043605923653
+        ],
+        "low_g": 0.9258944,
+        "nominal_g": 1.4861056000000001,
+        "high_g": 2.0463168,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Thermal65_population_solder_connectors,Thermal65_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            8.124043946666666e-08,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.4087799466666664e-08,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            6.192106666666667e-08
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            5.4666666666666656e-05,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.966666666666666e-05,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            4.1666666666666665e-05
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "MIC",
+      "mass_row_name": "electrical_MIC",
+      "nominal_g": 1.863452,
+      "low_g": 1.0695480000000002,
+      "high_g": 2.657356,
+      "link": "jaw_soft",
+      "COM_HOME_mm": [
+        94.24454072117805,
+        47.65270972251892,
+        266.0042672753334
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:MIC_population_solder_connectors,MIC_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/14"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/14"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/15"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_MIC",
+        "link": "jaw_soft",
+        "mass_kg": 0.001863452,
+        "COM_HOME_m": [
+          0.09424454072117805,
+          0.04765270972251892,
+          0.2660042672753334
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            1.397589e-07,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.014711729066667e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            6.23386809066667e-08
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_MIC",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          94.24454072117805,
+          47.65270972251892,
+          266.0042672753334
+        ],
+        "low_g": 1.0695480000000002,
+        "nominal_g": 1.863452,
+        "high_g": 2.657356,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:MIC_population_solder_connectors,MIC_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            1.397589e-07,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.014711729066667e-07,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            6.23386809066667e-08
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            7.5e-05,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            5.445333333333334e-05,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            3.345333333333335e-05
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "AMP_and_speaker_group",
+      "mass_row_name": "electrical_AUDIO_internal_no_external_wing",
+      "nominal_g": 10.848504,
+      "low_g": 9.260696,
+      "high_g": 12.436312000000001,
+      "link": "jaw_soft",
+      "COM_HOME_mm": [
+        64.24454072117805,
+        42.65270972251892,
+        276.0042672753334
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Speaker_AS02808MR_R,AMP_population_solder_connectors,AMP_bare_board",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/2"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/2"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/2"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_AUDIO_internal_no_external_wing",
+        "link": "jaw_soft",
+        "mass_kg": 0.010848504,
+        "COM_HOME_m": [
+          0.06424454072117805,
+          0.042652709722518924,
+          0.2760042672753334
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            2.7169083821800024e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.7169083821800024e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            3.5004506239999994e-06
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_AUDIO_internal_no_external_wing",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          64.24454072117805,
+          42.65270972251892,
+          276.0042672753334
+        ],
+        "low_g": 9.260696,
+        "nominal_g": 10.848504,
+        "high_g": 12.436312000000001,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:Speaker_AS02808MR_R,AMP_population_solder_connectors,AMP_bare_board",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            2.7169083821800024e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.7169083821800024e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            3.5004506239999994e-06
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            0.00025044083333333354,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00025044083333333354,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00032266666666666663
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "U2D2",
+      "mass_row_name": "electrical_U2D2_USB_TTL",
+      "nominal_g": 14.0,
+      "low_g": 8.0,
+      "high_g": 20.0,
+      "link": "jaw_soft",
+      "COM_HOME_mm": [
+        59.244540721178055,
+        -42.34729027748108,
+        271.0042672753334
+      ],
+      "mass_category": "unchanged component mass budget",
+      "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:U2D2_adapter",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/1"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/1"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/1"
+        }
+      },
+      "final_model_row": {
+        "name": "electrical_U2D2_USB_TTL",
+        "link": "jaw_soft",
+        "mass_kg": 0.014,
+        "COM_HOME_m": [
+          0.05924454072117805,
+          -0.04234729027748108,
+          0.2710042672753334
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            5.450666666666667e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            5.567333333333334e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.4606666666666673e-06
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_U2D2_USB_TTL",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          59.244540721178055,
+          -42.34729027748108,
+          271.0042672753334
+        ],
+        "low_g": 8.0,
+        "nominal_g": 14.0,
+        "high_g": 20.0,
+        "category": "unchanged component mass budget",
+        "basis": "Only unchanged R8 component mass reused, at NEW R11 box-center COM proxy; no old mounting CAD. Components:U2D2_adapter",
+        "measured": false,
+        "I_COM_home_kg_m2": [
+          [
+            5.450666666666667e-06,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            5.567333333333334e-06,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.4606666666666673e-06
+          ]
+        ],
+        "I_COM_home_per_kg_m2": [
+          [
+            0.00038933333333333333,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0003976666666666667,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00010433333333333338
+          ]
+        ],
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    },
+    {
+      "item": "camera_with_included_cable",
+      "mass_row_name": "camera_module_and_included_cable",
+      "nominal_g": 15.0,
+      "low_g": 15.0,
+      "high_g": 15.0,
+      "link": "jaw_soft",
+      "COM_HOME_mm": [
+        125.0,
+        0.0,
+        265.0
+      ],
+      "mass_category": "catalog mass, position pending",
+      "basis": "OS05A10 catalog mass with includedcable, location notfinal;no duplicate cable; still pending final new installed location",
+      "measured": false,
+      "mass_and_COM_equal_R17": true,
+      "nominal_mass_equal_R13": true,
+      "locations": {
+        "final_contract": {
+          "path": "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json",
+          "json_pointer": "/rows/24"
+        },
+        "R17_mass": {
+          "path": "work/r17-module-mount/mass_COM_update.json",
+          "json_pointer": "/rows/24"
+        },
+        "R13_mass": {
+          "path": "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json",
+          "json_pointer": "/rows/25"
+        }
+      },
+      "final_model_row": {
+        "name": "camera_module_and_included_cable",
+        "link": "jaw_soft",
+        "mass_kg": 0.015,
+        "COM_HOME_m": [
+          0.125,
+          0.0,
+          0.265
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.00015000000000000001,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00015000000000000001,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00015000000000000001
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "camera_module_and_included_cable",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          125.0,
+          0.0,
+          265.0
+        ],
+        "low_g": 15.0,
+        "nominal_g": 15.0,
+        "high_g": 15.0,
+        "category": "catalog mass, position pending",
+        "basis": "OS05A10 catalog mass with includedcable, location notfinal;no duplicate cable; still pending final new installed location",
+        "measured": false,
+        "R13_assumed_containment_radius_m": 0.1,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.010000000000000002,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.010000000000000002,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.010000000000000002
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.00015000000000000001,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00015000000000000001,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00015000000000000001
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      }
+    }
+  ],
+  "shared_remaining_pools": [
+    {
+      "final_model_row": {
+        "name": "head_audio_chamber_unbuilt",
+        "link": "jaw_soft",
+        "mass_kg": 0.02,
+        "COM_HOME_m": [
+          0.06424454072117805,
+          0.042652709722518924,
+          0.2760042672753334
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.00045,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00045,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00045
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "head_audio_chamber_unbuilt",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          64.24454072117805,
+          42.65270972251892,
+          276.0042672753334
+        ],
+        "low_g": 12.0,
+        "nominal_g": 20.0,
+        "high_g": 30.0,
+        "category": "new mounting budget",
+        "basis": "Acoustic enclosure separate fromalreadycounted speaker andAMP",
+        "measured": false,
+        "R13_assumed_containment_radius_m": 0.15,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.0225,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0225,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0225
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.00045,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00045,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00045
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          10,
+          10,
+          10
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      },
+      "nominal_g": 20.0,
+      "interpretation": "Shared remaining allowance; not allocated exclusively to these missing installations; not proof the future hardware fits this mass/COM."
+    },
+    {
+      "final_model_row": {
+        "name": "electrical_mounts_trunk_remaining_after_R13",
+        "link": "trunk_base",
+        "mass_kg": 0.015460640357457414,
+        "COM_HOME_m": [
+          -0.03,
+          0.0,
+          0.035
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.00034786440804279186,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00034786440804279186,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00034786440804279186
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "electrical_mounts_trunk_remaining_after_R13",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          -30.0,
+          0.0,
+          35.0
+        ],
+        "low_g": 0.0,
+        "nominal_g": 15.460640357457414,
+        "high_g": 45.460640357457414,
+        "category": "unbuilt remaining planning reserve",
+        "basis": "Remaining original electrical_mounts_trunk excluding explicitly materialized R13 parts; fixed nominal allocation removed from every case, not measured residual and not assurance future items fit",
+        "measured": false,
+        "old_pool_name": "electrical_mounts_trunk",
+        "old_mass_cases_g": {
+          "low_g": 30.0,
+          "nominal_g": 50.0,
+          "high_g": 80.0
+        },
+        "allocated_nominal_g": 34.539359642542586,
+        "excluded_R13_items": [
+          "R13_dual_LEG5_load_bracket",
+          "R13_LEG5_PEEK_interboard_35",
+          "R13_LEG5_PEEK_front_mount_35",
+          "R13_LEG5_PEEK_interboard_69",
+          "R13_LEG5_PEEK_front_mount_69",
+          "R13_LEG5_PEEK_corner_antirotation_key",
+          "R13_HEAD3_rigid_stalk",
+          "R13_HEAD3_PEEK_-60",
+          "R13_HEAD3_PEEK_-26",
+          "R13_SP34_rear_saddle_and_mast",
+          "R13_SP3_compressed_back_liner",
+          "R13_SP4_compressed_back_liner",
+          "R13_SP_tie_1",
+          "R13_SP_tie_2",
+          "R13_SP_tie_3",
+          "R13_SP_tie_4",
+          "R13_S301_recess_metal_panel",
+          "R13_battery_front_split_silicone_edge_1",
+          "R13_battery_front_split_silicone_edge_2",
+          "R13_battery_front_split_silicone_edge_3",
+          "R13_battery_front_split_silicone_edge_4",
+          "R13_battery_rear_split_silicone_edge_1"
+        ],
+        "R13_assumed_containment_radius_m": 0.15,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.0225,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0225,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0225
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.00034786440804279186,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.00034786440804279186,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.00034786440804279186
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          40,
+          35,
+          50
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      },
+      "nominal_g": 15.460640357457414,
+      "interpretation": "Shared remaining allowance; not allocated exclusively to these missing installations; not proof the future hardware fits this mass/COM."
+    },
+    {
+      "final_model_row": {
+        "name": "non_CM4_head_electrical_mounts_remaining_remaining_after_R13",
+        "link": "jaw_soft",
+        "mass_kg": 0.013075770806139125,
+        "COM_HOME_m": [
+          0.065,
+          0.0,
+          0.27
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.0002942048431381303,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0002942048431381303,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0002942048431381303
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "non_CM4_head_electrical_mounts_remaining_remaining_after_R13",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          65.0,
+          0.0,
+          270.0
+        ],
+        "low_g": 0.0,
+        "nominal_g": 13.075770806139124,
+        "high_g": 33.075770806139126,
+        "category": "unbuilt remaining planning reserve",
+        "basis": "Remaining original non_CM4_head_electrical_mounts_remaining excluding explicitly materialized R13 parts; fixed nominal allocation removed from every case, not measured residual and not assurance future items fit",
+        "measured": false,
+        "old_pool_name": "non_CM4_head_electrical_mounts_remaining",
+        "old_mass_cases_g": {
+          "low_g": 10.0,
+          "nominal_g": 25.0,
+          "high_g": 45.0
+        },
+        "allocated_nominal_g": 11.924229193860876,
+        "excluded_R13_items": [
+          "R13_Entry5V_rigid_frame",
+          "R13_Entry_PEEK_0_262",
+          "R13_Entry_PEEK_0_301",
+          "R13_Entry_PEEK_59_262",
+          "R13_Entry_PEEK_59_301"
+        ],
+        "R13_assumed_containment_radius_m": 0.15,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.0225,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0225,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0225
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.0002942048431381303,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0002942048431381303,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0002942048431381303
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          50,
+          40,
+          40
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      },
+      "nominal_g": 13.075770806139124,
+      "interpretation": "Shared remaining allowance; not allocated exclusively to these missing installations; not proof the future hardware fits this mass/COM."
+    },
+    {
+      "final_model_row": {
+        "name": "wire_loom_trunk_remaining_after_R13",
+        "link": "trunk_base",
+        "mass_kg": 0.02475710027564878,
+        "COM_HOME_m": [
+          -0.025,
+          0.0,
+          0.03
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.0008021300489310203,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0008021300489310203,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0008021300489310203
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "wire_loom_trunk_remaining_after_R13",
+        "link": "trunk_base",
+        "COM_home_mm": [
+          -25.0,
+          0.0,
+          30.0
+        ],
+        "low_g": 12.757100275648778,
+        "nominal_g": 24.757100275648778,
+        "high_g": 42.75710027564878,
+        "category": "unbuilt remaining planning reserve",
+        "basis": "Remaining original wire_loom_trunk excluding explicitly materialized R13 parts; fixed nominal allocation removed from every case, not measured residual and not assurance future items fit",
+        "measured": false,
+        "old_pool_name": "wire_loom_trunk",
+        "old_mass_cases_g": {
+          "low_g": 20.0,
+          "nominal_g": 32.0,
+          "high_g": 50.0
+        },
+        "allocated_nominal_g": 7.242899724351222,
+        "excluded_R13_items": [
+          "R13_WIRE_SP3_TO_J9_POS",
+          "R13_WIRE_SP4_TO_J9_GND",
+          "R13_WIRE_SP3_TO_PDB_L_SEG0",
+          "R13_WIRE_SP3_TO_PDB_L_SEG1",
+          "R13_WIRE_SP3_TO_PDB_L_SEG2",
+          "R13_WIRE_SP3_TO_PDB_L_SEG3",
+          "R13_WIRE_SP3_TO_PDB_L_SEG4",
+          "R13_WIRE_SP3_TO_PDB_L_SEG5",
+          "R13_WIRE_SP3_TO_PDB_L_SEG6",
+          "R13_WIRE_SP3_TO_PDB_L_SEG7",
+          "R13_WIRE_SP3_TO_PDB_L_SEG8",
+          "R13_WIRE_SP3_TO_PDB_L_SEG9",
+          "R13_WIRE_SP3_TO_PDB_L_SEG10",
+          "R13_WIRE_SP3_TO_PDB_R_SEG0",
+          "R13_WIRE_SP3_TO_PDB_R_SEG1",
+          "R13_WIRE_SP3_TO_PDB_R_SEG2",
+          "R13_WIRE_SP3_TO_PDB_R_SEG3",
+          "R13_WIRE_SP3_TO_PDB_R_SEG4",
+          "R13_WIRE_SP3_TO_PDB_R_SEG5",
+          "R13_WIRE_SP3_TO_PDB_R_SEG6",
+          "R13_WIRE_SP3_TO_PDB_R_SEG7",
+          "R13_WIRE_SP3_TO_PDB_R_SEG8",
+          "R13_WIRE_SP3_TO_PDB_R_SEG9",
+          "R13_WIRE_SP3_TO_PDB_R_SEG10",
+          "R13_WIRE_SP4_TO_PDB_L_SEG0",
+          "R13_WIRE_SP4_TO_PDB_L_SEG1",
+          "R13_WIRE_SP4_TO_PDB_L_SEG2",
+          "R13_WIRE_SP4_TO_PDB_L_SEG3",
+          "R13_WIRE_SP4_TO_PDB_L_SEG4",
+          "R13_WIRE_SP4_TO_PDB_L_SEG5",
+          "R13_WIRE_SP4_TO_PDB_L_SEG6",
+          "R13_WIRE_SP4_TO_PDB_L_SEG7",
+          "R13_WIRE_SP4_TO_PDB_R_SEG0",
+          "R13_WIRE_SP4_TO_PDB_R_SEG1",
+          "R13_WIRE_SP4_TO_PDB_R_SEG2",
+          "R13_WIRE_SP4_TO_PDB_R_SEG3",
+          "R13_WIRE_SP4_TO_PDB_R_SEG4",
+          "R13_WIRE_SP4_TO_PDB_R_SEG5",
+          "R13_WIRE_SP4_TO_PDB_R_SEG6",
+          "R13_WIRE_SP4_TO_PDB_R_SEG7",
+          "R13_WIRE_SP4_TO_PDB_R_SEG8"
+        ],
+        "R13_assumed_containment_radius_m": 0.18,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.0324,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0324,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0324
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.0008021300489310203,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0008021300489310203,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0008021300489310203
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          50,
+          40,
+          65
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      },
+      "nominal_g": 24.757100275648778,
+      "interpretation": "Shared remaining allowance; not allocated exclusively to these missing installations; not proof the future hardware fits this mass/COM."
+    },
+    {
+      "final_model_row": {
+        "name": "wire_loom_head_remaining_after_R13",
+        "link": "jaw_soft",
+        "mass_kg": 0.01263548776023962,
+        "COM_HOME_m": [
+          0.05,
+          0.0,
+          0.23
+        ],
+        "I_COM_HOME_kg_m2": [
+          [
+            0.0004093898034317637,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0004093898034317637,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0004093898034317637
+          ]
+        ],
+        "inertia_basis": "Inherited engineering nominal inertia estimate; unmeasured"
+      },
+      "inherited_source_row": {
+        "name": "wire_loom_head_remaining_after_R13",
+        "link": "jaw_soft",
+        "COM_home_mm": [
+          50.0,
+          0.0,
+          230.0
+        ],
+        "low_g": 2.63548776023962,
+        "nominal_g": 12.63548776023962,
+        "high_g": 27.63548776023962,
+        "category": "unbuilt remaining planning reserve",
+        "basis": "Remaining original wire_loom_head excluding explicitly materialized R13 parts; fixed nominal allocation removed from every case, not measured residual and not assurance future items fit",
+        "measured": false,
+        "old_pool_name": "wire_loom_head",
+        "old_mass_cases_g": {
+          "low_g": 15.0,
+          "nominal_g": 25.0,
+          "high_g": 40.0
+        },
+        "allocated_nominal_g": 12.36451223976038,
+        "excluded_R13_items": [
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG0",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG1",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG2",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG3",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG4",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG5",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG6",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG7",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG8",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG9",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG10",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG11",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG12",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG13",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG14",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG15",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG16",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG17",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG18",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG19",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG20",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG21",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG22",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG23",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG24",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG25",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG26",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG27",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG28",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG29",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG30",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG31",
+          "R13_WIRE_SP3_HEAD_PILLAR_FRONT_V6_SEG32",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG0",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG1",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG2",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG3",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG4",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG5",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG6",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG7",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG8",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG9",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG10",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG11",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG12",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG13",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG14",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG15",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG16",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG17",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG18",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG19",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG20",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG21",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG22",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG23",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG24",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG25",
+          "R13_WIRE_SP4_HEAD_PILLAR_FRONT_V6_SEG26"
+        ],
+        "R13_assumed_containment_radius_m": 0.18,
+        "I_COM_home_per_kg_m2": [
+          [
+            0.0324,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0324,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0324
+          ]
+        ],
+        "I_COM_home_kg_m2": [
+          [
+            0.0004093898034317637,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0004093898034317637,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0004093898034317637
+          ]
+        ],
+        "R13_inertia_basis": "Conditional m*r2 isotropic envelope about assigned COM; no rotor/gear inertia or physical containment evidence",
+        "COM_uncertainty_halfwidth_HOME_mm": [
+          50,
+          40,
+          65
+        ],
+        "COM_uncertainty_basis": "Independent HOME-coordinate engineering sensitivity box; containment/actual COM error not measured. This is a declared sensitivity scenario, not confidence interval or supplier tolerance."
+      },
+      "nominal_g": 12.63548776023962,
+      "interpretation": "Shared remaining allowance; not allocated exclusively to these missing installations; not proof the future hardware fits this mass/COM."
+    }
+  ],
+  "sources": {
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json": "f4650424ccbddbbb57aa906af2d4c20aa1471e323b7272b35dd28594f5ad62f1",
+    "work/r21-reduced-sway/evidence/audit_pending_electronics_mass.py": "51674725646199ac7181e39ff9ceb96d501cbda0b3272bdf0cc816d3cfead610"
+  },
+  "scope": [
+    "All eight named groups occur exactly once in final v4 mass rows. The six PCBs plus U2D2/camera are not zero-mass omissions in that model.",
+    "AMP group includes its speaker; this is not bare-PCB mass and must not be added a second time.",
+    "Camera 15 g is inherited OS05A10 catalogue mass including cable, with placement pending; other seven groups reuse component mass budgets. No physical weighing is claimed.",
+    "All assigned COMs/inertias remain engineering assumptions, so comparison of two gaits on the same model is valid only within that model.",
+    "Absent installation geometry, connectors, clearances, support rigidity, actual cable routing and final COM are outside the whole-CAD motion certificate. Shared pools do not establish they will fit.",
+    "Do not add these same board masses again when materializing CAD. Replace the existing rows and debit corresponding mount/wire pools using actual part masses and locations, then rerun dynamics.",
+    "This audit does not revise or requalify the current model."
+  ]
+}

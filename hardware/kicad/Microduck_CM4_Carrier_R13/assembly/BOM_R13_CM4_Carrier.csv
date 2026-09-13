@@ -1,0 +1,47 @@
+reference,value,MPN,footprint,side,x_mm,y_mm,rotation_deg,datasheet
+J101,CM4 J3A 1-100,DF40C-100DS-0.4V(51),Microduck_CM4_R8:DF40C_J101,F,31.46,39.55,0,https://www.hirose.com/product/p/CL0684-4033-4-51
+J102,CM4 J3B 101-200,DF40C-100DS-0.4V(51),Microduck_CM4_R8:DF40C_J102,F,31.46,5.49,0,https://www.hirose.com/product/p/CL0684-4033-4-51
+J103,CM4 J1 1-100,DF40C-100DS-0.4V(51),Microduck_CM4_R8:DF40C_J103,F,52.980074,22.600111,0,https://www.hirose.com/product/p/CL0684-4033-4-51
+J1,SH10,SM10B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal,B,28.0,25.0,0,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J2,SH4,SM04B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,B,14.0,26.0,180,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J3,SH8,SM08B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,B,41.0,27.0,180,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J4,SH4,SM04B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,B,53.5,12.0,270,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J5,SH4,SM04B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,B,53.5,21.0,270,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J6,SH4,SM04B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,B,14.0,8.0,0,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J7,SH2,SM02B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,B,8.0,16.0,0,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J8,SH2,SM02B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,B,24.0,12.0,0,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+W1,SYSTEM_5V IN,SOLDER AWG20,Microduck_CM4_R8:Wire_SMD4,B,36.0,9.0,0,
+W2,SYSTEM GND,SOLDER AWG20,Microduck_CM4_R8:Wire_SMD4,B,42.0,9.0,0,
+U1,CORE 1.439A EFUSE,TPS259530DSGR,Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,B,32.0,15.0,0,https://www.ti.com/lit/ds/symlink/tps2595.pdf
+R1,1.43k 0.1%,RT0603BRD071K43L,Resistor_SMD:R_0603_1608Metric,B,27.0,16.5,0,
+C1,4.7nF C0G,GRM1885C1H472JA01D,Capacitor_SMD:C_0603_1608Metric,B,32.0,12.0,0,
+C2,10uF 10V,GRM21BR71A106KE51L,Capacitor_SMD:C_0805_2012Metric,B,36.0,15.0,0,
+C3,10uF 10V,GRM21BR71A106KE51L,Capacitor_SMD:C_0805_2012Metric,B,36.0,19.0,0,
+C4,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,32.0,18.0,0,
+R2,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,20.0,20.0,0,
+R3,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,40.0,20.35,0,
+R7,10k 1%,ERJ-3EKF1002V,Resistor_SMD:R_0603_1608Metric,B,12.6,20.0,0,
+R8,20k 1%,ERJ-3EKF2002V,Resistor_SMD:R_0603_1608Metric,B,15.0,18.0,0,
+R4,22R,ERJ-3EKF22R0V,Resistor_SMD:R_0603_1608Metric,B,50.0,26.0,0,
+R5,22R,ERJ-3EKF22R0V,Resistor_SMD:R_0603_1608Metric,B,50.0,28.5,0,
+R6,22R,ERJ-3EKF22R0V,Resistor_SMD:R_0603_1608Metric,B,48.5,30.0,0,
+F1,.25A,0467.250NRHF,Fuse:Fuse_0603_1608Metric,B,40.0,14.0,90,https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d
+F2,.75A,0467.750NRHF,Fuse:Fuse_0603_1608Metric,B,41.5,18.0,90,https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d
+F3,.25A,0467.250NRHF,Fuse:Fuse_0603_1608Metric,B,8.0,11.0,90,https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d
+F4,.5A,0467.500NRHF,Fuse:Fuse_0603_1608Metric,B,24.0,7.0,90,https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d
+U2,USB2 ESD,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,B,46.5,12.0,90,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+U3,USB2 ESD,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,B,46.5,21.0,90,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+U4,USB2 ESD,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,B,19.0,14.0,0,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+TP1,VBUSDET_TP,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,8.0,22.0,0,
+TP2,OTG_VBUS_ONLY,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,8.0,24.0,0,
+TP3,MASKROM,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,30.0,35.0,0,
+TP4,RESET_N,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,34.0,35.0,0,
+TP5,PWRON_N,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,38.0,35.0,0,
+TP6,GND,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,42.0,35.0,0,
+TP7,CORE_FAULT_N,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,32.0,21.0,0,
+TP8,TDK_IMON,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,24.0,21.0,0,
+TP9,BRAKE_ACTIVE_N,TEST ONLY,Microduck_CM4_R8:Test_SMD1,B,28.0,21.0,0,
+H1,M2 NPTH,NO PART,MountingHole:MountingHole_2.7mm_M2.5,F,5.0,6.0,0,
+H2,M2 NPTH,NO PART,MountingHole:MountingHole_2.7mm_M2.5,F,5.0,39.0,0,
+H3,M2 NPTH,NO PART,MountingHole:MountingHole_2.7mm_M2.5,F,52.95,5.98,0,
+H4,M2 NPTH,NO PART,MountingHole:MountingHole_2.7mm_M2.5,F,52.95,38.98,0,

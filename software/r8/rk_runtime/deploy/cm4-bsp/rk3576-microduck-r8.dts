@@ -1,0 +1,106 @@
+// SPDX-License-Identifier: (GPL-2.0-only OR MIT)
+/* Microduck R8 custom carrier, Radxa CM4 V1.20, rk2410 pinned BSP.
+ * Include the module, NOT the unrelated Radxa IO board.
+ * Power sensors/IMU are exclusively owned by the userspace safety driver.
+ */
+/dts-v1/;
+#include "rk3576-radxa-cm4.dtsi"
+
+/ {
+ model = "Microduck R8 Radxa CM4 custom carrier";
+ compatible = "microduck,r8-cm4", "radxa,cm4", "rockchip,rk3576";
+ aliases { microduck-sensors = &i2c8; };
+ vcc_sys: vcc5v0-sys {
+  compatible = "regulator-fixed";
+  regulator-name = "microduck_core_5v";
+  regulator-min-microvolt = <5000000>;
+  regulator-max-microvolt = <5000000>;
+  regulator-boot-on;
+  regulator-always-on;
+ };
+ md_amp: microduck-amplifier {
+  compatible = "microduck,max98357a-duplex";
+  #sound-dai-cells = <0>;
+  sdmode-gpios = <&gpio1 RK_PC0 GPIO_ACTIVE_HIGH>;
+  sdmode-delay = <5>;
+  pinctrl-names = "default";
+  pinctrl-0 = <&md_amp_enable>;
+ };
+ md_mic: microduck-microphone {
+  compatible = "microduck,dmic-duplex";
+  #sound-dai-cells = <0>;
+  num-channels = <2>;
+  wakeup-delay-ms = <10>;
+ };
+ microduck-audio {
+  compatible = "microduck,rk3576-sai-audio";
+  sai-controller = <&sai1>;
+  audio-codecs = <&md_amp>, <&md_mic>;
+  status = "okay";
+ };
+};
+
+/* No DT sensor clients: no kernel INA/ADS/IIO driver may race userspace. */
+&i2c8 {
+ status = "okay";
+ clock-frequency = <100000>;
+ pinctrl-names = "default";
+ pinctrl-0 = <&i2c8m1_xfer>;
+};
+
+/* This BSP uses rockchip_sai, not I2S_TDM and not TRCM properties.
+ * One SDO0/RX SDI0 lane; shared hardware FSCR/CKR. No external MCLK. */
+&sai1 {
+ status = "okay";
+ pinctrl-names = "default";
+ pinctrl-0 = <&sai1m0_lrck &sai1m0_sclk &sai1m0_sdi0 &sai1m0_sdo0>;
+};
+
+&gpio1 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&md_run_lines>;
+ /* GPIO line offsets 16=C0, 17=C1, 20=C4. No gpiochip number assumed.
+  * No GPIO hog: userspace must acquire exclusive RUN_REQ ownership. */
+ gpio-line-names =
+  "", "", "", "", "", "", "", "",
+  "", "", "", "", "", "", "", "",
+  "MICRODUCK_AMP_ENABLE", "MICRODUCK_RUN_REQ", "", "",
+  "MICRODUCK_RUN_OK", "", "", "",
+  "", "", "", "", "", "", "", "";
+};
+&pinctrl {
+ microduck {
+  md_run_lines: md-run-lines {
+   rockchip,pins = <1 RK_PC1 RK_FUNC_GPIO &pcfg_pull_down>,
+                   <1 RK_PC4 RK_FUNC_GPIO &pcfg_pull_down>;
+  };
+  md_amp_enable: md-amp-enable {
+   rockchip,pins = <1 RK_PC0 RK_FUNC_GPIO &pcfg_pull_down>;
+  };
+ };
+};
+
+/* CM4 U6 FE1_1S upstream is OTG1; U2D2/UVC and U5 FCU760K share it.
+ * Preserve module USB PHY / WIFI_CHIP_EN setup. External 5V branches
+ * are always supplied by the custom carrier, no IO-board GPIO0_D3. */
+&u2phy1 { status = "okay"; };
+&u2phy1_otg { status = "okay"; };
+&usb_drd1_dwc3 { dr_mode = "host"; status = "okay"; };
+
+/* Dedicated OTG0 data port: peripheral flashing only, no VBUS source. */
+&u2phy0 { status = "okay"; };
+&u2phy0_otg { status = "okay"; };
+&usb_drd0_dwc3 {
+ dr_mode = "peripheral"; maximum-speed = "high-speed";
+ phys = <&u2phy0_otg>; phy-names = "usb2-phy";
+ status = "okay";
+};
+
+/* Carrier has no HDMI, Ethernet PHY, IO EEPROM or SD socket. */
+&hdmi_sound { status = "disabled"; };
+&sai6 { status = "disabled"; };
+&hdmi { status = "disabled"; };
+&hdptxphy_hdmi { status = "disabled"; };
+&route_hdmi { status = "disabled"; };
+&gmac0 { status = "disabled"; };
+&i2c6 { status = "disabled"; };

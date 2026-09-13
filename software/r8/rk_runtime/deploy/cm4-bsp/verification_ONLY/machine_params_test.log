@@ -1,0 +1,1 @@
+PASS: actual machine hw_params requires48k/S32/2ch, requests12.288MHz and2x32slots supported by pinned SAI, rejects invalid audio before clocks, propagatesclockfailure

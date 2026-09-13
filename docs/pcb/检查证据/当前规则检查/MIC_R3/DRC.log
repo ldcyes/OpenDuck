@@ -1,0 +1,5 @@
+Found 0 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to /mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r21-reduced-sway/pcb_review/checks/MIC_R3/DRC.json
+21:29:13: Warning: Invalid lock file '/tmp/org.kicad.kicad/instances/kicad-cli-10.0'.

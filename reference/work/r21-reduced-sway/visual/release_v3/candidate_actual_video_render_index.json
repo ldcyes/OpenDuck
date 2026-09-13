@@ -1,0 +1,946 @@
+{
+  "status": "RENDERED_SOURCE_BOUND_ACTUAL_DISPLAY",
+  "purpose": "FINAL_FOUR_STEP",
+  "scene_mode": "candidate_actual",
+  "source_blend_path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+  "source_blend_sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+  "fixed_camera_world_matrix": [
+    [
+      7.549790126404332e-08,
+      -7.549790126404332e-08,
+      1.0,
+      2.0
+    ],
+    [
+      1.0,
+      5.6999328827277325e-15,
+      -7.549790126404332e-08,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      7.549790126404332e-08,
+      0.33000001311302185
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "orthographic_scale_m": 0.8999999761581421,
+  "projected_horizontal_span_m": 0.809999942779541,
+  "projected_vertical_span_m": 0.8999999761581421,
+  "all_rendered_text_inside_frustum": true,
+  "label_render_only": {
+    "material": "Pure black emission",
+    "font_size_m": 0.014999999664723873,
+    "glyph_offset_m": 0.0002499818801879883,
+    "saved_blend_modified": false
+  },
+  "frames": [
+    {
+      "index": 0,
+      "display_time_s": 0.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0000.png",
+      "PNG_sha256": "d7d796b0391dad2ee4894dd6de482843bcc019e5652fb5084614d3ebf240ba80",
+      "render_seconds": 4.296652793884277
+    },
+    {
+      "index": 1,
+      "display_time_s": 2.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 81.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0001.png",
+      "PNG_sha256": "498e595564108a01a496fbfd918b89693f9038c434d405064ac5a122b417f9ff",
+      "render_seconds": 3.961132287979126
+    },
+    {
+      "index": 2,
+      "display_time_s": 4.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 161.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0002.png",
+      "PNG_sha256": "1d20eb1c8c01bed599985859a6a1e2f8b3cd6b21ee5975cb855aea887086fe38",
+      "render_seconds": 4.0441577434539795
+    },
+    {
+      "index": 3,
+      "display_time_s": 6.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 241.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0003.png",
+      "PNG_sha256": "8789755994582ecaff001dabdbbe956e0883cbd3c744c7348d7c2da2e6671533",
+      "render_seconds": 4.191175222396851
+    },
+    {
+      "index": 4,
+      "display_time_s": 8.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 321.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0004.png",
+      "PNG_sha256": "6a7e9fa09383eb2a5436334804bc5bb4f3c6f6f604f6fea6cfd68394ac4aea68",
+      "render_seconds": 4.084106683731079
+    },
+    {
+      "index": 5,
+      "display_time_s": 10.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 401.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0005.png",
+      "PNG_sha256": "af5cdae1eb43a0be91544e7d550555fdbbc832153ae98984920c777b7a9a5397",
+      "render_seconds": 4.341087102890015
+    },
+    {
+      "index": 6,
+      "display_time_s": 12.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 481.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0006.png",
+      "PNG_sha256": "f32177c24f97ea32e9d84e7c892d4a7354736c4725af8ea175007f4506c89428",
+      "render_seconds": 8.544772148132324
+    },
+    {
+      "index": 7,
+      "display_time_s": 14.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 561.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0007.png",
+      "PNG_sha256": "09cd14c491522fb3dde8ea6a460105c5064fe9cc9a115a8e01fbb6711ac0b389",
+      "render_seconds": 4.050819158554077
+    },
+    {
+      "index": 8,
+      "display_time_s": 16.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 641.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0008.png",
+      "PNG_sha256": "35aa9447f0ee7a8063ae836b9b482c1072acd43c58c616b83d15e2b900d80a73",
+      "render_seconds": 4.110538959503174
+    },
+    {
+      "index": 9,
+      "display_time_s": 18.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 721.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0009.png",
+      "PNG_sha256": "de18de9ea8ba81fde25cb0b70511c1541730f560205a71083516a17755fba7cd",
+      "render_seconds": 4.247878551483154
+    },
+    {
+      "index": 10,
+      "display_time_s": 20.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 801.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0010.png",
+      "PNG_sha256": "34ad03f5c3e57b0b9d487a8bc4da7a90023fd4344543a635cab037438daefe95",
+      "render_seconds": 4.145289659500122
+    },
+    {
+      "index": 11,
+      "display_time_s": 22.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 881.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0011.png",
+      "PNG_sha256": "d2ecdac3f8ff96ca5f42da13d68c4b447a9ee193fbd3d6337284ebb20089e0bf",
+      "render_seconds": 4.175413131713867
+    },
+    {
+      "index": 12,
+      "display_time_s": 24.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 961.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0012.png",
+      "PNG_sha256": "04195b3b3a9c504dbf83d5c2f285e9876fda0afbe32a9fad247ba7f9d8a80ee9",
+      "render_seconds": 4.102924585342407
+    },
+    {
+      "index": 13,
+      "display_time_s": 26.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1041.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0013.png",
+      "PNG_sha256": "0e2652479e9c0b45b114f56637e933a6fb0b1b9c37d70616bc034d707202eb1b",
+      "render_seconds": 4.152465105056763
+    },
+    {
+      "index": 14,
+      "display_time_s": 28.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1121.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0014.png",
+      "PNG_sha256": "9cdf09280fd9bc5d6d47dceb25cc184815826d6229c106eeab131fe5bbcbbae9",
+      "render_seconds": 7.421830177307129
+    },
+    {
+      "index": 15,
+      "display_time_s": 30.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1201.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0015.png",
+      "PNG_sha256": "eb290116dda8ee7ee1b5828b68b93433cfeb997f17f82810e24d0f782f78bac0",
+      "render_seconds": 4.084242820739746
+    },
+    {
+      "index": 16,
+      "display_time_s": 32.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1281.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0016.png",
+      "PNG_sha256": "280c84418d0ab105f1e68c0a8a00b0de9280e93d60343d572dcb3d22b1c69a0e",
+      "render_seconds": 4.188382625579834
+    },
+    {
+      "index": 17,
+      "display_time_s": 34.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1361.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0017.png",
+      "PNG_sha256": "f8aebeae3b6b744c9d921883b202446135b9f7a3d939e3237f3bc37f3b2fecb0",
+      "render_seconds": 4.190683364868164
+    },
+    {
+      "index": 18,
+      "display_time_s": 36.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1441.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0018.png",
+      "PNG_sha256": "15518d3837b61f7cbba3c30145d10dec927724d3c0f23e7f5c9dcc85f9b0392c",
+      "render_seconds": 4.265096426010132
+    },
+    {
+      "index": 19,
+      "display_time_s": 38.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1521.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0019.png",
+      "PNG_sha256": "58056fd00149fd943495c9494840595d1c563f7d6d27f75f20c308da597bd85d",
+      "render_seconds": 4.190264940261841
+    },
+    {
+      "index": 20,
+      "display_time_s": 40.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1601.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0020.png",
+      "PNG_sha256": "219f664ff538232c79548ee065456b44a821f94437809b1de975002afc38aabb",
+      "render_seconds": 4.09421181678772
+    },
+    {
+      "index": 21,
+      "display_time_s": 42.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1681.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0021.png",
+      "PNG_sha256": "10151ea46f1079bb5bde8e0469dbf3e52db9a95c0d375a66765d4794dff858e6",
+      "render_seconds": 6.760118722915649
+    },
+    {
+      "index": 22,
+      "display_time_s": 44.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1761.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0022.png",
+      "PNG_sha256": "f6cc11012c290f8eeea30bdcdf872cbe43a8816ada2e514003ac012bb9317c94",
+      "render_seconds": 4.187665939331055
+    },
+    {
+      "index": 23,
+      "display_time_s": 46.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1841.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0023.png",
+      "PNG_sha256": "57733784cf598d44714c7ba47d56e418c3738a14de117f9c12c52c4ee13c2845",
+      "render_seconds": 4.217921495437622
+    },
+    {
+      "index": 24,
+      "display_time_s": 48.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 1921.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0024.png",
+      "PNG_sha256": "d26c84cc2c7ce3afc4d32750250567c52c4eba4d8c404aa947f735470ec518d8",
+      "render_seconds": 4.180861234664917
+    },
+    {
+      "index": 25,
+      "display_time_s": 50.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2001.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0025.png",
+      "PNG_sha256": "5e81fc8a83a6365e9c3c8280f343ab8a75e5dfc9268fa37944bc1c3f032c6772",
+      "render_seconds": 4.028986930847168
+    },
+    {
+      "index": 26,
+      "display_time_s": 52.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2081.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0026.png",
+      "PNG_sha256": "5d2acbceb24c7ba6a7a3b48f2421db614155d61030c3966aba2ba5ce1a31e252",
+      "render_seconds": 4.0358195304870605
+    },
+    {
+      "index": 27,
+      "display_time_s": 54.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2161.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0027.png",
+      "PNG_sha256": "419461e9ab94f6d13ab7c360800183136c303e4e299c55c936c8d98ad44af1cd",
+      "render_seconds": 4.105022668838501
+    },
+    {
+      "index": 28,
+      "display_time_s": 56.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2241.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0028.png",
+      "PNG_sha256": "5b088acb212767ed7aebea9ee53b6bf6b6df0700591b69ec2dbfa33c6af45abd",
+      "render_seconds": 4.165611743927002
+    },
+    {
+      "index": 29,
+      "display_time_s": 58.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2321.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0029.png",
+      "PNG_sha256": "7e5eb1f4c31a091b36ac2d6ba2972364f797321c40b3ab5d7efede85488a8fbe",
+      "render_seconds": 4.020002126693726
+    },
+    {
+      "index": 30,
+      "display_time_s": 60.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2401.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0030.png",
+      "PNG_sha256": "f26b095cd1346422b5e50512030359c7056238fe575daf1d9e42d1e1d6a152bf",
+      "render_seconds": 4.120558977127075
+    },
+    {
+      "index": 31,
+      "display_time_s": 62.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2481.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0031.png",
+      "PNG_sha256": "677fee8b5ad6aa2b72690c10ca3720dd20f028a7743dd1e2a361ff1808bff581",
+      "render_seconds": 4.089246034622192
+    },
+    {
+      "index": 32,
+      "display_time_s": 64.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2561.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0032.png",
+      "PNG_sha256": "6ed9ffe9f9f00d56621bbd1eecda1f99e58790ba4ffe99abd6dc3e72dc500ed4",
+      "render_seconds": 4.158252716064453
+    },
+    {
+      "index": 33,
+      "display_time_s": 66.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2641.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0033.png",
+      "PNG_sha256": "dca33ccf0aaa9628f96ca33a1300221b0aeb11ef1e46475dcd01bb315d05bff5",
+      "render_seconds": 8.73794150352478
+    },
+    {
+      "index": 34,
+      "display_time_s": 68.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2721.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0034.png",
+      "PNG_sha256": "e2e5bcc56f9cad5a036bcb01913511bcbd19582952eca4d8764c7f50f2cdf4b3",
+      "render_seconds": 4.147775650024414
+    },
+    {
+      "index": 35,
+      "display_time_s": 70.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2801.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0035.png",
+      "PNG_sha256": "81e6daca03f755da013533e4a45858643dc4bcb69c9cd8c91bfff43c312909e3",
+      "render_seconds": 4.407387971878052
+    },
+    {
+      "index": 36,
+      "display_time_s": 72.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2881.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0036.png",
+      "PNG_sha256": "30b7b213307f96fcfece0c56a2245a16c1bda9c347063944cbcfcd85f44690a8",
+      "render_seconds": 4.459600210189819
+    },
+    {
+      "index": 37,
+      "display_time_s": 74.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 2961.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0037.png",
+      "PNG_sha256": "3af155234dade615af52908ecc9e56e4f812138091f6b06b4fb90c676db9512d",
+      "render_seconds": 4.822539806365967
+    },
+    {
+      "index": 38,
+      "display_time_s": 76.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3041.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0038.png",
+      "PNG_sha256": "12b3a2fa28c8d24e9156f7a3a6b6cd10503acbbd2b8ed515b6585394736b0f2d",
+      "render_seconds": 4.578929901123047
+    },
+    {
+      "index": 39,
+      "display_time_s": 78.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3121.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0039.png",
+      "PNG_sha256": "5b8677f46ef3bb130b927c323fa69a803b01e4335aae901262554d31341033f0",
+      "render_seconds": 4.387696743011475
+    },
+    {
+      "index": 40,
+      "display_time_s": 80.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3201.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0040.png",
+      "PNG_sha256": "84c804cfd3a3ac2260af929fd1ddf80d85a990e7582c10c03ec34c32a835f0b4",
+      "render_seconds": 5.159138202667236
+    },
+    {
+      "index": 41,
+      "display_time_s": 82.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3281.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0041.png",
+      "PNG_sha256": "11b1bc81b64d67737b5e681c02295df25db107cc5714c95b70c502c679c79bd0",
+      "render_seconds": 4.5114426612854
+    },
+    {
+      "index": 42,
+      "display_time_s": 84.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3361.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0042.png",
+      "PNG_sha256": "e3036f54cea8283db00bc5dae3349f2cc7697be046c746f86f1e8b9276982d79",
+      "render_seconds": 4.605206727981567
+    },
+    {
+      "index": 43,
+      "display_time_s": 86.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3441.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0043.png",
+      "PNG_sha256": "fd624778caf268f1ef786d9502c9875d2ec6c0dc012ce8ea6486036c54834a9c",
+      "render_seconds": 4.348301410675049
+    },
+    {
+      "index": 44,
+      "display_time_s": 88.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3521.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0044.png",
+      "PNG_sha256": "aa8293266dbe78ca7f1323f9dc1d6d1c3d39e787985afb191c51014143a0d11a",
+      "render_seconds": 4.446951389312744
+    },
+    {
+      "index": 45,
+      "display_time_s": 90.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3601.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0045.png",
+      "PNG_sha256": "b0d3448f2cdc0b7de62badf93bcd796a5639579715e3d4b3fd40048931ae9e6d",
+      "render_seconds": 4.429145574569702
+    },
+    {
+      "index": 46,
+      "display_time_s": 92.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3681.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0046.png",
+      "PNG_sha256": "e50146fd42a3624e45f37118747ded368840bd07c52e948c96d9d6c768fc94d1",
+      "render_seconds": 4.496626853942871
+    },
+    {
+      "index": 47,
+      "display_time_s": 94.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3761.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0047.png",
+      "PNG_sha256": "ccff453f6d5d14e2472b2bc1ca97c2820c6229c4c5a6c33e761250105eea88fe",
+      "render_seconds": 4.4493372440338135
+    },
+    {
+      "index": 48,
+      "display_time_s": 96.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3841.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0048.png",
+      "PNG_sha256": "21d481f9eba014ca71a3cc944ddf96d06965854d3254faf6a43025258abbb780",
+      "render_seconds": 4.422703981399536
+    },
+    {
+      "index": 49,
+      "display_time_s": 98.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 3921.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0049.png",
+      "PNG_sha256": "0b6a9d4d738c0ffb2e4bfc278fd8fa702734bfe1f002e3f31344c30cb43f539a",
+      "render_seconds": 4.426836252212524
+    },
+    {
+      "index": 50,
+      "display_time_s": 100.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4001.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0050.png",
+      "PNG_sha256": "b561738509aa8a6511ba5d49b43a2b6b9c80f472409110df16afac985081990c",
+      "render_seconds": 4.443963050842285
+    },
+    {
+      "index": 51,
+      "display_time_s": 102.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4081.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0051.png",
+      "PNG_sha256": "ff551b1bd8182c75f769282cc912970174f90f13dfec81d69c2d58eb9f6eb398",
+      "render_seconds": 4.629240036010742
+    },
+    {
+      "index": 52,
+      "display_time_s": 104.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4161.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0052.png",
+      "PNG_sha256": "f6d8324e53546532f4da49c38b388c7b8bed30fcc590664f0ca8357c5c88e1cc",
+      "render_seconds": 4.432268857955933
+    },
+    {
+      "index": 53,
+      "display_time_s": 106.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4241.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0053.png",
+      "PNG_sha256": "e7c59df65ebe681ca19801072ff2794dd8bffcdd2f4e9f7509f9d144b4071069",
+      "render_seconds": 4.391205787658691
+    },
+    {
+      "index": 54,
+      "display_time_s": 108.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4321.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0054.png",
+      "PNG_sha256": "0aeea6c4ecbd7dbfed9e0a4c34b70674ab818afe0d83c9f77b2f7f75caa8a0a5",
+      "render_seconds": 4.525375127792358
+    },
+    {
+      "index": 55,
+      "display_time_s": 110.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4401.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0055.png",
+      "PNG_sha256": "205dca47bcbfde9299e52495eed1be74f4c8f8c86e1ece7397b4a69b95481267",
+      "render_seconds": 4.659878730773926
+    },
+    {
+      "index": 56,
+      "display_time_s": 112.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4481.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0056.png",
+      "PNG_sha256": "e0d166f15ebf650c8b0edc1791213310bfed1554d6affd7a5d5905ca1362f646",
+      "render_seconds": 4.634268760681152
+    },
+    {
+      "index": 57,
+      "display_time_s": 114.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4561.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0057.png",
+      "PNG_sha256": "f01ab3b36febe14e6fecbec04543afa40099d455eea57ab48454c83b14be7b25",
+      "render_seconds": 4.842813014984131
+    },
+    {
+      "index": 58,
+      "display_time_s": 116.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4641.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0058.png",
+      "PNG_sha256": "d80fff9a6c1c0ca7f7b0cbbbc3d8f9effa9b799517a5569ffc2977fb50a91649",
+      "render_seconds": 4.451560974121094
+    },
+    {
+      "index": 59,
+      "display_time_s": 118.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4721.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0059.png",
+      "PNG_sha256": "04502bd468cbd06ed53a8981afbe5ad793f93658096d0b255d4e14033b2eaeaf",
+      "render_seconds": 4.437548398971558
+    },
+    {
+      "index": 60,
+      "display_time_s": 120.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4801.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0060.png",
+      "PNG_sha256": "ee6d29dcfa4affb3120a37bc2983400901d90a7b41e0fa2047c3f573fb25a51b",
+      "render_seconds": 4.513995885848999
+    },
+    {
+      "index": 61,
+      "display_time_s": 122.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4881.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0061.png",
+      "PNG_sha256": "afdb7bf7992870fa5cd62dfdd602ee5e45440b2e5735d7bea724199b5be7e4c0",
+      "render_seconds": 4.585412979125977
+    },
+    {
+      "index": 62,
+      "display_time_s": 124.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 4961.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0062.png",
+      "PNG_sha256": "7a395c14b330b2bf70a048228f03ef220647125b525179b236ea5e6513f9d985",
+      "render_seconds": 4.435824871063232
+    },
+    {
+      "index": 63,
+      "display_time_s": 126.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5041.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0063.png",
+      "PNG_sha256": "b6043e967d4efbeafe7da9e2554df605c2e65cac4f0c07f5535572fff31d37f1",
+      "render_seconds": 4.720901250839233
+    },
+    {
+      "index": 64,
+      "display_time_s": 128.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5121.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0064.png",
+      "PNG_sha256": "8612c2ddcb51aac0113099a1c681eeba534ff33a1014906e785327bc31aeb9d5",
+      "render_seconds": 4.582289695739746
+    },
+    {
+      "index": 65,
+      "display_time_s": 130.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5201.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0065.png",
+      "PNG_sha256": "70c01ca3d9925635a0a820530eff8875627beda822910e9f6c848c62f2b19329",
+      "render_seconds": 4.618022203445435
+    },
+    {
+      "index": 66,
+      "display_time_s": 132.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5281.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0066.png",
+      "PNG_sha256": "a3cd6162e6394e724304b8bc754d5e1b3b9b0a8329a7a67b650aae33852f22a5",
+      "render_seconds": 4.67444372177124
+    },
+    {
+      "index": 67,
+      "display_time_s": 134.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5361.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0067.png",
+      "PNG_sha256": "d694a7de1742d24e8cb11934ecd857152966eb21be919c492f096c400fe5ddc0",
+      "render_seconds": 4.420198440551758
+    },
+    {
+      "index": 68,
+      "display_time_s": 136.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5441.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0068.png",
+      "PNG_sha256": "48ccc7c61a791dc2127c4bc278e9132308fe3c813c6b695eab012ebb0d65de47",
+      "render_seconds": 4.584437370300293
+    },
+    {
+      "index": 69,
+      "display_time_s": 138.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5521.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0069.png",
+      "PNG_sha256": "521a183bddbc09973f1157428ce34d163daede182527d80be3c7c597306d7582",
+      "render_seconds": 4.390993595123291
+    },
+    {
+      "index": 70,
+      "display_time_s": 140.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5601.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0070.png",
+      "PNG_sha256": "09240135a3c1a06f34d2ed6bca3e573dd7339888d51b24fa0c741b4cb27c7392",
+      "render_seconds": 4.623518705368042
+    },
+    {
+      "index": 71,
+      "display_time_s": 142.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5681.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0071.png",
+      "PNG_sha256": "acbcd0771394a9fdf1f673d5943de7d3392d3010f7412e50454a0f5ca8cb2a0d",
+      "render_seconds": 4.508682012557983
+    },
+    {
+      "index": 72,
+      "display_time_s": 144.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5761.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0072.png",
+      "PNG_sha256": "6827ead6caeb4179b74ac1d2fd0862b95f04ffe7d6e98a483a89442a809ff3bc",
+      "render_seconds": 4.346062183380127
+    },
+    {
+      "index": 73,
+      "display_time_s": 146.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5841.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0073.png",
+      "PNG_sha256": "6f5ea76560e9ed946eb74496d7ccb767e7fb397b3c724f9155b281e2063bad53",
+      "render_seconds": 4.545790910720825
+    },
+    {
+      "index": 74,
+      "display_time_s": 148.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 5921.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0074.png",
+      "PNG_sha256": "990ee387f73ed64ada334b9c67316e8006d2473124a0147b8a9ccaa0a7f55ff6",
+      "render_seconds": 4.4207940101623535
+    },
+    {
+      "index": 75,
+      "display_time_s": 150.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6001.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0075.png",
+      "PNG_sha256": "78125bf34ef280e870794cf2973308c9cf7306be4bc5a19b60f6840ebac1dabd",
+      "render_seconds": 4.476009368896484
+    },
+    {
+      "index": 76,
+      "display_time_s": 152.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6081.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0076.png",
+      "PNG_sha256": "475443ff875e2dae5aa64004e4fbff9cb4dccd26eec42db6dbcafd1abdf0c446",
+      "render_seconds": 4.36692214012146
+    },
+    {
+      "index": 77,
+      "display_time_s": 154.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6161.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0077.png",
+      "PNG_sha256": "4b2e64148acf4938b5ece56919835f1a05f5670292cd784dbcef139e6dabb1da",
+      "render_seconds": 4.447388410568237
+    },
+    {
+      "index": 78,
+      "display_time_s": 156.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6241.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0078.png",
+      "PNG_sha256": "549372a7bca03d8ca1ca763817a5dbf69f21dfce0076955f4b02d419fb257e34",
+      "render_seconds": 4.4855055809021
+    },
+    {
+      "index": 79,
+      "display_time_s": 158.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6321.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0079.png",
+      "PNG_sha256": "691b654c5c56fea6673a2ffc016f0185559ab6f51c60f0cb9005f99fd4d87f30",
+      "render_seconds": 4.4653096199035645
+    },
+    {
+      "index": 80,
+      "display_time_s": 160.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6401.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0080.png",
+      "PNG_sha256": "81861745c7cbdb574e5bb629b19d1289959c65f92547c9e461aec81336329635",
+      "render_seconds": 4.506353855133057
+    },
+    {
+      "index": 81,
+      "display_time_s": 162.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6481.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0081.png",
+      "PNG_sha256": "04f34bfd66a497a1efa1dc469878c2ff0bfee4e65070a4ad041af449e90e1f38",
+      "render_seconds": 4.464389324188232
+    },
+    {
+      "index": 82,
+      "display_time_s": 164.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6561.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0082.png",
+      "PNG_sha256": "51252053467919575d49d0ab2dba3d312f7f42239c31044567ba9aec08d410bb",
+      "render_seconds": 4.4727513790130615
+    },
+    {
+      "index": 83,
+      "display_time_s": 166.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6641.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0083.png",
+      "PNG_sha256": "4abeea96f1fd462100978d03d222e29788f818a80d7fc2c233054c84880798ec",
+      "render_seconds": 4.404182434082031
+    },
+    {
+      "index": 84,
+      "display_time_s": 168.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6721.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0084.png",
+      "PNG_sha256": "a4bd1a4f56a12b4cfffea385e960e69e4fca08e526b19979924431526f6c032d",
+      "render_seconds": 4.513091325759888
+    },
+    {
+      "index": 85,
+      "display_time_s": 170.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6801.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0085.png",
+      "PNG_sha256": "62db63c3ebbd5d249cc64ddbdccdf4696cc3a6897f86f6a5ac7c4a727527e653",
+      "render_seconds": 4.727922439575195
+    },
+    {
+      "index": 86,
+      "display_time_s": 172.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6881.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0086.png",
+      "PNG_sha256": "b903f528b27dac7f0423508e9cd1123275f7d7f92503956ba15d6db3397c7e92",
+      "render_seconds": 4.547991037368774
+    },
+    {
+      "index": 87,
+      "display_time_s": 174.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 6961.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0087.png",
+      "PNG_sha256": "639f9561f91f6272d11307ecb8bf9df59666dcafb2e13fa5979277bc3dfac7b4",
+      "render_seconds": 4.352938652038574
+    },
+    {
+      "index": 88,
+      "display_time_s": 176.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7041.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0088.png",
+      "PNG_sha256": "10a4afec3db72bfaf6b7641e2f8bb86c39af825b850760620ccba9463b66b383",
+      "render_seconds": 4.445370197296143
+    },
+    {
+      "index": 89,
+      "display_time_s": 178.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7121.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0089.png",
+      "PNG_sha256": "779b07c829edb28ad4ae5969417686dc51fb18c28dece765e7a9f432bb56d0f6",
+      "render_seconds": 4.448861837387085
+    },
+    {
+      "index": 90,
+      "display_time_s": 180.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7201.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0090.png",
+      "PNG_sha256": "581442599084bf3596114ea898e79c88145e8dac6f741cbd9c7c7202bc8a611c",
+      "render_seconds": 4.38073992729187
+    },
+    {
+      "index": 91,
+      "display_time_s": 182.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7281.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0091.png",
+      "PNG_sha256": "fc52c13a1e472e9b82b871a3fb4e0816fd241e24b92c6c4f520feec600a13f7a",
+      "render_seconds": 4.4146764278411865
+    },
+    {
+      "index": 92,
+      "display_time_s": 184.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7361.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0092.png",
+      "PNG_sha256": "5fd7b867c4a178e4b492de154ddba4761ff1f096f08122b5963a5386dd4b6385",
+      "render_seconds": 4.4543373584747314
+    },
+    {
+      "index": 93,
+      "display_time_s": 186.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7441.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0093.png",
+      "PNG_sha256": "c42418a1433ef57f794893245b03f02fedc4e16180557788e2a573ae11afe27b",
+      "render_seconds": 4.383054494857788
+    },
+    {
+      "index": 94,
+      "display_time_s": 188.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7521.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0094.png",
+      "PNG_sha256": "d0be490f5b06455d314e75825121f1a2ed783a5fe5dcfbee3623954c4c89b489",
+      "render_seconds": 4.48371696472168
+    },
+    {
+      "index": 95,
+      "display_time_s": 190.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7601.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0095.png",
+      "PNG_sha256": "b4fe860995f95194c95bfdd58ac2215ef20c8dead92b6a94fea1cd4b05c4e6ed",
+      "render_seconds": 4.339691162109375
+    },
+    {
+      "index": 96,
+      "display_time_s": 192.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7681.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0096.png",
+      "PNG_sha256": "72026995765352eafa5b2c660e0317cc02285269316f71005a1f56cfa7488ab7",
+      "render_seconds": 4.327744245529175
+    },
+    {
+      "index": 97,
+      "display_time_s": 194.0,
+      "actual_clocks_s": {},
+      "source_frame_float": 7761.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0097.png",
+      "PNG_sha256": "9a000ca761b52cab2a1e3629b4cd2087c1b74f821cd2f234307872e51efe9faa",
+      "render_seconds": 4.268003702163696
+    },
+    {
+      "index": 98,
+      "display_time_s": 195.4417499971064,
+      "actual_clocks_s": {},
+      "source_frame_float": 7818.669999884256,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0098.png",
+      "PNG_sha256": "fadc61f3e67474b617bde8eb804cd23e43badc86c4c8f30c92f35cf2fd2bac5b",
+      "render_seconds": 4.506410360336304
+    }
+  ],
+  "video_fps": 12,
+  "nominal_display_interval_s": 2.0,
+  "nominal_display_speedup": 24.0,
+  "last_interval_shortened": true,
+  "physical_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/visual/release_v3/build_index.json": "129bb52ddf01ef9779af4cb3cf0cb8f999212483127602d7fd78f04f3cc5b752",
+    "work/r21-reduced-sway/visual/release_v3/readback.json": "57fec35845404b0762f7692613c1343d60f69a4cb51f777f51d36fa81840613c",
+    "work/r21-reduced-sway/visual/render_actual_comparison_final_v2.py": "acc07efd88f3d217d31b41dfb3d0b1b90600fad5338c495fc3c0df265b5b4479"
+  }
+}

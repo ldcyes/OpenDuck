@@ -1,0 +1,103 @@
+{
+  "motion_limits_sha256": "9afd167d27a2f63da1ac767f2307cd5f98c75a4e255bb06eca08b0024b980366",
+  "support_context": {
+    "default": "head_home_locked",
+    "stable_s": 0.5,
+    "sample_max_age_s": 0.1,
+    "sample_max_gap_s": 0.1,
+    "position_tolerance_rad": 0.008726646259971648,
+    "velocity_tolerance_rad_s": 0.03,
+    "supported_gyro_max_rad_s": 0.05,
+    "supported_tilt_max_deg": 5.0,
+    "supported_contact_automatically_proven": false
+  },
+  "revision": "R8-V11-head-envelope-provisional-20260906-3",
+  "head_names": [
+    "neck_pitch",
+    "head_pitch",
+    "head_yaw",
+    "head_roll"
+  ],
+  "head_delta_degrees": [
+    [
+      -20.0,
+      5.0
+    ],
+    [
+      -15.0,
+      15.0
+    ],
+    [
+      -15.0,
+      15.0
+    ],
+    [
+      -8.0,
+      8.0
+    ]
+  ],
+  "mouth_absolute_degrees": [
+    0.0,
+    12.0
+  ],
+  "mouth_structural_torque_limit_Nm": 0.05,
+  "mouth_load_acceptance_required": true,
+  "head_reference": "measured_home_rad",
+  "command_ranges": [
+    [
+      -0.15,
+      0.15
+    ],
+    [
+      -0.1,
+      0.1
+    ],
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      -0.3490658503988659,
+      0.08726646259971647
+    ],
+    [
+      -0.2617993877991494,
+      0.2617993877991494
+    ],
+    [
+      -0.2617993877991494,
+      0.2617993877991494
+    ],
+    [
+      -0.13962634015954636,
+      0.13962634015954636
+    ],
+    [
+      -0.0,
+      0.0
+    ],
+    [
+      -0.0,
+      0.0
+    ],
+    [
+      -0.03,
+      0.03
+    ],
+    [
+      -0.15,
+      0.15
+    ],
+    [
+      -0.15,
+      0.15
+    ],
+    [
+      -0.0,
+      0.0
+    ]
+  ],
+  "geometry_basis": "V11 synchronized head envelope; final skin recheck pending",
+  "physical_sweep_approved": false,
+  "single_support_dynamic_approved": false
+}

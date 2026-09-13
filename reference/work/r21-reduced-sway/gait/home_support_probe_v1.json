@@ -1,0 +1,373 @@
+{
+  "status": "BOUNDED_QZERO_PLANTED_FOOT_SINGLE_SUPPORT_REACHABILITY_NOT_GLOBAL_IMPOSSIBILITY_PROOF",
+  "stance": {
+    "id": "toe0_bend0_split0",
+    "toe_deg": 0.0,
+    "bend_deg": 0.0,
+    "hip_ankle_pitch_split_deg": 0.0,
+    "initial_q_HOME_delta_deg": {
+      "right_hip_yaw": 0.0,
+      "right_hip_roll": 0.0,
+      "right_hip_pitch": -0.0,
+      "right_knee": -0.0,
+      "right_ankle": -0.0,
+      "left_hip_yaw": -0.0,
+      "left_hip_roll": 0.0,
+      "left_hip_pitch": 0.0,
+      "left_knee": 0.0,
+      "left_ankle": 0.0,
+      "neck_pitch": 0.0,
+      "head_pitch": 0.0,
+      "head_yaw": 0.0,
+      "head_roll": 0.0,
+      "mouth_candidate": 0.0
+    },
+    "initial_base_transform_m": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.24608297729492187
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "foot_target_transforms_mm": {
+      "ankle_left": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          246.08297729492188
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ankle_right": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          246.08297729492188
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "initial_head_point_world_mm": [
+      32.15540619630929,
+      -0.002542452600427706,
+      530.1017867718092
+    ],
+    "foot_area_centers_mean_world_mm": {
+      "ankle_left": [
+        18.106862247955306,
+        100.58870106039888,
+        0.0
+      ],
+      "ankle_right": [
+        16.694613382280032,
+        -98.22491371440377,
+        0.0
+      ]
+    },
+    "foot_inner_Y_gap_mm": 70.9327507019043,
+    "foot_flatness_span_mm": 0.0
+  },
+  "endpoint": {
+    "support_link": "ankle_left",
+    "numerically_feasible": false,
+    "solver_success": false,
+    "solver_message": "Positive directional derivative for linesearch",
+    "iterations": 15,
+    "seconds": 23.119726419448853,
+    "q_HOME_delta_deg": {
+      "right_hip_yaw": -5.6449981140354915,
+      "right_hip_roll": 25.803770987026773,
+      "right_hip_pitch": -7.35218767177757,
+      "right_knee": 4.679133741600701,
+      "right_ankle": -6.254803080988549,
+      "left_hip_yaw": -9.709474187211407,
+      "left_hip_roll": 27.32709710378492,
+      "left_hip_pitch": 25.859185137513524,
+      "left_knee": 24.99059046144619,
+      "left_ankle": 10.581806965915058,
+      "neck_pitch": 0.0,
+      "head_pitch": 0.0,
+      "head_yaw": 0.0,
+      "head_roll": 0.0,
+      "mouth_candidate": 0.0
+    },
+    "base_transform_m": [
+      [
+        0.9533395410785052,
+        0.2396255204590189,
+        -0.18363912807724297,
+        -0.01185815354234755
+      ],
+      [
+        -0.13288104768231115,
+        0.8792433357202907,
+        0.4574645163925913,
+        0.02103719357046933
+      ],
+      [
+        0.27108365237150905,
+        -0.41171685238304306,
+        0.8700591283819293,
+        0.23146543856521584
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "body_rpy_deg": [
+      -25.323774824206186,
+      -15.728760651256543,
+      -7.935037079968192
+    ],
+    "root_lateral_mm": 21.03719357046933,
+    "head_lateral_from_stance_mm": 146.69318384829242,
+    "head_point_world_mm": [
+      -33.36070912236494,
+      146.69064139569198,
+      487.29644810851664
+    ],
+    "closure_scaled_residual": 0.1277167229216936,
+    "minimum_inequality": -0.005650936717463806,
+    "static": {
+      "torque_Nm": {
+        "right_hip_yaw": -0.1169284679951148,
+        "right_hip_roll": -0.41670735009152426,
+        "right_hip_pitch": -0.07568007735381727,
+        "right_knee": -0.14077016223014852,
+        "right_ankle": 0.021671827314314412,
+        "left_hip_yaw": 0.6144847649166556,
+        "left_hip_roll": 0.04115372623147462,
+        "left_hip_pitch": -1.1477841171188896,
+        "left_knee": -1.1478167087693592,
+        "left_ankle": -0.850022659232159,
+        "neck_pitch": -0.6687525506450908,
+        "head_pitch": 0.039990777978802405,
+        "head_yaw": -0.07934982531314635,
+        "head_roll": -0.07733905297310273,
+        "mouth_candidate": -0.05395321458341354
+      },
+      "utilization": {
+        "right_hip_yaw": 0.129920519994572,
+        "right_hip_roll": 0.46300816676836026,
+        "right_hip_pitch": 0.05605931655838316,
+        "right_knee": 0.10427419424455445,
+        "right_ankle": 0.021671827314314412,
+        "left_hip_yaw": 0.682760849907395,
+        "left_hip_roll": 0.04572636247941624,
+        "left_hip_pitch": 0.8502104571251033,
+        "left_knee": 0.8502345990884141,
+        "left_ankle": 0.850022659232159,
+        "neck_pitch": 0.7430583896056564,
+        "head_pitch": 0.04443419775422489,
+        "head_yaw": 0.6103832716395873,
+        "head_roll": 0.5949157921007902,
+        "mouth_candidate": 0.6744151822926692
+      },
+      "max_utilization": 0.8502345990884141,
+      "support_link": "ankle_left",
+      "contact_wrench_world_force_torque_at_point": [
+        0.0,
+        0.0,
+        41.15386772814408,
+        -2.344576157182461,
+        1.5692417436355879,
+        9.659596771149128e-17
+      ],
+      "support_reference_point_world_m": [
+        0.018106862312790944,
+        0.10058870125276183,
+        7.494921847658314e-09
+      ],
+      "COP_world_m": [
+        -0.02002422548682366,
+        0.043617721692095525,
+        7.494921847658314e-09
+      ],
+      "COP_margin_mm": 7.998965908855425,
+      "COM_world_m": [
+        -0.02002422548682366,
+        0.043617721692095525,
+        0.2461593091023113
+      ],
+      "ankle_pivot_world_m": [
+        3.340076655145713e-05,
+        0.12165063768625259,
+        0.047355903029441815
+      ],
+      "ankle_axis_world": [
+        -1.6083246770403424e-07,
+        0.9961917485695175,
+        -0.0871894493730818
+      ],
+      "COM_minus_ankle_world_mm": [
+        -20.05762625337512,
+        -78.03291599415707,
+        198.80340607286948
+      ],
+      "whole_robot_gravity_moment_about_support_ankle_Nm": -0.8223058973165784,
+      "static_equilibrium_root_residual": 1.1102230246251565e-16
+    },
+    "guard_gaps_mm": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "guard_pairs": [
+      [
+        "left_knee_motor",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "left_knee_motor",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "left_knee_fixed",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "left_knee_fixed",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "R11_upper_leg_left_dual_rail",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "R11_upper_leg_left_dual_rail",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "right_knee_motor",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "right_knee_motor",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "right_knee_fixed",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "right_knee_fixed",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "R11_upper_leg_right_dual_rail",
+        "R17_battery_front_relocated_limiter_hosts"
+      ],
+      [
+        "R11_upper_leg_right_dual_rail",
+        "R13_battery_rear_internal_passages"
+      ],
+      [
+        "left_hip_roll_motor",
+        "R20_left_hip_rail_offset"
+      ],
+      [
+        "left_hip_roll_fixed",
+        "R20_left_hip_rail_offset"
+      ]
+    ],
+    "roll_cap_deg": 25.0,
+    "yaw_cap_deg": 20.0,
+    "head_side_cap_mm": 150.0,
+    "objective": 5.6553017778551995
+  },
+  "sources": {
+    "work/r21-reduced-sway/gait/reduced_core_v2.py": "8f4f7d042e59322fcbb42774130d5cafff90e7c7bb0b18777c9002b59ef647ad",
+    "work/r20-walking-fix/assembly_final/assembly_selection.json": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact4.xml": "07853dbc0732042d31aae1c6c935a3374a355a07e74eeffe04efe46aefb23839",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_left_TPU_contact_pad_W130.stl": "c5eeb7dd1082a0697c3d21dac750d5486acb7c7db416a23c48623581269f81a1",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_right_TPU_contact_pad_W130.stl": "bf778d4dc8aff3ce6455e57c134862f55cd38a427204d99331ce3d22f5aff2f7",
+    "work/r11-integration/shells/STL_R11_\u96c6\u6210\u58f3\u5019\u9009/R11_45_top_head_shell.stl": "c8870cf186afedcc64ae5e7c6ae9f44409f66b94c5c8187b176f3d0b51d8f344",
+    "work/r21-reduced-sway/gait/home_support_probe_v1.py": "c906e7837f25e4ba1d9639952ddb86416ea59a154ddcc4149f8b220f85eef3f2",
+    "work/r21-reduced-sway/gait/support_pair_v4.json": "4ff93266e6fdf84529a0c71b8ff44d05992d7c7141fec935544f30f429777e3a",
+    "work/r20-walking-fix/geometry/collision_guard.py": "2a10fe676b1eba546a026e152661d1e2408caf7bd755a0e192ec46a9d87362c4",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3",
+    "work/r12-motion/python-deps/manifold3d.cpython-310-x86_64-linux-gnu.so": "6783f6f05f4e9f1e38f077b5381def2c99f8ecd06c6ff5c7f9ac694c19d1f5f5",
+    "work/rk-mechanics/python-deps/trimesh/__init__.py": "a50d8a9c4346fa0c5f6ca0c234effd12c548b1bee58197abb8106cb5e79d3360",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/0811c7059b_x-430_idle.stp": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R11_upper_leg_left_dual_rail.stl": "8c05aee5c0cb30c907e1c527887aa8bc00817a01b85c39720ee769d7945ac19b",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_\u6beb\u7c73/R11_upper_leg_left_dual_rail.step": "edd4e619143e6ac7f0990daad43a6203a74c15af51bb79924492bc3fc0031ecc",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R11_upper_leg_right_dual_rail.stl": "8a22db130a4f02c08ab7c67f52f0f0fcfb9e0c3843eb0be41877aa0d5d52b4f1",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_\u6beb\u7c73/R11_upper_leg_right_dual_rail.step": "f84ae3ee2b861263e2c80af13251ce13fad1f7388a7440d10b49809ac3fb8217",
+    "work/r17-module-mount/cradle/candidate_v3/R17_battery_front_relocated_limiter_hosts.stl": "ae27b5272bc25e5e96254aa897fdbb38654898f4a7d02dd05ab13dbd6cb55c3a",
+    "outputs/Microduck_RK_R13_\u914d\u7535\u7535\u8def\u4e0e\u626d\u77e9\u9a8c\u8bc1/\u7ed3\u6784\u4e0e\u5b89\u88c5/CAD/f50f50636588_R13_battery_rear_internal_passages.stl": "f50f50636588f873f87abe16acb9fcd091d55f2267e95f4d26fd6e0d78de116f",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6"
+  }
+}

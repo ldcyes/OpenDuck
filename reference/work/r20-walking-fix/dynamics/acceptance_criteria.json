@@ -1,0 +1,23 @@
+{
+  "status": "PREDECLARED_ENGINEERING_SIMULATION_CHECKS",
+  "physical_approved": false,
+  "minimum_completed_steps_each_foot": 2,
+  "minimum_net_forward_each_foot_mm": 15.0,
+  "maximum_root_orientation_reference_error_deg": 3.0,
+  "maximum_joint_tracking_error_deg": 3.0,
+  "maximum_stance_foot_polygon_point_horizontal_displacement_mm": 3.0,
+  "maximum_continuous_actuator_saturation_s": 0.020,
+  "minimum_peak_swing_sole_floor_clearance_mm": 2.0,
+  "force_threshold_for_loaded_contact_N": 2.0,
+  "nominal_timestep_s": 0.00025,
+  "sensitivity_timestep_s": 0.000125,
+  "nominal_sliding_friction": 0.8,
+  "sensitivity_sliding_friction": 0.5,
+  "notes": [
+    "At least four actual forward steps, two per foot, with one continuously integrated free base; no mid-run pose reset or base forces.",
+    "The stance slip metric includes foot rotation through every source sole outline vertex; origin is first actually loaded sample in that planned stance.",
+    "Saturation is measured from actual actuator force at every integration step, including startup.",
+    "Clearance and slip are sampled every 20 ms; numerical joint interval envelopes separately support CAD interference checks.",
+    "Passing these checks does not qualify hardware, friction, measured motor capacity, thermal performance or material compliance."
+  ]
+}

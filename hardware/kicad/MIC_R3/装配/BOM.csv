@@ -1,0 +1,11 @@
+Reference,Value,MPN,Quantity,Footprint,Side,Source
+U1,T5848 LEFT HQ,MMICT5848-00-012,1,Microduck_Audio_R3:T5848_LGA8_BottomPort,F,https://www.invensense.tdk.com/en-us/download-resource/ds-000479-t5848-datasheet
+U2,TXU0204PWR,TXU0204PWR,1,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,F,https://www.ti.com/lit/ds/symlink/txu0204.pdf
+U3,1.8V LDO,TLV75518PDBVR,1,Package_TO_SOT_SMD:SOT-23-5,B,https://www.ti.com/lit/ds/symlink/tlv755p.pdf
+J1,SH5,SM05B-SRSS-TB(LF)(SN),1,Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,F,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+C1,100nF X7R,GRM188R71C104KA01D,1,Capacitor_SMD:C_0603_1608Metric,F,
+C2,1uF 10V X7R,GRM188R71A105KA61D,1,Capacitor_SMD:C_0603_1608Metric,B,
+C3,1uF 10V X7R,GRM188R71A105KA61D,1,Capacitor_SMD:C_0603_1608Metric,B,
+C4,100nF X7R,GRM188R71C104KA01D,1,Capacitor_SMD:C_0603_1608Metric,F,
+C5,100nF X7R,GRM188R71C104KA01D,1,Capacitor_SMD:C_0603_1608Metric,F,
+R1,100k SD PULLDOWN,RC0603FR-07100KL,1,Resistor_SMD:R_0603_1608Metric,F,

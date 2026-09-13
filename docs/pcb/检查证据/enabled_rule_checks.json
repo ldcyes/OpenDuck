@@ -1,0 +1,407 @@
+{
+  "status": "ADDITIONAL_DIAGNOSTIC_IGNORED_RULES_ENABLED_NOT_A_CHANGE_TO_RELEASED_PROJECTS",
+  "boards": [
+    {
+      "board_type": "AMP_R3",
+      "changed_severities": {},
+      "returncode": 0,
+      "DRC": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {},
+      "pcb_sha256": "8fd191ea98b738bf9ab6d23ea251b13a8971567ce9717bf8abd2c291d737051d",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/AMP_R3/Microduck_Audio_AMP_R3.kicad_pro",
+      "modified_project_sha256": "81b1197e7d307b8aa6f6b62f1b90395bf2f469e486b5651b984b175f8b57c570",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/AMP_R3/DRC.json",
+      "report_sha256": "d0fea1e3f8a79c8cfa9c51f1348cf2587e8fcbdde049ef0bbab34aab1037aabf"
+    },
+    {
+      "board_type": "Entry_5V_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 8,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 8
+      },
+      "pcb_sha256": "864652875e261d18fdd1146cd26b4253dcd7b37ad463e8328c32e4d5fbdf2fbe",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Entry_5V_R8/Microduck_Entry_5V_R8.kicad_pro",
+      "modified_project_sha256": "0fb0686713dd61aac39fc65fada4250a7d4f3f1cc20e23954d38e92eb7619758",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Entry_5V_R8/DRC.json",
+      "report_sha256": "fcd1955bec3c0706f23d8258d50e2a1ab3796ad5876c6cccf987e5d52823c791"
+    },
+    {
+      "board_type": "IMU_P0",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 0,
+      "DRC": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {},
+      "pcb_sha256": "4b33356dbd906924793c085c4c0a9b54af4f1310773fa9b9ec3d43c9cf205df1",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/IMU_P0/Microduck_IMU_3V3_Prototype.kicad_pro",
+      "modified_project_sha256": "b61f5a81d373baa541ec03b9fa420a49f84c2fc7c9fca681170b745289b3140d",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/IMU_P0/DRC.json",
+      "report_sha256": "5c2244269d5a6b5a19f9a95085c39c0bc9d9ded1f1a1997322300079f4074866"
+    },
+    {
+      "board_type": "MIC_R3",
+      "changed_severities": {},
+      "returncode": 0,
+      "DRC": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {},
+      "pcb_sha256": "9ad87dbde7098c1652bacafa8f05759448f11e020c00bd0eebac9de2695caaef",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/MIC_R3/Microduck_Audio_MIC_R3.kicad_pro",
+      "modified_project_sha256": "93fdc99618162b1d27056b227bfd3f8371b77c5187066d20470cf229cd8dc7a9",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/MIC_R3/DRC.json",
+      "report_sha256": "b7bb34d76301598cb2d2922a3adac32cfdbff6c186995dc3aab3acb330222990"
+    },
+    {
+      "board_type": "Main_Fuse_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 2,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 2
+      },
+      "pcb_sha256": "e785d7ae8ad6bcc0908122bd986ea8a8b6c5919be4dfc5a76c3a4ff947b95679",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Main_Fuse_R8/Microduck_Main_Fuse_R8.kicad_pro",
+      "modified_project_sha256": "ec5fbd11ae9653660c063a78d59992156bb8c6e12fc78ea47666910ebd0db574",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Main_Fuse_R8/DRC.json",
+      "report_sha256": "e438d09ea63b51b11c0852f9f4e28bf8f2c152bb6854dac13580b46833af9b62"
+    },
+    {
+      "board_type": "Regen_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 9,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 9
+      },
+      "pcb_sha256": "28513a035488680c3fb9c127abb4082873da9581e5a9760f0f273673dc1f9d05",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Regen_R8/Microduck_Brake_Control_R8.kicad_pro",
+      "modified_project_sha256": "b62c10b8905bfbea799d556446681cec6ab40da5f909a01ff03528e6e8df8a96",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Regen_R8/DRC.json",
+      "report_sha256": "dbbfe1b8466d845c10b778e9751fb1cccefc67d382e7ee19c6b568bfd491df34"
+    },
+    {
+      "board_type": "TDK_Power_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 4,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 4
+      },
+      "pcb_sha256": "a67104e10085d72b7a3563bf14e59fa9fe3571e0e9a1d187c18c16177a453193",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/TDK_Power_R8/Microduck_TDK_Power_R8.kicad_pro",
+      "modified_project_sha256": "5f7ca1c22efbf08725a8db54c1636e6613a95fe354291cce7ee6a9f1c35bef37",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/TDK_Power_R8/DRC.json",
+      "report_sha256": "05d00af831d623bdbd681f274d74ed3a44554a817bd9befb9cc5160952444ac0"
+    },
+    {
+      "board_type": "Thermal_65C_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 0,
+      "DRC": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {},
+      "pcb_sha256": "0df9205fe70e3c02d7f19ddfb315337ddf17f5f2178c24b1ecd5dbeef6ffd966",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Thermal_65C_R8/Microduck_Thermal_65C_R8.kicad_pro",
+      "modified_project_sha256": "e079092c4cd3b24b70e96d53d5c4d1ae331f0e54d8582b26a92d0859dad93d71",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Thermal_65C_R8/DRC.json",
+      "report_sha256": "51470fe3b145be0bb2b40c24dc91811e4d7a2a8faf1c85f83167ddf150398d0d"
+    },
+    {
+      "board_type": "Thermal_75C_R8",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 0,
+      "DRC": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {},
+      "pcb_sha256": "ffad9611ede1a57d12fb51a00e294fd44756f5a6ec9656e529b452929aa702fb",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Thermal_75C_R8/Microduck_Thermal_75C_R8.kicad_pro",
+      "modified_project_sha256": "6c432d9b11d6141fc2acbb72fb19e249dacd6788f7e4b66e7bd055eb80228498",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Thermal_75C_R8/DRC.json",
+      "report_sha256": "870c85716201635c80b190763c2351a5c39889b752c713eab95724c2a82ce656"
+    },
+    {
+      "board_type": "Microduck_CM4_Carrier_R13",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 16,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "track_not_centered_on_via": 5,
+        "missing_courtyard": 11
+      },
+      "pcb_sha256": "5941f60649c94801b04a9b848a809a45c7fb16f57b04456a0a485da6b7b08a00",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Microduck_CM4_Carrier_R13/Microduck_CM4_Carrier_R13.kicad_pro",
+      "modified_project_sha256": "1dfe247731c1f2f907320f710661c4ba943d8c860e47e43bccfbb434996ed8b2",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_CM4_Carrier_R13/DRC.json",
+      "report_sha256": "50b7d05bb5de3ce42f7084c9c603fbd8a8a1b157820357dc4a7ee50b0d25d073"
+    },
+    {
+      "board_type": "Microduck_PDB_R13_LEG5",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 2,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 2
+      },
+      "pcb_sha256": "dd02cd9213c7cb89ed49d66761165444fc2a4f599a0e2bff7ef84acadf4f78bf",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Microduck_PDB_R13_LEG5/Microduck_PDB_R13_LEG5.kicad_pro",
+      "modified_project_sha256": "5aa968d956ae7f8060ed1ae2cba4e2871d2e8699948b064f25182ceb0a6b2302",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_LEG5/DRC.json",
+      "report_sha256": "86fdd78084d64d9ecbcfa5f106366192047d2c9ab8d67eb2a7bfcf5f3945c476"
+    },
+    {
+      "board_type": "Microduck_PDB_R13_HEAD3",
+      "changed_severities": {
+        "footprint_filters_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "footprint_type_mismatch": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "missing_courtyard": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "track_not_centered_on_via": {
+          "before": "ignore",
+          "after": "warning"
+        },
+        "tuning_profile_track_geometries": {
+          "before": "ignore",
+          "after": "warning"
+        }
+      },
+      "returncode": 5,
+      "DRC": 2,
+      "unconnected": 0,
+      "parity": 0,
+      "violation_types": {
+        "missing_courtyard": 2
+      },
+      "pcb_sha256": "8a51d9b9b8ddee52aa9101152f4b52a248510ac9b6adbc6cc79c0bc1e482f5b4",
+      "modified_diagnostic_project": "work/r21-reduced-sway/pcb_review/enabled_rule_copies_v2/Microduck_PDB_R13_HEAD3/Microduck_PDB_R13_HEAD3.kicad_pro",
+      "modified_project_sha256": "b45903819b27c8bfce29e7bdd98500c2ead0253d505858861832c5ddec700abf",
+      "report": "work/r21-reduced-sway/pcb_review/checks_enabled_v2/Microduck_PDB_R13_HEAD3/DRC.json",
+      "report_sha256": "2bfc854787bfbf3506b148e05abf88dd2a0580ad215cf0968b363be42c80f8c4"
+    }
+  ],
+  "total_DRC": 43,
+  "limits": [
+    "Ignored rule severities alone are promoted to warning on separate project copies. Original widths, clearances, netclasses, custom rules and all native PCB geometry are unchanged.",
+    "This diagnostic must be reported separately from the original declared-rule DRC results."
+  ],
+  "sources": {
+    "work/r21-reduced-sway/pcb_review/fresh_checks.json": "02a1922e9f58f4e912f15bdb4b7085ce606012228da61472e1877ef8bcb5488a",
+    "work/r21-reduced-sway/pcb_review/check_ignored_rules_v2.py": "8782321992230d131eeeea743577b6b3f4cb45599dc2ca2d5cb79e2ab204c8b6"
+  }
+}

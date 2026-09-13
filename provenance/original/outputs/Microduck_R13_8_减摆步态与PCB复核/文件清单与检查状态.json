@@ -1,0 +1,2405 @@
+{
+  "status": "R21_REDUCED_SWAY_NUMERICAL_UPDATE_WITH_UNCHANGED_R13_7_CAD_BASE",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "normal_speed_walking_qualified": false,
+  "all_assembly_clearances_qualified": false,
+  "viewer_self_contained": true,
+  "native_CAD_base_required_for_script_reproduction": true,
+  "actual_amplitude_improved_in_both_metrics": true,
+  "predeclared_sway_targets_met": false,
+  "files": [
+    {
+      "path": "工程更新/work/r21-reduced-sway/baseline_snapshot.json",
+      "source_path": "work/r21-reduced-sway/baseline_snapshot.json",
+      "sha256": "56b6eb6f44c2918026cb51b09815188adf55ac5b98dad956cb00b1ce5cfc2d5c",
+      "bytes": 2052
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/delivery_artifacts.json",
+      "source_path": "work/r21-reduced-sway/delivery_artifacts.json",
+      "sha256": "155722c5e848f1bb2a0caa56e8c74ec4645fd5781559288b94a9e25bacd14220",
+      "bytes": 2016
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/analyze_run_r21_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/analyze_run_r21_v1.py",
+      "sha256": "c1181c6e6e628d5a7f0d026d286a9dfa2b7e6657a5ed84e7cb470833197cd3f0",
+      "bytes": 6099
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/build_final_delivery_index_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/build_final_delivery_index_v1.py",
+      "sha256": "c6c8db57f1a4f33d0c7262ae25d5ce10c73b7c13490d00b6f91108da1bb34baf",
+      "bytes": 11745
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/compare_sway_r21.py",
+      "source_path": "work/r21-reduced-sway/dynamics/compare_sway_r21.py",
+      "sha256": "36e816ff1e52b4f00f3fc913c50098f3415a41c2a1cbe68107b1a90bf0bc1b28",
+      "bytes": 2550
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/controller_r21_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/controller_r21_v1.py",
+      "sha256": "1f04fd2560f1e9496471092ce11ae9da59b9e60ef95ec619b70a888e72b2743b",
+      "bytes": 12073
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/export_trace_r21_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/export_trace_r21_v1.py",
+      "sha256": "8f4addffee9c1f2d2ff70154b67d03d7cd825312a1fdefb5aeb587a8c7a913cc",
+      "bytes": 2712
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/final_delivery_index.json",
+      "source_path": "work/r21-reduced-sway/dynamics/final_delivery_index.json",
+      "sha256": "870eea3b312d8aff62fb53ba9fcfb5c997413e1c4766c81f52a3a67f33970852",
+      "bytes": 221748
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/acceptance.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/acceptance.json",
+      "sha256": "6fd04522e145951498b22c16505c021f21f08bb52cd2fb7254736d8bcde05695",
+      "bytes": 5794
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/actual_contact_supplement.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/actual_contact_supplement.json",
+      "sha256": "db8e17f4b332a656a96fce5712438b072aa511510d1fee9a86e2acfc999c15c2",
+      "bytes": 12400
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/dynamic_trace_for_CAD.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/dynamic_trace_for_CAD.json",
+      "sha256": "2b28c5afc080a463428b72a0ad76aa99a64458871ae1ea56cbbb93d05d4658ac",
+      "bytes": 16053143
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/interval_joint_bounds.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/interval_joint_bounds.json",
+      "sha256": "a6ab229d52962dd6b92321509f4dc839c7dc3307849b59e416cc2d853e8649c0",
+      "bytes": 38921898
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/report.json",
+      "sha256": "858cae8cdfc0811b8e27d4369aaf213fa5888fc45a3074cf6f140511ac543227",
+      "bytes": 7425
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/sway_comparison.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/sway_comparison.json",
+      "sha256": "2bd61279b6bf13968e7cf808eee57d61c2d427d7730ca9c6e8240f2a7c151a3f",
+      "bytes": 148556
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/sway_extended_statistics.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/sway_extended_statistics.json",
+      "sha256": "572a665993bc4595c642860fb206887d3a0a327a35b003886923817aa3806c24",
+      "bytes": 9538
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/contact9/trajectory.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/contact9/trajectory.json",
+      "sha256": "f04f9810e8109e7a2da13f1200d6424b6c2ab57755f63bc3f8c2a386fa91f8a5",
+      "bytes": 232832455
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/feedforward_contact4.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/feedforward_contact4.json",
+      "sha256": "019e50b63d1198611b5fe710f2062163a55e46a38686676718acda77d37bc61c",
+      "bytes": 38120412
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/feedforward_contact9.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/feedforward_contact9.json",
+      "sha256": "21ee97acab7d8f8b95f3d0d083f7a91a61040ea9cdd6c6a90c7907f420337111",
+      "bytes": 38120412
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/acceptance.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/acceptance.json",
+      "sha256": "d6aeabc042085d789a1ff9196577f58cb2a388bc1dd44aaa6a01cf60248e4b6e",
+      "bytes": 5798
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/actual_contact_supplement.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/actual_contact_supplement.json",
+      "sha256": "10b094f34f146a32b93756be20f873c1053ceed2259be3285483aeb1cab31f46",
+      "bytes": 11622
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/dynamic_trace_for_CAD.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/dynamic_trace_for_CAD.json",
+      "sha256": "6da76c3b94595775f0584fbf848b86dcd312926c16a10c4aefa4e1127dfe00ea",
+      "bytes": 16052067
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/interval_joint_bounds.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/interval_joint_bounds.json",
+      "sha256": "7a52a71924463d0e125d28c504831a4fc8bd1e60dbb46c21bda0aa45e1b08d9b",
+      "bytes": 38901460
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/report.json",
+      "sha256": "baef8fd96282eac0a7b1fc6c8dbbf1fa52513b51bd91637a8b2a55d6b768e8f0",
+      "bytes": 7425
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/sway_comparison.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/sway_comparison.json",
+      "sha256": "df8caa234879d686ecb29e1b24c0752f8a646e3f45d73ca2f448ed0b78ebce15",
+      "bytes": 148512
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/sway_extended_statistics.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/sway_extended_statistics.json",
+      "sha256": "1bc3a87374cd3a3d80eae2cb5bd2a12d6ecccb59482bb1bd781cf3397e06dcca",
+      "bytes": 9547
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/friction_0p5/trajectory.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/trajectory.json",
+      "sha256": "dfd21361fa30bb3b5535b6a0cf3c7077a9fe2e54b15a4cfb93ee33df5f4d1273",
+      "bytes": 131749977
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/acceptance.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/acceptance.json",
+      "sha256": "cc7ed3b066302491bd6ccdaeded0c0b48b41afcea0804172f198db72adbe358e",
+      "bytes": 5800
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/actual_contact_supplement.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/actual_contact_supplement.json",
+      "sha256": "1abc263c8764a63f0394f4ba54f43a9885022a51e354c512056dec1524cd90c5",
+      "bytes": 11611
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/dynamic_trace_for_CAD.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/dynamic_trace_for_CAD.json",
+      "sha256": "5198843db8ecf6ebe87fda3988e7d9c89286f990d2180b159a5c27e6a2443d1f",
+      "bytes": 16053070
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/interval_joint_bounds.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/interval_joint_bounds.json",
+      "sha256": "ab653e88e4bb053b19c51022c34ffdd3ce6a2cea92f6766bbd5664e62171bf63",
+      "bytes": 38925847
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/report.json",
+      "sha256": "81a1943f99441df3a2b5f16f929109663a0d43a1ea067a78c8c31f493a4b866a",
+      "bytes": 7424
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/sway_comparison.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/sway_comparison.json",
+      "sha256": "1adfbc7f8b60bf7cd075928851c29b80841e4519c080b6b4a36428a2f56c9458",
+      "bytes": 148518
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/sway_extended_statistics.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/sway_extended_statistics.json",
+      "sha256": "9862bd5fbf93738d9350f49052163f39c84c150ac72bc19afb23ca6b5da49d59",
+      "bytes": 9543
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/half_timestep/trajectory.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/half_timestep/trajectory.json",
+      "sha256": "894bceaf678c4e448da3b8b35dd801a788e250249c48fa3500f34d32c46be017",
+      "bytes": 132061726
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/acceptance.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/acceptance.json",
+      "sha256": "47f308361b139cfb44502ffdec2f610933701852136bbdaaba9b684d4f95f17b",
+      "bytes": 5774
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/actual_contact_supplement.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/actual_contact_supplement.json",
+      "sha256": "c05dde6a19855391f1dc7e3df06228c91e769c7dfb0b046e73de74c48441ffc6",
+      "bytes": 11607
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json",
+      "sha256": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+      "bytes": 16052232
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/interval_joint_bounds.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/interval_joint_bounds.json",
+      "sha256": "9d2e3e387096741ca300561c40f09581c2af3c0f55d83af7eafc910a2f9e9a6f",
+      "bytes": 38902301
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/report.json",
+      "sha256": "81b4423fa399bfc89fbeb425c18f9c8e7ee75c7557bc934db5958ad10ab81b02",
+      "bytes": 7431
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/sway_actual_time_overlay.png",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_actual_time_overlay.png",
+      "sha256": "54c1f6c68244d050a95ab925d6573d48ec663cfd553330cf21c99af80f1ebbfc",
+      "bytes": 254944
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.json",
+      "sha256": "d1b2e54df9375da5067cd39e6e4bdf96622bb596f757c03949d0cabb50fad2b5",
+      "bytes": 148484
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.png",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.png",
+      "sha256": "32b8763ba12e4f804a0b922494e2b06a8723e51a3d7ec4160a05e98ac0ee4607",
+      "bytes": 292797
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/sway_extended_statistics.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_extended_statistics.json",
+      "sha256": "549fe19939b0ba45f47a34aec494f52eaea32ac442b7ac328327ca75f66cabfb",
+      "bytes": 9526
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/full_v3/nominal/trajectory.json",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/trajectory.json",
+      "sha256": "81f98a4d78a643e050ab511704ba1282fe593f74f2f35723225f8bf597142d54",
+      "bytes": 131798392
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/isolation_check.json",
+      "source_path": "work/r21-reduced-sway/dynamics/isolation_check.json",
+      "sha256": "bf7daa23e4a96b999b724e1d3638d604ca7ca805d505854ef49d6288596e0ecb",
+      "bytes": 488
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/midtransfer_full_v1/feedforward_contact4.json",
+      "source_path": "work/r21-reduced-sway/dynamics/midtransfer_full_v1/feedforward_contact4.json",
+      "sha256": "c80c2350b9006561aee80a7ebc8c4fc7c8133e3e195a3588c35dccad6a8015d7",
+      "bytes": 12335041
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/midtransfer_full_v1/nominal/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/midtransfer_full_v1/nominal/report.json",
+      "sha256": "eb1c715b083ce1a0b69192ce00c369722a708eefd5bcb503986ea7141f773526",
+      "bytes": 7458
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/pipeline_preparation.json",
+      "source_path": "work/r21-reduced-sway/dynamics/pipeline_preparation.json",
+      "sha256": "420f96483fb642094e6dd3db4fd3cd1ab65ca854cd32ac95e62eebccc7c6b0e0",
+      "bytes": 4358
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/plot_full_gait_guard_check_v2.json",
+      "source_path": "work/r21-reduced-sway/dynamics/plot_full_gait_guard_check_v2.json",
+      "sha256": "cb984cf87b7fb15d121de73e36dab4c52799703433e7968c6451a4b868ca515c",
+      "bytes": 467
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/plot_sway_comparison_v2.py",
+      "source_path": "work/r21-reduced-sway/dynamics/plot_sway_comparison_v2.py",
+      "sha256": "a9e4e20f7279ed270d036037ce3b934604d163696a765b9b05aa26efb7850199",
+      "bytes": 5602
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/prefix_v1/feedforward_contact4.json",
+      "source_path": "work/r21-reduced-sway/dynamics/prefix_v1/feedforward_contact4.json",
+      "sha256": "3c497467d00f0dfe61991d4e2597d4a043fc7789a248d4b9c018f453b73987f9",
+      "bytes": 6602516
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/prefix_v1/nominal/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/prefix_v1/nominal/report.json",
+      "sha256": "d9ed64f0908e1592cf4416d04d6b8f55b8b7e5b81cf1533ae22d0e21479908f1",
+      "bytes": 7432
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/prepare_feedforward_r21_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/prepare_feedforward_r21_v1.py",
+      "sha256": "78743b225680fd917674ff04c83d02ab6991df1097cc46b059fa633bae583d20",
+      "bytes": 4696
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/stance_v4_hold/feedforward_contact4.json",
+      "source_path": "work/r21-reduced-sway/dynamics/stance_v4_hold/feedforward_contact4.json",
+      "sha256": "f00d653e99be20886bb5031a712190b23984c8f72ad8ec320ecb4f82d1e8a86b",
+      "bytes": 454263
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/stance_v4_hold/nominal/report.json",
+      "source_path": "work/r21-reduced-sway/dynamics/stance_v4_hold/nominal/report.json",
+      "sha256": "e47d76ba13cc7edcffb98d30cb24991033203f87f8fa4e52b8b69eeb91ee218b",
+      "bytes": 7456
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/stance_v4_hold/reference.json",
+      "source_path": "work/r21-reduced-sway/dynamics/stance_v4_hold/reference.json",
+      "sha256": "546a2d4bc7e67af50bda94aee15796e8c2e82a9ce3bc4fce59030ba8ade4f192",
+      "bytes": 266668
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/supplement_actual_contact_v1.py",
+      "source_path": "work/r21-reduced-sway/dynamics/supplement_actual_contact_v1.py",
+      "sha256": "557829046af8be3cfff23f527f23597d44ee1983f06c481868531a6b7fc2ac35",
+      "bytes": 3888
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/dynamics/四步减摆动力学对照.md",
+      "source_path": "work/r21-reduced-sway/dynamics/四步减摆动力学对照.md",
+      "sha256": "b2872553d32d82e62b75dcb50fc76c6d5a8aae8d72ce394b76a59687e21aaa06",
+      "bytes": 2352
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/audit_pending_electronics_mass.py",
+      "source_path": "work/r21-reduced-sway/evidence/audit_pending_electronics_mass.py",
+      "sha256": "51674725646199ac7181e39ff9ceb96d501cbda0b3272bdf0cc816d3cfead610",
+      "bytes": 4364
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/decompose_head_sway.py",
+      "source_path": "work/r21-reduced-sway/evidence/decompose_head_sway.py",
+      "sha256": "84f0ecc0729f6fb5b826bb5dddbdde5527f814a67baa6fcd73fe0948f91e4d9e",
+      "bytes": 2222
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/freeze_metrics_contract.py",
+      "source_path": "work/r21-reduced-sway/evidence/freeze_metrics_contract.py",
+      "sha256": "e3b4f7e4a0f5d990d76630b5d000f12571d42cf7b875802c128224d0ba51ecab",
+      "bytes": 5667
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/independent_static.py",
+      "source_path": "work/r21-reduced-sway/evidence/independent_static.py",
+      "sha256": "c46e2fa921081f597df3f5c8aecae726dc7148380020e977610e66f6711869c9",
+      "bytes": 7608
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/independent_static/full_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/evidence/independent_static/full_4steps_v3.json",
+      "sha256": "d745cf41b37856c1bc979567954e416fc77536df24b36062e6e98d6d73720492",
+      "bytes": 3164408
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/metrics_contract.json",
+      "source_path": "work/r21-reduced-sway/evidence/metrics_contract.json",
+      "sha256": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+      "bytes": 43024
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/metrics_regression.json",
+      "source_path": "work/r21-reduced-sway/evidence/metrics_regression.json",
+      "sha256": "4a9a7ff28820510bdc463beb5b522acd3c84d0b133deb1db82c6fbfca3a374aa",
+      "bytes": 1605
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/pending_electronics_mass_audit.json",
+      "source_path": "work/r21-reduced-sway/evidence/pending_electronics_mass_audit.json",
+      "sha256": "f36fbeeab913fed1d029fd4b3fc201333ac24e9c7696f29deb4ae8a8a3eefc3d",
+      "bytes": 48712
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/r20_fixed_marker_baseline.json",
+      "source_path": "work/r21-reduced-sway/evidence/r20_fixed_marker_baseline.json",
+      "sha256": "2e107eb9c79e9c6cb044a2ea6eb1828c404bb211e5bbf26897d4d283bb05765e",
+      "bytes": 150065
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/r20_head_sway_decomposition.json",
+      "source_path": "work/r21-reduced-sway/evidence/r20_head_sway_decomposition.json",
+      "sha256": "cce3aa1f10067563d6d0977fcbb9adba7e2ac246a23d122edfddfb09652ca361",
+      "bytes": 1806
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/sway_metrics.py",
+      "source_path": "work/r21-reduced-sway/evidence/sway_metrics.py",
+      "sha256": "44137a614da204b05271b8e7e4a787985244294fb47b214af30eb55094c23c9c",
+      "bytes": 6184
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/evidence/test_sway_metrics.py",
+      "source_path": "work/r21-reduced-sway/evidence/test_sway_metrics.py",
+      "sha256": "9d816057226da881be48f45217058127699647913cbe6a7b37622c6ff41f9698",
+      "bytes": 3621
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/final_review.py",
+      "source_path": "work/r21-reduced-sway/final_review.py",
+      "sha256": "48a96d038f558736b8f96d4f77001ef6871a47fc8cd4211361118d459e53005d",
+      "bytes": 13690
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/final_review_index.json",
+      "source_path": "work/r21-reduced-sway/final_review_index.json",
+      "sha256": "c591bfe4d699eed639c479a64d02ef7f628ed7d24b4fc2832f761750d53bad99",
+      "bytes": 311782
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/actual_stance_geometry_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/actual_stance_geometry_v1.json",
+      "sha256": "c77bda95c979296c49399684501fb43f456dfc00bfadcfd9882d2a998b6bc5cc",
+      "bytes": 48315
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/build_reduced_cycle_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/build_reduced_cycle_v1.py",
+      "sha256": "28a9930f140eba5d3ced94898cc11925d3ba4a4dc17f2b12e7e3c5b315b3030a",
+      "bytes": 7990
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/build_reduced_cycle_v2.py",
+      "source_path": "work/r21-reduced-sway/gait/build_reduced_cycle_v2.py",
+      "sha256": "285d2f2a05da1d3be7a7b28fdbd3db6d82e1236b968d7068d41932360fb81916",
+      "bytes": 8156
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/build_reduced_cycle_v3.py",
+      "source_path": "work/r21-reduced-sway/gait/build_reduced_cycle_v3.py",
+      "sha256": "e3c2fc91fec694c5153d4e2d88fc90d234efa6e5766ff77318e0e7368f7ada4b",
+      "bytes": 9241
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/build_reduced_cycle_v4.py",
+      "source_path": "work/r21-reduced-sway/gait/build_reduced_cycle_v4.py",
+      "sha256": "61bfd41646803b06223b9211d76d7ca103675f73b7e237ac066e70186706481c",
+      "bytes": 9243
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/coupled_stance_endpoint_v4.json",
+      "source_path": "work/r21-reduced-sway/gait/coupled_stance_endpoint_v4.json",
+      "sha256": "ef482a2674ab842ea1379a9060a749893461acb6318389ef844da3f5ee019c3c",
+      "bytes": 15087
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/cycle_resume_checkpoint_v2.json",
+      "source_path": "work/r21-reduced-sway/gait/cycle_resume_checkpoint_v2.json",
+      "sha256": "fa57e64b76e654acefdf8441cf3ca4d682e652bbffc1708ecbcdf5a9b62efe43",
+      "bytes": 145825
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/cycle_resume_checkpoint_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/cycle_resume_checkpoint_v3.json",
+      "sha256": "237637e895f2df585632e1de2095ac76fd99e8ea7eb6210e633bf0011c9379f6",
+      "bytes": 855450
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/cycle_resume_checkpoint_v4.json",
+      "source_path": "work/r21-reduced-sway/gait/cycle_resume_checkpoint_v4.json",
+      "sha256": "2891177766f3e6950ca8c487bd5e375533bd5c8ada4b9ddb5ec779f1a77fe465",
+      "bytes": 1044426
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/cycle_resume_checkpoint_v5.json",
+      "source_path": "work/r21-reduced-sway/gait/cycle_resume_checkpoint_v5.json",
+      "sha256": "613209571cdf1751626b046ca8e25b665016e23a57208dc8b4acaf23d1d1a8fd",
+      "bytes": 1912479
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/describe_stance_geometry_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/describe_stance_geometry_v1.py",
+      "sha256": "e44681be1c0ea274bbfeceec9d278a33d9ad66fc77b1dbbc3d25fe31e79efa60",
+      "bytes": 2383
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/export_midtransfer_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/export_midtransfer_v1.py",
+      "sha256": "bdd32170ce92f9ece9ba28fdaf1ab2e55479efebb8420de168a89e20deb52c59",
+      "bytes": 10380
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/export_reduced_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/export_reduced_v1.py",
+      "sha256": "d062daa55469a877d36eed37776ae1af8380b0e9b22bd643ccf5aae846808f90",
+      "bytes": 10381
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/export_reduced_v3.py",
+      "source_path": "work/r21-reduced-sway/gait/export_reduced_v3.py",
+      "sha256": "6f1aedd01c7587b2d9d3a52d3635d5955ccaee08f5cba07a9e64bd4c59ef2231",
+      "bytes": 10434
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/final_delivery_index.json",
+      "source_path": "work/r21-reduced-sway/gait/final_delivery_index.json",
+      "sha256": "1766d2c7eb9803839640457007fb7f4f09dd931d7b8814d38bd9e727b51ffbe9",
+      "bytes": 224562
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/finish_cycle_v5.py",
+      "source_path": "work/r21-reduced-sway/gait/finish_cycle_v5.py",
+      "sha256": "b2f2c900fa985f5ea96f76d8e31cea4fe95099cce8dec0f4822782b0cbb22002",
+      "bytes": 9297
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/freeze_gait_delivery_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/freeze_gait_delivery_v1.py",
+      "sha256": "950bb7694c35813dbfc77fc49517853992681393b5c0ead019f47d0e39639e73",
+      "bytes": 7460
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/freeze_prefix_when_ready_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/freeze_prefix_when_ready_v1.py",
+      "sha256": "8b6b67b3b39368fefc46878271b2284e5d0b390eef7403e20117a4dd3a6d89b4",
+      "bytes": 1722
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/home_support_probe_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/home_support_probe_v1.json",
+      "sha256": "e428b7881633086ba95510de71bb89449a747befb70fa8b15d0d130de47f4513",
+      "bytes": 12409
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/home_support_probe_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/home_support_probe_v1.py",
+      "sha256": "c906e7837f25e4ba1d9639952ddb86416ea59a154ddcc4149f8b220f85eef3f2",
+      "bytes": 576
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/keypoint_both_support_static_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/keypoint_both_support_static_4steps_v3.json",
+      "sha256": "221017e1ef740a468ff11d9de27c4274f64fc4dbf809eae0c81e8d6b4234bdca",
+      "bytes": 2114453
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/load_shares_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/load_shares_4steps_v3.json",
+      "sha256": "ea9005772dea207ffdbf3aabb76c6464213408244d1b9dda7e6fe53580669333",
+      "bytes": 14654119
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/math_review_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/math_review_4steps_v3.json",
+      "sha256": "a2de9c1537e802dfab304b34781d846475bb1943be7dfaedcb7e07d3e840c20b",
+      "bytes": 6390
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/phase_boundaries_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/phase_boundaries_4steps_v3.json",
+      "sha256": "77b27deeee5e699b29b2181acefa812af552f1a6d060c7c646601022a345cd2f",
+      "bytes": 4178
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_core_v2.py",
+      "source_path": "work/r21-reduced-sway/gait/reduced_core_v2.py",
+      "sha256": "8f4f7d042e59322fcbb42774130d5cafff90e7c7bb0b18777c9002b59ef647ad",
+      "bytes": 6635
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_cycle_keypoints_v2.json",
+      "source_path": "work/r21-reduced-sway/gait/reduced_cycle_keypoints_v2.json",
+      "sha256": "afef0e67d385c4f259305fdb9a8ca7c99eba53a39bfccbb805418a4e88f6d049",
+      "bytes": 861090
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_cycle_keypoints_v4.json",
+      "source_path": "work/r21-reduced-sway/gait/reduced_cycle_keypoints_v4.json",
+      "sha256": "844fc06e1e797e1aae26c72b32462023c4b3dbd674344ce44a2ce88b1822b9b5",
+      "bytes": 1911560
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_cycle_keypoints_v5.json",
+      "source_path": "work/r21-reduced-sway/gait/reduced_cycle_keypoints_v5.json",
+      "sha256": "4a9cc6369e2d39e965cefe530446512c31532ec4ffc39589bf570cfa0138c128",
+      "bytes": 1929559
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_midtransfer_keypoints_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/reduced_midtransfer_keypoints_v1.json",
+      "sha256": "c1bcd58bf48733d6a5d4dd01003bc1a31f83c7ba33b6f188e7070f8c28dd41ad",
+      "bytes": 1198481
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/reduced_prefix_keypoints_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/reduced_prefix_keypoints_v1.json",
+      "sha256": "5aa17baedc6cccb67f94894d49ebc02dc3f6851a693e0ea1d5feb13b85db0711",
+      "bytes": 687493
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/refine_stance_and_endpoint_v4.py",
+      "source_path": "work/r21-reduced-sway/gait/refine_stance_and_endpoint_v4.py",
+      "sha256": "ef26fcdc2a05769a55e5f4f44c972725a9c87188d01799e93e82aa40b3ec9654",
+      "bytes": 3798
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/release_support_pair_v4.py",
+      "source_path": "work/r21-reduced-sway/gait/release_support_pair_v4.py",
+      "sha256": "51b1e76be54ecb2ff9950893b8ee184647e77deb39043471370f072b4e43697c",
+      "bytes": 2428
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/screen_load_shares_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/screen_load_shares_v1.py",
+      "sha256": "f88d430b25fe5c975fdf637cb3adf2e6fc0b9176e23b54fffdf610d6b0669cc8",
+      "bytes": 3333
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/stance_comparison_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/stance_comparison_v1.json",
+      "sha256": "a3516418cbab8f7bff9d3eff94a93ab39c73c90dc72777bcc4091abdba2f682e",
+      "bytes": 7167
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/support_pair_v4.json",
+      "source_path": "work/r21-reduced-sway/gait/support_pair_v4.json",
+      "sha256": "4ff93266e6fdf84529a0c71b8ff44d05992d7c7141fec935544f30f429777e3a",
+      "bytes": 23936
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/trajectory_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/trajectory_4steps_v3.json",
+      "sha256": "9ae29d7be2dd7e211482bfb13ba49b2234e4ecaf782c945b46b9a944b41a7d5d",
+      "bytes": 28227378
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/trajectory_midtransfer_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/trajectory_midtransfer_v1.json",
+      "sha256": "fd9bf1e37ed6ca1c2c155ae5f82e312b5353f2f0127cc358a43096fba865f4be",
+      "bytes": 9055935
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/trajectory_prefix_v1.json",
+      "source_path": "work/r21-reduced-sway/gait/trajectory_prefix_v1.json",
+      "sha256": "f98c02ca3ed670c9dde9704941be6f978e7932b45c524c8a0d78a4903a218f1f",
+      "bytes": 4928790
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/trajectory_segments_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/trajectory_segments_4steps_v3.json",
+      "sha256": "ee996121ee5e1fd0f35455ab0b462212d96fdfecd7962540a70db8ae8ff8431b",
+      "bytes": 1271801
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/trajectory_support_4steps_v3.json",
+      "source_path": "work/r21-reduced-sway/gait/trajectory_support_4steps_v3.json",
+      "sha256": "2df65085af162daefe7c60a512fbcd47b950c231517da5c0f19ba33bdcb44955",
+      "bytes": 35561594
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/verify_trajectory_v1.py",
+      "source_path": "work/r21-reduced-sway/gait/verify_trajectory_v1.py",
+      "sha256": "6c5f2637e071d05bc8a54448090d94829974706525c95b9b9ea14e1983d0bb19",
+      "bytes": 4604
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/gait/减摆步态说明.md",
+      "source_path": "work/r21-reduced-sway/gait/减摆步态说明.md",
+      "sha256": "a4d37ee4d67c46a81015e8008a2a2f7bbaa4ad7fd5e8ff88f19fa27b0d01168c",
+      "bytes": 2931
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3/numerical_state_box_check.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3/numerical_state_box_check.json",
+      "sha256": "1058c8adcab5d1074c264054d446e8adc0cdf71288db4feb3a070de2b6fb49b4",
+      "bytes": 21141250
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_anchors/actual_anchor_adjudication.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_anchors/actual_anchor_adjudication.json",
+      "sha256": "a482ba6fd81bcb907a158891690ffeef89954e0cf76b5160f3188187b22b9baa",
+      "bytes": 27108
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_coverage/independent_actual_geometry_review.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_coverage/independent_actual_geometry_review.json",
+      "sha256": "81f1d694bc37761585f7e9437bdbca564bcdf82cf1fe75283badbd3a5773da1b",
+      "bytes": 188591
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_all_part_minimum_z_mm.npz",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_all_part_minimum_z_mm.npz",
+      "sha256": "eed2c3e7060ed5e8595f7ff6baa70f8f96b6e9f6ae9e0c9b89f035c49c52067a",
+      "bytes": 34393756
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_floor_report.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_floor_report.json",
+      "sha256": "8c83425656c4ff2179eb0f856f77dbc6144861274d023c53114528a5f9834562",
+      "bytes": 846195
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_floor_samples.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_floor/actual_4steps_v3_floor_floor_samples.json",
+      "sha256": "0bd272ffd1ee62ec7a94efce2b97585d779543f201d4cc5d9bbf260fbd9a9644",
+      "bytes": 8671893
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/actual_4steps_v3_floor/index.json",
+      "source_path": "work/r21-reduced-sway/geometry/actual_4steps_v3_floor/index.json",
+      "sha256": "178f386c58cf0f536b09f9900d6761db057cabec304355083298a6de55564642",
+      "bytes": 91857
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/adjudicate_actual_anchors.py",
+      "source_path": "work/r21-reduced-sway/geometry/adjudicate_actual_anchors.py",
+      "sha256": "2299b3307f734e66a26e7e69550bc6772e5519559031c36a9dc5c7d2a154674f",
+      "bytes": 4889
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/check_floor.py",
+      "source_path": "work/r21-reduced-sway/geometry/check_floor.py",
+      "sha256": "b35d92a965c1804f358b619a1978da3cecb614251ba8865f1c5584a96003656b",
+      "bytes": 9107
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/cache_identity_audit.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/cache_identity_audit.json",
+      "sha256": "e8e5e4ab76cf9339b03b93f3139814c820a26a0291085dd585cec5c410148bf8",
+      "bytes": 245467
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/cache_identity_audit.py",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/cache_identity_audit.py",
+      "sha256": "a0ad9ee8281b1d37a83e9b8423543b8d18af6a1d0d15e1e20868b7d34d67934b",
+      "bytes": 4454
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/chunk0_input.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/chunk0_input.json",
+      "sha256": "b844af9f230cc418e87a30c879f0a226b417c6fff5a01231272b9e5e0f7e4e0e",
+      "bytes": 290634
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/chunk1_input.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/chunk1_input.json",
+      "sha256": "5d79c892ee1ca759e73fb6d60bab1768b675c2693192c8f8d6c90a235ed99988",
+      "bytes": 291055
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/chunk2_input.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/chunk2_input.json",
+      "sha256": "eb4d28f7fdaf9437c1b120738b3767f318010a41f90044cc24f717b6b17486d8",
+      "bytes": 290671
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/chunk3_input.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/chunk3_input.json",
+      "sha256": "f295acf23e4b0e4749ea4a06a21654acc6dc77ae75bf144bea6702ec72ea2f74",
+      "bytes": 286787
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/merge_audit.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/merge_audit.json",
+      "sha256": "e3655cb9b4c342f0f8b4fa62f6e6da2eb690de649155a54e6b4501f1293b52ba",
+      "bytes": 180527
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/merge_reference.py",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/merge_reference.py",
+      "sha256": "0831ce2b73bbc3c17e90c58a03bc760e1cfc268442b8e16b107461cd003e40b0",
+      "bytes": 11246
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/partition_index.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/partition_index.json",
+      "sha256": "30fef14bd660b71d119162975b55142631d7caf27d7c7710a62c979099b25135",
+      "bytes": 9295
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3/split_reference.py",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3/split_reference.py",
+      "sha256": "fb5c013b1413f754c7115935732a50d15e5dec08fc38fe75b438160ba09df0c3",
+      "bytes": 2075
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3_chunk0/parallel_reference_v3_chunk0_continuous.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3_chunk0/parallel_reference_v3_chunk0_continuous.json",
+      "sha256": "cee91b5bb926eaa649184ad050bf93d176058dea583f163335e71f89647c1c1b",
+      "bytes": 663633
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3_chunk1/parallel_reference_v3_chunk1_continuous.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3_chunk1/parallel_reference_v3_chunk1_continuous.json",
+      "sha256": "3e47cfa36a88a9943908fbe849e8d5c5fe67507ffa891a072077a09a04041214",
+      "bytes": 675004
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3_chunk2/parallel_reference_v3_chunk2_continuous.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3_chunk2/parallel_reference_v3_chunk2_continuous.json",
+      "sha256": "90e5dc97accf4630795be8dd71add33c295261b8857d68e6eb47f4408ba60d3a",
+      "bytes": 680163
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/parallel_reference_v3_chunk3/parallel_reference_v3_chunk3_continuous.json",
+      "source_path": "work/r21-reduced-sway/geometry/parallel_reference_v3_chunk3/parallel_reference_v3_chunk3_continuous.json",
+      "sha256": "07aec2f92318ab6b23965dd0e41b3f4aad694b2aab17db4ec10a093b24d9e2a5",
+      "bytes": 678950
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/prepare_reference_input.py",
+      "source_path": "work/r21-reduced-sway/geometry/prepare_reference_input.py",
+      "sha256": "45958a75d34f50c5d0dc46f278a2247ce8cabfcb64d90074b9bcc3a9b9fbbfa3",
+      "bytes": 3227
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3/reference_4steps_v3_continuous.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3/reference_4steps_v3_continuous.json",
+      "sha256": "3b65f5b6ad77d17a56f4cee66508bd005eafc45447340e67ebc6ab9a9c4afc5d",
+      "bytes": 821067
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3/reference_4steps_v3_finite.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3/reference_4steps_v3_finite.json",
+      "sha256": "c7c24d52db56e9cab997de049e91eef9e9e1a81a392f28ff58031544d3b552fc",
+      "bytes": 2974786
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_floor/index.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_floor/index.json",
+      "sha256": "c031868eb6837ba4e0b740b841eea8f41bf517216238f43bac79086feb49ef69",
+      "bytes": 92870
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_all_part_minimum_z_mm.npz",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_all_part_minimum_z_mm.npz",
+      "sha256": "d5b5e9c1418c337c6a290010deb64aab8eb652bfe0d1ce853f8a9aa684587d86",
+      "bytes": 27845403
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_floor_report.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_floor_report.json",
+      "sha256": "fe2e754cc4d423d8956ea508e917d3f52ef231053087375b1dae24684f01dbf4",
+      "bytes": 842965
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_floor_samples.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_floor/reference_4steps_v3_floor_floor_samples.json",
+      "sha256": "90b1af23b9515bf04068f2a4ca773d1afc6ea8af6754ff4a09a8af7867799e0b",
+      "bytes": 7406410
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_input.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_input.json",
+      "sha256": "022204d2136a9b531172bc148999682bea269a61774dd38d0c2cf65032d7269a",
+      "bytes": 1234874
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/reference_4steps_v3_review/reference_review.json",
+      "source_path": "work/r21-reduced-sway/geometry/reference_4steps_v3_review/reference_review.json",
+      "sha256": "186d914b85be9aaa067cc103ffdadb3d80a44d1451be22408a4bcecf68e32ac7",
+      "bytes": 188519
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/review_actual_coverage.py",
+      "source_path": "work/r21-reduced-sway/geometry/review_actual_coverage.py",
+      "sha256": "8fe56567b817f478604a980ee09fe8b426570d35e03c511bf12c9650ae9a8cb8",
+      "bytes": 11828
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/review_reference.py",
+      "source_path": "work/r21-reduced-sway/geometry/review_reference.py",
+      "sha256": "5a11f11ebe0d43463308fffce3528509ada531783604f2d857572e7ccaa532ec",
+      "bytes": 5918
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/geometry/run_material_check.py",
+      "source_path": "work/r21-reduced-sway/geometry/run_material_check.py",
+      "sha256": "8b51b714bc552b690a0651568ee3630710d29bfb6edb20af3937e6a6c0220cb4",
+      "bytes": 1814
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/pcb_review/publication_verification.json",
+      "source_path": "work/r21-reduced-sway/pcb_review/publication_verification.json",
+      "sha256": "17f68dafeccb2a37843d9db73a55fab12332c20be3ab8bfb62596198163c352b",
+      "bytes": 468
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/publish_update.py",
+      "source_path": "work/r21-reduced-sway/publish_update.py",
+      "sha256": "9688ac21dd51db0c2e73d78dfefd338be39fd8687dc7153ecc3f105640e89998",
+      "bytes": 7649
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/update_current_state.py",
+      "source_path": "work/r21-reduced-sway/update_current_state.py",
+      "sha256": "46ec80c7dfb9cac1a9d8b61975d1d75ac88585b53cedd1558ac2455f716a56ac",
+      "bytes": 3826
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/bind_actual_phase_mapping.py",
+      "source_path": "work/r21-reduced-sway/visual/bind_actual_phase_mapping.py",
+      "sha256": "b6bbb6e31ddf82d6c2186b299df36a140f41ea807c474b1b4c09ecf8771f86bf",
+      "bytes": 2764
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/blender_actual_helpers.py",
+      "source_path": "work/r21-reduced-sway/visual/blender_actual_helpers.py",
+      "sha256": "d7750f6673ac6a06e8be8257f705480e10a6800220e55ecddce95490e5dd3016",
+      "bytes": 8233
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/build_actual_comparison.py",
+      "source_path": "work/r21-reduced-sway/visual/build_actual_comparison.py",
+      "sha256": "59240056b8537cad116f7b26882431e866e44ed65b1bddd0b170dec77833fc06",
+      "bytes": 10469
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/comparison_timeline.py",
+      "source_path": "work/r21-reduced-sway/visual/comparison_timeline.py",
+      "sha256": "949896684797f8904f86c783ef34fca405db32b0f90b8376ed4ab17aab9e586e",
+      "bytes": 4547
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/encode_verified_videos.py",
+      "source_path": "work/r21-reduced-sway/visual/encode_verified_videos.py",
+      "sha256": "e064f3b9504d1e79b243a1e21c44675c4b74fc3ff48d534df02be9e87642cd19",
+      "bytes": 7645
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/finalize_visual_delivery.py",
+      "source_path": "work/r21-reduced-sway/visual/finalize_visual_delivery.py",
+      "sha256": "f14b6f48245972370dfdd017212ec8693b4cd095c6779b84285f02a266fec21c",
+      "bytes": 9372
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/frozen_baseline_source_graph_audit.json",
+      "source_path": "work/r21-reduced-sway/visual/frozen_baseline_source_graph_audit.json",
+      "sha256": "6998f77c6d271a0c1a5460598ba3f999f9180f26fca5008a3b506b47398fe362",
+      "bytes": 194025
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/independent_full_sway_audit.py",
+      "source_path": "work/r21-reduced-sway/visual/independent_full_sway_audit.py",
+      "sha256": "0ec055219b9983fd3d7947e4f560d076841cfe6f802679c00c8b01528c445df8",
+      "bytes": 3494
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/phase_reference_mapping_v3.json",
+      "source_path": "work/r21-reduced-sway/visual/phase_reference_mapping_v3.json",
+      "sha256": "e967d8f9171b7ffea6eafe875ccd46a49e21a5139ad1cf12a8777235d59e3dfe",
+      "bytes": 7755
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/prepare_phase_reference_mapping.py",
+      "source_path": "work/r21-reduced-sway/visual/prepare_phase_reference_mapping.py",
+      "sha256": "5ec52c938ec435a980f7f0bd5b80e52ef0db5c6f0bcae22fb3b2bab37b9b12d1",
+      "bytes": 1934
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/prepare_visual_inputs_v3.py",
+      "source_path": "work/r21-reduced-sway/visual/prepare_visual_inputs_v3.py",
+      "sha256": "af4861dd12eaab6321050b12ef3ee4abb18d1c49e46fcffce70a3f109d5aad6d",
+      "bytes": 7552
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/readback_actual_comparison.py",
+      "source_path": "work/r21-reduced-sway/visual/readback_actual_comparison.py",
+      "sha256": "99d1bde069cc3b366726824cfaa63ffa89d6013f3d991a3593dc1bae4c34c9e4",
+      "bytes": 9387
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+      "sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+      "bytes": 66216065
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/R20_R21_同参考阶段_对照.mp4",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R20_R21_同参考阶段_对照.mp4",
+      "sha256": "bbda309839ccdfbdc76f3656a4587d691537f1e9079aa9b629d2f8ee465073db",
+      "bytes": 1448840
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/R21_完整实际四步_约24倍速.mp4",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R21_完整实际四步_约24倍速.mp4",
+      "sha256": "94d06a9f2d111a77a5b18bf8732404f9eb4814849008c75ea3381cd470ce7daa",
+      "bytes": 1138871
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/R21_模型与视频查看说明.md",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R21_模型与视频查看说明.md",
+      "sha256": "fee22c3519639e3d8221c89d65bebb9313c6915d3473cd55a427a6c60e963e59",
+      "bytes": 4433
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/actual_phase_mapping.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/actual_phase_mapping.json",
+      "sha256": "24f02f3a3482d4722505fb1f1aa02d1f9e918b9a09008ed61ecfe613c1d585ae",
+      "bytes": 9244
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/build_index.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/build_index.json",
+      "sha256": "129bb52ddf01ef9779af4cb3cf0cb8f999212483127602d7fd78f04f3cc5b752",
+      "bytes": 1720077
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_encoding_audit.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_encoding_audit.json",
+      "sha256": "7d3eca9a30a27ab4ec3df5fe81d47787589caef3c0317e6c1c83cde6c40c2ca4",
+      "bytes": 80506
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0000.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0000.png",
+      "sha256": "d7d796b0391dad2ee4894dd6de482843bcc019e5652fb5084614d3ebf240ba80",
+      "bytes": 993629
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0001.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0001.png",
+      "sha256": "498e595564108a01a496fbfd918b89693f9038c434d405064ac5a122b417f9ff",
+      "bytes": 993602
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0002.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0002.png",
+      "sha256": "1d20eb1c8c01bed599985859a6a1e2f8b3cd6b21ee5975cb855aea887086fe38",
+      "bytes": 995478
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0003.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0003.png",
+      "sha256": "8789755994582ecaff001dabdbbe956e0883cbd3c744c7348d7c2da2e6671533",
+      "bytes": 999293
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0004.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0004.png",
+      "sha256": "6a7e9fa09383eb2a5436334804bc5bb4f3c6f6f604f6fea6cfd68394ac4aea68",
+      "bytes": 1003946
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0005.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0005.png",
+      "sha256": "af5cdae1eb43a0be91544e7d550555fdbbc832153ae98984920c777b7a9a5397",
+      "bytes": 1009148
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0006.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0006.png",
+      "sha256": "f32177c24f97ea32e9d84e7c892d4a7354736c4725af8ea175007f4506c89428",
+      "bytes": 1011563
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0007.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0007.png",
+      "sha256": "09cd14c491522fb3dde8ea6a460105c5064fe9cc9a115a8e01fbb6711ac0b389",
+      "bytes": 1014788
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0008.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0008.png",
+      "sha256": "35aa9447f0ee7a8063ae836b9b482c1072acd43c58c616b83d15e2b900d80a73",
+      "bytes": 1018907
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0009.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0009.png",
+      "sha256": "de18de9ea8ba81fde25cb0b70511c1541730f560205a71083516a17755fba7cd",
+      "bytes": 1021544
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0010.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0010.png",
+      "sha256": "34ad03f5c3e57b0b9d487a8bc4da7a90023fd4344543a635cab037438daefe95",
+      "bytes": 1025328
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0011.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0011.png",
+      "sha256": "d2ecdac3f8ff96ca5f42da13d68c4b447a9ee193fbd3d6337284ebb20089e0bf",
+      "bytes": 1024594
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0012.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0012.png",
+      "sha256": "04195b3b3a9c504dbf83d5c2f285e9876fda0afbe32a9fad247ba7f9d8a80ee9",
+      "bytes": 1025556
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0013.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0013.png",
+      "sha256": "0e2652479e9c0b45b114f56637e933a6fb0b1b9c37d70616bc034d707202eb1b",
+      "bytes": 1025252
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0014.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0014.png",
+      "sha256": "9cdf09280fd9bc5d6d47dceb25cc184815826d6229c106eeab131fe5bbcbbae9",
+      "bytes": 1026183
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0015.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0015.png",
+      "sha256": "eb290116dda8ee7ee1b5828b68b93433cfeb997f17f82810e24d0f782f78bac0",
+      "bytes": 1024690
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0016.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0016.png",
+      "sha256": "280c84418d0ab105f1e68c0a8a00b0de9280e93d60343d572dcb3d22b1c69a0e",
+      "bytes": 1024754
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0017.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0017.png",
+      "sha256": "f8aebeae3b6b744c9d921883b202446135b9f7a3d939e3237f3bc37f3b2fecb0",
+      "bytes": 1025093
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0018.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0018.png",
+      "sha256": "15518d3837b61f7cbba3c30145d10dec927724d3c0f23e7f5c9dcc85f9b0392c",
+      "bytes": 1022733
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0019.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0019.png",
+      "sha256": "58056fd00149fd943495c9494840595d1c563f7d6d27f75f20c308da597bd85d",
+      "bytes": 1018375
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0020.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0020.png",
+      "sha256": "219f664ff538232c79548ee065456b44a821f94437809b1de975002afc38aabb",
+      "bytes": 1015237
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0021.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0021.png",
+      "sha256": "10151ea46f1079bb5bde8e0469dbf3e52db9a95c0d375a66765d4794dff858e6",
+      "bytes": 1009736
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0022.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0022.png",
+      "sha256": "f6cc11012c290f8eeea30bdcdf872cbe43a8816ada2e514003ac012bb9317c94",
+      "bytes": 1004572
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0023.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0023.png",
+      "sha256": "57733784cf598d44714c7ba47d56e418c3738a14de117f9c12c52c4ee13c2845",
+      "bytes": 1003216
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0024.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0024.png",
+      "sha256": "d26c84cc2c7ce3afc4d32750250567c52c4eba4d8c404aa947f735470ec518d8",
+      "bytes": 1006545
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0025.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0025.png",
+      "sha256": "5e81fc8a83a6365e9c3c8280f343ab8a75e5dfc9268fa37944bc1c3f032c6772",
+      "bytes": 1008900
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0026.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0026.png",
+      "sha256": "5d2acbceb24c7ba6a7a3b48f2421db614155d61030c3966aba2ba5ce1a31e252",
+      "bytes": 1010996
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0027.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0027.png",
+      "sha256": "419461e9ab94f6d13ab7c360800183136c303e4e299c55c936c8d98ad44af1cd",
+      "bytes": 1013479
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0028.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0028.png",
+      "sha256": "5b088acb212767ed7aebea9ee53b6bf6b6df0700591b69ec2dbfa33c6af45abd",
+      "bytes": 1017432
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0029.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0029.png",
+      "sha256": "7e5eb1f4c31a091b36ac2d6ba2972364f797321c40b3ab5d7efede85488a8fbe",
+      "bytes": 1019907
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0030.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0030.png",
+      "sha256": "f26b095cd1346422b5e50512030359c7056238fe575daf1d9e42d1e1d6a152bf",
+      "bytes": 1021840
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0031.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0031.png",
+      "sha256": "677fee8b5ad6aa2b72690c10ca3720dd20f028a7743dd1e2a361ff1808bff581",
+      "bytes": 1024276
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0032.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0032.png",
+      "sha256": "6ed9ffe9f9f00d56621bbd1eecda1f99e58790ba4ffe99abd6dc3e72dc500ed4",
+      "bytes": 1023680
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0033.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0033.png",
+      "sha256": "dca33ccf0aaa9628f96ca33a1300221b0aeb11ef1e46475dcd01bb315d05bff5",
+      "bytes": 1025212
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0034.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0034.png",
+      "sha256": "e2e5bcc56f9cad5a036bcb01913511bcbd19582952eca4d8764c7f50f2cdf4b3",
+      "bytes": 1025521
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0035.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0035.png",
+      "sha256": "81e6daca03f755da013533e4a45858643dc4bcb69c9cd8c91bfff43c312909e3",
+      "bytes": 1025510
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0036.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0036.png",
+      "sha256": "30b7b213307f96fcfece0c56a2245a16c1bda9c347063944cbcfcd85f44690a8",
+      "bytes": 1025295
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0037.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0037.png",
+      "sha256": "3af155234dade615af52908ecc9e56e4f812138091f6b06b4fb90c676db9512d",
+      "bytes": 1025811
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0038.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0038.png",
+      "sha256": "12b3a2fa28c8d24e9156f7a3a6b6cd10503acbbd2b8ed515b6585394736b0f2d",
+      "bytes": 1023883
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0039.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0039.png",
+      "sha256": "5b8677f46ef3bb130b927c323fa69a803b01e4335aae901262554d31341033f0",
+      "bytes": 1024631
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0040.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0040.png",
+      "sha256": "84c804cfd3a3ac2260af929fd1ddf80d85a990e7582c10c03ec34c32a835f0b4",
+      "bytes": 1021944
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0041.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0041.png",
+      "sha256": "11b1bc81b64d67737b5e681c02295df25db107cc5714c95b70c502c679c79bd0",
+      "bytes": 1019742
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0042.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0042.png",
+      "sha256": "e3036f54cea8283db00bc5dae3349f2cc7697be046c746f86f1e8b9276982d79",
+      "bytes": 1016342
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0043.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0043.png",
+      "sha256": "fd624778caf268f1ef786d9502c9875d2ec6c0dc012ce8ea6486036c54834a9c",
+      "bytes": 1013184
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0044.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0044.png",
+      "sha256": "aa8293266dbe78ca7f1323f9dc1d6d1c3d39e787985afb191c51014143a0d11a",
+      "bytes": 1008833
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0045.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0045.png",
+      "sha256": "b0d3448f2cdc0b7de62badf93bcd796a5639579715e3d4b3fd40048931ae9e6d",
+      "bytes": 1003039
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0046.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0046.png",
+      "sha256": "e50146fd42a3624e45f37118747ded368840bd07c52e948c96d9d6c768fc94d1",
+      "bytes": 999148
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0047.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0047.png",
+      "sha256": "ccff453f6d5d14e2472b2bc1ca97c2820c6229c4c5a6c33e761250105eea88fe",
+      "bytes": 995740
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0048.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0048.png",
+      "sha256": "21d481f9eba014ca71a3cc944ddf96d06965854d3254faf6a43025258abbb780",
+      "bytes": 994447
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0049.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0049.png",
+      "sha256": "0b6a9d4d738c0ffb2e4bfc278fd8fa702734bfe1f002e3f31344c30cb43f539a",
+      "bytes": 993922
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0050.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0050.png",
+      "sha256": "b561738509aa8a6511ba5d49b43a2b6b9c80f472409110df16afac985081990c",
+      "bytes": 994409
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0051.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0051.png",
+      "sha256": "ff551b1bd8182c75f769282cc912970174f90f13dfec81d69c2d58eb9f6eb398",
+      "bytes": 996907
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0052.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0052.png",
+      "sha256": "f6d8324e53546532f4da49c38b388c7b8bed30fcc590664f0ca8357c5c88e1cc",
+      "bytes": 1000541
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0053.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0053.png",
+      "sha256": "e7c59df65ebe681ca19801072ff2794dd8bffcdd2f4e9f7509f9d144b4071069",
+      "bytes": 1004333
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0054.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0054.png",
+      "sha256": "0aeea6c4ecbd7dbfed9e0a4c34b70674ab818afe0d83c9f77b2f7f75caa8a0a5",
+      "bytes": 1008376
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0055.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0055.png",
+      "sha256": "205dca47bcbfde9299e52495eed1be74f4c8f8c86e1ece7397b4a69b95481267",
+      "bytes": 1013260
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0056.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0056.png",
+      "sha256": "e0d166f15ebf650c8b0edc1791213310bfed1554d6affd7a5d5905ca1362f646",
+      "bytes": 1015291
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0057.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0057.png",
+      "sha256": "f01ab3b36febe14e6fecbec04543afa40099d455eea57ab48454c83b14be7b25",
+      "bytes": 1019488
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0058.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0058.png",
+      "sha256": "d80fff9a6c1c0ca7f7b0cbbbc3d8f9effa9b799517a5569ffc2977fb50a91649",
+      "bytes": 1022612
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0059.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0059.png",
+      "sha256": "04502bd468cbd06ed53a8981afbe5ad793f93658096d0b255d4e14033b2eaeaf",
+      "bytes": 1025749
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0060.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0060.png",
+      "sha256": "ee6d29dcfa4affb3120a37bc2983400901d90a7b41e0fa2047c3f573fb25a51b",
+      "bytes": 1024668
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0061.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0061.png",
+      "sha256": "afdb7bf7992870fa5cd62dfdd602ee5e45440b2e5735d7bea724199b5be7e4c0",
+      "bytes": 1024770
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0062.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0062.png",
+      "sha256": "7a395c14b330b2bf70a048228f03ef220647125b525179b236ea5e6513f9d985",
+      "bytes": 1025409
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0063.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0063.png",
+      "sha256": "b6043e967d4efbeafe7da9e2554df605c2e65cac4f0c07f5535572fff31d37f1",
+      "bytes": 1026487
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0064.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0064.png",
+      "sha256": "8612c2ddcb51aac0113099a1c681eeba534ff33a1014906e785327bc31aeb9d5",
+      "bytes": 1025441
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0065.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0065.png",
+      "sha256": "70c01ca3d9925635a0a820530eff8875627beda822910e9f6c848c62f2b19329",
+      "bytes": 1024187
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0066.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0066.png",
+      "sha256": "a3cd6162e6394e724304b8bc754d5e1b3b9b0a8329a7a67b650aae33852f22a5",
+      "bytes": 1024643
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0067.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0067.png",
+      "sha256": "d694a7de1742d24e8cb11934ecd857152966eb21be919c492f096c400fe5ddc0",
+      "bytes": 1022596
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0068.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0068.png",
+      "sha256": "48ccc7c61a791dc2127c4bc278e9132308fe3c813c6b695eab012ebb0d65de47",
+      "bytes": 1018483
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0069.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0069.png",
+      "sha256": "521a183bddbc09973f1157428ce34d163daede182527d80be3c7c597306d7582",
+      "bytes": 1013927
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0070.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0070.png",
+      "sha256": "09240135a3c1a06f34d2ed6bca3e573dd7339888d51b24fa0c741b4cb27c7392",
+      "bytes": 1008986
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0071.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0071.png",
+      "sha256": "acbcd0771394a9fdf1f673d5943de7d3392d3010f7412e50454a0f5ca8cb2a0d",
+      "bytes": 1004066
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0072.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0072.png",
+      "sha256": "6827ead6caeb4179b74ac1d2fd0862b95f04ffe7d6e98a483a89442a809ff3bc",
+      "bytes": 1004304
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0073.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0073.png",
+      "sha256": "6f5ea76560e9ed946eb74496d7ccb767e7fb397b3c724f9155b281e2063bad53",
+      "bytes": 1007507
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0074.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0074.png",
+      "sha256": "990ee387f73ed64ada334b9c67316e8006d2473124a0147b8a9ccaa0a7f55ff6",
+      "bytes": 1009544
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0075.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0075.png",
+      "sha256": "78125bf34ef280e870794cf2973308c9cf7306be4bc5a19b60f6840ebac1dabd",
+      "bytes": 1011954
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0076.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0076.png",
+      "sha256": "475443ff875e2dae5aa64004e4fbff9cb4dccd26eec42db6dbcafd1abdf0c446",
+      "bytes": 1014749
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0077.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0077.png",
+      "sha256": "4b2e64148acf4938b5ece56919835f1a05f5670292cd784dbcef139e6dabb1da",
+      "bytes": 1017771
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0078.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0078.png",
+      "sha256": "549372a7bca03d8ca1ca763817a5dbf69f21dfce0076955f4b02d419fb257e34",
+      "bytes": 1020167
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0079.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0079.png",
+      "sha256": "691b654c5c56fea6673a2ffc016f0185559ab6f51c60f0cb9005f99fd4d87f30",
+      "bytes": 1021280
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0080.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0080.png",
+      "sha256": "81861745c7cbdb574e5bb629b19d1289959c65f92547c9e461aec81336329635",
+      "bytes": 1024465
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0081.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0081.png",
+      "sha256": "04f34bfd66a497a1efa1dc469878c2ff0bfee4e65070a4ad041af449e90e1f38",
+      "bytes": 1024514
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0082.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0082.png",
+      "sha256": "51252053467919575d49d0ab2dba3d312f7f42239c31044567ba9aec08d410bb",
+      "bytes": 1025815
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0083.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0083.png",
+      "sha256": "4abeea96f1fd462100978d03d222e29788f818a80d7fc2c233054c84880798ec",
+      "bytes": 1026409
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0084.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0084.png",
+      "sha256": "a4bd1a4f56a12b4cfffea385e960e69e4fca08e526b19979924431526f6c032d",
+      "bytes": 1027071
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0085.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0085.png",
+      "sha256": "62db63c3ebbd5d249cc64ddbdccdf4696cc3a6897f86f6a5ac7c4a727527e653",
+      "bytes": 1026885
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0086.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0086.png",
+      "sha256": "b903f528b27dac7f0423508e9cd1123275f7d7f92503956ba15d6db3397c7e92",
+      "bytes": 1025604
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0087.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0087.png",
+      "sha256": "639f9561f91f6272d11307ecb8bf9df59666dcafb2e13fa5979277bc3dfac7b4",
+      "bytes": 1024425
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0088.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0088.png",
+      "sha256": "10a4afec3db72bfaf6b7641e2f8bb86c39af825b850760620ccba9463b66b383",
+      "bytes": 1024683
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0089.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0089.png",
+      "sha256": "779b07c829edb28ad4ae5969417686dc51fb18c28dece765e7a9f432bb56d0f6",
+      "bytes": 1022779
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0090.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0090.png",
+      "sha256": "581442599084bf3596114ea898e79c88145e8dac6f741cbd9c7c7202bc8a611c",
+      "bytes": 1019609
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0091.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0091.png",
+      "sha256": "fc52c13a1e472e9b82b871a3fb4e0816fd241e24b92c6c4f520feec600a13f7a",
+      "bytes": 1015845
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0092.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0092.png",
+      "sha256": "5fd7b867c4a178e4b492de154ddba4761ff1f096f08122b5963a5386dd4b6385",
+      "bytes": 1012028
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0093.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0093.png",
+      "sha256": "c42418a1433ef57f794893245b03f02fedc4e16180557788e2a573ae11afe27b",
+      "bytes": 1008360
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0094.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0094.png",
+      "sha256": "d0be490f5b06455d314e75825121f1a2ed783a5fe5dcfbee3623954c4c89b489",
+      "bytes": 1002405
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0095.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0095.png",
+      "sha256": "b4fe860995f95194c95bfdd58ac2215ef20c8dead92b6a94fea1cd4b05c4e6ed",
+      "bytes": 999058
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0096.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0096.png",
+      "sha256": "72026995765352eafa5b2c660e0317cc02285269316f71005a1f56cfa7488ab7",
+      "bytes": 994619
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0097.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0097.png",
+      "sha256": "9a000ca761b52cab2a1e3629b4cd2087c1b74f821cd2f234307872e51efe9faa",
+      "bytes": 993249
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0098.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_frames/0098.png",
+      "sha256": "fadc61f3e67474b617bde8eb804cd23e43badc86c4c8f30c92f35cf2fd2bac5b",
+      "bytes": 994141
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_render_index.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_render_index.json",
+      "sha256": "44d11b01fe63c3c2b423d7195c4ff7c5304ed0a4a55a95e86eed3cfba8d8cc13",
+      "bytes": 36555
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0000.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0000.png",
+      "sha256": "ef23ca2be776e53f636ad51f95c5d9d1e770148a0e07b1ad185d6ab343f71cc5",
+      "bytes": 356508
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0030.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0030.png",
+      "sha256": "1aee59a68d81a21db1f811366838ff1025bb14ba4cc4344944f48eee777c3bc1",
+      "bytes": 431677
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0098.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_已解码_0098.png",
+      "sha256": "39ecc073dec126a169dc512ff3f80306c152ea2ae8a0360cfef182171f407830",
+      "bytes": 406441
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_actual_video_清晰字幕.ass",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_actual_video_清晰字幕.ass",
+      "sha256": "b7d75cfeff8096ee350d2e68df4e45784e48bd7e1f272db19a4b45a894cd483a",
+      "bytes": 37221
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/candidate_phase_display_samples.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/candidate_phase_display_samples.json",
+      "sha256": "b1e0e4eca5fdae540ffbaa09934dc2abd5bf1a7203b8c818dcf75ccaac74a51e",
+      "bytes": 9315834
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/config.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/config.json",
+      "sha256": "5a603d744d126fa69994dd8e7c070efecafd09ffa2d6743a01a5cd3aae582098",
+      "bytes": 1493
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/independent_raw_sway_audit.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/independent_raw_sway_audit.json",
+      "sha256": "05084530520daf595cf9142d66a14fc1470e332b68a07d4f8c3853ae269bc4a5",
+      "bytes": 2429
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/prepared_visual_inputs.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/prepared_visual_inputs.json",
+      "sha256": "3db5f1c61db48d04c7df6c872cc8ca347e3009fcfbdc8a6a89903b614f0ffbfb",
+      "bytes": 193722
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/readback.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/readback.json",
+      "sha256": "57fec35845404b0762f7692613c1343d60f69a4cb51f777f51d36fa81840613c",
+      "bytes": 139316
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_encoding_audit.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_encoding_audit.json",
+      "sha256": "cbdd392346673a87b8a2aa3fe5ec097f02d14699240a0b7e68e2733775480315",
+      "bytes": 6870
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0000.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0000.png",
+      "sha256": "d01b36e26f901f7e7b26cb25b43c93d69ceba2045e824c0eea7ce81bed4550bd",
+      "bytes": 1204352
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0001.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0001.png",
+      "sha256": "c50e58a66a517194543b1bd203f8a343983443ad9e3dc003e0e014d1c7fda99d",
+      "bytes": 1228864
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0002.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0002.png",
+      "sha256": "b6040e311286d0b8e387bdd924cf4c012c9e50e6c66db27f9849fa7f1bd858b9",
+      "bytes": 1226814
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_render_index.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_render_index.json",
+      "sha256": "5e94ee3ade2b65bfa717dd275cce46861410d0e314b77ec731b0c6b77d3f5d34",
+      "bytes": 2774
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_已解码_0002.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_已解码_0002.png",
+      "sha256": "1a9c13cd15b43ba8075ff7db2a5659c2fb0e08156a58b4a212c998fcfe5c70e9",
+      "bytes": 428049
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_encoding_audit.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_encoding_audit.json",
+      "sha256": "312424a519d74a4d9865abac7c92fe8819cdc14a9f5aed6ba08d7eabcefb5c64",
+      "bytes": 86096
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0000.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0000.png",
+      "sha256": "72bdcce4b7839e9e643d70b651e22912455b2cec8f7815e90da305eb6517176a",
+      "bytes": 1239392
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0001.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0001.png",
+      "sha256": "760d2b60f8b481fc1dcb41b4261bfca6016403f5f2a9e1e33fa67a844a941df1",
+      "bytes": 1238879
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0002.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0002.png",
+      "sha256": "56d24bdff1d679ca289961364be59fd73f5a77a9e05439b6291f05b77da30d66",
+      "bytes": 1240924
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0003.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0003.png",
+      "sha256": "66d2a0e2f90b62cd54dd6dc82a9729fff01847e9e80426bf75ab60b928e7f85a",
+      "bytes": 1244816
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0004.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0004.png",
+      "sha256": "82a0352e7b90919098b90dbd28866bacd83db0ea58797b595360231af6d8b260",
+      "bytes": 1249387
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0005.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0005.png",
+      "sha256": "27945cf73e5e206f62bbe6f14f3b8dca8122c6f6aadf921c1aa8e64096a93213",
+      "bytes": 1256065
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0006.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0006.png",
+      "sha256": "1c0223ca054511f792ff42f0c36f3ccd9d94e57fb9c909496df753a8a53f24ef",
+      "bytes": 1260965
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0007.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0007.png",
+      "sha256": "f972e0d08e977362b466fa68b92de66dcf33e4a99b595f53ece3151f869f46ed",
+      "bytes": 1266384
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0008.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0008.png",
+      "sha256": "1690189bdf2a6b87c035994efac5e17e58fc5b302706c674e95f769e5b811980",
+      "bytes": 1270996
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0009.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0009.png",
+      "sha256": "58e8fbff32eac4e461e71da27a1d934382d5809f7fc8438342343729e9c162c3",
+      "bytes": 1274839
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0010.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0010.png",
+      "sha256": "3c4a86192853586c97db48564295c585ebbe1c9e9621e06a950d7e70cf39e278",
+      "bytes": 1277119
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0011.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0011.png",
+      "sha256": "9f1458051db6f5bb9e951f9922dd3d9dfbbcefc1ae996cbaafa36ab10a1d356b",
+      "bytes": 1278625
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0012.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0012.png",
+      "sha256": "691a5e493f21d29919f7a7ea8413671b34564a3ad2ab9a9ab21b65d74f1cddb6",
+      "bytes": 1280858
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0013.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0013.png",
+      "sha256": "3d5db9e2a1e4b6c3a1ff4c5c22d964ed197e2b9b981bb72465e15f4ec6ce77cc",
+      "bytes": 1280205
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0014.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0014.png",
+      "sha256": "dd7af4dcfc26c042be16192628a2aedf0ec81ed8bdf2d75e70c9c78f87d891e2",
+      "bytes": 1277309
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0015.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0015.png",
+      "sha256": "b476dfeaaf575866bb1851a4c4fa651c029206e64c09f194d085eb6ec20fccf2",
+      "bytes": 1277910
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0016.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0016.png",
+      "sha256": "5cebb79e6b7d5ce267d413cde17492669bb36026776ed098854ea72f25333169",
+      "bytes": 1274649
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0017.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0017.png",
+      "sha256": "2c9b991df24c4f1543340e3c9cabdb8c20882138c0a7b19115d3f37ddd4ef6cb",
+      "bytes": 1270542
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0018.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0018.png",
+      "sha256": "2067aa8d5e09821c2befaea98dfa3d9946f44b90d4bc2768df3f3024c9103560",
+      "bytes": 1264415
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0019.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0019.png",
+      "sha256": "a7abd8f8e26336a9322eee66e90b42ce49b9951dbfb6436e08c4c694f1ca7259",
+      "bytes": 1258914
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0020.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0020.png",
+      "sha256": "260f1a3b97f8c9833ea209a1c6fa47fd91f5e5ba8c8ce6387e802d1483b0a7e9",
+      "bytes": 1254506
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0021.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0021.png",
+      "sha256": "5d7e1997b111fd77fd974fe2146a02c5351e69f5b6c96641eb7b30807756902f",
+      "bytes": 1252735
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0022.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0022.png",
+      "sha256": "4f1d0e944cc841986f852a96591023f65146e8269425416f3ccd7357e8b26a59",
+      "bytes": 1252786
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0023.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0023.png",
+      "sha256": "fe4a310419e19077ded7532b2e4b6643ac1eb6b807cbc6aec5713d6f9056f55e",
+      "bytes": 1255697
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0024.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0024.png",
+      "sha256": "39237e99638cb95a3cb2ceee98af2ec71d223e0d53ed6f53bae7df387951bb53",
+      "bytes": 1259073
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0025.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0025.png",
+      "sha256": "7c15b401bbbf2d29e646af88c8071e6befe680b953d95dcc63ae77e455ddc69b",
+      "bytes": 1264225
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0026.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0026.png",
+      "sha256": "f788f37413b218e292d80f44bd85cd144617bfaed0f0f85b1c4825ecc83fc433",
+      "bytes": 1268493
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0027.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0027.png",
+      "sha256": "3d0bedf54c2d1158d6e02b86e65e4041bb5e6d218e5c0e3b752cc06c6cc3c729",
+      "bytes": 1273290
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0028.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0028.png",
+      "sha256": "883803963b3a8bce7d584a86ce13afc71c55ab637b0f0a2c8d799a374b70a1c0",
+      "bytes": 1275872
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0029.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0029.png",
+      "sha256": "ca7fd728fed83087e592ad0f50d86f3ded5934dddc7d5250ac284ae589019ba7",
+      "bytes": 1278629
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0030.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0030.png",
+      "sha256": "43752ab28a235888f4c7c852d2e04ebd9ab7baa22128ae4b70a4462466905ab3",
+      "bytes": 1280584
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0031.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0031.png",
+      "sha256": "46764aa823fe2b926ae0a2fe001142b3da1ff03b208da6b16857f146ad78bd8f",
+      "bytes": 1280795
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0032.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0032.png",
+      "sha256": "07a10c423baae9d93299e10e5854a34bd08be179430b41415402530e574ce566",
+      "bytes": 1281170
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0033.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0033.png",
+      "sha256": "ce87c1ba8beac7254e30fd49fe2cbd3170aa1d4155e8bdcb78c1d016e991fbee",
+      "bytes": 1280343
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0034.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0034.png",
+      "sha256": "925ed3bc818c78e9e0ede664ad78286ae3415915f37ec4f15c5e50de3deac8f6",
+      "bytes": 1280045
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0035.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0035.png",
+      "sha256": "2627f6335d387e7119f20fd0fd77c412b62bd383716fbbb4dd81bec49ca5a074",
+      "bytes": 1276204
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0036.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0036.png",
+      "sha256": "414b6c8d2680f2d1cad597086b669fdc6abb1305bdbd266f23bed986adbb3434",
+      "bytes": 1273006
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0037.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0037.png",
+      "sha256": "1c3d7a55baa56b9b9482936572de6ed25a38c17c5eb5baac7baa693c41738833",
+      "bytes": 1269474
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0038.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0038.png",
+      "sha256": "42ab8d5cf33fd1948ae5a28929888cd66b926cfdb67b01dc683e9e7f30c14ce2",
+      "bytes": 1264471
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0039.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0039.png",
+      "sha256": "1938b4b7ad1a7533270ca4993b5095d15e223a6a221215874a552d38b322a157",
+      "bytes": 1259633
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0040.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0040.png",
+      "sha256": "fc6cda2a4ed2aef118f60ced68c4861307a760e6e4cbc25e55b41213436b84b4",
+      "bytes": 1253042
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0041.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0041.png",
+      "sha256": "6be4149bcb9e8194c9abd651fcae8e9236ceadce1bd4aa72ab7405f4b26b7463",
+      "bytes": 1247439
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0042.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0042.png",
+      "sha256": "376d9e1c8cc8d37411e9de9e2ffc38808189358e6d598fad5918ba70e23a0994",
+      "bytes": 1242366
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0043.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0043.png",
+      "sha256": "a1f10066caed597881adec3e3f59d6c1ac3eaef54f03a87613293aaf5b0bf09a",
+      "bytes": 1239353
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0044.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0044.png",
+      "sha256": "565cc1254e411ba10420f245fce8cc590975b9141471717995360353efecc27b",
+      "bytes": 1239530
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0045.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0045.png",
+      "sha256": "d178caa2e4ce8a5ae4d9d2862d5c0f25882651f86980892000a4e55dd53d5931",
+      "bytes": 1238849
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0046.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0046.png",
+      "sha256": "c4421f3052ef3dd7b2497e97a73ada274be93adea7978e00a8e466f11e19c26a",
+      "bytes": 1242262
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0047.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0047.png",
+      "sha256": "c2b847f465e2e74813126c84017d3634c491750bbab2e9b4d45e6d9def347ed4",
+      "bytes": 1248812
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0048.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0048.png",
+      "sha256": "441da601924f0fbe09534e972cd8d2ca69cffd52e62b454db788761cac81cd22",
+      "bytes": 1251344
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0049.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0049.png",
+      "sha256": "b2906c21811a57a3f3f3b63e61a9cbe90e003c1ea0847b8542ba00b3b2ce44dc",
+      "bytes": 1257391
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0050.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0050.png",
+      "sha256": "bca3b033a8096f6934ff6f9a9e0fffa1a431b0a1ee2637827fec6aebbe8dd3cb",
+      "bytes": 1263490
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0051.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0051.png",
+      "sha256": "b83823836972d611065c4df8d9525c260345f26485bd6a70987264a7909fe7d8",
+      "bytes": 1266909
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0052.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0052.png",
+      "sha256": "7906ab6061916940084653c3f8349998c6d3670e00d7a0ef145408cbd04c6127",
+      "bytes": 1271870
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0053.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0053.png",
+      "sha256": "8e1377be3c23dcee04259a79b188467d4184af8273085bec409f282d407ede9c",
+      "bytes": 1275535
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0054.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0054.png",
+      "sha256": "cfbce9362918cec48481b4ca4ea31244c5d4ba9b08390d75395ac63808dc92e5",
+      "bytes": 1276591
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0055.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0055.png",
+      "sha256": "baff64c36c539b4e77ed7d1fac527eb57fc6054a6dc7e6070b252a72e6df1408",
+      "bytes": 1278877
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0056.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0056.png",
+      "sha256": "0d06439e2712816cbe89e12722d51ad109f3c339bcfca04deee28c5234199c9e",
+      "bytes": 1279489
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0057.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0057.png",
+      "sha256": "e095b04e622d5a9c140ef64dff5fe796395bfa71f4df14621596ed00af7671ae",
+      "bytes": 1279078
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0058.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0058.png",
+      "sha256": "3f11084c956626b0deb6a0e29eebd3563a823ce9ceb3a26ee3ef1214dc5e43bf",
+      "bytes": 1276333
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0059.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0059.png",
+      "sha256": "a64a4a5484a271730e1c33a3807746c1e5432917afa9f191d2d9e81227a70714",
+      "bytes": 1277085
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0060.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0060.png",
+      "sha256": "3e391c8bad65e1db845fe5a7a6f46dddc28ac725c4b4368aeb831cbda5585ceb",
+      "bytes": 1272798
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0061.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0061.png",
+      "sha256": "a137f3fb623048841e1cb4dc32746ece0c52fe576c3a40398945999734e9fd59",
+      "bytes": 1268146
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0062.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0062.png",
+      "sha256": "7aba665af1d1156fbfa8233c30a17ea9edf12823605c837b1ce4c512e5063240",
+      "bytes": 1262961
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0063.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0063.png",
+      "sha256": "2bd46c1a9b29c88261d769181d0dff19b7e14c87f418cd7623a4541d59fbe363",
+      "bytes": 1258307
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0064.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0064.png",
+      "sha256": "199388e3d6c187950de1afbfa36c7d19c5c50bca54851807b4acd1bfc3bfcd4b",
+      "bytes": 1254230
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0065.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0065.png",
+      "sha256": "4e650f670c7bb87c0a7e32b6c5c82a369aee1e814665e3b62916d073127ad5b7",
+      "bytes": 1252596
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0066.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0066.png",
+      "sha256": "8b345364e28ec0529fd61c9302aab47eadbae136e47835bbd95486b388b49247",
+      "bytes": 1253265
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0067.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0067.png",
+      "sha256": "b710f7279eb1c474661736c940e634b86adccd7e7a76c1b37851607f2ce13302",
+      "bytes": 1256372
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0068.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0068.png",
+      "sha256": "f12653946299cf97b56ea7c739c9322a1e987a7d73598381ce96858b4f48583c",
+      "bytes": 1259826
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0069.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0069.png",
+      "sha256": "5d340c8b051966fa8bc597ec5d72a933781d649e2f4cfb95254adf4315e55ff7",
+      "bytes": 1265159
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0070.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0070.png",
+      "sha256": "8634de9cae8f8090414da1093c0a5a77e5822f2addf54d90bedac623701c9967",
+      "bytes": 1269721
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0071.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0071.png",
+      "sha256": "6bde5da2bffe84136a3e8a46a09f3f5fe646781efa2a14aa3083b9e2e121a858",
+      "bytes": 1273807
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0072.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0072.png",
+      "sha256": "b4d73fb8a5dbde2b3645b09ba71d702bbb9f75f8474a1f1877ee7fbdb1a66e33",
+      "bytes": 1278197
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0073.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0073.png",
+      "sha256": "3c4f2c58db849a4d1413ceb54cd1dd1e3b6495bad966a1a477d02eea2659d74a",
+      "bytes": 1278380
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0074.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0074.png",
+      "sha256": "ee49324df131647a7b043a5a9668368d915462b18ab503c6800b09ae4443d4fd",
+      "bytes": 1280011
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0075.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0075.png",
+      "sha256": "f3572c4ab1bd0652a8a21bac2bd734f835ddb43f4b2b2fa755b9b662cd28507d",
+      "bytes": 1280611
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0076.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0076.png",
+      "sha256": "d22961c0e2ba368d632acb3a10891903a941ac39659c7907076014985451a939",
+      "bytes": 1280789
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0077.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0077.png",
+      "sha256": "4abedeeb280a0470864e47df999c0c6eb1cf5dba81ab528e36f4ff9e3d8c6c1e",
+      "bytes": 1279672
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0078.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0078.png",
+      "sha256": "0764a00dfd2846e8e3ad85f2e0959969028f5204644333d5e78c99fcd0fbcfbd",
+      "bytes": 1278286
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0079.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0079.png",
+      "sha256": "b597dd41587db9a0d620fcf0250db9a535e519a8dc524794ff22e3a3b8e000ad",
+      "bytes": 1276697
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0080.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0080.png",
+      "sha256": "85d23b6ff24fa822a4bd19c6cf1173ff18848637e6b3b9f6de8ac55c842b3a97",
+      "bytes": 1271253
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0081.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0081.png",
+      "sha256": "6d84447f4d158f7e045aeab613cbb4b9072b676ab214a316738eb563317eb25d",
+      "bytes": 1267182
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0082.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0082.png",
+      "sha256": "4a53f02537ba2bfd039ed4ee109828fb770763a8290860ad4c8fdb9c9187c22a",
+      "bytes": 1261481
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0083.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0083.png",
+      "sha256": "a7a8ec750de2d292619cec91f86b0fd399e5d06488b07939937d15ab5860c28a",
+      "bytes": 1256552
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0084.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0084.png",
+      "sha256": "60f41b656820a2cd66092891408ab9802e08324ff1b43087d5d82d13c1ebbaec",
+      "bytes": 1251238
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0085.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0085.png",
+      "sha256": "845b9777bb3655a7f6374f44d06776fc077622cb8a437652e4138355816fd1c8",
+      "bytes": 1245503
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0086.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0086.png",
+      "sha256": "84302d0d5e3343d4d9ca7b79090bf9ede883ef548edf958fd90fe7f38779b5f6",
+      "bytes": 1240250
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0087.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0087.png",
+      "sha256": "5d889746ab38f023876047e85849322008572f3d8d5ca4df0b615437a3d206b7",
+      "bytes": 1238130
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0088.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_frames/0088.png",
+      "sha256": "54c27b78ee8aaabac17dfca006c5838a9f39da1f82a2ea6d1a7c078940fb1789",
+      "bytes": 1239779
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_render_index.json",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_render_index.json",
+      "sha256": "6964f39856bc0c82dc9c96060d3625ba1b011e187c8b2719beb0ca63bded8feb",
+      "bytes": 37816
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0000.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0000.png",
+      "sha256": "fba519ea4ddbe3371076178b70aec715506a71c19ab181378a4f315f7c240a8d",
+      "bytes": 444633
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0030.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0030.png",
+      "sha256": "fe06d4ab35d40243a14e0abfc4f9ed292452d35e0ba21bb0e8e7bb678510c062",
+      "bytes": 532098
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0088.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0088.png",
+      "sha256": "4a6299155a0f2929d9555d04370418314850dbf44762341889f9a7a65103cc5d",
+      "bytes": 497336
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/release_v3/same_phase_video_清晰字幕.ass",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_清晰字幕.ass",
+      "sha256": "059793bb5de840ce1910450ee05e0b7f9991ce7f3f5e6cfa4e2a9f07b6281808",
+      "bytes": 40670
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/render_actual_comparison_final.py",
+      "source_path": "work/r21-reduced-sway/visual/render_actual_comparison_final.py",
+      "sha256": "59eff1d326789f92de9476bc4c716ea101d6dac1a0c51ca224379b10e262ed51",
+      "bytes": 6045
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/render_actual_comparison_final_v2.py",
+      "source_path": "work/r21-reduced-sway/visual/render_actual_comparison_final_v2.py",
+      "sha256": "acc07efd88f3d217d31b41dfb3d0b1b90600fad5338c495fc3c0df265b5b4479",
+      "bytes": 6699
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/repair_phase_view_curves.py",
+      "source_path": "work/r21-reduced-sway/visual/repair_phase_view_curves.py",
+      "sha256": "1b295d65c1a7ee4281601f034d321ba036d11d538aefb3228f5f4fe72cdd6c90",
+      "bytes": 4967
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/visual/visual_delivery_index.json",
+      "source_path": "work/r21-reduced-sway/visual/visual_delivery_index.json",
+      "sha256": "b3c60b857ed1323f7726c59d3e488dc39fd375021fd6fce75d81385124511450",
+      "bytes": 245091
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/write_report.py",
+      "source_path": "work/r21-reduced-sway/write_report.py",
+      "sha256": "525fc72fdc5dda00d60b981fde5e398f3d71a6a84c13d956894420b9cade334a",
+      "bytes": 9850
+    },
+    {
+      "path": "工程更新/work/r21-reduced-sway/报告.md",
+      "source_path": "work/r21-reduced-sway/报告.md",
+      "sha256": "92dee0c2934dc45c4e63c5fd131439c0c9c2131ff54b57417f067d13d09aaea3",
+      "bytes": 8990
+    },
+    {
+      "path": "工程更新/outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "source_path": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "sha256": "993be1eb1547067de457e4d3d6e073a49b78b6022253930cedd643ab21856898",
+      "bytes": 1988047
+    },
+    {
+      "path": "00_减摆结果与查看说明.md",
+      "source_path": "work/r21-reduced-sway/报告.md",
+      "sha256": "92dee0c2934dc45c4e63c5fd131439c0c9c2131ff54b57417f067d13d09aaea3",
+      "bytes": 8990
+    },
+    {
+      "path": "模型/Microduck_R21_实际减摆对照.blend",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+      "sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+      "bytes": 66216065
+    },
+    {
+      "path": "视频/R21_完整实际四步_约24倍速.mp4",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R21_完整实际四步_约24倍速.mp4",
+      "sha256": "94d06a9f2d111a77a5b18bf8732404f9eb4814849008c75ea3381cd470ce7daa",
+      "bytes": 1138871
+    },
+    {
+      "path": "视频/R20_R21_同参考阶段_对照.mp4",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R20_R21_同参考阶段_对照.mp4",
+      "sha256": "bbda309839ccdfbdc76f3656a4587d691537f1e9079aa9b629d2f8ee465073db",
+      "bytes": 1448840
+    },
+    {
+      "path": "图/实际时间与摆幅对照.png",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_actual_time_overlay.png",
+      "sha256": "54c1f6c68244d050a95ab925d6573d48ec663cfd553330cf21c99af80f1ebbfc",
+      "bytes": 254944
+    },
+    {
+      "path": "图/完整四步摆幅对照.png",
+      "source_path": "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.png",
+      "sha256": "32b8763ba12e4f804a0b922494e2b06a8723e51a3d7ec4160a05e98ac0ee4607",
+      "bytes": 292797
+    },
+    {
+      "path": "图/同阶段装配对照.png",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/same_phase_video_已解码_0030.png",
+      "sha256": "fe06d4ab35d40243a14e0abfc4f9ed292452d35e0ba21bb0e8e7bb678510c062",
+      "bytes": 532098
+    },
+    {
+      "path": "02_模型与视频查看说明.md",
+      "source_path": "work/r21-reduced-sway/visual/release_v3/R21_模型与视频查看说明.md",
+      "sha256": "fee22c3519639e3d8221c89d65bebb9313c6915d3473cd55a427a6c60e963e59",
+      "bytes": 4433
+    },
+    {
+      "path": "PCB/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "source_path": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "sha256": "993be1eb1547067de457e4d3d6e073a49b78b6022253930cedd643ab21856898",
+      "bytes": 1988047
+    },
+    {
+      "path": "沿用基线文件索引.json",
+      "sha256": "7347c892651bbce28324d87ad175268724e75fad61d28097dae8640a31323fa1",
+      "bytes": 241895
+    },
+    {
+      "path": "01_更新包使用说明.txt",
+      "sha256": "e0dc082e74c825be84b9640377e9464d73e07222f96d7c721009d2b63ecdb8c5",
+      "bytes": 961
+    }
+  ]
+}

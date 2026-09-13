@@ -1,0 +1,5467 @@
+{
+  "passed": true,
+  "status": "PASS_REOPENED557_EXACT_SOURCE_GEOMETRY_AND_DISPLAY",
+  "source_blend_sha256": "57b5f145458f8c0055a3c28e39018f546d52bed3318ceddc48b44423bbf70417",
+  "old_source_mesh_comparisons": 527,
+  "new_raw_STL_comparisons": 30,
+  "main_pose_checks": [
+    {
+      "part_id": "left_hip_yaw_motor",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_left_hip_yaw_fixed_integral_contact_pads",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_yaw_active",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_yaw_idler",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_yaw_motor",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_right_hip_yaw_fixed_integral_contact_pads",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_yaw_active",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_yaw_idler",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_roll_motor",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_roll_fixed",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_roll_active",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_roll_idler",
+      "max_matrix_abs_error": 1.1920930020892229e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_roll_motor",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_roll_fixed",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_roll_active",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_roll_idler",
+      "max_matrix_abs_error": 1.1920930020892229e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_pitch_motor",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_pitch_fixed",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_pitch_active",
+      "max_matrix_abs_error": 2.5331974029541016e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_hip_pitch_idler",
+      "max_matrix_abs_error": 2.5331974029541016e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_pitch_motor",
+      "max_matrix_abs_error": 5.21540641784668e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_pitch_fixed",
+      "max_matrix_abs_error": 5.21540641784668e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_pitch_active",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_hip_pitch_idler",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_knee_motor",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_knee_fixed",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_knee_active",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_knee_idler",
+      "max_matrix_abs_error": 5.960464477539063e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_knee_motor",
+      "max_matrix_abs_error": 1.043081283569336e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_knee_fixed",
+      "max_matrix_abs_error": 1.043081283569336e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_knee_active",
+      "max_matrix_abs_error": 1.043081283569336e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_knee_idler",
+      "max_matrix_abs_error": 1.043081283569336e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_ankle_motor",
+      "max_matrix_abs_error": 2.9802322387695312e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_ankle_fixed",
+      "max_matrix_abs_error": 2.9802322387695312e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_ankle_active",
+      "max_matrix_abs_error": 7.422204362228513e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "left_ankle_idler",
+      "max_matrix_abs_error": 7.422204362228513e-08,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_ankle_motor",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_ankle_fixed",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_ankle_active",
+      "max_matrix_abs_error": 2.384185791015625e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "right_ankle_idler",
+      "max_matrix_abs_error": 2.384185791015625e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "neck_pitch_motor",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "neck_pitch_fixed",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_neck_pitch_active_through_M3_ears",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_neck_pitch_idler_through_M3_ears",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_pitch_motor",
+      "max_matrix_abs_error": 2.315384186601932e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_pitch_fixed",
+      "max_matrix_abs_error": 2.315384186601932e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_pitch_active",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_pitch_idler",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_yaw_motor",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_yaw_fixed",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_yaw_active",
+      "max_matrix_abs_error": 7.105427357601002e-15,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_yaw_idler",
+      "max_matrix_abs_error": 7.105427357601002e-15,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_roll_motor",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_roll_fixed",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_roll_active",
+      "max_matrix_abs_error": 1.1920928955078125e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "head_roll_idler",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "mouth_candidate_motor",
+      "max_matrix_abs_error": 1.1920928244535389e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "mouth_candidate_fixed",
+      "max_matrix_abs_error": 1.1920928244535389e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "mouth_candidate_active",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "mouth_candidate_idler",
+      "max_matrix_abs_error": 1.1920928244535389e-07,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_upper_leg_left_dual_rail",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_neck_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_neck_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_yaw_roll_motion_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_yaw_roll_motion_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_upper_leg_right_dual_rail",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_hip_l_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R20_left_hip_rail_offset",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R11_hip_l_2_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_hip_l_2_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_leg_2_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_leg_2_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_leg_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_leg_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_neck_pitch_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_neck_pitch_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_bearing_roll_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_bearing_roll_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_yaw2roll_rail_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_yaw2roll_rail_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_left_TPU_contact_pad_W130",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_right_TPU_contact_pad_W130",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_left_foot_load_carrier_W130",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_right_foot_load_carrier_W130",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_mouth_load_carrier",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C10_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C11_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C11_2_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C11_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C12_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C13_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C14_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C15_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C16_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C17_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C18_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C18_2_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C18_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C2_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C3_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C4_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C5_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C6_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C7_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C8_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_C9_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_F1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J1_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J1_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J2_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J2_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J2_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J3_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J3_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J3_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J4_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J4_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J4_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J5_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J5_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J5_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J6_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J6_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J6_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J7_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J7_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J7_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J8_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J8_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_J8_STRAIGHT_EXIT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_PCB_FINISHED",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R10_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R11_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R12_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R13_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R14_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R2_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R3_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R4_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R5_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R6_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R7_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R8_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_R9_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_RS1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_U1_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_U2_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_U3_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_U4_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W1_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W2_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W3_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W4_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W5_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W6_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W7_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "Entry_5V_R8_W8_1_BACK_LEAD",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_F1_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_F2_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_F3_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J1_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J1_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J1_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J1_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J1_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J2_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J2_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J2_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J2_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J2_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J3_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J3_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J3_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J3_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J3_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J6_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_J6_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_PCB_FINISHED",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W1_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W1_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W1_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W2_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W2_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W2_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_F1_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_F2_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_F3_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_F4_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_F5_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J1_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J1_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J1_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J1_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J1_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J2_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J2_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J2_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J2_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J2_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J3_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J3_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J3_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J3_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J3_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J4_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J4_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J4_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J4_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J4_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J5_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J5_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J5_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J5_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J5_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J6_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_J6_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_PCB_FINISHED",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W1_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W1_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W1_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W1_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W2_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W2_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W2_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_L5__LEG5_W2_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_F1_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_F2_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_F3_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_F4_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_F5_MAX_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J1_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J1_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J1_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J1_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J1_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J2_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J2_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J2_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J2_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J2_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J3_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J3_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J3_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J3_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J3_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J4_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J4_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J4_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J4_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J4_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J5_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J5_PIN_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J5_PIN_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J5_PIN_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J5_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J6_MATED_UNION",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_J6_STRAIGHT_TAIL",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_PCB_FINISHED",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W1_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W1_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W1_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W1_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W2_BACK_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W2_BARE_PTH_PROCESS_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W2_FRONT_SOLDER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "PDB_R5__LEG5_W2_INSULATED_STRAIGHT8_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_Entry5V_rigid_frame",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_Entry_PEEK_0_262",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_Entry_PEEK_0_301",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_Entry_PEEK_59_262",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_Entry_PEEK_59_301",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_HEAD3_PEEK_-26",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_HEAD3_PEEK_-60",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_HEAD3_rigid_stalk",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_0_262_M2x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_0_262_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_0_301_M2x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_0_301_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_59_262_M2x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_59_262_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_59_301_M2x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_PCB_59_301_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_-6_M2p5x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_-6_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_-6_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_2_M2p5x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_2_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_Entry_foot_2_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_board_-26_M2p5x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_board_-26_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_board_-60_M2p5x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_board_-60_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_foot_-43_M2p5x8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_foot_-43_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_foot_-52_M2p5x8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_H_foot_-52_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J0_ACTUAL_F_GND_SLEEVED_CUP",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J0_ACTUAL_F_POS_SLEEVED_CUP",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J0_ACTUAL_XT30_BODY_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J0_M_GND_FULLMATE_TAIL_RANGE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J0_M_POS_FULLMATE_TAIL_RANGE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J9_ACTUAL_F_GND_SLEEVED_CUP",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J9_ACTUAL_F_POS_SLEEVED_CUP",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J9_ACTUAL_XT30_BODY_MAX",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J9_M_GND_FULLMATE_TAIL_RANGE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_J9_M_POS_FULLMATE_TAIL_RANGE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_LEG5_PEEK_corner_antirotation_key",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_LEG5_PEEK_front_mount_35",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_LEG5_PEEK_front_mount_69",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_LEG5_PEEK_interboard_35",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_LEG5_PEEK_interboard_69",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_35_M2p5x20p50_CS",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_35_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_35_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_69_M2p5x20p50_CS",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_69_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_board_69_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_key_M2x10",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_key_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_L_key_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p4_LEG5_mount_-31_M3_L7p30",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p4_LEG5_mount_31_M3_L7p30",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_AT503M_FACE_NUT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_AT506M_KEY_TAB",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_AT506M_LOCK_RING",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_AT508_LOCK_WASHER",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_AT527M_BACK_NUT",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_BODY",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_LEVER_FULL_SWEEP",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_M12_BUSHING",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_REF_S301_TERMINALS_AGGREGATE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_1_M2_DIN433_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_1_M2_DIN934_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_1_M2x10_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_2_M2_DIN433_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_2_M2_DIN934_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_2_M2x10_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_3_M2_DIN433_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_3_M2_DIN934_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_3_M2x10_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_4_M2_DIN433_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_4_M2_DIN934_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_4_M2x10_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p1_S301_recess_metal_panel",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP34_rear_saddle_and_mast",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP3_compressed_back_liner",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP4_compressed_back_liner",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP_tie_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP_tie_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP_tie_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SP_tie_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SPmount_-49.5_M2p5x8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SPmount_-49.5_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SPmount_-57.5_M2p5x8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_SPmount_-57.5_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_battery_front_relocated_limiter_hosts",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_front_split_silicone_edge_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_front_split_silicone_edge_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_front_split_silicone_edge_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_front_split_silicone_edge_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_rear_internal_passages",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_battery_rear_split_silicone_edge_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p4_dual_LEG5_bridge_access_bracket",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_head_shell_carrier_Entry_ports",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R15_right_shell_external_M3_X32_Z11p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_trunk_loadframe_motor_wells",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP3_CASE_PROCESS_ALLOWANCE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP3_HEAD_PILLAR_FRONT_V6",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP3_TO_J9_POS",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP3_TO_PDB_L",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP3_TO_PDB_R",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP4_CASE_PROCESS_ALLOWANCE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP4_HEAD_PILLAR_FRONT_V6",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP4_TO_J9_GND",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP4_TO_PDB_L",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "SP4_TO_PDB_R",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R15_left_shell_external_M3_X30_Z11p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_45_top_head_shell",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R12_lower_head_shell",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_moving_beak_hollow",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_moving_jaw_chin",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_M50A_C1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_M50A_C2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_M50A_C3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_M50A_C4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J101",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J102",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J103",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J6",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_U1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_C1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_C2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_C3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_C4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R8",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_R6",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_F1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_F2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_F3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_F4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_VIEW_CM4carrier_U2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13_VIEW_CM4carrier_U3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_U4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J1_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J2_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J3_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J4_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J5_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J6_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J7_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4carrier_J8_PLUG",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_REFERENCE_SUNON_MF30060V2_1000U_A99",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_Battery_front_cradle_relocated_limiter_bosses",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_CM4_rear_PEEK_5mm_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_CM4_rear_PEEK_5mm_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_CM4_rear_PEEK_5mm_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_CM4_rear_PEEK_5mm_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH050_flush_thermal_mount",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH0501R000FE02_MAX_ENVELOPE",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH_window_gasket_installed",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH_M2p5_PEEK_sleeve_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_DIN934_M2p5_nut_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_M2p5x8_csk_MAX_1",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH_M2p5_PEEK_sleeve_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_DIN934_M2p5_nut_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_M2p5x8_csk_MAX_2",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH_M2p5_PEEK_sleeve_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_DIN934_M2p5_nut_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_M2p5x8_csk_MAX_3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_RH_M2p5_PEEK_sleeve_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_DIN934_M2p5_nut_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_RH_M2p5x8_csk_MAX_4",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_W1_bare_D1p397",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R11_C4_FU1_insulated_D1p397",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_R11_TDK_assembled_envelopes",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_R11_MainFuse_assembled_envelopes",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "REFERENCE_R11_BMS_60x60x5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_right_M3x14_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_right_M3_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_right_M3_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_right_compression_sleeve",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_left_M3x14_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_left_M3_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_left_M3_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p2_service_front_left_compression_sleeve",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_left_hip_yaw_fixed_-1_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_left_hip_yaw_fixed_-1_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_left_hip_yaw_fixed_1_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_left_hip_yaw_fixed_1_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_right_hip_yaw_fixed_-1_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_right_hip_yaw_fixed_-1_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_right_hip_yaw_fixed_1_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_right_hip_yaw_fixed_1_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_neck_pitch_active_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_neck_pitch_active_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_neck_pitch_idler_hole0_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R13p3_motor_mount_neck_pitch_idler_hole1_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_R_relieved_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_R_compression_limiter",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_R_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_R_M2p5x8_cap_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_L_relieved_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_L_compression_limiter",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_L_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R17_cradle_L_M2p5x8_cap_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_photo_triangle",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_CNC_bridge_saddle",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_CNC_preloaded_nut_cap",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F1_nut_AF5p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F1_floating_bushing_L4p3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F1_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F1_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F2_nut_AF5p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F2_floating_bushing_L4p3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F2_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_clamp_F2_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_skin_F1_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_skin_F1_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_skin_F2_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_thigh_skin_F2_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_photo_triangle",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_CNC_bridge_saddle",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_CNC_preloaded_nut_cap",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F1_nut_AF5p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F1_floating_bushing_L4p3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F1_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F1_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F2_nut_AF5p5",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F2_floating_bushing_L4p3",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F2_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_clamp_F2_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_skin_F1_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_skin_F1_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_skin_F2_washer_OD7",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_thigh_skin_F2_M2p5x8_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_shoe_toe",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_L_shoe_heel",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_shoe_toe",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R18P_R_shoe_heel",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true
+    },
+    {
+      "part_id": "R20_CM4_stack_1_M2_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_1_M2_front_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_1_M2_rear_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_1_M2_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_2_M2_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_2_M2_front_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_2_M2_rear_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_2_M2_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_3_M2_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_3_M2_front_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_3_M2_rear_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_3_M2_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_4_M2_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_4_M2_front_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_4_M2_rear_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_stack_4_M2_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_1_M2p5_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_1_M2p5_top_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_1_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_2_M2p5_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_2_M2p5_top_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_2_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_3_M2p5_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_3_M2p5_top_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_3_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_4_M2p5_screw",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_4_M2p5_top_washer",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4_foot_4_M2p5_nut",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    },
+    {
+      "part_id": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "max_matrix_abs_error": 0.0,
+      "vertices_equal": true,
+      "triangles_equal": true,
+      "visibility_preserved": true,
+      "raw_source_STL_triangles_exact": true
+    }
+  ],
+  "comparison_pose_checks": [
+    {
+      "object": "旧安装_两根重复压条_R13_head_shell_carrier_Entry_ports",
+      "part_id": "R13_head_shell_carrier_Entry_ports",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_PCB",
+      "part_id": "R10_HEAD_CM4carrier_PCB",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J101",
+      "part_id": "R10_HEAD_CM4carrier_J101",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J102",
+      "part_id": "R10_HEAD_CM4carrier_J102",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J103",
+      "part_id": "R10_HEAD_CM4carrier_J103",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J1",
+      "part_id": "R10_HEAD_CM4carrier_J1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J2",
+      "part_id": "R10_HEAD_CM4carrier_J2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J3",
+      "part_id": "R10_HEAD_CM4carrier_J3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J4",
+      "part_id": "R10_HEAD_CM4carrier_J4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J5",
+      "part_id": "R10_HEAD_CM4carrier_J5",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J6",
+      "part_id": "R10_HEAD_CM4carrier_J6",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J7",
+      "part_id": "R10_HEAD_CM4carrier_J7",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J8",
+      "part_id": "R10_HEAD_CM4carrier_J8",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_U1",
+      "part_id": "R10_HEAD_CM4carrier_U1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R1",
+      "part_id": "R10_HEAD_CM4carrier_R1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_C1",
+      "part_id": "R10_HEAD_CM4carrier_C1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_C2",
+      "part_id": "R10_HEAD_CM4carrier_C2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_C3",
+      "part_id": "R10_HEAD_CM4carrier_C3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_C4",
+      "part_id": "R10_HEAD_CM4carrier_C4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R2",
+      "part_id": "R10_HEAD_CM4carrier_R2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R3",
+      "part_id": "R10_HEAD_CM4carrier_R3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R7",
+      "part_id": "R10_HEAD_CM4carrier_R7",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R8",
+      "part_id": "R10_HEAD_CM4carrier_R8",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R4",
+      "part_id": "R10_HEAD_CM4carrier_R4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R5",
+      "part_id": "R10_HEAD_CM4carrier_R5",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_R6",
+      "part_id": "R10_HEAD_CM4carrier_R6",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_F1",
+      "part_id": "R10_HEAD_CM4carrier_F1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_F2",
+      "part_id": "R10_HEAD_CM4carrier_F2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_F3",
+      "part_id": "R10_HEAD_CM4carrier_F3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_F4",
+      "part_id": "R10_HEAD_CM4carrier_F4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R13_VIEW_CM4carrier_U2",
+      "part_id": "R13_VIEW_CM4carrier_U2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R13_VIEW_CM4carrier_U3",
+      "part_id": "R13_VIEW_CM4carrier_U3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_U4",
+      "part_id": "R10_HEAD_CM4carrier_U4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J1_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J1_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J2_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J2_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J3_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J3_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J4_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J4_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J5_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J5_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J6_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J6_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J7_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J7_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4carrier_J8_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J8_PLUG",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_6061_finned_heatsi",
+      "part_id": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_REFERENCE_SUNON_MF30060V2",
+      "part_id": "R10_HEAD_REFERENCE_SUNON_MF30060V2_1000U_A99",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "part_id": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_rear_cradle_and_diagonal_a",
+      "part_id": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_front_clamp_bar_1",
+      "part_id": "R11_CM4_front_clamp_bar_1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_front_clamp_bar_2",
+      "part_id": "R11_CM4_front_clamp_bar_2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_rear_PEEK_5mm_1",
+      "part_id": "R11_CM4_rear_PEEK_5mm_1",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_rear_PEEK_5mm_2",
+      "part_id": "R11_CM4_rear_PEEK_5mm_2",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_rear_PEEK_5mm_3",
+      "part_id": "R11_CM4_rear_PEEK_5mm_3",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "旧安装_两根重复压条_R11_CM4_rear_PEEK_5mm_4",
+      "part_id": "R11_CM4_rear_PEEK_5mm_4",
+      "display_offset_m": [
+        0.0,
+        0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R13_head_shell_carrier_Entry_ports",
+      "part_id": "R13_head_shell_carrier_Entry_ports",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J101",
+      "part_id": "R10_HEAD_CM4carrier_J101",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J102",
+      "part_id": "R10_HEAD_CM4carrier_J102",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J103",
+      "part_id": "R10_HEAD_CM4carrier_J103",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J1",
+      "part_id": "R10_HEAD_CM4carrier_J1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J2",
+      "part_id": "R10_HEAD_CM4carrier_J2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J3",
+      "part_id": "R10_HEAD_CM4carrier_J3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J4",
+      "part_id": "R10_HEAD_CM4carrier_J4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J5",
+      "part_id": "R10_HEAD_CM4carrier_J5",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J6",
+      "part_id": "R10_HEAD_CM4carrier_J6",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J7",
+      "part_id": "R10_HEAD_CM4carrier_J7",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J8",
+      "part_id": "R10_HEAD_CM4carrier_J8",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_U1",
+      "part_id": "R10_HEAD_CM4carrier_U1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R1",
+      "part_id": "R10_HEAD_CM4carrier_R1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_C1",
+      "part_id": "R10_HEAD_CM4carrier_C1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_C2",
+      "part_id": "R10_HEAD_CM4carrier_C2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_C3",
+      "part_id": "R10_HEAD_CM4carrier_C3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_C4",
+      "part_id": "R10_HEAD_CM4carrier_C4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R2",
+      "part_id": "R10_HEAD_CM4carrier_R2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R3",
+      "part_id": "R10_HEAD_CM4carrier_R3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R7",
+      "part_id": "R10_HEAD_CM4carrier_R7",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R8",
+      "part_id": "R10_HEAD_CM4carrier_R8",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R4",
+      "part_id": "R10_HEAD_CM4carrier_R4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R5",
+      "part_id": "R10_HEAD_CM4carrier_R5",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_R6",
+      "part_id": "R10_HEAD_CM4carrier_R6",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_F1",
+      "part_id": "R10_HEAD_CM4carrier_F1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_F2",
+      "part_id": "R10_HEAD_CM4carrier_F2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_F3",
+      "part_id": "R10_HEAD_CM4carrier_F3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_F4",
+      "part_id": "R10_HEAD_CM4carrier_F4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R13_VIEW_CM4carrier_U2",
+      "part_id": "R13_VIEW_CM4carrier_U2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R13_VIEW_CM4carrier_U3",
+      "part_id": "R13_VIEW_CM4carrier_U3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_U4",
+      "part_id": "R10_HEAD_CM4carrier_U4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J1_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J1_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J2_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J2_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J3_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J3_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J4_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J4_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J5_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J5_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J6_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J6_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J7_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J7_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4carrier_J8_PLUG",
+      "part_id": "R10_HEAD_CM4carrier_J8_PLUG",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_6061_finned_heatsi",
+      "part_id": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_REFERENCE_SUNON_MF30060V2",
+      "part_id": "R10_HEAD_REFERENCE_SUNON_MF30060V2_1000U_A99",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "part_id": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "part_id": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R11_CM4_rear_cradle_and_diagonal_a",
+      "part_id": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R11_CM4_rear_PEEK_5mm_1",
+      "part_id": "R11_CM4_rear_PEEK_5mm_1",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R11_CM4_rear_PEEK_5mm_2",
+      "part_id": "R11_CM4_rear_PEEK_5mm_2",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R11_CM4_rear_PEEK_5mm_3",
+      "part_id": "R11_CM4_rear_PEEK_5mm_3",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R11_CM4_rear_PEEK_5mm_4",
+      "part_id": "R11_CM4_rear_PEEK_5mm_4",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_1_M2_screw",
+      "part_id": "R20_CM4_stack_1_M2_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_1_M2_front_washer",
+      "part_id": "R20_CM4_stack_1_M2_front_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_1_M2_rear_washer",
+      "part_id": "R20_CM4_stack_1_M2_rear_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_1_M2_nut",
+      "part_id": "R20_CM4_stack_1_M2_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_2_M2_screw",
+      "part_id": "R20_CM4_stack_2_M2_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_2_M2_front_washer",
+      "part_id": "R20_CM4_stack_2_M2_front_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_2_M2_rear_washer",
+      "part_id": "R20_CM4_stack_2_M2_rear_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_2_M2_nut",
+      "part_id": "R20_CM4_stack_2_M2_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_3_M2_screw",
+      "part_id": "R20_CM4_stack_3_M2_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_3_M2_front_washer",
+      "part_id": "R20_CM4_stack_3_M2_front_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_3_M2_rear_washer",
+      "part_id": "R20_CM4_stack_3_M2_rear_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_3_M2_nut",
+      "part_id": "R20_CM4_stack_3_M2_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_4_M2_screw",
+      "part_id": "R20_CM4_stack_4_M2_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_4_M2_front_washer",
+      "part_id": "R20_CM4_stack_4_M2_front_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_4_M2_rear_washer",
+      "part_id": "R20_CM4_stack_4_M2_rear_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_stack_4_M2_nut",
+      "part_id": "R20_CM4_stack_4_M2_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_1_M2p5_screw",
+      "part_id": "R20_CM4_foot_1_M2p5_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_1_M2p5_top_washer",
+      "part_id": "R20_CM4_foot_1_M2p5_top_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_1_M2p5_nut",
+      "part_id": "R20_CM4_foot_1_M2p5_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_2_M2p5_screw",
+      "part_id": "R20_CM4_foot_2_M2p5_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_2_M2p5_top_washer",
+      "part_id": "R20_CM4_foot_2_M2p5_top_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_2_M2p5_nut",
+      "part_id": "R20_CM4_foot_2_M2p5_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_3_M2p5_screw",
+      "part_id": "R20_CM4_foot_3_M2p5_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_3_M2p5_top_washer",
+      "part_id": "R20_CM4_foot_3_M2p5_top_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_3_M2p5_nut",
+      "part_id": "R20_CM4_foot_3_M2p5_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_4_M2p5_screw",
+      "part_id": "R20_CM4_foot_4_M2p5_screw",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_4_M2p5_top_washer",
+      "part_id": "R20_CM4_foot_4_M2p5_top_washer",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4_foot_4_M2p5_nut",
+      "part_id": "R20_CM4_foot_4_M2p5_nut",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    },
+    {
+      "object": "R20安装_四组贯穿螺栓_R20_CM4carrier_PCB_existing_NPTH_g",
+      "part_id": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "display_offset_m": [
+        0.0,
+        -0.09,
+        0.0
+      ],
+      "matrix_error": 0.0
+    }
+  ],
+  "old_original_STEP_intersection_readback": [
+    {
+      "object": "旧安装_真实STEP交体_R11_CM4_front_clamp_bar_1",
+      "source_STEP_mm3": 63.29052018586243,
+      "displayed_mm3": 63.283542305390064
+    },
+    {
+      "object": "旧安装_真实STEP交体_R11_CM4_front_clamp_bar_2",
+      "source_STEP_mm3": 63.29052018584845,
+      "displayed_mm3": 63.28356271983355
+    }
+  ],
+  "sources": {
+    "work/r20-walking-fix/head_mount/head_delivery_index.json": "0eb46a94fcf3a06a30724cd3d170ab5075c157103c74beb8d9beed025e3985e8",
+    "work/r20-walking-fix/assembly_final/assembly_selection.json": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+    "work/r18-leg-hip-covers/CURRENT_DESIGN.json": "999c64f482cdafca3def02f8f917196ed359aa6a4f276d5a2203a7ae33d8686d",
+    "outputs/Microduck_R13_5_照片外观与机构审查/模型/Microduck_照片外观与机构审查.blend": "64df8eaf619e960726739ee246a4b443eda5474bcb9010b95bcf22a6165aadf6",
+    "outputs/Microduck_R13_5_照片外观与机构审查/模型/照片外观与机构审查_模型索引.json": "1364c3ddccf5ae68c26bf0be5e6880ac25254e512d46d3fe10d015e024b042be",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/motion_diagnostic/diagnostic_selection.json": "070b3f7db0172ccbda9b959a3231917881ed1b4e67f329f0bad66ec51dbc0b75",
+    "work/r20-walking-fix/head_mount/candidate_manifest.json": "c910ec7bc1f0192311ffba4fca5edfe752a2ff07826bdf12f926991d05c233b6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_screw.stl": "2ff5bcc7806715fe64405226bec7283191ad0495a09ed738520f1dc2dfc6b0ef",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_screw.step": "0979487ffb76b2f160a4c4fa432a366c7272604c720c22cbbc4987b25ffab674",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_front_washer.stl": "0a083c86eac1d256393e3e029f2c9a408324fc4058f68ec31a940047d9d8fa54",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_front_washer.step": "9bf930f67f3fcead91ea7e2c79969041752aaaf7e3ab9be26ec5a0e35399142a",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_rear_washer.stl": "e59ab097c8ede0f2035c98076045ae489346e1c93e2903cdcb785722df4f1025",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_rear_washer.step": "ea1f923aa33515b1ddd9c9aec4aeab74040fd72f03f66c16494a7143349cb980",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_nut.stl": "ca7df6417be52f136fe4575c84737598bc1ef339385408dbea95269b2f4735d7",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_nut.step": "311603bb39f414e84a51b3086a4fa79a0edbb15b8dac5cd447b9b6061bec1bc7",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_screw.stl": "76555814fadb22aa886d5ee5dd5ffa2236f326c74ca8f2856b41f95a841749f7",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_screw.step": "1e34448451a97dd54cb5ab2572cc67b38fddce38b935671430e26c8b124c93a0",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_front_washer.stl": "9ffd89723bb36da72c1a8406c3021279413ebffe5f97e68be0636ea5ded76107",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_front_washer.step": "b0e4c3e94976daadeaff0c6b3bfd66f2b15106c09437004bd161408ccbc088f2",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_rear_washer.stl": "c473eaa50882cbd8cbf6262c299cf7ec7da17df4e37e2a7020dc6ca0ffbc901a",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_rear_washer.step": "e6ad909432d562adb129fa9880733ba8b44407489adb9ce18afc1dcd236025c4",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_nut.stl": "2982cd52b745ded4b8911d1a737b7a6c3893855f8648ac8a0beaac412551f839",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_nut.step": "f662ea2e44ab4b8a2f4c9c9291ad7d0599dcaff46b6ee53d346ad559d7ec25fe",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_screw.stl": "1c1a53a5fd251efecae59ae4450f8c97ff0540f2b601160fc9f66879548f1c18",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_screw.step": "447a47928573e702e8d15d0f9513fe2f0e638bfe3e220c41531725add5ca897e",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_front_washer.stl": "03f91e2ac93750cc78c127b10a39c5a2b93f1fe92e8b89a47e292da19adbfc21",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_front_washer.step": "a79d6bbc72980047ff8c34567a88bc2a24b8273962fd6b1de639860c57e9bf67",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_rear_washer.stl": "ccbdcee1951cf07c243632dbceafef8c3ee51da6d299110dc68ccd67630d27a4",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_rear_washer.step": "45373323131ab4d6f2e4ff8ecaba676fe59a9d618a73e00a343e22e6e61d1669",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_nut.stl": "7c19f8a971a27e7124327092e634c292a344bd171c1a281894eb82c5fdb27d24",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_nut.step": "a7c42a268a6309e5540aa92c4ca5a28a5f1276ece99c7231281ee81b7999af5c",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_screw.stl": "dfd028b74bc9a25b40d3f1312056bd4543fc16336ca2337da62ac7573b08591e",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_screw.step": "9799f05b1ec3f81a86f6b4e97961aaa7e9cc99e7106ad0c231a5778299ff3e76",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_front_washer.stl": "81e6b5de11e36c7d77645c40b11f13596b50ce5f09339cd776102face428799e",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_front_washer.step": "2d03e83b46637386f6157498aaeb00e83bea1a2716658b0a2dd87bc6d0fb193e",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_rear_washer.stl": "c422af54a9b2d575af122957049ea8e356ac402900f0ffa4a42a7fa78adfbb32",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_rear_washer.step": "cf4cde0190f7ba1cfae2b93d1ce592b72445326e0589f57044b07a3b8b361aed",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_nut.stl": "b7f89b5cf1cc0b2711f364a68a3a75b219003911487e8486746b01dd4e693d4e",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_nut.step": "8570f0983e27085fc14998b78479c9ab3229d02efa36fb473b4880ee31c0ef80",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_screw.stl": "e615bca77038fdf68b0075d69df61d10472859e442c32ceddf43abb5d37d1720",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_screw.step": "2e55e3b92c35b234fcfc54a0258fba44ee2794cb1364d08c0360a5ace7ab5dfb",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_top_washer.stl": "e9d9f9bb490c0a0d5402df9e7705847c1cdcc8e5e5c372f63ed7fd17f2e3ea7c",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_top_washer.step": "772ad3cc945d03ba94c037346ef7f63b68100ed623cdbb87b33fce6416eb6b02",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_nut.stl": "73f9ddb612d718eceb5b8c2a81a1cd76352c71e26baf60708f8118c65a9bcfe6",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_nut.step": "c3cec858c1e09463b7c1434aeba303da45faf0946cc1958ef1c5b51dbf96cffa",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_screw.stl": "b488e2417726cd5c61cb57bae1784f3b084dff96c9df7d8de64ae71d6503149f",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_screw.step": "15f11edbcc151ae2082f50a2d9bc0214e83914216b631591a7944b44742be582",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_top_washer.stl": "a46ffb97914ead5906101aa7c95eb3dcbb2345897ec6ec5e72647d8d3dbbe4c6",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_top_washer.step": "679ae14bc32035fb0f7d7b4c26796f9e4fde8fe305df2da23ec8d59de284f5cd",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_nut.stl": "b16f3f7dc9dd2d8407d826c55d80b5a134cec495b796679e39ec3b80f6ccc167",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_nut.step": "4626c373af0256d9ce1b786248a7e19b1da2b362b17340ab03f19687214e077f",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_screw.stl": "372fc3de7b9d9006b4761e2f96eb150859f4418f3f8589980197858bcf88a305",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_screw.step": "6c1dd4a67b5dd2a68b1d19f497417a71282f0fa9b05e49c4149f39d0d0f966bd",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_top_washer.stl": "e70effc10de163dc9be3dad92bffff765cacdf39bd3728525ea41b9a99772a41",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_top_washer.step": "43ad6ae16520eb7eec63c28847726ca087a33000fcfbfdd232823c7e95700867",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_nut.stl": "f2c058a48fd4a0f68739f682941989cd8e65800f77651a417e53b3a292659963",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_nut.step": "a22dc02d671265e403b57085f3d91d019fede1d8ec347bdafd6e21ca0f1da092",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_screw.stl": "9d428c0340217eadd1ffe2c3f6fee5852f1095ad3569df9cc18fbe835056cd0f",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_screw.step": "19bce162b26484c95c4e6ab1f2ee7f784503406f9c178e808752343d0f173a56",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_top_washer.stl": "714a77e4b63bf12b5e3534ae777fb497ffa94e185c97738f67d52019335624d6",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_top_washer.step": "41ad37a54b5896df195eb8a9ca4ab1c6a618122fc3eeed63a649f9c58a148ddd",
+    "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_nut.stl": "ea6c2f88526a7548ab0e2ebf6070617f7ffc3d43b6071acb64e68cae21b80223",
+    "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_nut.step": "af3da1d86992a298c17943c95924ee16190f40d608730c2b8cfcabe596bf9c04",
+    "work/r20-walking-fix/head_mount/board_representation/STL_装配坐标_毫米/R20_CM4carrier_PCB_existing_NPTH_geometry.stl": "6c2e8abd17a88257f163a1e686c070809fc6e974ab2a8f898ff44b4ca3d60ab6",
+    "work/r20-walking-fix/head_mount/board_representation/STEP_毫米/R20_CM4carrier_PCB_existing_NPTH_geometry.step": "8541274223218201e2047da8746870be51c4ce731c2212533d284ae5397d517c",
+    "work/r19-walking-simulation/review/four_baseline_pairs/adjudication.json": "e5bfa39060fac8a2ad33a8ad618cc2b5c047f0319ed7e967192f4c55f4ebb6a7",
+    "work/r19-walking-simulation/review/four_baseline_pairs/pair_02_actual_STEP_material_common.stl": "292cd1a3854b533ddf91382f81f03c917e7c2dbf11bec18d6bfd126ed5e7ec51",
+    "work/r19-walking-simulation/review/four_baseline_pairs/pair_03_actual_STEP_material_common.stl": "d502861bee94b9f54cc1a6029d4c862061ce3634e90e37726b6dcfa2fd9413e5",
+    "work/r20-walking-fix/visual/build_static_viewer.py": "c2177e1895774ef38b1e7f8eeebee6eb31ca6a8ee9296ad80b41baf42d4c523b"
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

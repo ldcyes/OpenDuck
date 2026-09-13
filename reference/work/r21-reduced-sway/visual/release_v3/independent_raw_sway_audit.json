@@ -1,0 +1,53 @@
+{
+  "status": "PASS_INDEPENDENT_SCALAR_FK_AND_DIRECT_ATAN2_RAW_AMPLITUDES",
+  "passed": true,
+  "method": "Scalar native FK for every original saved pose and fixed HOME marker; direct atan2(R21,R22) roll; no sway_metrics.py and no camera or phase-resampled series.",
+  "results": {
+    "baseline": {
+      "saved_actual_samples": 8744,
+      "metrics": {
+        "trunk_roll_deg": {
+          "min": -22.82833237757974,
+          "max": 23.90758022189335,
+          "peak_to_peak": 46.735912599473096
+        },
+        "head_marker_world_Y_mm": {
+          "min": -129.18257868569788,
+          "max": 128.65183343601723,
+          "peak_to_peak": 257.8344121217151
+        }
+      },
+      "time_weighted_roll_mean_deg": 0.7523706656543735
+    },
+    "candidate": {
+      "saved_actual_samples": 9774,
+      "metrics": {
+        "trunk_roll_deg": {
+          "min": -16.129889062923105,
+          "max": 17.239328017552722,
+          "peak_to_peak": 33.36921708047583
+        },
+        "head_marker_world_Y_mm": {
+          "min": -91.93928297629927,
+          "max": 92.10576634989663,
+          "peak_to_peak": 184.0450493261959
+        }
+      },
+      "time_weighted_roll_mean_deg": 0.8057826259461975
+    }
+  },
+  "actual_roll_reduction_fraction": 0.286004803919202,
+  "actual_head_marker_Y_reduction_fraction": 0.28618896208736355,
+  "roll_target_met": false,
+  "head_marker_target_met": false,
+  "physical_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+    "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.json": "d1b2e54df9375da5067cd39e6e4bdf96622bb596f757c03949d0cabb50fad2b5",
+    "work/r21-reduced-sway/visual/release_v3/prepared_visual_inputs.json": "3db5f1c61db48d04c7df6c872cc8ca347e3009fcfbdc8a6a89903b614f0ffbfb",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3",
+    "work/r21-reduced-sway/visual/independent_full_sway_audit.py": "0ec055219b9983fd3d7947e4f560d076841cfe6f802679c00c8b01528c445df8"
+  }
+}

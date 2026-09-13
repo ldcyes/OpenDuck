@@ -1,0 +1,1 @@
+PASS: actual callbacks keep capture STOP from muting playback; all opposite-direction triggers ignored; intended-direction operations retained

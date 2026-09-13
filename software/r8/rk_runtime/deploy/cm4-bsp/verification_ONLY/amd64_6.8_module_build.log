@@ -1,0 +1,22 @@
+make: Entering directory '/tmp/microduck-r3-headers/usr/src/linux-headers-6.8.0-138-generic'
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.o
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-max98357a.o
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-dmic.o
+  MODPOST /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/Module.symvers
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.mod.o
+  LD [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.ko
+  BTF [M] /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.ko
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-max98357a.mod.o
+  LD [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-max98357a.ko
+  BTF [M] /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-max98357a.ko
+  CC [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-dmic.mod.o
+  LD [M]  /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-dmic.ko
+  BTF [M] /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-dmic.ko
+make: Leaving directory '/tmp/microduck-r3-headers/usr/src/linux-headers-6.8.0-138-generic'
+make[2]: Warning: File '/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/modules.order' has modification time 0.036 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.mod.c' has modification time 0.036 s in the future
+Skipping BTF generation for /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-audio.ko due to unavailability of vmlinux
+Skipping BTF generation for /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-max98357a.ko due to unavailability of vmlinux
+Skipping BTF generation for /mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/work/r8-design/software/cm4-module-build/microduck-dmic.ko due to unavailability of vmlinux
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,3 @@
+# Optional Linux upper-computer gateway only. RK interaction daemon uses standard library.
+# Dependency/model installation is separate from offline verification.
+faster-whisper>=1.2.0,<2

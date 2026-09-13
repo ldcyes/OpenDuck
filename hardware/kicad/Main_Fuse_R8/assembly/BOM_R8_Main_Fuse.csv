@@ -1,0 +1,5 @@
+reference,MPN,qty,note
+F1.H,Keystone3549-2,1,Horizontal MINI holder20A
+F1.E,Littelfuse0297015.WXNV,1,15A32VDC fuse; blue
+W1/W2,AWG16 insulated copper solder tails,2,Independent clamp;maxbackheight3mm
+H1/H2,M2 insulated mounting hardware,2,Hardware from integration CAD

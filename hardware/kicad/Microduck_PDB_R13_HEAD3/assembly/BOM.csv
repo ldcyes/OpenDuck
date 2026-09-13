@@ -1,0 +1,8 @@
+Reference,Quantity,MPN,Value,Footprint,Mounting,Scope,Datasheet
+J1,1,S3B-EH(LF)(SN),PORT 1,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,THT,one PCB; matching housings/terminals in harness BOM,https://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+F1,1,0448003.MR,3A VERY FAST,Microduck_PDB_R13:Fuse_Littelfuse_448,SMT,one PCB; matching housings/terminals in harness BOM,https://www.littelfuse.com/assetdocs/littelfuse_fuse_448_datasheet.pdf?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a
+J2,1,S3B-EH(LF)(SN),PORT 2,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,THT,one PCB; matching housings/terminals in harness BOM,https://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+F2,1,0448003.MR,3A VERY FAST,Microduck_PDB_R13:Fuse_Littelfuse_448,SMT,one PCB; matching housings/terminals in harness BOM,https://www.littelfuse.com/assetdocs/littelfuse_fuse_448_datasheet.pdf?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a
+J3,1,S3B-EH(LF)(SN),PORT 3,Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,THT,one PCB; matching housings/terminals in harness BOM,https://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+F3,1,0448003.MR,3A VERY FAST,Microduck_PDB_R13:Fuse_Littelfuse_448,SMT,one PCB; matching housings/terminals in harness BOM,https://www.littelfuse.com/assetdocs/littelfuse_fuse_448_datasheet.pdf?assetguid=12c1a28d-212b-4f45-9d77-c982b871378a
+J6,1,SM04B-SRSS-TB(LF)(SN),GND/DATA IN-OUT,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,SMT,one PCB; matching housings/terminals in harness BOM,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf

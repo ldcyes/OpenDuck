@@ -1,0 +1,48 @@
+reference,value,MPN,footprint,side,x_mm,y_mm,rotation_deg,datasheet
+U1,TDK i7C2W020A120V-P03-R,i7C2W020A120V-P03-R,Microduck_Power_R8:TDK_i7C_P03,F,8.5,16.8,0,https://product.tdk.com/system/files/dam/doc/product/power/switching-power/dc-dc-converter/specification/i7c_20a_spec.pdf
+W1,4S SWITCHED +,SOLDER AWG16,Microduck_Power_R8:WirePad_2p4mm_6mm,F,8,52,0,
+W2,GND INPUT,SOLDER AWG16,Microduck_Power_R8:WirePad_2p4mm_6mm,F,31,53,0,
+W3,SERVO 10.8V,SOLDER AWG16,Microduck_Power_R8:WirePad_2p4mm_6mm,F,54,54,0,
+W4,GND OUTPUT,SOLDER AWG16,Microduck_Power_R8:WirePad_2p4mm_6mm,F,44,56,0,
+C1,680uF 25V 20%,EEUFR1E681,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,F,18,52,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+C2,680uF 25V 20%,EEUFR1E681,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,F,47,10,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+C3,680uF 25V 20%,EEUFR1E681,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,F,47,23,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+Q1,60V 2.2mOhm @10V,CSD18540Q5B,Microduck_Power_R8:CSD18540Q5B_DNK,F,46,35,180,https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+Q2,60V 2.2mOhm @10V,CSD18540Q5B,Microduck_Power_R8:CSD18540Q5B_DNK,F,57,35,0,https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+RS1,2mOhm 1% 3W KELVIN,WSL27262L000FEA,Microduck_Power_R8:WSL2726_Kelvin,F,53,45,-90,https://www.vishay.com/docs/30131/wsl2726.pdf
+U2,IDEAL DIODE + OV CUT,LM74800QDRRRQ1,Package_SON:WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm,B,44,40,0,https://www.ti.com/lit/ds/symlink/lm7480-q1.pdf
+U3,SERVO CURRENT / VBUS 0x41,INA226AIDGSR,Package_SO:MSOP-10_3x3mm_P0.5mm,B,30,45,0,https://www.ti.com/lit/ds/symlink/ina226.pdf
+U4,HARDWARE OC LATCH,INA300AIDGSR,Package_SO:MSOP-10_3x3mm_P0.5mm,B,53,29,0,https://www.ti.com/lit/ds/symlink/ina300.pdf
+Q3,TDK enable sink,BSS138,Package_TO_SOT_SMD:SOT-23,B,6,28,0,https://www.onsemi.com/pdf/datasheet/bss138-d.pdf
+J1,CONTROL 3.3V / RUN DEFAULT OFF,SM08B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,F,60,20,90,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+R1,2.45k 0.1%,RT0603BRD072K45L,Resistor_SMD:R_0603_1608Metric,B,39,24,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R2,17.4k 0.1%,RT0603BRD0717K4L,Resistor_SMD:R_0603_1608Metric,B,39,29,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R3,1k,ERJ-3EKF1001V,Resistor_SMD:R_0603_1608Metric,B,24,35,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+C4,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,27,35,0,https://www.murata.com/en-global/products/capacitor/mlcc
+R4,8.38k 0.1%,RT0603BRD078K38L,Resistor_SMD:R_0603_1608Metric,B,42,29,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R5,1k 0.1%,RT0603BRD071KL,Resistor_SMD:R_0603_1608Metric,B,42,25,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R6,1.2k,ERJ-3EKF1201V,Resistor_SMD:R_0603_1608Metric,B,32,41,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R7,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,35,38,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R8,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,29,38,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R9,1.10k 0.1%,RT0603BRD071K1L,Resistor_SMD:R_0603_1608Metric,B,61,29,90,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R10,10R 0.1%,RT0603BRD0710RL,Resistor_SMD:R_0603_1608Metric,B,26,48,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+R11,10R 0.1%,RT0603BRD0710RL,Resistor_SMD:R_0603_1608Metric,B,30,48,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+C5,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,41,34,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C6,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,41,36,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C7,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,46,44,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C8,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,60,39,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C9,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,26,50,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C10,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,33,48,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C11,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,57,26.5,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C12,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,9,20,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C13,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,13,19,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C14,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,20,19,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C15,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,36,14,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C16,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,13,23,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C17,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,20,23,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C18,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,13,27,0,https://www.murata.com/en-global/products/capacitor/mlcc
+C19,10uF 50V,GRM32ER71H106KA12L,Capacitor_SMD:C_1210_3225Metric,B,20,27,0,https://www.murata.com/en-global/products/capacitor/mlcc
+H1,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,3,3,0,
+H2,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,62,3,0,
+H3,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,3,57,0,
+H4,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,62,57,0,

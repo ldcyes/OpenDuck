@@ -1,0 +1,85 @@
+{
+  "status": "RENDERED_SOURCE_BOUND_ACTUAL_DISPLAY",
+  "purpose": "FINAL_FOUR_STEP",
+  "scene_mode": "same_actual_time",
+  "source_blend_path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+  "source_blend_sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+  "fixed_camera_world_matrix": [
+    [
+      7.549790126404332e-08,
+      -7.549790126404332e-08,
+      1.0,
+      2.0
+    ],
+    [
+      1.0,
+      5.6999328827277325e-15,
+      -7.549790126404332e-08,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      7.549790126404332e-08,
+      0.33000001311302185
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "orthographic_scale_m": 1.399999976158142,
+  "projected_horizontal_span_m": 1.399999976158142,
+  "projected_vertical_span_m": 1.0499999523162842,
+  "all_rendered_text_inside_frustum": true,
+  "frames": [
+    {
+      "index": 0,
+      "display_time_s": 0.0,
+      "actual_clocks_s": {
+        "R20": 0.0,
+        "R21": 0.0
+      },
+      "source_frame_float": 1.0,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0000.png",
+      "PNG_sha256": "d01b36e26f901f7e7b26cb25b43c93d69ceba2045e824c0eea7ce81bed4550bd",
+      "render_seconds": 6.230136871337891
+    },
+    {
+      "index": 1,
+      "display_time_s": 104.90789999855605,
+      "actual_clocks_s": {
+        "R20": 104.90789794921875,
+        "R21": 104.90789794921875
+      },
+      "source_frame_float": 4197.315999942242,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0001.png",
+      "PNG_sha256": "c50e58a66a517194543b1bd203f8a343983443ad9e3dc003e0e014d1c7fda99d",
+      "render_seconds": 6.195338487625122
+    },
+    {
+      "index": 2,
+      "display_time_s": 174.8464999975934,
+      "actual_clocks_s": {
+        "R20": 174.84649658203125,
+        "R21": 174.84649658203125
+      },
+      "source_frame_float": 6994.859999903736,
+      "PNG": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0002.png",
+      "PNG_sha256": "b6040e311286d0b8e387bdd924cf4c012c9e50e6c66db27f9849fa7f1bd858b9",
+      "render_seconds": 5.637474775314331
+    }
+  ],
+  "video_fps": null,
+  "nominal_display_interval_s": null,
+  "nominal_display_speedup": null,
+  "last_interval_shortened": null,
+  "physical_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/visual/release_v3/build_index.json": "129bb52ddf01ef9779af4cb3cf0cb8f999212483127602d7fd78f04f3cc5b752",
+    "work/r21-reduced-sway/visual/release_v3/readback.json": "57fec35845404b0762f7692613c1343d60f69a4cb51f777f51d36fa81840613c",
+    "work/r21-reduced-sway/visual/render_actual_comparison_final.py": "59eff1d326789f92de9476bc4c716ea101d6dac1a0c51ca224379b10e262ed51"
+  }
+}

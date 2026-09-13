@@ -1,0 +1,82 @@
+{
+  "status": "R21_ISOLATED_PIPELINE_PREPARED_NOT_RUN_ON_NEW_GAIT",
+  "physical_approved": false,
+  "numeric_model_unchanged": true,
+  "model_mass_kg": 4.195093550269524,
+  "entries": [
+    {
+      "upstream": "work/r20-walking-fix/dynamics/prepare_feedforward_v4.py",
+      "upstream_sha256": "3912042e7b91601e8dc5be0a32753d4a6ffcbea9707ee050dc2a45106459fdfe",
+      "entry": "work/r21-reduced-sway/dynamics/prepare_feedforward_r21_v1.py",
+      "entry_sha256": "78743b225680fd917674ff04c83d02ab6991df1097cc46b059fa633bae583d20",
+      "all_upstream_function_ASTs_unchanged": true,
+      "scope": "Only read-only dependency bootstrap, output isolation and required final model/contract guards added."
+    },
+    {
+      "upstream": "work/r20-walking-fix/dynamics/controller_v4.py",
+      "upstream_sha256": "f57494ecaaf9c60071a8828cad5ed611ec124fafef1cd4cfe4ab7f808c30725e",
+      "entry": "work/r21-reduced-sway/dynamics/controller_r21_v1.py",
+      "entry_sha256": "1f04fd2560f1e9496471092ce11ae9da59b9e60ef95ec619b70a888e72b2743b",
+      "all_upstream_function_ASTs_unchanged": true,
+      "scope": "Only read-only dependency bootstrap, output isolation and required final model/contract guards added."
+    },
+    {
+      "upstream": "work/r20-walking-fix/dynamics/analyze_run.py",
+      "upstream_sha256": "48bce346349cba86406740dc5a22de2835cd3d2e5b596d2cbc2f1e5556a5371f",
+      "entry": "work/r21-reduced-sway/dynamics/analyze_run_r21_v1.py",
+      "entry_sha256": "c1181c6e6e628d5a7f0d026d286a9dfa2b7e6657a5ed84e7cb470833197cd3f0",
+      "all_upstream_function_ASTs_unchanged": true,
+      "scope": "Only read-only dependency bootstrap, output isolation and required final model/contract guards added."
+    },
+    {
+      "upstream": "work/r20-walking-fix/dynamics/export_trace_for_CAD.py",
+      "upstream_sha256": "f98db7ba230e39a143f533d7dfbae03c37383fc5726192a9fbc4b36f9320eeb8",
+      "entry": "work/r21-reduced-sway/dynamics/export_trace_r21_v1.py",
+      "entry_sha256": "8f4addffee9c1f2d2ff70154b67d03d7cd825312a1fdefb5aeb587a8c7a913cc",
+      "all_upstream_function_ASTs_unchanged": true,
+      "scope": "Only read-only dependency bootstrap, output isolation and required final model/contract guards added."
+    }
+  ],
+  "frozen_inputs": {
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact4.xml": "07853dbc0732042d31aae1c6c935a3374a355a07e74eeffe04efe46aefb23839",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact9.xml": "4c86e42449eb3766336d94c28a63bba62c0b56845305928192cff765adee8405",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact9.json": "e179f11e98109f5f482c923244f4b7d5a62b310b9b0592b17105751647dd1fe5",
+    "work/r20-walking-fix/dynamics/acceptance_criteria.json": "40c0635714c37afed95456e3ccadd26dff92b0253b09b70815fd940d9ba4ab73",
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71"
+  },
+  "required_cases": {
+    "nominal": {
+      "contact_partitions": 4,
+      "dt_s": 0.00025,
+      "sliding_friction": 0.8
+    },
+    "half_timestep": {
+      "contact_partitions": 4,
+      "dt_s": 0.000125,
+      "sliding_friction": 0.8
+    },
+    "friction_0p5": {
+      "contact_partitions": 4,
+      "dt_s": 0.00025,
+      "sliding_friction": 0.5
+    },
+    "contact9": {
+      "contact_partitions": 9,
+      "dt_s": 0.00025,
+      "sliding_friction": 0.8
+    }
+  },
+  "new_reference_requirements": [
+    "q_HOME_delta_deg for all15joints",
+    "base_transform_m in floor world metres",
+    "joint_velocity_deg_s and joint_acceleration_deg_s2 coherent with actual time law",
+    "support_links/contact_mode and smooth desired_load_fraction_by_link",
+    "source SHA bindings and initial-pose transition audit remain separate from simulation initialization"
+  ],
+  "notes": [
+    "Original engineering torque caps and controller force laws/recorded every-integration-step bounds are unchanged.",
+    "R20 acceptance criteria remain read-only and unmodified.",
+    "Initial set_state only initializes a numeric test and does not prove the actual robot can connect from HOME to this stance."
+  ]
+}

@@ -1,0 +1,6 @@
+# CPU runtime on Python 3.11/Linux aarch64. Training uses upstream Python 3.12 + uv.lock instead.
+numpy==2.2.6
+onnxruntime==1.24.4
+dynamixel-sdk==3.8.4
+smbus2==0.5.0
+gpiod>=2.1,<3

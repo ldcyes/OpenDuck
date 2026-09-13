@@ -1,0 +1,655 @@
+{
+  "status": "NAMED_ACTUAL_ANCHORS_ONLY_NOT_ALL_MOTOR_INTERFACES_QUALIFIED",
+  "physical_approved": false,
+  "rows": [
+    {
+      "pair": [
+        "neck_pitch_motor",
+        "R13p3_neck_pitch_active_through_M3_ears"
+      ],
+      "time_s": 97.7199999994172,
+      "q_HOME_delta_deg": {
+        "right_hip_yaw": 27.978586118817976,
+        "right_hip_roll": 0.01948579623855343,
+        "right_hip_pitch": -0.4703666308791509,
+        "right_knee": 16.652316865342115,
+        "right_ankle": 17.097518547982006,
+        "left_hip_yaw": -27.976359174592073,
+        "left_hip_roll": -0.021894658002314483,
+        "left_hip_pitch": 0.47230635986225966,
+        "left_knee": -16.646177864773993,
+        "left_ankle": -17.10710366002452,
+        "neck_pitch": -0.0009801108953774319,
+        "head_pitch": 0.00040123594467875645,
+        "head_yaw": -8.69298706497105e-05,
+        "head_roll": -7.86670881104144e-06,
+        "mouth_candidate": -4.2480450891615826e-05
+      },
+      "raw_mesh_common_mm3": 2.211496518987458e-05,
+      "independent_original_STEP_common_mm3": 0.0,
+      "independent_original_STEP_gap_mm": 0.0,
+      "classification": "SOURCE_MESH_MICRO_RESIDUE_ORIGINAL_STEP_ZERO_AT_THIS_ACTUAL_ANCHOR",
+      "detail": {
+        "limits": "This exact numerical anchor only; no general rotating-interface clearance or physical fit approval."
+      },
+      "source_part_rows": {
+        "neck_pitch_motor": {
+          "name": "neck_pitch_motor",
+          "label_zh": "颈部俯仰电机",
+          "category": "01_motors",
+          "category_zh": "电机（15台）",
+          "source_group": "R12_retained_structure",
+          "source_manifest": "work/r12-motion/assembly_current.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl",
+          "mesh_sha256": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+          "step": "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/0811c7059b_x-430_idle.stp",
+          "step_sha256": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22",
+          "R": [
+            [
+              0.9396809887666354,
+              0.3420521003451899,
+              -5.102145191426139e-08
+            ],
+            [
+              -1.4638870726590402e-08,
+              1.8937851994953227e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666178,
+              1.8296265114739895e-07
+            ]
+          ],
+          "t_mm": [
+            54.60000260614989,
+            1.4499991238122423,
+            68.08514362463274
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "neck",
+          "link_name_zh": "下颈",
+          "display_parent_link": "neck",
+          "joint": "neck_pitch",
+          "actuator_id": 30,
+          "link_joint": "neck_pitch",
+          "ancestry_joints": [
+            "neck_pitch"
+          ],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": true,
+          "reference_only": false,
+          "material": "vendor assembly nominal",
+          "kind": "motor",
+          "mpn": "XM430-W350-T",
+          "model": "XM430",
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "厂家组合CAD仅作机身/整台电机代理，输出盘未独立拆体；外部转接耳按其真实所属link绑定。"
+          ]
+        },
+        "R13p3_neck_pitch_active_through_M3_ears": {
+          "name": "R13p3_neck_pitch_active_through_M3_ears",
+          "label_zh": "R13.3 颈部俯仰主动端转接耳 · 金属安装修订",
+          "category": "02_motor_interfaces",
+          "category_zh": "电机安装座与转接耳",
+          "source_group": "R13p3_motor_frame_mount",
+          "source_manifest": "work/r16-motor-mount/candidate/manifest.json",
+          "replaces_name": "neck_pitch_active",
+          "mesh": "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_active_through_M3_ears.stl",
+          "mesh_sha256": "6fd59fa148a632c90c85330cff7c78e2413f5a70a75a4ac74f5fd4970083b856",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "trunk_base",
+          "link_name_zh": "躯干",
+          "display_parent_link": "trunk_base",
+          "joint": "neck_pitch",
+          "actuator_id": 30,
+          "link_joint": null,
+          "ancestry_joints": [],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": true,
+          "reference_only": false,
+          "material": "7075-T651",
+          "kind": "active",
+          "mpn": null,
+          "model": "XM430",
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "R13.3电机安装夹紧结构与12颗螺钉；名义装配已纳入工程，实际首件公差/预紧及动态验收状态见绑定报告。"
+          ],
+          "step": "work/r16-motor-mount/host_geometry/candidate_v1/STEP_毫米/R13p3_neck_pitch_active_through_M3_ears.step",
+          "step_sha256": "30af1798ade8c113f5e4301be01aced67ac0e93c33da952d90e7b0fbd5e8d282"
+        }
+      }
+    },
+    {
+      "pair": [
+        "neck_pitch_motor",
+        "R13p3_neck_pitch_idler_through_M3_ears"
+      ],
+      "time_s": 97.7199999994172,
+      "q_HOME_delta_deg": {
+        "right_hip_yaw": 27.978586118817976,
+        "right_hip_roll": 0.01948579623855343,
+        "right_hip_pitch": -0.4703666308791509,
+        "right_knee": 16.652316865342115,
+        "right_ankle": 17.097518547982006,
+        "left_hip_yaw": -27.976359174592073,
+        "left_hip_roll": -0.021894658002314483,
+        "left_hip_pitch": 0.47230635986225966,
+        "left_knee": -16.646177864773993,
+        "left_ankle": -17.10710366002452,
+        "neck_pitch": -0.0009801108953774319,
+        "head_pitch": 0.00040123594467875645,
+        "head_yaw": -8.69298706497105e-05,
+        "head_roll": -7.86670881104144e-06,
+        "mouth_candidate": -4.2480450891615826e-05
+      },
+      "raw_mesh_common_mm3": 3.110767866915698e-05,
+      "independent_original_STEP_common_mm3": 0.0,
+      "independent_original_STEP_gap_mm": 0.0,
+      "classification": "SOURCE_MESH_MICRO_RESIDUE_ORIGINAL_STEP_ZERO_AT_THIS_ACTUAL_ANCHOR",
+      "detail": {
+        "limits": "This exact numerical anchor only; no general rotating-interface clearance or physical fit approval."
+      },
+      "source_part_rows": {
+        "neck_pitch_motor": {
+          "name": "neck_pitch_motor",
+          "label_zh": "颈部俯仰电机",
+          "category": "01_motors",
+          "category_zh": "电机（15台）",
+          "source_group": "R12_retained_structure",
+          "source_manifest": "work/r12-motion/assembly_current.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl",
+          "mesh_sha256": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+          "step": "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/0811c7059b_x-430_idle.stp",
+          "step_sha256": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22",
+          "R": [
+            [
+              0.9396809887666354,
+              0.3420521003451899,
+              -5.102145191426139e-08
+            ],
+            [
+              -1.4638870726590402e-08,
+              1.8937851994953227e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666178,
+              1.8296265114739895e-07
+            ]
+          ],
+          "t_mm": [
+            54.60000260614989,
+            1.4499991238122423,
+            68.08514362463274
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "neck",
+          "link_name_zh": "下颈",
+          "display_parent_link": "neck",
+          "joint": "neck_pitch",
+          "actuator_id": 30,
+          "link_joint": "neck_pitch",
+          "ancestry_joints": [
+            "neck_pitch"
+          ],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": true,
+          "reference_only": false,
+          "material": "vendor assembly nominal",
+          "kind": "motor",
+          "mpn": "XM430-W350-T",
+          "model": "XM430",
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "厂家组合CAD仅作机身/整台电机代理，输出盘未独立拆体；外部转接耳按其真实所属link绑定。"
+          ]
+        },
+        "R13p3_neck_pitch_idler_through_M3_ears": {
+          "name": "R13p3_neck_pitch_idler_through_M3_ears",
+          "label_zh": "R13.3 颈部俯仰从动端转接耳 · 金属安装修订",
+          "category": "02_motor_interfaces",
+          "category_zh": "电机安装座与转接耳",
+          "source_group": "R13p3_motor_frame_mount",
+          "source_manifest": "work/r16-motor-mount/candidate/manifest.json",
+          "replaces_name": "neck_pitch_idler",
+          "mesh": "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_idler_through_M3_ears.stl",
+          "mesh_sha256": "dcabdb860269e59dbe15752e97324cca81edc0187b5cff06b7ee419eb16f0696",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "trunk_base",
+          "link_name_zh": "躯干",
+          "display_parent_link": "trunk_base",
+          "joint": "neck_pitch",
+          "actuator_id": 30,
+          "link_joint": null,
+          "ancestry_joints": [],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": true,
+          "reference_only": false,
+          "material": "7075-T651",
+          "kind": "idler",
+          "mpn": null,
+          "model": "XM430",
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "R13.3电机安装夹紧结构与12颗螺钉；名义装配已纳入工程，实际首件公差/预紧及动态验收状态见绑定报告。"
+          ],
+          "step": "work/r16-motor-mount/host_geometry/candidate_v1/STEP_毫米/R13p3_neck_pitch_idler_through_M3_ears.step",
+          "step_sha256": "11ad9da4f2cb25e2c1ea0d4d7562c3c659242bd474e2124c206f676b35ce459b"
+        }
+      }
+    },
+    {
+      "pair": [
+        "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+        "SP3_HEAD_PILLAR_FRONT_V6"
+      ],
+      "time_s": 97.7199999994172,
+      "q_HOME_delta_deg": {
+        "right_hip_yaw": 27.978586118817976,
+        "right_hip_roll": 0.01948579623855343,
+        "right_hip_pitch": -0.4703666308791509,
+        "right_knee": 16.652316865342115,
+        "right_ankle": 17.097518547982006,
+        "left_hip_yaw": -27.976359174592073,
+        "left_hip_roll": -0.021894658002314483,
+        "left_hip_pitch": 0.47230635986225966,
+        "left_knee": -16.646177864773993,
+        "left_ankle": -17.10710366002452,
+        "neck_pitch": -0.0009801108953774319,
+        "head_pitch": 0.00040123594467875645,
+        "head_yaw": -8.69298706497105e-05,
+        "head_roll": -7.86670881104144e-06,
+        "mouth_candidate": -4.2480450891615826e-05
+      },
+      "raw_mesh_common_mm3": 0.0004057477854468148,
+      "independent_original_STEP_common_mm3": 0.000406072242604697,
+      "independent_original_STEP_gap_mm": 0.0,
+      "classification": "SAME_WIRE_TAIL_AND_HOME_ROUTE_REFERENCE_OVERLAP",
+      "detail": {
+        "board": "PDB_H",
+        "pad": "W1",
+        "source_node": "SP3",
+        "limits": "Two representations of one conductor, not distinct rigid materials. Wire deformation/bend/lifetime remain unqualified."
+      },
+      "source_part_rows": {
+        "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX": {
+          "name": "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+          "label_zh": "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+          "category": "06_electronics",
+          "category_zh": "电路板与元器件参考",
+          "source_group": "R13_public_delta",
+          "source_manifest": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/R13增量装配.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/42842cd68b33_HEAD3_W1_INSULATED_STRAIGHT8_MAX.stl",
+          "mesh_sha256": "42842cd68b331b2f923ed307d6ece72b203d6b228b7df374ee7e3c383df0111d",
+          "step": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/c632c2e2d69e_HEAD3_W1_INSULATED_STRAIGHT8_MAX.step",
+          "step_sha256": "c632c2e2d69e1c7e83d9882874f38106133f54ce083ef03c5faceeb92b3906f1",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            -63.0,
+            -47.0,
+            265.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "jaw_soft",
+          "link_name_zh": "固定头架",
+          "display_parent_link": "jaw_soft",
+          "joint": null,
+          "actuator_id": null,
+          "link_joint": "head_roll",
+          "ancestry_joints": [
+            "neck_pitch",
+            "head_pitch",
+            "head_yaw",
+            "head_roll"
+          ],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": false,
+          "reference_only": true,
+          "material": "CONDUCTOR_PROCESS_REFERENCE_NOT_MATERIAL",
+          "kind": "preformed_board_tail_reference",
+          "mpn": null,
+          "model": null,
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "工艺/极限/局部线尾参考默认隐藏，可从参考层独立开启；不是额外实物。"
+          ]
+        },
+        "SP3_HEAD_PILLAR_FRONT_V6": {
+          "name": "SP3_HEAD_PILLAR_FRONT_V6",
+          "label_zh": "SP3_HEAD_PILLAR_FRONT_V6",
+          "category": "08_harness",
+          "category_zh": "主馈线与分线接点",
+          "source_group": "R13_public_delta",
+          "source_manifest": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/R13增量装配.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/17b3fd6d9c3c_SP3_HEAD_PILLAR_FRONT_V6.stl",
+          "mesh_sha256": "17b3fd6d9c3cbd0a8ef30d7572c0e604e70642cbba61aa6638b3c6178fed8c66",
+          "step": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/41fe95602196_SP3_HEAD_PILLAR_FRONT_V6.step",
+          "step_sha256": "41fe95602196a0852264a83ed14f24355e1ac0d0a1fe75131eabbad55a42d2f5",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "MULTI_LINK_FLEX_HARNESS",
+          "link_name_zh": "跨关节柔性线束",
+          "display_parent_link": "trunk_base",
+          "joint": null,
+          "actuator_id": null,
+          "link_joint": null,
+          "ancestry_joints": [],
+          "kinematics_mode": "HOME_ONLY_FLEX_HARNESS",
+          "visible_default": true,
+          "reference_only": true,
+          "material": "INSTALLATION_REFERENCE",
+          "kind": "",
+          "mpn": null,
+          "model": null,
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "线形/节点为带安装余量的几何参考，不按包络体积计重。",
+            "跨躯干/颈/头的完整线形仅适用于HOME；头关节变化时应隐藏或明确提示，不能整根跟头刚转。"
+          ]
+        }
+      }
+    },
+    {
+      "pair": [
+        "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+        "SP4_HEAD_PILLAR_FRONT_V6"
+      ],
+      "time_s": 97.7199999994172,
+      "q_HOME_delta_deg": {
+        "right_hip_yaw": 27.978586118817976,
+        "right_hip_roll": 0.01948579623855343,
+        "right_hip_pitch": -0.4703666308791509,
+        "right_knee": 16.652316865342115,
+        "right_ankle": 17.097518547982006,
+        "left_hip_yaw": -27.976359174592073,
+        "left_hip_roll": -0.021894658002314483,
+        "left_hip_pitch": 0.47230635986225966,
+        "left_knee": -16.646177864773993,
+        "left_ankle": -17.10710366002452,
+        "neck_pitch": -0.0009801108953774319,
+        "head_pitch": 0.00040123594467875645,
+        "head_yaw": -8.69298706497105e-05,
+        "head_roll": -7.86670881104144e-06,
+        "mouth_candidate": -4.2480450891615826e-05
+      },
+      "raw_mesh_common_mm3": 0.0005083117809832552,
+      "independent_original_STEP_common_mm3": 0.0005087303856500414,
+      "independent_original_STEP_gap_mm": 0.0,
+      "classification": "SAME_WIRE_TAIL_AND_HOME_ROUTE_REFERENCE_OVERLAP",
+      "detail": {
+        "board": "PDB_H",
+        "pad": "W2",
+        "source_node": "SP4",
+        "limits": "Two representations of one conductor, not distinct rigid materials. Wire deformation/bend/lifetime remain unqualified."
+      },
+      "source_part_rows": {
+        "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX": {
+          "name": "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+          "label_zh": "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+          "category": "06_electronics",
+          "category_zh": "电路板与元器件参考",
+          "source_group": "R13_public_delta",
+          "source_manifest": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/R13增量装配.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/66dee1c2a53f_HEAD3_W2_INSULATED_STRAIGHT8_MAX.stl",
+          "mesh_sha256": "66dee1c2a53fb521fa7bdd1f8c49f4f1295159384dbdcd3732f027672c42b3b8",
+          "step": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/194c375f9fe8_HEAD3_W2_INSULATED_STRAIGHT8_MAX.step",
+          "step_sha256": "194c375f9fe89c9ce5be74ea65f311a82e366300f1f1c5e8c88b462f67d49a91",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            -63.0,
+            -47.0,
+            265.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "jaw_soft",
+          "link_name_zh": "固定头架",
+          "display_parent_link": "jaw_soft",
+          "joint": null,
+          "actuator_id": null,
+          "link_joint": "head_roll",
+          "ancestry_joints": [
+            "neck_pitch",
+            "head_pitch",
+            "head_yaw",
+            "head_roll"
+          ],
+          "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+          "visible_default": false,
+          "reference_only": true,
+          "material": "CONDUCTOR_PROCESS_REFERENCE_NOT_MATERIAL",
+          "kind": "preformed_board_tail_reference",
+          "mpn": null,
+          "model": null,
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "工艺/极限/局部线尾参考默认隐藏，可从参考层独立开启；不是额外实物。"
+          ]
+        },
+        "SP4_HEAD_PILLAR_FRONT_V6": {
+          "name": "SP4_HEAD_PILLAR_FRONT_V6",
+          "label_zh": "SP4_HEAD_PILLAR_FRONT_V6",
+          "category": "08_harness",
+          "category_zh": "主馈线与分线接点",
+          "source_group": "R13_public_delta",
+          "source_manifest": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/R13增量装配.json",
+          "replaces_name": null,
+          "mesh": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/ac995c9ccb70_SP4_HEAD_PILLAR_FRONT_V6.stl",
+          "mesh_sha256": "ac995c9ccb707d87d8bc2eaa59d2475d2a0a0f2f7b1438277e6df8cef2b579a1",
+          "step": "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/13ab4a975818_SP4_HEAD_PILLAR_FRONT_V6.step",
+          "step_sha256": "13ab4a975818ef141965f3c287d22a20a971af4ffa3b4cfe9ce6fd1e87ed6457",
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "t_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "geometry_scale": [
+            1,
+            1,
+            1
+          ],
+          "link_frame": "MULTI_LINK_FLEX_HARNESS",
+          "link_name_zh": "跨关节柔性线束",
+          "display_parent_link": "trunk_base",
+          "joint": null,
+          "actuator_id": null,
+          "link_joint": null,
+          "ancestry_joints": [],
+          "kinematics_mode": "HOME_ONLY_FLEX_HARNESS",
+          "visible_default": true,
+          "reference_only": true,
+          "material": "INSTALLATION_REFERENCE",
+          "kind": "",
+          "mpn": null,
+          "model": null,
+          "manufacturing_approved": false,
+          "mass_is_not_computed_from_viewer_geometry": true,
+          "notes_zh": [
+            "线形/节点为带安装余量的几何参考，不按包络体积计重。",
+            "跨躯干/颈/头的完整线形仅适用于HOME；头关节变化时应隐藏或明确提示，不能整根跟头刚转。"
+          ]
+        }
+      }
+    }
+  ],
+  "unclassified_or_positive_original_material": [],
+  "sources": {
+    "work/r20-walking-fix/geometry/adjudicate_actual_anchors.py": "e36510ab295372463c66980af42b015335d16d6843782fe2fe4f7725530f1093",
+    "work/r20-walking-fix/assembly_final/assembly_selection.json": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+    "work/r21-reduced-sway/geometry/actual_4steps_v3/numerical_state_box_check.json": "1058c8adcab5d1074c264054d446e8adc0cdf71288db4feb3a070de2b6fb49b4",
+    "work/r13-electronics/pdb/feed_routes/head_pillar_front_v6/manifest.json": "7c9ece3f24701fc5a9196bf281c485c0970c711e32e4010099a10c03e427ae24",
+    "work/r13-electronics/pdb/HEAD3/formed_tails/manifest.json": "0272a19f5c3dfe8689d7fd77c2b2993be49c3c8e9aa495716f1c0863b6567074",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/0811c7059b_x-430_idle.stp": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_active_through_M3_ears.stl": "6fd59fa148a632c90c85330cff7c78e2413f5a70a75a4ac74f5fd4970083b856",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STEP_毫米/R13p3_neck_pitch_active_through_M3_ears.step": "30af1798ade8c113f5e4301be01aced67ac0e93c33da952d90e7b0fbd5e8d282",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_idler_through_M3_ears.stl": "dcabdb860269e59dbe15752e97324cca81edc0187b5cff06b7ee419eb16f0696",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STEP_毫米/R13p3_neck_pitch_idler_through_M3_ears.step": "11ad9da4f2cb25e2c1ea0d4d7562c3c659242bd474e2124c206f676b35ce459b",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/42842cd68b33_HEAD3_W1_INSULATED_STRAIGHT8_MAX.stl": "42842cd68b331b2f923ed307d6ece72b203d6b228b7df374ee7e3c383df0111d",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/c632c2e2d69e_HEAD3_W1_INSULATED_STRAIGHT8_MAX.step": "c632c2e2d69e1c7e83d9882874f38106133f54ce083ef03c5faceeb92b3906f1",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/17b3fd6d9c3c_SP3_HEAD_PILLAR_FRONT_V6.stl": "17b3fd6d9c3cbd0a8ef30d7572c0e604e70642cbba61aa6638b3c6178fed8c66",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/41fe95602196_SP3_HEAD_PILLAR_FRONT_V6.step": "41fe95602196a0852264a83ed14f24355e1ac0d0a1fe75131eabbad55a42d2f5",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/66dee1c2a53f_HEAD3_W2_INSULATED_STRAIGHT8_MAX.stl": "66dee1c2a53fb521fa7bdd1f8c49f4f1295159384dbdcd3732f027672c42b3b8",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/194c375f9fe8_HEAD3_W2_INSULATED_STRAIGHT8_MAX.step": "194c375f9fe89c9ce5be74ea65f311a82e366300f1f1c5e8c88b462f67d49a91",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/ac995c9ccb70_SP4_HEAD_PILLAR_FRONT_V6.stl": "ac995c9ccb707d87d8bc2eaa59d2475d2a0a0f2f7b1438277e6df8cef2b579a1",
+    "outputs/Microduck_RK_R13_配电电路与扭矩验证/结构与安装/CAD/13ab4a975818_SP4_HEAD_PILLAR_FRONT_V6.step": "13ab4a975818ef141965f3c287d22a20a971af4ffa3b4cfe9ce6fd1e87ed6457",
+    "work/r21-reduced-sway/geometry/adjudicate_actual_anchors.py": "2299b3307f734e66a26e7e69550bc6772e5519559031c36a9dc5c7d2a154674f"
+  }
+}

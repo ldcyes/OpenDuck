@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "scope": "Actual amplitude recomputation only; no new dynamics, geometry, hardware or manufacturing acceptance.",
+  "comparison": {
+    "actual_roll_reduction_fraction": 0.28600480391920213,
+    "actual_head_marker_Y_reduction_fraction": 0.28618896208736366,
+    "actual_roll_target_met": false,
+    "actual_head_marker_Y_target_met": false,
+    "both_sway_targets_met": false,
+    "durations_s": {
+      "baseline": 174.8464999975934,
+      "candidate": 195.4417499971064
+    },
+    "other_axis_amplitude_changes": {
+      "root_world_Y_mm": {
+        "baseline": 36.33113957108,
+        "candidate": 23.365003248605326,
+        "change": -12.966136322474675
+      },
+      "trunk_yaw_deg": {
+        "baseline": 22.483544776453286,
+        "candidate": 3.9063626099836446,
+        "change": -18.57718216646964
+      },
+      "trunk_pitch_deg": {
+        "baseline": 9.919841227944923,
+        "candidate": 8.993863669021135,
+        "change": -0.9259775589237886
+      },
+      "root_world_Z_mm": {
+        "baseline": 8.250000601895408,
+        "candidate": 9.135912783110001,
+        "change": 0.8859121812145929
+      },
+      "head_marker_world_X_mm": {
+        "baseline": 65.07783859229997,
+        "candidate": 68.23909136570157,
+        "change": 3.1612527734016
+      },
+      "head_marker_world_Z_mm": {
+        "baseline": 29.689689205276295,
+        "candidate": 21.66362856704643,
+        "change": -8.026060638229865
+      }
+    },
+    "scope": "Actual world amplitudes only. Reference tracking quality, camera and retiming cannot substitute for these two gates. Stability, foot progress/slip, caps and CAD checks remain separate."
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

@@ -1,0 +1,148 @@
+{
+  "status": "SOURCE_MESH_ACTUAL_STANCE_COMPARISON",
+  "stances": {
+    "R20": {
+      "feet": {
+        "ankle_left": {
+          "parts": [
+            "left_ankle_active",
+            "left_ankle_idler",
+            "R12_left_TPU_contact_pad_W130",
+            "R12_left_foot_load_carrier_W130",
+            "R18P_L_shoe_toe",
+            "R18P_L_shoe_heel"
+          ],
+          "actual_union_bounds_world_mm": [
+            [
+              -65.5103579775189,
+              23.443648809561992,
+              -3.6544037129715434e-07
+            ],
+            [
+              65.61511349558934,
+              151.3458706904405,
+              72.63807713228181
+            ]
+          ],
+          "support_polygon_centroid_world_xy_mm": [
+            0.9633747641376169,
+            85.68278325045812
+          ],
+          "support_polygon_area_mm2": 11105.811475611577
+        },
+        "ankle_right": {
+          "parts": [
+            "right_ankle_active",
+            "right_ankle_idler",
+            "R12_right_TPU_contact_pad_W130",
+            "R12_right_foot_load_carrier_W130",
+            "R18P_R_shoe_toe",
+            "R18P_R_shoe_heel"
+          ],
+          "actual_union_bounds_world_mm": [
+            [
+              -65.5121734226168,
+              -151.35264279650224,
+              -3.5176965127448057e-06
+            ],
+            [
+              65.61534214049468,
+              -23.44340021690136,
+              72.63806003949523
+            ]
+          ],
+          "support_polygon_centroid_world_xy_mm": [
+            0.9628646686515988,
+            -85.68381847793799
+          ],
+          "support_polygon_area_mm2": 11106.12073749755
+        }
+      },
+      "union_Y_separating_plane_gap_mm": 46.88704902646335,
+      "support_polygon_centroid_spacing_mm": 171.36660172915532
+    },
+    "R21": {
+      "feet": {
+        "ankle_left": {
+          "parts": [
+            "left_ankle_active",
+            "left_ankle_idler",
+            "R12_left_TPU_contact_pad_W130",
+            "R12_left_foot_load_carrier_W130",
+            "R18P_L_shoe_toe",
+            "R18P_L_shoe_heel"
+          ],
+          "actual_union_bounds_world_mm": [
+            [
+              -104.02234238154608,
+              2.317077812631535,
+              -2.0526609603166435e-06
+            ],
+            [
+              36.44413920854816,
+              141.90264258766504,
+              72.63807713304104
+            ]
+          ],
+          "support_polygon_centroid_world_xy_mm": [
+            -31.987625874673274,
+            70.23253173502216
+          ],
+          "support_polygon_area_mm2": 11105.811475611568
+        },
+        "ankle_right": {
+          "parts": [
+            "right_ankle_active",
+            "right_ankle_idler",
+            "R12_right_TPU_contact_pad_W130",
+            "R12_right_foot_load_carrier_W130",
+            "R18P_R_shoe_toe",
+            "R18P_R_shoe_heel"
+          ],
+          "actual_union_bounds_world_mm": [
+            [
+              -104.0256309756112,
+              -141.90882971327855,
+              -5.967480120716573e-06
+            ],
+            [
+              36.44454787392142,
+              -2.316834847255521,
+              72.63805899039238
+            ]
+          ],
+          "support_polygon_centroid_world_xy_mm": [
+            -31.988355256585766,
+            -70.23342031165203
+          ],
+          "support_polygon_area_mm2": 11106.12073749753
+        }
+      },
+      "union_Y_separating_plane_gap_mm": 4.633912659887056,
+      "support_polygon_centroid_spacing_mm": 140.46595204856789
+    }
+  },
+  "foot_centroid_spacing_reduction_percent": 18.031897329344183,
+  "centroid_definition": "Area centroid of each actual TPU sole convex support polygon computed by the shoelace formula; not the arithmetic mean of hull vertices used as a convenient wrench reference in earlier diagnostics.",
+  "sources": {
+    "work/r21-reduced-sway/gait/reduced_core_v2.py": "8f4f7d042e59322fcbb42774130d5cafff90e7c7bb0b18777c9002b59ef647ad",
+    "work/r20-walking-fix/assembly_final/assembly_selection.json": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact4.xml": "07853dbc0732042d31aae1c6c935a3374a355a07e74eeffe04efe46aefb23839",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_left_TPU_contact_pad_W130.stl": "c5eeb7dd1082a0697c3d21dac750d5486acb7c7db416a23c48623581269f81a1",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_right_TPU_contact_pad_W130.stl": "bf778d4dc8aff3ce6455e57c134862f55cd38a427204d99331ce3d22f5aff2f7",
+    "work/r11-integration/shells/STL_R11_\u96c6\u6210\u58f3\u5019\u9009/R11_45_top_head_shell.stl": "c8870cf186afedcc64ae5e7c6ae9f44409f66b94c5c8187b176f3d0b51d8f344",
+    "work/r21-reduced-sway/gait/describe_stance_geometry_v1.py": "e44681be1c0ea274bbfeceec9d278a33d9ad66fc77b1dbbc3d25fe31e79efa60",
+    "work/r21-reduced-sway/gait/support_pair_v4.json": "4ff93266e6fdf84529a0c71b8ff44d05992d7c7141fec935544f30f429777e3a",
+    "work/r20-walking-fix/gait/reserved_endpoints.json": "f9cea0be085272480f2bcc4004f30a7aed0375832f898e172ea345f467d11df4",
+    "work/r21-reduced-sway/gait/actual_stance_geometry_v1.json": "c77bda95c979296c49399684501fb43f456dfc00bfadcfd9882d2a998b6bc5cc",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/f57f2d1fe0_XM430_active_ear.stl": "446c048be46e205ffc4ce452a21d46d29a00f26f17cfb6635dafa08d7e9084f8",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/2fdb836a92_XM430_idler_ear.stl": "1f079e7c52432d4ec2e73fc435beda00556c1dd2c3f262b8e60b9ed24f9f70d4",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_left_foot_load_carrier_W130.stl": "6ad0e1e0d294553000934c268efa8bafbf5ac18aa31b44e4cd2ed72b896ff045",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R18P_L_shoe_toe.stl": "0c25e4969818cfab1041b403e4bd215f58eb0aaa9fd6ae4d21a7bf05faddd3d1",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R18P_L_shoe_heel.stl": "c98d08d0c960f7399cc80221e0adb2110ec70e5035dd09f568fa142218fa3618",
+    "work/r12-motion/feet_loads/actual_feet_w130/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_right_foot_load_carrier_W130.stl": "8c4cddca20857768540502f8de85a7ed6300ce7e5b3d44011cfb7ba70c263519",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R18P_R_shoe_toe.stl": "47e1334fbb05aa8ae7820309f0c0a54a2a0c80c90331dd0f63d654e5cb4209a0",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R18P_R_shoe_heel.stl": "d65bfd6def6f6deacb887a1eb0a88332e1186218818767c74efdeec8e19bc2e7"
+  }
+}

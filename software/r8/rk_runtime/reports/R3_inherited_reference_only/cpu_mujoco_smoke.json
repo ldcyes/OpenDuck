@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "scope": "upstream CPU model compilation and finite integration only",
+  "not_validated": [
+    "R1 changed geometry/inertia",
+    "XC330 actuation",
+    "learned walking",
+    "real robot"
+  ],
+  "mujoco_version": "3.3.7",
+  "models": [
+    {
+      "model": "robot_walk.xml",
+      "nq": 21,
+      "nv": 20,
+      "actuators": 14,
+      "body_mass_sum_kg": 0.7372431799999999,
+      "actuator_joint_order": [
+        "left_hip_yaw",
+        "left_hip_roll",
+        "left_hip_pitch",
+        "left_knee",
+        "left_ankle",
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll",
+        "right_hip_yaw",
+        "right_hip_roll",
+        "right_hip_pitch",
+        "right_knee",
+        "right_ankle"
+      ],
+      "finite_steps": 100
+    },
+    {
+      "model": "robot_groundcontact.xml",
+      "nq": 21,
+      "nv": 20,
+      "actuators": 14,
+      "body_mass_sum_kg": 0.7372431799999999,
+      "actuator_joint_order": [
+        "left_hip_yaw",
+        "left_hip_roll",
+        "left_hip_pitch",
+        "left_knee",
+        "left_ankle",
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll",
+        "right_hip_yaw",
+        "right_hip_roll",
+        "right_hip_pitch",
+        "right_knee",
+        "right_ankle"
+      ],
+      "finite_steps": 100
+    },
+    {
+      "model": "robot_allcollisions.xml",
+      "nq": 21,
+      "nv": 20,
+      "actuators": 14,
+      "body_mass_sum_kg": 0.7372431799999999,
+      "actuator_joint_order": [
+        "left_hip_yaw",
+        "left_hip_roll",
+        "left_hip_pitch",
+        "left_knee",
+        "left_ankle",
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll",
+        "right_hip_yaw",
+        "right_hip_roll",
+        "right_hip_pitch",
+        "right_knee",
+        "right_ankle"
+      ],
+      "finite_steps": 100
+    }
+  ]
+}

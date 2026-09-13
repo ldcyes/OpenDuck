@@ -1,0 +1,1962 @@
+{
+  "status": "R20_HEAD_AND_HIP_RAIL_ENGINEERING_REVISION_VALIDATION_PENDING",
+  "parts": [
+    {
+      "name": "R20_CM4_stack_1_M2_screw",
+      "label_zh": "头部紧固件 · R20_CM4_stack_1_M2_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_screw.stl",
+      "mesh_sha256": "2ff5bcc7806715fe64405226bec7283191ad0495a09ed738520f1dc2dfc6b0ef",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_screw.step",
+      "step_sha256": "0979487ffb76b2f160a4c4fa432a366c7272604c720c22cbbc4987b25ffab674",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_front_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_1_M2_front_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_front_washer.stl",
+      "mesh_sha256": "0a083c86eac1d256393e3e029f2c9a408324fc4058f68ec31a940047d9d8fa54",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_front_washer.step",
+      "step_sha256": "9bf930f67f3fcead91ea7e2c79969041752aaaf7e3ab9be26ec5a0e35399142a",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_rear_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_1_M2_rear_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_rear_washer.stl",
+      "mesh_sha256": "e59ab097c8ede0f2035c98076045ae489346e1c93e2903cdcb785722df4f1025",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_rear_washer.step",
+      "step_sha256": "ea1f923aa33515b1ddd9c9aec4aeab74040fd72f03f66c16494a7143349cb980",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_1_M2_nut",
+      "label_zh": "头部紧固件 · R20_CM4_stack_1_M2_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_1_M2_nut.stl",
+      "mesh_sha256": "ca7df6417be52f136fe4575c84737598bc1ef339385408dbea95269b2f4735d7",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_1_M2_nut.step",
+      "step_sha256": "311603bb39f414e84a51b3086a4fa79a0edbb15b8dac5cd447b9b6061bec1bc7",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_screw",
+      "label_zh": "头部紧固件 · R20_CM4_stack_2_M2_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_screw.stl",
+      "mesh_sha256": "76555814fadb22aa886d5ee5dd5ffa2236f326c74ca8f2856b41f95a841749f7",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_screw.step",
+      "step_sha256": "1e34448451a97dd54cb5ab2572cc67b38fddce38b935671430e26c8b124c93a0",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_front_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_2_M2_front_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_front_washer.stl",
+      "mesh_sha256": "9ffd89723bb36da72c1a8406c3021279413ebffe5f97e68be0636ea5ded76107",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_front_washer.step",
+      "step_sha256": "b0e4c3e94976daadeaff0c6b3bfd66f2b15106c09437004bd161408ccbc088f2",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_rear_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_2_M2_rear_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_rear_washer.stl",
+      "mesh_sha256": "c473eaa50882cbd8cbf6262c299cf7ec7da17df4e37e2a7020dc6ca0ffbc901a",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_rear_washer.step",
+      "step_sha256": "e6ad909432d562adb129fa9880733ba8b44407489adb9ce18afc1dcd236025c4",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_2_M2_nut",
+      "label_zh": "头部紧固件 · R20_CM4_stack_2_M2_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_2_M2_nut.stl",
+      "mesh_sha256": "2982cd52b745ded4b8911d1a737b7a6c3893855f8648ac8a0beaac412551f839",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_2_M2_nut.step",
+      "step_sha256": "f662ea2e44ab4b8a2f4c9c9291ad7d0599dcaff46b6ee53d346ad559d7ec25fe",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_screw",
+      "label_zh": "头部紧固件 · R20_CM4_stack_3_M2_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_screw.stl",
+      "mesh_sha256": "1c1a53a5fd251efecae59ae4450f8c97ff0540f2b601160fc9f66879548f1c18",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_screw.step",
+      "step_sha256": "447a47928573e702e8d15d0f9513fe2f0e638bfe3e220c41531725add5ca897e",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_front_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_3_M2_front_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_front_washer.stl",
+      "mesh_sha256": "03f91e2ac93750cc78c127b10a39c5a2b93f1fe92e8b89a47e292da19adbfc21",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_front_washer.step",
+      "step_sha256": "a79d6bbc72980047ff8c34567a88bc2a24b8273962fd6b1de639860c57e9bf67",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_rear_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_3_M2_rear_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_rear_washer.stl",
+      "mesh_sha256": "ccbdcee1951cf07c243632dbceafef8c3ee51da6d299110dc68ccd67630d27a4",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_rear_washer.step",
+      "step_sha256": "45373323131ab4d6f2e4ff8ecaba676fe59a9d618a73e00a343e22e6e61d1669",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_3_M2_nut",
+      "label_zh": "头部紧固件 · R20_CM4_stack_3_M2_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_3_M2_nut.stl",
+      "mesh_sha256": "7c19f8a971a27e7124327092e634c292a344bd171c1a281894eb82c5fdb27d24",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_3_M2_nut.step",
+      "step_sha256": "a7c42a268a6309e5540aa92c4ca5a28a5f1276ece99c7231281ee81b7999af5c",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_screw",
+      "label_zh": "头部紧固件 · R20_CM4_stack_4_M2_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_screw.stl",
+      "mesh_sha256": "dfd028b74bc9a25b40d3f1312056bd4543fc16336ca2337da62ac7573b08591e",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_screw.step",
+      "step_sha256": "9799f05b1ec3f81a86f6b4e97961aaa7e9cc99e7106ad0c231a5778299ff3e76",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_front_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_4_M2_front_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_front_washer.stl",
+      "mesh_sha256": "81e6b5de11e36c7d77645c40b11f13596b50ce5f09339cd776102face428799e",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_front_washer.step",
+      "step_sha256": "2d03e83b46637386f6157498aaeb00e83bea1a2716658b0a2dd87bc6d0fb193e",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_rear_washer",
+      "label_zh": "头部紧固件 · R20_CM4_stack_4_M2_rear_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_rear_washer.stl",
+      "mesh_sha256": "c422af54a9b2d575af122957049ea8e356ac402900f0ffa4a42a7fa78adfbb32",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_rear_washer.step",
+      "step_sha256": "cf4cde0190f7ba1cfae2b93d1ce592b72445326e0589f57044b07a3b8b361aed",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_stack_4_M2_nut",
+      "label_zh": "头部紧固件 · R20_CM4_stack_4_M2_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_stack_4_M2_nut.stl",
+      "mesh_sha256": "b7f89b5cf1cc0b2711f364a68a3a75b219003911487e8486746b01dd4e693d4e",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_stack_4_M2_nut.step",
+      "step_sha256": "8570f0983e27085fc14998b78479c9ab3229d02efa36fb473b4880ee31c0ef80",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2x22 DIN912/ISO4762 length; through stack. Thread/root envelope, not a helical manufacturing toolpath. Mating thread intersection only has a named bounded interface."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_screw",
+      "label_zh": "头部紧固件 · R20_CM4_foot_1_M2p5_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_screw.stl",
+      "mesh_sha256": "e615bca77038fdf68b0075d69df61d10472859e442c32ceddf43abb5d37d1720",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_screw.step",
+      "step_sha256": "2e55e3b92c35b234fcfc54a0258fba44ee2794cb1364d08c0360a5ace7ab5dfb",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_top_washer",
+      "label_zh": "头部紧固件 · R20_CM4_foot_1_M2p5_top_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_top_washer.stl",
+      "mesh_sha256": "e9d9f9bb490c0a0d5402df9e7705847c1cdcc8e5e5c372f63ed7fd17f2e3ea7c",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_top_washer.step",
+      "step_sha256": "772ad3cc945d03ba94c037346ef7f63b68100ed623cdbb87b33fce6416eb6b02",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_1_M2p5_nut",
+      "label_zh": "头部紧固件 · R20_CM4_foot_1_M2p5_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_1_M2p5_nut.stl",
+      "mesh_sha256": "73f9ddb612d718eceb5b8c2a81a1cd76352c71e26baf60708f8118c65a9bcfe6",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_1_M2p5_nut.step",
+      "step_sha256": "c3cec858c1e09463b7c1434aeba303da45faf0946cc1958ef1c5b51dbf96cffa",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_screw",
+      "label_zh": "头部紧固件 · R20_CM4_foot_2_M2p5_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_screw.stl",
+      "mesh_sha256": "b488e2417726cd5c61cb57bae1784f3b084dff96c9df7d8de64ae71d6503149f",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_screw.step",
+      "step_sha256": "15f11edbcc151ae2082f50a2d9bc0214e83914216b631591a7944b44742be582",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_top_washer",
+      "label_zh": "头部紧固件 · R20_CM4_foot_2_M2p5_top_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_top_washer.stl",
+      "mesh_sha256": "a46ffb97914ead5906101aa7c95eb3dcbb2345897ec6ec5e72647d8d3dbbe4c6",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_top_washer.step",
+      "step_sha256": "679ae14bc32035fb0f7d7b4c26796f9e4fde8fe305df2da23ec8d59de284f5cd",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_2_M2p5_nut",
+      "label_zh": "头部紧固件 · R20_CM4_foot_2_M2p5_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_2_M2p5_nut.stl",
+      "mesh_sha256": "b16f3f7dc9dd2d8407d826c55d80b5a134cec495b796679e39ec3b80f6ccc167",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_2_M2p5_nut.step",
+      "step_sha256": "4626c373af0256d9ce1b786248a7e19b1da2b362b17340ab03f19687214e077f",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_screw",
+      "label_zh": "头部紧固件 · R20_CM4_foot_3_M2p5_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_screw.stl",
+      "mesh_sha256": "372fc3de7b9d9006b4761e2f96eb150859f4418f3f8589980197858bcf88a305",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_screw.step",
+      "step_sha256": "6c1dd4a67b5dd2a68b1d19f497417a71282f0fa9b05e49c4149f39d0d0f966bd",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_top_washer",
+      "label_zh": "头部紧固件 · R20_CM4_foot_3_M2p5_top_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_top_washer.stl",
+      "mesh_sha256": "e70effc10de163dc9be3dad92bffff765cacdf39bd3728525ea41b9a99772a41",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_top_washer.step",
+      "step_sha256": "43ad6ae16520eb7eec63c28847726ca087a33000fcfbfdd232823c7e95700867",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_3_M2p5_nut",
+      "label_zh": "头部紧固件 · R20_CM4_foot_3_M2p5_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_3_M2p5_nut.stl",
+      "mesh_sha256": "f2c058a48fd4a0f68739f682941989cd8e65800f77651a417e53b3a292659963",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_3_M2p5_nut.step",
+      "step_sha256": "a22dc02d671265e403b57085f3d91d019fede1d8ec347bdafd6e21ca0f1da092",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_screw",
+      "label_zh": "头部紧固件 · R20_CM4_foot_4_M2p5_screw",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_screw.stl",
+      "mesh_sha256": "9d428c0340217eadd1ffe2c3f6fee5852f1095ad3569df9cc18fbe835056cd0f",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_screw.step",
+      "step_sha256": "19bce162b26484c95c4e6ab1f2ee7f784503406f9c178e808752343d0f173a56",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_top_washer",
+      "label_zh": "头部紧固件 · R20_CM4_foot_4_M2p5_top_washer",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_top_washer.stl",
+      "mesh_sha256": "714a77e4b63bf12b5e3534ae777fb497ffa94e185c97738f67d52019335624d6",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_top_washer.step",
+      "step_sha256": "41ad37a54b5896df195eb8a9ca4ab1c6a618122fc3eeed63a649f9c58a148ddd",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4_foot_4_M2p5_nut",
+      "label_zh": "头部紧固件 · R20_CM4_foot_4_M2p5_nut",
+      "category": "10_fasteners_insulation",
+      "category_zh": "紧固件与绝缘件",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": null,
+      "mesh": "work/r20-walking-fix/head_mount/CAD/STL_装配坐标_毫米/R20_CM4_foot_4_M2p5_nut.stl",
+      "mesh_sha256": "ea6c2f88526a7548ab0e2ebf6070617f7ffc3d43b6071acb64e68cae21b80223",
+      "step": "work/r20-walking-fix/head_mount/CAD/STEP_毫米/R20_CM4_foot_4_M2p5_nut.step",
+      "step_sha256": "af3da1d86992a298c17943c95924ee16190f40d608730c2b8cfcabe596bf9c04",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": true,
+      "material": "A2 stainless purchased nominal reference",
+      "kind": "nominal_purchased_hardware",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "M2.5x10 through existing 3mm cradle foot and 3mm head frame; one top washer, rear hex nut. Thread envelope only."
+      ]
+    },
+    {
+      "name": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "label_zh": "现有核心板载板 · 已有安装孔实体R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "category": "06_electronics",
+      "category_zh": "电路板与元器件参考",
+      "source_group": "R20_head_mount",
+      "source_manifest": "work/r20-walking-fix/head_mount/head_mount_delta.json",
+      "replaces_name": "R10_HEAD_CM4carrier_PCB",
+      "mesh": "work/r20-walking-fix/head_mount/board_representation/STL_装配坐标_毫米/R20_CM4carrier_PCB_existing_NPTH_geometry.stl",
+      "mesh_sha256": "6c2e8abd17a88257f163a1e686c070809fc6e974ab2a8f898ff44b4ca3d60ab6",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "jaw_soft",
+      "link_name_zh": "固定头架",
+      "display_parent_link": "jaw_soft",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "head_roll",
+      "ancestry_joints": [
+        "neck_pitch",
+        "head_pitch",
+        "head_yaw",
+        "head_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": false,
+      "material": "Existing 1.6mm PCB; source-derived representation only",
+      "kind": "source_derived_existing_PCB_NPTH_material",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "No PCB circuit/outline/mounting axis change. Replaces the obsolete hole-less box using current KiCad four2.7NPTH and1.6general thickness. Previous1.51mm exportedpreview is not used as installed thickness."
+      ],
+      "step": "work/r20-walking-fix/head_mount/board_representation/STEP_毫米/R20_CM4carrier_PCB_existing_NPTH_geometry.step",
+      "step_sha256": "8541274223218201e2047da8746870be51c4ce731c2212533d284ae5397d517c"
+    },
+    {
+      "name": "R20_left_hip_rail_offset",
+      "label_zh": "左髋侧摆连接杆 · 避让与工具通道修订",
+      "category": "03_structure",
+      "category_zh": "承力框架与连杆",
+      "source_group": "R20_hip_rail_offset",
+      "source_manifest": "work/r20-walking-fix/hip_relief/candidate_v4/candidate_manifest.json",
+      "replaces_name": "R11_hip_l_rail_2",
+      "mesh": "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl",
+      "mesh_sha256": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+      "step": "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step",
+      "step_sha256": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0,
+        0,
+        0
+      ],
+      "geometry_scale": [
+        1,
+        1,
+        1
+      ],
+      "link_frame": "hip_l",
+      "link_name_zh": "左髋侧摆载体",
+      "display_parent_link": "hip_l",
+      "joint": null,
+      "actuator_id": null,
+      "link_joint": "left_hip_roll",
+      "ancestry_joints": [
+        "left_hip_yaw",
+        "left_hip_roll"
+      ],
+      "kinematics_mode": "RIGID_LINK_HOME_TRANSFORM",
+      "visible_default": true,
+      "reference_only": false,
+      "material": "7075-T651 CNC candidate",
+      "kind": "serial_rail",
+      "mpn": null,
+      "model": null,
+      "manufacturing_approved": false,
+      "mass_is_not_computed_from_viewer_geometry": true,
+      "notes_zh": [
+        "保持两端孔位和φ10承力杆直径，内部两个转折点移至HOME X=8.5mm。",
+        "仅局部运动几何通过；整机、制造与强度仍需复核。"
+      ]
+    }
+  ],
+  "removed_names": [
+    "R11_CM4_front_clamp_bar_1",
+    "R11_CM4_front_clamp_bar_2"
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "sources": {
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r20-walking-fix/head_mount/candidate_manifest.json": "c910ec7bc1f0192311ffba4fca5edfe752a2ff07826bdf12f926991d05c233b6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/candidate_manifest.json": "75d136849bdd071a06ea5bc93b277a5bdafa38350fef37629f6e4393be3eb5f4",
+    "work/r20-walking-fix/hip_relief/candidate_v4/mass_inertia_delta.json": "aabd62c2ecd0dea84bc40d435475a0d49208329ac8d44a4a2f5f9cd74501c27b",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/motion_diagnostic/diagnostic_selection.json": "070b3f7db0172ccbda9b959a3231917881ed1b4e67f329f0bad66ec51dbc0b75",
+    "work/r9-appearance/r9_selected_component_layout.json": "b2c97f0cfe4222bc8402109aa458b52a3a7116fa9c817182b800446f7a1def29",
+    "work/r20-walking-fix/head_mount/build_head_mount.py": "05336212de7cdd8c436f6363aac2b1fdaabdb75b3f817f29d9f3e82c82bfd329",
+    "work/r20-walking-fix/head_mount/head_common.py": "3fc4f03c4d11f57de4e700a6df37b6ee2c58a340299340bd7bc03c2f2a25edfe",
+    "outputs/Microduck_RK_R8_制造设计/电气/CM4_Carrier_R8/Board_Interface_R8_CM4_Carrier.json": "4f7db955fe1f74bd823bf67bc87a09b26375802c45341fd44e1fb5cbd9327647",
+    "outputs/Microduck_RK_R8_制造设计/电气/CM4_Carrier_R8/Microduck_CM4_Carrier_R8.kicad_pcb": "825c4886e54091d8c5e4c180b4b376fbc45b09a606d811f984de8dbf1c10d3c3",
+    "work/r10-proportional/s2p1_electrical_reference/R10_HEAD_CM4carrier_PCB.stl": "c7e6f73390921730a8ad41de7a71b96fd2c93e9490b3dc233f2696dd7301bef2",
+    "work/r20-walking-fix/head_mount/head_mount_delta.json": "121912d01bcd7f2666e4b9321a699561841057f48550dbc51f193418fc1c9172",
+    "work/r20-walking-fix/build_final_assembly.py": "509dbce014c524a34169a51bbb65f3e9f7b167bd814636f6974b1c51389c5512"
+  }
+}

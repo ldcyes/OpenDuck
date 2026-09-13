@@ -1,0 +1,44 @@
+reference,value,MPN,footprint,side,x_mm,y_mm,rotation_deg,datasheet
+W1,SERVO_BUS,SOLDER AWG16,Microduck_Brake_R8:WirePad_2p4mm_6mm,F,18,6,0,
+W2,GND,SOLDER AWG16,Microduck_Brake_R8:WirePad_2p4mm_6mm,F,18,15,0,
+W3,SERVO_BUS,SOLDER AWG16,Microduck_Brake_R8:WirePad_2p4mm_6mm,F,28,8,0,
+W4,RH_LOW,SOLDER AWG16,Microduck_Brake_R8:WirePad_2p4mm_6mm,F,28,16,0,
+P1,GND,SOLDER AWG28 PIGTAIL,Microduck_Brake_R8:WireSignal_0p5mm,F,15.5,28.5,0,
+P2,+3V3,SOLDER AWG28 PIGTAIL,Microduck_Brake_R8:WireSignal_0p5mm,F,16.77,28.5,0,
+P3,I2C_SDA,SOLDER AWG28 PIGTAIL,Microduck_Brake_R8:WireSignal_0p5mm,F,18.04,28.5,0,
+P4,I2C_SCL,SOLDER AWG28 PIGTAIL,Microduck_Brake_R8:WireSignal_0p5mm,F,19.31,28.5,0,
+P5,BRAKE_ACTIVE_N,SOLDER AWG28 PIGTAIL,Microduck_Brake_R8:WireSignal_0p5mm,F,20.58,28.5,0,
+C1,2200uF 16V LOW ESR,EEUFR1C222,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,F,4.75,11.5,0,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+Q1,60V BRAKE MOSFET,CSD18540Q5B,Microduck_Brake_R8:CSD18540Q5B_DNK,F,23,23.5,180,https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+RS1,2mOhm 1% 3W KELVIN,WSL27262L000FEA,Microduck_Brake_R8:WSL2726_Kelvin,F,10,24,180,https://www.vishay.com/docs/30131/wsl2726.pdf
+U1,BUS POWERED 5V LDO,TLV76050DBZR,Package_TO_SOT_SMD:SOT-23,B,23,3.5,0,https://www.ti.com/lit/ds/symlink/tlv760.pdf
+U2,1.25V PRECISION REF,REF3312AIDBZR,Package_TO_SOT_SMD:SOT-23,B,22,10.5,0,https://www.ti.com/lit/ds/symlink/ref33.pdf
+U3,REGEN HYSTERETIC COMPARATOR,TLV3201AIDBVR,Package_TO_SOT_SMD:SOT-23-5,B,22.8,20.2,0,https://www.ti.com/lit/ds/symlink/tlv3201.pdf
+U4,GATE SOURCE SINK DRIVER,UCC27511DBVR,Package_TO_SOT_SMD:SOT-23-6,B,16,22,0,https://www.ti.com/lit/ds/symlink/ucc27511.pdf
+U5,BRAKE CURRENT INA226 0x42,INA226AIDGSR,Package_SO:MSOP-10_3x3mm_P0.5mm,B,6.5,18,0,https://www.ti.com/lit/ds/symlink/ina226.pdf
+Q2,OPEN DRAIN BRAKE STATUS,BSS138,Package_TO_SOT_SMD:SOT-23,B,13,18,0,https://www.onsemi.com/pdf/datasheet/bss138-d.pdf
+R1,80.6k 0.1%,RT0603BRD0780K6L,Resistor_SMD:R_0603_1608Metric,B,26,12,0,
+R2,10.0k 0.1%,RT0603BRD0710KL,Resistor_SMD:R_0603_1608Metric,B,23,15.5,0,
+R3,2.20M 0.1%,RT0603BRD072M2L,Resistor_SMD:R_0603_1608Metric,B,29,12,0,
+R4,4.7R,ERJ-3EKF4R7V,Resistor_SMD:R_0603_1608Metric,B,18,25,0,
+R5,2.2R,ERJ-3EKF2R2V,Resistor_SMD:R_0603_1608Metric,B,18,27,0,
+R6,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,22,27,0,
+R7,100k,ERJ-3EKF1003V,Resistor_SMD:R_0603_1608Metric,B,13,15,0,
+R8,10R 0.1%,RT0603BRD0710RL,Resistor_SMD:R_0603_1608Metric,B,4,22,0,
+R9,10R 0.1%,RT0603BRD0710RL,Resistor_SMD:R_0603_1608Metric,B,8,22,0,
+R10,10k,ERJ-3EKF1002V,Resistor_SMD:R_0603_1608Metric,B,13,12,0,
+C2,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,23,6,0,
+C3,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,23.3,7.5,0,
+C4,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,22,13,0,
+C5,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,29,21,90,
+C6,1uF 10V,GRM188R71A105KA61D,Capacitor_SMD:C_0603_1608Metric,B,12,22,90,
+C7,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,14,26,90,
+C8,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,9,14,0,
+C9,100nF,GRM188R71H104KA93D,Capacitor_SMD:C_0603_1608Metric,B,3,15,0,
+C10,22uF 25V X7R,GRM32ER71E226KE15L,Capacitor_SMD:C_1210_3225Metric,F,3.4,19.7,0,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226KE15-04CA.pdf
+C11,22uF 25V X7R,GRM32ER71E226KE15L,Capacitor_SMD:C_1210_3225Metric,F,17,10.5,0,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226KE15-04CA.pdf
+C12,22uF 25V X7R,GRM32ER71E226KE15L,Capacitor_SMD:C_1210_3225Metric,F,23.5,12,0,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226KE15-04CA.pdf
+H1,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,3,3,0,
+H2,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,29,3,0,
+H3,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,3,27,0,
+H4,M2 NPTH,NO PART,MountingHole:MountingHole_2.2mm_M2,F,29,27,0,

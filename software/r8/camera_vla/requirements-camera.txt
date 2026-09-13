@@ -1,0 +1,2 @@
+# RK: system python3-opencv with GStreamer enabled; the pip wheel may lack it.
+# Protocol/HTTP/dry tests need only Python3.10+ standard library.

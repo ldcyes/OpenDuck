@@ -1,0 +1,55 @@
+{
+  "status": "IMMUTABLE_R20_STARTING_POINT_FOR_R21_REDUCED_SWAY",
+  "protected_files": [
+    {
+      "path": "work/r20-walking-fix/assembly_final/assembly_selection.json",
+      "sha256": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+      "bytes": 1232732
+    },
+    {
+      "path": "work/r20-walking-fix/assembly_final/candidate_manifest.json",
+      "sha256": "9bea8203055a452748ed35f553a8b6666bd111c9b05a43528a445ca6b6c6678b",
+      "bytes": 63409
+    },
+    {
+      "path": "work/r20-walking-fix/dynamics/retimed_trajectory_4steps_v2.json",
+      "sha256": "7bc07ea03666eda8225698c5a9aec7d4ba6379ca0aa9f6fc2efbf7bd1bcdee44",
+      "bytes": 27583923
+    },
+    {
+      "path": "work/r20-walking-fix/dynamics/retimed_segments_v2.json",
+      "sha256": "0c287a4def1d8674b032e53e4b43bb0800e8c585d5281e7b0dced48dfc53430d",
+      "bytes": 1861890
+    },
+    {
+      "path": "work/r20-walking-fix/dynamics/release_v4/runs/nominal/trajectory.json",
+      "sha256": "a0dbdedcb4ace83a917e82363fc77d45518eb46f63b4858335d515d0a3178d79",
+      "bytes": 119827655
+    },
+    {
+      "path": "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json",
+      "sha256": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+      "bytes": 14347301
+    },
+    {
+      "path": "work/r20-walking-fix/final_review_index.json",
+      "sha256": "6277de3f34685aa5c266506c7d0a3293f4bb22e1bd8db7738bb9968a11da6141",
+      "bytes": 242864
+    },
+    {
+      "path": "work/r20-walking-fix/visual/Microduck_R20_修订与实际行走.blend",
+      "sha256": "d502d9c2032e73739b5d679bcb03e19ee2b09efbcd6465aec99ea517dbea6e14",
+      "bytes": 58966762
+    },
+    {
+      "path": "outputs/R13_7_结构与步态修复.zip",
+      "sha256": "0b5ed578dc9d2d43d7bb3aa78a9e9a32e8c9faec918b9f390a2e8d2aa97835e3",
+      "bytes": 730827551
+    },
+    {
+      "path": "work/r20-walking-fix/CURRENT_DESIGN.json",
+      "sha256": "7f0aedc3d136dc16590d118158b42c655e23d3ae3ef5410d9403d31fff37b6e3",
+      "bytes": 2507
+    }
+  ]
+}

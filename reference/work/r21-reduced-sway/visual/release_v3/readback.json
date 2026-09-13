@@ -1,0 +1,3469 @@
+{
+  "status": "PASS_ALL_ORIGINAL_SCENES_AND_SOURCE_KEYS_557_PARTS_FK",
+  "passed": true,
+  "purpose": "FINAL_FOUR_STEP",
+  "source_blend_path": "work/r21-reduced-sway/visual/release_v3/Microduck_R21_实际减摆对照.blend",
+  "source_blend_sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+  "unchanged_R20_scenes": [
+    "01_完整装配_557件_静态",
+    "02_头部安装_旧与新对照",
+    "03_实际自由积分_四步行走"
+  ],
+  "unchanged_R20_objects": 1295,
+  "avatars": [
+    {
+      "avatar": "candidate_full",
+      "pose_checks": [
+        {
+          "sample_index": 0,
+          "actual_time_s": 0.0,
+          "display_time_s": 0.0,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.3153841866805565e-07
+        },
+        {
+          "sample_index": 1,
+          "actual_time_s": 0.020000000000000014,
+          "display_time_s": 0.020000000000000014,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.5242911416700764e-07
+        },
+        {
+          "sample_index": 977,
+          "actual_time_s": 19.540000000002287,
+          "display_time_s": 19.540000000002287,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.696363167742355e-07
+        },
+        {
+          "sample_index": 1954,
+          "actual_time_s": 39.08000000009559,
+          "display_time_s": 39.08000000009559,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.641481080811747e-07
+        },
+        {
+          "sample_index": 2931,
+          "actual_time_s": 58.62000000018889,
+          "display_time_s": 58.62000000018889,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.567949221599086e-07
+        },
+        {
+          "sample_index": 3909,
+          "actual_time_s": 78.17999999987926,
+          "display_time_s": 78.17999999987926,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.7519814377319207e-07
+        },
+        {
+          "sample_index": 4886,
+          "actual_time_s": 97.7199999994172,
+          "display_time_s": 97.7199999994172,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.853266087843309e-07
+        },
+        {
+          "sample_index": 5863,
+          "actual_time_s": 117.25999999895514,
+          "display_time_s": 117.25999999895514,
+          "parts": 557,
+          "max_world_matrix_abs_error": 3.6111000711880337e-07
+        },
+        {
+          "sample_index": 6841,
+          "actual_time_s": 136.81999999849262,
+          "display_time_s": 136.81999999849262,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.3030673607093988e-07
+        },
+        {
+          "sample_index": 7818,
+          "actual_time_s": 156.35999999803056,
+          "display_time_s": 156.35999999803056,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.3803670401445487e-07
+        },
+        {
+          "sample_index": 8795,
+          "actual_time_s": 175.8999999975685,
+          "display_time_s": 175.8999999975685,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.5964677413670145e-07
+        },
+        {
+          "sample_index": 9773,
+          "actual_time_s": 195.4417499971064,
+          "display_time_s": 195.4417499971064,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.339142182450349e-07
+        }
+      ],
+      "display_offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "avatar": "same_time_baseline",
+      "pose_checks": [
+        {
+          "sample_index": 0,
+          "actual_time_s": 0.0,
+          "display_time_s": 0.0,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.5758210539398325e-07
+        },
+        {
+          "sample_index": 1,
+          "actual_time_s": 0.020000000000000014,
+          "display_time_s": 0.020000000000000014,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.549954261273692e-07
+        },
+        {
+          "sample_index": 874,
+          "actual_time_s": 17.47999999999245,
+          "display_time_s": 17.47999999999245,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.1671997935699423e-07
+        },
+        {
+          "sample_index": 1748,
+          "actual_time_s": 34.960000000075915,
+          "display_time_s": 34.960000000075915,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.0934716649676517e-07
+        },
+        {
+          "sample_index": 2622,
+          "actual_time_s": 52.44000000015938,
+          "display_time_s": 52.44000000015938,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.004658196194889e-07
+        },
+        {
+          "sample_index": 3497,
+          "actual_time_s": 69.94000000007411,
+          "display_time_s": 69.94000000007411,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.84208156989563e-07
+        },
+        {
+          "sample_index": 4371,
+          "actual_time_s": 87.41999999966076,
+          "display_time_s": 87.41999999966076,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.545637473166164e-07
+        },
+        {
+          "sample_index": 5245,
+          "actual_time_s": 104.89999999924741,
+          "display_time_s": 104.89999999924741,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.2652866377723697e-07
+        },
+        {
+          "sample_index": 6120,
+          "actual_time_s": 122.3999999988336,
+          "display_time_s": 122.3999999988336,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.3729890374100133e-07
+        },
+        {
+          "sample_index": 6994,
+          "actual_time_s": 139.87999999842026,
+          "display_time_s": 139.87999999842026,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.6168280147529384e-07
+        },
+        {
+          "sample_index": 7868,
+          "actual_time_s": 157.3599999980069,
+          "display_time_s": 157.3599999980069,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.939053266540428e-07
+        },
+        {
+          "sample_index": 8743,
+          "actual_time_s": 174.8464999975934,
+          "display_time_s": 174.8464999975934,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.4265598660164773e-07
+        }
+      ],
+      "display_offset_m": [
+        0.0,
+        -0.3199999928474426,
+        0.0
+      ]
+    },
+    {
+      "avatar": "same_time_candidate",
+      "pose_checks": [
+        {
+          "sample_index": 0,
+          "actual_time_s": 0.0,
+          "display_time_s": 0.0,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.2108419102959704e-07
+        },
+        {
+          "sample_index": 1,
+          "actual_time_s": 0.020000000000000014,
+          "display_time_s": 0.020000000000000014,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.325241509672839e-07
+        },
+        {
+          "sample_index": 977,
+          "actual_time_s": 19.540000000002287,
+          "display_time_s": 19.540000000002287,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.253050431279881e-07
+        },
+        {
+          "sample_index": 1954,
+          "actual_time_s": 39.08000000009559,
+          "display_time_s": 39.08000000009559,
+          "parts": 557,
+          "max_world_matrix_abs_error": 3.98938987664077e-07
+        },
+        {
+          "sample_index": 2931,
+          "actual_time_s": 58.62000000018889,
+          "display_time_s": 58.62000000018889,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.364433938697232e-07
+        },
+        {
+          "sample_index": 3909,
+          "actual_time_s": 78.17999999987926,
+          "display_time_s": 78.17999999987926,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.6238834566780795e-07
+        },
+        {
+          "sample_index": 4886,
+          "actual_time_s": 97.7199999994172,
+          "display_time_s": 97.7199999994172,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.3003449422263085e-07
+        },
+        {
+          "sample_index": 5863,
+          "actual_time_s": 117.25999999895514,
+          "display_time_s": 117.25999999895514,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.30955911623343e-07
+        },
+        {
+          "sample_index": 6841,
+          "actual_time_s": 136.81999999849262,
+          "display_time_s": 136.81999999849262,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.390981990787246e-07
+        },
+        {
+          "sample_index": 7818,
+          "actual_time_s": 156.35999999803056,
+          "display_time_s": 156.35999999803056,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.0378465854251644e-07
+        },
+        {
+          "sample_index": 8795,
+          "actual_time_s": 175.8999999975685,
+          "display_time_s": 175.8999999975685,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.2336430849942985e-07
+        },
+        {
+          "sample_index": 9773,
+          "actual_time_s": 195.4417499971064,
+          "display_time_s": 195.4417499971064,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.313331202487891e-07
+        }
+      ],
+      "display_offset_m": [
+        0.0,
+        0.3199999928474426,
+        0.0
+      ]
+    },
+    {
+      "avatar": "same_phase_baseline",
+      "pose_checks": [
+        {
+          "sample_index": 0,
+          "actual_time_s": 0.0,
+          "display_time_s": 0.0,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.5758210539398325e-07
+        },
+        {
+          "sample_index": 1,
+          "actual_time_s": 0.020000000000000014,
+          "display_time_s": 0.020000000000000014,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.549954261273692e-07
+        },
+        {
+          "sample_index": 874,
+          "actual_time_s": 17.47999999999245,
+          "display_time_s": 17.47999999999245,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.1671997935699423e-07
+        },
+        {
+          "sample_index": 1748,
+          "actual_time_s": 34.960000000075915,
+          "display_time_s": 34.960000000075915,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.0934716649676517e-07
+        },
+        {
+          "sample_index": 2622,
+          "actual_time_s": 52.44000000015938,
+          "display_time_s": 52.44000000015938,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.004658196194889e-07
+        },
+        {
+          "sample_index": 3497,
+          "actual_time_s": 69.94000000007411,
+          "display_time_s": 69.94000000007411,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.84208156989563e-07
+        },
+        {
+          "sample_index": 4371,
+          "actual_time_s": 87.41999999966076,
+          "display_time_s": 87.41999999966076,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.545637473166164e-07
+        },
+        {
+          "sample_index": 5245,
+          "actual_time_s": 104.89999999924741,
+          "display_time_s": 104.89999999924741,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.2652866377723697e-07
+        },
+        {
+          "sample_index": 6120,
+          "actual_time_s": 122.3999999988336,
+          "display_time_s": 122.3999999988336,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.3729890374100133e-07
+        },
+        {
+          "sample_index": 6994,
+          "actual_time_s": 139.87999999842026,
+          "display_time_s": 139.87999999842026,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.6168280147529384e-07
+        },
+        {
+          "sample_index": 7868,
+          "actual_time_s": 157.3599999980069,
+          "display_time_s": 157.3599999980069,
+          "parts": 557,
+          "max_world_matrix_abs_error": 5.939053266540428e-07
+        },
+        {
+          "sample_index": 8743,
+          "actual_time_s": 174.8464999975934,
+          "display_time_s": 174.8464999975934,
+          "parts": 557,
+          "max_world_matrix_abs_error": 4.4265598660164773e-07
+        }
+      ],
+      "display_offset_m": [
+        0.0,
+        -0.3199999928474426,
+        0.0
+      ]
+    },
+    {
+      "avatar": "same_phase_candidate",
+      "pose_checks": [
+        {
+          "sample_index": 0,
+          "actual_time_s": 0.0,
+          "display_time_s": 0.0,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.3153841866805565e-07
+        },
+        {
+          "sample_index": 1,
+          "actual_time_s": 0.020000000000000014,
+          "display_time_s": 0.020000000000000014,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.5242911405598534e-07
+        },
+        {
+          "sample_index": 979,
+          "actual_time_s": 19.580000000002478,
+          "display_time_s": 19.580000000002467,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.4559727335171644e-07
+        },
+        {
+          "sample_index": 1959,
+          "actual_time_s": 39.10000000009568,
+          "display_time_s": 34.139263624392306,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.8455394368576137e-07
+        },
+        {
+          "sample_index": 2939,
+          "actual_time_s": 58.70000000018927,
+          "display_time_s": 53.73926362448591,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.2707842867175643e-07
+        },
+        {
+          "sample_index": 3919,
+          "actual_time_s": 78.23999999987784,
+          "display_time_s": 67.98404342689793,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.4420489291854253e-07
+        },
+        {
+          "sample_index": 4899,
+          "actual_time_s": 97.75999999941625,
+          "display_time_s": 87.46239452026161,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.553098961688427e-07
+        },
+        {
+          "sample_index": 5878,
+          "actual_time_s": 117.31999999895372,
+          "display_time_s": 107.02239451979916,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.5900705791226386e-07
+        },
+        {
+          "sample_index": 6858,
+          "actual_time_s": 136.7999999984931,
+          "display_time_s": 121.54165814363529,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.833898276044522e-07
+        },
+        {
+          "sample_index": 7838,
+          "actual_time_s": 156.3999999980296,
+          "display_time_s": 141.14165814317178,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.5347292190169846e-07
+        },
+        {
+          "sample_index": 8818,
+          "actual_time_s": 175.91999999756803,
+          "display_time_s": 155.37973566817504,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.4855369662457605e-07
+        },
+        {
+          "sample_index": 9798,
+          "actual_time_s": 195.4417499971064,
+          "display_time_s": 174.8464999975934,
+          "parts": 557,
+          "max_world_matrix_abs_error": 2.3391421830054604e-07
+        }
+      ],
+      "display_offset_m": [
+        0.0,
+        0.3199999928474426,
+        0.0
+      ]
+    }
+  ],
+  "all_key_checks": [
+    {
+      "avatar": "candidate_full",
+      "all_saved_samples": 9774,
+      "all_key_checks": [
+        {
+          "object": "R21_实际自由根",
+          "path": "location",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 9.311410149870358e-10
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "location",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 4.656105136863209e-10
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "location",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.489935436138623e-08
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.979542512715483e-08
+        },
+        {
+          "object": "R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4898384026462708e-08
+        },
+        {
+          "object": "R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1324274851176597e-14
+        },
+        {
+          "object": "R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.470329472543003e-22
+        },
+        {
+          "object": "R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4823076576950256e-21
+        },
+        {
+          "object": "R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.7252457923964144e-09
+        },
+        {
+          "object": "R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.799964343109485e-15
+        },
+        {
+          "object": "R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.5025523714129463e-08
+        },
+        {
+          "object": "R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.5489115396414306e-09
+        },
+        {
+          "object": "R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9797981859758238e-08
+        },
+        {
+          "object": "R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 6.8171691548676974e-15
+        },
+        {
+          "object": "R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.178983355387686e-08
+        },
+        {
+          "object": "R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.2657181542328217e-09
+        },
+        {
+          "object": "R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.975764312740381e-08
+        },
+        {
+          "object": "R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1589765470032196e-14
+        },
+        {
+          "object": "R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1789850762333742e-08
+        },
+        {
+          "object": "R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.265719653033905e-09
+        },
+        {
+          "object": "R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9799774758920705e-08
+        },
+        {
+          "object": "R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4894536382037415e-08
+        },
+        {
+          "object": "R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.6209256159527285e-14
+        },
+        {
+          "object": "R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.2705494208814505e-21
+        },
+        {
+          "object": "R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.6469779601696886e-21
+        },
+        {
+          "object": "R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.4379685188752376e-09
+        },
+        {
+          "object": "R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.731252958273865e-16
+        },
+        {
+          "object": "R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.9534857620406854e-08
+        },
+        {
+          "object": "R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.240831379982325e-10
+        },
+        {
+          "object": "R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.977828117423087e-08
+        },
+        {
+          "object": "R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.956392368850172e-15
+        },
+        {
+          "object": "R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.629916113188301e-08
+        },
+        {
+          "object": "R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.072769674960512e-10
+        },
+        {
+          "object": "R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9789174904593096e-08
+        },
+        {
+          "object": "R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.2101341149592553e-15
+        },
+        {
+          "object": "R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.533506901109433e-09
+        },
+        {
+          "object": "R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4869416253837642e-09
+        },
+        {
+          "object": "R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4083102034805756e-11
+        },
+        {
+          "object": "R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 9.198248411589668e-22
+        },
+        {
+          "object": "R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.7985612998927536e-14
+        },
+        {
+          "object": "R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.282252670610414e-21
+        },
+        {
+          "object": "R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.017328937982542e-12
+        },
+        {
+          "object": "R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9778502051908996e-22
+        },
+        {
+          "object": "R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.773159728050814e-15
+        },
+        {
+          "object": "R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.558653716356346e-22
+        },
+        {
+          "object": "R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.1350835125199435e-12
+        },
+        {
+          "object": "R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.5881867761018131e-21
+        },
+        {
+          "object": "R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.183756817139993e-22
+        },
+        {
+          "object": "R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.0880185641326534e-14
+        },
+        {
+          "object": "R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.272904256920218e-12
+        },
+        {
+          "object": "R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.5979218776228663e-14
+        },
+        {
+          "object": "R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.3234889800848443e-21
+        },
+        {
+          "object": "R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.770411953169921e-21
+        },
+        {
+          "object": "R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 4.688296835985133e-13
+        },
+        {
+          "object": "R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.3896634290890865e-22
+        },
+        {
+          "object": "R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.7755575615628914e-15
+        },
+        {
+          "object": "R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.522012327097571e-22
+        }
+      ]
+    },
+    {
+      "avatar": "same_time_baseline",
+      "all_saved_samples": 8744,
+      "all_key_checks": [
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "location",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.311047106941306e-10
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "location",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.304088957606815e-10
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "location",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4896669786601535e-08
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4900464251343948e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4899574019011652e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1324274851176597e-14
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.470329472543003e-22
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4823076576950256e-21
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4894005584409342e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.799964343109485e-15
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.5025523714129463e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.5489115396414306e-09
+        },
+        {
+          "object": "同时间_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9799732459423467e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 6.8171691548676974e-15
+        },
+        {
+          "object": "同时间_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.178983355387686e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.2657181542328217e-09
+        },
+        {
+          "object": "同时间_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 7.448627020734122e-09
+        },
+        {
+          "object": "同时间_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1589765470032196e-14
+        },
+        {
+          "object": "同时间_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1789850762333742e-08
+        },
+        {
+          "object": "同时间_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.265719653033905e-09
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.489374490404316e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.489905454565843e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.6209256159527285e-14
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.2705494208814505e-21
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.6469779601696886e-21
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4898947964248066e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.731252958273865e-16
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.9534857620406854e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.240831379982325e-10
+        },
+        {
+          "object": "同时间_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9800746759178764e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.956392368850172e-15
+        },
+        {
+          "object": "同时间_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.629916113188301e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.072769674960512e-10
+        },
+        {
+          "object": "同时间_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.490066275922075e-08
+        },
+        {
+          "object": "同时间_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.2101341149592553e-15
+        },
+        {
+          "object": "同时间_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.533506901109433e-09
+        },
+        {
+          "object": "同时间_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4869416253837642e-09
+        },
+        {
+          "object": "同时间_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.078698328577099e-11
+        },
+        {
+          "object": "同时间_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.198248411589668e-22
+        },
+        {
+          "object": "同时间_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.7985612998927536e-14
+        },
+        {
+          "object": "同时间_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.282252670610414e-21
+        },
+        {
+          "object": "同时间_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.518123040752429e-12
+        },
+        {
+          "object": "同时间_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9778502051908996e-22
+        },
+        {
+          "object": "同时间_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.773159728050814e-15
+        },
+        {
+          "object": "同时间_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.558653716356346e-22
+        },
+        {
+          "object": "同时间_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4462753314837401e-11
+        },
+        {
+          "object": "同时间_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.5881867761018131e-21
+        },
+        {
+          "object": "同时间_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.183756817139993e-22
+        },
+        {
+          "object": "同时间_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.0880185641326534e-14
+        },
+        {
+          "object": "同时间_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.795423879014102e-11
+        },
+        {
+          "object": "同时间_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.5979218776228663e-14
+        },
+        {
+          "object": "同时间_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.3234889800848443e-21
+        },
+        {
+          "object": "同时间_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.770411953169921e-21
+        },
+        {
+          "object": "同时间_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.8129694184169758e-12
+        },
+        {
+          "object": "同时间_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.3896634290890865e-22
+        },
+        {
+          "object": "同时间_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.7755575615628914e-15
+        },
+        {
+          "object": "同时间_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.522012327097571e-22
+        }
+      ]
+    },
+    {
+      "avatar": "same_time_candidate",
+      "all_saved_samples": 9774,
+      "all_key_checks": [
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "location",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 9.311410149870358e-10
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "location",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 4.656105136863209e-10
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "location",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.489935436138623e-08
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R21_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.979542512715483e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4898384026462708e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1324274851176597e-14
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.470329472543003e-22
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4823076576950256e-21
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.7252457923964144e-09
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.799964343109485e-15
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.5025523714129463e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.5489115396414306e-09
+        },
+        {
+          "object": "同时间_R21_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9797981859758238e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 6.8171691548676974e-15
+        },
+        {
+          "object": "同时间_R21_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.178983355387686e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.2657181542328217e-09
+        },
+        {
+          "object": "同时间_R21_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.975764312740381e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1589765470032196e-14
+        },
+        {
+          "object": "同时间_R21_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.1789850762333742e-08
+        },
+        {
+          "object": "同时间_R21_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.265719653033905e-09
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9799774758920705e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4894536382037415e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.6209256159527285e-14
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.2705494208814505e-21
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.6469779601696886e-21
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.4379685188752376e-09
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.731252958273865e-16
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.9534857620406854e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.240831379982325e-10
+        },
+        {
+          "object": "同时间_R21_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.977828117423087e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.956392368850172e-15
+        },
+        {
+          "object": "同时间_R21_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.629916113188301e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.072769674960512e-10
+        },
+        {
+          "object": "同时间_R21_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9789174904593096e-08
+        },
+        {
+          "object": "同时间_R21_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.2101341149592553e-15
+        },
+        {
+          "object": "同时间_R21_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 8.533506901109433e-09
+        },
+        {
+          "object": "同时间_R21_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4869416253837642e-09
+        },
+        {
+          "object": "同时间_R21_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.4083102034805756e-11
+        },
+        {
+          "object": "同时间_R21_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 9.198248411589668e-22
+        },
+        {
+          "object": "同时间_R21_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.7985612998927536e-14
+        },
+        {
+          "object": "同时间_R21_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 3.282252670610414e-21
+        },
+        {
+          "object": "同时间_R21_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.017328937982542e-12
+        },
+        {
+          "object": "同时间_R21_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.9778502051908996e-22
+        },
+        {
+          "object": "同时间_R21_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.773159728050814e-15
+        },
+        {
+          "object": "同时间_R21_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.558653716356346e-22
+        },
+        {
+          "object": "同时间_R21_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.1350835125199435e-12
+        },
+        {
+          "object": "同时间_R21_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.5881867761018131e-21
+        },
+        {
+          "object": "同时间_R21_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.183756817139993e-22
+        },
+        {
+          "object": "同时间_R21_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.0880185641326534e-14
+        },
+        {
+          "object": "同时间_R21_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 7.272904256920218e-12
+        },
+        {
+          "object": "同时间_R21_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.5979218776228663e-14
+        },
+        {
+          "object": "同时间_R21_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.3234889800848443e-21
+        },
+        {
+          "object": "同时间_R21_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 5.770411953169921e-21
+        },
+        {
+          "object": "同时间_R21_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 4.688296835985133e-13
+        },
+        {
+          "object": "同时间_R21_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.3896634290890865e-22
+        },
+        {
+          "object": "同时间_R21_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 2.7755575615628914e-15
+        },
+        {
+          "object": "同时间_R21_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9774,
+          "max_frame_error": 0.00019542818517948035,
+          "max_value_error": 1.522012327097571e-22
+        }
+      ]
+    },
+    {
+      "avatar": "same_phase_baseline",
+      "all_saved_samples": 8744,
+      "all_key_checks": [
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "location",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.311047106941306e-10
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "location",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.304088957606815e-10
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "location",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4896669786601535e-08
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R20_动态_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4900464251343948e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4899574019011652e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1324274851176597e-14
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.470329472543003e-22
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4823076576950256e-21
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4894005584409342e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.799964343109485e-15
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.5025523714129463e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.5489115396414306e-09
+        },
+        {
+          "object": "同阶段_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9799732459423467e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 6.8171691548676974e-15
+        },
+        {
+          "object": "同阶段_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.178983355387686e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.2657181542328217e-09
+        },
+        {
+          "object": "同阶段_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 7.448627020734122e-09
+        },
+        {
+          "object": "同阶段_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1589765470032196e-14
+        },
+        {
+          "object": "同阶段_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.1789850762333742e-08
+        },
+        {
+          "object": "同阶段_R20_动态_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.265719653033905e-09
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.489374490404316e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.489905454565843e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.6209256159527285e-14
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.2705494208814505e-21
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.6469779601696886e-21
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4898947964248066e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.731252958273865e-16
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.9534857620406854e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.240831379982325e-10
+        },
+        {
+          "object": "同阶段_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9800746759178764e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.956392368850172e-15
+        },
+        {
+          "object": "同阶段_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.629916113188301e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.072769674960512e-10
+        },
+        {
+          "object": "同阶段_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.490066275922075e-08
+        },
+        {
+          "object": "同阶段_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.2101341149592553e-15
+        },
+        {
+          "object": "同阶段_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 8.533506901109433e-09
+        },
+        {
+          "object": "同阶段_R20_动态_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4869416253837642e-09
+        },
+        {
+          "object": "同阶段_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.078698328577099e-11
+        },
+        {
+          "object": "同阶段_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 9.198248411589668e-22
+        },
+        {
+          "object": "同阶段_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.7985612998927536e-14
+        },
+        {
+          "object": "同阶段_R20_动态_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 3.282252670610414e-21
+        },
+        {
+          "object": "同阶段_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.518123040752429e-12
+        },
+        {
+          "object": "同阶段_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.9778502051908996e-22
+        },
+        {
+          "object": "同阶段_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.773159728050814e-15
+        },
+        {
+          "object": "同阶段_R20_动态_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.558653716356346e-22
+        },
+        {
+          "object": "同阶段_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.4462753314837401e-11
+        },
+        {
+          "object": "同阶段_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.5881867761018131e-21
+        },
+        {
+          "object": "同阶段_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.183756817139993e-22
+        },
+        {
+          "object": "同阶段_R20_动态_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.0880185641326534e-14
+        },
+        {
+          "object": "同阶段_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.795423879014102e-11
+        },
+        {
+          "object": "同阶段_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.5979218776228663e-14
+        },
+        {
+          "object": "同阶段_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.3234889800848443e-21
+        },
+        {
+          "object": "同阶段_R20_动态_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 5.770411953169921e-21
+        },
+        {
+          "object": "同阶段_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.8129694184169758e-12
+        },
+        {
+          "object": "同阶段_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.3896634290890865e-22
+        },
+        {
+          "object": "同阶段_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 2.7755575615628914e-15
+        },
+        {
+          "object": "同阶段_R20_动态_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 8744,
+          "max_frame_error": 0.00019540870016498957,
+          "max_value_error": 1.522012327097571e-22
+        }
+      ]
+    },
+    {
+      "avatar": "same_phase_candidate",
+      "all_saved_samples": 9799,
+      "all_key_checks": [
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "location",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 9.311410149870358e-10
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "location",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 4.656105136863209e-10
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "location",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.489935436138623e-08
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R21_实际自由根",
+          "path": "rotation_quaternion",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 0.0
+        },
+        {
+          "object": "同阶段_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.979542512715483e-08
+        },
+        {
+          "object": "同阶段_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同阶段_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同阶段_R21_right_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同阶段_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.4898384026462708e-08
+        },
+        {
+          "object": "同阶段_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.1324274851176597e-14
+        },
+        {
+          "object": "同阶段_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 8.470329472543003e-22
+        },
+        {
+          "object": "同阶段_R21_right_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.4823076576950256e-21
+        },
+        {
+          "object": "同阶段_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.7252457923964144e-09
+        },
+        {
+          "object": "同阶段_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.799964343109485e-15
+        },
+        {
+          "object": "同阶段_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.5025523714129463e-08
+        },
+        {
+          "object": "同阶段_R21_right_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.5489115396414306e-09
+        },
+        {
+          "object": "同阶段_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.9797981859758238e-08
+        },
+        {
+          "object": "同阶段_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 6.8171691548676974e-15
+        },
+        {
+          "object": "同阶段_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.178983355387686e-08
+        },
+        {
+          "object": "同阶段_R21_right_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.2657181542328217e-09
+        },
+        {
+          "object": "同阶段_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.975764312740381e-08
+        },
+        {
+          "object": "同阶段_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.1589765470032196e-14
+        },
+        {
+          "object": "同阶段_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.1789850762333742e-08
+        },
+        {
+          "object": "同阶段_R21_right_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.265719653033905e-09
+        },
+        {
+          "object": "同阶段_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.9799774758920705e-08
+        },
+        {
+          "object": "同阶段_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.3087224502121107e-22
+        },
+        {
+          "object": "同阶段_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.524354896707238e-29
+        },
+        {
+          "object": "同阶段_R21_left_hip_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.774758283725532e-15
+        },
+        {
+          "object": "同阶段_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.4894536382037415e-08
+        },
+        {
+          "object": "同阶段_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.6209256159527285e-14
+        },
+        {
+          "object": "同阶段_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.2705494208814505e-21
+        },
+        {
+          "object": "同阶段_R21_left_hip_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.6469779601696886e-21
+        },
+        {
+          "object": "同阶段_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 7.4379685188752376e-09
+        },
+        {
+          "object": "同阶段_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 5.731252958273865e-16
+        },
+        {
+          "object": "同阶段_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.9534857620406854e-08
+        },
+        {
+          "object": "同阶段_R21_left_hip_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 5.240831379982325e-10
+        },
+        {
+          "object": "同阶段_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.977828117423087e-08
+        },
+        {
+          "object": "同阶段_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.956392368850172e-15
+        },
+        {
+          "object": "同阶段_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.629916113188301e-08
+        },
+        {
+          "object": "同阶段_R21_left_knee",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 8.072769674960512e-10
+        },
+        {
+          "object": "同阶段_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.9789174904593096e-08
+        },
+        {
+          "object": "同阶段_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.2101341149592553e-15
+        },
+        {
+          "object": "同阶段_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 8.533506901109433e-09
+        },
+        {
+          "object": "同阶段_R21_left_ankle",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.4869416253837642e-09
+        },
+        {
+          "object": "同阶段_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.4083102034805756e-11
+        },
+        {
+          "object": "同阶段_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 9.198248411589668e-22
+        },
+        {
+          "object": "同阶段_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.7985612998927536e-14
+        },
+        {
+          "object": "同阶段_R21_neck_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 3.282252670610414e-21
+        },
+        {
+          "object": "同阶段_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 7.017328937982542e-12
+        },
+        {
+          "object": "同阶段_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.9778502051908996e-22
+        },
+        {
+          "object": "同阶段_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 5.773159728050814e-15
+        },
+        {
+          "object": "同阶段_R21_head_pitch",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 5.558653716356346e-22
+        },
+        {
+          "object": "同阶段_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 7.1350835125199435e-12
+        },
+        {
+          "object": "同阶段_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.5881867761018131e-21
+        },
+        {
+          "object": "同阶段_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.183756817139993e-22
+        },
+        {
+          "object": "同阶段_R21_head_yaw",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.0880185641326534e-14
+        },
+        {
+          "object": "同阶段_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 7.272904256920218e-12
+        },
+        {
+          "object": "同阶段_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.5979218776228663e-14
+        },
+        {
+          "object": "同阶段_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.3234889800848443e-21
+        },
+        {
+          "object": "同阶段_R21_head_roll",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 5.770411953169921e-21
+        },
+        {
+          "object": "同阶段_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 0,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 4.688296835985133e-13
+        },
+        {
+          "object": "同阶段_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 1,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.3896634290890865e-22
+        },
+        {
+          "object": "同阶段_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 2,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 2.7755575615628914e-15
+        },
+        {
+          "object": "同阶段_R21_mouth_candidate",
+          "path": "rotation_axis_angle",
+          "index": 3,
+          "count": 9799,
+          "max_frame_error": 0.00024378549096581992,
+          "max_value_error": 1.522012327097571e-22
+        }
+      ]
+    }
+  ],
+  "clock_checks": [
+    {
+      "scene": "05_R20与R21_同实际时间",
+      "clock": "R20",
+      "key_count": 2,
+      "max_clock_frame_value_error": 0.00013662248602486216
+    },
+    {
+      "scene": "05_R20与R21_同实际时间",
+      "clock": "R21",
+      "key_count": 2,
+      "max_clock_frame_value_error": 0.00013662248602486216
+    },
+    {
+      "scene": "06_R20与R21_相同步态阶段",
+      "clock": "R20",
+      "key_count": 2,
+      "max_clock_frame_value_error": 0.00013662248602486216
+    },
+    {
+      "scene": "06_R20与R21_相同步态阶段",
+      "clock": "R21",
+      "key_count": 9799,
+      "max_clock_frame_value_error": 0.00024378549096581992
+    }
+  ],
+  "metrics_from_full_raw_original_samples": true,
+  "full_trace_sway_comparison": {
+    "actual_roll_reduction_fraction": 0.28600480391920213,
+    "actual_head_marker_Y_reduction_fraction": 0.28618896208736366,
+    "actual_roll_target_met": false,
+    "actual_head_marker_Y_target_met": false,
+    "both_sway_targets_met": false,
+    "durations_s": {
+      "baseline": 174.8464999975934,
+      "candidate": 195.4417499971064
+    },
+    "other_axis_amplitude_changes": {
+      "root_world_Y_mm": {
+        "baseline": 36.33113957108,
+        "candidate": 23.365003248605326,
+        "change": -12.966136322474675
+      },
+      "trunk_yaw_deg": {
+        "baseline": 22.483544776453286,
+        "candidate": 3.9063626099836446,
+        "change": -18.57718216646964
+      },
+      "trunk_pitch_deg": {
+        "baseline": 9.919841227944923,
+        "candidate": 8.993863669021135,
+        "change": -0.9259775589237886
+      },
+      "root_world_Z_mm": {
+        "baseline": 8.250000601895408,
+        "candidate": 9.135912783110001,
+        "change": 0.8859121812145929
+      },
+      "head_marker_world_X_mm": {
+        "baseline": 65.07783859229997,
+        "candidate": 68.23909136570157,
+        "change": 3.1612527734016
+      },
+      "head_marker_world_Z_mm": {
+        "baseline": 29.689689205276295,
+        "candidate": 21.66362856704643,
+        "change": -8.026060638229865
+      }
+    },
+    "scope": "Actual world amplitudes only. Reference tracking quality, camera and retiming cannot substitute for these two gates. Stability, foot progress/slip, caps and CAD checks remain separate."
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/visual/release_v3/config.json": "5a603d744d126fa69994dd8e7c070efecafd09ffa2d6743a01a5cd3aae582098",
+    "work/r20-walking-fix/visual/visual_delivery_index.json": "e3f62e66ce3c9783bd22b06740a030e5be74a5aa95af7e930a1e9ec3b080395c",
+    "work/r20-walking-fix/visual/static_build_index.json": "eef8fdda1726e1aa96356cc3f46bdaa534ad3aa6aaae43d3f797976ceab0e55b",
+    "work/r20-walking-fix/visual/animation_build_index.json": "dfe7592b36eb93ce6e92ab3de146c01c0223408b657748f855a2f2b458b1cdce",
+    "work/r20-walking-fix/visual/Microduck_R20_修订与实际行走.blend": "d502d9c2032e73739b5d679bcb03e19ee2b09efbcd6465aec99ea517dbea6e14",
+    "work/r20-walking-fix/assembly_final/assembly_selection.json": "64d64b2ea333b80ea07f58aa5babec4127785623810dacc85dc11fa728722a10",
+    "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_contact4.json": "2fdcdd4d4f24594692a2e48eb7b8880ff190228a84131265bca1190b4765c240",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/report.json": "81b4423fa399bfc89fbeb425c18f9c8e7ee75c7557bc934db5958ad10ab81b02",
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+    "work/r21-reduced-sway/gait/trajectory_4steps_v3.json": "9ae29d7be2dd7e211482bfb13ba49b2234e4ecaf782c945b46b9a944b41a7d5d",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_contact4.xml": "07853dbc0732042d31aae1c6c935a3374a355a07e74eeffe04efe46aefb23839",
+    "work/r21-reduced-sway/dynamics/prepare_feedforward_r21_v1.py": "78743b225680fd917674ff04c83d02ab6991df1097cc46b059fa633bae583d20",
+    "work/r20-walking-fix/dynamics/feedforward_v2.py": "0523f41bdaa13a568758e03de3c3986703b502b5d89eba2e258bef70a091575a",
+    "work/r20-walking-fix/dynamics/quasistatic.py": "51b32b44573e249ae82fecb990bed5978f22eefb88c520319f230e627f80f8db",
+    "work/r21-reduced-sway/dynamics/full_v3/feedforward_contact4.json": "019e50b63d1198611b5fe710f2062163a55e46a38686676718acda77d37bc61c",
+    "work/r21-reduced-sway/dynamics/controller_r21_v1.py": "1f04fd2560f1e9496471092ce11ae9da59b9e60ef95ec619b70a888e72b2743b",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/trajectory.json": "81f98a4d78a643e050ab511704ba1282fe593f74f2f35723225f8bf597142d54",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/interval_joint_bounds.json": "9d2e3e387096741ca300561c40f09581c2af3c0f55d83af7eafc910a2f9e9a6f",
+    "work/r21-reduced-sway/dynamics/export_trace_r21_v1.py": "8f4addffee9c1f2d2ff70154b67d03d7cd825312a1fdefb5aeb587a8c7a913cc",
+    "work/r18-leg-hip-covers/CURRENT_DESIGN.json": "999c64f482cdafca3def02f8f917196ed359aa6a4f276d5a2203a7ae33d8686d",
+    "work/r17-module-mount/candidate/assembly_selection.json": "5d6162b227254fd0b64c9ab2a151a32ffc95426d92d1a6a920464fa3a0b56bdc",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/mount_candidate_manifest.json": "6c4f72ac63547934b16a9453ef07276a6c67e7da760d91e57d00adc8a6f7d881",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r18-leg-hip-covers/photo_review_v8/外包与候选质量.json": "77815ed5571c6f4e6f54bb23a55e5842ce17b5b0e7060d90cdb8f20f84e9eb01",
+    "work/r13-electronics/torque/inputs/mass_R13_inertia_envelope.json": "f4650424ccbddbbb57aa906af2d4c20aa1471e323b7272b35dd28594f5ad62f1",
+    "work/r13-electronics/torque/驱动资格候选.json": "faf1e8b6dbba8186b07065bd92f4842ec0efedc4257eee7e3412801865419574",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_left_hip_yaw_fixed_integral_contact_pads.stl": "50bbca3326b2cf0b07ba3352e0e4453bc70095f0c453bccdf14ef69e9cc0bc51",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_right_hip_yaw_fixed_integral_contact_pads.stl": "7442cffca0d89c9423dca9507a2937d6a0439731dea0536d6f6b16d0e8406934",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_active_through_M3_ears.stl": "6fd59fa148a632c90c85330cff7c78e2413f5a70a75a4ac74f5fd4970083b856",
+    "work/r16-motor-mount/host_geometry/candidate_v1/STL_装配坐标_毫米/R13p3_neck_pitch_idler_through_M3_ears.stl": "dcabdb860269e59dbe15752e97324cca81edc0187b5cff06b7ee419eb16f0696",
+    "work/r16-motor-mount/frame_geometry/capwells_relief/STL_装配坐标_毫米/R13p3_trunk_loadframe_motor_wells.stl": "0bad7fcc1882d4f976bcf9647b78863187e78ee59667eba15afb1bb08838e163",
+    "work/r15-clearance/geometry_audit/external_service_shells_v2/R15_right_shell_external_M3_X32_Z11p5.stl": "f723cc3a875afa93303d391ec88eb80fe4b2c9590e9e644bad645eb8282ca974",
+    "work/r15-clearance/geometry_audit/external_service_shells_v2/R15_left_shell_external_M3_X30_Z11p5.stl": "1f8a645fd199671ef921ae1b8518bf955146c50552730cbcfa95e0c53ff19470",
+    "work/r17-module-mount/cradle/candidate_v3/R17_battery_front_relocated_limiter_hosts.stl": "ae27b5272bc25e5e96254aa897fdbb38654898f4a7d02dd05ab13dbd6cb55c3a",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_Battery_front_cradle_relocated_limiter_bosses.stl": "f9a50f3e27bd8400139f5d0e0b17c31520832b3f3ae46053f7f2fef88d02b0d4",
+    "work/r17-module-mount/leg5/candidate_v1/STL_装配坐标_毫米/R13p4_dual_LEG5_bridge_access_bracket.stl": "c40d4855d70e295d4975247d006ed12e1947fc0008b16e542ba87bb0578911a7",
+    "work/r17-module-mount/leg5/candidate_v1/STL_装配坐标_毫米/R13p4_LEG5_mount_-31_M3_L7p30.stl": "c797d510722bf0ecd01d828ba77947397ba44c888e2c3d804ea69333699b0629",
+    "work/r17-module-mount/leg5/candidate_v1/STL_装配坐标_毫米/R13p4_LEG5_mount_31_M3_L7p30.stl": "deb046f2ee8a4cc5fa982978efe044c5d1419ef988c2f75f8e28b256cf538463",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_recess_metal_panel.stl": "912af2e5efb59e6fe1baec5ab2e68640e8af8cdb56599959074666460c22d510",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_1_M2x10_screw.stl": "32a3ce95e5d87e8181e367dff1e0a9cf61cf349d7c839c30d1767bf3047112b6",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_1_M2_DIN433_washer.stl": "8146df57deb2b6803e2439267705bc544f4df72296deae5d5b9cb6b4e8586ab3",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_1_M2_DIN934_nut.stl": "c0536c76c2764e8d9ceaaf00dd1ee4f8ba436c10e2d3ae78cb95a4f0da42d084",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_2_M2x10_screw.stl": "92ad2eb42975e5be249551a431a65609b6c677ae4be0373303e36ca077455e61",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_2_M2_DIN433_washer.stl": "412ccfee064d5d9c6ea4fbd0191ad4ba880e7d5db07242bfa44ef4cadaae22bd",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_2_M2_DIN934_nut.stl": "952036f51894d528aaf811bb06ed5ff11e522cfb413f9caabb34736e5492131b",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_3_M2x10_screw.stl": "ea262ca0d51732db6a6b2717bdd4cb47f281e8cea62a77b189614d66d20dc772",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_3_M2_DIN433_washer.stl": "db91b9ec53883cdb7238b82f319763d17d7e63198af09c7d5fe4b0c760d1c561",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_3_M2_DIN934_nut.stl": "3fd0a5f799ec276f434c50bf180769698044c3bf76823512fe67aee9aa9061df",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_4_M2x10_screw.stl": "4831e73623e623395eaf52f9b7c72b003ab1f15d8b3e2ad8fea85938d45c7007",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_4_M2_DIN433_washer.stl": "8ed0246d8975372595762de0ad6810e019b083e857d91ae4ae4133e734ec9ef0",
+    "work/r14-s301/candidate/STL_装配坐标_毫米/R13p1_S301_4_M2_DIN934_nut.stl": "60691e80d9f20130a4b02f8f8fa62211f24ddba27a24807080cf46da701c26cb",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_right_M3x14_screw.stl": "2889d3d5beccc78a69d4f4513bffb2a4ff454d150d8425931594265648dd2956",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_right_M3_washer.stl": "99334e39d400352888a080c9414c55690c8a64750d6cffc954438620a9d48418",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_right_M3_nut.stl": "e9a8289f764d892adc115ae50abf119b3e3939e041e37e36db54c9774ec46794",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_right_compression_sleeve.stl": "55543f3b8dbb8d074803700902a5c4a5ebaca43b5cc111aadebbdcec5ce9fd5d",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_left_M3x14_screw.stl": "662dba2fb2d0c479ab6e3e43dfb0b924f574055757e0c5e535d87b2defb08b25",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_left_M3_washer.stl": "fb304ee46a53c8b786d4bae4e22bc85d4e8cda72cd2c79316579be77dd7446a3",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_left_M3_nut.stl": "c25be534004691243edfe28fd6d3a2f8d9f5f8d9634582c815ec0bcb39ecba9c",
+    "work/r15-clearance/fasteners/STL_装配坐标_毫米/R13p2_service_front_left_compression_sleeve.stl": "b148afc9de4807ef1e6c9dafa759db75e6de7c99e5a32ab9cdcd0d11a069210b",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_left_hip_yaw_fixed_-1_hole0_screw.stl": "cddb11d41aea8691310d27cc01cf0571043d102b532ecde8d238e264ea9f787c",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_left_hip_yaw_fixed_-1_hole1_screw.stl": "12cb3821ee371a3282689f0ff6a4f548ad45cece1e23191e9e4c1c709029790b",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_left_hip_yaw_fixed_1_hole0_screw.stl": "b2fe589970db1396e1760164b40e59691895dd2c9d8ccd9f08c17e85ac23425e",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_left_hip_yaw_fixed_1_hole1_screw.stl": "5bf36b032ec7cc4a7a25ccee377ab0e3eab847d39ce3fd0e7035ad0dcfd911e6",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_right_hip_yaw_fixed_-1_hole0_screw.stl": "4b81b1ace0c28ba6bb8ff9244606e2e7ed0b4388c3e2c683db4cff947614876b",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_right_hip_yaw_fixed_-1_hole1_screw.stl": "a78f63ffc000d5f06262d917d104643553d8a6ccb4eef625e41d0be04d372cbc",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_right_hip_yaw_fixed_1_hole0_screw.stl": "f5c7389df8eb104499a4f3589de4f81d643b51f12880bb11ddf93aa808d4b1a2",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_right_hip_yaw_fixed_1_hole1_screw.stl": "a43ccb62a1bed28ee12ef357ae8c940643d238cd90973e9529c33e16fc30595f",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_neck_pitch_active_hole0_screw.stl": "4d53e318fd624f974755a2ab561dc2b256935f29b41938a8d10d05a74a39bf4a",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_neck_pitch_active_hole1_screw.stl": "d7aa8145d07584a0dd33f7f2441da345a76a804dc4ab18bbfd943f3269d53751",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_neck_pitch_idler_hole0_screw.stl": "b0edbe9c029c54a674618dc9b20fb2954b9439f53f8f042652723be801d495c6",
+    "work/r16-motor-mount/fastener_design/geometry/STL_装配坐标_毫米/R13p3_motor_mount_neck_pitch_idler_hole1_screw.stl": "15d81236745e82f45cbc2327bfcd2909a86475901d7bff4b2588f23c340440d6",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_R_relieved_washer.stl": "f10ef1e7947ddbd1fa8f4457696be91dae6306bdfa252d726a2c6d1f14f4f213",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_R_compression_limiter.stl": "a0adffb5aabff5790196cb1c1e083296385b7e40ba46151caae5dbe2934b1560",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_R_M2p5_nut.stl": "92d037ec9940e457af60050fa7c12acd2b33d7004a3e6aa0908c1cfd934c5316",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_R_M2p5x8_cap_screw.stl": "cbbb6f3c4876c87777040c97b89a544f26665c43ddba89d3d3ce7b32c0e1b6b7",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_L_relieved_washer.stl": "976f74310981c3a4c53cd87f56dda31c92a3e33dee4ca122ff6273f814b3b7e1",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_L_compression_limiter.stl": "195f8617f237998afd2a681aecb4a23295c6ca66b03c6fabe9c497ddca423fc1",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_L_M2p5_nut.stl": "e1f5981654abdec0ad2ab4798171e5739796fc85fd3d6eaebd61cd2f26d98334",
+    "work/r17-module-mount/cradle/candidate_v3/STL_装配坐标_毫米/R17_cradle_L_M2p5x8_cap_screw.stl": "d46434ced7e47eb171e126ed5f18dcc12017bcc4bb8eff1c2fc9496a58beafb9",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_photo_triangle.stl": "97136bbd2c2d909bde140b43cb8cda261d9555fa360671e3afe25c48246526d7",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_photo_triangle.step": "80b3ccea529a9563250a5cc0b2e10567cc32a5cda5f05287c6309c31c42f6796",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_CNC_bridge_saddle.stl": "9b01d2e4e0fcf1c0ea1bf589909910dec674c54c788569a280426a7dd0d94f56",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_CNC_bridge_saddle.step": "03e801cee70bf46f1ce5edf9f3af6c788633e0388be9ec7e65cfe0e34089bf6a",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_CNC_preloaded_nut_cap.stl": "19413b201769c3762f1a6a57670755e2e3e767e30f0e0a62a9d5e7a411a017e6",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_CNC_preloaded_nut_cap.step": "4052d5134267bd041f12ada1e12ddd968c88f53978e3014894e86b5d9dd76abd",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F1_nut_AF5p5.stl": "77f8124636b66983fc30316aad52f1866bd3ff99d5af3dc0369686c133c2abc7",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F1_nut_AF5p5.step": "eac3267827c52d8841097cf8a89e161ba36d79fedbb30b6c34c91aace1d477b8",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F1_floating_bushing_L4p3.stl": "c5060e76f227e3fceb61592b411630ac3ce518d7e8598e6b4b990e5de931ca83",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F1_floating_bushing_L4p3.step": "81b13fe94042fe11d65e66a8fe4e1d1cdbc4a19fa5c607f907564e4156040ead",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F1_washer_OD7.stl": "16b37f6cc3b051c88e7d55b30219611ac35c85acdafab1cd616908152636575c",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F1_washer_OD7.step": "d4018705e4e2f36ebabf7c56b6ba51ea0d1f0dc17cb7daebf0c3674bf3b3c1b0",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F1_M2p5x8_screw.stl": "aebe6b0b3d730a336166bc3594d2ab6d4d412617a957f22274ae07575fd2fa8d",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F1_M2p5x8_screw.step": "3eea8360aebb50fc66e7b7df7e1e195b6427aebccd911bf381c96fe921d2eefa",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F2_nut_AF5p5.stl": "35bd4c3afc7a779e705cf230ed64752d65ab3cb5d7b4d3ee1ce0d4988b15e8d3",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F2_nut_AF5p5.step": "57e090b2812303a330719823ece442a907931dd979fd4e97211f003aa1299615",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F2_floating_bushing_L4p3.stl": "8487cd01218120a03c70d89fa53cc2a600ab2b929f08fc3e3fa68b643213083b",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F2_floating_bushing_L4p3.step": "6adb7b19420646b9bafafbb4242e135f21f81ae7ba25ce9d077282c5b6a881bd",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F2_washer_OD7.stl": "3136d35b46bf098b3708e2cc3a32f3d682b6e10fc34eadfc96ac5a3cd5ad021a",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F2_washer_OD7.step": "c1771d6f8dfc484dfd6b0d1915fecf4fe24157f17bdcacefcd894162de20a3f9",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_clamp_F2_M2p5x8_screw.stl": "8bd3d5232c111df0486f092cbfb98d406c4d517f4cb60950eb215d82a9b90b26",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_clamp_F2_M2p5x8_screw.step": "af8f5263c7348f64c1905d77cec32f915dbb21ceeebfff0f0da4e4224a7e77b3",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_skin_F1_washer_OD7.stl": "e5238c51ca18b14978d07b0376f12f80c4906f3a5101f5d787abf6ffbca09b9f",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_skin_F1_washer_OD7.step": "65cad2cbb800349bb7639ed3ab32c32a6350a024e4b6871c8ebd2de95dad5dc8",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_skin_F1_M2p5x8_screw.stl": "b0b132c38cec5b38582d72eb88ecc47946c91d5b40518e1b798e64157e3df9d0",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_skin_F1_M2p5x8_screw.step": "9b10f02e98b5255d3ddcdb915ef82cca11340a52b231438ac8751509a31d88bc",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_skin_F2_washer_OD7.stl": "5c359ad9db31d1599f965fb6c2dc3123e4ccf0472b1186c8cc7dfe156016db47",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_skin_F2_washer_OD7.step": "48f083accb00c430a68ff4cbbadf55a237554ba8a4550a7a7dfeffcdd920bc2f",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_L_thigh_skin_F2_M2p5x8_screw.stl": "b904798df52b212b679190adb219c7fa3396e84bf208d4c2b4f90a3161887c0e",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_skin_F2_M2p5x8_screw.step": "7287651301c5a9a9a4b31a53dab4459c34f56c1e70a0de521c59fec0b56b5311",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_photo_triangle.stl": "e803b6cf4eb6fa678e9972fcd832a0c163add292307db2e88428f60692650d7d",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_photo_triangle.step": "28160e13cb181ee6f99ff8507d883f025038db48873d140987719705aba9112a",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_CNC_bridge_saddle.stl": "6215ce3d525156f26544c86b14c01aca045d14032500c5b3b61c11fdd37bf77b",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_CNC_bridge_saddle.step": "0d8dc480ef83ac5459846684d1fa0a749867dcc1241a403dd4070e990e2e7ded",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_CNC_preloaded_nut_cap.stl": "fbed867dfa9165c3934e4239f0db18f8c25241513666113d6c8c6f68e986fcd7",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_CNC_preloaded_nut_cap.step": "b4e121f1e615ab6277a65dba860d4a68948ccec2c682259c88bc41333f1fa65e",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F1_nut_AF5p5.stl": "73ff09a94d385866beb43e6fc7156da2ad858b55c183b69120b4cde4974f50a7",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F1_nut_AF5p5.step": "eb9c7a9241ce288813deda877dc4ea41a5bbbe0c389a7ab3e5c1936aabedcdda",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F1_floating_bushing_L4p3.stl": "5b25e31062732df7826376b090155400d9ae3d299eeec94401ef6bc65161912a",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F1_floating_bushing_L4p3.step": "67e5d31d6ab8538611c38146b0d82f81184dcfb6430c7971b9ca8650fcdfe0c2",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F1_washer_OD7.stl": "0a906b5abbde9984f3a3199a8e48fff585f24072e33c1e3458f8c4170405956b",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F1_washer_OD7.step": "b99b0b6d2ccc977e0730d1814863c8f0973b310c4fadbdc5d17c9264309a63bf",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F1_M2p5x8_screw.stl": "64477fee3c129c6a62096b79b5a00da9423149bc5314ed27a25a55625b710e3e",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F1_M2p5x8_screw.step": "5f683b549950c2daef2a5cca2183206b1a95084e8b2e032b5c151d082cc6d756",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F2_nut_AF5p5.stl": "4947a62b82aa2dc5832bd420a5d9def82e69a8cb7f4278921d73a42b9ea14ff6",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F2_nut_AF5p5.step": "43535e3ea77281ff5b783b595bacdb4799db7a2f7249b076f3b7d307ec8bced5",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F2_floating_bushing_L4p3.stl": "98226c29cff7ecacb59c15c71f84a77016ce1f50bc9098ff04cb5c7e8f77ad1d",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F2_floating_bushing_L4p3.step": "b25a5dcf36c6a7a0b90fcb0f9e7875d23aa791f06762c2a40a44958dac90b0b6",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F2_washer_OD7.stl": "1def2b26b82565d67c8f8f02ece8876ee3390134587d9a7146f183525be0ba83",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F2_washer_OD7.step": "f03a86bdea4e8a109452dd2b8ec51f85e271513cfd9558660cfd1df8a267bf5a",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_clamp_F2_M2p5x8_screw.stl": "0538b46a7cfdf1a296ca85f7874154ea22b5f7891f7bb79614b7cdcc317dba46",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_clamp_F2_M2p5x8_screw.step": "1eb824c2b25320851e939630e5d2a9d866e406f8d2f6638fd8cbd4f1df3b6fd4",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_skin_F1_washer_OD7.stl": "33b106561009ea63e21ab50571ddcdba76719b7612c3afb4b1e91a6dcc2b1d01",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_skin_F1_washer_OD7.step": "700819085de9a07675c0836f6779849be7eada1b2e59d7883bd24091b09de246",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_skin_F1_M2p5x8_screw.stl": "0b98637df6b72562e6fedf4493b7ad63c680b11695b7da6227888e02541545c8",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_skin_F1_M2p5x8_screw.step": "a3b8a849976f6377dc840e96c577e04d2bf7adbb6f9da768d9d19c528d71ee6d",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_skin_F2_washer_OD7.stl": "fcb31730f5e219485403a314a3502652e4f125211b1b0993d13b043cff0283fd",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_skin_F2_washer_OD7.step": "4f8b4377c1746f61ec1c8c4f3fa4d5022b68aa1e36bc18eb1e881f569ce96ac0",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STL_装配坐标_毫米/R18P_R_thigh_skin_F2_M2p5x8_screw.stl": "6f308a11dbcbfb5bb5a6da514c79bd7d17316527d267154a87da028d63d50d2f",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_skin_F2_M2p5x8_screw.step": "b121038fab1472880d4b31cfde112ecc62d7c0b10d6c33e93a70d634d2a50356",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_装配坐标_毫米/R18P_L_shoe_toe.stl": "0c25e4969818cfab1041b403e4bd215f58eb0aaa9fd6ae4d21a7bf05faddd3d1",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STEP_毫米/R18P_L_shoe_toe.step": "3a0d8a8b28bda605f506ed27efd804b2f0466ed131357d638945bc4fc96e7d6b",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_装配坐标_毫米/R18P_L_shoe_heel.stl": "c98d08d0c960f7399cc80221e0adb2110ec70e5035dd09f568fa142218fa3618",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STEP_毫米/R18P_L_shoe_heel.step": "9a2f1b7f96f52f42eae1b4227a64f764c997b68bf022b71984621716ce957d88",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_装配坐标_毫米/R18P_R_shoe_toe.stl": "47e1334fbb05aa8ae7820309f0c0a54a2a0c80c90331dd0f63d654e5cb4209a0",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STEP_毫米/R18P_R_shoe_toe.step": "db0c1d10b565445a386f8804f4d8b317a1af24bd0ef20279452e4806ef69662c",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STL_装配坐标_毫米/R18P_R_shoe_heel.stl": "d65bfd6def6f6deacb887a1eb0a88332e1186218818767c74efdeec8e19bc2e7",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/STEP_毫米/R18P_R_shoe_heel.step": "b12329aff69cefc08f342379aaceddcf2df4d44c224d872bce8a3ac2b872354a",
+    "work/r19-walking-simulation/physics/build_model_v2.py": "fcdc8bc9ff6a4348ed9343ecaef6b48c9b01c77ed02564ca63ad6c1af27b7246",
+    "work/r19-walking-simulation/physics/current_robot_v2.xml": "aa989851d357937c1febfdd7736bd5f41f65d5a2a8cfefeac2b7b1aba6562240",
+    "work/r19-walking-simulation/physics/model_contract_v2.json": "fc2a8d762d7f2100a60d8e1a62fbea0c38c6d3b1677bef98be3fdb7adbe2c77b",
+    "work/r20-walking-fix/head_mount/mass_inertia_delta.json": "97f9166a8ce0ff4353c61941f3744b06e186e503fb6bcdb83106dbdd7c73b900",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/motion_diagnostic/diagnostic_selection.json": "070b3f7db0172ccbda9b959a3231917881ed1b4e67f329f0bad66ec51dbc0b75",
+    "work/r9-appearance/r9_selected_component_layout.json": "b2c97f0cfe4222bc8402109aa458b52a3a7116fa9c817182b800446f7a1def29",
+    "work/r20-walking-fix/head_mount/head_mount_delta.json": "121912d01bcd7f2666e4b9321a699561841057f48550dbc51f193418fc1c9172",
+    "work/r20-walking-fix/head_mount/finalize_engineering.py": "ed9ff5cbe5bec0e8b92126c181d48692f00d4c12d762d4d81131a59d7f73b425",
+    "work/r20-walking-fix/head_mount/head_common.py": "3fc4f03c4d11f57de4e700a6df37b6ee2c58a340299340bd7bc03c2f2a25edfe",
+    "work/r20-walking-fix/dynamics/build_current_model.py": "0ae7b6e19783e068f3e5f051f7f5e5dc16945eebac6fa4946398c47f63cde424",
+    "work/r20-walking-fix/dynamics/current_robot_r20.xml": "89808f94f9c1e8bafc893b5ef41eaa9f162c07bc27105f69bd8a1d76ecf61787",
+    "work/r20-walking-fix/dynamics/model_contract_r20.json": "d9fd165de8afacdaba0dfdd1be476fb35adaa9eec6e6a14328110c0c9b833cb0",
+    "work/r20-walking-fix/hip_relief/candidate_v4/mass_inertia_delta.json": "aabd62c2ecd0dea84bc40d435475a0d49208329ac8d44a4a2f5f9cd74501c27b",
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3",
+    "work/r20-walking-fix/dynamics/build_release_model_v2.py": "30128becfc43e2f1147dcfb713d9c064e1773b11f1dc48c701bea50e4901819b",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_final_raw.xml": "0a598d45de3c6d84720bef4ab6f83924404dbf6d1289a2f0b80ed316fd534a6c",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_final_raw.json": "1caf0d8f3347f209e796f7923797f4db8b99e9910380f51454645b6758849e94",
+    "work/r20-walking-fix/dynamics/build_release_contact_models.py": "100252fa4ea429506277b6870e2bee1ae0296586ed80eae913b402e1d24b6661",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/acceptance.json": "47f308361b139cfb44502ffdec2f610933701852136bbdaaba9b684d4f95f17b",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/sway_comparison.json": "d1b2e54df9375da5067cd39e6e4bdf96622bb596f757c03949d0cabb50fad2b5",
+    "work/r21-reduced-sway/visual/frozen_baseline_source_graph_audit.json": "6998f77c6d271a0c1a5460598ba3f999f9180f26fca5008a3b506b47398fe362",
+    "work/r21-reduced-sway/visual/release_v3/actual_phase_mapping.json": "24f02f3a3482d4722505fb1f1aa02d1f9e918b9a09008ed61ecfe613c1d585ae",
+    "work/r21-reduced-sway/visual/release_v3/candidate_phase_display_samples.json": "b1e0e4eca5fdae540ffbaa09934dc2abd5bf1a7203b8c818dcf75ccaac74a51e",
+    "work/r21-reduced-sway/visual/prepare_visual_inputs_v3.py": "af4861dd12eaab6321050b12ef3ee4abb18d1c49e46fcffce70a3f109d5aad6d",
+    "work/r21-reduced-sway/visual/comparison_timeline.py": "949896684797f8904f86c783ef34fca405db32b0f90b8376ed4ab17aab9e586e",
+    "work/r21-reduced-sway/evidence/sway_metrics.py": "44137a614da204b05271b8e7e4a787985244294fb47b214af30eb55094c23c9c",
+    "work/r21-reduced-sway/visual/release_v3/prepared_visual_inputs.json": "3db5f1c61db48d04c7df6c872cc8ca347e3009fcfbdc8a6a89903b614f0ffbfb",
+    "work/r21-reduced-sway/visual/build_actual_comparison.py": "59240056b8537cad116f7b26882431e866e44ed65b1bddd0b170dec77833fc06",
+    "work/r21-reduced-sway/visual/blender_actual_helpers.py": "d7750f6673ac6a06e8be8257f705480e10a6800220e55ecddce95490e5dd3016",
+    "work/r21-reduced-sway/visual/repair_phase_view_curves.py": "1b295d65c1a7ee4281601f034d321ba036d11d538aefb3228f5f4fe72cdd6c90",
+    "work/r21-reduced-sway/visual/release_v3/build_index.json": "129bb52ddf01ef9779af4cb3cf0cb8f999212483127602d7fd78f04f3cc5b752",
+    "work/r21-reduced-sway/visual/readback_actual_comparison.py": "99d1bde069cc3b366726824cfaa63ffa89d6013f3d991a3593dc1bae4c34c9e4"
+  }
+}

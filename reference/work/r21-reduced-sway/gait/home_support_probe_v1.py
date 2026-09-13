@@ -1,0 +1,2 @@
+from reduced_core_v2 import *
+SOURCES.bind(__file__);s=make_stance(0.,0.,0.);v=SOURCES.json('work/r21-reduced-sway/gait/support_pair_v4.json');r=endpoint(s,v['left_support_initial']['q_HOME_delta_deg'],maxiter=100);(OUT/'home_support_probe_v1.json').write_text(json.dumps(dict(status='BOUNDED_QZERO_PLANTED_FOOT_SINGLE_SUPPORT_REACHABILITY_NOT_GLOBAL_IMPOSSIBILITY_PROOF',stance=s,endpoint=r,sources={**SOURCES.entries,**GUARD.sources.entries}),indent=2)+'\n');print(r['numerically_feasible'],r['body_rpy_deg'],r['minimum_inequality'],r['closure_scaled_residual'],flush=True)

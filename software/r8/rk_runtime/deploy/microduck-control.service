@@ -1,0 +1,27 @@
+[Unit]
+Description=Microduck R8 bounded low-level control (manual supported-robot start)
+After=local-fs.target
+ConditionPathExists=/etc/microduck-r8/calibration.json
+ConditionPathExists=/etc/microduck-r8/power.json
+ConditionPathExists=/etc/microduck-r8/policy.manifest.json
+
+[Service]
+Type=simple
+User=microduck
+Group=microduck
+SupplementaryGroups=i2c gpio dialout
+WorkingDirectory=/opt/microduck-r8/rk_runtime
+EnvironmentFile=/etc/microduck-r8/runtime.env
+ExecStart=/opt/microduck-r8/venv/bin/python -m microduck_rk run --arm --calibration /etc/microduck-r8/calibration.json --power-config /etc/microduck-r8/power.json --serial ${U2D2_DEVICE} --policy /etc/microduck-r8/policy.onnx --manifest /etc/microduck-r8/policy.manifest.json --command /tmp/microduck-r8-command.json --stop-file /tmp/microduck-r8.STOP --telemetry /run/microduck-r8/telemetry.json --log /var/lib/microduck-r8/control.jsonl --seconds 60
+RuntimeDirectory=microduck-r8
+StateDirectory=microduck-r8
+UMask=0077
+Restart=no
+TimeoutStopSec=3
+KillMode=control-group
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=false
+ReadWritePaths=/tmp
+# Deliberately no Install/WantedBy: do not enable autonomous torque-on at boot.

@@ -1,0 +1,16 @@
+{
+  "source_blend_sha256": "57b5f145458f8c0055a3c28e39018f546d52bed3318ceddc48b44423bbf70417",
+  "renders": [
+    {
+      "scene": "01_完整装配_557件_静态",
+      "PNG": "work/r20-walking-fix/visual/R20_整机静态.png",
+      "PNG_sha256": "1a3f3f761e37c8c9142f70908eda39b2d208f6a929cadcef3d6131fc994247d0"
+    },
+    {
+      "scene": "02_头部安装_旧与新对照",
+      "PNG": "work/r20-walking-fix/visual/R20_头部新旧对照.png",
+      "PNG_sha256": "5304c16b3031d9a454ac21772b7bf75479a4fd79dd580b8417175a586597eeac"
+    }
+  ],
+  "physical_approved": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "OFFICIAL_GUIDE_AND_EXPORTED_NETLIST_REVIEW_ONLY",
+  "guide_url": "https://docs.bit-brick.com/pdf/rk/usb/Rockchip_RK3576_Developer_Guide_USB_CN.pdf",
+  "guide_sha256": "2fae61d4f1d59381d9ff1b0c3f220ca7aee3e23834582a60aec5f6d159d3314b",
+  "netlist_sha256": "15f7b7ae3b432d0a9cfb3973d2c29866980ef77f3e753ad55cecee41f1fd8cb7",
+  "netlist_path": "work/r8-design/electronics/carrier/schematic.xml",
+  "checks": {
+    "upper_10k_R7": true,
+    "lower_20k_R8": true,
+    "R8_pin2_to_GND": true,
+    "CM4_J103_pin98_to_VBUSDET": true
+  },
+  "internal_pull_down_ohm": 40000,
+  "nominal_detector_V": 2.857142857142857,
+  "guide_input_high_V": [
+    0.9,
+    3.3
+  ],
+  "guide_maskrom_independent_of_VBUSDET": true,
+  "actual_USB_enumeration_tested": false,
+  "actual_BootROM_flash_tested": false,
+  "dt_changed": false
+}

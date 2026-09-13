@@ -1,0 +1,47 @@
+{
+  "release_url": "https://github.com/ldcyes/OpenDuck/releases/tag/r13.8-simulation-20260913",
+  "assets": [
+    {
+      "source": "outputs/R13_7_结构与步态修复.zip",
+      "name": "R13.7-structure-gait.zip",
+      "bytes": 730827551,
+      "sha256": "0b5ed578dc9d2d43d7bb3aa78a9e9a32e8c9faec918b9f390a2e8d2aa97835e3",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R13.7-structure-gait.zip"
+    },
+    {
+      "source": "outputs/R13_8_减摆步态更新包.zip",
+      "name": "R13.8-reduced-sway.zip",
+      "bytes": 603509009,
+      "sha256": "87a3992fee6710c913c366cd7232e1a2079173aa754b95118425ecee66b1658c",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R13.8-reduced-sway.zip"
+    },
+    {
+      "source": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+      "name": "PCB-R13-review.zip",
+      "bytes": 1988047,
+      "sha256": "993be1eb1547067de457e4d3d6e073a49b78b6022253930cedd643ab21856898",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/PCB-R13-review.zip"
+    },
+    {
+      "source": "outputs/Microduck_R13_8_减摆步态与PCB复核/模型/Microduck_R21_实际减摆对照.blend",
+      "name": "Microduck-R21-actual-comparison.blend",
+      "bytes": 66216065,
+      "sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/Microduck-R21-actual-comparison.blend"
+    },
+    {
+      "source": "outputs/Microduck_R13_8_减摆步态与PCB复核/视频/R21_完整实际四步_约24倍速.mp4",
+      "name": "R21-four-steps-24x.mp4",
+      "bytes": 1138871,
+      "sha256": "94d06a9f2d111a77a5b18bf8732404f9eb4814849008c75ea3381cd470ce7daa",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R21-four-steps-24x.mp4"
+    },
+    {
+      "source": "outputs/Microduck_R13_8_减摆步态与PCB复核/视频/R20_R21_同参考阶段_对照.mp4",
+      "name": "R20-R21-phase-comparison.mp4",
+      "bytes": 1448840,
+      "sha256": "bbda309839ccdfbdc76f3656a4587d691537f1e9079aa9b629d2f8ee465073db",
+      "download_url": "https://github.com/ldcyes/OpenDuck/releases/download/r13.8-simulation-20260913/R20-R21-phase-comparison.mp4"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "status": "PASS_2P2MM_LOCAL_RIGID_MESH_CONTINUOUS_ROLL_BUDGET_ONLY",
+  "physical_approved": false,
+  "reference_roll_range_deg": [
+    -23.80321448792095,
+    24.923599441126118
+  ],
+  "tracking_scenario_each_side_deg": 3,
+  "certified_roll_range_deg": [
+    -26.80321448792095,
+    27.923599441126118
+  ],
+  "certificate": {
+    "passed": true,
+    "target_mm": 2.2,
+    "accepted": [
+      {
+        "start_u": 0.875,
+        "end_u": 1.0,
+        "midpoint_u": 0.9375,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.75,
+        "end_u": 0.875,
+        "midpoint_u": 0.8125,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.625,
+        "end_u": 0.75,
+        "midpoint_u": 0.6875,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.5,
+        "end_u": 0.625,
+        "midpoint_u": 0.5625,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.375,
+        "end_u": 0.5,
+        "midpoint_u": 0.4375,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.25,
+        "end_u": 0.375,
+        "midpoint_u": 0.3125,
+        "midpoint_gap_mm": 8.0,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.87911167821635
+      },
+      {
+        "start_u": 0.125,
+        "end_u": 0.25,
+        "midpoint_u": 0.1875,
+        "midpoint_gap_mm": 7.747480193581954,
+        "maximum_distance_change_mm": 4.12087832178365,
+        "lower_bound_mm": 3.6265918717983046
+      },
+      {
+        "start_u": 0.0625,
+        "end_u": 0.125,
+        "midpoint_u": 0.09375,
+        "midpoint_gap_mm": 6.278383164582285,
+        "maximum_distance_change_mm": 2.0606686516629185,
+        "lower_bound_mm": 4.217704512919367
+      },
+      {
+        "start_u": 0.0,
+        "end_u": 0.0625,
+        "midpoint_u": 0.03125,
+        "midpoint_gap_mm": 5.335681183974298,
+        "maximum_distance_change_mm": 2.0606686516629185,
+        "lower_bound_mm": 3.2750025323113796
+      }
+    ],
+    "failed": [],
+    "complete_interval_partition_verified": true,
+    "minimum_certified_gap_mm": 3.2750025323113796
+  },
+  "visited": [
+    {
+      "parameter_u": 0.03125,
+      "left_hip_roll_deg": -25.093001552638228,
+      "gap_mm": 5.335681183974298,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.0625,
+      "left_hip_roll_deg": -23.38278861735551,
+      "gap_mm": 5.814725875454292,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.09375,
+      "left_hip_roll_deg": -21.67257568207279,
+      "gap_mm": 6.278383164582285,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.125,
+      "left_hip_roll_deg": -19.962362746790067,
+      "gap_mm": 6.76016534284936,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.1875,
+      "left_hip_roll_deg": -16.541936876224625,
+      "gap_mm": 7.747480193581954,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.25,
+      "left_hip_roll_deg": -13.121511005659183,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.3125,
+      "left_hip_roll_deg": -9.701085135093741,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.375,
+      "left_hip_roll_deg": -6.2806592645283,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.4375,
+      "left_hip_roll_deg": -2.860233393962858,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.5,
+      "left_hip_roll_deg": 0.5601924766025839,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.5625,
+      "left_hip_roll_deg": 3.9806183471680257,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.625,
+      "left_hip_roll_deg": 7.401044217733467,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.6875,
+      "left_hip_roll_deg": 10.821470088298913,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.75,
+      "left_hip_roll_deg": 14.241895958864351,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.8125,
+      "left_hip_roll_deg": 17.66232182942979,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.875,
+      "left_hip_roll_deg": 21.082747699995235,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    },
+    {
+      "parameter_u": 0.9375,
+      "left_hip_roll_deg": 24.50317357056068,
+      "gap_mm": 8.0,
+      "common_mm3": 0.0
+    }
+  ],
+  "sources": {
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3"
+  }
+}

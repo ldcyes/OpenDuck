@@ -1,0 +1,370 @@
+{
+  "status": "DISPLAY_MAP_REAL_TRACE_BOUNDED_CONTROLLER_PHASES",
+  "rows": [
+    {
+      "name": "cycle1_initial_settle_hold",
+      "baseline_s": [
+        0.0,
+        2.0
+      ],
+      "candidate_s": [
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "name": "cycle1_double_transfer_to_left",
+      "baseline_s": [
+        2.0,
+        19.98000294286964
+      ],
+      "candidate_s": [
+        2.0,
+        19.98000294286965
+      ]
+    },
+    {
+      "name": "cycle1_pre_unload_right",
+      "baseline_s": [
+        19.98000294286964,
+        20.58000294286964
+      ],
+      "candidate_s": [
+        19.98000294286965,
+        20.58000294286965
+      ]
+    },
+    {
+      "name": "cycle1_right_step_lift",
+      "baseline_s": [
+        20.58000294286964,
+        23.378981563897494
+      ],
+      "candidate_s": [
+        20.58000294286965,
+        25.31451335023474
+      ]
+    },
+    {
+      "name": "cycle1_right_step_advance",
+      "baseline_s": [
+        23.378981563897494,
+        25.778981563897513
+      ],
+      "candidate_s": [
+        25.31451335023474,
+        28.450633072239203
+      ]
+    },
+    {
+      "name": "cycle1_right_step_lower",
+      "baseline_s": [
+        25.778981563897513,
+        28.65166728289063
+      ],
+      "candidate_s": [
+        28.450633072239203,
+        33.61240365859401
+      ]
+    },
+    {
+      "name": "cycle1_right_landing_still_unloaded",
+      "baseline_s": [
+        28.65166728289063,
+        29.251667282890633
+      ],
+      "candidate_s": [
+        33.61240365859401,
+        34.21240365859401
+      ]
+    },
+    {
+      "name": "cycle1_double_transfer_to_right",
+      "baseline_s": [
+        29.251667282890633,
+        57.53890199921811
+      ],
+      "candidate_s": [
+        34.21240365859401,
+        62.499638374921474
+      ]
+    },
+    {
+      "name": "cycle1_pre_unload_left",
+      "baseline_s": [
+        57.53890199921811,
+        58.13890199921811
+      ],
+      "candidate_s": [
+        62.499638374921474,
+        63.099638374921476
+      ]
+    },
+    {
+      "name": "cycle1_left_step_lift",
+      "baseline_s": [
+        58.13890199921811,
+        61.12890583390462
+      ],
+      "candidate_s": [
+        63.099638374921476,
+        67.86288269414058
+      ]
+    },
+    {
+      "name": "cycle1_left_step_advance",
+      "baseline_s": [
+        61.12890583390462,
+        64.86078335116771
+      ],
+      "candidate_s": [
+        67.86288269414058,
+        73.61055888053679
+      ]
+    },
+    {
+      "name": "cycle1_left_step_lower",
+      "baseline_s": [
+        64.86078335116771,
+        68.07040778953906
+      ],
+      "candidate_s": [
+        73.61055888053679,
+        78.36801326869377
+      ]
+    },
+    {
+      "name": "cycle1_left_landing_still_unloaded",
+      "baseline_s": [
+        68.07040778953906,
+        68.67040778953906
+      ],
+      "candidate_s": [
+        78.36801326869377,
+        78.96801326869377
+      ]
+    },
+    {
+      "name": "cycle1_double_recenter",
+      "baseline_s": [
+        68.67040778953906,
+        86.8232667793524
+      ],
+      "candidate_s": [
+        78.96801326869377,
+        97.12087225850703
+      ]
+    },
+    {
+      "name": "cycle1_cycle_end_center",
+      "baseline_s": [
+        86.8232667793524,
+        87.42326677935239
+      ],
+      "candidate_s": [
+        97.12087225850703,
+        97.72087225850703
+      ]
+    },
+    {
+      "name": "cycle2_initial_settle",
+      "baseline_s": [
+        87.42326677935239,
+        89.42326677935239
+      ],
+      "candidate_s": [
+        97.72087225850703,
+        99.72087225850703
+      ]
+    },
+    {
+      "name": "cycle2_double_transfer_to_left",
+      "baseline_s": [
+        89.42326677935239,
+        107.40326972222208
+      ],
+      "candidate_s": [
+        99.72087225850703,
+        117.70087520137663
+      ]
+    },
+    {
+      "name": "cycle2_pre_unload_right",
+      "baseline_s": [
+        107.40326972222208,
+        108.00326972222207
+      ],
+      "candidate_s": [
+        117.70087520137663,
+        118.30087520137663
+      ]
+    },
+    {
+      "name": "cycle2_right_step_lift",
+      "baseline_s": [
+        108.00326972222207,
+        110.80224834324991
+      ],
+      "candidate_s": [
+        118.30087520137663,
+        123.03538560874173
+      ]
+    },
+    {
+      "name": "cycle2_right_step_advance",
+      "baseline_s": [
+        110.80224834324991,
+        113.20224834325
+      ],
+      "candidate_s": [
+        123.03538560874173,
+        126.17150533074619
+      ]
+    },
+    {
+      "name": "cycle2_right_step_lower",
+      "baseline_s": [
+        113.20224834325,
+        116.07493406224313
+      ],
+      "candidate_s": [
+        126.17150533074619,
+        131.33327591710093
+      ]
+    },
+    {
+      "name": "cycle2_right_landing_still_unloaded",
+      "baseline_s": [
+        116.07493406224313,
+        116.67493406224312
+      ],
+      "candidate_s": [
+        131.33327591710093,
+        131.93327591710093
+      ]
+    },
+    {
+      "name": "cycle2_double_transfer_to_right",
+      "baseline_s": [
+        116.67493406224312,
+        144.96216877857054
+      ],
+      "candidate_s": [
+        131.93327591710093,
+        160.22051063342838
+      ]
+    },
+    {
+      "name": "cycle2_pre_unload_left",
+      "baseline_s": [
+        144.96216877857054,
+        145.56216877857054
+      ],
+      "candidate_s": [
+        160.22051063342838,
+        160.82051063342837
+      ]
+    },
+    {
+      "name": "cycle2_left_step_lift",
+      "baseline_s": [
+        145.56216877857054,
+        148.55217261325703
+      ],
+      "candidate_s": [
+        160.82051063342837,
+        165.58375495264744
+      ]
+    },
+    {
+      "name": "cycle2_left_step_advance",
+      "baseline_s": [
+        148.55217261325703,
+        152.28405013052028
+      ],
+      "candidate_s": [
+        165.58375495264744,
+        171.33143113904364
+      ]
+    },
+    {
+      "name": "cycle2_left_step_lower",
+      "baseline_s": [
+        152.28405013052028,
+        155.4936745688917
+      ],
+      "candidate_s": [
+        171.33143113904364,
+        176.08888552720066
+      ]
+    },
+    {
+      "name": "cycle2_left_landing_still_unloaded",
+      "baseline_s": [
+        155.4936745688917,
+        156.0936745688917
+      ],
+      "candidate_s": [
+        176.08888552720066,
+        176.68888552720065
+      ]
+    },
+    {
+      "name": "cycle2_double_recenter",
+      "baseline_s": [
+        156.0936745688917,
+        174.24653355870493
+      ],
+      "candidate_s": [
+        176.68888552720065,
+        194.84174451701415
+      ]
+    },
+    {
+      "name": "cycle2_cycle_end_center",
+      "baseline_s": [
+        174.24653355870493,
+        174.8464999975934
+      ],
+      "candidate_s": [
+        194.84174451701415,
+        195.4417499971064
+      ]
+    }
+  ],
+  "semantics": "Exact controller/reference phases; not measured contact-force event alignment.",
+  "endpoint_adjustments": {
+    "baseline_s": {
+      "reference_end_s": 174.84653355870492,
+      "actual_end_s": 174.8464999975934,
+      "actual_minus_reference_s": -3.356111150765173e-05,
+      "handling": "Only final display interval ends at saved actual time; internal exact controller boundaries unchanged; no physics extrapolation."
+    },
+    "candidate_s": {
+      "reference_end_s": 195.44174451701414,
+      "actual_end_s": 195.4417499971064,
+      "actual_minus_reference_s": 5.480092255538693e-06,
+      "handling": "Only final display interval ends at saved actual time; internal exact controller boundaries unchanged; no physics extrapolation."
+    }
+  },
+  "baseline_trace": {
+    "path": "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json",
+    "sha256": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282"
+  },
+  "candidate_trace": {
+    "path": "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json",
+    "sha256": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240"
+  },
+  "physical_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/visual/phase_reference_mapping_v3.json": "e967d8f9171b7ffea6eafe875ccd46a49e21a5139ad1cf12a8777235d59e3dfe",
+    "work/r20-walking-fix/dynamics/retimed_segments_v2.json": "0c287a4def1d8674b032e53e4b43bb0800e8c585d5281e7b0dced48dfc53430d",
+    "work/r21-reduced-sway/gait/phase_boundaries_4steps_v3.json": "77b27deeee5e699b29b2181acefa812af552f1a6d060c7c646601022a345cd2f",
+    "work/r21-reduced-sway/gait/trajectory_4steps_v3.json": "9ae29d7be2dd7e211482bfb13ba49b2234e4ecaf782c945b46b9a944b41a7d5d",
+    "work/r21-reduced-sway/gait/trajectory_segments_4steps_v3.json": "ee996121ee5e1fd0f35455ab0b462212d96fdfecd7962540a70db8ae8ff8431b",
+    "work/r21-reduced-sway/visual/prepare_phase_reference_mapping.py": "5ec52c938ec435a980f7f0bd5b80e52ef0db5c6f0bcae22fb3b2bab37b9b12d1",
+    "work/r20-walking-fix/dynamics/release_v4/runs/nominal/dynamic_trace_for_CAD.json": "5d9104173386da8d4e04a4929a6cd9d98260aadf87aedf09cb42c82c9b5b0282",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "work/r21-reduced-sway/visual/bind_actual_phase_mapping.py": "b6bbb6e31ddf82d6c2186b299df36a140f41ea807c474b1b4c09ecf8771f86bf"
+  }
+}

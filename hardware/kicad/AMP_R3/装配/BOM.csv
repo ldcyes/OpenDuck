@@ -1,0 +1,13 @@
+Reference,Value,MPN,Quantity,Footprint,Side,Source
+U1,MAX98357AETE+T,MAX98357AETE+T,1,Microduck_Audio_R3:MAX98357A_T1633_4,F,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf
+J1,SH8,SM08B-SRSS-TB(LF)(SN),1,Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,F,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J2,5V INPUT,S2B-PH-K-S(LF)(SN),1,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,F,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+F1,0.5A 32V FAST,0467.500NR,1,Fuse:Fuse_0603_1608Metric,F,https://www.littelfuse.com/assetdocs/fuse-467-datasheet?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d
+J3,SH2,SM02B-SRSS-TB(LF)(SN),1,Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,F,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+J4,SH5,SM05B-SRSS-TB(LF)(SN),1,Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,F,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+R1,100k / 15dB,RC0603FR-07100KL,1,Resistor_SMD:R_0603_1608Metric,F,
+R2,100k / OFF,RC0603FR-07100KL,1,Resistor_SMD:R_0603_1608Metric,F,
+R3,10R 1% 1W,CRCW251210R0FKEG,1,Resistor_SMD:R_2512_6332Metric,F,
+R4,10R 1% 1W,CRCW251210R0FKEG,1,Resistor_SMD:R_2512_6332Metric,F,
+C1,100nF 16V X7R,GRM188R71C104KA01D,1,Capacitor_SMD:C_0603_1608Metric,F,
+C2,10uF 10V X5R,GRM188R61A106KE69D,1,Capacitor_SMD:C_0603_1608Metric,F,

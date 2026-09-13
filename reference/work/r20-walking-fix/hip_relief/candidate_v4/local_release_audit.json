@@ -1,0 +1,79 @@
+{
+  "status": "LOCAL_V4_READONLY_RELEASE_AUDIT_PASSED_FULL_ASSEMBLY_PENDING",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "summaries": {
+    "continuous_mesh_clearance": {
+      "motor": {
+        "accepted_contiguous_intervals": 65,
+        "failed_intervals": 0,
+        "parameter_range": [
+          0,
+          1
+        ],
+        "minimum_certified_mesh_gap_mm": 2.3251548207214054
+      },
+      "saddle": {
+        "accepted_contiguous_intervals": 9,
+        "failed_intervals": 0,
+        "parameter_range": [
+          0,
+          1
+        ],
+        "minimum_certified_mesh_gap_mm": 3.2750025323113796
+      }
+    },
+    "roll_range_deg": [
+      -26.80321448792095,
+      27.923599441126118
+    ],
+    "native_STEP_hosts_common_mm3": [
+      0.0,
+      0.0
+    ],
+    "tool_self_common_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_alias_and_raw_cleanup_verified": true,
+    "route_mapping_and_mass_verified": true,
+    "nominal_assembly_mass_kg": 4.1950935502695295
+  },
+  "inputs": {
+    "work/r20-walking-fix/hip_relief/candidate_v4/candidate_manifest.json": "75d136849bdd071a06ea5bc93b277a5bdafa38350fef37629f6e4393be3eb5f4",
+    "work/r20-walking-fix/hip_relief/candidate_v4/mass_inertia_delta.json": "aabd62c2ecd0dea84bc40d435475a0d49208329ac8d44a4a2f5f9cd74501c27b",
+    "work/r20-walking-fix/hip_relief/candidate_v4/host_and_tool_self_access.json": "5cfddd8450f6f8e9541163b2f2822332c7ac9f91cfabe1fae5cfb46ea7a3a169",
+    "work/r20-walking-fix/hip_relief/candidate_v4/interface_preservation.json": "77c5a5c36821c7cebb8b8b8b6fd7f60a57bbe13daaa2b3112ed5cb3c0a55a1f9",
+    "work/r20-walking-fix/hip_relief/candidate_v4/motor_saddle_continuous_clearance.json": "1956d5370d97c1b59c95adb96f2b4ba1f8e9aa1ab3ca9f5d2a50d3ec1ba65c09",
+    "work/r20-walking-fix/hip_relief/candidate_v4/local_continuous_clearance.json": "cea4f0b4b0437191a62b6026c4001434876108e0db7600c2b33768933aa39a18",
+    "work/r20-walking-fix/hip_relief/audit_v4_release.py": "14069bcd9dee701aa90af6b1b2a4ee8cc809abfff211dd71d1557686098a2c67"
+  },
+  "verified_sources": {
+    "work/r20-walking-fix/head_mount/assembly_selection.json": "5d3661a7bb1c347979520b6b99fe628e2e204343f3e3287415a29a69f605134f",
+    "work/r11-integration/mechanics/serial_cad_v4/manifest.json": "9afa80f4087d5eabaa1e89e690044a8407a58a5efae91e7cf5dfe8ccc2eebe96",
+    "work/r11-integration/mechanics/serial_cad_v4/STEP_毫米/R11_hip_l_rail_2.step": "39e1b5baeff94ef7f4dc2b72213b791854a112118623ccc989a6104a9d923e97",
+    "work/r11-integration/mechanics/serial_cad_v4/STL_装配坐标_毫米/R11_hip_l_rail_2.stl": "97fac80a4c600e33efb70e07681a46f8e7ec6e873e0d385705fc1d5ec20916cb",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STEP_毫米/R20_left_hip_rail_offset.step": "c4df72d788e1e98c97ad9ac9e955de16f5439eb0f7e55deaac81369cb6f425d5",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/STL_装配坐标_毫米/R20_left_hip_rail_offset.stl": "c952c42c53864be4ee23f041b841d4897709b453c99bc2aecc9ae29664478fd6",
+    "work/r20-walking-fix/hip_relief/candidate_v4/CAD/raw_OCC_mesher.stl": "5a78140bf04741ec5ab263ec2f8aef94a1667fce6bb3ddf2fc777c76201e36f7",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/ef905be886_XM430_idler_ear.step": "ba2103e7aac284c7a86fdf4058bfdde4483ece445e0a19bbb6ff4aff650fbe40",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/c765c7ce1c_XM430_active_ear.step": "dba4a86f066c1b21b6c9cf47cb00e0b25fff3a538a3e2ca2c5547c1a06b2d522",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/bfd188784f_XM430_body_saddle.stl": "22df70577ee10f1966c343fa55b24adb2ee8d30dc8e7874ba4829e27e41a33f5",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/3a368da47b_XM430_body_saddle.step": "2d39f8304d192509b78da8a3976311e284d3b6fcb2700c8071576797d7b0bce2",
+    "work/r20-walking-fix/gait/trajectory_4steps_v1.json": "d365bed2ed1d4a1bfd1e420f5f5ed2018a590ef2906d8f494537e84d6fffb61a",
+    "outputs/Microduck_RK_R8_制造设计/结构/审查快照/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r17-module-mount/mass_COM_update.json": "51bbdcee7b8e6640e8f20547a539a0463f2243df01377b0a084fc94b34d8d254",
+    "work/r20-walking-fix/hip_relief/build_offset_rail_v4.py": "6dd320ced4dd86ab8477e970b2b621311b2437389716a310414de6d86b37a62b",
+    "work/r13-electronics/mechanics/common.py": "804423ce6fad56218466bda4835140b93619a6db6b340acc286ce5c46fa71075",
+    "work/r13-electronics/mechanics/cad_backend.py": "168fc74a621e7334c040c65ef162428921ee2e6a2f15c9573eeb28374e919e43",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3"
+  },
+  "limitations": [
+    "This audits local evidence and its complete interval accounting; it does not independently recompute every Boolean or replace the root whole-assembly scan.",
+    "The two moving-pair certificates apply to supplied tessellated rigid sources and their complete stated roll range.",
+    "Four tool checks cover the new rail itself only. Neighbouring parts and installation sequence require separate assembly access review.",
+    "Material strength, encoder limits, actual manufacture, cables, contact elasticity and hardware loading are not qualified."
+  ]
+}

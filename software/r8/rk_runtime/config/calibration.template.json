@@ -1,0 +1,318 @@
+{
+  "schema": 2,
+  "robot": "Microduck-RK-R8-RK3576-XM430-XC330",
+  "calibrated": false,
+  "imu_mount_verified": false,
+  "dynamics_verified": false,
+  "measurement_report": null,
+  "imu_sensor_to_trunk_wxyz": null,
+  "action_scale": null,
+  "voltage_soft": 10.3,
+  "voltage_hard": 10.2,
+  "temperature_max": 60,
+  "joints": [
+    {
+      "name": "left_hip_yaw",
+      "id": 20,
+      "model_number": 1220,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0,
+      "max_step_rad": null
+    },
+    {
+      "name": "left_hip_roll",
+      "id": 21,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": -0.0873,
+      "max_step_rad": null
+    },
+    {
+      "name": "left_hip_pitch",
+      "id": 22,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": -0.4579,
+      "max_step_rad": null
+    },
+    {
+      "name": "left_knee",
+      "id": 23,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": -0.0049,
+      "max_step_rad": null
+    },
+    {
+      "name": "left_ankle",
+      "id": 24,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.453,
+      "max_step_rad": null
+    },
+    {
+      "name": "neck_pitch",
+      "id": 30,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.3491,
+      "max_step_rad": null
+    },
+    {
+      "name": "head_pitch",
+      "id": 31,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.3491,
+      "max_step_rad": null
+    },
+    {
+      "name": "head_yaw",
+      "id": 32,
+      "model_number": 1210,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0,
+      "max_step_rad": null
+    },
+    {
+      "name": "head_roll",
+      "id": 33,
+      "model_number": 1210,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0,
+      "max_step_rad": null
+    },
+    {
+      "name": "mouth",
+      "id": 34,
+      "model_number": 1210,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0,
+      "max_step_rad": null
+    },
+    {
+      "name": "right_hip_yaw",
+      "id": 10,
+      "model_number": 1220,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0,
+      "max_step_rad": null
+    },
+    {
+      "name": "right_hip_roll",
+      "id": 11,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.0873,
+      "max_step_rad": null
+    },
+    {
+      "name": "right_hip_pitch",
+      "id": 12,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.4579,
+      "max_step_rad": null
+    },
+    {
+      "name": "right_knee",
+      "id": 13,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": 0.0049,
+      "max_step_rad": null
+    },
+    {
+      "name": "right_ankle",
+      "id": 14,
+      "model_number": 1020,
+      "operating_mode": 5,
+      "current_limit_ma": 300,
+      "p_gain": null,
+      "zero_tick": null,
+      "direction": null,
+      "min_rad": null,
+      "max_rad": null,
+      "home_rad": -0.453,
+      "max_step_rad": null
+    }
+  ],
+  "thermal_verified": false,
+  "power_verified": false,
+  "thermal_report": null,
+  "power_report": null,
+  "voltage_max": 11.8,
+  "template_note": "Initial 300mA requested at each axis; XM430 writes111raw=298.59mA. Home values are upstream references only; all encoder/range/gain values require new R8 measurements.",
+  "hardware_platform_sha256": "d0557995ea758281473a28a7b51692a925037cf84505db43aca5011adce30e3d",
+  "power_configuration_sha256": null,
+  "motion_limits_sha256": "9afd167d27a2f63da1ac767f2307cd5f98c75a4e255bb06eca08b0024b980366",
+  "mouth_load_acceptance": {
+    "verified": false,
+    "structural_limit_Nm": 0.05,
+    "observed_peak_upper_bound_Nm": null,
+    "tested_goal_current_raw": null,
+    "tested_p_gain": null,
+    "tested_max_step_rad": null,
+    "tested_range_rad": null,
+    "tested_voltage_range_V": null,
+    "tested_temperature_max_C": null,
+    "full_travel_and_blocked_load_verified": false,
+    "report": null
+  },
+  "motor_capability_qualification": {
+    "verified": false,
+    "independent_fixture": false,
+    "report": null,
+    "duration_s": null,
+    "terminal_voltage_V": 10.3,
+    "ambient_C": 40,
+    "maximum_case_C": null,
+    "axes": {
+      "10": {
+        "model_number": 1220,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "11": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "12": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "13": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "14": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "20": {
+        "model_number": 1220,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "21": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "22": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "23": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "24": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "30": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      },
+      "31": {
+        "model_number": 1020,
+        "demonstrated_lower_bound_Nm": null,
+        "tested_current_ceiling_raw": null
+      }
+    }
+  }
+}

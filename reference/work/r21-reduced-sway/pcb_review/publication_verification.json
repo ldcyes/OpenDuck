@@ -1,0 +1,10 @@
+{
+  "status": "PASS_COPY_HASH_ARCHIVE_CRC_MEMBERS_AND_PROTECTED_SOURCES",
+  "output": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13",
+  "archive": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13.zip",
+  "archive_sha256": "993be1eb1547067de457e4d3d6e073a49b78b6022253930cedd643ab21856898",
+  "archive_bytes": 1988047,
+  "file_count": 303,
+  "protected_source_count": 1461,
+  "manifest_sha256": "2a7649d7f3bfb6ccc0b2033e50c8f8fdd22a575eaede7e88b978b27b0c0912fc"
+}

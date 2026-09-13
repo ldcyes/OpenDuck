@@ -1,0 +1,27 @@
+[Unit]
+Description=Microduck R8 bounded interaction executor (default dry run)
+After=network.target
+
+[Service]
+Type=simple
+User=microduck
+Group=microduck
+SupplementaryGroups=audio
+WorkingDirectory=/opt/microduck-r8/rk_runtime
+EnvironmentFile=/etc/microduck-r8/interaction.env
+ExecStart=/opt/microduck-r8/venv/bin/python -m microduck_interaction serve --dry-log /var/lib/microduck-r8/interaction-dry.jsonl
+StateDirectory=microduck-r8
+UMask=0077
+Restart=on-failure
+RestartSec=2
+TimeoutStopSec=3
+KillMode=control-group
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=false
+ReadWritePaths=/tmp
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+
+[Install]
+WantedBy=multi-user.target

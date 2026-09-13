@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scope": "source preparation integration on explicitly synthetic fixtures only",
+  "checks": [
+    "source copy + AST parse",
+    "15 body inertias inserted into three actual XML models",
+    "BAM custom JSON path",
+    "effective current limit injected",
+    "P gain 100 vs upstream200",
+    "voltage and delay overrides",
+    "HOME table",
+    "action scale0.7",
+    "explicit no clip/no filter manifest",
+    "new policy motion approval false"
+  ],
+  "not_validated": [
+    "physical calibration",
+    "fitted XC330 actuator",
+    "CUDA environment construction",
+    "training convergence"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "host": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "unit_tests": 40,
+  "shell_syntax": [
+    "export_r1.sh",
+    "install_rk.sh",
+    "train_r1.sh",
+    "train_reference.sh"
+  ],
+  "python_compilation_files": 14,
+  "blank_calibration_exit_code": 2,
+  "actual_sensor_bus_test": false,
+  "rk3566_50hz_benchmark": false,
+  "cuda_training_performed": false,
+  "r1_policy_trained": false,
+  "python_ort124_on_rk_test": false,
+  "native_ort127_reference_inference_test": true,
+  "upstream_rust_offline_build": {
+    "status": "not_completed",
+    "stage": "dependency resolution",
+    "reason": "local registry missing locked serde_json1.0.151; cached1.0.150/1.0.149 only",
+    "lockfile_changed": false
+  },
+  "startup_configuration_regressions": {
+    "tests": 7,
+    "status": "passed_offline",
+    "minimum_firmware": 46,
+    "firmware_register": 6,
+    "startup_register": 60,
+    "required_startup_value": 0,
+    "commission_all_torque_off_before_checks": true,
+    "commission_readback_verified": true,
+    "old_firmware_inspect_startup_null": true,
+    "actual_servo_test": false,
+    "source": "https://emanual.robotis.com/docs/en/dxl/x/xc330-t181/#startup-configuration60"
+  }
+}

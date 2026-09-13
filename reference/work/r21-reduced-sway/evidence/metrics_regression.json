@@ -1,0 +1,19 @@
+{
+  "status": "PASS_5_REGRESSION_TESTS",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_camera_metadata_cannot_change_world_sway (__main__.SwayRegression) ... ok\ntest_marker_home_point_uses_kinematic_link_before_world_root (__main__.SwayRegression) ... ok\ntest_perfect_tracking_of_large_sway_is_not_reduction (__main__.SwayRegression) ... ok\ntest_real_world_amplitude_reduction_meets_both_gates (__main__.SwayRegression) ... ok\ntest_retiming_is_not_reduction_and_phase_alignment_is_separate (__main__.SwayRegression) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.040s\n\nOK\n",
+  "test_contract": [
+    "Improved reference tracking with identical actual sway fails amplitude gates.",
+    "Changing camera metadata cannot alter source-world metrics.",
+    "Retiming preserves amplitudes; physical-time and normalized-phase errors remain separate.",
+    "Actual roll/head world amplitude reduction passes the declared gates.",
+    "Source HOME marker transforms through its actual link before root-to-world."
+  ],
+  "sources": {
+    "work/r21-reduced-sway/evidence/sway_metrics.py": "44137a614da204b05271b8e7e4a787985244294fb47b214af30eb55094c23c9c",
+    "work/r21-reduced-sway/evidence/test_sway_metrics.py": "9d816057226da881be48f45217058127699647913cbe6a7b37622c6ff41f9698",
+    "work/r21-reduced-sway/evidence/metrics_contract.json": "6fc77c713dbdc692caf2d34c120da8de5e666172f07ca80305a191440b47af71",
+    "work/r21-reduced-sway/evidence/freeze_metrics_contract.py": "e3b4f7e4a0f5d990d76630b5d000f12571d42cf7b875802c128224d0ba51ecab"
+  }
+}

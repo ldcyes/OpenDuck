@@ -1,0 +1,18 @@
+{
+  "status": "PASS_GENERATION_ONLY_SYNTHETIC_INPUTS",
+  "routes": 14,
+  "xm430_axes": 10,
+  "xc330_axes": 4,
+  "independent_mouth": true,
+  "mouth_structural_torque_limit_Nm": 0.05,
+  "mouth_acceptance_synthetic_only": true,
+  "model_bodies": 15,
+  "compiled_ast_files": 39,
+  "physics_or_training_executed": false,
+  "hardware_pass": false,
+  "hardware_platform_sha256": "d0557995ea758281473a28a7b51692a925037cf84505db43aca5011adce30e3d",
+  "power_configuration_sha256": "c96cbdf3999d9895ea875cb9e3442b7dcd99f26e27ba3affd2ab3e998300c923",
+  "motion_limits_sha256": "95537db9f31118c35f96116ee7822112518de5f5ea8ab57d92bb728a6c95f343",
+  "superseded_by": "R8_real_upstream_synthetic_generation_CM4_T288.json",
+  "historical_two_motor_models_only": true
+}

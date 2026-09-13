@@ -1,0 +1,40 @@
+{
+  "status": "FINAL_R20_HEAD_AND_HIP_MASS_COMPILED_AND_CHECKED",
+  "mass_kg": 4.195093550269524,
+  "COM_HOME_mm": [
+    1.8042775054374585,
+    0.09472129960147621,
+    17.424621373995706
+  ],
+  "delta_kg": 0.002092677307997448,
+  "rows": 501,
+  "parts": 557,
+  "unchanged_joint_and_contact_and_cap_arrays": true,
+  "COM_crosschecks": [
+    {
+      "seed": 0,
+      "max_COM_coordinate_error_m": 6.661338147750939e-16
+    },
+    {
+      "seed": 1,
+      "max_COM_coordinate_error_m": 8.326672684688674e-16
+    },
+    {
+      "seed": 2,
+      "max_COM_coordinate_error_m": 7.771561172376096e-16
+    },
+    {
+      "seed": 3,
+      "max_COM_coordinate_error_m": 5.551115123125783e-17
+    }
+  ],
+  "physical_approved": false,
+  "sources": {
+    "work/r20-walking-fix/dynamics/current_robot_r20.xml": "89808f94f9c1e8bafc893b5ef41eaa9f162c07bc27105f69bd8a1d76ecf61787",
+    "work/r20-walking-fix/dynamics/model_contract_r20.json": "d9fd165de8afacdaba0dfdd1be476fb35adaa9eec6e6a14328110c0c9b833cb0",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/current_robot_final_raw.xml": "0a598d45de3c6d84720bef4ab6f83924404dbf6d1289a2f0b80ed316fd534a6c",
+    "work/r20-walking-fix/dynamics/release_v4/verified_models/model_contract_final_raw.json": "1caf0d8f3347f209e796f7923797f4db8b99e9910380f51454645b6758849e94",
+    "work/r20-walking-fix/hip_relief/candidate_v4/mass_inertia_delta.json": "aabd62c2ecd0dea84bc40d435475a0d49208329ac8d44a4a2f5f9cd74501c27b",
+    "work/r20-walking-fix/dynamics/build_release_model_v2.py": "30128becfc43e2f1147dcfb713d9c064e1773b11f1dc48c701bea50e4901819b"
+  }
+}

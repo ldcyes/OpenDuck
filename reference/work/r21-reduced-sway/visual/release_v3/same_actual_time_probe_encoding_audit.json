@@ -1,0 +1,165 @@
+{
+  "status": "PASS_ALL_VIDEO_FRAMES_DECODED_WITH_SOURCE_CLOCK_CAPTIONS",
+  "passed": true,
+  "mode": "same_actual_time",
+  "video_path": "work/r21-reduced-sway/visual/release_v3/R20_R21_同实际时间_对照_静态.mp4",
+  "video_sha256": "15569556ccf9d29ed076db21c459b6d4d0044452d6046efa3c11e2128cb9356c",
+  "ffprobe": {
+    "codec_name": "h264",
+    "width": 1200,
+    "height": 900,
+    "avg_frame_rate": "12/1",
+    "duration": "0.250000",
+    "nb_frames": "3",
+    "nb_read_frames": "3"
+  },
+  "source_blend_sha256": "d18ccd4163ed45d76043e9e8a1756734fda6195af59e9132a0c494dfe4138bf7",
+  "render_frame_count": 3,
+  "full_source_time_extent_s": [
+    0.0,
+    174.8464999975934
+  ],
+  "all_input_PNG_hashes_verified": true,
+  "all_output_frames_decoded_without_error": true,
+  "subtitle_path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_清晰字幕.ass",
+  "subtitle_sha256": "6d7620ccaa0501b5a0b0e064528202ce3dff706e7adcf063de86e4ead0ced983",
+  "captions": [
+    {
+      "frame_index": 0,
+      "video_PTS_s": 0.0,
+      "display_time_s": 0.0,
+      "actual_clocks_s": {
+        "R20": 0.0,
+        "R21": 0.0
+      },
+      "lines": [
+        "R20（左）与 R21（右）· 相同实际时间 / 相同比例",
+        "实际时钟：R20 0.00 s / R21 0.00 s",
+        "共同时间 0–174.85 s；R21 全程 195.44 s 在单机视频中",
+        "自由根实际积分；实物行走尚未验收",
+        "完整实际侧倾：46.74° → 33.37°，减少 28.60%",
+        "上头壳固定点横摆：257.8 → 184.0 mm，减少 28.62%",
+        "原目标：侧倾减 40% / 头部减 30%，均未达到"
+      ],
+      "ASS_start_centiseconds": 0,
+      "ASS_end_centiseconds": 8
+    },
+    {
+      "frame_index": 1,
+      "video_PTS_s": 0.08333333333333333,
+      "display_time_s": 104.90789999855605,
+      "actual_clocks_s": {
+        "R20": 104.90789794921875,
+        "R21": 104.90789794921875
+      },
+      "lines": [
+        "R20（左）与 R21（右）· 相同实际时间 / 相同比例",
+        "实际时钟：R20 104.91 s / R21 104.91 s",
+        "共同时间 0–174.85 s；R21 全程 195.44 s 在单机视频中",
+        "自由根实际积分；实物行走尚未验收",
+        "完整实际侧倾：46.74° → 33.37°，减少 28.60%",
+        "上头壳固定点横摆：257.8 → 184.0 mm，减少 28.62%",
+        "原目标：侧倾减 40% / 头部减 30%，均未达到"
+      ],
+      "ASS_start_centiseconds": 8,
+      "ASS_end_centiseconds": 16
+    },
+    {
+      "frame_index": 2,
+      "video_PTS_s": 0.16666666666666666,
+      "display_time_s": 174.8464999975934,
+      "actual_clocks_s": {
+        "R20": 174.84649658203125,
+        "R21": 174.84649658203125
+      },
+      "lines": [
+        "R20（左）与 R21（右）· 相同实际时间 / 相同比例",
+        "实际时钟：R20 174.85 s / R21 174.85 s",
+        "共同时间 0–174.85 s；R21 全程 195.44 s 在单机视频中",
+        "自由根实际积分；实物行走尚未验收",
+        "完整实际侧倾：46.74° → 33.37°，减少 28.60%",
+        "上头壳固定点横摆：257.8 → 184.0 mm，减少 28.62%",
+        "原目标：侧倾减 40% / 头部减 30%，均未达到"
+      ],
+      "ASS_start_centiseconds": 16,
+      "ASS_end_centiseconds": 25
+    }
+  ],
+  "previews": [
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_已解码_0000.png",
+      "sha256": "3c36597aef43c1e046b0f448c2b9664a7e7cfb630a70152ba743aee4c87a38e0",
+      "frame_index": 0,
+      "source_png": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0000.png",
+      "caption": {
+        "frame_index": 0,
+        "video_PTS_s": 0.0,
+        "display_time_s": 0.0,
+        "actual_clocks_s": {
+          "R20": 0.0,
+          "R21": 0.0
+        },
+        "lines": [
+          "R20（左）与 R21（右）· 相同实际时间 / 相同比例",
+          "实际时钟：R20 0.00 s / R21 0.00 s",
+          "共同时间 0–174.85 s；R21 全程 195.44 s 在单机视频中",
+          "自由根实际积分；实物行走尚未验收",
+          "完整实际侧倾：46.74° → 33.37°，减少 28.60%",
+          "上头壳固定点横摆：257.8 → 184.0 mm，减少 28.62%",
+          "原目标：侧倾减 40% / 头部减 30%，均未达到"
+        ],
+        "ASS_start_centiseconds": 0,
+        "ASS_end_centiseconds": 8
+      }
+    },
+    {
+      "path": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_已解码_0002.png",
+      "sha256": "1a9c13cd15b43ba8075ff7db2a5659c2fb0e08156a58b4a212c998fcfe5c70e9",
+      "frame_index": 2,
+      "source_png": "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0002.png",
+      "caption": {
+        "frame_index": 2,
+        "video_PTS_s": 0.16666666666666666,
+        "display_time_s": 174.8464999975934,
+        "actual_clocks_s": {
+          "R20": 174.84649658203125,
+          "R21": 174.84649658203125
+        },
+        "lines": [
+          "R20（左）与 R21（右）· 相同实际时间 / 相同比例",
+          "实际时钟：R20 174.85 s / R21 174.85 s",
+          "共同时间 0–174.85 s；R21 全程 195.44 s 在单机视频中",
+          "自由根实际积分；实物行走尚未验收",
+          "完整实际侧倾：46.74° → 33.37°，减少 28.60%",
+          "上头壳固定点横摆：257.8 → 184.0 mm，减少 28.62%",
+          "原目标：侧倾减 40% / 头部减 30%，均未达到"
+        ],
+        "ASS_start_centiseconds": 16,
+        "ASS_end_centiseconds": 25
+      }
+    }
+  ],
+  "header_only_overlay": {
+    "pixel_rectangle": [
+      0,
+      0,
+      1200,
+      208
+    ],
+    "font": "Microsoft YaHei",
+    "font_path": "/mnt/c/Windows/Fonts/msyh.ttc",
+    "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+    "font_size_px": 21,
+    "CAD_rescale_crop_or_coordinate_change": false,
+    "subtitle_clocks_from": "render index evaluated clocks"
+  },
+  "original_blend_unchanged_after_encoding": true,
+  "physical_approved": false,
+  "sources": {
+    "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_render_index.json": "5e94ee3ade2b65bfa717dd275cce46861410d0e314b77ec731b0c6b77d3f5d34",
+    "work/r21-reduced-sway/visual/encode_verified_videos.py": "e064f3b9504d1e79b243a1e21c44675c4b74fc3ff48d534df02be9e87642cd19",
+    "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0000.png": "d01b36e26f901f7e7b26cb25b43c93d69ceba2045e824c0eea7ce81bed4550bd",
+    "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0001.png": "c50e58a66a517194543b1bd203f8a343983443ad9e3dc003e0e014d1c7fda99d",
+    "work/r21-reduced-sway/visual/release_v3/same_actual_time_probe_frames/0002.png": "b6040e311286d0b8e387bdd924cf4c012c9e50e6c66db27f9849fa7f1bd858b9"
+  }
+}

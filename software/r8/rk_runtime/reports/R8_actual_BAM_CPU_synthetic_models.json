@@ -1,0 +1,12 @@
+{
+  "result": "PASS_ACTUAL_PINNED_BAM_CPU_CORE_WITH_SYNTHETIC_FITS",
+  "xm430_torque_at_0_25_A_Nm": 0.5,
+  "xc330_torque_at_0_17_A_Nm": 0.085,
+  "tested_signs": [
+    -1,
+    1
+  ],
+  "models_independent": true,
+  "GPU_mjlab_or_hardware_tested": false,
+  "synthetic_only": true
+}

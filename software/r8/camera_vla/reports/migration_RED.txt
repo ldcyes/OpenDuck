@@ -1,0 +1,141 @@
+test_actual_state_contract (test_bridge.ProtocolTests) ... ok
+test_bad_image_rejected (test_bridge.ProtocolTests) ... ok
+test_delayed_reply_rejected (test_bridge.ProtocolTests) ... ok
+test_future_state_rejected (test_bridge.ProtocolTests) ... ok
+test_image_state_skew (test_bridge.ProtocolTests) ... ok
+test_nonfinite_feedback_rejected (test_bridge.ProtocolTests) ... ok
+test_plan_cannot_write_joints (test_bridge.ProtocolTests) ... ok
+test_reply_one_use (test_bridge.ProtocolTests) ... ok
+test_slow_high_level_plan_still_bounded (test_bridge.ProtocolTests) ... ok
+test_stale_camera_rejected (test_bridge.ProtocolTests) ... ok
+test_stale_state_rejected (test_bridge.ProtocolTests) ... ok
+test_swapped_frame_rejected (test_bridge.ProtocolTests) ... ok
+test_unarmed_live_rejected (test_bridge.ProtocolTests) ... ok
+test_wrong_calibration_rejected (test_bridge.ProtocolTests) ... ok
+test_arm_action_rejected (test_dataset.DatasetTests) ... ok
+test_dataset_calibration_consistency (test_dataset.DatasetTests) ... ok
+test_dataset_orientation_consistency (test_dataset.DatasetTests) ... ok
+test_failed_episode_excluded (test_dataset.DatasetTests) ... ok
+test_gap_excluded (test_dataset.DatasetTests) ... ok
+test_joint_targets_rejected (test_dataset.DatasetTests) ... ok
+test_mixed_rotation_rejected (test_dataset.DatasetTests) ... ok
+test_model_self_labels_excluded (test_dataset.DatasetTests) ... ok
+test_physical_units_mapping (test_dataset.DatasetTests) ... ERROR
+test_profile_keeps_training_contract (test_dataset.DatasetTests) ... ok
+test_verified_episode (test_dataset.DatasetTests) ... ok
+test_camera_host_gate_local_arbiter (test_local_integration.LocalIntegrationTests) ... ERROR
+test_vla_cannot_take_manual_session (test_local_integration.LocalIntegrationTests) ... ok
+test_changed_file_refused (test_manifest.ManifestTests) ... ok
+test_deployment_orientation_mismatch (test_manifest.ManifestTests) ... ok
+test_file_binding (test_manifest.ManifestTests) ... ok
+test_unreviewed_refused (test_manifest.ManifestTests) ... ok
+test_wrong_state_projection_input (test_manifest.ManifestTests) ... ok
+test_dataset_cannot_mix_contexts (test_r8_binding.R8BindingTests) ... FAIL
+test_inactive_context_refused (test_r8_binding.R8BindingTests) ... FAIL
+test_missing_or_old_motion_contract_refused (test_r8_binding.R8BindingTests) ... test_profile_is_actual_R8 (test_r8_binding.R8BindingTests) ... FAIL
+test_reply_cannot_move_head_under_HOME_lock (test_r8_binding.R8BindingTests) ... FAIL
+test_changed_intent_discarded (test_record.RecordTests) ... ok
+test_dry_run_not_real_teacher (test_record.RecordTests) ... ok
+test_labels_sent_not_requested_mouth (test_record.RecordTests) ... ok
+test_old_command_discarded (test_record.RecordTests) ... ok
+test_vla_not_human_teacher (test_record.RecordTests) ... ok
+test_boolean_schema_rejected (test_transport.TransportTests) ... ok
+test_full_json_roundtrip (test_transport.TransportTests) ... ok
+test_mock_refuses_live (test_transport.TransportTests) ... ok
+test_remote_plaintext_rejected_before_connect (test_transport.TransportTests) ... ok
+test_request_replay (test_transport.TransportTests) ... ok
+test_wrong_token (test_transport.TransportTests) ... ok
+
+======================================================================
+ERROR: test_physical_units_mapping (test_dataset.DatasetTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_dataset.py", line 39, in test_physical_units_mapping
+    i=decode_action([.1,0,.2,.1,.1,.2,.1,.01,.02,.03,.2]);self.assertEqual(i['body'],[.01,.02,.03]);self.assertEqual(i['mouth'],.2)
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/microduck_vision/smolvla_adapter.py", line 41, in decode_action
+    return validate_intent({'vx':values[0],'vy':values[1],'yaw':values[2],'head':values[3:7],'body':values[7:10],'mouth':values[10],'duration_s':.2})
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/schema.py", line 39, in validate_intent
+    out[k]=[number(v,f'{k}[{i}]',*(b if isinstance(b,tuple) else (-b,b))) for i,(v,b) in enumerate(zip(values,bound))]
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/schema.py", line 39, in <listcomp>
+    out[k]=[number(v,f'{k}[{i}]',*(b if isinstance(b,tuple) else (-b,b))) for i,(v,b) in enumerate(zip(values,bound))]
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/schema.py", line 11, in number
+    raise ValueError(f'{name}: finite number in [{low}, {high}] required')
+ValueError: head[0]: finite number in [-0.3490658503988659, 0.08726646259971647] required
+
+======================================================================
+ERROR: test_camera_host_gate_local_arbiter (test_local_integration.LocalIntegrationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_local_integration.py", line 24, in test_camera_host_gate_local_arbiter
+    post(self.url+'/v1/intents',{'session_id':sid,'sequence':1,'robot_profile':PROFILE,'intent':plan['intent']},self.token)
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/microduck_vision/httpio.py", line 33, in post
+    return request_json(url,body,token,timeout,cafile)
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/microduck_vision/httpio.py", line 26, in request_json
+    with opener.open(req,timeout=timeout) as r:
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+======================================================================
+FAIL: test_dataset_cannot_mix_contexts (test_r8_binding.R8BindingTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 22, in test_dataset_cannot_mix_contexts
+    with self.assertRaises(ValueError):validate_episode(rows)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inactive_context_refused (test_r8_binding.R8BindingTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 16, in test_inactive_context_refused
+    with self.assertRaises(ValueError):make_observation(b'\xff\xd8x\xff\xd9',s,capture_s=10.,now_s=10.01,sequence=1,task='x',live=True)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_or_old_motion_contract_refused (test_r8_binding.R8BindingTests) (val=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 13, in test_missing_or_old_motion_contract_refused
+    with self.subTest(val=val),self.assertRaises(ValueError):make_observation(b'\xff\xd8x\xff\xd9',s,capture_s=10.,now_s=10.01,sequence=1,task='x',live=True)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_or_old_motion_contract_refused (test_r8_binding.R8BindingTests) (val='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 13, in test_missing_or_old_motion_contract_refused
+    with self.subTest(val=val),self.assertRaises(ValueError):make_observation(b'\xff\xd8x\xff\xd9',s,capture_s=10.,now_s=10.01,sequence=1,task='x',live=True)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_profile_is_actual_R8 (test_r8_binding.R8BindingTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 9, in test_profile_is_actual_R8
+    def test_profile_is_actual_R8(self):self.assertEqual(PROFILE,ROBOT_PROFILE)
+AssertionError: 'Microduck-RK-R3-XC330-T181' != 'Microduck-RK-R8-RK3576-XM430-XC330'
+- Microduck-RK-R3-XC330-T181
++ Microduck-RK-R8-RK3576-XM430-XC330
+
+
+======================================================================
+FAIL: test_reply_cannot_move_head_under_HOME_lock (test_r8_binding.R8BindingTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Administrator/Documents/Codex/2026-09-05/microduck-x20/outputs/Microduck_RK_R8_制造设计/软件与训练/camera_vla/tests/test_r8_binding.py", line 19, in test_reply_cannot_move_head_under_HOME_lock
+    with self.assertRaises(ValueError):ReplyGate().accept(o,r,10.1)
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 48 tests in 2.532s
+
+FAILED (failures=6, errors=2)

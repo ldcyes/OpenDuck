@@ -1,0 +1,18 @@
+"""Slow only two left-foot advances; preserve all 772 geometric joint lines and poses."""
+from quasistatic import *
+from copy import deepcopy
+p=ROOT/'work/r20-walking-fix/gait/trajectory_4steps_v1.json';sp=ROOT/'work/r20-walking-fix/gait/trajectory_segments_v1.json';old=json.loads(p.read_text());oldseg=json.loads(sp.read_text())['trajectories']['forward'];assert hashlib.sha256(p.read_bytes()).hexdigest()==oldseg['trajectory_sha256'];segments=[];clock=0.
+for source in oldseg['segments']:
+ s=deepcopy(source);scale=1.5 if s['phase']in ['cycle1_left_step_advance','cycle2_left_step_advance']else 1.;duration=s['end_s']-s['start_s'];s.update(original_start_s=s['start_s'],original_end_s=s['end_s'],original_duration_s=duration,time_scale=scale,start_s=clock,end_s=clock+scale*duration,duration_s=scale*duration,peak_joint_speed_deg_s=s['peak_joint_speed_deg_s']/scale,peak_joint_acceleration_deg_s2=s['peak_joint_acceleration_deg_s2']/scale**2);clock=s['end_s'];segments.append(s)
+oldtimes=np.array([s['original_start_s']for s in segments]+[segments[-1]['original_end_s']]);newtimes=np.array([s['start_s']for s in segments]+[segments[-1]['end_s']]);mapping={s['id']:s for s in segments};result=deepcopy(old)
+for r in result['samples']:
+ s=mapping[r['segment_id']];scale=s['time_scale'];r['original_time_s']=r['time_s'];r['time_s']=float(np.interp(r['time_s'],oldtimes,newtimes));r['joint_velocity_deg_s']={k:v/scale for k,v in r['joint_velocity_deg_s'].items()};r['joint_acceleration_deg_s2']={k:v/scale**2 for k,v in r['joint_acceleration_deg_s2'].items()}
+for r in result['keypoints']:r['original_time_s']=r['time_s'];r['time_s']=float(np.interp(r['time_s'],oldtimes,newtimes))
+result['duration_s']=clock;result['maximum_sample_period_s']=float(np.diff([s['time_s']for s in result['samples']]).max());result['status']='SAME_GEOMETRIC_FOUR_STEP_PATH_WITH_LEFT_ADVANCE_1P5_TIME_SCALE';result['retiming_basis']='Only both left-foot advance phases slow1.5x after actual right-ankle continuous limit48.25ms exceeded predeclared20ms. All q/root pose samples and all772q0/q1 lines unchanged. Analytic velocities divide by1.5 and accelerations by2.25 there. Knot velocities/accelerations are zero, so time-map slope changes preserve C2 motion.';result['summary']['retiming_old_duration_s']=old['duration_s'];result['summary']['retiming_new_duration_s']=clock
+for x in [p,sp,Path(__file__)]:result['sources'][str(x.relative_to(ROOT))]=hashlib.sha256(x.read_bytes()).hexdigest()
+out=OUT/'retimed_trajectory_4steps_v2.json';out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');newhash=hashlib.sha256(out.read_bytes()).hexdigest();newseg=dict(status='GEOMETRIC_PATH_IDENTICAL_ONLY_DECLARED_PHASE_TIMES_CHANGED',trajectories=dict(forward=dict(trajectory=str(out.relative_to(ROOT)),trajectory_sha256=newhash,dynamic_motion_segment_count=len(segments),segments=segments)),sources={str(x.relative_to(ROOT)):hashlib.sha256(x.read_bytes()).hexdigest()for x in [p,sp,out,Path(__file__)]});segout=OUT/'retimed_segments_v2.json';segout.write_text(json.dumps(newseg,ensure_ascii=False,indent=2)+'\n')
+assert len(segments)==772
+for a,b in zip(oldseg['segments'],segments):assert a['id']==b['id']and a['q0']==b['q0']and a['q1']==b['q1']
+assert np.all(np.diff([s['time_s']for s in result['samples']])>0)
+for a,b in zip(old['samples'],result['samples']):assert a['q_HOME_delta_deg']==b['q_HOME_delta_deg']and a['base_transform_m']==b['base_transform_m']
+print(dict(old_duration_s=old['duration_s'],new_duration_s=clock,maximum_sample_period_s=result['maximum_sample_period_s'],changed_segments=sum(s['time_scale']!=1 for s in segments),trajectory_sha256=newhash,segments_sha256=hashlib.sha256(segout.read_bytes()).hexdigest()))
