@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "pair_id": 66117,
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R25_HEAD_BOTTOM_FIXED_S07",
+      "native_gap_mm": 0.10259303335315345,
+      "intersection_mm3": 0.0,
+      "elapsed_s": 0.8556069879996357,
+      "sources": {
+        "work/r25-bottom-head-entry/tails/STEP_\u6beb\u7c73/R25_HEAD_BOTTOM_FIXED_S06.step": "189516b202a586d9efe5475dd017c7761ca8886ff03085d8618c939a95263019",
+        "work/r25-bottom-head-entry/tails/STEP_\u6beb\u7c73/R25_HEAD_BOTTOM_FIXED_S07.step": "1d1a6f630aef2a0f314fe02f37a7e57bd2b4b99e7c863e266e840610841aa8a1"
+      }
+    }
+  ],
+  "source_result_sha256": "c476c469e08f8d6aa003b22daf6839410447290914e27f444f75d6ef9d099b65"
+}

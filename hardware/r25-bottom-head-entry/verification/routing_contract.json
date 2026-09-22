@@ -1,0 +1,720 @@
+{
+  "status": "R25_SELECTED_UNDERSIDE_ROUTING_CONTRACT_NOT_MANUFACTURING_RELEASE",
+  "upper_center_HOME_mm": [
+    32,
+    -68,
+    198
+  ],
+  "upper_free_tangent": [
+    0,
+    0,
+    -1
+  ],
+  "upper_fixed_tangent": [
+    0,
+    0,
+    1
+  ],
+  "guide_internal_length_mm": 12,
+  "guide_length_owner": "fixed tails only, never add again to free lengths",
+  "minimum_free_bend_radius_mm": 25,
+  "wire_count": 31,
+  "rows": [
+    {
+      "port": "P1",
+      "conductor_id": "R23-053",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -50.100765172168046,
+        107.39870970967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        22.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        22.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 221.3702269241536,
+      "upper_fixed_length_mm": 267.3227751923207,
+      "wire_OD_max_mm": 1.778
+    },
+    {
+      "port": "P2",
+      "conductor_id": "R23-054",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -48.57053562051763,
+        109.97909679677419
+      ],
+      "upper_free_exit_HOME_mm": [
+        25.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        25.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 222.80570983864666,
+      "upper_fixed_length_mm": 167.2805719903067,
+      "wire_OD_max_mm": 1.778
+    },
+    {
+      "port": "P3",
+      "conductor_id": "R23-055",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -47.04030606886722,
+        112.55948388387097
+      ],
+      "upper_free_exit_HOME_mm": [
+        28.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        28.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 216.43718090159328,
+      "upper_fixed_length_mm": 148.10945046204634,
+      "wire_OD_max_mm": 1.778
+    },
+    {
+      "port": "P4",
+      "conductor_id": "R23-057",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -45.5100765172168,
+        115.13987097096773
+      ],
+      "upper_free_exit_HOME_mm": [
+        31.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        31.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 214.84011864475846,
+      "upper_fixed_length_mm": 152.49261047500644,
+      "wire_OD_max_mm": 1.778
+    },
+    {
+      "port": "S01",
+      "conductor_id": "R23-011",
+      "lower_free_exit_HOME_mm": [
+        44.2,
+        -43.469770448349585,
+        118.58038708709678
+      ],
+      "upper_free_exit_HOME_mm": [
+        35.0,
+        -65.19999999999999,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        35.0,
+        -65.19999999999999,
+        210.0
+      ],
+      "physical_free_length_mm": 213.56800193110774,
+      "upper_fixed_length_mm": 133.79427380327132,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S02",
+      "conductor_id": "R23-012",
+      "lower_free_exit_HOME_mm": [
+        45.6,
+        -43.469770448349585,
+        118.58038708709678
+      ],
+      "upper_free_exit_HOME_mm": [
+        35.0,
+        -66.6,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        35.0,
+        -66.6,
+        210.0
+      ],
+      "physical_free_length_mm": 212.5175649483994,
+      "upper_fixed_length_mm": 225.8383398740171,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S03",
+      "conductor_id": "R23-013",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -43.469770448349585,
+        118.58038708709678
+      ],
+      "upper_free_exit_HOME_mm": [
+        35.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        35.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 216.54446388867814,
+      "upper_fixed_length_mm": 215.74083987073095,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S04",
+      "conductor_id": "R23-014",
+      "lower_free_exit_HOME_mm": [
+        48.4,
+        -43.469770448349585,
+        118.58038708709678
+      ],
+      "upper_free_exit_HOME_mm": [
+        35.0,
+        -69.39999999999998,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        35.0,
+        -69.39999999999998,
+        210.0
+      ],
+      "physical_free_length_mm": 218.0860821467133,
+      "upper_fixed_length_mm": 185.16651636832142,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S05",
+      "conductor_id": "R23-015",
+      "lower_free_exit_HOME_mm": [
+        49.8,
+        -43.469770448349585,
+        118.58038708709678
+      ],
+      "upper_free_exit_HOME_mm": [
+        35.0,
+        -70.79999999999995,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        35.0,
+        -70.79999999999995,
+        210.0
+      ],
+      "physical_free_length_mm": 221.141249355883,
+      "upper_fixed_length_mm": 168.97245753652925,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S06",
+      "conductor_id": "R23-016",
+      "lower_free_exit_HOME_mm": [
+        44.2,
+        -42.75566332424606,
+        119.78456772774193
+      ],
+      "upper_free_exit_HOME_mm": [
+        36.4,
+        -65.19999999999999,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        36.4,
+        -65.19999999999999,
+        210.0
+      ],
+      "physical_free_length_mm": 214.47689386578082,
+      "upper_fixed_length_mm": 185.53251435831856,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S07",
+      "conductor_id": "R23-017",
+      "lower_free_exit_HOME_mm": [
+        45.6,
+        -42.75566332424606,
+        119.78456772774193
+      ],
+      "upper_free_exit_HOME_mm": [
+        36.4,
+        -66.6,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        36.4,
+        -66.6,
+        210.0
+      ],
+      "physical_free_length_mm": 213.85989462575395,
+      "upper_fixed_length_mm": 165.37671408983246,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S08",
+      "conductor_id": "R23-018",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -42.75566332424606,
+        119.78456772774193
+      ],
+      "upper_free_exit_HOME_mm": [
+        36.4,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        36.4,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 216.34984477824196,
+      "upper_fixed_length_mm": 177.91396759882883,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S09",
+      "conductor_id": "R23-042",
+      "lower_free_exit_HOME_mm": [
+        48.4,
+        -42.75566332424606,
+        119.78456772774193
+      ],
+      "upper_free_exit_HOME_mm": [
+        36.4,
+        -69.39999999999998,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        36.4,
+        -69.39999999999998,
+        210.0
+      ],
+      "physical_free_length_mm": 218.31470862657113,
+      "upper_fixed_length_mm": 132.91880116883738,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S10",
+      "conductor_id": "R23-043",
+      "lower_free_exit_HOME_mm": [
+        49.8,
+        -42.75566332424606,
+        119.78456772774193
+      ],
+      "upper_free_exit_HOME_mm": [
+        36.4,
+        -70.79999999999995,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        36.4,
+        -70.79999999999995,
+        210.0
+      ],
+      "physical_free_length_mm": 222.20649270983353,
+      "upper_fixed_length_mm": 183.0838200905961,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S11",
+      "conductor_id": "R23-044",
+      "lower_free_exit_HOME_mm": [
+        44.2,
+        -42.04155620014254,
+        120.98874836838709
+      ],
+      "upper_free_exit_HOME_mm": [
+        37.8,
+        -65.19999999999999,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        37.8,
+        -65.19999999999999,
+        210.0
+      ],
+      "physical_free_length_mm": 213.36385454929928,
+      "upper_fixed_length_mm": 141.6719081716036,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S12",
+      "conductor_id": "R23-045",
+      "lower_free_exit_HOME_mm": [
+        45.6,
+        -42.04155620014254,
+        120.98874836838709
+      ],
+      "upper_free_exit_HOME_mm": [
+        37.8,
+        -66.6,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        37.8,
+        -66.6,
+        210.0
+      ],
+      "physical_free_length_mm": 212.92949949839496,
+      "upper_fixed_length_mm": 159.75586016789038,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S13",
+      "conductor_id": "R23-046",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -42.04155620014254,
+        120.98874836838709
+      ],
+      "upper_free_exit_HOME_mm": [
+        37.8,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        37.8,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 215.25333792319958,
+      "upper_fixed_length_mm": 133.37332858520523,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S14",
+      "conductor_id": "R23-047",
+      "lower_free_exit_HOME_mm": [
+        48.4,
+        -42.04155620014254,
+        120.98874836838709
+      ],
+      "upper_free_exit_HOME_mm": [
+        37.8,
+        -69.39999999999998,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        37.8,
+        -69.39999999999998,
+        210.0
+      ],
+      "physical_free_length_mm": 218.97858769831785,
+      "upper_fixed_length_mm": 148.49014252848824,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S15",
+      "conductor_id": "R23-048",
+      "lower_free_exit_HOME_mm": [
+        49.8,
+        -42.04155620014254,
+        120.98874836838709
+      ],
+      "upper_free_exit_HOME_mm": [
+        37.8,
+        -70.79999999999995,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        37.8,
+        -70.79999999999995,
+        210.0
+      ],
+      "physical_free_length_mm": 221.31716286065247,
+      "upper_fixed_length_mm": 151.440276141652,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S16",
+      "conductor_id": "R23-049",
+      "lower_free_exit_HOME_mm": [
+        44.2,
+        -41.32744907603901,
+        122.19292900903226
+      ],
+      "upper_free_exit_HOME_mm": [
+        39.2,
+        -65.19999999999999,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        39.2,
+        -65.19999999999999,
+        210.0
+      ],
+      "physical_free_length_mm": 217.16475199309778,
+      "upper_fixed_length_mm": 159.7044286312056,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S17",
+      "conductor_id": "R23-050",
+      "lower_free_exit_HOME_mm": [
+        45.6,
+        -41.32744907603901,
+        122.19292900903226
+      ],
+      "upper_free_exit_HOME_mm": [
+        39.2,
+        -66.6,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        39.2,
+        -66.6,
+        210.0
+      ],
+      "physical_free_length_mm": 213.61298135106944,
+      "upper_fixed_length_mm": 144.10640087913356,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S18",
+      "conductor_id": "R23-051",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -41.32744907603901,
+        122.19292900903226
+      ],
+      "upper_free_exit_HOME_mm": [
+        39.2,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        39.2,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 217.41456483818308,
+      "upper_fixed_length_mm": 159.56722262506673,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S19",
+      "conductor_id": "R23-052",
+      "lower_free_exit_HOME_mm": [
+        48.4,
+        -41.32744907603901,
+        122.19292900903226
+      ],
+      "upper_free_exit_HOME_mm": [
+        39.2,
+        -69.39999999999998,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        39.2,
+        -69.39999999999998,
+        210.0
+      ],
+      "physical_free_length_mm": 220.40283743250845,
+      "upper_fixed_length_mm": 188.57540554760848,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S20",
+      "conductor_id": "R23-019",
+      "lower_free_exit_HOME_mm": [
+        49.8,
+        -41.32744907603901,
+        122.19292900903226
+      ],
+      "upper_free_exit_HOME_mm": [
+        39.2,
+        -70.79999999999995,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        39.2,
+        -70.79999999999995,
+        210.0
+      ],
+      "physical_free_length_mm": 221.30218492027228,
+      "upper_fixed_length_mm": 159.6416571002786,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S21",
+      "conductor_id": "R23-020",
+      "lower_free_exit_HOME_mm": [
+        44.2,
+        -40.61334195193548,
+        123.39710964967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        40.599999999999994,
+        -65.19999999999999,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        40.599999999999994,
+        -65.19999999999999,
+        210.0
+      ],
+      "physical_free_length_mm": 213.0677633919447,
+      "upper_fixed_length_mm": 168.67270504882435,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S22",
+      "conductor_id": "R23-021",
+      "lower_free_exit_HOME_mm": [
+        45.6,
+        -40.61334195193548,
+        123.39710964967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        40.599999999999994,
+        -66.6,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        40.599999999999994,
+        -66.6,
+        210.0
+      ],
+      "physical_free_length_mm": 216.76633111984157,
+      "upper_fixed_length_mm": 228.05956589013593,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S23",
+      "conductor_id": "R23-022",
+      "lower_free_exit_HOME_mm": [
+        47.0,
+        -40.61334195193548,
+        123.39710964967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        40.599999999999994,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        40.599999999999994,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 218.32392162610304,
+      "upper_fixed_length_mm": 196.05042934848115,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S24",
+      "conductor_id": "R23-023",
+      "lower_free_exit_HOME_mm": [
+        48.4,
+        -40.61334195193548,
+        123.39710964967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        40.599999999999994,
+        -69.39999999999998,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        40.599999999999994,
+        -69.39999999999998,
+        210.0
+      ],
+      "physical_free_length_mm": 218.56870065498626,
+      "upper_fixed_length_mm": 185.18974382397505,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "S25",
+      "conductor_id": "R23-024",
+      "lower_free_exit_HOME_mm": [
+        49.8,
+        -40.61334195193548,
+        123.39710964967742
+      ],
+      "upper_free_exit_HOME_mm": [
+        40.599999999999994,
+        -70.79999999999995,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        40.599999999999994,
+        -70.79999999999995,
+        210.0
+      ],
+      "physical_free_length_mm": 220.80010687331887,
+      "upper_fixed_length_mm": 177.65847703707297,
+      "wire_OD_max_mm": 0.7366
+    },
+    {
+      "port": "P5",
+      "conductor_id": "R23-118",
+      "lower_free_exit_HOME_mm": [
+        43.0,
+        -67.30334575281321,
+        117.60024005401351
+      ],
+      "upper_free_exit_HOME_mm": [
+        9.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        9.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 202.6672713622082,
+      "upper_fixed_length_mm": 186.14976722954455,
+      "wire_OD_max_mm": 1.778
+    },
+    {
+      "port": "P6",
+      "conductor_id": "R23-119",
+      "lower_free_exit_HOME_mm": [
+        40.0,
+        -67.30334575281321,
+        117.60024005401351
+      ],
+      "upper_free_exit_HOME_mm": [
+        6.0,
+        -68.0,
+        198.0
+      ],
+      "upper_fixed_entry_HOME_mm": [
+        6.0,
+        -68.0,
+        210.0
+      ],
+      "physical_free_length_mm": 199.94786024058044,
+      "upper_fixed_length_mm": 243.7085433632,
+      "wire_OD_max_mm": 1.778
+    }
+  ],
+  "selected_free_manifest": "flex/compact_bundle_home/manifest.json",
+  "diagnostic_families_not_selected": [
+    "flex/home_geometry",
+    "flex/selected_home",
+    "flex/compact_family",
+    "flex/ordered_family"
+  ],
+  "sources": {
+    "work/r25-bottom-head-entry/mechanics/manifest.json": "b9ca669d1851ef401b70669141f3a0e9cda22a3f96073f3fd009cfdbbd6efacd",
+    "work/r25-bottom-head-entry/tails/manifest.json": "1065a17fbdd071100322efacbd34850d4cb6cc1e58d52e4377aea03d5e8e7563",
+    "work/r25-bottom-head-entry/flex/compact_bundle_home/manifest.json": "30f36b3d49dbb75f756ecb4f03b74e45224a2085f470eb60209b007a2ffd193a"
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

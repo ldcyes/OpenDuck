@@ -1,0 +1,153 @@
+{
+  "sources": {
+    "work/r25-bottom-head-entry/candidate_selection.json": "a3c9ef69bb049ab85902f20ec4c2f12517fbd14dfbb7731b598a1e986cb61a87",
+    "work/r25-bottom-head-entry/candidate_check.json": "6670b766a2fb7ac6a0a93bf6d469806cc5f0a00eedb061986c353e9cb9b71bc7",
+    "work/r25-bottom-head-entry/check_native_contacts.py": "3de6665ae84ab79f7c9a4f7b39b19250a7c73288ea829b7a5655fbdaeb62dd6d"
+  },
+  "status": "NATIVE_CONTACT_REVIEW",
+  "rows": [
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_retainer_1_M2x6",
+      "volume_mm3": 3.9547253881901248,
+      "native_STEP_intersection_mm3": null,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_retainer_2_M2x6",
+      "volume_mm3": 3.954727950767844,
+      "native_STEP_intersection_mm3": null,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "R25_neck_upper_mount_1_M2x18",
+      "volume_mm3": 1.8078645517536742,
+      "native_STEP_intersection_mm3": null,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "R25_neck_upper_mount_2_M2x18",
+      "volume_mm3": 1.8078657235426085,
+      "native_STEP_intersection_mm3": null,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "volume_mm3": 0.004429533291209332,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "volume_mm3": 0.004973313196016725,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_neck_upper_power_pair_knot_1",
+      "volume_mm3": 0.6875539841281026,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Same lacing loop and zero-extra-mass knot envelope"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "volume_mm3": 0.0003369570904658707,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "volume_mm3": 0.0003791500799729203,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_neck_upper_power_pair_knot_2",
+      "volume_mm3": 0.6875539841281026,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Same lacing loop and zero-extra-mass knot envelope"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "volume_mm3": 0.0003369570904660596,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "volume_mm3": 0.00037915007997286717,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_-60_-60_M3_DIN934_nut",
+      "volume_mm3": 0.0002772169809610776,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_-60_60_M3_DIN934_nut",
+      "volume_mm3": 0.00027721698095544323,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_55_-60_M3_DIN934_nut",
+      "volume_mm3": 0.00027721698101069536,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_55_60_M3_DIN934_nut",
+      "volume_mm3": 0.0002772169809156233,
+      "native_STEP_intersection_mm3": null,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "R22_Entry_W1_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "volume_mm3": 1.0314526757499642e-05,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "R22_Entry_W2_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "volume_mm3": 4.406981482834966e-05,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "R22_Entry_W3_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "volume_mm3": 2.1717279982559427e-05,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "R22_Entry_W4_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "volume_mm3": 2.6888626294208773e-05,
+      "native_STEP_intersection_mm3": 0.0,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    }
+  ],
+  "unresolved": [],
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

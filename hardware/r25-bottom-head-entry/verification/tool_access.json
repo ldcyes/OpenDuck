@@ -1,0 +1,42 @@
+{
+  "selection_sha256": "54ceda0385e4abd6f6ea28ad294918d2e5cd0da9a7f3e0f645165b9cfb1f19ad",
+  "checks": [
+    {
+      "stage": "comb_on_bench",
+      "screw": "R25_neck_upper_retainer_1_M2x6",
+      "driver_shaft_diameter_mm": 3,
+      "driver_exterior_length_mm": 35,
+      "intersections": [],
+      "tested_near_pairs": 0
+    },
+    {
+      "stage": "head_subassembly_before_neck_and_skins",
+      "screw": "R25_neck_upper_mount_1_M2x18",
+      "driver_shaft_diameter_mm": 3,
+      "driver_exterior_length_mm": 35,
+      "intersections": [],
+      "tested_near_pairs": 6
+    },
+    {
+      "stage": "comb_on_bench",
+      "screw": "R25_neck_upper_retainer_2_M2x6",
+      "driver_shaft_diameter_mm": 3,
+      "driver_exterior_length_mm": 35,
+      "intersections": [],
+      "tested_near_pairs": 0
+    },
+    {
+      "stage": "head_subassembly_before_neck_and_skins",
+      "screw": "R25_neck_upper_mount_2_M2x18",
+      "driver_shaft_diameter_mm": 3,
+      "driver_exterior_length_mm": 35,
+      "intersections": [],
+      "tested_near_pairs": 30
+    }
+  ],
+  "physical_approved": false,
+  "limits": [
+    "Assembly sequence required: tighten retainers on straight unformed wires first, then form/terminate tails, then mount guide on head subassembly before connecting neck and closing skins. No assembled in-place access asserted.",
+    "Bit fit and real driver handles require first article."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "R25_STATIC_MODEL_READBACK_PASS",
+  "part_count": 1224,
+  "service_count": 17,
+  "max_float_roundtrip_displacement_mm": 5.636343330706507e-05,
+  "pose_tolerance_mm": 0.0001,
+  "blend_sha256": "265fedf6b3f39f82f4c74d367745623c478decff9e9732c8923b33f5e96fcec7",
+  "build_index_sha256": "e1276a7cb013e89051d3bf20733bf01856b731cfd80132405a0b8be4c0e96134",
+  "source_hashes_checked": 110,
+  "renders": {
+    "01_R25_完整装配.png": "821f486067ebe9fc2fa6f1ceb17b48610c9d440e1a244e4c024d9f30d9f51f92",
+    "02_R25_头部摄像头前盖.png": "eb9cef575a5a867f34dd0a178f9443bbf15b8fdcb4529ccffa8a8f341e32f0a8",
+    "03_R25_头部底部走线.png": "32376b1702a3354eac5632ac8d7504f2b42035a712c9c97de7695aac0c04e83f"
+  },
+  "physical_approved": false,
+  "limits": [
+    "Saved visual mesh, pose and provenance only; physics uses source CAD.",
+    "The STL importer may drop zero-area triangles; source STEP/STL is unchanged."
+  ]
+}

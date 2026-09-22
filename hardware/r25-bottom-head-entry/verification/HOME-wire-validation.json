@@ -1,0 +1,286 @@
+{
+  "status": "PASS31_HOME_ENDPOINT_RADIUS_LENGTH_STEP_READBACK",
+  "rows": [
+    {
+      "port": "P1",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 5.393243981188789e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 21.28424339488729,
+      "upper_straight_mm": 12.179558459085996,
+      "step_readback_pass": true
+    },
+    {
+      "port": "P2",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 1.5972055138036012e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 17.404583407421807,
+      "upper_straight_mm": 12.434603683192364,
+      "step_readback_pass": true
+    },
+    {
+      "port": "P3",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 3.2231885143119143e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 14.090211002957723,
+      "upper_straight_mm": 12.13518536322465,
+      "step_readback_pass": true
+    },
+    {
+      "port": "P4",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.4742903121932613e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.428092729220737,
+      "upper_straight_mm": 12.235365892896397,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S01",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 1.576956114490713e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 18.784633396968896,
+      "upper_straight_mm": 12.020989842387024,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S02",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -1.648190468017674e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 15.223083196247401,
+      "upper_straight_mm": 12.020344229093865,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S03",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.660408722476859e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.427001175054201,
+      "upper_straight_mm": 13.03964585362695,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S04",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 1.0374360471132604e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 10.808288746617878,
+      "upper_straight_mm": 13.492116944129634,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S05",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 4.740642594924793e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.423480473866706,
+      "upper_straight_mm": 12.077548194509177,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S06",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -3.4236645660712384e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 18.83769027380898,
+      "upper_straight_mm": 12.020042406279686,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S07",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 1.6503031730508155e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 14.542043315785945,
+      "upper_straight_mm": 12.829326285731128,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S08",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -3.6617940963878937e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 12.63146105958216,
+      "upper_straight_mm": 12.310450962228913,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S09",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -6.26850649609878e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.420808927847787,
+      "upper_straight_mm": 12.784923411443884,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S10",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.216034067714645e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.419975331002403,
+      "upper_straight_mm": 12.02007878822971,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S11",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 3.04169367382201e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 10.622009827814296,
+      "upper_straight_mm": 12.020527493840973,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S12",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -8.580922781220579e-07,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 10.330577769195289,
+      "upper_straight_mm": 12.020609375910368,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S13",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 3.779924188052064e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.42001042627852,
+      "upper_straight_mm": 12.163328906522366,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S14",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 7.1653599320598005e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.420362207291754,
+      "upper_straight_mm": 12.02003101499065,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S15",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -3.409057541148286e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 9.107232167543271,
+      "upper_straight_mm": 12.019994305068963,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S16",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -2.338120239642194e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 13.90118512186691,
+      "upper_straight_mm": 12.939371261473667,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S17",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -2.3937072995749986e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 9.306778375276515,
+      "upper_straight_mm": 12.52323779278052,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S18",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.2388467755263264e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 9.71734035823056,
+      "upper_straight_mm": 12.42607504270893,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S19",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 3.137904599270769e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 9.995885058416157,
+      "upper_straight_mm": 12.155519804060418,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S20",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 1.0238723461952759e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.419933147551331,
+      "upper_straight_mm": 12.020092258400638,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S21",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.0126414597143594e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 10.298790686157018,
+      "upper_straight_mm": 12.08748291999646,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S22",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.7255230691025645e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.422709163599567,
+      "upper_straight_mm": 12.232346695613074,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S23",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 3.1277607519086814e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.422197888045789,
+      "upper_straight_mm": 12.416981568951911,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S24",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 4.357308483804445e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.520608350284382,
+      "upper_straight_mm": 12.019991664370252,
+      "step_readback_pass": true
+    },
+    {
+      "port": "S25",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": 2.29737910615313e-05,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 8.55585204218032,
+      "upper_straight_mm": 12.025464248894878,
+      "step_readback_pass": true
+    },
+    {
+      "port": "P5",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -6.447275211485248e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 11.940218016435045,
+      "upper_straight_mm": 13.144963077886501,
+      "step_readback_pass": true
+    },
+    {
+      "port": "P6",
+      "endpoint_error_mm": 0.0,
+      "length_error_mm": -1.41306438194988e-06,
+      "minimum_radius_mm": 25,
+      "lower_straight_mm": 11.729914996558149,
+      "upper_straight_mm": 12.020211942246931,
+      "step_readback_pass": true
+    }
+  ],
+  "possible_wire_pair_overlap_count": 0,
+  "minimum_pair_gap_lower_mm": 0.16185738823646345
+}

@@ -1,0 +1,2824 @@
+{
+  "source_selection_sha256": "f90a0ce11ea28023352822f707b841af2b3b3c387aaafa7dddaa06907f65af2e",
+  "mouth_range_deg": [
+    0,
+    25
+  ],
+  "intersections": [
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 8.75,
+      "common_mm3": 0.12247579768650713,
+      "baseline_intersection_mm3": 0.12247579768650713,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 9.0,
+      "common_mm3": 0.4669273198311209,
+      "baseline_intersection_mm3": 0.46692731983112085,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 9.25,
+      "common_mm3": 1.0533657604060918,
+      "baseline_intersection_mm3": 1.0533657604060913,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 9.5,
+      "common_mm3": 2.021133326823702,
+      "baseline_intersection_mm3": 2.0211333268237013,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 9.75,
+      "common_mm3": 3.5242641302478095,
+      "baseline_intersection_mm3": 3.5242641302478095,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 10.0,
+      "common_mm3": 5.811565896357813,
+      "baseline_intersection_mm3": 5.811565896357813,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 10.25,
+      "common_mm3": 9.10479138355389,
+      "baseline_intersection_mm3": 9.10479138355389,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 10.5,
+      "common_mm3": 13.756563350961828,
+      "baseline_intersection_mm3": 13.756563350961828,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 10.75,
+      "common_mm3": 20.28549010283785,
+      "baseline_intersection_mm3": 20.28549010283785,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 11.0,
+      "common_mm3": 27.5378996384319,
+      "baseline_intersection_mm3": 27.5378996384319,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 11.25,
+      "common_mm3": 34.43761358621015,
+      "baseline_intersection_mm3": 34.43761358621015,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 11.5,
+      "common_mm3": 41.28430257459217,
+      "baseline_intersection_mm3": 41.28430257459217,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 11.75,
+      "common_mm3": 48.02833264995607,
+      "baseline_intersection_mm3": 48.02833264995607,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 12.0,
+      "common_mm3": 54.38974423778212,
+      "baseline_intersection_mm3": 54.389744237782125,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 12.25,
+      "common_mm3": 59.97832216025611,
+      "baseline_intersection_mm3": 59.97832216025611,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 12.5,
+      "common_mm3": 64.40018895306297,
+      "baseline_intersection_mm3": 64.40018895306297,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 12.75,
+      "common_mm3": 66.9750095152994,
+      "baseline_intersection_mm3": 66.9750095152994,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 13.0,
+      "common_mm3": 67.67653221452296,
+      "baseline_intersection_mm3": 67.67653221452296,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 13.25,
+      "common_mm3": 67.63097490799093,
+      "baseline_intersection_mm3": 67.63097490799093,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 13.5,
+      "common_mm3": 67.57017130370112,
+      "baseline_intersection_mm3": 67.57017130370112,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 13.75,
+      "common_mm3": 67.49397041162689,
+      "baseline_intersection_mm3": 67.49397041162689,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 14.0,
+      "common_mm3": 67.45570579983873,
+      "baseline_intersection_mm3": 67.45570579983873,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 14.25,
+      "common_mm3": 67.5264388701786,
+      "baseline_intersection_mm3": 67.5264388701786,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 14.5,
+      "common_mm3": 67.77086173294101,
+      "baseline_intersection_mm3": 67.77086173294101,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 14.75,
+      "common_mm3": 68.16245176828635,
+      "baseline_intersection_mm3": 68.16245176828635,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 15.0,
+      "common_mm3": 68.75593172009079,
+      "baseline_intersection_mm3": 68.75593172009079,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 15.25,
+      "common_mm3": 69.71099037516376,
+      "baseline_intersection_mm3": 69.71099037516376,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 15.5,
+      "common_mm3": 71.21159893411486,
+      "baseline_intersection_mm3": 71.21159893411486,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 15.75,
+      "common_mm3": 73.50581856353433,
+      "baseline_intersection_mm3": 73.50581856353433,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 16.0,
+      "common_mm3": 76.63242638212908,
+      "baseline_intersection_mm3": 76.63242638212908,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 16.25,
+      "common_mm3": 79.98122754077528,
+      "baseline_intersection_mm3": 79.98122754077528,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 16.5,
+      "common_mm3": 82.96618559976872,
+      "baseline_intersection_mm3": 82.96618559976872,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 16.75,
+      "common_mm3": 84.95692851151169,
+      "baseline_intersection_mm3": 84.95692851151169,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 17.0,
+      "common_mm3": 86.08354318176683,
+      "baseline_intersection_mm3": 86.08354318176683,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 17.25,
+      "common_mm3": 87.15135218062917,
+      "baseline_intersection_mm3": 87.15135218062917,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 17.5,
+      "common_mm3": 88.17971836414246,
+      "baseline_intersection_mm3": 88.17971836414246,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 17.75,
+      "common_mm3": 89.04826699321241,
+      "baseline_intersection_mm3": 89.04826699321241,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 18.0,
+      "common_mm3": 89.62213702249005,
+      "baseline_intersection_mm3": 89.62213702249005,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 18.25,
+      "common_mm3": 89.84172783428835,
+      "baseline_intersection_mm3": 89.84172783428835,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 18.5,
+      "common_mm3": 90.34907142631967,
+      "baseline_intersection_mm3": 90.34907142631967,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 18.75,
+      "common_mm3": 91.81989477154323,
+      "baseline_intersection_mm3": 91.81989477154323,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 19.0,
+      "common_mm3": 94.49967434011948,
+      "baseline_intersection_mm3": 94.49967434011948,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 19.25,
+      "common_mm3": 98.29363319552753,
+      "baseline_intersection_mm3": 98.29363319552753,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 19.5,
+      "common_mm3": 102.93388630238427,
+      "baseline_intersection_mm3": 102.93388630238427,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 19.75,
+      "common_mm3": 107.96151663519612,
+      "baseline_intersection_mm3": 107.96151663519612,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 20.0,
+      "common_mm3": 112.92641781386168,
+      "baseline_intersection_mm3": 112.92641781386168,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 20.25,
+      "common_mm3": 117.76320591166369,
+      "baseline_intersection_mm3": 117.76320591166369,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 20.5,
+      "common_mm3": 122.53498256428063,
+      "baseline_intersection_mm3": 122.53498256428063,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 20.75,
+      "common_mm3": 127.24347912287985,
+      "baseline_intersection_mm3": 127.24347912287985,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 21.0,
+      "common_mm3": 131.94999119766632,
+      "baseline_intersection_mm3": 131.94999119766632,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 21.25,
+      "common_mm3": 136.62279894010433,
+      "baseline_intersection_mm3": 136.62279894010433,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 21.5,
+      "common_mm3": 141.3479063030591,
+      "baseline_intersection_mm3": 141.3479063030591,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 21.75,
+      "common_mm3": 146.186165934327,
+      "baseline_intersection_mm3": 146.186165934327,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 22.0,
+      "common_mm3": 151.15892727618916,
+      "baseline_intersection_mm3": 151.15892727618916,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 22.25,
+      "common_mm3": 156.268721458312,
+      "baseline_intersection_mm3": 156.268721458312,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 22.5,
+      "common_mm3": 161.50935846537828,
+      "baseline_intersection_mm3": 161.50935846537828,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 22.75,
+      "common_mm3": 166.86228403861378,
+      "baseline_intersection_mm3": 166.86228403861378,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 23.0,
+      "common_mm3": 172.31652143905606,
+      "baseline_intersection_mm3": 172.31652143905606,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 23.25,
+      "common_mm3": 177.8634467779482,
+      "baseline_intersection_mm3": 177.8634467779482,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 23.5,
+      "common_mm3": 183.49367904409468,
+      "baseline_intersection_mm3": 183.49367904409468,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 23.75,
+      "common_mm3": 189.19642132315192,
+      "baseline_intersection_mm3": 189.19642132315192,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 24.0,
+      "common_mm3": 194.95890534158568,
+      "baseline_intersection_mm3": 194.95890534158568,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 24.25,
+      "common_mm3": 200.80846618128075,
+      "baseline_intersection_mm3": 200.80846618128075,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 24.5,
+      "common_mm3": 206.8442115755463,
+      "baseline_intersection_mm3": 206.8442115755463,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 24.75,
+      "common_mm3": 212.8995008745284,
+      "baseline_intersection_mm3": 212.8995008745284,
+      "new_or_increased": false
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "angle_deg": 25.0,
+      "common_mm3": 218.57988846233349,
+      "baseline_intersection_mm3": 218.57988846233349,
+      "new_or_increased": false
+    }
+  ],
+  "new_or_increased_intersections": [],
+  "sample_step_deg": 0.25,
+  "pairs": [
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 137.40372584474537,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 137.35586828067437
+    },
+    {
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 139.38645477743717,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 139.33859721336617
+    },
+    {
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 137.1538981778036,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 137.1060406137326
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 140.0767418660627,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 140.0288843019917
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_M2x6",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 140.96223266418534,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 140.91437510011434
+    },
+    {
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 135.52202102633893,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 135.47416346226794
+    },
+    {
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 149.8458122662985,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 149.7979547022275
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 150.49090827662394,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 150.44305071255295
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2x18",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 133.7361365424696,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 133.6882789783986
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 140.11273653373428,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 140.06487896966328
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_M2x6",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 141.0270647098931,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 140.9792071458221
+    },
+    {
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 135.559225101885,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 135.511367537814
+    },
+    {
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 149.87946083739044,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 149.83160327331944
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 150.54056610439602,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 150.49270854032503
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2x18",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 133.8044698816991,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 133.7566123176281
+    },
+    {
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 141.87196356734208,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 141.82410600327108
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 142.12034173150164,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 142.07248416743064
+    },
+    {
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 141.89661465083284,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 141.84875708676185
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 142.1498211714961,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 142.1019636074251
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 142.12563126271303,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 142.07777369864203
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_1",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 145.27494305160496,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 145.22708548753397
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 141.358971477341,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 141.31111391327
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_2",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 144.53833014995737,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 144.49047258588638
+    },
+    {
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 115.19997485110758,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 115.1521172870366
+    },
+    {
+      "a": "R25_top_head_shell_closed_side",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 4.952142435929014
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 4.952142435929014
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 81.69997485110758,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 81.6521172870366
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 81.69997485110758,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 81.6521172870366
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 81.69997485110758,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 81.6521172870366
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 81.69997485110758,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 81.6521172870366
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29994471499919,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2520871509282
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 84.33217699954508,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 84.2843194354741
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997332522868,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2521157611577
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 85.8683164877653,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 85.82045892369432
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 87.66502364108561,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 87.61716607701463
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997332522868,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2521157611577
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29992945621012,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25207189213914
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29996951053141,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211194646043
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S14",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 84.90667708346842,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 84.85881951939744
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S15",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 84.90685065219401,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 84.85899308812303
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S16",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 84.9067800802946,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 84.85892251622361
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S17",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 84.9068439764738,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 84.85898641240281
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997523257731,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211766850633
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.12965662906169,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.0817990649907
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29996951053141,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211194646043
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29997332522868,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2521157611577
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 85.8578241629362,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 85.80996659886522
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29996188113688,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2521043170659
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29996760318278,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.2521100391118
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 90.29996951053141,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 90.25211194646043
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 76.51730425784586,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 76.46944669377488
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "mouth_candidate_active",
+      "sample_lower_bound_mm": 48.311554746127115,
+      "worst_sample_deg": 5.25,
+      "maximum_between_sample_displacement_mm": 0.04785756407098613,
+      "continuous_lower_bound_mm": 48.26369718205613
+    },
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 107.82168577925795,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 107.75958461491057
+    },
+    {
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 109.76482049769659,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 109.70271933334921
+    },
+    {
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 107.3614794636411,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 107.29937829929372
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 110.18248477694995,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 110.12038361260257
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_M2x6",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 110.85711934724003,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 110.79501818289265
+    },
+    {
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 106.44399165446727,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 106.38189049011989
+    },
+    {
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 120.4341006329294,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 120.37199946858202
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 121.16862999450312,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 121.10652883015574
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2x18",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 104.84369127330804,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 104.78159010896066
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 111.35367546819417,
+      "worst_sample_deg": 9.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 111.29157430384679
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_M2x6",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 112.1846863100481,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 112.12258514570071
+    },
+    {
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 107.65589521385233,
+      "worst_sample_deg": 4.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 107.59379404950495
+    },
+    {
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 121.50654719995481,
+      "worst_sample_deg": 4.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 121.44444603560743
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 122.327553245777,
+      "worst_sample_deg": 4.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 122.26545208142961
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2x18",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 106.24648079310903,
+      "worst_sample_deg": 4.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 106.18437962876165
+    },
+    {
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 111.99865857376066,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 111.93655740941328
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 112.24298200399048,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 112.1808808396431
+    },
+    {
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 111.99865857376066,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 111.93655740941328
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 112.24298200399048,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 112.1808808396431
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 113.11870928717207,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 113.05660812282468
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_1",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 116.14123589058022,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 116.07913472623284
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 111.81419741509272,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 111.75209625074534
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_2",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 114.8878369348164,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 114.82573577046902
+    },
+    {
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 83.71841619954422,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 83.65631503519684
+    },
+    {
+      "a": "R25_top_head_shell_closed_side",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 4.937898835652611
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 4.937898835652611
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 50.19997365262999,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 50.1378724882826
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 50.19997365262999,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 50.1378724882826
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 50.19997365262999,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 50.1378724882826
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 50.19997365262999,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 50.1378724882826
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.069565486040354,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.007464321692964
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.79997403409972,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.73787286975233
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 52.957126480926036,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 52.895025316578646
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.79997403409972,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.73787286975233
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.82254931821974,
+      "worst_sample_deg": 1.75,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.76044815387235
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.36831528928771,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.30621412494032
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 56.16502244260802,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 56.10292127826063
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.799972126751086,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.7378709624037
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.36029771914173,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.29819655479434
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.36033739534503,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.29823623099764
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.56840105113812,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.50629988679073
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.56840105113812,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.50629988679073
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.56840105113812,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.50629988679073
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S14",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.25154822293468,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.18944705858729
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S15",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.251719088642126,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.18961792429474
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S16",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.51518583221611,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.45308466786872
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S17",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.515248429254996,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.45314726490761
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.80851447810765,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.74641331376026
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 59.64107605934806,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 59.57897489500067
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.88756156309582,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.82546039874843
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.952084068151265,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.889982903803876
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 54.357822964458606,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 54.29572180011122
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.79996068265929,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.7378595183119
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.79996640470519,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.7378652403578
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 58.79996831205382,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 58.73786714770643
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 45.017303059368274,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 44.955201895020885
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "mouth_candidate_idler",
+      "sample_lower_bound_mm": 16.811553547649524,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.062101164347389146,
+      "continuous_lower_bound_mm": 16.749452383302135
+    },
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 11.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 11.749604326204489
+    },
+    {
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 13.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 13.749604326204489
+    },
+    {
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 11.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 11.749604326204489
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 14.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 14.749604326204489
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_M2x6",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.099994868394326,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 15.849602800325583
+    },
+    {
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 9.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 9.249604326204489
+    },
+    {
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 23.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 23.749604326204487
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 24.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 24.249604326204487
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2x18",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 7.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 7.249604326204488
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 14.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 14.749604326204489
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_M2x6",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.099994868394326,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 15.849602800325583
+    },
+    {
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 9.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 9.249604326204489
+    },
+    {
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 23.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 23.749604326204487
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 24.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 24.249604326204487
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2x18",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 7.499996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 7.249604326204488
+    },
+    {
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.749996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 16.499604326204487
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 16.749604326204487
+    },
+    {
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.749996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 16.499604326204487
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 16.999996394273232,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 16.749604326204487
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 15.844394892808388,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 15.594002824739645
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_1",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 19.099994868394326,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 18.84960280032558
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 15.844394892808388,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 15.594002824739645
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_2",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 19.099994868394326,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 18.84960280032558
+    },
+    {
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_top_head_shell_closed_side",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 1.4045713938388424,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 1.1541793257700985
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 0.0,
+      "worst_sample_deg": 8.75,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": -0.25039206806874403
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S14",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S15",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S16",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S17",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "R12_mouth_load_carrier",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.25039206806874403,
+      "continuous_lower_bound_mm": 4.749607931931256
+    },
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 21.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 7.245202915925019,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 6.972493748443718
+    },
+    {
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 7.4380498691003725,
+      "worst_sample_deg": 21.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 7.165340701619071
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 32.91615359874088,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 32.643444431259574
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_M2x6",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 32.70189543563398,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 32.42918626815268
+    },
+    {
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 31.23496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 30.962251812282837
+    },
+    {
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 31.23496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 30.962251812282837
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 31.92556042129246,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 31.652851253811157
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2x18",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 32.334961361233866,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 32.06225219375256
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 8.996650711952759,
+      "worst_sample_deg": 20.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 8.723941544471458
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_M2x6",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.32437865255068,
+      "worst_sample_deg": 24.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 5.051669485069379
+    },
+    {
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 21.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 21.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 22.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2x18",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 22.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 40.98496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 40.71225181228284
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 41.23496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 40.96225181228284
+    },
+    {
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 43.98496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 43.71225181228284
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 44.23496097976414,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 43.96225181228284
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 39.932135163433195,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 39.65942599595189
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_1",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 42.43504612108745,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 42.16233695360615
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 40.30238795014821,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 40.029678782666906
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_2",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 42.73855573704367,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 42.465846569562366
+    },
+    {
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_top_head_shell_closed_side",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 0.26378649725711883,
+      "worst_sample_deg": 2.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": -0.008922670224182694
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 19.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 16.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 12.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 8.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 6.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 6.25,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 6.5,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 4.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 4.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S14",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S15",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S16",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S17",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 2.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 2.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.75,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 4.727290832518698
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 15.346060222928202,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 15.073351055446901
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "R11_moving_beak_hollow",
+      "sample_lower_bound_mm": 18.34599155837742,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.27270916748130153,
+      "continuous_lower_bound_mm": 18.073282390896118
+    },
+    {
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 13.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 8.531639727970957,
+      "worst_sample_deg": 19.5,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 8.250811178826748
+    },
+    {
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 10.185813870510898,
+      "worst_sample_deg": 10.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 9.90498532136669
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 31.73181247435133,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 31.450983925207122
+    },
+    {
+      "a": "R25_neck_upper_retainer_1_M2x6",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 29.379108034344043,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 29.098279485199836
+    },
+    {
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 25.559277986315763,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 25.278449437171556
+    },
+    {
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 25.559277986315763,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 25.278449437171556
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 26.559366157088967,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 26.27853760794476
+    },
+    {
+      "a": "R25_neck_upper_mount_1_M2x18",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 26.976991208599483,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 26.696162659455275
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 11.364563321901121,
+      "worst_sample_deg": 8.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 11.083734772756912
+    },
+    {
+      "a": "R25_neck_upper_retainer_2_M2x6",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 8.587975580684912,
+      "worst_sample_deg": 13.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 8.307147031540703
+    },
+    {
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 13.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 13.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 14.75,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_neck_upper_mount_2_M2x18",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 15.5,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 34.88177609084843,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 34.60094754170422
+    },
+    {
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 35.12386705496583,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 34.84303850582162
+    },
+    {
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 37.79366490519317,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 37.51283635604896
+    },
+    {
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 38.03694047381911,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 37.7561119246749
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 34.457800970560335,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 34.176972421416124
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_1",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 36.73367445661816,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 36.45284590747395
+    },
+    {
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 36.33926818670819,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 36.05843963756398
+    },
+    {
+      "a": "R25_neck_upper_power_pair_knot_2",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 38.45398750610358,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 38.17315895695937
+    },
+    {
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_top_head_shell_closed_side",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0141143798828125,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.733285830738604
+    },
+    {
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 0.6901690499384511,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 0.40934050079424256
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 11.5,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 8.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 4.25,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S14",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S15",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S16",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S17",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 5.0,
+      "worst_sample_deg": 0.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 4.719171450855791
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 11.933826577132628,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 11.652998027988419
+    },
+    {
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "R11_moving_jaw_chin",
+      "sample_lower_bound_mm": 14.149349358281121,
+      "worst_sample_deg": 25.0,
+      "maximum_between_sample_displacement_mm": 0.2808285491442085,
+      "continuous_lower_bound_mm": 13.868520809136912
+    }
+  ],
+  "minimum_continuous_lower_bound_mm": -0.25039206806874403,
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

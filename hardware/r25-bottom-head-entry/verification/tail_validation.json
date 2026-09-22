@@ -1,0 +1,289 @@
+{
+  "status": "31_FIXED_TAIL_ENDPOINT_AND_ANALYTIC_CONTINUITY_PASS",
+  "rows": [
+    {
+      "port": "P1",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 5.357954023648643e-07,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "P2",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.9630289516509073e-12,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "P3",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 9.839119896970458e-06,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "P4",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 5.9449654578585376e-06,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S01",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 8.023389121092831e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.780057009834252,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S02",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 3.6867920027574666e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.83980861980902,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S03",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.3870987515589213e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.89523397878878,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S04",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.135634256637057e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.946661000495908,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S05",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 6.915985242961598e-07,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.994395251140787,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S06",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 2.717487254696272e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.780057009834252,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S07",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 3.290257490322972e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.83980861980902,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S08",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.8229785202952708e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.89523397878878,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S09",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 6.768842605216832e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.946661000495908,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S10",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.221564654338976e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.994395251140787,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S11",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 5.69919694785851e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.780057009834252,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S12",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.2827834135558228e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.83980861980902,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S13",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.3728005034183814e-07,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.89523397878878,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S14",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 3.933958953297182e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.946661000495908,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S15",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 2.232881807097092e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.994395251140787,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S16",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 8.853639930378899e-13,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.780057009834252,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S17",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.7260111772680433e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.83980861980902,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S18",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.0959409452868159e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.89523397878878,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S19",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 3.1836567229463125e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.946661000495908,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S20",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 7.536581203963628e-13,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.994395251140787,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S21",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 2.2743464687045747e-06,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.780057009834252,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S22",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 2.1701473064015633e-12,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.83980861980902,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S23",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 3.893602450693146e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.89523397878878,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S24",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 8.653030405407661e-07,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.946661000495908,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "S25",
+      "endpoint_error_mm": 0.0,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 1.131983942355998e-05,
+      "minimum_radius_mm": 5.0,
+      "first_guide_straight_mm": 25.994395251140787,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "P5",
+      "endpoint_error_mm": 2.842170943040401e-14,
+      "maximum_segment_gap_mm": 0.0,
+      "maximum_tangent_vector_error": 2.3543389681252106e-15,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    },
+    {
+      "port": "P6",
+      "endpoint_error_mm": 2.842170943040401e-14,
+      "maximum_segment_gap_mm": 1.464821375527116e-14,
+      "maximum_tangent_vector_error": 2.1749543284769727e-15,
+      "minimum_radius_mm": 12.0,
+      "first_guide_straight_mm": 22.948561549093085,
+      "original_electrical_endpoint_preserved": true
+    }
+  ],
+  "sources": {
+    "work/r25-bottom-head-entry/tails/manifest.json": "1065a17fbdd071100322efacbd34850d4cb6cc1e58d52e4377aea03d5e8e7563",
+    "work/r25-bottom-head-entry/mechanics/manifest.json": "b9ca669d1851ef401b70669141f3a0e9cda22a3f96073f3fd009cfdbbd6efacd",
+    "work/r25-bottom-head-entry/verify_tails.py": "012b4e04334d7ab520b1fe368cbdbc7d26315a8a436f567918c16034fabf307a"
+  }
+}

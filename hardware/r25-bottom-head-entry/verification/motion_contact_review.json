@@ -1,0 +1,786 @@
+{
+  "status": "NAMED_CONTACT_REVIEW_NO_GENERAL_CATEGORY_EXEMPTION",
+  "dynamic_pair_count": 46170,
+  "dynamic_unresolved_count": 0,
+  "named_invariant_rows": [
+    {
+      "pair_id": 26206,
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R23_neck_upper_6061_lower_jaw",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Retained saddle clamp interface; nominal contact"
+    },
+    {
+      "pair_id": 26207,
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R23_neck_upper_saddle_1_top_washer",
+      "mesh_intersection_mm3": 2.1865809943927283e-14,
+      "classification": "Retained saddle clamp interface; nominal contact"
+    },
+    {
+      "pair_id": 26211,
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R23_neck_upper_saddle_2_top_washer",
+      "mesh_intersection_mm3": 1.465841337200402e-14,
+      "classification": "Retained saddle clamp interface; nominal contact"
+    },
+    {
+      "pair_id": 26923,
+      "a": "R25_neck_upper_6061_bottom_bridge",
+      "b": "R13_head_shell_carrier_Entry_ports",
+      "mesh_intersection_mm3": 2.2737367544323206e-13,
+      "classification": "Retained saddle clamp interface; nominal contact"
+    },
+    {
+      "pair_id": 27264,
+      "a": "R25_top_head_shell_closed_side",
+      "b": "R24_Microduck_front_face_camera_carrier",
+      "mesh_intersection_mm3": 1.3207123402269847e-13,
+      "classification": "Preserved shell mounting seat"
+    },
+    {
+      "pair_id": 28489,
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_-60_-60_M3_DIN934_nut",
+      "mesh_intersection_mm3": 0.0002772169809610776,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "pair_id": 28492,
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_-60_60_M3_DIN934_nut",
+      "mesh_intersection_mm3": 0.00027721698095544323,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "pair_id": 28495,
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_55_-60_M3_DIN934_nut",
+      "mesh_intersection_mm3": 0.00027721698101069536,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "pair_id": 28499,
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R23_head_shell_55_60_M3_DIN934_nut",
+      "mesh_intersection_mm3": 0.0002772169809156233,
+      "classification": "Unchanged inherited nut-seat STL roundoff; local shell unchanged outside bottom aperture"
+    },
+    {
+      "pair_id": 29195,
+      "a": "R25_lower_head_shell_bottom_entry",
+      "b": "R13_head_shell_carrier_Entry_ports",
+      "mesh_intersection_mm3": 5.495728384093818e-13,
+      "classification": "Preserved shell mounting seat"
+    },
+    {
+      "pair_id": 30018,
+      "a": "R25_HEAD_BOTTOM_FIXED_P1",
+      "b": "R22_Entry_W1_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "mesh_intersection_mm3": 1.0314526757499642e-05,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 31155,
+      "a": "R25_HEAD_BOTTOM_FIXED_P2",
+      "b": "R22_Entry_W2_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "mesh_intersection_mm3": 4.406981482834966e-05,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 32292,
+      "a": "R25_HEAD_BOTTOM_FIXED_P3",
+      "b": "R22_Entry_W3_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "mesh_intersection_mm3": 2.1717279982559427e-05,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 33429,
+      "a": "R25_HEAD_BOTTOM_FIXED_P4",
+      "b": "R22_Entry_W4_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "mesh_intersection_mm3": 2.6888626294208773e-05,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 35101,
+      "a": "R25_HEAD_BOTTOM_FIXED_S01",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 2.811368669512103e-06,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 36237,
+      "a": "R25_HEAD_BOTTOM_FIXED_S02",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 37373,
+      "a": "R25_HEAD_BOTTOM_FIXED_S03",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 38509,
+      "a": "R25_HEAD_BOTTOM_FIXED_S04",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 39645,
+      "a": "R25_HEAD_BOTTOM_FIXED_S05",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 3.962926355134088e-09,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 40781,
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 9.59734171956762e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 41917,
+      "a": "R25_HEAD_BOTTOM_FIXED_S07",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 1.1429087731473766e-06,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 43053,
+      "a": "R25_HEAD_BOTTOM_FIXED_S08",
+      "b": "R22_Entry_J5_MATED",
+      "mesh_intersection_mm3": 3.3913706071358834e-08,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 44191,
+      "a": "R25_HEAD_BOTTOM_FIXED_S09",
+      "b": "R22_Entry_J8_MATED",
+      "mesh_intersection_mm3": 4.045588550369625e-06,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 45327,
+      "a": "R25_HEAD_BOTTOM_FIXED_S10",
+      "b": "R22_Entry_J8_MATED",
+      "mesh_intersection_mm3": 4.917255974245599e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 46463,
+      "a": "R25_HEAD_BOTTOM_FIXED_S11",
+      "b": "R22_Entry_J8_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 47599,
+      "a": "R25_HEAD_BOTTOM_FIXED_S12",
+      "b": "R22_Entry_J8_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 48735,
+      "a": "R25_HEAD_BOTTOM_FIXED_S13",
+      "b": "R22_Entry_J8_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 54416,
+      "a": "R25_HEAD_BOTTOM_FIXED_S18",
+      "b": "R22_Entry_J3_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 55552,
+      "a": "R25_HEAD_BOTTOM_FIXED_S19",
+      "b": "R22_Entry_J3_MATED",
+      "mesh_intersection_mm3": 1.1418108631358716e-06,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 56692,
+      "a": "R25_HEAD_BOTTOM_FIXED_S20",
+      "b": "R22_Entry_J6_MATED",
+      "mesh_intersection_mm3": 6.042380589809319e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 57828,
+      "a": "R25_HEAD_BOTTOM_FIXED_S21",
+      "b": "R22_Entry_J6_MATED",
+      "mesh_intersection_mm3": 3.65589755111488e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 58964,
+      "a": "R25_HEAD_BOTTOM_FIXED_S22",
+      "b": "R22_Entry_J6_MATED",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 60094,
+      "a": "R25_HEAD_BOTTOM_FIXED_S23",
+      "b": "R22_Entry_J7_MATED",
+      "mesh_intersection_mm3": 1.2462128317370261e-06,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 61230,
+      "a": "R25_HEAD_BOTTOM_FIXED_S24",
+      "b": "R22_Entry_J7_MATED",
+      "mesh_intersection_mm3": 8.553909076882307e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 62366,
+      "a": "R25_HEAD_BOTTOM_FIXED_S25",
+      "b": "R22_Entry_J7_MATED",
+      "mesh_intersection_mm3": 4.5810048888298497e-07,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 63117,
+      "a": "R25_HEAD_BOTTOM_FIXED_P5",
+      "b": "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+      "mesh_intersection_mm3": 8.001412032943023e-17,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 64257,
+      "a": "R25_HEAD_BOTTOM_FIXED_P6",
+      "b": "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+      "mesh_intersection_mm3": 1.610040226140974e-16,
+      "classification": "Preserved original terminal seating; original endpoint and downstream native shape retained"
+    },
+    {
+      "pair_id": 64752,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_VMQ_comb_installed",
+      "mesh_intersection_mm3": 3.093254818953284e-13,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64753,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_PEEK_retainer",
+      "mesh_intersection_mm3": 1.715294573045867e-14,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64755,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_retainer_1_M2x6",
+      "mesh_intersection_mm3": 3.9547253881901248,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "pair_id": 64757,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_mount_1_rear_washer",
+      "mesh_intersection_mm3": 5.090447784432059e-16,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64761,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_retainer_2_M2x6",
+      "mesh_intersection_mm3": 3.954727950767844,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "pair_id": 64763,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_mount_2_rear_washer",
+      "mesh_intersection_mm3": 2.9454808411115765e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64774,
+      "a": "R25_neck_upper_PEEK_comb_housing",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 5.841160888309105e-14,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64808,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_neck_upper_PEEK_retainer",
+      "mesh_intersection_mm3": 4.973799150320701e-14,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64832,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P1",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64833,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P2",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64834,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P3",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64835,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P4",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64836,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S01",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64837,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S02",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64838,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S03",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64839,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S04",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64840,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S05",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64841,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S06",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64842,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S07",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64843,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S08",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64844,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S09",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64845,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S10",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64846,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S11",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64847,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S12",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64848,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S13",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64849,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S14",
+      "mesh_intersection_mm3": 1.1102230246251565e-16,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64850,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S15",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64851,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S16",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64852,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S17",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64853,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S18",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64854,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S19",
+      "mesh_intersection_mm3": 1.1102230246251565e-16,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64855,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S20",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64856,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S21",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64857,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S22",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64858,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S23",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64859,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S24",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64860,
+      "a": "R25_neck_upper_VMQ_comb_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_S25",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Declared installed soft bore to matching conductor contact"
+    },
+    {
+      "pair_id": 64863,
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R25_neck_upper_retainer_1_washer",
+      "mesh_intersection_mm3": 1.7071955828174e-14,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64869,
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R25_neck_upper_retainer_2_washer",
+      "mesh_intersection_mm3": 1.528898535552159e-14,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64883,
+      "a": "R25_neck_upper_PEEK_retainer",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 64917,
+      "a": "R25_neck_upper_retainer_1_washer",
+      "b": "R25_neck_upper_retainer_1_M2x6",
+      "mesh_intersection_mm3": 3.067418010132411e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65024,
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "R25_neck_upper_mount_1_M2x18",
+      "mesh_intersection_mm3": 8.509369088733056e-16,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65039,
+      "a": "R25_neck_upper_mount_1_front_washer",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 2.0816681711721685e-17,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65073,
+      "a": "R25_neck_upper_mount_1_rear_washer",
+      "b": "R25_neck_upper_mount_1_M2_nut",
+      "mesh_intersection_mm3": 6.661338147750939e-16,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65123,
+      "a": "R25_neck_upper_mount_1_M2_nut",
+      "b": "R25_neck_upper_mount_1_M2x18",
+      "mesh_intersection_mm3": 1.8078645517536742,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "pair_id": 65220,
+      "a": "R25_neck_upper_retainer_2_washer",
+      "b": "R25_neck_upper_retainer_2_M2x6",
+      "mesh_intersection_mm3": 8.6245275854259125e-16,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65315,
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "R25_neck_upper_mount_2_M2x18",
+      "mesh_intersection_mm3": 1.4447433566947573e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65324,
+      "a": "R25_neck_upper_mount_2_front_washer",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 1.5543122344752192e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65358,
+      "a": "R25_neck_upper_mount_2_rear_washer",
+      "b": "R25_neck_upper_mount_2_M2_nut",
+      "mesh_intersection_mm3": 2.0539125955565396e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65402,
+      "a": "R25_neck_upper_mount_2_M2_nut",
+      "b": "R25_neck_upper_mount_2_M2x18",
+      "mesh_intersection_mm3": 1.8078657235426085,
+      "classification": "M2 thread engagement, retained diameters"
+    },
+    {
+      "pair_id": 65487,
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R25_neck_upper_P5_VMQ_installed",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65490,
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R25_neck_upper_power_pair_band_1",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65492,
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R25_neck_upper_power_pair_band_2",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65494,
+      "a": "R25_neck_upper_P5_PEEK_film",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65530,
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R25_neck_upper_power_pair_band_1",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65532,
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R25_neck_upper_power_pair_band_2",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65566,
+      "a": "R25_neck_upper_P5_VMQ_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "mesh_intersection_mm3": 0.004429533291209332,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 65568,
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R25_neck_upper_P6_VMQ_installed",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65569,
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R25_neck_upper_power_pair_band_1",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65571,
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R25_neck_upper_power_pair_band_2",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65573,
+      "a": "R25_neck_upper_P6_PEEK_film",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65607,
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R25_neck_upper_power_pair_band_1",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65609,
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R25_neck_upper_power_pair_band_2",
+      "mesh_intersection_mm3": 0.0,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65644,
+      "a": "R25_neck_upper_P6_VMQ_installed",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "mesh_intersection_mm3": 0.004973313196016725,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 65645,
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_neck_upper_power_pair_knot_1",
+      "mesh_intersection_mm3": 0.6875539841281026,
+      "classification": "Same lacing loop and zero-extra-mass knot envelope"
+    },
+    {
+      "pair_id": 65648,
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 1.7763568394002505e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65680,
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "mesh_intersection_mm3": 0.0003369570904658707,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 65681,
+      "a": "R25_neck_upper_power_pair_band_1",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "mesh_intersection_mm3": 0.0003791500799729203,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 65718,
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_neck_upper_power_pair_knot_2",
+      "mesh_intersection_mm3": 0.6875539841281026,
+      "classification": "Same lacing loop and zero-extra-mass knot envelope"
+    },
+    {
+      "pair_id": 65719,
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_neck_upper_6061_bottom_bridge",
+      "mesh_intersection_mm3": 8.881784197001252e-15,
+      "classification": "Specific relocated guide/fastener/liner mating seat; reviewed named pair"
+    },
+    {
+      "pair_id": 65751,
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_HEAD_BOTTOM_FIXED_P5",
+      "mesh_intersection_mm3": 0.0003369570904660596,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 65752,
+      "a": "R25_neck_upper_power_pair_band_2",
+      "b": "R25_HEAD_BOTTOM_FIXED_P6",
+      "mesh_intersection_mm3": 0.00037915007997286717,
+      "classification": "Native STEP zero volume; triangulation seating artifact"
+    },
+    {
+      "pair_id": 66117,
+      "a": "R25_HEAD_BOTTOM_FIXED_S06",
+      "b": "R25_HEAD_BOTTOM_FIXED_S07",
+      "mesh_intersection_mm3": null,
+      "classification": "Retried native STEP positive separation; narrow tolerance remains"
+    }
+  ],
+  "unresolved": [],
+  "sources": {
+    "motion/rigid_final/result.json": "c476c469e08f8d6aa003b22daf6839410447290914e27f444f75d6ef9d099b65",
+    "native_contact_review.json": "31b8e53d1035d00ea1bceb1609b7fcdafcc57f2d0edfd77b0fd4f762a10319ff",
+    "gap_retry.json": "e1e6b8dde04706c3d7f4754013e406011c8f11200203616a822ac96f1f1948cd",
+    "review_motion.py": "2eb1e1d8a25a0db76099dd469f56f0dd64dc42535141b6e44a7a0bc6ab7ec879"
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

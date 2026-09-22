@@ -1,0 +1,192 @@
+[
+  {
+    "source": "work/r25-bottom-head-entry/mechanics/STEP_毫米/R25_neck_upper_6061_bottom_bridge.step",
+    "target": "hardware/r25-bottom-head-entry/machining/bottom-entry-bridge.step",
+    "sha256": "26625e7fba6c52e48f9fae334668b7f230dbfab8e6aeb33ffc0464d76d43336f"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/mechanics/R25_top_head_shell_closed_side.3mf",
+    "target": "hardware/r25-bottom-head-entry/print/R25_top_head_shell_closed_side.3mf",
+    "sha256": "86ad02ce08dc31d3823208a57fb499c6322dc86232f2e03daf82aafd22ebebb1"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/mechanics/R25_lower_head_shell_bottom_entry.3mf",
+    "target": "hardware/r25-bottom-head-entry/print/R25_lower_head_shell_bottom_entry.3mf",
+    "sha256": "21f3ff330471ddd188dd0b62fb2e0d2a24c0da39346d214fe20f7c2460e3e341"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/01_R25_完整装配.png",
+    "target": "hardware/r25-bottom-head-entry/images/01-complete-assembly.png",
+    "sha256": "821f486067ebe9fc2fa6f1ceb17b48610c9d440e1a244e4c024d9f30d9f51f92"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/02_R25_头部摄像头前盖.png",
+    "target": "hardware/r25-bottom-head-entry/images/02-head-camera-cover.png",
+    "sha256": "eb9cef575a5a867f34dd0a178f9443bbf15b8fdcb4529ccffa8a8f341e32f0a8"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/03_R25_头部底部走线.png",
+    "target": "hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png",
+    "sha256": "32376b1702a3354eac5632ac8d7504f2b42035a712c9c97de7695aac0c04e83f"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/R25_头部底部入口与装配.pdf",
+    "target": "hardware/r25-bottom-head-entry/documents/dimensions-and-assembly.pdf",
+    "sha256": "18c22ee7e4ccab045339ad04c4f588c69c8f4ec50613e859ef712d9b01891843"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/Mechanical_BOM_R25.csv",
+    "target": "hardware/r25-bottom-head-entry/documents/mechanical-geometry-BOM.csv",
+    "sha256": "6f4f65ba7d69dda062ff72d4a09cda7d8ce79d8050e5e564907951f89e412147"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/Conductor_Cut_Candidate_R25.csv",
+    "target": "hardware/r25-bottom-head-entry/documents/conductor-cut-candidate.csv",
+    "sha256": "e6e194d41bad5eef9fcc73604266af8609781c53dad45d0af947512e46edb3e2"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/routing_contract.json",
+    "target": "hardware/r25-bottom-head-entry/verification/routing_contract.json",
+    "sha256": "9493459828aff60bd81654120aa02357c18e99ae0c822adf1444f6fb83c99518"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/mass_delta.json",
+    "target": "hardware/r25-bottom-head-entry/verification/mass_delta.json",
+    "sha256": "f2771d06dd4955cb87dce9faeaf7bcd69ba2fcad21de904aba272d63481ea927"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/delivery_verification.json",
+    "target": "hardware/r25-bottom-head-entry/verification/delivery_verification.json",
+    "sha256": "6412fcaa4f79a91a00414de8bf2e6ca112791abfd51c72b587824707172a5c56"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/native_contact_review.json",
+    "target": "hardware/r25-bottom-head-entry/verification/native_contact_review.json",
+    "sha256": "31b8e53d1035d00ea1bceb1609b7fcdafcc57f2d0edfd77b0fd4f762a10319ff"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/motion_contact_review.json",
+    "target": "hardware/r25-bottom-head-entry/verification/motion_contact_review.json",
+    "sha256": "c1e2b998237b08786ba3a934921c687146778287e13831deed9a29e1e1b4ab4c"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/mouth_check.json",
+    "target": "hardware/r25-bottom-head-entry/verification/mouth_check.json",
+    "sha256": "1f67b9cb32061f9174b75db3ca2751f100f4c6b05ef01cbcc7bb8f92f236cacb"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/tool_access.json",
+    "target": "hardware/r25-bottom-head-entry/verification/tool_access.json",
+    "sha256": "2dc1fbca03e7718da0d5818582ec642a201e4dae7a99716b0f83be0cf3e71f63"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/tail_validation.json",
+    "target": "hardware/r25-bottom-head-entry/verification/tail_validation.json",
+    "sha256": "ba3a019d66072b13c4b8d1912be05f4624cc4fe51164906c79239fc2b8b50ee4"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/gap_retry.json",
+    "target": "hardware/r25-bottom-head-entry/verification/gap_retry.json",
+    "sha256": "e1e6b8dde04706c3d7f4754013e406011c8f11200203616a822ac96f1f1948cd"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/rigid_geometry_identity.json",
+    "target": "hardware/r25-bottom-head-entry/verification/rigid_geometry_identity.json",
+    "sha256": "d22139ec5755e6d7f225ca2badf1db8e77af4c1cdf07da2b2123947f479c8a3e"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/readback.json",
+    "target": "hardware/r25-bottom-head-entry/verification/Blender-readback.json",
+    "sha256": "73abd887b84261d8068b8135089df762bbd7a7b8972d0472830ba0695b5845d5"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/flex/compact_bundle_family/finite9_summary.json",
+    "target": "hardware/r25-bottom-head-entry/verification/finite9-wire-summary.json",
+    "sha256": "d5681c96d5e27714afdb579c34f1bc1ec6ffe7ffc2a4aaaf1ad903455e500dcb"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/flex/compact_bundle_home/validation.json",
+    "target": "hardware/r25-bottom-head-entry/verification/HOME-wire-validation.json",
+    "sha256": "3d10608719aa54e2152debdca62485317c64b4b9d4add9029780119757ee8be0"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/build_mechanics.py",
+    "target": "hardware/r25-bottom-head-entry/sources/build_mechanics.py",
+    "sha256": "b0a4ab8e2780e844f26f6d86729f82bb5a1f7b723370b246b2a431e3795b5bca"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/build_tails.py",
+    "target": "hardware/r25-bottom-head-entry/sources/build_tails.py",
+    "sha256": "52f613bc504922b31df352f75dc2a67ede0212700f51cf7d76b0a5316109c682"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/select_compact.py",
+    "target": "hardware/r25-bottom-head-entry/sources/select_compact.py",
+    "sha256": "1e794d151c654dc3054159319e8ccb8adeeb8eeb8ef2938f00e696426d3679e5"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/verify_delivery.py",
+    "target": "hardware/r25-bottom-head-entry/sources/verify_delivery.py",
+    "sha256": "11a0aefc43e985096b5a7e5d5a3b4bafa7fc58eeb0e015c02406dc9ae1f8b076"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/wire_ledger.py",
+    "target": "hardware/r25-bottom-head-entry/sources/wire_ledger.py",
+    "sha256": "55fddb750e1fcd89896af88415c322ab9df8855b8234eec70d38b18f788fa90a"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/mass_report.py",
+    "target": "hardware/r25-bottom-head-entry/sources/mass_report.py",
+    "sha256": "3fe83c8d76e473d65b66e70860d8e20800a4e51991f77a93dfca2179995b22cc"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/check_candidate.py",
+    "target": "hardware/r25-bottom-head-entry/sources/check_candidate.py",
+    "sha256": "a04eda7f8388740e991e5103c3a947a5edcbdc067e95accef3267ee616e56193"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/check_native_contacts.py",
+    "target": "hardware/r25-bottom-head-entry/sources/check_native_contacts.py",
+    "sha256": "3de6665ae84ab79f7c9a4f7b39b19250a7c73288ea829b7a5655fbdaeb62dd6d"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/check_mouth.py",
+    "target": "hardware/r25-bottom-head-entry/sources/check_mouth.py",
+    "sha256": "22555edb2c3374f1435d83d2f4df9fed32f0de6a567e2e1fe83251889aa095cf"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/check_tools.py",
+    "target": "hardware/r25-bottom-head-entry/sources/check_tools.py",
+    "sha256": "c018cb2b51e8b8ddac7e6b0c861a0e5acc04ddabd85cffe52a1d78128efa68b9"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/verify_tails.py",
+    "target": "hardware/r25-bottom-head-entry/sources/verify_tails.py",
+    "sha256": "012b4e04334d7ab520b1fe368cbdbc7d26315a8a436f567918c16034fabf307a"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/review_motion.py",
+    "target": "hardware/r25-bottom-head-entry/sources/review_motion.py",
+    "sha256": "2eb1e1d8a25a0db76099dd469f56f0dd64dc42535141b6e44a7a0bc6ab7ec879"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/retry_gap.py",
+    "target": "hardware/r25-bottom-head-entry/sources/retry_gap.py",
+    "sha256": "96fd04fe36a85e2cb3646b827c5f7e0a90b88c6192ca32b41e563d24c5336c90"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/drawings.py",
+    "target": "hardware/r25-bottom-head-entry/sources/drawings.py",
+    "sha256": "683c9d5f1a2e392389616beb121f0d80291bdb076674d01544b25a5ba519f574"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/build_viewer.py",
+    "target": "hardware/r25-bottom-head-entry/sources/build_viewer.py",
+    "sha256": "aebd4193c29cbd1d1a77f1f655d50becc4f6aa87adcf9ab6cd7b8f5de86000c5"
+  },
+  {
+    "source": "work/r25-bottom-head-entry/visual/readback.py",
+    "target": "hardware/r25-bottom-head-entry/sources/readback.py",
+    "sha256": "4ba0c477d0d1b26102d274043cbe63e1150ae025a6baf33a3a6e0d0d29aa8185"
+  }
+]
