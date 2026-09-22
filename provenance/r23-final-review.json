@@ -1,0 +1,140 @@
+{
+  "status": "ROOT_FINAL_DESIGN_REVIEW_COMPLETE",
+  "review_outcome": "PASS_WITH_LIMITS",
+  "selection_sha256": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+  "installed_object_count": 1189,
+  "service_or_free_reference_count": 17,
+  "evidence": {
+    "rear_geometry_delivery": {
+      "path": "work/r23-power-integration/thermal/rear_load_revision/DELIVERY_INDEX.json",
+      "sha256": "ddca9a70e9a3c52a80df424b12dea9fd5259c33946ff6dcc63bd911caddaf62e",
+      "expand_file_table": true
+    },
+    "main_bracket_delivery": {
+      "path": "work/r23-power-integration/mechanics/final_load_reinforcement/DELIVERY_INDEX.json",
+      "sha256": "8674fdf1a7fec49d12d7bd84937cd820c73054b367d3c165822406e57815d5e7",
+      "expand_file_table": true
+    },
+    "harness_corrections": {
+      "path": "work/r23-power-integration/harness/dynamic_relief_final/DELIVERY_INDEX.json",
+      "sha256": "e20e0b0bdb74cb250f231af665230b7ccbcc83f774bac44e4e7b2f7d7f747377",
+      "expand_file_table": true
+    },
+    "H05_bridge_correction": {
+      "path": "work/r23-power-integration/review/final_rigid_01/narrow_pair_audit/h05_relief_candidate/DELIVERY_INDEX.json",
+      "sha256": "ec1e83b4db03ed367322279d40823d807df2eb2b1157cfcf8c97c82787d37bd0",
+      "expand_file_table": true
+    },
+    "rigid_review": {
+      "path": "work/r23-power-integration/review/final_rigid_01/FINAL_REVIEW.json",
+      "sha256": "642974412a32e9426e8362347d4867dce90bb439bb033fd7e8cf8bff4a8e8880"
+    },
+    "flex_review": {
+      "path": "work/r23-power-integration/review/final_flex_04/Verification.json",
+      "sha256": "2dec114c6201bb0401fc59095ac81e16cf432655632883a235b450c9cd49e211",
+      "expand_file_table": true
+    },
+    "independent_flex_review": {
+      "path": "work/r23-power-integration/harness/review/flex_revision_review/freeze.json",
+      "sha256": "de5e5fecd76751e68fd8a372fdc4d6c2f0a6794f72e7f21223413eb175016c4f",
+      "expand_file_table": true
+    },
+    "mass_review": {
+      "path": "work/r23-power-integration/integration/mass_final/Review_Index.json",
+      "sha256": "05890075c4414ab95b4d284b8c3b413b2ee01a383d5785c9d84d67412928a398",
+      "expand_file_table": true
+    },
+    "torque_review": {
+      "path": "work/r23-power-integration/integration/torque_final/Review_Index.json",
+      "sha256": "822259a2db1839153b693643ec4ffb85c8cf544c43c3785f00ccc7a5ffe0f222",
+      "expand_file_table": true
+    },
+    "thermal_air_budget": {
+      "path": "work/r23-power-integration/thermal/final_air_and_load_rebind/DELIVERY_INDEX.json",
+      "sha256": "1d244dd4bb5080c0f6ce431c06a1823c9b48ff189740c8cfef02f6f5cbccd74e",
+      "expand_file_table": true
+    },
+    "visual_model": {
+      "path": "work/r23-power-integration/visual/Microduck_R23_电源集成设计.blend",
+      "sha256": "8707d4e65028aa147aa774e8872ad521fad11d944c89bd92876a0ebba0d3435d"
+    },
+    "visual_readback": {
+      "path": "work/r23-power-integration/visual/readback.json",
+      "sha256": "6aca3ea6258973c70e2c7d435ea4158ea87bc762a907b9dd724b64afa8172099"
+    },
+    "part_catalog": {
+      "path": "work/r23-power-integration/delivery/Part_Catalog.json",
+      "sha256": "5c6fd64e3def1ae9cc8f1ebbcbaf37625228f22131a2657cafc1b7dd195c60c1"
+    },
+    "delivery_readme": {
+      "path": "work/r23-power-integration/delivery/R23_工程交付说明.md",
+      "sha256": "e96f4a995a50247882301d68ad721249438a3d360cdaeeb0da60b464d308d194"
+    },
+    "retained_geometry_binding": {
+      "path": "work/r23-power-integration/review/Retained_Baseline_Binding.json",
+      "sha256": "1006307cdc097a89ca17341fc7016625f9a14277e91005e95a216d9640a38eaf",
+      "expand_file_table": true
+    },
+    "analytic_wire_centerlines": {
+      "path": "work/r23-power-integration/review/dynamic_wire_centerline_review/review.json",
+      "sha256": "e6e805d0445d64b1b0962294886b2edd0fc7b7cd9fc60d50a077177f9f227d10",
+      "expand_file_table": true
+    },
+    "rigid_source_delivery": {
+      "path": "work/r23-power-integration/review/final_rigid_01/DELIVERY_INDEX.json",
+      "sha256": "c242b4bc90e120c4feecb55a86034e275cb9e7b3b9f0e77c5539046f5098970e",
+      "expand_file_table": true
+    },
+    "rigid_reproduction_sources": {
+      "path": "work/r23-power-integration/review/final_rigid_01/Source_Chain.json",
+      "sha256": "7d41048b98d329389ea3e71f97d1a83530aa8316cd39b492b2fe654666116186",
+      "expand_file_table": true
+    },
+    "rear_final_load_rebind": {
+      "path": "work/r23-power-integration/integration/mass_final/rear_v10_final_rebind/DELIVERY_INDEX.json",
+      "sha256": "b9a3dd3edf043401e913c8451d47e66ea4688a663af2ea9b7e96c76e41b033da",
+      "expand_file_table": true
+    },
+    "W1_copper_heat_sensitivity": {
+      "path": "work/r23-power-integration/thermal/w1_copper_loss_sensitivity/DELIVERY_INDEX.json",
+      "sha256": "b0cd7e6de66ca71719098bbb9f0f6ee448048514072f8240880133e8e46506c4",
+      "expand_file_table": true
+    },
+    "final_errata": {
+      "path": "work/r23-power-integration/delivery/Final_Errata.json",
+      "sha256": "33369b57e88d07a3fb30dcd6925fff1711e59f503bbf153c397b6b18149cb0c7",
+      "expand_file_table": true
+    }
+  },
+  "limits": [
+    "Engineering design review and source delivery only. No physical manufacture, measured endurance, continuous low-battery motor torque, thermal qualification, trained-policy or walking acceptance.",
+    "One inherited shell/mouth pair retains an approximately1.40mm gap below the2.2mm target; the new window adds no material there. H05/cradle0.502710mm is a fixed assembly gap with an explicit dimensional allocation, not a blanket2.2mm pass.",
+    "Four converter internal Tc geometric interfaces remain OPEN pending actual vendor/first-article dimensions, contact, insulation and preload validation.",
+    "Thirty retained nominal motor/active-ear/idler interfaces remain unproved. Retained geometry identity does not qualify unknown interfaces.",
+    "The original85% torque-utilization and8mm single-support static COP margin targets are not restored. Motor continuous capacities remain unmeasured; prescribed inverse dynamics is not forward contact walking or controller validation.",
+    "The31 free wires are checked at81 independent shapes and with a separate whole-leg joint-box enclosure. These do not prove every elastic transition, wire force, abrasion or fatigue behavior.",
+    "Main and rear loads use stated materials, local sections, force/COM envelopes and preload assumptions. Full-body FEA, manufacturing tolerances, thermal preload upper windows, PEEK creep and fatigue remain physical acceptance work.",
+    "Rear v10 loads are recomputed with final row-level serial mass paths and final COM, rather than reusing the historical1N bucket comparison as the current joint qualification.",
+    "W1 copper heat at imposed105C resistance and11.5A is0.330324W, delta0.103082W. The two mutually exclusive upstream-heat sensitivities do not predict actual wire temperature, local hotspots or whole-robot cooling.",
+    "Fuse interruption versus battery fault current, terminal tooling, hot contact resistance, sensor lag/under-reading, cooling and1–2hour battery endurance require prototype tests.",
+    "Final59-row conductor table and8-page correction supplement supersede two old wire rows. Source dependencies and historical candidates are not extra installed parts.",
+    "The final errata corrects an earlier W1 summary to the actual whole-box minimum2.275125963mm;2.493111109mm was one accepted sub-box only. The final wire PDF already records the correct minimum.",
+    "Electronics inherit11 board types and12 physical boards. R23 changes no PCB routing and does not claim a new DRC/ERC run."
+  ],
+  "mass_scenario_kg": 4.399406422251374,
+  "COM_HOME_mm": [
+    1.5582348112035884,
+    -1.7754139521109575,
+    22.552305031789025
+  ],
+  "prescribed_trajectory_samples": 8399,
+  "maximum_utilization": {
+    "gravity": 0.9204094572373466,
+    "prescribed_inverse_dynamics": 0.9321360750393057
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "source_hashes": {
+    "work/r23-power-integration/publication/finalize_root_review.py": "25faf97e41a7952e86e1700587db108df4ce81618d0ba892bc926ff8ef1312b2"
+  }
+}

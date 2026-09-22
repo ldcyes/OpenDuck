@@ -1,0 +1,29 @@
+{
+  "release": "https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922",
+  "assets": [
+    {
+      "name": "R23-engineering-design.zip",
+      "source": "work/r23-power-integration/publication/release-assets/R23-engineering-design.zip",
+      "sha256": "31a8c5417633167970e5c7cdd3254de21fc7b1365000de9b85ee8c76240c744a",
+      "bytes": 682616841,
+      "description": "完整源CAD、图册、线束、检查与来源映射",
+      "url": "https://github.com/ldcyes/OpenDuck/releases/download/r23-integrated-power-design-20260922/R23-engineering-design.zip"
+    },
+    {
+      "name": "Microduck-R23-integrated-design.blend",
+      "source": "work/r23-power-integration/publication/release-assets/Microduck-R23-integrated-design.blend",
+      "sha256": "8707d4e65028aa147aa774e8872ad521fad11d944c89bd92876a0ebba0d3435d",
+      "bytes": 149106959,
+      "description": "可独立打开、逐件选择的完整静态装配",
+      "url": "https://github.com/ldcyes/OpenDuck/releases/download/r23-integrated-power-design-20260922/Microduck-R23-integrated-design.blend"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "source": "work/r23-power-integration/publication/release-assets/SHA256SUMS.txt",
+      "sha256": "764745fb66f6390d3026d6e169de8609c62d0f103e450f97f7be38de4c6d7742",
+      "bytes": 197,
+      "description": "附件SHA256",
+      "url": "https://github.com/ldcyes/OpenDuck/releases/download/r23-integrated-power-design-20260922/SHA256SUMS.txt"
+    }
+  ]
+}

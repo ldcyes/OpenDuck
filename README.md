@@ -2,9 +2,9 @@
 
 本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
-**本次更新：[R22紧凑电源候选](hardware/r22-candidate/README.md) · [模型与完整工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r22-compact-power-candidate-20260914)。**
+**本次更新：[R23合板支架、线束与热连接](hardware/r23-design/README.md) · [完整工程与模型下载](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922)。**
 
-| 范围 | 当前基线 | 已有结果与边界 |
+| 范围 | 早期基线（R23补充见上方入口） | 已有结果与边界 |
 |---|---|---|
 | 结构与装配 | R20 / R13.7 | 557件，名义质量4.195094 kg；72对参考窄/未证、34对实际名义接口仍保留 |
 | 运动 | R21 / R13.8 | 实际身体侧倾与上头壳固定点横摆均减少约28.6%；慢速四步195.44 s；四种数值工况通过，原40%/30%目标未达到 |
@@ -59,7 +59,7 @@ R8软件保留其原profile、限位、策略及标定门禁。代码、模拟�
 
 [R22工程入口](hardware/r22-candidate/README.md)提供新的52×42 mm入口板、舵机电源与回生阶梯合板、原生KiCad/原理图/本地库、Gerber/钻孔和实际安装CAD。本次三个旧板改为两个候选板，总板面积减少14.01%；两块候选的冻结ERC/DRC及额外检查为0。原R13十二种板与R20/R21基线资料继续保留。
 
-新增几何对原R21轨迹关节范围的93,595个动态配对满足≥2.2 mm的保守间隙证据；完整模型为733项装态几何/包络，并非733件制造BOM。这是几何复核，尚未按R22质量重新求解步态，也没有样机制造、温升、回生或行走验收。合板到机身主支架、完整线束及热连接仍需闭合。
+新增几何对原R21轨迹关节范围的93,595个动态配对满足≥2.2 mm的保守间隙证据；完整模型为733项装态几何/包络，并非733件制造BOM。这是几何复核，尚未按R22质量重新求解步态，也没有样机制造、温升、回生或行走验收。这些连接在R22交付时未闭合；后续工程设计见[R23入口](hardware/r23-design/README.md)，其物理验收边界另列。
 
 - [R22独立预发布](https://github.com/ldcyes/OpenDuck/releases/tag/r22-compact-power-candidate-20260914)：[完整工程ZIP](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-engineering-candidate.zip)、[可独立打开的静态Blender装配](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/Microduck-R22-static-candidate.blend)、[两板制造与检查包](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/R22-PCB-review.zip)、[SHA256](https://github.com/ldcyes/OpenDuck/releases/download/r22-compact-power-candidate-20260914/SHA256SUMS.txt)。
 - [入口板安装](hardware/r22-candidate/mechanics/entry_mount/README.md)、[电容托架最终组合](hardware/r22-candidate/mechanics/motion_delta/CAP_FINAL_SUPPLEMENT.md)、[制造与验收边界](hardware/r22-candidate/fabrication/README.md)。

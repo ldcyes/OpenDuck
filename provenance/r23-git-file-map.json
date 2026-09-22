@@ -1,0 +1,101 @@
+{
+  "status": "SOURCE_BYTES_PRESERVED",
+  "files": [
+    {
+      "source": "work/r23-power-integration/visual/02_R23_合板支架与热连接.png",
+      "repository_path": "hardware/r23-design/images/02-main-thermal.png",
+      "sha256": "9cc0e16ccda1f618fa745116992fbbc370830b045c5db0401a0592e611e27d47",
+      "bytes": 1842081
+    },
+    {
+      "source": "work/r23-power-integration/visual/01_R23_完整装配.png",
+      "repository_path": "hardware/r23-design/images/01-complete-assembly.png",
+      "sha256": "d2b5d0216d35b3ec2ead5332756fbbc4995ccef27eb92cf630a6800ba929a5de",
+      "bytes": 1739900
+    },
+    {
+      "source": "work/r23-power-integration/visual/03_R23_线束与电源接口.png",
+      "repository_path": "hardware/r23-design/images/03-wiring.png",
+      "sha256": "d6163010af57d2c69a1b4483caacbcab8367aec6ee7a0b6e2b83ad7baabc572e",
+      "bytes": 1828038
+    },
+    {
+      "source": "work/r23-power-integration/mechanics/final_load_reinforcement/R23_主支架补强_尺寸与载荷复核.pdf",
+      "repository_path": "hardware/r23-design/documents/main-bracket-dimensions-and-load.pdf",
+      "sha256": "74614214266685308929dc507dcfa05e54a849e3552e3875e49b07e0c7ed3549",
+      "bytes": 215827
+    },
+    {
+      "source": "work/r23-power-integration/thermal/rear_load_revision/candidate_v10/documents/R23_rear_mount_dimensions_and_assembly.pdf",
+      "repository_path": "hardware/r23-design/documents/rear-mount-dimensions-and-assembly.pdf",
+      "sha256": "3f499c2650f9335895a0c863f789f457d44f95a1516eefb108424755ddb61623",
+      "bytes": 608433
+    },
+    {
+      "source": "work/r23-power-integration/thermal/rear_load_revision/clamp_review/Rear_carrier_v10_load_review_2p.pdf",
+      "repository_path": "hardware/r23-design/documents/rear-mount-load-review.pdf",
+      "sha256": "cf51dcbcfd05642389931da62b5032f5eec84fa2dce304c99192b423e538dc5f",
+      "bytes": 79063
+    },
+    {
+      "source": "work/r23-power-integration/harness/final/R23_Harness_Wiring_and_Process.pdf",
+      "repository_path": "hardware/r23-design/documents/harness-process-base.pdf",
+      "sha256": "d2ae65aefc77319b3c12452c0122b95d92ab984532fd988a7057f7e728888b7d",
+      "bytes": 225462
+    },
+    {
+      "source": "work/r23-power-integration/delivery/R23_部件与制造资料索引.csv",
+      "repository_path": "hardware/r23-design/documents/part-catalog.csv",
+      "sha256": "3d89a75f29a643763f8bc776e80e9b417f6bf1ac04e6bb626ea7643d9fb99108",
+      "bytes": 709740
+    },
+    {
+      "source": "work/r23-power-integration/harness/dynamic_relief_final/Complete_Conductor_Cut_Table.csv",
+      "repository_path": "hardware/r23-design/documents/complete-conductor-cut-table.csv",
+      "sha256": "81c812afee675229b7d9e722ecf35b00ce04d0e69dea3a729159bb4c0c81ce8e",
+      "bytes": 20507
+    },
+    {
+      "source": "work/r23-power-integration/harness/dynamic_relief_final/R23_Dynamic_Relief_and_Current_Cut_Table.pdf",
+      "repository_path": "hardware/r23-design/documents/dynamic-wire-corrections-and-cut-table.pdf",
+      "sha256": "daeb7ec21335f199e6b3a19c53e2e491dba4d57a40f93dbcba484c1f5ce5f1f9",
+      "bytes": 211036
+    },
+    {
+      "source": "work/r23-power-integration/review/final_rigid_01/narrow_pair_audit/h05_relief_candidate/H05_让位补强尺寸图.svg",
+      "repository_path": "hardware/r23-design/documents/h05-mouth-relief-dimensions.svg",
+      "sha256": "a0f0684cbfedee3cc5540377984fe873901b124df0119ced62743707e28e5a26",
+      "bytes": 2342
+    },
+    {
+      "source": "work/r23-power-integration/delivery/R23_最终勘误.md",
+      "repository_path": "hardware/r23-design/documents/final-errata.md",
+      "sha256": "b76581935a16b246b469de0c3c0ba32a3ce1697ccbd145eb12e1a6a8928c2c96",
+      "bytes": 913
+    },
+    {
+      "source": "work/r23-power-integration/thermal/w1_copper_loss_sensitivity/README_zh.md",
+      "repository_path": "hardware/r23-design/documents/w1-copper-heat-sensitivity.md",
+      "sha256": "bf9ab8fd8a9f11bc6efd838f217beed1b490d34afeb2cd4f00dc33da26effaed",
+      "bytes": 1911
+    },
+    {
+      "source": "work/r23-power-integration/integration/mass_final/rear_v10_final_rebind/README_zh.md",
+      "repository_path": "hardware/r23-design/documents/final-rear-load-rebind.md",
+      "sha256": "dba0c1436f07c53aff4e82bd11437850c726157ee757f178b4ffee7769e10436",
+      "bytes": 5010
+    },
+    {
+      "source": "work/r23-power-integration/publication/source_mapping.json",
+      "repository_path": "provenance/r23-source-mapping.json",
+      "sha256": "a546ec072f055a3263b5c81ecf2b28e98e7abc12a4af316f3fcb6bd7194c4f94",
+      "bytes": 3395601
+    },
+    {
+      "source": "work/r23-power-integration/publication/root_final_review.json",
+      "repository_path": "provenance/r23-final-review.json",
+      "sha256": "213b86bd695036250767e35452833b65ef1eaba792a4036a20f10098458c0606",
+      "bytes": 8220
+    }
+  ]
+}
