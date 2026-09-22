@@ -1,0 +1,132 @@
+[
+  {
+    "source": "work/r24-head-front/geometry/R24_Microduck_front_face_camera_carrier.3mf",
+    "target": "hardware/r24-head-front/print/front-face-camera-carrier.3mf",
+    "sha256": "87bbda17b7d8ceeddd1002fb61611f12d2901ef702529a6ad2ef90db98b04c04"
+  },
+  {
+    "source": "work/r24-head-front/geometry/R24_black_camera_eye_bezel.3mf",
+    "target": "hardware/r24-head-front/print/black-camera-eye-bezel.3mf",
+    "sha256": "d9620578d670576c7554444499eeececaf506a756fded6e83d8f156ed2e20ded"
+  },
+  {
+    "source": "work/r24-head-front/geometry/R24_top_head_shell_front_cover_lugs.3mf",
+    "target": "hardware/r24-head-front/print/top-head-shell-with-lugs.3mf",
+    "sha256": "e23ab85f0661beefd04623a0ac85cb1691b12984a0e1f4344f94f5cb78f732e7"
+  },
+  {
+    "source": "work/r24-head-front/BOM.csv",
+    "target": "hardware/r24-head-front/documents/BOM.csv",
+    "sha256": "f76d12a819dc6f52ffda4afcb755edcd7428906b753e46a3103a628c08cb214e"
+  },
+  {
+    "source": "work/r24-head-front/R24_前盖尺寸与装配.pdf",
+    "target": "hardware/r24-head-front/documents/dimensions-and-assembly.pdf",
+    "sha256": "022a656e0756a8429d0b1e6560a186ae31fc20e6d8e58038a674250756f8d95c"
+  },
+  {
+    "source": "work/r24-head-front/visual/01_R24_完整装配.png",
+    "target": "hardware/r24-head-front/images/01-complete-assembly.png",
+    "sha256": "6b566165add92c09c2ce50856bb6f3e8b975778ac991fc4aec3e87c613fd91ca"
+  },
+  {
+    "source": "work/r24-head-front/visual/02_R24_头部摄像头前盖.png",
+    "target": "hardware/r24-head-front/images/02-head-camera-cover.png",
+    "sha256": "8bf7fbe0aa7ee9914c30d2bc41b6cd8beb043523659d8dc1f0e02f4512c7729f"
+  },
+  {
+    "source": "work/r24-head-front/manifest.json",
+    "target": "hardware/r24-head-front/verification/manifest.json",
+    "sha256": "f2515fa0d4b23b98429a7e69e2a9849e4f3dd8c5dad66014f91047816e360eb2"
+  },
+  {
+    "source": "work/r24-head-front/mass_delta.json",
+    "target": "hardware/r24-head-front/verification/mass_delta.json",
+    "sha256": "155cd310d3a9fcd10c083dfa0ae4f848f14e6cbb214fdad56bd24790ed2b5f4a"
+  },
+  {
+    "source": "work/r24-head-front/contact_review.json",
+    "target": "hardware/r24-head-front/verification/contact_review.json",
+    "sha256": "981c45a372a8e6b1b30b9421b5f2d317b14318023a273473d29b706780b7388c"
+  },
+  {
+    "source": "work/r24-head-front/detail_checks.json",
+    "target": "hardware/r24-head-front/verification/detail_checks.json",
+    "sha256": "1aec9f69a0d15372e01ef13eba1c1caf8de5b24ce6f2846735136d1b6e930752"
+  },
+  {
+    "source": "work/r24-head-front/static_check.json",
+    "target": "hardware/r24-head-front/verification/static_check.json",
+    "sha256": "022787b64e1a9b4acc83648d74f285f77c575ea1604db61120a8e67e55abe5ae"
+  },
+  {
+    "source": "work/r24-head-front/service_check.json",
+    "target": "hardware/r24-head-front/verification/service_check.json",
+    "sha256": "a84a1940855d50fa678319d4f4d86687964ab7ee2ad2163de0d21446d17d8edb"
+  },
+  {
+    "source": "work/r24-head-front/shell_surface_audit.json",
+    "target": "hardware/r24-head-front/verification/shell_surface_audit.json",
+    "sha256": "63f55df5335b50a7ea28ad9f100e8e58d0d44b8cf1dfa29c2b3bab83f4d3605f"
+  },
+  {
+    "source": "work/r24-head-front/delivery_verification.json",
+    "target": "hardware/r24-head-front/verification/delivery_verification.json",
+    "sha256": "c83c14cdf6854759a0f7e5201f47fa7aa383bda564616819c1430e237c346ea3"
+  },
+  {
+    "source": "work/r24-head-front/build.py",
+    "target": "hardware/r24-head-front/sources/build.py",
+    "sha256": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8"
+  },
+  {
+    "source": "work/r24-head-front/build_report.py",
+    "target": "hardware/r24-head-front/sources/build_report.py",
+    "sha256": "141ab2be8e9bd72f049bb73e36db9723d29800a670a2066e9ea8050e73b369fc"
+  },
+  {
+    "source": "work/r24-head-front/check_static.py",
+    "target": "hardware/r24-head-front/sources/check_static.py",
+    "sha256": "eaa95e3734920d85422726bfcff5392d2beb112ad9bd23672024f18a32ee31b1"
+  },
+  {
+    "source": "work/r24-head-front/check_detail.py",
+    "target": "hardware/r24-head-front/sources/check_detail.py",
+    "sha256": "efddf48763b5b9bcf4fdb0ff93a3c6b638ff6269895aa8c8ba5ac98545f9cdf7"
+  },
+  {
+    "source": "work/r24-head-front/check_service.py",
+    "target": "hardware/r24-head-front/sources/check_service.py",
+    "sha256": "0885887df4bce6f96e754a089a237346e471645552d6a5c648df8c6e67fc9010"
+  },
+  {
+    "source": "work/r24-head-front/audit_shell.py",
+    "target": "hardware/r24-head-front/sources/audit_shell.py",
+    "sha256": "40d9b8dfc1e0f2ba83cfa9bddb5fd204c3f922d14a9093d6c2f13a1535dc53f0"
+  },
+  {
+    "source": "work/r24-head-front/drawings.py",
+    "target": "hardware/r24-head-front/sources/drawings.py",
+    "sha256": "ef5e436e9ede4880dc8089bad068232750e03e7fd9d873715fbd3df8b1c89318"
+  },
+  {
+    "source": "work/r24-head-front/verify_delivery.py",
+    "target": "hardware/r24-head-front/sources/verify_delivery.py",
+    "sha256": "8f9c0c748b8a7db9cdf0a713a4adae9ff1b22a2c127039cdcd1c9998d636409b"
+  },
+  {
+    "source": "work/r24-head-front/visual/readback.json",
+    "target": "hardware/r24-head-front/verification/Blender-readback.json",
+    "sha256": "e20a9644ac256118c54d5aea8d5092e0b7f46aad930000a04f8b9e4915606674"
+  },
+  {
+    "source": "work/r24-head-front/visual/build_viewer.py",
+    "target": "hardware/r24-head-front/sources/build_viewer.py",
+    "sha256": "8cb43fcaa586fec6c97bc91bc0b16196e3f61fd57dec409175619f973260d5a9"
+  },
+  {
+    "source": "work/r24-head-front/visual/readback.py",
+    "target": "hardware/r24-head-front/sources/readback.py",
+    "sha256": "b2708dacccd6fdff4eba8a5992d48f8be0ccecd255e1f3d1a99b5819c8ed38d8"
+  }
+]

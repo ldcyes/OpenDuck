@@ -1,0 +1,572 @@
+{
+  "status": "RIGID_FORWARD_EXTRACTION_NO_INTERSECTION_WITH_CONTINUOUS_BOUNDS_AND_INITIAL_SEAT_PROOF",
+  "source_selection_sha256": "9508e8cee8e98b033c54cacae7c5cd7ee0368554ec8a4cee363720bdd24f96a8",
+  "checker_sha256": "0885887df4bce6f96e754a089a237346e471645552d6a5c648df8c6e67fc9010",
+  "translation_mm": [
+    0,
+    40
+  ],
+  "axis": [
+    1,
+    0,
+    0
+  ],
+  "step_mm": 0.5,
+  "moving_count": 28,
+  "obstacle_count": 1193,
+  "near_pairs": [
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 0.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 0.6738795326753045,
+      "initial_gaps_mm": [
+        0.0,
+        0.5,
+        0.9238795326753045
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_1_M2_captive_nut",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_2_M2_captive_nut",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_3_M2_captive_nut",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_4_M2_captive_nut",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R12_mouth_load_carrier",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R12_lower_head_shell",
+      "minimum_sample_gap_mm": 0.999999990425524,
+      "worst_dx_mm": 8.5,
+      "continuous_bound_after_first_mm": 0.749999990425524,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_1_M2_screw",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_2_M2_screw",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_3_M2_screw",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_4_M2_screw",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_lens",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_1_M2x8",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_1_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_1_M2_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_2_M2x8",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_2_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_2_M2_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_3_M2x8",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_3_M2x8",
+      "b": "R12_mouth_load_carrier",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_3_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_3_M2_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_3_M2_nut",
+      "b": "R12_mouth_load_carrier",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_4_M2x8",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_4_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_eye_4_M2_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_1_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_1_M1p6_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_2_M1p6x14",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_2_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_2_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_2_M1p6_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_3_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_3_M1p6_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_4_M1p6x14",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_4_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_4_washer",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "a": "R24_camera_4_M1p6_nut",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "minimum_sample_gap_mm": 2.0,
+      "worst_dx_mm": 0.0,
+      "continuous_bound_after_first_mm": 1.75,
+      "initial_gaps_mm": [
+        2.0,
+        2.0,
+        2.0
+      ]
+    }
+  ],
+  "intersections": [],
+  "limits": [
+    "Fasteners4M2x10 removed and USB disconnected before extraction; actual cable/mating plug not qualified.",
+    "Initial seating is separately directionally bounded; flexible cable and plug are excluded until disconnected.",
+    "This is a service-space check, not proof of whole-head assembly order or hardware tool standard."
+  ],
+  "initial_seat_directional_proof": {
+    "plate_rear_plane_x_mm": 132.625,
+    "lug_front_plane_x_mm": 132.625,
+    "rear_support_bounds_mm": [
+      [
+        125.0,
+        -24.99194,
+        244.207
+      ],
+      [
+        132.6249999,
+        24.608060000000002,
+        293.807
+      ]
+    ],
+    "minimum_rear_support_lateral_gap_mm": 45.00806,
+    "old_shell_first_mm_continuous_lower_bound_mm": 0.8738795326753045,
+    "method": "PositiveX separates plate/lug supporting planes; supports behind plate remain laterally separated; old shell nearest0.1mm translation samples minus0.05mm."
+  }
+}

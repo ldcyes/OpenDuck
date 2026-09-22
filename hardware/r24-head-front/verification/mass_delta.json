@@ -1,0 +1,496 @@
+{
+  "status": "ENGINEERING_MASS_SCENARIO_NOT_WEIGHED_NOT_GAIT_APPROVAL",
+  "mass_kg": 4.447309764987447,
+  "COM_HOME_mm": [
+    3.008369031780631,
+    -1.7573587629104355,
+    25.220398384110364
+  ],
+  "I_COM_HOME_kg_m2": [
+    [
+      0.1304214538227304,
+      -0.0002476282356722356,
+      -0.012908392569719622
+    ],
+    [
+      -0.00024762823567223564,
+      0.12374085558003453,
+      0.00037168715023615836
+    ],
+    [
+      -0.012908392569719622,
+      0.00037168715023615836,
+      0.03521423283117586
+    ]
+  ],
+  "delta_mass_g": 47.90334273607311,
+  "delta_COM_HOME_mm": [
+    1.4501342205770427,
+    0.01805518920052207,
+    2.668093352321339
+  ],
+  "replaced_old_shell": {
+    "name": "R23_top_head_shell_31wire_window",
+    "link": "jaw_soft",
+    "mass_kg": 0.12982363964754692,
+    "COM_HOME_m": [
+      0.03204573249895971,
+      0.00037941481173762396,
+      0.2842255665342272
+    ],
+    "I_COM_HOME_kg_m2": [
+      [
+        0.0005508975484798108,
+        -1.278131759441093e-06,
+        -9.880325313332738e-05
+      ],
+      [
+        -1.278131759441093e-06,
+        0.0008410847136918605,
+        2.3771813078035445e-06
+      ],
+      [
+        -9.880325313332738e-05,
+        2.3771813078035445e-06,
+        0.0011927818434524973
+      ]
+    ],
+    "mass_basis": "mass_from_CAD_g",
+    "mass_upper_g": null,
+    "source_manifest": "work/r23-power-integration/mechanics_neck_power_pair/head_window/manifest.json",
+    "inertia_basis": "Declared material/purchase mass distributed uniformly within this installed CAD. Native COM and tensor transformed by R/t; engineering approximation, unweighed.",
+    "source_native_com_mm": [
+      32.04573249895971,
+      0.379414811737624,
+      284.2255665342272
+    ],
+    "source_R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_t_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "physical_approved": false,
+    "conductor_id": null,
+    "material_class": "material_or_purchase",
+    "selected_geometry_name": "R23_top_head_shell_31wire_window",
+    "source_geometry_sha256_STEP": null,
+    "source_geometry_sha256_STL": null
+  },
+  "added_material_rows": [
+    {
+      "name": "R24_Microduck_front_face_camera_carrier",
+      "mass_g": 27.378936521693532,
+      "center_mm": [
+        133.50269146866864,
+        0.01994874472094955,
+        268.7505955488116
+      ],
+      "density_g_cm3": 0.93
+    },
+    {
+      "name": "R24_black_camera_eye_bezel",
+      "mass_g": 8.864247781461472,
+      "center_mm": [
+        140.42011499996968,
+        -0.19194000000000394,
+        269.00699999999983
+      ],
+      "density_g_cm3": 0.93
+    },
+    {
+      "name": "R24_top_head_shell_front_cover_lugs",
+      "mass_g": 135.43712713713938,
+      "center_mm": [
+        36.0494698435557,
+        0.36377578386911374,
+        283.66136324534267
+      ],
+      "density_g_cm3": 0.93
+    },
+    {
+      "name": "R24_REFERENCE_OS05A10_module_body",
+      "mass_g": 0.0,
+      "center_mm": [
+        132.05000000000032,
+        -0.19194000000000086,
+        269.0070000000012
+      ],
+      "density_g_cm3": 0
+    },
+    {
+      "name": "R24_REFERENCE_OS05A10_lens",
+      "mass_g": 0.0,
+      "center_mm": [
+        143.10000000000005,
+        -0.19193999999999994,
+        269.00700000000035
+      ],
+      "density_g_cm3": 0
+    },
+    {
+      "name": "R24_face_1_M2x10",
+      "mass_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037435,
+        -79.99999999999999,
+        251.00000000000034
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_1_M2_captive_nut",
+      "mass_g": 0.14977155523901173,
+      "center_mm": [
+        127.92500000000102,
+        -80.00000000000084,
+        251.0000000000034
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_2_M2x10",
+      "mass_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037435,
+        79.99999999999996,
+        251.00000000000034
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_2_M2_captive_nut",
+      "mass_g": 0.14977155523901173,
+      "center_mm": [
+        127.92500000000102,
+        80.00000000000097,
+        251.0000000000034
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_3_M2x10",
+      "mass_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037446,
+        -74.00000000000001,
+        285.00000000000205
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_3_M2_captive_nut",
+      "mass_g": 0.14977155523901295,
+      "center_mm": [
+        127.92499999999899,
+        -74.00000000000023,
+        285.0000000000005
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_4_M2x10",
+      "mass_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037446,
+        74.00000000000011,
+        285.00000000000205
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_face_4_M2_captive_nut",
+      "mass_g": 0.14977155523901295,
+      "center_mm": [
+        127.92499999999899,
+        74.00000000000023,
+        285.0000000000005
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_1_M2x8",
+      "mass_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751096,
+        -29.19194000000003,
+        269.0070000000003
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_1_washer",
+      "mass_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        -29.191939999999494,
+        269.00699999999523
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_1_M2_nut",
+      "mass_g": 0.14977155523901414,
+      "center_mm": [
+        131.5249999999994,
+        -29.191939999999825,
+        269.00699999999875
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_2_M2x8",
+      "mass_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751096,
+        28.80806000000003,
+        269.0070000000003
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_2_washer",
+      "mass_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        28.808059999999525,
+        269.00699999999523
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_2_M2_nut",
+      "mass_g": 0.14977155523901414,
+      "center_mm": [
+        131.5249999999994,
+        28.80805999999983,
+        269.00699999999875
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_3_M2x8",
+      "mass_g": 0.3632780760194993,
+      "center_mm": [
+        135.67567593751087,
+        -0.19194000000000017,
+        240.00699999999958
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_3_washer",
+      "mass_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        -0.1919399999999967,
+        240.0069999999962
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_3_M2_nut",
+      "mass_g": 0.14977155523901323,
+      "center_mm": [
+        131.52500000000097,
+        -0.19194000000000003,
+        240.00700000000032
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_4_M2x8",
+      "mass_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751104,
+        -0.1919400000000002,
+        298.0070000000002
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_4_washer",
+      "mass_g": 0.03746544440987282,
+      "center_mm": [
+        132.47500000001543,
+        -0.19194000000000883,
+        298.0070000000139
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_eye_4_M2_nut",
+      "mass_g": 0.14977155523901414,
+      "center_mm": [
+        131.52499999999992,
+        -0.19193999999999875,
+        298.00700000000046
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_1_M1p6x14",
+      "mass_g": 0.29736664603917057,
+      "center_mm": [
+        130.06012150392863,
+        -10.691939999999965,
+        258.5069999999994
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_1_washer",
+      "mass_g": 0.023713247553075675,
+      "center_mm": [
+        124.84999999999694,
+        -10.69193999999992,
+        258.5069999999979
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_1_M1p6_nut",
+      "mass_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        -10.691940000000246,
+        258.50700000000415
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_2_M1p6x14",
+      "mass_g": 0.29736664603917057,
+      "center_mm": [
+        130.06012150392863,
+        -10.691939999999965,
+        279.5069999999988
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_2_washer",
+      "mass_g": 0.023713247553075675,
+      "center_mm": [
+        124.84999999999694,
+        -10.69193999999992,
+        279.5069999999986
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_2_M1p6_nut",
+      "mass_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        -10.691940000000246,
+        279.5070000000079
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_3_M1p6x14",
+      "mass_g": 0.2973666460391703,
+      "center_mm": [
+        130.06012150392883,
+        10.308059999999974,
+        258.5069999999994
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_3_washer",
+      "mass_g": 0.023713247553075675,
+      "center_mm": [
+        124.85000000000018,
+        10.30805999999992,
+        258.5069999999979
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_3_M1p6_nut",
+      "mass_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        10.308060000000232,
+        258.50700000000415
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_4_M1p6x14",
+      "mass_g": 0.2973666460391703,
+      "center_mm": [
+        130.06012150392883,
+        10.308059999999974,
+        279.5069999999996
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_4_washer",
+      "mass_g": 0.023713247553075675,
+      "center_mm": [
+        124.85000000000018,
+        10.30805999999992,
+        279.50699999999847
+      ],
+      "density_g_cm3": 7.9
+    },
+    {
+      "name": "R24_camera_4_M1p6_nut",
+      "mass_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        10.308060000000232,
+        279.5070000000079
+      ],
+      "density_g_cm3": 7.9
+    }
+  ],
+  "camera": {
+    "mass_kg": 0.015,
+    "original_com_HOME_mm": [
+      125.0,
+      0.0,
+      265.0
+    ],
+    "new_scenario_com_HOME_mm": [
+      132.05,
+      -0.19194,
+      269.007
+    ],
+    "action": "Existing camera and cable15g moved once; body/lens envelopes add zero mass. COM at module center is a scenario, cable distribution and actual mass unknown."
+  },
+  "added_head_gravity_pitch_moment_about_y_Nm": 0.06397702275309726,
+  "sources": {
+    "work/r24-head-front/manifest.json": "f2515fa0d4b23b98429a7e69e2a9849e4f3dd8c5dad66014f91047816e360eb2",
+    "work/r24-head-front/assembly_selection.json": "9508e8cee8e98b033c54cacae7c5cd7ee0368554ec8a4cee363720bdd24f96a8",
+    "work/r23-power-integration/integration/mass_final/R23_mass_ledger.json": "e3effa2c6793adc9a2c33a35fa67984d111ea38477e1dc3ba7bf6ff6a7b3d16f",
+    "work/r24-head-front/build_report.py": "141ab2be8e9bd72f049bb73e36db9723d29800a670a2066e9ea8050e73b369fc"
+  },
+  "limits": [
+    "PA12 density0.93g/cm3 and steel7.9g/cm3 engineering assumptions. No parts weighed.",
+    "Camera/cable COM and inherited tensor unmeasured. No complete torque, gait, dynamic balance or endurance requalification.",
+    "New front parts do not resolve R23 converter4Tc/30oldinterfaces/original shell-mouth1.4mm/85percent utilization and8mm COP target issues."
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

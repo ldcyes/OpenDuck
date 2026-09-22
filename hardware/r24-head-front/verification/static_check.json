@@ -1,0 +1,3672 @@
+{
+  "status": "HOME_SCREEN_READ_NAMED_CONTACTS_NOT_MOTION_PROOF",
+  "selection_sha256": "9508e8cee8e98b033c54cacae7c5cd7ee0368554ec8a4cee363720bdd24f96a8",
+  "new_object_count": 37,
+  "all_object_count": 1225,
+  "requested_pair_count": 44622,
+  "near_rows": [
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_black_camera_eye_bezel",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.484585625144053e-13
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 3.974106200371752e-13
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_REFERENCE_OS05A10_module_body",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.7988911699136437e-14
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_REFERENCE_OS05A10_lens",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_1_M2x10",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 4.154248943202143e-05
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_1_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_2_M2x10",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 4.154248943668433e-05
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_2_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_3_M2x10",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 4.1542454071058405e-05
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_3_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_4_M2x10",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 4.154245406757511e-05
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_4_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_1_M2x8",
+      "same_link": true,
+      "gap_mm": 0.19974657199551837,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_1_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.33268283451302e-15
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_2_M2x8",
+      "same_link": true,
+      "gap_mm": 0.19974657199551837,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_2_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.0663063816407645e-15
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_3_M2x8",
+      "same_link": true,
+      "gap_mm": 0.1997535896696125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_3_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.6572507757539887e-15
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_4_M2x8",
+      "same_link": true,
+      "gap_mm": 0.1997465674532601,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_4_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.2035665848081725e-15
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_eye_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_1_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.09986572531056472,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_1_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.7507253676447067e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_1_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_2_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.09986572531056472,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_2_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 6.714719603381171e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_2_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_3_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.09986572531056472,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_3_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 3.25960787962669e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_3_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_4_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.09986572531056472,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_4_washer",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.9276740348244604e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_camera_4_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.3000030517578125,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R12_lower_head_shell",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_1_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_2_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_3_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_4_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R20_CM4_stack_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_top_head_shell_front_cover_lugs",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_REFERENCE_OS05A10_module_body",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_REFERENCE_OS05A10_lens",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_1_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0517578011313162e-06,
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_1_washer",
+      "same_link": true,
+      "gap_mm": 2.4000000000000057,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 2.700003051757818,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_2_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0517578011313162e-06,
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_2_washer",
+      "same_link": true,
+      "gap_mm": 2.4000000000000057,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 2.700003051757818,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_3_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0517578011313162e-06,
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_3_washer",
+      "same_link": true,
+      "gap_mm": 2.4000000000000057,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 2.700003051757818,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_4_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0517578011313162e-06,
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_4_washer",
+      "same_link": true,
+      "gap_mm": 2.4000000000000057,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_eye_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 2.700003051757818,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_camera_1_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_camera_2_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_camera_3_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_black_camera_eye_bezel",
+      "b": "R24_camera_4_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_REFERENCE_OS05A10_module_body",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_REFERENCE_OS05A10_lens",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_1_M2x10",
+      "same_link": true,
+      "gap_mm": 0.19975317960505853,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_1_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.09999999999999432,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_2_M2x10",
+      "same_link": true,
+      "gap_mm": 0.19975317960505853,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_2_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.09999999999999432,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_3_M2x10",
+      "same_link": true,
+      "gap_mm": 0.1997473524356857,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_3_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.09999999999999432,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_4_M2x10",
+      "same_link": true,
+      "gap_mm": 0.1997473524356857,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_face_4_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.09999999999999432,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_1_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_1_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_2_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_2_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_3_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_3_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_4_M2x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_4_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_eye_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_1_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_1_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_1_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_2_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_2_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_2_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_3_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_3_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_3_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_4_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_4_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R24_camera_4_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_PEEK_comb_housing",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_VMQ_comb_installed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_PEEK_retainer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_retainer_1_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_retainer_1_M2x6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_1_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_1_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_1_M2x18",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_retainer_2_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_retainer_2_M2x6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_2_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_2_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_mount_2_M2x18",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_6061_lower_jaw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_saddle_1_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_saddle_1_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_saddle_2_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_saddle_2_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_-60_-60_M3p5_DIN433_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_-60_-60_M3x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_-60_60_M3p5_DIN433_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_-60_60_M3x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_55_-60_M3p5_DIN433_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_55_-60_M3x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_55_60_M3p5_DIN433_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_55_60_M3_stud_L12p5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_head_shell_55_60_M3_DIN439_top_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_6061_with_power_pair",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_P5_PEEK_film",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_P5_VMQ_installed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_P6_PEEK_film",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_P6_VMQ_installed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_power_pair_band_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_power_pair_knot_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_power_pair_band_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_neck_upper_power_pair_knot_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_TPU_head_31wire_edge_guard",
+      "same_link": true,
+      "gap_mm": 0.07362874137462616,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_001",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_002",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_003",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_004",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_005",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_006",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_007",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_008",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_009",
+      "same_link": true,
+      "gap_mm": 1.934976350802915,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HARNESS_R23_010",
+      "same_link": true,
+      "gap_mm": 0.6671512796652865,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S01",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S02",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S04",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S05",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S07",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S08",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S09",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S11",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S12",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S13",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S15",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S16",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S17",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S18",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S19",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S20",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S21",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S22",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S23",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S24",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S25",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_cradle_3_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_cradle_3_M2p5x16",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_cradle_4_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_cradle_4_M2p5x16",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_064_PEEK_film",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_064_VMQ_installed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_064_PTFE_lacing",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_064_knot_budget",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_065_PEEK_film",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_065_VMQ_installed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_065_PTFE_lacing",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_065_knot_budget",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HEAD_SERVO_UPPER_P5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_HEAD_SERVO_UPPER_P6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_064_COMPLETE_B5_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_065_COMPLETE_B5_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_PEEK_REAR_POST_BRIDGE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_1_VMQ",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_1_PTFE_LACING_AND_KNOT_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_2_VMQ",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_2_PTFE_LACING_AND_KNOT_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_1_SOLDER_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_1_RTV615_INSULATION_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_Entry_W7_SOLDER_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_2_SOLDER_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_B5_2_RTV615_INSULATION_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_Entry_W8_SOLDER_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_P1_PTH_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_W1_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_P2_PTH_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_W2_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_P3_PTH_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_W3_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_P4_PTH_TERMINATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_W4_SOLDER_FRONT_ACTUAL_CU_SUBTRACTED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_MOLEX_430200201_VENDOR_EXTERNAL",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_M1p6x12_-7.2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_HARD_STOP_SPACER_-7.2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_M1p6x12_6.6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_HARD_STOP_SPACER_6.6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_SILICONE_PAD_-1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_SILICONE_PAD_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_BODY_REMOVABLE_CAP",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_CLAMP_LINER_272",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_CLAMP_LINER_279",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_REMOVABLE_CLAMP",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_M1p6x6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_REAR_CLAMP_LINER_-1.5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_REAR_CLAMP_LINER_1.5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_REAR_M1p6x10_-4.6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_REAR_M1p6x10_4.6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_REAR_REMOVABLE_CLAMP",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_ENTRY_FRAME_WITH_J10_CARRIER",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_BARE_COPPER_BUNDLE_272",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_PTH_SOLDER_272",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_FRONT_RTV_INSULATION_272",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_BACK_RTV_INSULATION_272",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_BARE_COPPER_BUNDLE_279",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_PTH_SOLDER_279",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_FRONT_RTV_INSULATION_279",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_B1_BACK_RTV_INSULATION_279",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S06_J10_CLEARANCE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_TO_B1_W5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_J10_TO_B1_W6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P1",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P2",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P3",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P4",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S01",
+      "same_link": false,
+      "gap_mm": 2.331915435543279,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S02",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S03",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S04",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S05",
+      "same_link": false,
+      "gap_mm": 2.331736736781619,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S06",
+      "same_link": false,
+      "gap_mm": 2.331698014842575,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S07",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S08",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S09",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S10",
+      "same_link": false,
+      "gap_mm": 2.331737662041495,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S11",
+      "same_link": false,
+      "gap_mm": 2.3319191039876306,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S12",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S13",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S14",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S15",
+      "same_link": false,
+      "gap_mm": 2.331725838451067,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S16",
+      "same_link": false,
+      "gap_mm": 2.3318415586487413,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S17",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S18",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S19",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S20",
+      "same_link": false,
+      "gap_mm": 2.3317000794925336,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S21",
+      "same_link": false,
+      "gap_mm": 2.331705199160389,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S22",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S23",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S24",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_S25",
+      "same_link": false,
+      "gap_mm": 2.3317442680550595,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P5",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_FREE_P6",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_NECK_UPPER_S03_DYNAMIC_CLEARANCE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R23_H05_6061_cradle_bridge_mouth_relief",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_yaw_motor",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_yaw_fixed",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_yaw_idler",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_roll_motor",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_roll_fixed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_roll_active",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "head_roll_idler",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "mouth_candidate_motor",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "mouth_candidate_fixed",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "mouth_candidate_active",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "mouth_candidate_idler",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_yaw_roll_motion_rail_1",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_yaw_roll_motion_rail_2",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_neck_pitch_rail_1",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 1.4045713938388424,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_F1_MAX_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_F2_MAX_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_F3_MAX_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J1_MATED_UNION",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J1_PIN_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J1_PIN_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J1_PIN_3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J1_STRAIGHT_TAIL",
+      "same_link": true,
+      "gap_mm": 1.3896386486815437,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J2_MATED_UNION",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J2_PIN_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J2_PIN_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J2_PIN_3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J2_STRAIGHT_TAIL",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J3_MATED_UNION",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J3_PIN_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J3_PIN_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J3_PIN_3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J3_STRAIGHT_TAIL",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J6_MATED_UNION",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_J6_STRAIGHT_TAIL",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_PCB_FINISHED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W1_BACK_SOLDER",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W1_BARE_PTH_PROCESS_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W1_FRONT_SOLDER",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W1_INSULATED_STRAIGHT8_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W2_BACK_SOLDER",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W2_BARE_PTH_PROCESS_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W2_FRONT_SOLDER",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "PDB_H3__HEAD3_W2_INSULATED_STRAIGHT8_MAX",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_HEAD3_PEEK_-26",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_HEAD3_PEEK_-60",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_HEAD3_rigid_stalk",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_Entry_foot_-6_M2p5x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_Entry_foot_-6_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_Entry_foot_2_M2p5x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_Entry_foot_2_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_board_-26_M2p5x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_board_-26_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_board_-60_M2p5x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_board_-60_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_foot_-43_M2p5x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_foot_-43_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_foot_-52_M2p5x8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_H_foot_-52_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_head_shell_carrier_Entry_ports",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R12_lower_head_shell",
+      "same_link": true,
+      "gap_mm": 0.007484093408081973,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_moving_beak_hollow",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J101",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J102",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J103",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J7",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_U1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_C1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_C2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_C3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_C4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R7",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R8",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R5",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_R6",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_F1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_F2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_F3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_F4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_VIEW_CM4carrier_U2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R13_VIEW_CM4carrier_U3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_U4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J1_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J2_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J3_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J4_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J5_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J6_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J7_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4carrier_J8_PLUG",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_6061_finned_heatsink",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_REFERENCE_SUNON_MF30060V2_1000U_A99",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_front_4mm_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_front_4mm_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_front_4mm_3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_front_4mm_4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_1",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_3",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_R8_CM4_PEEK_B2B_1p50mm_4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R10_HEAD_CM4_VENDOR_MAX_ENVELOPE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_CM4_rear_PEEK_5mm_2",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R11_CM4_rear_PEEK_5mm_4",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_1_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_1_M2_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_1_M2_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_2_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_2_M2_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_2_M2_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_3_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_3_M2_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_3_M2_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_4_M2_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_4_M2_front_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_4_M2_rear_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_stack_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_foot_1_M2p5_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_foot_1_M2p5_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_foot_2_M2p5_screw",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4_foot_2_M2p5_top_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R20_CM4carrier_PCB_existing_NPTH_geometry",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H1_PEEK_5mm",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H1_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H1_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H2_PEEK_5mm",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H2_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H2_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H3_PEEK_5mm",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H3_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H3_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H4_PEEK_5mm",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H4_M2x10",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_H4_washer",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_PCB_FINISHED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C10_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C11_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C12_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C13_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C14_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C15_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C16_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C17_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C18_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C2_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C3_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C4_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C5_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C6_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C7_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C8_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C9_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_F1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J2_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J3_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J4_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J5_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J6_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J7_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J8_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R10_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R11_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R12_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R13_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R14_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R2_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R3_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R4_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R5_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R6_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R7_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R8_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_R9_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_RS1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_U1_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_U2_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_U3_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_U4_BODY",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J5_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J7_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J8_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J3_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J1_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J2_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J4_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_J6_MATED",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C18_1_BACK_LEAD",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C18_2_BACK_LEAD",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C11_1_BACK_LEAD",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_top_head_shell_front_cover_lugs",
+      "b": "R22_Entry_C11_2_BACK_LEAD",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_REFERENCE_OS05A10_lens",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_camera_1_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.9324209658659608e-17
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_camera_2_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 3.0553156033820417e-16
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_camera_3_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 9.675420187260642e-16
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_module_body",
+      "b": "R24_camera_4_M1p6x14",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.942459047444753e-15
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_lens",
+      "b": "R24_camera_1_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_lens",
+      "b": "R24_camera_2_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_lens",
+      "b": "R24_camera_3_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_REFERENCE_OS05A10_lens",
+      "b": "R24_camera_4_M1p6x14",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_face_1_M2x10",
+      "b": "R24_face_1_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.806655866684562
+    },
+    {
+      "a": "R24_face_2_M2x10",
+      "b": "R24_face_2_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.806655866684562
+    },
+    {
+      "a": "R24_face_2_M2x10",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_face_2_M2_captive_nut",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_face_3_M2x10",
+      "b": "R24_face_3_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.8066658020716992
+    },
+    {
+      "a": "R24_face_4_M2x10",
+      "b": "R24_face_4_M2_captive_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.8066658020716992
+    },
+    {
+      "a": "R24_eye_1_M2x8",
+      "b": "R24_eye_1_washer",
+      "same_link": true,
+      "gap_mm": 0.09985594253599257,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_1_M2x8",
+      "b": "R24_eye_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.8066257849127607
+    },
+    {
+      "a": "R24_eye_1_washer",
+      "b": "R24_eye_1_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 7.259605988726124e-16
+    },
+    {
+      "a": "R24_eye_2_M2x8",
+      "b": "R24_eye_2_washer",
+      "same_link": true,
+      "gap_mm": 0.09985594253599257,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_2_M2x8",
+      "b": "R24_eye_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.8066257849127647
+    },
+    {
+      "a": "R24_eye_2_washer",
+      "b": "R24_eye_2_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 7.259605988726124e-16
+    },
+    {
+      "a": "R24_eye_3_M2x8",
+      "b": "R24_eye_3_washer",
+      "same_link": true,
+      "gap_mm": 0.09986938933368121,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_3_M2x8",
+      "b": "R24_eye_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.806634019272541
+    },
+    {
+      "a": "R24_eye_3_M2x8",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_3_washer",
+      "b": "R24_eye_3_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 8.379866353776244e-16
+    },
+    {
+      "a": "R24_eye_3_washer",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_3_M2_nut",
+      "b": "R12_mouth_load_carrier",
+      "same_link": false,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_4_M2x8",
+      "b": "R24_eye_4_washer",
+      "same_link": true,
+      "gap_mm": 0.09985594308064837,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_eye_4_M2x8",
+      "b": "R24_eye_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 1.8066256527169586
+    },
+    {
+      "a": "R24_eye_4_washer",
+      "b": "R24_eye_4_M2_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 4.2582040324368187e-16
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R24_camera_1_washer",
+      "same_link": true,
+      "gap_mm": 0.09986420278056565,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R24_camera_1_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 0.8868601394023609
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R23_H05_B5_PEEK_REAR_POST_BRIDGE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_1_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "same_link": true,
+      "gap_mm": 2.8010630365368177,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_1_washer",
+      "b": "R24_camera_1_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.865546341879188e-16
+    },
+    {
+      "a": "R24_camera_2_M1p6x14",
+      "b": "R24_camera_2_washer",
+      "same_link": true,
+      "gap_mm": 0.09986420278056565,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_2_M1p6x14",
+      "b": "R24_camera_2_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 0.8868601394023604
+    },
+    {
+      "a": "R24_camera_2_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_2_washer",
+      "b": "R24_camera_2_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.865546341879188e-16
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R24_camera_3_washer",
+      "same_link": true,
+      "gap_mm": 0.09986420278056565,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R24_camera_3_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 0.8868601394023572
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R23_H05_B5_PEEK_REAR_POST_BRIDGE",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_3_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "same_link": true,
+      "gap_mm": 2.8010630365368177,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_3_washer",
+      "b": "R24_camera_3_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.865546341879188e-16
+    },
+    {
+      "a": "R24_camera_4_M1p6x14",
+      "b": "R24_camera_4_washer",
+      "same_link": true,
+      "gap_mm": 0.09986420278056565,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_4_M1p6x14",
+      "b": "R24_camera_4_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 0.8868601394023596
+    },
+    {
+      "a": "R24_camera_4_M1p6x14",
+      "b": "R11_CM4_rear_cradle_and_diagonal_arms",
+      "same_link": true,
+      "gap_mm": 3.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "R24_camera_4_washer",
+      "b": "R24_camera_4_M1p6_nut",
+      "same_link": true,
+      "gap_mm": 0.0,
+      "intersection_mm3": 2.865546341879188e-16
+    }
+  ],
+  "errors": [],
+  "physical_approved": false
+}

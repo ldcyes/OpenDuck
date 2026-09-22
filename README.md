@@ -2,9 +2,11 @@
 
 本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
-![OpenDuck R23 整机装配渲染图](hardware/r23-design/images/01-complete-assembly.png)
+![OpenDuck R24 整机装配渲染图](hardware/r24-head-front/images/01-complete-assembly.png)
 
-**本次更新：[R23合板支架、线束与热连接](hardware/r23-design/README.md) · [完整工程与模型下载](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922)。**
+**本次更新：[R24头部摄像头前盖](hardware/r24-head-front/README.md) · [完整模型与前盖工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r24-head-camera-cover-20260923)。**
+
+[R23合板支架、线束与热连接](hardware/r23-design/README.md)及其[完整工程](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922)继续保留。
 
 | 范围 | 早期基线（R23补充见上方入口） | 已有结果与边界 |
 |---|---|---|

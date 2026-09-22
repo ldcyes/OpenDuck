@@ -1,0 +1,28 @@
+{
+  "status": "SCOPED_DESIGN_CHECKS_COMPLETE_WITH_CONTACTS_AND_LIMITS",
+  "errors": [],
+  "source_checks": 3645,
+  "selection_sha256": "9508e8cee8e98b033c54cacae7c5cd7ee0368554ec8a4cee363720bdd24f96a8",
+  "installed_count": 1225,
+  "new_count": 37,
+  "static_delta_pairs": 44622,
+  "rigid_motion_delta_pairs": 43475,
+  "mouth_continuous_lower_bound_mm": 4.749607931931256,
+  "optical_gap_mm": 2.467199677404028,
+  "mass_delta_g": 47.90334273607311,
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "verified_files": {
+    "work/r24-head-front/manifest.json": "f2515fa0d4b23b98429a7e69e2a9849e4f3dd8c5dad66014f91047816e360eb2",
+    "work/r24-head-front/detail_checks.json": "1aec9f69a0d15372e01ef13eba1c1caf8de5b24ce6f2846735136d1b6e930752",
+    "work/r24-head-front/static_check.json": "022787b64e1a9b4acc83648d74f285f77c575ea1604db61120a8e67e55abe5ae",
+    "work/r24-head-front/service_check.json": "a84a1940855d50fa678319d4f4d86687964ab7ee2ad2163de0d21446d17d8edb",
+    "work/r24-head-front/contact_review.json": "981c45a372a8e6b1b30b9421b5f2d317b14318023a273473d29b706780b7388c",
+    "work/r24-head-front/shell_surface_audit.json": "63f55df5335b50a7ea28ad9f100e8e58d0d44b8cf1dfa29c2b3bab83f4d3605f",
+    "work/r24-head-front/mass_delta.json": "155cd310d3a9fcd10c083dfa0ae4f848f14e6cbb214fdad56bd24790ed2b5f4a",
+    "work/r24-head-front/R24_\u524d\u76d6\u5c3a\u5bf8\u4e0e\u88c5\u914d.pdf": "022a656e0756a8429d0b1e6560a186ae31fc20e6d8e58038a674250756f8d95c",
+    "work/r24-head-front/visual/readback.json": "e20a9644ac256118c54d5aea8d5092e0b7f46aad930000a04f8b9e4915606674",
+    "work/r24-head-front/README.md": "2dc4fc6134c15c6eb9c43ccd3a07f1e34e62d1bf15ee846f8e05dec7ea6407eb",
+    "work/r24-head-front/verify_delivery.py": "8f9c0c748b8a7db9cdf0a713a4adae9ff1b22a2c127039cdcd1c9998d636409b"
+  }
+}

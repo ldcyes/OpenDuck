@@ -1,0 +1,3770 @@
+{
+  "status": "CANDIDATE_REQUIRES_COLLISION_OPTICAL_ASSEMBLY_REVIEW",
+  "parts": [
+    {
+      "name": "R24_Microduck_front_face_camera_carrier",
+      "mesh": "work/r24-head-front/geometry/R24_Microduck_front_face_camera_carrier.ply",
+      "mesh_sha256": "8a50f1e6fb5aa4a9da2d6604223ac54ff7afff181c372326c41a08b9f69e5c41",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 29439.716689993045,
+      "mass_from_CAD_g": 27.378936521693532,
+      "center_mm": [
+        133.50269146866864,
+        0.01994874472094955,
+        268.7505955488116
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          88132590.6711173,
+          -2010.542758155003,
+          2432.9376702308655
+        ],
+        [
+          -2010.542758155003,
+          19196306.774864674,
+          -186.26266106360708
+        ],
+        [
+          2432.9376702308655,
+          -186.26266106360708,
+          69079468.65111685
+        ]
+      ],
+      "bounds_mm": [
+        [
+          125.0,
+          -89.8653448,
+          228.69609157
+        ],
+        [
+          135.025,
+          89.8652934,
+          317.92512251
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "printed_camera_front_face",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "readback": [
+        {
+          "file": "R24_Microduck_front_face_camera_carrier.ply",
+          "sha256": "8a50f1e6fb5aa4a9da2d6604223ac54ff7afff181c372326c41a08b9f69e5c41",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        },
+        {
+          "file": "R24_Microduck_front_face_camera_carrier.3mf",
+          "sha256": "87bbda17b7d8ceeddd1002fb61611f12d2901ef702529a6ad2ef90db98b04c04",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        }
+      ],
+      "mesh_load_process": false,
+      "topology_policy": "Preserve indexed vertices and faces; no tolerance welding. Units mm.",
+      "manufacturing_master": "work/r24-head-front/geometry/R24_Microduck_front_face_camera_carrier.3mf",
+      "manufacturing_master_sha256": "87bbda17b7d8ceeddd1002fb61611f12d2901ef702529a6ad2ef90db98b04c04"
+    },
+    {
+      "name": "R24_black_camera_eye_bezel",
+      "mesh": "work/r24-head-front/geometry/R24_black_camera_eye_bezel.ply",
+      "mesh_sha256": "9c8dd6026193c6c3fafa05bea3279cf32289d209c0d13fb6c32725f211485f5d",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Black PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 9531.449227377927,
+      "mass_from_CAD_g": 8.864247781461472,
+      "center_mm": [
+        140.42011499996968,
+        -0.19194000000000394,
+        269.00699999999983
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          6343859.204701066,
+          -1.909211277961731e-08,
+          -5.960464477539062e-07
+        ],
+        [
+          -1.909211277961731e-08,
+          3334423.7562903166,
+          -1.3445969671010971e-08
+        ],
+        [
+          -5.960464477539062e-07,
+          -1.3445969671010971e-08,
+          3334423.756290108
+        ]
+      ],
+      "bounds_mm": [
+        [
+          135.025,
+          -33.19194,
+          236.007
+        ],
+        [
+          149.025,
+          32.80806,
+          302.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "printed_eye_bezel",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "readback": [
+        {
+          "file": "R24_black_camera_eye_bezel.ply",
+          "sha256": "9c8dd6026193c6c3fafa05bea3279cf32289d209c0d13fb6c32725f211485f5d",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        },
+        {
+          "file": "R24_black_camera_eye_bezel.3mf",
+          "sha256": "d9620578d670576c7554444499eeececaf506a756fded6e83d8f156ed2e20ded",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        }
+      ],
+      "mesh_load_process": false,
+      "topology_policy": "Preserve indexed vertices and faces; no tolerance welding. Units mm.",
+      "manufacturing_master": "work/r24-head-front/geometry/R24_black_camera_eye_bezel.3mf",
+      "manufacturing_master_sha256": "d9620578d670576c7554444499eeececaf506a756fded6e83d8f156ed2e20ded"
+    },
+    {
+      "name": "R24_top_head_shell_front_cover_lugs",
+      "mesh": "work/r24-head-front/geometry/R24_top_head_shell_front_cover_lugs.ply",
+      "mesh_sha256": "1bcf1c1714b4510d5a6c764b3544e98bcab62e2b96a289c62d3bd7d7b9117195",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 145631.3195023004,
+      "mass_from_CAD_g": 135.43712713713938,
+      "center_mm": [
+        36.0494698435557,
+        0.36377578386911374,
+        283.66136324534267
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          637985103.9480171,
+          -1163446.6996940135,
+          -98631646.50961971
+        ],
+        [
+          -1163446.6996940135,
+          961241872.4793739,
+          2526142.3755783886
+        ],
+        [
+          -98631646.50961971,
+          2526142.3755783886,
+          1379378006.350614
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -99.75546264648438,
+          -96.3472900390625,
+          223.8000030517578
+        ],
+        [
+          157.8936004638672,
+          96.34757232666016,
+          324.3101806640625
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "printed_shell_derivative",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "readback": [
+        {
+          "file": "R24_top_head_shell_front_cover_lugs.ply",
+          "sha256": "1bcf1c1714b4510d5a6c764b3544e98bcab62e2b96a289c62d3bd7d7b9117195",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        },
+        {
+          "file": "R24_top_head_shell_front_cover_lugs.3mf",
+          "sha256": "e23ab85f0661beefd04623a0ac85cb1691b12984a0e1f4344f94f5cb78f732e7",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        }
+      ],
+      "mesh_load_process": false,
+      "topology_policy": "Preserve indexed vertices and faces; no tolerance welding. Units mm.",
+      "manufacturing_master": "work/r24-head-front/geometry/R24_top_head_shell_front_cover_lugs.3mf",
+      "manufacturing_master_sha256": "e23ab85f0661beefd04623a0ac85cb1691b12984a0e1f4344f94f5cb78f732e7",
+      "replaces": [
+        "R23_top_head_shell_31wire_window"
+      ]
+    },
+    {
+      "name": "R24_REFERENCE_OS05A10_module_body",
+      "mesh": "work/r24-head-front/geometry/R24_REFERENCE_OS05A10_module_body.stl",
+      "mesh_sha256": "e6dd54e9a55e397edae7c8ea5b814fc0e18ad3bd1c11e6d8d2252441074a3526",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Purchased OS05A10 dimensional envelope",
+      "density_assumption_g_cm3": 0,
+      "volume_mm3": 3735.9682168306754,
+      "mass_from_CAD_g": 0.0,
+      "center_mm": [
+        132.05000000000032,
+        -0.19194000000000086,
+        269.0070000000012
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          380221.9540051222,
+          6.271875463426113e-09,
+          4.470348358154297e-07
+        ],
+        [
+          6.271875463426113e-09,
+          201695.59178072214,
+          -1.4842953532934189e-09
+        ],
+        [
+          4.470348358154297e-07,
+          -1.4842953532934189e-09,
+          201695.5917820856
+        ]
+      ],
+      "bounds_mm": [
+        [
+          129.0,
+          -12.69194,
+          256.507
+        ],
+        [
+          135.10000000000002,
+          12.30806,
+          281.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_camera_envelope",
+      "reference_only": true,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "mass_owner": "existing camera_module_and_included_cable15g; do not sum density"
+    },
+    {
+      "name": "R24_REFERENCE_OS05A10_lens",
+      "mesh": "work/r24-head-front/geometry/R24_REFERENCE_OS05A10_lens.stl",
+      "mesh_sha256": "c6201ceba49ff0e9dd71f570513647e80f0f88dc5ba9026bdd4a58b9793696ba",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Purchased OS05A10 lens envelope",
+      "density_assumption_g_cm3": 0,
+      "volume_mm3": 2459.0540165880116,
+      "mass_from_CAD_g": 0.0,
+      "center_mm": [
+        143.10000000000005,
+        -0.19193999999999994,
+        269.00700000000035
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          60150.121765226126,
+          2.764863893389702e-10,
+          1.6391277313232422e-07
+        ],
+        [
+          2.764863893389702e-10,
+          82534.87990283966,
+          -2.3283064365386963e-10
+        ],
+        [
+          1.6391277313232422e-07,
+          -2.3283064365386963e-10,
+          82534.8799034208
+        ]
+      ],
+      "bounds_mm": [
+        [
+          135.1,
+          -7.19194,
+          262.007
+        ],
+        [
+          151.1,
+          6.80806,
+          276.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_camera_envelope",
+      "reference_only": true,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "mass_owner": "existing camera_module_and_included_cable15g; do not sum density"
+    },
+    {
+      "name": "R24_face_1_M2x10",
+      "mesh": "work/r24-head-front/geometry/R24_face_1_M2x10.stl",
+      "mesh_sha256": "6a4d9c75f92d0a1a9f20c2dabae82fa46aaf002faad3b6e8179cad867fc6a601",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 52.25766356583873,
+      "mass_from_CAD_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037435,
+        -79.99999999999999,
+        251.00000000000034
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55.91974268807098,
+          5.820766091346741e-10,
+          4.423782229423523e-09
+        ],
+        [
+          5.820766091346741e-10,
+          740.7015444990247,
+          -2.561137080192566e-09
+        ],
+        [
+          4.423782229423523e-09,
+          -2.561137080192566e-09,
+          740.7015445118304
+        ]
+      ],
+      "bounds_mm": [
+        [
+          125.025,
+          -81.9,
+          249.1
+        ],
+        [
+          137.025,
+          -78.1,
+          252.9
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_face_1_M2_captive_nut",
+      "mesh": "work/r24-head-front/geometry/R24_face_1_M2_captive_nut.stl",
+      "mesh_sha256": "38175646b060d1779e8daac94147333e1c7f80f80321be993877772cfd046768",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.95842471379895,
+      "mass_from_CAD_g": 0.14977155523901173,
+      "center_mm": [
+        127.92500000000102,
+        -80.00000000000084,
+        251.0000000000034
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.24108856217936,
+          -3.230525180697441e-09,
+          4.889443516731262e-09
+        ],
+        [
+          -3.230525180697441e-09,
+          28.16500817099586,
+          -4.831235855817795e-09
+        ],
+        [
+          4.889443516731262e-09,
+          -4.831235855817795e-09,
+          28.16500826337142
+        ]
+      ],
+      "bounds_mm": [
+        [
+          127.125,
+          -82.30940108001232,
+          249.0
+        ],
+        [
+          128.725,
+          -77.69059891998768,
+          253.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_face_1_M2x10"
+      ]
+    },
+    {
+      "name": "R24_face_2_M2x10",
+      "mesh": "work/r24-head-front/geometry/R24_face_2_M2x10.stl",
+      "mesh_sha256": "d23a193286cdb5d5fca0407ccc7e3b700478d2fbb081ddea7094dd3ba318e958",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 52.25766356583873,
+      "mass_from_CAD_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037435,
+        79.99999999999996,
+        251.00000000000034
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55.91974268807098,
+          1.1641532182693481e-10,
+          4.423782229423523e-09
+        ],
+        [
+          1.1641532182693481e-10,
+          740.7015444990247,
+          1.6298145055770874e-09
+        ],
+        [
+          4.423782229423523e-09,
+          1.6298145055770874e-09,
+          740.7015445120633
+        ]
+      ],
+      "bounds_mm": [
+        [
+          125.025,
+          78.1,
+          249.1
+        ],
+        [
+          137.025,
+          81.9,
+          252.9
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_face_2_M2_captive_nut",
+      "mesh": "work/r24-head-front/geometry/R24_face_2_M2_captive_nut.stl",
+      "mesh_sha256": "fca5f5b66fb51d7561b9d27cb04ce9147e4d6eb67672eab769dce1b566bf2ff6",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.95842471379895,
+      "mass_from_CAD_g": 0.14977155523901173,
+      "center_mm": [
+        127.92500000000102,
+        80.00000000000097,
+        251.0000000000034
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.241088561946526,
+          2.561137080192566e-09,
+          4.889443516731262e-09
+        ],
+        [
+          2.561137080192566e-09,
+          28.16500817099586,
+          5.413312464952469e-09
+        ],
+        [
+          4.889443516731262e-09,
+          5.413312464952469e-09,
+          28.165008262963966
+        ]
+      ],
+      "bounds_mm": [
+        [
+          127.125,
+          77.69059891998768,
+          249.0
+        ],
+        [
+          128.725,
+          82.30940108001232,
+          253.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_face_2_M2x10"
+      ]
+    },
+    {
+      "name": "R24_face_3_M2x10",
+      "mesh": "work/r24-head-front/geometry/R24_face_3_M2x10.stl",
+      "mesh_sha256": "7b4d44dd4d9a17537c569bf4b65b3bf7917fbffb53a21e83df7501719f9df3cc",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 52.25766356583873,
+      "mass_from_CAD_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037446,
+        -74.00000000000001,
+        285.00000000000205
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55.91974264383316,
+          6.984919309616089e-10,
+          2.0954757928848267e-08
+        ],
+        [
+          6.984919309616089e-10,
+          740.7015444533899,
+          -7.450580596923828e-09
+        ],
+        [
+          2.0954757928848267e-08,
+          -7.450580596923828e-09,
+          740.7015445118304
+        ]
+      ],
+      "bounds_mm": [
+        [
+          125.025,
+          -75.9,
+          283.1
+        ],
+        [
+          137.025,
+          -72.1,
+          286.9
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_face_3_M2_captive_nut",
+      "mesh": "work/r24-head-front/geometry/R24_face_3_M2_captive_nut.stl",
+      "mesh_sha256": "95b4ec50caeb2d41b7edaba7f94c8edbb897ab47c7ef8eae65322b9ab7cc6add",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799104,
+      "mass_from_CAD_g": 0.14977155523901295,
+      "center_mm": [
+        127.92499999999899,
+        -74.00000000000023,
+        285.0000000000005
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.24108858779073,
+          8.731149137020111e-10,
+          -7.450580596923828e-09
+        ],
+        [
+          8.731149137020111e-10,
+          28.16500820289366,
+          -1.3387762010097504e-09
+        ],
+        [
+          -7.450580596923828e-09,
+          -1.3387762010097504e-09,
+          28.16500827152049
+        ]
+      ],
+      "bounds_mm": [
+        [
+          127.125,
+          -76.30940108001232,
+          283.0
+        ],
+        [
+          128.725,
+          -71.69059891998768,
+          287.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_face_3_M2x10"
+      ]
+    },
+    {
+      "name": "R24_face_4_M2x10",
+      "mesh": "work/r24-head-front/geometry/R24_face_4_M2x10.stl",
+      "mesh_sha256": "9a71da30f14d9f2c23bc7b1c2aa6af0ecdf4b2e87dee3ec0bd4ac0957ae5bfe7",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 52.25766356583873,
+      "mass_from_CAD_g": 0.412835542170126,
+      "center_mm": [
+        132.40529272037446,
+        74.00000000000011,
+        285.00000000000205
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55.919742641970515,
+          5.238689482212067e-10,
+          2.0954757928848267e-08
+        ],
+        [
+          5.238689482212067e-10,
+          740.7015444533899,
+          9.546056389808655e-09
+        ],
+        [
+          2.0954757928848267e-08,
+          9.546056389808655e-09,
+          740.7015445106663
+        ]
+      ],
+      "bounds_mm": [
+        [
+          125.025,
+          72.1,
+          283.1
+        ],
+        [
+          137.025,
+          75.9,
+          286.9
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_face_4_M2_captive_nut",
+      "mesh": "work/r24-head-front/geometry/R24_face_4_M2_captive_nut.stl",
+      "mesh_sha256": "8757d29fbcb5f2022bb7c9cf950278ffe9a2d4334277a88b81c12356e86b253a",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799104,
+      "mass_from_CAD_g": 0.14977155523901295,
+      "center_mm": [
+        127.92499999999899,
+        74.00000000000023,
+        285.0000000000005
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.24108858779073,
+          -8.731149137020111e-10,
+          -7.450580596923828e-09
+        ],
+        [
+          -8.731149137020111e-10,
+          28.16500820289366,
+          1.2223608791828156e-09
+        ],
+        [
+          -7.450580596923828e-09,
+          1.2223608791828156e-09,
+          28.16500827152049
+        ]
+      ],
+      "bounds_mm": [
+        [
+          127.125,
+          71.69059891998768,
+          283.0
+        ],
+        [
+          128.725,
+          76.30940108001232,
+          287.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_face_4_M2x10"
+      ]
+    },
+    {
+      "name": "R24_eye_1_M2x8",
+      "mesh": "work/r24-head-front/geometry/R24_eye_1_M2x8.stl",
+      "mesh_sha256": "0f71a02cab65e0d1061f6756d9b60134185ad2cf935e1533500f2e218925c7d0",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 45.98456658474682,
+      "mass_from_CAD_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751096,
+        -29.19194000000003,
+        269.0070000000003
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          52.788228657562286,
+          -4.3655745685100555e-10,
+          7.2177499532699585e-09
+        ],
+        [
+          -4.3655745685100555e-10,
+          446.84228753950447,
+          -2.9103830456733704e-10
+        ],
+        [
+          7.2177499532699585e-09,
+          -2.9103830456733704e-10,
+          446.84228753927164
+        ]
+      ],
+      "bounds_mm": [
+        [
+          129.425,
+          -31.091939999999997,
+          267.107
+        ],
+        [
+          139.425,
+          -27.29194,
+          270.907
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_1_washer",
+      "mesh": "work/r24-head-front/geometry/R24_eye_1_washer.stl",
+      "mesh_sha256": "9c90518fe8759ad112a439b73f7f055efc0a39716b7877077a68b840afe99778",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 4.742461317705723,
+      "mass_from_CAD_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        -29.191939999999494,
+        269.00699999999523
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          17.6609876533621,
+          -5.347828846424818e-10,
+          3.6961864680051804e-09
+        ],
+        [
+          -5.347828846424818e-10,
+          8.866062284214422,
+          6.83940015733242e-10
+        ],
+        [
+          3.6961864680051804e-09,
+          6.83940015733242e-10,
+          8.866062278408208
+        ]
+      ],
+      "bounds_mm": [
+        [
+          132.325,
+          -31.69194,
+          266.507
+        ],
+        [
+          132.625,
+          -26.69194,
+          271.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_1_M2_nut",
+      "mesh": "work/r24-head-front/geometry/R24_eye_1_M2_nut.stl",
+      "mesh_sha256": "f016f9ecb283720dfafd1f76f84989a6faf0013a9bf06a205c503ff74974f235",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799257,
+      "mass_from_CAD_g": 0.14977155523901414,
+      "center_mm": [
+        131.5249999999994,
+        -29.191939999999825,
+        269.00699999999875
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.241088592913,
+          6.984919309616089e-10,
+          -6.984919309616089e-10
+        ],
+        [
+          6.984919309616089e-10,
+          28.165008204523474,
+          5.820766091346741e-10
+        ],
+        [
+          -6.984919309616089e-10,
+          5.820766091346741e-10,
+          28.16500826878473
+        ]
+      ],
+      "bounds_mm": [
+        [
+          130.72499999999997,
+          -31.50134108001232,
+          267.007
+        ],
+        [
+          132.32499999999996,
+          -26.882538919987677,
+          271.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_eye_1_M2x8"
+      ]
+    },
+    {
+      "name": "R24_eye_2_M2x8",
+      "mesh": "work/r24-head-front/geometry/R24_eye_2_M2x8.stl",
+      "mesh_sha256": "9d4b8f006af59abc72aef769b07293c5b9bed30dcd91e1b18b221a2d9e3b46f3",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 45.98456658474682,
+      "mass_from_CAD_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751096,
+        28.80806000000003,
+        269.0070000000003
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          52.788228657096624,
+          5.238689482212067e-10,
+          7.2177499532699585e-09
+        ],
+        [
+          5.238689482212067e-10,
+          446.84228753950447,
+          4.656612873077393e-10
+        ],
+        [
+          7.2177499532699585e-09,
+          4.656612873077393e-10,
+          446.84228753938805
+        ]
+      ],
+      "bounds_mm": [
+        [
+          129.425,
+          26.908060000000003,
+          267.107
+        ],
+        [
+          139.425,
+          30.70806,
+          270.907
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_2_washer",
+      "mesh": "work/r24-head-front/geometry/R24_eye_2_washer.stl",
+      "mesh_sha256": "45165a4dc95b7155e3075f0726832f6e827811ea83e05e3e109dae18c8f345e7",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 4.742461317705723,
+      "mass_from_CAD_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        28.808059999999525,
+        269.00699999999523
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          17.66098765330389,
+          1.4551915228366852e-10,
+          3.6961864680051804e-09
+        ],
+        [
+          1.4551915228366852e-10,
+          8.866062284214422,
+          -6.257323548197746e-10
+        ],
+        [
+          3.6961864680051804e-09,
+          -6.257323548197746e-10,
+          8.866062278393656
+        ]
+      ],
+      "bounds_mm": [
+        [
+          132.325,
+          26.30806,
+          266.507
+        ],
+        [
+          132.625,
+          31.30806,
+          271.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_2_M2_nut",
+      "mesh": "work/r24-head-front/geometry/R24_eye_2_M2_nut.stl",
+      "mesh_sha256": "2596cbcece4349e91f6f1899f8de6b73469309fe4e30744f590f0fd0988ce85c",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799257,
+      "mass_from_CAD_g": 0.14977155523901414,
+      "center_mm": [
+        131.5249999999994,
+        28.80805999999983,
+        269.00699999999875
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.241088592913,
+          -8.731149137020111e-10,
+          -6.984919309616089e-10
+        ],
+        [
+          -8.731149137020111e-10,
+          28.165008204523474,
+          -6.984919309616089e-10
+        ],
+        [
+          -6.984919309616089e-10,
+          -6.984919309616089e-10,
+          28.16500826884294
+        ]
+      ],
+      "bounds_mm": [
+        [
+          130.72499999999997,
+          26.49865891998768,
+          267.007
+        ],
+        [
+          132.32499999999996,
+          31.117461080012323,
+          271.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_eye_2_M2x8"
+      ]
+    },
+    {
+      "name": "R24_eye_3_M2x8",
+      "mesh": "work/r24-head-front/geometry/R24_eye_3_M2x8.stl",
+      "mesh_sha256": "a4b98a438b3744f8e76167d2af1f0e8fd25f0c2e47cfe551686fb39f4e3e9272",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 45.984566584746744,
+      "mass_from_CAD_g": 0.3632780760194993,
+      "center_mm": [
+        135.67567593751087,
+        -0.19194000000000017,
+        240.00699999999958
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          52.788228657096624,
+          -5.229594535194337e-12,
+          -3.958120942115784e-09
+        ],
+        [
+          -5.229594535194337e-12,
+          446.84228754090145,
+          3.637978807091713e-12
+        ],
+        [
+          -3.958120942115784e-09,
+          3.637978807091713e-12,
+          446.8422875403194
+        ]
+      ],
+      "bounds_mm": [
+        [
+          129.425,
+          -2.09194,
+          238.107
+        ],
+        [
+          139.425,
+          1.70806,
+          241.907
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_3_washer",
+      "mesh": "work/r24-head-front/geometry/R24_eye_3_washer.stl",
+      "mesh_sha256": "28ca82baed247ba9051303c57537d479f1c2113cfc06ecd49129af59207aea11",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 4.742461317705723,
+      "mass_from_CAD_g": 0.03746544440987521,
+      "center_mm": [
+        132.4750000000029,
+        -0.1919399999999967,
+        240.0069999999962
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          17.66098765155766,
+          -1.757882728270488e-11,
+          3.4633558243513107e-09
+        ],
+        [
+          -1.757882728270488e-11,
+          8.866062284563668,
+          3.581135388230905e-12
+        ],
+        [
+          3.4633558243513107e-09,
+          3.581135388230905e-12,
+          8.866062280314509
+        ]
+      ],
+      "bounds_mm": [
+        [
+          132.325,
+          -2.6919399999999998,
+          237.507
+        ],
+        [
+          132.625,
+          2.3080600000000002,
+          242.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_3_M2_nut",
+      "mesh": "work/r24-head-front/geometry/R24_eye_3_M2_nut.stl",
+      "mesh_sha256": "c7c32e091adb51cf570c2ed3a6b5ce416e3b59d1af6d611b807f8695a04ac5e4",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799143,
+      "mass_from_CAD_g": 0.14977155523901323,
+      "center_mm": [
+        131.52500000000097,
+        -0.19194000000000003,
+        240.00700000000032
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.24108858848922,
+          6.59383658785373e-12,
+          7.566995918750763e-09
+        ],
+        [
+          6.59383658785373e-12,
+          28.165008193813264,
+          -1.3642420526593924e-12
+        ],
+        [
+          7.566995918750763e-09,
+          -1.3642420526593924e-12,
+          28.16500826238189
+        ]
+      ],
+      "bounds_mm": [
+        [
+          130.72499999999997,
+          -2.5013410800123212,
+          238.007
+        ],
+        [
+          132.32499999999996,
+          2.1174610800123217,
+          242.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_eye_3_M2x8"
+      ]
+    },
+    {
+      "name": "R24_eye_4_M2x8",
+      "mesh": "work/r24-head-front/geometry/R24_eye_4_M2x8.stl",
+      "mesh_sha256": "cb953ee7f810f20d928df07c872cad130a93674bf5f85060d2e5aec0b4015d7e",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 45.98456658474682,
+      "mass_from_CAD_g": 0.3632780760194999,
+      "center_mm": [
+        135.67567593751104,
+        -0.1919400000000002,
+        298.0070000000002
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          52.78822867106646,
+          -5.9117155615240335e-12,
+          2.7939677238464355e-09
+        ],
+        [
+          -5.9117155615240335e-12,
+          446.842287552543,
+          -1.3642420526593924e-12
+        ],
+        [
+          2.7939677238464355e-09,
+          -1.3642420526593924e-12,
+          446.8422875383403
+        ]
+      ],
+      "bounds_mm": [
+        [
+          129.425,
+          -2.09194,
+          296.107
+        ],
+        [
+          139.425,
+          1.70806,
+          299.907
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_4_washer",
+      "mesh": "work/r24-head-front/geometry/R24_eye_4_washer.stl",
+      "mesh_sha256": "360515ab2c4e6b806e8ff5b13cd3fe88f887284919aa9ec49938d9a5704c80d5",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 4.74246131770542,
+      "mass_from_CAD_g": 0.03746544440987282,
+      "center_mm": [
+        132.47500000001543,
+        -0.19194000000000883,
+        298.0070000000139
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          17.66098762769252,
+          -1.531930138298776e-11,
+          2.185697667300701e-08
+        ],
+        [
+          -1.531930138298776e-11,
+          8.866062250279356,
+          -1.261923898709938e-11
+        ],
+        [
+          2.185697667300701e-08,
+          -1.261923898709938e-11,
+          8.866062269895338
+        ]
+      ],
+      "bounds_mm": [
+        [
+          132.325,
+          -2.6919399999999998,
+          295.507
+        ],
+        [
+          132.625,
+          2.3080600000000002,
+          300.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_eye_4_M2_nut",
+      "mesh": "work/r24-head-front/geometry/R24_eye_4_M2_nut.stl",
+      "mesh_sha256": "7d355e0f644a7ba6fe350ece4cff25620aa5eadd7fb0df98868c40e2256de0fe",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 18.958424713799257,
+      "mass_from_CAD_g": 0.14977155523901414,
+      "center_mm": [
+        131.52499999999992,
+        -0.19193999999999875,
+        298.00700000000046
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          48.24108856613748,
+          6.366462912410498e-12,
+          -5.704350769519806e-09
+        ],
+        [
+          6.366462912410498e-12,
+          28.165008175885305,
+          -1.5916157281026244e-12
+        ],
+        [
+          -5.704350769519806e-09,
+          -1.5916157281026244e-12,
+          28.165008266631048
+        ]
+      ],
+      "bounds_mm": [
+        [
+          130.72499999999997,
+          -2.5013410800123212,
+          296.007
+        ],
+        [
+          132.32499999999996,
+          2.1174610800123217,
+          300.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_eye_4_M2x8"
+      ]
+    },
+    {
+      "name": "R24_camera_1_M1p6x14",
+      "mesh": "work/r24-head-front/geometry/R24_camera_1_M1p6x14.stl",
+      "mesh_sha256": "54cafc182e9f3352424c36222856533bb4fc01fcb0b2d3ca20204bd201321390",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 37.641347599895006,
+      "mass_from_CAD_g": 0.29736664603917057,
+      "center_mm": [
+        130.06012150392863,
+        -10.691939999999965,
+        258.5069999999994
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          21.11327725229785,
+          2.3283064365386963e-10,
+          -1.862645149230957e-09
+        ],
+        [
+          2.3283064365386963e-10,
+          897.743782163132,
+          2.6193447411060333e-10
+        ],
+        [
+          -1.862645149230957e-09,
+          2.6193447411060333e-10,
+          897.7437821592903
+        ]
+      ],
+      "bounds_mm": [
+        [
+          121.1,
+          -12.19194,
+          257.007
+        ],
+        [
+          136.70000000000002,
+          -9.19194,
+          260.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_1_washer",
+      "mesh": "work/r24-head-front/geometry/R24_camera_1_washer.stl",
+      "mesh_sha256": "3ec093e5ad50e36cb39e949d8d2e3f96d615a6e45d81fa0626f2e54d089b8c72",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 3.001676905452617,
+      "mass_from_CAD_g": 0.023713247553075675,
+      "center_mm": [
+        124.84999999999694,
+        -10.69193999999992,
+        258.5069999999979
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          7.207445753767388,
+          3.0468072509393096e-11,
+          -2.2846506908535957e-09
+        ],
+        [
+          3.0468072509393096e-11,
+          3.6262354565842543,
+          6.548361852765083e-11
+        ],
+        [
+          -2.2846506908535957e-09,
+          6.548361852765083e-11,
+          3.6262354548161966
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.69999999999999,
+          -12.69194,
+          256.507
+        ],
+        [
+          125.0,
+          -8.69194,
+          260.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_1_M1p6_nut",
+      "mesh": "work/r24-head-front/geometry/R24_camera_1_M1p6_nut.stl",
+      "mesh_sha256": "b521bc8f17ad2c1af6ae0f828127c31a7358a44ff622c024942a58c335124620",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 9.80578090653239,
+      "mass_from_CAD_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        -10.691940000000246,
+        258.50700000000415
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          16.032785129500553,
+          -3.8198777474462986e-10,
+          1.979060471057892e-09
+        ],
+        [
+          -3.8198777474462986e-10,
+          9.397373392246664,
+          -4.2928149923682213e-10
+        ],
+        [
+          1.979060471057892e-09,
+          -4.2928149923682213e-10,
+          9.397373354440788
+        ]
+      ],
+      "bounds_mm": [
+        [
+          123.39999999999999,
+          -12.539460858049393,
+          256.9069999985099
+        ],
+        [
+          124.69999999999999,
+          -8.844419141950608,
+          260.1070000014901
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_camera_1_M1p6x14"
+      ]
+    },
+    {
+      "name": "R24_camera_2_M1p6x14",
+      "mesh": "work/r24-head-front/geometry/R24_camera_2_M1p6x14.stl",
+      "mesh_sha256": "8a449b4e2ef3432b02a808cccffc8e3d24634d2a114ee5e590d42b990a0e0b63",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 37.641347599895006,
+      "mass_from_CAD_g": 0.29736664603917057,
+      "center_mm": [
+        130.06012150392863,
+        -10.691939999999965,
+        279.5069999999988
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          21.113277265336365,
+          2.3283064365386963e-10,
+          -6.984919309616089e-09
+        ],
+        [
+          2.3283064365386963e-10,
+          897.7437821757048,
+          4.802132025361061e-10
+        ],
+        [
+          -6.984919309616089e-09,
+          4.802132025361061e-10,
+          897.7437821592903
+        ]
+      ],
+      "bounds_mm": [
+        [
+          121.1,
+          -12.19194,
+          278.007
+        ],
+        [
+          136.70000000000002,
+          -9.19194,
+          281.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_2_washer",
+      "mesh": "work/r24-head-front/geometry/R24_camera_2_washer.stl",
+      "mesh_sha256": "53fef1a4ba23fc2b7c082b2de0cb20c3d617a8a0f6de6a2c9920a1f9f659c51a",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 3.001676905452617,
+      "mass_from_CAD_g": 0.023713247553075675,
+      "center_mm": [
+        124.84999999999694,
+        -10.69193999999992,
+        279.5069999999986
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          7.207445752283093,
+          3.0468072509393096e-11,
+          -2.4010660126805305e-09
+        ],
+        [
+          3.0468072509393096e-11,
+          3.626235455099959,
+          4.18367562815547e-11
+        ],
+        [
+          -2.4010660126805305e-09,
+          4.18367562815547e-11,
+          3.6262354548161966
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.69999999999999,
+          -12.69194,
+          277.507
+        ],
+        [
+          125.0,
+          -8.69194,
+          281.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_2_M1p6_nut",
+      "mesh": "work/r24-head-front/geometry/R24_camera_2_M1p6_nut.stl",
+      "mesh_sha256": "65ff2ade407ac08e51521341de433afb3df187634307e3d17da0450312ead3a2",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 9.80578090653239,
+      "mass_from_CAD_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        -10.691940000000246,
+        279.5070000000079
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          16.032785111572593,
+          -3.8198777474462986e-10,
+          9.487848728895187e-09
+        ],
+        [
+          -3.8198777474462986e-10,
+          9.397373374202289,
+          -8.258211892098188e-10
+        ],
+        [
+          9.487848728895187e-09,
+          -8.258211892098188e-10,
+          9.397373354440788
+        ]
+      ],
+      "bounds_mm": [
+        [
+          123.39999999999999,
+          -12.539460858049393,
+          277.9069999985099
+        ],
+        [
+          124.69999999999999,
+          -8.844419141950608,
+          281.1070000014901
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_camera_2_M1p6x14"
+      ]
+    },
+    {
+      "name": "R24_camera_3_M1p6x14",
+      "mesh": "work/r24-head-front/geometry/R24_camera_3_M1p6x14.stl",
+      "mesh_sha256": "7f8750315755e252d5d8ef5581e039bfc2448ee07e18e3ae68f30daef4f64584",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 37.64134759989497,
+      "mass_from_CAD_g": 0.2973666460391703,
+      "center_mm": [
+        130.06012150392883,
+        10.308059999999974,
+        258.5069999999994
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          21.113277254626155,
+          -1.2369127944111824e-10,
+          -1.1641532182693481e-09
+        ],
+        [
+          -1.2369127944111824e-10,
+          897.7437821635976,
+          -2.3283064365386963e-10
+        ],
+        [
+          -1.1641532182693481e-09,
+          -2.3283064365386963e-10,
+          897.7437821577769
+        ]
+      ],
+      "bounds_mm": [
+        [
+          121.1,
+          8.80806,
+          257.007
+        ],
+        [
+          136.70000000000002,
+          11.80806,
+          260.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_3_washer",
+      "mesh": "work/r24-head-front/geometry/R24_camera_3_washer.stl",
+      "mesh_sha256": "60c6622a49ccec7d2e35d4d02d748c166d621dcdb317c58da850308d3543d52b",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 3.001676905452617,
+      "mass_from_CAD_g": 0.023713247553075675,
+      "center_mm": [
+        124.85000000000018,
+        10.30805999999992,
+        258.5069999999979
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          7.207445753912907,
+          -6.912159733474255e-11,
+          1.3096723705530167e-10
+        ],
+        [
+          -6.912159733474255e-11,
+          3.626235455245478,
+          -6.548361852765083e-11
+        ],
+        [
+          1.3096723705530167e-10,
+          -6.548361852765083e-11,
+          3.626235453375557
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.69999999999999,
+          8.30806,
+          256.507
+        ],
+        [
+          125.0,
+          12.30806,
+          260.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_3_M1p6_nut",
+      "mesh": "work/r24-head-front/geometry/R24_camera_3_M1p6_nut.stl",
+      "mesh_sha256": "ec82beebfa0e55b8d42dc88fae9a4de401243bf7701b50db36c0ada76d882428",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 9.80578090653239,
+      "mass_from_CAD_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        10.308060000000232,
+        258.50700000000415
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          16.032785129384138,
+          2.2737367544323206e-10,
+          1.979060471057892e-09
+        ],
+        [
+          2.2737367544323206e-10,
+          9.397373392246664,
+          4.18367562815547e-10
+        ],
+        [
+          1.979060471057892e-09,
+          4.18367562815547e-10,
+          9.397373354440788
+        ]
+      ],
+      "bounds_mm": [
+        [
+          123.39999999999999,
+          8.460539141950607,
+          256.9069999985099
+        ],
+        [
+          124.69999999999999,
+          12.155580858049392,
+          260.1070000014901
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_camera_3_M1p6x14"
+      ]
+    },
+    {
+      "name": "R24_camera_4_M1p6x14",
+      "mesh": "work/r24-head-front/geometry/R24_camera_4_M1p6x14.stl",
+      "mesh_sha256": "0cc404832484da45ae83953bff252aa37a220556f6a1fdc792620a8efb53bd4c",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 37.64134759989497,
+      "mass_from_CAD_g": 0.2973666460391703,
+      "center_mm": [
+        130.06012150392883,
+        10.308059999999974,
+        279.5069999999996
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          21.113277247641236,
+          -1.2369127944111824e-10,
+          -2.561137080192566e-09
+        ],
+        [
+          -1.2369127944111824e-10,
+          897.743782157544,
+          -1.3096723705530167e-10
+        ],
+        [
+          -2.561137080192566e-09,
+          -1.3096723705530167e-10,
+          897.7437821577769
+        ]
+      ],
+      "bounds_mm": [
+        [
+          121.1,
+          8.80806,
+          278.007
+        ],
+        [
+          136.70000000000002,
+          11.80806,
+          281.007
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_4_washer",
+      "mesh": "work/r24-head-front/geometry/R24_camera_4_washer.stl",
+      "mesh_sha256": "f49084b600703d67474658736b0c51046da4d66fc3685cf5e7523f9ffeec0d8f",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 3.001676905452617,
+      "mass_from_CAD_g": 0.023713247553075675,
+      "center_mm": [
+        124.85000000000018,
+        10.30805999999992,
+        279.50699999999847
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          7.207445752545027,
+          -6.912159733474255e-11,
+          1.4551915228366852e-10
+        ],
+        [
+          -6.912159733474255e-11,
+          3.626235453877598,
+          -4.729372449219227e-11
+        ],
+        [
+          1.4551915228366852e-10,
+          -4.729372449219227e-11,
+          3.626235453375557
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.69999999999999,
+          8.30806,
+          277.507
+        ],
+        [
+          125.0,
+          12.30806,
+          281.507
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_camera_4_M1p6_nut",
+      "mesh": "work/r24-head-front/geometry/R24_camera_4_M1p6_nut.stl",
+      "mesh_sha256": "21d34091bead9d9f958e3e291deef7ce375ee352f0dabbf7475ea8c56ff82ea6",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "Stainless steel fastener dimensional acceptance envelope",
+      "density_assumption_g_cm3": 7.9,
+      "volume_mm3": 9.80578090653239,
+      "mass_from_CAD_g": 0.07746566916160588,
+      "center_mm": [
+        124.05000000000221,
+        10.308060000000232,
+        279.5070000000079
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          16.032785111456178,
+          2.2737367544323206e-10,
+          9.487848728895187e-09
+        ],
+        [
+          2.2737367544323206e-10,
+          9.397373374202289,
+          7.967173587530851e-10
+        ],
+        [
+          9.487848728895187e-09,
+          7.967173587530851e-10,
+          9.397373354440788
+        ]
+      ],
+      "bounds_mm": [
+        [
+          123.39999999999999,
+          8.460539141950607,
+          277.9069999985099
+        ],
+        [
+          124.69999999999999,
+          12.155580858049392,
+          281.1070000014901
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "purchased_fastener_envelope",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false,
+      "host_thread_engagement": [
+        "R24_camera_4_M1p6x14"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "R24_Lug_1_addition_proof",
+      "mesh": "work/r24-head-front/geometry/R24_Lug_1_addition_proof.stl",
+      "mesh_sha256": "de06ce6c8830e4dd9926724be06af2f2401f1ce0b4729e512d10578059107859",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 1439.3435580590356,
+      "mass_from_CAD_g": 1.3385895089949031,
+      "center_mm": [
+        128.645106535374,
+        -85.83587476594393,
+        251.0000000000014
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55034.50812365115,
+          -194.7801415026188,
+          2.5331974029541016e-07
+        ],
+        [
+          -194.7801415026188,
+          20456.10809120536,
+          -1.7508864402770996e-07
+        ],
+        [
+          2.5331974029541016e-07,
+          -1.7508864402770996e-07,
+          50340.73998873681
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.625,
+          -95.0,
+          246.0
+        ],
+        [
+          132.625,
+          -76.0,
+          256.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "derivation_tool",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_Lug_2_addition_proof",
+      "mesh": "work/r24-head-front/geometry/R24_Lug_2_addition_proof.stl",
+      "mesh_sha256": "a92acca0120ec6d92c0dd99dcc8a2ca980b018778df27eefd011268d237e03af",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 1439.3435580590403,
+      "mass_from_CAD_g": 1.3385895089949076,
+      "center_mm": [
+        128.64510653537366,
+        85.83587476594363,
+        251.0000000000004
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          55034.50812403858,
+          194.7801414374262,
+          1.9371509552001953e-07
+        ],
+        [
+          194.7801414374262,
+          20456.10809162259,
+          5.21540641784668e-08
+        ],
+        [
+          1.9371509552001953e-07,
+          5.21540641784668e-08,
+          50340.739988833666
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.625,
+          76.0,
+          246.0
+        ],
+        [
+          132.625,
+          95.0,
+          256.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "derivation_tool",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_Lug_3_addition_proof",
+      "mesh": "work/r24-head-front/geometry/R24_Lug_3_addition_proof.stl",
+      "mesh_sha256": "53636c3b71bde1c11445b77a8b64fe921619667a84f394ecff5121078e106664",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 1919.34355805905,
+      "mass_from_CAD_g": 1.7849895089949166,
+      "center_mm": [
+        128.64007818235166,
+        -82.8779461490632,
+        284.99999999999926
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          113736.17473325133,
+          -282.8183326087892,
+          -1.4901161193847656e-07
+        ],
+        [
+          -282.8183326087892,
+          27016.253613859415,
+          1.1920928955078125e-07
+        ],
+        [
+          -1.4901161193847656e-07,
+          1.1920928955078125e-07,
+          107602.55211920291
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.625,
+          -95.0,
+          280.0
+        ],
+        [
+          132.625,
+          -70.0,
+          290.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "derivation_tool",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    },
+    {
+      "name": "R24_Lug_4_addition_proof",
+      "mesh": "work/r24-head-front/geometry/R24_Lug_4_addition_proof.stl",
+      "mesh_sha256": "3f6824a2e34b01ffd6c283fb9699403feff833a3be9b3328085eeb370f99e6e0",
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "link_frame": "jaw_soft",
+      "material": "PA2200 PA12 SLS, density scenario",
+      "density_assumption_g_cm3": 0.93,
+      "volume_mm3": 1919.3435580590485,
+      "mass_from_CAD_g": 1.7849895089949153,
+      "center_mm": [
+        128.6400781823518,
+        82.87794614906328,
+        284.9999999999999
+      ],
+      "unit_density_inertia_mm5": [
+        [
+          113736.17473265529,
+          282.81833262369037,
+          2.086162567138672e-07
+        ],
+        [
+          282.81833262369037,
+          27016.25361326337,
+          -2.2351741790771484e-08
+        ],
+        [
+          2.086162567138672e-07,
+          -2.2351741790771484e-08,
+          107602.55211917311
+        ]
+      ],
+      "bounds_mm": [
+        [
+          124.625,
+          70.0,
+          280.0
+        ],
+        [
+          132.625,
+          95.0,
+          290.0
+        ]
+      ],
+      "solid_count": 1,
+      "mesh_watertight": true,
+      "kind": "derivation_tool",
+      "reference_only": false,
+      "manufacturing_mesh_only": true,
+      "derivation_sources": {
+        "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+        "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+        "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+        "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+        "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+        "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+      },
+      "visible_default": true,
+      "is_new": true,
+      "input_group": "R24_head_front",
+      "r23_domain": "R24_head_front",
+      "physical_approved": false,
+      "manufacturing_approved": false
+    }
+  ],
+  "replaces": [
+    "R23_top_head_shell_31wire_window"
+  ],
+  "sources": {
+    "work/r23-power-integration/integration/assembly_selection.json": "a9df66c72faf49bd74b2c5047ffddb117d498ca943c228e131047d6c2ce29ff0",
+    "outputs/Microduck_RK_R10_R0同比例/STL_同比例母型_旧接口不得制造/41_face_part_R10_比例母型.stl": "5c7a8ea9defab5a49f65b1544a28bdaf874a5c68154c691b463e0cb889471d1f",
+    "work/r23-power-integration/mechanics_neck_power_pair/head_window/R23_top_head_shell_31wire_window.stl": "99576dd359c15fad5a4cefd2681b3493e09b42a53d340e0b5c80c4df3f1ef7a3",
+    "work/r24-head-front/build.py": "a36aedfb6b0d9be042186dce94ff5219d7e30e178b97042ab20c170c73f9b6f8",
+    "work/r8-design/integration/reference/OS05A10_dimensions.jpg": "84684ab45549e58a17f7d62da83615662804b3218b4ea9cef040f97b96a0328b",
+    "work/r23-power-integration/integration/mesh_print_export.py": "c55f2912d9746f43b12933ef2e869cb93382c638c63019190695092effc27314"
+  },
+  "design": {
+    "face_x_mm": [
+      132.625,
+      135.025
+    ],
+    "source_profile_plane_x_mm": 134,
+    "outline_inset_mm": 0.35,
+    "lower_seam_trim_plane_z_mm": 227.5,
+    "forward_extraction_projected_shell_clearance_mm": 1.0,
+    "eye_axis_yz_mm": [
+      -0.19194,
+      269.007
+    ],
+    "eye_front_x_mm": 149.025,
+    "camera_lens_front_nominal_x_mm": 151.1,
+    "camera_rear_seat_x_mm": 129.0,
+    "face_mount_yz_mm": [
+      [
+        -80,
+        251
+      ],
+      [
+        80,
+        251
+      ],
+      [
+        -74,
+        285
+      ],
+      [
+        74,
+        285
+      ]
+    ],
+    "eye_mount_yz_mm": [
+      [
+        -29.19194,
+        269.007
+      ],
+      [
+        28.80806,
+        269.007
+      ],
+      [
+        -0.19194,
+        240.007
+      ],
+      [
+        -0.19194,
+        298.007
+      ]
+    ],
+    "camera_mount_pitch_mm": 21,
+    "nominal_camera_reference_only": true,
+    "unused_ToF_position": "integral blank: no fictitious sensor"
+  },
+  "shell_derivation": {
+    "status": "BOOLEAN_DIFFERENCE_NUMERICALLY_INVALID_USE_INDEPENDENT_SOURCE_SURFACE_AUDIT",
+    "old_volume_mm3": 139595.31203214094,
+    "new_volume_mm3": 145631.3195023004,
+    "removed_volume_mm3": -7.212241026452435,
+    "addition_outside_declared_lugs_mm3": -7.212241026452436
+  },
+  "named_thread_contacts": [
+    [
+      "R24_face_1_M2x10",
+      "R24_face_1_M2_captive_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_face_2_M2x10",
+      "R24_face_2_M2_captive_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_face_3_M2x10",
+      "R24_face_3_M2_captive_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_face_4_M2x10",
+      "R24_face_4_M2_captive_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_eye_1_M2x8",
+      "R24_eye_1_M2_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_eye_2_M2x8",
+      "R24_eye_2_M2_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_eye_3_M2x8",
+      "R24_eye_3_M2_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_eye_4_M2x8",
+      "R24_eye_4_M2_nut",
+      "same M2 modeled thread engagement"
+    ],
+    [
+      "R24_camera_1_M1p6x14",
+      "R24_camera_1_M1p6_nut",
+      "same M1.6 modeled thread engagement"
+    ],
+    [
+      "R24_camera_2_M1p6x14",
+      "R24_camera_2_M1p6_nut",
+      "same M1.6 modeled thread engagement"
+    ],
+    [
+      "R24_camera_3_M1p6x14",
+      "R24_camera_3_M1p6_nut",
+      "same M1.6 modeled thread engagement"
+    ],
+    [
+      "R24_camera_4_M1p6x14",
+      "R24_camera_4_M1p6_nut",
+      "same M1.6 modeled thread engagement"
+    ]
+  ],
+  "native_seating_checks": [
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_black_camera_eye_bezel",
+      "intersection_mm3": 4.638521698699057e-13
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_1_M2x10",
+      "intersection_mm3": 5.418842458082551e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_2_M2x10",
+      "intersection_mm3": 1.2140641817608502e-15
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_3_M2x10",
+      "intersection_mm3": 4.582482125963655e-16
+    },
+    {
+      "a": "R24_Microduck_front_face_camera_carrier",
+      "b": "R24_face_4_M2x10",
+      "intersection_mm3": 1.2276683779267016e-18
+    }
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

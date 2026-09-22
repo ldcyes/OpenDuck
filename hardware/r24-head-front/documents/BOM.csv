@@ -1,0 +1,12 @@
+﻿item,quantity,material/spec,source,status
+R24_Microduck_front_face_camera_carrier,1,"PA2200 PA12 SLS, density scenario",work/r24-head-front/geometry/R24_Microduck_front_face_camera_carrier.3mf,"Design candidate; SLS PA12, unit mm"
+R24_black_camera_eye_bezel,1,"Black PA2200 PA12 SLS, density scenario",work/r24-head-front/geometry/R24_black_camera_eye_bezel.3mf,"Design candidate; SLS PA12, unit mm"
+R24_top_head_shell_front_cover_lugs,1,"PA2200 PA12 SLS, density scenario",work/r24-head-front/geometry/R24_top_head_shell_front_cover_lugs.3mf,"Design candidate; SLS PA12, unit mm"
+"OS05A10 5MP USB Camera(A),SKU33123",1,"Existing camera;25x25mm,21mm pitch,4xD2;D14 lens;USB SH1.0 lead pending",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M2x10 screw,4,"HeadD3.8H2,hex1.5",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M2x8 screw,4,"HeadD3.8H2,hex1.5",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M2 hex nut,8,"AF4,H1.6",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M2 washer,4,"OD5,ID2.2,H0.3",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M1.6x14 screw,4,"HeadD3,H1.6,hex1.5 envelope;match actual vendor",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M1.6 hex nut,4,"AF3.2,H1.3",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
+M1.6 washer,4,"OD4,ID1.8,H0.3",Dimensional purchasing acceptance envelope,Vendor drawing and first article required
