@@ -1,0 +1,34 @@
+{
+  "status": "PUBLISHED_REMOTE_TREE_AND_ASSET_DIGESTS_VERIFIED",
+  "release_url": "https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924",
+  "release_id": 395839638,
+  "tag": "r26-cover-first-20260924",
+  "commit": "aec5c5a3312b8f147bbc5a967a52e356f232d30c",
+  "remote_repository_files_checked": 31,
+  "assets": [
+    {
+      "name": "OpenDuck-R26-cover-first.blend",
+      "size": 155485374,
+      "sha256": "8256c05e65758262b0c0edfb2bf7ba176378f188d079e7e574239c8c458c8cad",
+      "id": 586281962,
+      "remote_digest": "sha256:8256c05e65758262b0c0edfb2bf7ba176378f188d079e7e574239c8c458c8cad"
+    },
+    {
+      "name": "R26-cover-first-design.zip",
+      "size": 8780224,
+      "sha256": "9fe87475ddb8eeba3944a69a45616d6c8aa2cd5294d931793f064809ac6e9d36",
+      "id": 586281960,
+      "remote_digest": "sha256:9fe87475ddb8eeba3944a69a45616d6c8aa2cd5294d931793f064809ac6e9d36"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 190,
+      "sha256": "282b3c4eb053d851924bc2bfd9a05b2339bfc80357cb5f3ddb3d3309f1b8ebf6",
+      "id": 586281961,
+      "remote_digest": "sha256:282b3c4eb053d851924bc2bfd9a05b2339bfc80357cb5f3ddb3d3309f1b8ebf6"
+    }
+  ],
+  "downloaded_checksum_bytes_verified": true,
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

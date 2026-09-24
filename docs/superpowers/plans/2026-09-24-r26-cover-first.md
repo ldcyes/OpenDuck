@@ -49,7 +49,7 @@ Files: `work/r26-cover-first/README.md`, `README_EN.md`, delivery verification a
 - [x] Review spec compliance, then implementation quality and numerical limits; resolve material findings.
 - [x] Write actual edge change, exported file instructions, installation order, invariant motor/leg dimensions, mass delta and unqualified items. Preserve left-head-closure pending status and old mouth conflict; never call them fixed.
 - [x] Package source, parts, manifests and reports with relative workspace paths. Publish complete standalone Blender separately using existing GitHub release pattern. Generate SHA256 after files are final.
-- [ ] Validate all new local links and run repository `python3 tools/verify_publication.py`; keep removed angled homepage images absent. Commit exact changed paths, push without force, attach release files, verify remote asset hashes/size metadata. Record if upload is blocked instead of claiming it completed.
+- [x] Validate all new local links and run repository `python3 tools/verify_publication.py`; keep removed angled homepage images absent. Commit exact changed paths, push without force, attach release files, verify remote asset hashes/size metadata. Record if upload is blocked instead of claiming it completed.
 
 ## Execution evidence
 
@@ -58,3 +58,5 @@ Files: `work/r26-cover-first/README.md`, `README_EN.md`, delivery verification a
 - Blender fresh readback passed; maximum retained geometry displacement 0.000056081 mm < 0.0001 mm. Three complete camera frames checked.
 - Independent specification and quality reviews approved. Local package checks: 118 links, archive re-read and source hashes. Repository check: 722 files, 12 native boards and 12 schematics passed.
 - Remote publication verification is recorded separately after upload.
+
+Published R26 prerelease: https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924 . Remote tree checked against all 31 changed files; all three asset digests and sizes matched; downloaded checksum bytes matched. Release commit `aec5c5a3312b8f147bbc5a967a52e356f232d30c`. Evidence: `provenance/r26-upload-verification.json`.
