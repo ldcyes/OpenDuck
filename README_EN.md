@@ -12,6 +12,8 @@ OpenDuck brings together mechanical design, electronics, numerical gait studies,
 
 The 31 head conductors now enter from below. R25 retains the camera front cover and existing body proportions, uses a more compact moving harness, and closes the former dedicated side cable window. See the [bottom-entry detail](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png). The separate motor access opening remains in the published R25 shell; its permanent closure is a subsequent design decision. Discrete head-pose checks do not establish continuous-motion or physical acceptance.
 
+**Four-step walking replay:** [R27 motion on the complete R26 assembly](hardware/r27-walk-replay/README_EN.md) uses the recorded 195.44-second integration trace. Rigid collision changes due to the shorter covers are checked; R26 dynamics and physical walking remain unqualified.
+
 **Design review, September 24:** [leg proportions and actuator screening](docs/proportion-study-20260924/README_EN.md). The earlier review compares alternatives. R26 now implements option A with shorter covers; leg lengths and actuator selection remain unchanged.
 
 The [R24 camera cover](hardware/r24-head-front/README.md), [R23 integrated power-board mount, harness and thermal design](hardware/r23-design/README.md), and their historical releases remain available. [Download the complete R23 engineering package](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922).

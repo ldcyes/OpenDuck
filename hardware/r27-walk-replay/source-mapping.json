@@ -1,0 +1,47 @@
+[
+  {
+    "source": "work/r27-walk-simulation/analysis.json",
+    "target": "hardware/r27-walk-replay/verification/analysis.json",
+    "sha256": "0ad32d06a0d7b861c37ec6002172873ed4b61be16496cd9631beedff9c27bf59"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/readback.json",
+    "target": "hardware/r27-walk-replay/verification/readback.json",
+    "sha256": "376a0785b853848e244844788ffc2a268dd411cf856375e9edd5bf662892a5ed"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/build_index.json",
+    "target": "hardware/r27-walk-replay/verification/build_index.json",
+    "sha256": "e190fc6fa60db056c4c18cac416e27f4f92cd1ed35bfa368117c324c926ab830"
+  },
+  {
+    "source": "work/r27-walk-simulation/analyze_walk.py",
+    "target": "hardware/r27-walk-replay/sources/analyze_walk.py",
+    "sha256": "675efe6f8582f781f6750fbe91a9b70863142f3c9e23ea80bf08d015da7c4528"
+  },
+  {
+    "source": "work/r27-walk-simulation/package.py",
+    "target": "hardware/r27-walk-replay/sources/package.py",
+    "sha256": "84ef389d38c60c3ec5bec77156e3ae9121735156e5e1593af66978839412311b"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/blender_actual_helpers_r27.py",
+    "target": "hardware/r27-walk-replay/sources/blender_actual_helpers_r27.py",
+    "sha256": "e97b9c2c0b57d41559961e2075dfc4b337a1859c43d8c684503b610444b97dd3"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/build_walk.py",
+    "target": "hardware/r27-walk-replay/sources/build_walk.py",
+    "sha256": "a3cbe7e6557ad6c2dfa991413d811d03e5fd7a40078534ea081a8ebc329b7096"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/render_walk.py",
+    "target": "hardware/r27-walk-replay/sources/render_walk.py",
+    "sha256": "9257dc1292144d6d7a18d05554e2165ded9746705d1fcf4ee4693e265160c8e5"
+  },
+  {
+    "source": "work/r27-walk-simulation/visual/verify_walk.py",
+    "target": "hardware/r27-walk-replay/sources/verify_walk.py",
+    "sha256": "29a5604ad68ececf3969aeb9f87984d67520461c8c3b47589d13cf3b8f0a632c"
+  }
+]

@@ -1,0 +1,649 @@
+{
+  "status": "R27_R26_ALL_9774_MOTION_KEYS_AND_FULL_1224_PART_FK_READBACK_PASS",
+  "blend_sha256": "3c471b4bc28bb371d3cdeafb067085b3d2254141a0c8700e2241e2881d34f44e",
+  "index_sha256": "e190fc6fa60db056c4c18cac416e27f4f92cd1ed35bfa368117c324c926ab830",
+  "samples": 9774,
+  "duration_s": 195.4417499971064,
+  "geometry_parts": 1224,
+  "animation_channels_checked": 67,
+  "all_key_checks": [
+    {
+      "object": "R27_实际自由根",
+      "path": "location",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 9.311410149870358e-10
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "location",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 4.656105136863209e-10
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "location",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.489935436138623e-08
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "rotation_quaternion",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 0.0
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "rotation_quaternion",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 0.0
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "rotation_quaternion",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 0.0
+    },
+    {
+      "object": "R27_实际自由根",
+      "path": "rotation_quaternion",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 0.0
+    },
+    {
+      "object": "R27_right_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.979542512715483e-08
+    },
+    {
+      "object": "R27_right_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.3087224502121107e-22
+    },
+    {
+      "object": "R27_right_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.524354896707238e-29
+    },
+    {
+      "object": "R27_right_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.774758283725532e-15
+    },
+    {
+      "object": "R27_right_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.4898384026462708e-08
+    },
+    {
+      "object": "R27_right_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.1324274851176597e-14
+    },
+    {
+      "object": "R27_right_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 8.470329472543003e-22
+    },
+    {
+      "object": "R27_right_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.4823076576950256e-21
+    },
+    {
+      "object": "R27_right_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.7252457923964144e-09
+    },
+    {
+      "object": "R27_right_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.799964343109485e-15
+    },
+    {
+      "object": "R27_right_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.5025523714129463e-08
+    },
+    {
+      "object": "R27_right_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.5489115396414306e-09
+    },
+    {
+      "object": "R27_right_knee",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.9797981859758238e-08
+    },
+    {
+      "object": "R27_right_knee",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 6.8171691548676974e-15
+    },
+    {
+      "object": "R27_right_knee",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.178983355387686e-08
+    },
+    {
+      "object": "R27_right_knee",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.2657181542328217e-09
+    },
+    {
+      "object": "R27_right_ankle",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.975764312740381e-08
+    },
+    {
+      "object": "R27_right_ankle",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.1589765470032196e-14
+    },
+    {
+      "object": "R27_right_ankle",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.1789850762333742e-08
+    },
+    {
+      "object": "R27_right_ankle",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.265719653033905e-09
+    },
+    {
+      "object": "R27_left_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.9799774758920705e-08
+    },
+    {
+      "object": "R27_left_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.3087224502121107e-22
+    },
+    {
+      "object": "R27_left_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.524354896707238e-29
+    },
+    {
+      "object": "R27_left_hip_yaw",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.774758283725532e-15
+    },
+    {
+      "object": "R27_left_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.4894536382037415e-08
+    },
+    {
+      "object": "R27_left_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.6209256159527285e-14
+    },
+    {
+      "object": "R27_left_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.2705494208814505e-21
+    },
+    {
+      "object": "R27_left_hip_roll",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.6469779601696886e-21
+    },
+    {
+      "object": "R27_left_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 7.4379685188752376e-09
+    },
+    {
+      "object": "R27_left_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 5.731252958273865e-16
+    },
+    {
+      "object": "R27_left_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.9534857620406854e-08
+    },
+    {
+      "object": "R27_left_hip_pitch",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 5.240831379982325e-10
+    },
+    {
+      "object": "R27_left_knee",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.977828117423087e-08
+    },
+    {
+      "object": "R27_left_knee",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.956392368850172e-15
+    },
+    {
+      "object": "R27_left_knee",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.629916113188301e-08
+    },
+    {
+      "object": "R27_left_knee",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 8.072769674960512e-10
+    },
+    {
+      "object": "R27_left_ankle",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.9789174904593096e-08
+    },
+    {
+      "object": "R27_left_ankle",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.2101341149592553e-15
+    },
+    {
+      "object": "R27_left_ankle",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 8.533506901109433e-09
+    },
+    {
+      "object": "R27_left_ankle",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.4869416253837642e-09
+    },
+    {
+      "object": "R27_neck_pitch",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.4083102034805756e-11
+    },
+    {
+      "object": "R27_neck_pitch",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 9.198248411589668e-22
+    },
+    {
+      "object": "R27_neck_pitch",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.7985612998927536e-14
+    },
+    {
+      "object": "R27_neck_pitch",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 3.282252670610414e-21
+    },
+    {
+      "object": "R27_head_pitch",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 7.017328937982542e-12
+    },
+    {
+      "object": "R27_head_pitch",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.9778502051908996e-22
+    },
+    {
+      "object": "R27_head_pitch",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 5.773159728050814e-15
+    },
+    {
+      "object": "R27_head_pitch",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 5.558653716356346e-22
+    },
+    {
+      "object": "R27_head_yaw",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 7.1350835125199435e-12
+    },
+    {
+      "object": "R27_head_yaw",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.5881867761018131e-21
+    },
+    {
+      "object": "R27_head_yaw",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.183756817139993e-22
+    },
+    {
+      "object": "R27_head_yaw",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.0880185641326534e-14
+    },
+    {
+      "object": "R27_head_roll",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 7.272904256920218e-12
+    },
+    {
+      "object": "R27_head_roll",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.5979218776228663e-14
+    },
+    {
+      "object": "R27_head_roll",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.3234889800848443e-21
+    },
+    {
+      "object": "R27_head_roll",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 5.770411953169921e-21
+    },
+    {
+      "object": "R27_mouth_candidate",
+      "path": "rotation_axis_angle",
+      "index": 0,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 4.688296835985133e-13
+    },
+    {
+      "object": "R27_mouth_candidate",
+      "path": "rotation_axis_angle",
+      "index": 1,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.3896634290890865e-22
+    },
+    {
+      "object": "R27_mouth_candidate",
+      "path": "rotation_axis_angle",
+      "index": 2,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 2.7755575615628914e-15
+    },
+    {
+      "object": "R27_mouth_candidate",
+      "path": "rotation_axis_angle",
+      "index": 3,
+      "keys": 9774,
+      "max_frame_error": 0.00019542818517948035,
+      "max_value_error": 1.522012327097571e-22
+    }
+  ],
+  "pose_checks": [
+    {
+      "sample_index": 0,
+      "time_s": 0.0,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.3153841866805565e-07,
+      "worst_part": "head_pitch_motor"
+    },
+    {
+      "sample_index": 1,
+      "time_s": 0.020000000000000014,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.5242911416700764e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 814,
+      "time_s": 16.27999999998672,
+      "parts": 1224,
+      "largest_matrix_error_m": 3.430122282321868e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 1628,
+      "time_s": 32.560000000064456,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.757080843629467e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 2443,
+      "time_s": 48.860000000142286,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.8510118166291676e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 3257,
+      "time_s": 65.14000000018761,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.7828492865644705e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 4072,
+      "time_s": 81.43999999980217,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.259413921512632e-07,
+      "worst_part": "left_ankle_motor"
+    },
+    {
+      "sample_index": 4886,
+      "time_s": 97.7199999994172,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.853266087843309e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 5700,
+      "time_s": 113.99999999903223,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.4941742404749334e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 6515,
+      "time_s": 130.2999999986468,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.685360751542021e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 7329,
+      "time_s": 146.57999999826183,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.4207157606204177e-07,
+      "worst_part": "right_ankle_active"
+    },
+    {
+      "sample_index": 8144,
+      "time_s": 162.87999999787638,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.911929000148916e-07,
+      "worst_part": "left_ankle_active"
+    },
+    {
+      "sample_index": 8958,
+      "time_s": 179.1599999974914,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.5830321676023615e-07,
+      "worst_part": "left_hip_pitch_active"
+    },
+    {
+      "sample_index": 9773,
+      "time_s": 195.4417499971064,
+      "parts": 1224,
+      "largest_matrix_error_m": 2.339142182450349e-07,
+      "worst_part": "left_hip_pitch_active"
+    }
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

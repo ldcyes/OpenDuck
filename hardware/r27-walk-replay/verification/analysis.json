@@ -1,0 +1,216 @@
+{
+  "status": "R26_FOUR_STEP_KINEMATIC_REPLAY_AND_INHERITED_RIGID_COLLISION_DELTA_CHECKED",
+  "actual_trace_samples": 9774,
+  "actual_trace_duration_s": 195.4417499971064,
+  "intervals": 9773,
+  "step_count": 4,
+  "walk_source": "R21 integrated free-base numerical trace; R26 dynamics NOT re-solved",
+  "R21_dynamic_model_mass_kg": 4.195093550269529,
+  "R26_estimated_mass_kg": 4.443059766833049,
+  "mass_gap_g": 247.9662165635208,
+  "unchanged_rigid_parts": 1191,
+  "modified_cover_count": 2,
+  "flexible_neck_items_excluded_from_rigid_check": 31,
+  "prior_rigid_pair_count": 66348,
+  "prior_dynamic_pair_count": 46170,
+  "prior_named_invariant_contacts": 110,
+  "prior_dynamic_unresolved": 0,
+  "old_cover_pair_coverage": {
+    "R18P_L_thigh_photo_triangle": {
+      "total": 57,
+      "dynamic_interval_pairs": 57,
+      "unresolved": 0
+    },
+    "R18P_R_thigh_photo_triangle": {
+      "total": 57,
+      "dynamic_interval_pairs": 57,
+      "unresolved": 0
+    }
+  },
+  "new_cover_native_subset_volume_mm3": [
+    0.0,
+    0.0
+  ],
+  "collision_argument": "Each new cover is a native-solid subset of the old cover on the same rigid link. All other R25 rigid shapes, transforms and joints are unchanged. For the same recorded q(t), shortening cannot introduce a new rigid collision among the 1193-part rigid selection; earlier named contacts remain.",
+  "phases": [
+    {
+      "name": "cycle1_initial_settle_hold",
+      "start_s": 0.0,
+      "end_s": 1.980000000000245
+    },
+    {
+      "name": "cycle1_double_transfer_to_left",
+      "start_s": 2.0000000000002514,
+      "end_s": 19.980000000004388
+    },
+    {
+      "name": "cycle1_pre_unload_right",
+      "start_s": 20.000000000004484,
+      "end_s": 20.580000000007253
+    },
+    {
+      "name": "cycle1_right_step_lift",
+      "start_s": 20.60000000000735,
+      "end_s": 25.30000000002979
+    },
+    {
+      "name": "cycle1_right_step_advance",
+      "start_s": 25.320000000029886,
+      "end_s": 28.46000000004488
+    },
+    {
+      "name": "cycle1_right_step_lower",
+      "start_s": 28.480000000044974,
+      "end_s": 33.62000000006952
+    },
+    {
+      "name": "cycle1_right_landing_still_unloaded",
+      "start_s": 33.64000000006961,
+      "end_s": 34.22000000007238
+    },
+    {
+      "name": "cycle1_double_transfer_to_right",
+      "start_s": 34.24000000007248,
+      "end_s": 62.48000000020732
+    },
+    {
+      "name": "cycle1_pre_unload_left",
+      "start_s": 62.500000000207415,
+      "end_s": 63.080000000210184
+    },
+    {
+      "name": "cycle1_left_step_lift",
+      "start_s": 63.10000000021028,
+      "end_s": 67.86000000012329
+    },
+    {
+      "name": "cycle1_left_step_advance",
+      "start_s": 67.88000000012282,
+      "end_s": 73.59999999998756
+    },
+    {
+      "name": "cycle1_left_step_lower",
+      "start_s": 73.61999999998709,
+      "end_s": 78.359999999875
+    },
+    {
+      "name": "cycle1_left_landing_still_unloaded",
+      "start_s": 78.37999999987453,
+      "end_s": 78.95999999986081
+    },
+    {
+      "name": "cycle1_double_recenter",
+      "start_s": 78.97999999986034,
+      "end_s": 97.11999999943139
+    },
+    {
+      "name": "cycle1_cycle_end_center",
+      "start_s": 97.13999999943091,
+      "end_s": 97.7199999994172
+    },
+    {
+      "name": "cycle2_initial_settle",
+      "start_s": 97.73999999941672,
+      "end_s": 99.7199999993699
+    },
+    {
+      "name": "cycle2_double_transfer_to_left",
+      "start_s": 99.73999999936943,
+      "end_s": 117.69999999894473
+    },
+    {
+      "name": "cycle2_pre_unload_right",
+      "start_s": 117.71999999894426,
+      "end_s": 118.29999999893055
+    },
+    {
+      "name": "cycle2_right_step_lift",
+      "start_s": 118.31999999893007,
+      "end_s": 123.01999999881893
+    },
+    {
+      "name": "cycle2_right_step_advance",
+      "start_s": 123.03999999881846,
+      "end_s": 126.15999999874468
+    },
+    {
+      "name": "cycle2_right_step_lower",
+      "start_s": 126.17999999874421,
+      "end_s": 131.31999999862268
+    },
+    {
+      "name": "cycle2_right_landing_still_unloaded",
+      "start_s": 131.3399999986222,
+      "end_s": 131.9199999986085
+    },
+    {
+      "name": "cycle2_double_transfer_to_right",
+      "start_s": 131.93999999860802,
+      "end_s": 160.21999999793928
+    },
+    {
+      "name": "cycle2_pre_unload_left",
+      "start_s": 160.2399999979388,
+      "end_s": 160.8199999979251
+    },
+    {
+      "name": "cycle2_left_step_lift",
+      "start_s": 160.83999999792462,
+      "end_s": 165.59999999781206
+    },
+    {
+      "name": "cycle2_left_step_advance",
+      "start_s": 165.6199999978116,
+      "end_s": 171.3199999976768
+    },
+    {
+      "name": "cycle2_left_step_lower",
+      "start_s": 171.33999999767633,
+      "end_s": 176.07999999756424
+    },
+    {
+      "name": "cycle2_left_landing_still_unloaded",
+      "start_s": 176.09999999756377,
+      "end_s": 176.67999999755006
+    },
+    {
+      "name": "cycle2_double_recenter",
+      "start_s": 176.69999999754958,
+      "end_s": 194.83999999712063
+    },
+    {
+      "name": "cycle2_cycle_end_center",
+      "start_s": 194.85999999712016,
+      "end_s": 195.4417499971064
+    }
+  ],
+  "inherited_R21_simulation": {
+    "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+    "maximum_torque_limit_excess_Nm": 0,
+    "original_mass_kg": 4.195093550269529
+  },
+  "unresolved": [
+    "R26 mass, power and low-voltage sustained torque were not re-integrated; old R21 acceptance does not transfer to R26 dynamics.",
+    "31 flexible free-neck wires are absent from the rigid interval checker and remain motion/tolerance unqualified.",
+    "Inherited named contacts and previously recorded mouth/lower-shell movement conflict are not resolved by thigh-cover trimming.",
+    "No elastic deformation, as-printed tolerance, floor variability, or physical loaded walking acceptance."
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "sources": {
+    "work/r26-cover-first/assembly_selection.json": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+    "work/r26-cover-first/mechanics/geometry_checks.json": "e7155f8e498c86f46c2a6fb3742e6af195cb2e98d3f0cbef0e6aa036298ee1eb",
+    "work/r26-cover-first/verification.json": "ce9dec663b0da59207c45109856f5f1676c7ea2da31ba3e9e28cab96cd1c51e6",
+    "work/r26-cover-first/mass_delta.json": "3a7b509ae9ad87f3a0d26698485ebbecdc7e166e5f11ec09947c3d142a25a6f3",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/interval_joint_bounds.json": "9d2e3e387096741ca300561c40f09581c2af3c0f55d83af7eafc910a2f9e9a6f",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/report.json": "81b4423fa399bfc89fbeb425c18f9c8e7ee75c7557bc934db5958ad10ab81b02",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/acceptance.json": "47f308361b139cfb44502ffdec2f610933701852136bbdaaba9b684d4f95f17b",
+    "work/r25-bottom-head-entry/rigid_inputs.json": "f90a0ce11ea28023352822f707b841af2b3b3c387aaafa7dddaa06907f65af2e",
+    "work/r25-bottom-head-entry/motion/rigid_final/pair_index.json": "bfd6d3b4fe23af586d1d57587f6177da1598f611b8670f0457aadb4e1e23d0f9",
+    "work/r25-bottom-head-entry/motion/rigid_final/result.json": "c476c469e08f8d6aa003b22daf6839410447290914e27f444f75d6ef9d099b65",
+    "work/r25-bottom-head-entry/motion_contact_review.json": "c1e2b998237b08786ba3a934921c687146778287e13831deed9a29e1e1b4ab4c",
+    "work/r25-bottom-head-entry/flex/motion9_y68/report.json": "eb0c050ce669169aa2df9c2fdeba5772a64fb50c612a49e0681b53bdfd565782",
+    "work/r27-walk-simulation/analyze_walk.py": "675efe6f8582f781f6750fbe91a9b70863142f3c9e23ea80bf08d015da7c4528"
+  }
+}
