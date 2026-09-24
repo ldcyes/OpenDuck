@@ -1,0 +1,97 @@
+[
+  {
+    "source": "work/r26-cover-first/mechanics/STEP_毫米/R26_L_thigh_short_cover.step",
+    "target": "hardware/r26-cover-first/step/R26_L_thigh_short_cover.step",
+    "sha256": "8fddf7e7d54d02c3b53046aa542a96a08073df84801efdd70ec9d84aa345086b"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/STL_装配坐标_毫米/R26_L_thigh_short_cover.stl",
+    "target": "hardware/r26-cover-first/stl/R26_L_thigh_short_cover.stl",
+    "sha256": "808b89e1e54bac92ee4c189f83efe3341b8b36c2a7f9eee53806973cd8d1e7b5"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/print/R26_L_thigh_short_cover.3mf",
+    "target": "hardware/r26-cover-first/print/R26_L_thigh_short_cover.3mf",
+    "sha256": "60a46d1360068f7270acd56ee7f2be193ccf60bb64bfa825cad6a4159c828016"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/STEP_毫米/R26_R_thigh_short_cover.step",
+    "target": "hardware/r26-cover-first/step/R26_R_thigh_short_cover.step",
+    "sha256": "264b3f7429ba12f272834621d89e58298901370c209e520e6127f4063e175ef8"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/STL_装配坐标_毫米/R26_R_thigh_short_cover.stl",
+    "target": "hardware/r26-cover-first/stl/R26_R_thigh_short_cover.stl",
+    "sha256": "f57b30395399e9e08701d1ed1269cf06e5ec2ed115bfea49465927fc2c308c09"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/print/R26_R_thigh_short_cover.3mf",
+    "target": "hardware/r26-cover-first/print/R26_R_thigh_short_cover.3mf",
+    "sha256": "0792a7a8cd5848774c4ba768a0b30a7f8bf6ba20677f62957221ef72cd0c590c"
+  },
+  {
+    "source": "work/r26-cover-first/profile-comparison.png",
+    "target": "hardware/r26-cover-first/images/profile-comparison.png",
+    "sha256": "d82423b70a6e77e087857139794f6e1dea1d0c321791178301966f58b97d19fa"
+  },
+  {
+    "source": "work/r26-cover-first/R26-cover-profile.pdf",
+    "target": "hardware/r26-cover-first/documents/R26-cover-profile.pdf",
+    "sha256": "19f2c58ce769fc95513df3eb390109f242ad08ba66f9c87509e57367560442d9"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/geometry_checks.json",
+    "target": "hardware/r26-cover-first/verification/geometry_checks.json",
+    "sha256": "e7155f8e498c86f46c2a6fb3742e6af195cb2e98d3f0cbef0e6aa036298ee1eb"
+  },
+  {
+    "source": "work/r26-cover-first/mechanics/manifest.json",
+    "target": "hardware/r26-cover-first/verification/manufacturing-manifest.json",
+    "sha256": "fd3a688b61c40e7d04ef50eb638388318ce89cd787a1ee5f454baae1336f3e19"
+  },
+  {
+    "source": "work/r26-cover-first/verification.json",
+    "target": "hardware/r26-cover-first/verification/verification.json",
+    "sha256": "ce9dec663b0da59207c45109856f5f1676c7ea2da31ba3e9e28cab96cd1c51e6"
+  },
+  {
+    "source": "work/r26-cover-first/mass_delta.json",
+    "target": "hardware/r26-cover-first/verification/mass_delta.json",
+    "sha256": "3a7b509ae9ad87f3a0d26698485ebbecdc7e166e5f11ec09947c3d142a25a6f3"
+  },
+  {
+    "source": "work/r26-cover-first/visual/readback.json",
+    "target": "hardware/r26-cover-first/verification/Blender-readback.json",
+    "sha256": "b9e55662ff032161b6c330002516d300f62ec2e04e476dd2df5ce74eb411ae86"
+  },
+  {
+    "source": "work/r26-cover-first/build_covers.py",
+    "target": "hardware/r26-cover-first/sources/build_covers.py",
+    "sha256": "6609f61bb04d3b17be29b27794f4c52c4b95ca20621c6db5b75e011b4b03b363"
+  },
+  {
+    "source": "work/r26-cover-first/build_viewer.py",
+    "target": "hardware/r26-cover-first/sources/build_viewer.py",
+    "sha256": "fdfac40bd84223b017041b64c0c905593256f56f8e2761e8ec4388ecc2b91ddc"
+  },
+  {
+    "source": "work/r26-cover-first/draw_profile.py",
+    "target": "hardware/r26-cover-first/sources/draw_profile.py",
+    "sha256": "ef4135db0c8335a8d25dcd9200f0b2987b87138691ae0cda3022d69d44ab51b1"
+  },
+  {
+    "source": "work/r26-cover-first/integrate_verify.py",
+    "target": "hardware/r26-cover-first/sources/integrate_verify.py",
+    "sha256": "0d7ec70271027da3ae604a05138efe51772c3d57481a57711899cbd5a5ba91e6"
+  },
+  {
+    "source": "work/r26-cover-first/prepare_delivery.py",
+    "target": "hardware/r26-cover-first/sources/prepare_delivery.py",
+    "sha256": "fd8de96a3fb2e95e61c6f6f9a400de3573d7261c22f7ab01f8acf3ba8abada0e"
+  },
+  {
+    "source": "work/r26-cover-first/verify_viewer.py",
+    "target": "hardware/r26-cover-first/sources/verify_viewer.py",
+    "sha256": "9b1e0f805e4518203dcb6a54c4b9936ec9bc1db862425f1485f20aba8a047141"
+  }
+]

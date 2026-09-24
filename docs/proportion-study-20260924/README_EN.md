@@ -1,5 +1,7 @@
 # Leg proportions and actuator screening — September 24, 2026
 
+Follow-up: option A is now implemented in [R26](../../hardware/r26-cover-first/README_EN.md). The study below remains the pre-change comparison.
+
 [中文完整分析](README.md) · [English project overview](../../README_EN.md)
 
 **Design study only. No manufacturing geometry, actuator BOM or qualified gait has been replaced. A height of 610 mm is not a design requirement.** The previously selected permanent closure of the left head opening remains pending implementation and validation.

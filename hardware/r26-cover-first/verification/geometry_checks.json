@@ -1,0 +1,471 @@
+{
+  "status": "PASS_NATIVE_COVER_AND_EXPORT_CHECKS",
+  "units": "mm",
+  "boolean_volume_tolerance_mm3": 1e-06,
+  "mesh_CAD_volume_tolerance": "max(0.5 mm3, 0.1% CAD volume)",
+  "sources": {
+    "work/r25-bottom-head-entry/assembly_selection.json": "54ceda0385e4abd6f6ea28ad294918d2e5cd0da9a7f3e0f645165b9cfb1f19ad",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v3/shape_manifest.json": "1d6387ca14971bd9ceaad81addc071c165578298321dc6a9fdfe5db09e2f1404",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/fixing_contract.json": "ebbb1882b101a9be4b125ab25a6b7fb68151e69e3f34493dc613b196e0037fe7",
+    "work/r26-cover-first/build_covers.py": "6609f61bb04d3b17be29b27794f4c52c4b95ca20621c6db5b75e011b4b03b363",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_L_thigh_photo_triangle.step": "80b3ccea529a9563250a5cc0b2e10567cc32a5cda5f05287c6309c31c42f6796",
+    "work/r18-leg-hip-covers/legs/reference_design/candidate_v8/STEP_毫米/R18P_R_thigh_photo_triangle.step": "28160e13cb181ee6f99ff8507d883f025038db48873d140987719705aba9112a"
+  },
+  "parts": [
+    {
+      "name": "R26_L_thigh_short_cover",
+      "replaces": "R18P_L_thigh_photo_triangle",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "new_minus_old_mm3": 0.0,
+      "step_readback_new_minus_old_mm3": 0.0,
+      "step_readback_volume_error_mm3": 2.582964953035116e-10,
+      "fresh_process_STEP_containment": {
+        "new_minus_old_mm3": 0.0,
+        "common_volume_mm3": 12714.93851351705,
+        "new_volume_mm3": 12714.938513517045,
+        "fuzzy_tolerance_mm": 0.0,
+        "independent_STEP_reads_per_operation": true
+      },
+      "old_volume_mm3": 15091.08103331743,
+      "new_volume_mm3": 12714.938513516787,
+      "removed_volume_mm3": 2376.142480495032,
+      "old_exact_bounds_mm": [
+        [
+          -78.945197624378,
+          139.01142872056943,
+          -142.18965526766848
+        ],
+        [
+          29.694476411399,
+          151.22613079786058,
+          -25.218986868441505
+        ]
+      ],
+      "new_exact_bounds_mm": [
+        [
+          -78.945197624378,
+          140.51901417612922,
+          -124.96456228196848
+        ],
+        [
+          29.694476411399,
+          151.22613079786035,
+          -25.218986868441483
+        ]
+      ],
+      "knee_HOME_z_mm": -114.964562282,
+      "requested_bottom_z_mm": -124.964562282,
+      "actual_bottom_z_mm": -124.96456228196848,
+      "old_extension_below_knee_mm": 27.225092985668482,
+      "new_extension_below_knee_mm": 9.99999999996848,
+      "vertical_exposure_gain_mm": 17.2250929857,
+      "interfaces": [
+        {
+          "index": 1,
+          "centre_uv_mm": [
+            -59.0,
+            -66.0
+          ],
+          "axis_HOME_mm": [
+            0.0,
+            0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "centre_at_inner_face_HOME_mm": [
+            -59.0,
+            144.5352329773261,
+            -78.90240855286274
+          ],
+          "through_hole_diameter_mm": 2.7,
+          "spigot_pocket_diameter_mm": 4.05,
+          "spigot_pocket_depth_mm": 0.85,
+          "original_spigot_engagement_mm": 0.8,
+          "washer_pad_OD_mm": 9,
+          "washer_pad_raised_height_mm": 0.12,
+          "zones": {
+            "full_support_R7": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 297.28842149471905
+            },
+            "full_OD9_pad": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 18.525343559280053
+            },
+            "spigot_pocket_and_surround": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 13.08301726928003
+            }
+          },
+          "centre_to_outer_edge_mm": 19.94453886662814
+        },
+        {
+          "index": 2,
+          "centre_uv_mm": [
+            -39.0,
+            -104.0
+          ],
+          "axis_HOME_mm": [
+            0.0,
+            0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "centre_at_inner_face_HOME_mm": [
+            -39.0,
+            141.22203867763545,
+            -116.75769541655573
+          ],
+          "through_hole_diameter_mm": 2.7,
+          "spigot_pocket_diameter_mm": 4.05,
+          "spigot_pocket_depth_mm": 0.85,
+          "original_spigot_engagement_mm": 0.8,
+          "washer_pad_OD_mm": 9,
+          "washer_pad_raised_height_mm": 0.12,
+          "zones": {
+            "full_support_R7": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 297.28858879917186
+            },
+            "full_OD9_pad": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 18.52534355910068
+            },
+            "spigot_pocket_and_surround": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 13.08308805515979
+            }
+          },
+          "centre_to_outer_edge_mm": 8.056163961622286
+        }
+      ],
+      "nominal_main_wall_mm": 2.0,
+      "main_wall_policy": "Intersection preserves both original parallel planes; no thickness scaling.",
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "connected_components": 1,
+        "volume_mm3": 12714.802666612884,
+        "cad_volume_error_mm3": 0.13584690390234755,
+        "manifold3d_status": "Error.NoError",
+        "vertex_count": 6352,
+        "face_count": 12708,
+        "bounds_mm": [
+          [
+            -78.9448184474459,
+            140.51903757286925,
+            -124.96429495979359
+          ],
+          [
+            29.694476411399,
+            151.22612134830186,
+            -25.219094835471502
+          ]
+        ],
+        "cad_bounds_max_error_mm": 0.00037917693209976733,
+        "cad_bounds_tolerance_mm": 0.01
+      },
+      "stl_readback": {
+        "watertight": true,
+        "winding_consistent": true,
+        "connected_components": 1,
+        "volume_mm3": 12714.802666612884,
+        "cad_volume_error_mm3": 0.13584690390234755,
+        "manifold3d_status": "Error.NoError",
+        "vertex_count": 6352,
+        "face_count": 12708,
+        "bounds_mm": [
+          [
+            -78.9448184474459,
+            140.51903757286925,
+            -124.96429495979359
+          ],
+          [
+            29.694476411399,
+            151.22612134830186,
+            -25.219094835471502
+          ]
+        ]
+      },
+      "indexed_readback": [
+        {
+          "file": "R26_L_thigh_short_cover.ply",
+          "sha256": "d8cfbcdda3e8b7e67afd9dd0206ce7b7b329e6a238dd9b3c5546f66825eb450d",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        },
+        {
+          "file": "R26_L_thigh_short_cover.3mf",
+          "sha256": "60a46d1360068f7270acd56ee7f2be193ccf60bb64bfa825cad6a4159c828016",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        }
+      ]
+    },
+    {
+      "name": "R26_R_thigh_short_cover",
+      "replaces": "R18P_R_thigh_photo_triangle",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "new_minus_old_mm3": 0.0,
+      "step_readback_new_minus_old_mm3": 0.0,
+      "step_readback_volume_error_mm3": 6.970367394387722e-08,
+      "fresh_process_STEP_containment": {
+        "new_minus_old_mm3": 0.0,
+        "common_volume_mm3": 12714.938533317832,
+        "new_volume_mm3": 12714.938533317832,
+        "fuzzy_tolerance_mm": 0.0,
+        "independent_STEP_reads_per_operation": true
+      },
+      "old_volume_mm3": 15091.080993892727,
+      "new_volume_mm3": 12714.938533387536,
+      "removed_volume_mm3": 2376.1424189613826,
+      "old_exact_bounds_mm": [
+        [
+          -78.945197624378,
+          -151.22613079781058,
+          -142.18965526766848
+        ],
+        [
+          29.694476411399,
+          -139.01142872048942,
+          -25.218986868441505
+        ]
+      ],
+      "new_exact_bounds_mm": [
+        [
+          -78.945197624378,
+          -151.22613079781036,
+          -124.96456228196848
+        ],
+        [
+          29.694476411399,
+          -140.5190141759892,
+          -25.218986868441483
+        ]
+      ],
+      "knee_HOME_z_mm": -114.964562282,
+      "requested_bottom_z_mm": -124.964562282,
+      "actual_bottom_z_mm": -124.96456228196848,
+      "old_extension_below_knee_mm": 27.225092985668482,
+      "new_extension_below_knee_mm": 9.99999999996848,
+      "vertical_exposure_gain_mm": 17.2250929857,
+      "interfaces": [
+        {
+          "index": 1,
+          "centre_uv_mm": [
+            -59.0,
+            -66.0
+          ],
+          "axis_HOME_mm": [
+            0.0,
+            -0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "centre_at_inner_face_HOME_mm": [
+            -59.0,
+            -144.5352329773261,
+            -78.90240855286274
+          ],
+          "through_hole_diameter_mm": 2.7,
+          "spigot_pocket_diameter_mm": 4.05,
+          "spigot_pocket_depth_mm": 0.85,
+          "original_spigot_engagement_mm": 0.8,
+          "washer_pad_OD_mm": 9,
+          "washer_pad_raised_height_mm": 0.12,
+          "zones": {
+            "full_support_R7": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 297.288421495398
+            },
+            "full_OD9_pad": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 18.525343558702662
+            },
+            "spigot_pocket_and_surround": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 13.083017270234354
+            }
+          },
+          "centre_to_outer_edge_mm": 19.944538866628335
+        },
+        {
+          "index": 2,
+          "centre_uv_mm": [
+            -39.0,
+            -104.0
+          ],
+          "axis_HOME_mm": [
+            0.0,
+            -0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "centre_at_inner_face_HOME_mm": [
+            -39.0,
+            -141.22203867763545,
+            -116.75769541655573
+          ],
+          "through_hole_diameter_mm": 2.7,
+          "spigot_pocket_diameter_mm": 4.05,
+          "spigot_pocket_depth_mm": 0.85,
+          "original_spigot_engagement_mm": 0.8,
+          "washer_pad_OD_mm": 9,
+          "washer_pad_raised_height_mm": 0.12,
+          "zones": {
+            "full_support_R7": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 297.28858924331365
+            },
+            "full_OD9_pad": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 18.525343557947956
+            },
+            "spigot_pocket_and_surround": {
+              "removed_volume_mm3": 0.0,
+              "symmetric_difference_mm3": 0.0,
+              "retained_original_volume_mm3": 13.083088057148496
+            }
+          },
+          "centre_to_outer_edge_mm": 8.056163961622286
+        }
+      ],
+      "nominal_main_wall_mm": 2.0,
+      "main_wall_policy": "Intersection preserves both original parallel planes; no thickness scaling.",
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "connected_components": 1,
+        "volume_mm3": 12714.802650739737,
+        "cad_volume_error_mm3": 0.13588264779900783,
+        "manifold3d_status": "Error.NoError",
+        "vertex_count": 6352,
+        "face_count": 12708,
+        "bounds_mm": [
+          [
+            -78.9448184474459,
+            -151.22612134825187,
+            -124.96429495979359
+          ],
+          [
+            29.694476411399,
+            -140.51903757272925,
+            -25.21909483547151
+          ]
+        ],
+        "cad_bounds_max_error_mm": 0.00037917693209976733,
+        "cad_bounds_tolerance_mm": 0.01
+      },
+      "stl_readback": {
+        "watertight": true,
+        "winding_consistent": true,
+        "connected_components": 1,
+        "volume_mm3": 12714.802650739737,
+        "cad_volume_error_mm3": 0.13588264779900783,
+        "manifold3d_status": "Error.NoError",
+        "vertex_count": 6352,
+        "face_count": 12708,
+        "bounds_mm": [
+          [
+            -78.9448184474459,
+            -151.22612134825187,
+            -124.96429495979359
+          ],
+          [
+            29.694476411399,
+            -140.51903757272925,
+            -25.21909483547151
+          ]
+        ]
+      },
+      "indexed_readback": [
+        {
+          "file": "R26_R_thigh_short_cover.ply",
+          "sha256": "57a2635239bc2f7cf1dea21b0d971757a031424e056f83ec795cfd0e45f82aa9",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        },
+        {
+          "file": "R26_R_thigh_short_cover.3mf",
+          "sha256": "0792a7a8cd5848774c4ba768a0b30a7f8bf6ba20677f62957221ef72cd0c590c",
+          "vertex_error_mm": 0.0,
+          "volume_error_mm3": 0.0,
+          "indexed_faces_identical": true,
+          "watertight": true,
+          "single_body": true
+        }
+      ]
+    }
+  ],
+  "fresh_reader_negative_control": {
+    "new_minus_old_mm3": 12714.544708702373,
+    "common_volume_mm3": 0.0,
+    "new_volume_mm3": 12714.544698713677,
+    "fuzzy_tolerance_mm": 0.0,
+    "independent_STEP_reads_per_operation": true,
+    "description": "Unperturbed clipping centres reproduce fresh-reader coincident-seam failure.",
+    "detected": true
+  },
+  "construction": {
+    "upper_clipping_centres_ray_extension_factor": 1.02,
+    "original_centres_uv_mm": [
+      [
+        -57.65069841701588,
+        -65.95783176894406
+      ],
+      [
+        -38.568602474284916,
+        -108.0596366416386
+      ],
+      [
+        8.399977204030677,
+        -33.40585661556041
+      ]
+    ],
+    "new_centres_uv_mm": [
+      [
+        -58.0323403358705,
+        -65.46161449241977
+      ],
+      [
+        -38.568602474284916,
+        -90.76869559515853
+      ],
+      [
+        9.33934879759699,
+        -32.25859983596845
+      ]
+    ],
+    "bottom_corner_shift_v_mm": 17.29094104648007,
+    "corner_radius_mm": 21.29449920736853,
+    "main_wall_mm": 2.0,
+    "outside_plane_offset_mm": 152.864255697806,
+    "method": "Native intersection with exact line-and-circle rounded triangular prism."
+  },
+  "lateral_inset": {
+    "applied_mm": 0,
+    "examined_mm": 4,
+    "original_spigot_engagement_mm": 0.8,
+    "reason": "Moving the skin 4 mm inward changes its locating pocket and seating plane relative to fixed bridge, spigots, washers and screws. Original engagement is only 0.8 mm; bridge redesign and screw-stack validation required. This revision preserves the installed plane."
+  },
+  "manufacturing_approved": false,
+  "physical_approved": false
+}

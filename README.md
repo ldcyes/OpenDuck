@@ -4,13 +4,15 @@
 
 本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
+![OpenDuck R26 正交正视](hardware/r26-cover-first/images/01-front.jpg)
+
 ![头部摄像头前盖特写](hardware/r25-bottom-head-entry/images/02-head-camera-cover.png)
 
-**本次更新：[R25头部底部走线](hardware/r25-bottom-head-entry/README.md) · [完整Blender与工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r25-bottom-head-entry-20260923)。**
+**本次更新：[R26 A方案大腿覆盖件](hardware/r26-cover-first/README.md) · [完整Blender与工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924)。**
 
-31根头部导线改为底部接入，保留前盖与原外形比例；收拢活动线束并取消原侧面专用线孔。[底部走线特写](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png)。仍为工程候选，离散转头检查不代表连续运动或实物验收。
+沿用R25：31根头部导线改为底部接入，保留前盖与原外形比例；收拢活动线束并取消原侧面专用线孔。[底部走线特写](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png)。仍为工程候选，离散转头检查不代表连续运动或实物验收。
 
-**2026-09-24设计复核：[腿部比例与电机筛选](docs/proportion-study-20260924/README.md)。已测量现有装配并比较三种方案；尚未替换制造模型、电机BOM或批准步态。**
+**2026-09-24设计复核：[腿部比例与电机筛选](docs/proportion-study-20260924/README.md)。前期比较三种方案，现已采用A修改覆盖件；电机和腿长不变，实物步态未验收。**
 
 [R24摄像头前盖](hardware/r24-head-front/README.md)与历史发布继续保留。
 

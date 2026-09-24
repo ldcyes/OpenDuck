@@ -1,0 +1,60 @@
+{
+  "status": "R26_ENGINEERING_DENSITY_ESTIMATE_NOT_WEIGHED",
+  "mass_kg": 4.443059766833049,
+  "COM_HOME_mm": [
+    2.930111804942074,
+    -1.625766762246414,
+    25.13791829599441
+  ],
+  "delta_mass_g": -4.4196250316836085,
+  "delta_COM_HOME_mm": [
+    0.033726997812253856,
+    -0.0016155864159115296,
+    0.1427798762946395
+  ],
+  "removed": [
+    {
+      "name": "R18P_L_thigh_photo_triangle",
+      "mass_g": 14.034705360985624,
+      "center_mm": [
+        -26.186453077858967,
+        145.411407253394,
+        -80.37741437286208
+      ]
+    },
+    {
+      "name": "R18P_R_thigh_photo_triangle",
+      "mass_g": 14.03470532431955,
+      "center_mm": [
+        -26.186452938057396,
+        -145.4114076181854,
+        -80.37741411688887
+      ]
+    }
+  ],
+  "added": [
+    {
+      "name": "R26_L_thigh_short_cover",
+      "mass_g": 11.824892817570612,
+      "center_mm": [
+        -25.285141342185124,
+        146.03589591956043,
+        -73.24532630825333
+      ]
+    },
+    {
+      "name": "R26_R_thigh_short_cover",
+      "mass_g": 11.82489283605041,
+      "center_mm": [
+        -25.28514122945035,
+        -146.03589633409263,
+        -73.24532618094318
+      ]
+    }
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "limits": [
+    "Only cover material changes; no motor change, no dynamics/torque/endurance qualification."
+  ]
+}

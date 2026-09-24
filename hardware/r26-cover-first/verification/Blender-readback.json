@@ -1,0 +1,50 @@
+{
+  "status": "R26_COMPLETE_MODEL_READBACK_PASS",
+  "part_count": 1224,
+  "service_count": 17,
+  "unchanged_mesh_and_matrix_records": 1239,
+  "new_source_meshes_verified": 2,
+  "max_roundtrip_displacement_mm": 5.636343330706507e-05,
+  "max_retained_geometry_displacement_mm": 5.608051026425796e-05,
+  "bounds_scene_mm": [
+    [
+      -99.7554673846146,
+      -151.22612717797244,
+      -7.566995918750763e-06
+    ],
+    [
+      157.89360796341077,
+      151.22612717797244,
+      570.3931725284264
+    ]
+  ],
+  "HOME_height_mm": 570.3931800954223,
+  "blend_sha256": "8256c05e65758262b0c0edfb2bf7ba176378f188d079e7e574239c8c458c8cad",
+  "build_index_sha256": "aaccc65842d98a7975f91e45b4549a97c34f7d5e02a688c772be33500542dad9",
+  "verifier_sha256": "9b1e0f805e4518203dcb6a54c4b9936ec9bc1db862425f1485f20aba8a047141",
+  "camera_frame_checks": [
+    {
+      "scene": "01_R26_complete_assembly",
+      "visible_objects": 1151,
+      "complete_frame": true
+    },
+    {
+      "scene": "02_R25_R26_same_scale",
+      "visible_objects": 2304,
+      "complete_frame": true
+    },
+    {
+      "scene": "03_R25_R26_leg_detail",
+      "visible_objects": 90,
+      "complete_frame": true
+    }
+  ],
+  "renders": {
+    "01-front.png": "a4f2bfbde227194bec0f3c47e19119ccf14521a7ec3a516b82fc835aded6d038",
+    "02-side.png": "c36ba52f7b0250f3470a20281a2de79078155bf31b23346c2a612b35b644121e",
+    "03-full-comparison.png": "d9031e4b7d984c347511596ebd99f4b58e18f2917d943f81d6a453de3afc3f95",
+    "04-leg-comparison.png": "678d30eff9776a916008431cb05c9940ccf1b3a84bba6248782c780d24016a73"
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

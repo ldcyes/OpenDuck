@@ -4,13 +4,15 @@
 
 OpenDuck brings together mechanical design, electronics, numerical gait studies, and RK3576 runtime and training adaptation sources derived from Microduck. **This is an engineering simulation prerelease. Physical fabrication and normal-speed walking acceptance have not been completed.**
 
+![OpenDuck R26 orthographic front view](hardware/r26-cover-first/images/01-front.jpg)
+
 ![Head camera front cover](hardware/r25-bottom-head-entry/images/02-head-camera-cover.png)
 
-**Latest assembly: [R25 bottom-entry head wiring](hardware/r25-bottom-head-entry/README.md) · [Complete Blender model and engineering downloads](https://github.com/ldcyes/OpenDuck/releases/tag/r25-bottom-head-entry-20260923).**
+**Latest assembly: [R26 cover-first option A](hardware/r26-cover-first/README_EN.md) · [Complete Blender and engineering downloads](https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924).**
 
 The 31 head conductors now enter from below. R25 retains the camera front cover and existing body proportions, uses a more compact moving harness, and closes the former dedicated side cable window. See the [bottom-entry detail](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png). The separate motor access opening remains in the published R25 shell; its permanent closure is a subsequent design decision. Discrete head-pose checks do not establish continuous-motion or physical acceptance.
 
-**Design review, September 24:** [leg proportions and actuator screening](docs/proportion-study-20260924/README_EN.md). This review measures the existing assembly and compares alternatives; it does not introduce a qualified longer-leg assembly or a new actuator BOM.
+**Design review, September 24:** [leg proportions and actuator screening](docs/proportion-study-20260924/README_EN.md). The earlier review compares alternatives. R26 now implements option A with shorter covers; leg lengths and actuator selection remain unchanged.
 
 The [R24 camera cover](hardware/r24-head-front/README.md), [R23 integrated power-board mount, harness and thermal design](hardware/r23-design/README.md), and their historical releases remain available. [Download the complete R23 engineering package](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922).
 
