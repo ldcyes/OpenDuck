@@ -14,6 +14,8 @@ The 31 head conductors now enter from below. R25 retains the camera front cover 
 
 **Four-step walking replay:** [R27 motion on the complete R26 assembly](hardware/r27-walk-replay/README_EN.md) uses the recorded 195.44-second integration trace. Rigid collision changes due to the shorter covers are checked; R26 dynamics and physical walking remain unqualified.
 
+**R26 interference review:** [R28 direct interval check](hardware/r28-r26-interference/README_EN.md) found no new cover penetration in 2,345 moving pairs along the four-step trace. Its smallest conservative clearance bound is only 0.015 mm, so manufacturing margin is unproven. The existing head-shell/mouth-carrier collision remains at about 8.75° of mouth opening.
+
 **Design review, September 24:** [leg proportions and actuator screening](docs/proportion-study-20260924/README_EN.md). The earlier review compares alternatives. R26 now implements option A with shorter covers; leg lengths and actuator selection remain unchanged.
 
 The [R24 camera cover](hardware/r24-head-front/README.md), [R23 integrated power-board mount, harness and thermal design](hardware/r23-design/README.md), and their historical releases remain available. [Download the complete R23 engineering package](https://github.com/ldcyes/OpenDuck/releases/tag/r23-integrated-power-design-20260922).

@@ -1,0 +1,102 @@
+{
+  "status": "R26_DIRECT_RIGID_INTERVAL_CHECK_REVIEWED_WITH_EXISTING_MOUTH_INTERFERENCE",
+  "installed_geometry_count": 1224,
+  "rigid_checked_count": 1193,
+  "flexible_neck_excluded": 31,
+  "direct_new_cover_pair_count": 2383,
+  "dynamic_pair_count": 2345,
+  "invariant_pair_count": 38,
+  "source_interval_count": 9773,
+  "dynamic_unresolved": 0,
+  "smallest_certified_dynamic_separation_mm": 0.015112683457320818,
+  "separation_threshold_mm": 0.0001,
+  "target_clearance_mm": 2.2,
+  "exact_six_installed_seats": [
+    {
+      "cover": "R26_L_thigh_short_cover",
+      "seat": "R18P_L_thigh_CNC_bridge_saddle",
+      "pair_id": 960,
+      "mesh_common_mm3": 1.5640369507053764e-14,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    },
+    {
+      "cover": "R26_L_thigh_short_cover",
+      "seat": "R18P_L_thigh_skin_F1_washer_OD7",
+      "pair_id": 970,
+      "mesh_common_mm3": 4.104559032068467e-15,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    },
+    {
+      "cover": "R26_L_thigh_short_cover",
+      "seat": "R18P_L_thigh_skin_F2_washer_OD7",
+      "pair_id": 972,
+      "mesh_common_mm3": 6.923061164057151e-15,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    },
+    {
+      "cover": "R26_R_thigh_short_cover",
+      "seat": "R18P_R_thigh_CNC_bridge_saddle",
+      "pair_id": 2165,
+      "mesh_common_mm3": 3.317525558635809e-11,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    },
+    {
+      "cover": "R26_R_thigh_short_cover",
+      "seat": "R18P_R_thigh_skin_F1_washer_OD7",
+      "pair_id": 2175,
+      "mesh_common_mm3": 1.0993359407475076e-14,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    },
+    {
+      "cover": "R26_R_thigh_short_cover",
+      "seat": "R18P_R_thigh_skin_F2_washer_OD7",
+      "pair_id": 2177,
+      "mesh_common_mm3": 7.003834225907321e-15,
+      "native_STEP_common_mm3": 0.0,
+      "classification": "NOMINAL_SEATING_ZERO_NATIVE_VOLUME"
+    }
+  ],
+  "other_unchanged_rigid_parts": 1191,
+  "inherited_unchanged_pair_review": {
+    "prior_dynamic_pairs": 46170,
+    "prior_named_invariant_contacts": 110,
+    "prior_review_unresolved": 0
+  },
+  "confirmed_existing_interference": {
+    "pair": [
+      "R25_lower_head_shell_bottom_entry",
+      "R12_mouth_load_carrier"
+    ],
+    "first_sampled_angle_deg": 8.75,
+    "volume_at_8p75_mm3": 0.12247579768650713,
+    "walk_mouth_command_range_deg": [
+      -0.0015370120783105106,
+      0.0026428903000797394
+    ]
+  },
+  "limitations": [
+    "The 0.015 mm certified minimum is nominal tessellated rigid geometry, not a manufacturing clearance allowance or deformable-wire margin.",
+    "The direct R26 interval checker covers pairs touching either new cover. Unchanged-unchanged pairs inherit earlier revision checks and named contacts; it is not an all-pairs new approval.",
+    "31 free-neck harness pieces were excluded from rigid interval checking. Soft deformation, print tolerances, floor contact and real walking remain unverified.",
+    "The replay comes from R21 dynamics at 4.195 kg; R26 estimated 4.443 kg was not dynamically re-integrated."
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "sources": {
+    "work/r28-r26-interference/mechanics/motion_delta/result.json": "601ef0ea3fabe133ccd85009486f18354ee919e8526b1c81d851756e61c5f950",
+    "work/r28-r26-interference/mechanics/motion_delta/pair_index.json": "51f98e713b3b6c9cb2ea73e49082076d6fc5028715949d886bc5be47606f1f0a",
+    "work/r28-r26-interference/mechanics/motion_delta/inputs.json": "050cdcd24983ba0732428d710906a5bf7ca47a52f6a3ae9dd139e58a9dbbc5e3",
+    "work/r28-r26-interference/mechanics/motion_delta/check_delta.py": "e9879b451924da8c111e303331114d9692448db6b3b87e1fecad3bd05a751ca9",
+    "work/r25-bottom-head-entry/motion/rigid_final/result.json": "c476c469e08f8d6aa003b22daf6839410447290914e27f444f75d6ef9d099b65",
+    "work/r25-bottom-head-entry/motion_contact_review.json": "c1e2b998237b08786ba3a934921c687146778287e13831deed9a29e1e1b4ab4c",
+    "work/r26-cover-first/verification.json": "ce9dec663b0da59207c45109856f5f1676c7ea2da31ba3e9e28cab96cd1c51e6",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/dynamic_trace_for_CAD.json": "524b29651e786bb9ef1608693a349df3e1e059f9b523fe4f5abc20e7647ba240",
+    "work/r28-r26-interference/mouth_interference.json": "5cf5604797ecaa0b160f780073b504c5024d23cb0d9bf8bb07aaf020fff59d6e",
+    "work/r28-r26-interference/review_direct.py": "7666408608a624e87cd622d1874d494b74afd1f792f4903cf2bf2418c69d6d14"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "r26_selection": "work/r26-cover-first/assembly_selection.json",
+  "r26_selection_sha256": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+  "installed_rigid_items": 1193,
+  "new_covers": [
+    "R26_L_thigh_short_cover",
+    "R26_R_thigh_short_cover"
+  ],
+  "excluded_flexible_items": 31,
+  "interval_bounds_sha256": "9d2e3e387096741ca300561c40f09581c2af3c0f55d83af7eafc910a2f9e9a6f"
+}
