@@ -1,0 +1,11 @@
+{
+  "status": "PUBLISHED_R27_REMOTE_TREE_AND_FOUR_ASSETS_VERIFIED",
+  "release_url": "https://github.com/ldcyes/OpenDuck/releases/tag/r27-r26-four-step-replay-20260925",
+  "tag": "r27-r26-four-step-replay-20260925",
+  "commit": "0df679f45ba6e463c3997d4bbbe1a07458f233de",
+  "repository_files_verified": 15,
+  "assets_verified": 4,
+  "remote_checksum_bytes_match": true,
+  "physical_approved": false,
+  "manufacturing_approved": false
+}
