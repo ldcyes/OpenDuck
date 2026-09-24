@@ -1,14 +1,16 @@
 # OpenDuck 工程
 
-本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
+**简体中文** | [English](README_EN.md)
 
-![OpenDuck R25 整机与前盖渲染图](hardware/r25-bottom-head-entry/images/01-complete-assembly.png)
+本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
 ![头部摄像头前盖特写](hardware/r25-bottom-head-entry/images/02-head-camera-cover.png)
 
 **本次更新：[R25头部底部走线](hardware/r25-bottom-head-entry/README.md) · [完整Blender与工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r25-bottom-head-entry-20260923)。**
 
 31根头部导线改为底部接入，保留前盖与原外形比例；收拢活动线束并取消原侧面专用线孔。[底部走线特写](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png)。仍为工程候选，离散转头检查不代表连续运动或实物验收。
+
+**2026-09-24设计复核：[腿部比例与电机筛选](docs/proportion-study-20260924/README.md)。已测量现有装配并比较三种方案；尚未替换制造模型、电机BOM或批准步态。**
 
 [R24摄像头前盖](hardware/r24-head-front/README.md)与历史发布继续保留。
 
@@ -28,8 +30,6 @@
 - [PCB功能与主要器件](docs/pcb/01_全部PCB功能与主要器件.md)、[DRC和尺寸结论](docs/pcb/00_PCB检查与缩板结论.md)、[43项警告复核](docs/pcb/02_43项警告逐对象复核.md)。
 - [结构修订和完整装配说明](docs/structure-r20/00_修复结果与查看说明.md)、[减摆结果](docs/motion-r21/00_减摆结果与查看说明.md)、[模型与视频查看方法](docs/motion-r21/02_模型与视频查看说明.md)。
 - [软件、部署和训练真实入口](docs/software.md)、[复算与来源校验](docs/reproduction.md)、[来源和许可](NOTICE.md)。
-
-![完整装配同阶段对照](docs/motion-r21/图/同阶段装配对照.png)
 
 ## 下载内容
 

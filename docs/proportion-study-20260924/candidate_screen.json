@@ -1,0 +1,4215 @@
+{
+  "status": "DESIGN_SCREEN_ONLY_NOT_FABRICATION_OR_GAIT_APPROVAL",
+  "physical_approved": false,
+  "sources": {
+    "work/r25-bottom-head-entry/assembly_selection.json": "54ceda0385e4abd6f6ea28ad294918d2e5cd0da9a7f3e0f645165b9cfb1f19ad",
+    "work/r26-proportion-study/baseline_measurements.json": "62a9fa2ea920965d6f6faea8956abd25606e361e4f56d34ff40170b27c9181d6",
+    "work/r25-bottom-head-entry/mass_delta.json": "f2771d06dd4955cb87dce9faeaf7bcd69ba2fcad21de904aba272d63481ea927",
+    "work/r21-reduced-sway/gait/support_pair_v4.json": "4ff93266e6fdf84529a0c71b8ff44d05992d7c7141fec935544f30f429777e3a",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/report.json": "81b4423fa399bfc89fbeb425c18f9c8e7ee75c7557bc934db5958ad10ab81b02",
+    "work/r21-reduced-sway/dynamics/full_v3/friction_0p5/report.json": "baef8fd96282eac0a7b1fc6c8dbbf1fa52513b51bd91637a8b2a55d6b768e8f0",
+    "work/r21-reduced-sway/dynamics/full_v3/half_timestep/report.json": "81a1943f99441df3a2b5f16f929109663a0d43a1ea067a78c8c31f493a4b866a",
+    "work/r21-reduced-sway/dynamics/full_v3/contact9/report.json": "858cae8cdfc0811b8e27d4369aaf213fa5888fc45a3074cf6f140511ac543227"
+  },
+  "baseline_mass_kg": 4.447479391864733,
+  "historical_dynamics_mass_kg": 4.195093550269529,
+  "mass_increase_percent": 6.01621486078634,
+  "cover": {
+    "xz_span_mm": [
+      108.63830149173737,
+      116.96881800889969
+    ],
+    "below_knee_axis_mm": 27.224386110967515,
+    "lateral_inner_cover_to_motor_AABB_mm": 11.27351668745844,
+    "proposed_lower_edge_knee_minus_10_mm": -124.96456228196621,
+    "possible_vertical_edge_raise_mm": 17.224386110967515,
+    "note": "AABB projection measurements, not collision clearance or visible-pixel occlusion."
+  },
+  "historical_four_case_loads": {
+    "right_hip_yaw": {
+      "peak_Nm": 0.40725916115058425,
+      "RMS_Nm": 0.1793052751178729,
+      "unqualified_limit_Nm": 0.9
+    },
+    "right_hip_roll": {
+      "peak_Nm": 0.8019273765584174,
+      "RMS_Nm": 0.48891336729143486,
+      "unqualified_limit_Nm": 0.9
+    },
+    "right_hip_pitch": {
+      "peak_Nm": 1.170407974456296,
+      "RMS_Nm": 0.5257305043823477,
+      "unqualified_limit_Nm": 1.35
+    },
+    "right_knee": {
+      "peak_Nm": 1.042955115814736,
+      "RMS_Nm": 0.6896184390682955,
+      "unqualified_limit_Nm": 1.35
+    },
+    "right_ankle": {
+      "peak_Nm": 0.8012201457220591,
+      "RMS_Nm": 0.43683895330043054,
+      "unqualified_limit_Nm": 1.0
+    },
+    "left_hip_yaw": {
+      "peak_Nm": 0.40993439166569345,
+      "RMS_Nm": 0.18151451473537544,
+      "unqualified_limit_Nm": 0.9
+    },
+    "left_hip_roll": {
+      "peak_Nm": 0.8254580250358572,
+      "RMS_Nm": 0.4928853569236624,
+      "unqualified_limit_Nm": 0.9
+    },
+    "left_hip_pitch": {
+      "peak_Nm": 1.1747662150454234,
+      "RMS_Nm": 0.5274403903589236,
+      "unqualified_limit_Nm": 1.35
+    },
+    "left_knee": {
+      "peak_Nm": 1.0369744489004766,
+      "RMS_Nm": 0.6373995041711936,
+      "unqualified_limit_Nm": 1.35
+    },
+    "left_ankle": {
+      "peak_Nm": 0.8066642363366157,
+      "RMS_Nm": 0.4591761770539933,
+      "unqualified_limit_Nm": 1.0
+    },
+    "neck_pitch": {
+      "peak_Nm": 0.4993110269933314,
+      "RMS_Nm": 0.4024593922118143,
+      "unqualified_limit_Nm": 0.9
+    },
+    "head_pitch": {
+      "peak_Nm": 0.21033850130089124,
+      "RMS_Nm": 0.10802697931447017,
+      "unqualified_limit_Nm": 0.9
+    },
+    "head_yaw": {
+      "peak_Nm": 0.05531424218756738,
+      "RMS_Nm": 0.03518567305767631,
+      "unqualified_limit_Nm": 0.13
+    },
+    "head_roll": {
+      "peak_Nm": 0.06848022251184546,
+      "RMS_Nm": 0.03863349321654858,
+      "unqualified_limit_Nm": 0.13
+    },
+    "mouth_candidate": {
+      "peak_Nm": 0.059041981990784136,
+      "RMS_Nm": 0.05667576263531969,
+      "unqualified_limit_Nm": 0.08
+    }
+  },
+  "candidates": [
+    {
+      "name": "A_cover_first",
+      "sagittal_extension_fraction": 0,
+      "upper_axis_distance_mm": 88.59911614095485,
+      "lower_axis_distance_mm": 103.73233605206082,
+      "sum_axis_distances_mm": 192.33145219301565,
+      "HOME_height_proxy_mm": 570.3931800954223,
+      "R21_same_angles_height_proxy_mm": 577.8296451289893,
+      "left_foot_reanchor_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right_foot_reanchor_delta_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joints": [
+        {
+          "joint": "right_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "bearing_roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            -17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.523598775598297,
+            0.43633231299858416
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "bearing_roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            -36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            -36.75000015646228,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            -36.75000015646215,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 1.016932509880479e-14,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "bearing_roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 10,
+          "label_zh": "右髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_roll",
+          "parent_link": "bearing_roll",
+          "child_link": "hip_l_2",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            -17.500001937150955,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999887,
+            -7.537905588605924e-08,
+            -1.3096770601350579e-07
+          ],
+          "source_home_joint_angle_rad": 0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354387507,
+            0.38397243543875426
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l_2",
+          "vendor_R": [
+            [
+              7.537904443649945e-08,
+              1.3096771260335107e-07,
+              0.9999999999999887
+            ],
+            [
+              0.9999999999999933,
+              8.742276390332911e-08,
+              -7.537905588605924e-08
+            ],
+            [
+              -8.742277377555064e-08,
+              0.9999999999999877,
+              -1.3096770601350579e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            -36.750004068017006,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.537904482387064e-08,
+              1.3096771230922208e-07,
+              0.999999999999989
+            ],
+            [
+              0.9999999999999937,
+              8.742276392238099e-08,
+              -7.537905549868812e-08
+            ],
+            [
+              -8.742277375649885e-08,
+              0.9999999999999875,
+              -1.3096770630763483e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991714,
+            -36.750002635814944,
+            -36.75000940274022
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            -36.750004068017,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591456282383e-14,
+          "motor_housing_link": "bearing_roll",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427752582037e-15,
+          "id": 11,
+          "label_zh": "右髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_pitch",
+          "parent_link": "hip_l_2",
+          "child_link": "upper_leg_right",
+          "R0_pivot_trunk_mm": [
+            3.9999964646995068,
+            -42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -2.326480019491055e-07,
+            -0.9961917846151318,
+            -0.08718903752917913
+          ],
+          "source_home_joint_angle_rad": 0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.57079632679494,
+            1.570796326794853
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_right",
+          "vendor_R": [
+            [
+              -0.44206525342957514,
+              0.8969828937667603,
+              2.326480019491055e-07
+            ],
+            [
+              -0.07820697273372626,
+              -0.03854345185819416,
+              0.9961917846151318
+            ],
+            [
+              0.8935669986778113,
+              0.440381755535653,
+              0.08718903752917913
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.399992575868964,
+            -89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              -0.4420652534295754,
+              0.8969828937667603,
+              2.3264800238213827e-07
+            ],
+            [
+              -0.0782069727337263,
+              -0.03854345185819369,
+              0.9961917846151308
+            ],
+            [
+              0.8935669986778116,
+              0.44038175553565284,
+              0.08718903752917923
+            ]
+          ],
+          "motor_t_mm": [
+            8.39998815555693,
+            -107.97770963372929,
+            -42.9840302165582
+          ],
+          "active_contact_point_trunk_mm": [
+            8.399992575868975,
+            -89.05006572604181,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 1.7763568394002505e-14,
+          "axis_radial_error_mm": 1.0729922541428285e-14,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156734240048229e-14,
+          "id": 12,
+          "label_zh": "右髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_knee",
+          "parent_link": "upper_leg_right",
+          "child_link": "leg_2",
+          "R0_pivot_trunk_mm": [
+            -18.3660127222538,
+            -35.320498049259186,
+            -54.745033383369446
+          ],
+          "axis_trunk": [
+            1.5404283033553224e-07,
+            0.996191787850822,
+            0.08718900055946953
+          ],
+          "source_home_joint_angle_rad": 0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949339,
+            1.5707963267948593
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg_2",
+          "vendor_R": [
+            [
+              0.8969828693032282,
+              0.442065303067911,
+              1.5404283033553224e-07
+            ],
+            [
+              -0.03854336960409595,
+              0.07820697205585292,
+              0.996191787850822
+            ],
+            [
+              0.44038181256281433,
+              -0.8935669741800728,
+              0.08718900055946953
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -38.56862671673298,
+            -74.17304590344429,
+            -114.96457010507584
+          ],
+          "motor_R": [
+            [
+              0.896982869303229,
+              0.44206530306791114,
+              1.5404283026412493e-07
+            ],
+            [
+              -0.03854336960409599,
+              0.07820697205585278,
+              0.9961917878508226
+            ],
+            [
+              0.44038181256281456,
+              -0.8935669741800728,
+              0.0871890005594697
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862964354676,
+            -93.1006898726099,
+            -116.62116111570576
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56862671673298,
+            -74.17304590344428,
+            -114.96457010507584
+          ],
+          "contact_point_error_mm": 1.4210854715202004e-14,
+          "axis_radial_error_mm": 1.2390302197162216e-15,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "leg_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156736765625367e-14,
+          "id": 13,
+          "label_zh": "右膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_ankle",
+          "parent_link": "leg_2",
+          "child_link": "ankle_right",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            -57.9288974404335,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -2.4146562531594267e-07,
+            -0.9961917878508046,
+            -0.08718900055946802
+          ],
+          "source_home_joint_angle_rad": -0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949028,
+            1.5707963267948903
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_right",
+          "vendor_R": [
+            [
+              -0.8991382056494909,
+              0.43766481140406466,
+              -2.4146562531594267e-07
+            ],
+            [
+              0.03815977377053513,
+              0.07839485623686543,
+              -0.9961917878508046
+            ],
+            [
+              -0.4359980720223375,
+              -0.8957141058252045,
+              -0.08718900055946802
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            0.0334007665514946,
+            -121.65068462491035,
+            -198.72707426548004
+          ],
+          "motor_R": [
+            [
+              -0.8991382056494919,
+              0.43766481140406477,
+              -2.4146562507802626e-07
+            ],
+            [
+              0.038159773770535185,
+              0.07839485623686493,
+              -0.9961917878508042
+            ],
+            [
+              -0.4359980720223381,
+              -0.8957141058252047,
+              -0.08718900055946845
+            ]
+          ],
+          "motor_t_mm": [
+            0.03340535439838277,
+            -102.72304065574507,
+            -197.07048325485016
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551506283,
+            -121.65068462491035,
+            -198.72707426548007
+          ],
+          "contact_point_error_mm": 3.073003525308052e-14,
+          "axis_radial_error_mm": 3.062995751054908e-14,
+          "motor_housing_link": "leg_2",
+          "rotating_interface_link": "ankle_right",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 2.478057617879198e-15,
+          "id": 14,
+          "label_zh": "右踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "yaw2roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.4363323129985824,
+            0.5235987755982988
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw2roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            36.750000156462114,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            36.75000015646224,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 3.0638977412046497e-15,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "yaw2roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 20,
+          "label_zh": "左髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_roll",
+          "parent_link": "yaw2roll",
+          "child_link": "hip_l",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            17.499998211860657,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999838,
+            -7.838819016114813e-08,
+            -1.6263317093034592e-07
+          ],
+          "source_home_joint_angle_rad": -0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354386992,
+            0.38397243543880577
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l",
+          "vendor_R": [
+            [
+              7.838817594330622e-08,
+              1.6263317778325767e-07,
+              0.9999999999999838
+            ],
+            [
+              0.9999999999999931,
+              8.742275912197683e-08,
+              -7.838819016114813e-08
+            ],
+            [
+              -8.742277187049587e-08,
+              0.999999999999983,
+              -1.6263317093034592e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            36.74999624490738,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.838817633067742e-08,
+              1.6263317748912866e-07,
+              0.9999999999999841
+            ],
+            [
+              0.9999999999999934,
+              8.742275914102871e-08,
+              -7.838818977377701e-08
+            ],
+            [
+              -8.742277185144409e-08,
+              0.9999999999999828,
+              -1.6263317122447496e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991806,
+            36.74999773428299,
+            -36.750008801096385
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            36.749996244907386,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591312304507e-14,
+          "motor_housing_link": "yaw2roll",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427956197478e-15,
+          "id": 21,
+          "label_zh": "左髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_pitch",
+          "parent_link": "hip_l",
+          "child_link": "upper_leg_left",
+          "R0_pivot_trunk_mm": [
+            4.000000189989805,
+            42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -8.2227273305618e-08,
+            0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "source_home_joint_angle_rad": -0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.570796326794949,
+            1.5707963267948442
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_left",
+          "vendor_R": [
+            [
+              0.44206538775591364,
+              0.8969828275659502,
+              8.2227273305618e-08
+            ],
+            [
+              -0.07820728987312225,
+              0.038543455654607914,
+              -0.9961917595708684
+            ],
+            [
+              -0.8935669044670999,
+              0.44038189004316963,
+              0.08718932367607021
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.400000398978591,
+            89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              0.44206538775591325,
+              0.89698282756595,
+              8.222727307857997e-08
+            ],
+            [
+              -0.07820728987312217,
+              0.038543455654608164,
+              -0.996191759570869
+            ],
+            [
+              -0.8935669044670995,
+              0.4403818900431698,
+              0.0871893236760702
+            ]
+          ],
+          "motor_t_mm": [
+            8.399998836660398,
+            107.97770915788828,
+            -42.98403565334913
+          ],
+          "active_contact_point_trunk_mm": [
+            8.400000398978586,
+            89.05006572604177,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 2.8916994303251375e-14,
+          "axis_radial_error_mm": 5.877061039143072e-15,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -2.8313472289291173e-14,
+          "id": 22,
+          "label_zh": "左髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_knee",
+          "parent_link": "upper_leg_left",
+          "child_link": "leg",
+          "R0_pivot_trunk_mm": [
+            -18.3660089969635,
+            35.32049059867859,
+            -54.74502965807915
+          ],
+          "axis_trunk": [
+            1.6083244051871935e-07,
+            -0.9961917563351718,
+            0.08718936064577935
+          ],
+          "source_home_joint_angle_rad": -0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948983,
+            1.5707963267948948
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg",
+          "vendor_R": [
+            [
+              -0.896982857655158,
+              0.44206532670269516,
+              1.6083244051871935e-07
+            ],
+            [
+              -0.03854353691342643,
+              -0.0782072910414942,
+              -0.9961917563351718
+            ],
+            [
+              -0.44038182164457,
+              -0.8935669345690843,
+              0.08718936064577935
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -38.56861889362335,
+            74.17303025722504,
+            -114.96456228196621
+          ],
+          "motor_R": [
+            [
+              -0.8969828576551586,
+              0.44206532670269555,
+              1.6083244060193335e-07
+            ],
+            [
+              -0.03854353691342648,
+              -0.07820729104149451,
+              -0.9961917563351721
+            ],
+            [
+              -0.4403818216445703,
+              -0.8935669345690852,
+              0.08718936064577916
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862194943972,
+            93.1006736275933,
+            -116.62116013423602
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56861889362335,
+            74.17303025722502,
+            -114.96456228196622
+          ],
+          "contact_point_error_mm": 2.0097183471152322e-14,
+          "axis_radial_error_mm": 1.53957716546099e-14,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "leg",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.291770098091252e-14,
+          "id": 23,
+          "label_zh": "左膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_ankle",
+          "parent_link": "leg",
+          "child_link": "ankle_left",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            57.92887508869171,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -1.6083246768668704e-07,
+            0.9961917485695175,
+            -0.08718944937308186
+          ],
+          "source_home_joint_angle_rad": 0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949063,
+            1.5707963267948868
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_left",
+          "vendor_R": [
+            [
+              0.8991382335412338,
+              0.4376647541033249,
+              -1.6083246768668704e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011075,
+              0.9961917485695175
+            ],
+            [
+              0.43599800406893,
+              -0.8957140952144986,
+              -0.08718944937308186
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            0.0334007665514946,
+            121.6506376862526,
+            -198.72707426548004
+          ],
+          "motor_R": [
+            [
+              0.8991382335412332,
+              0.4376647541033248,
+              -1.60832467783041e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011101,
+              0.9961917485695174
+            ],
+            [
+              0.43599800406892963,
+              -0.8957140952144982,
+              -0.08718944937308157
+            ]
+          ],
+          "motor_t_mm": [
+            0.033403822368370584,
+            102.72299446343176,
+            -197.07047472739148
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551482705,
+            121.6506376862526,
+            -198.72707426548004
+          ],
+          "contact_point_error_mm": 1.189326415129699e-14,
+          "axis_radial_error_mm": 1.1893264151296835e-14,
+          "motor_housing_link": "leg",
+          "rotating_interface_link": "ankle_left",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.9128230223027065e-21,
+          "id": 24,
+          "label_zh": "左踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "neck_pitch",
+          "parent_link": "trunk_base",
+          "child_link": "neck",
+          "R0_pivot_trunk_mm": [
+            26.000000536441803,
+            14.499999582767487,
+            32.421499490737915
+          ],
+          "axis_trunk": [
+            5.102145195223692e-08,
+            -0.999999999999982,
+            -1.8296265125172467e-07
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948974,
+            1.0471975511965967
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck",
+          "vendor_R": [
+            [
+              0.9396809887666355,
+              0.34205210034518996,
+              -5.102145195223692e-08
+            ],
+            [
+              -1.4638870726590452e-08,
+              1.8937851983850975e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666179,
+              1.8296265125172467e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            54.600001126527786,
+            30.449999123811722,
+            68.08514893054962
+          ],
+          "motor_R": [
+            [
+              0.9396809887666354,
+              0.3420521003451899,
+              -5.102145191426139e-08
+            ],
+            [
+              -1.4638870726590402e-08,
+              1.8937851994953227e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666178,
+              1.8296265114739895e-07
+            ]
+          ],
+          "motor_t_mm": [
+            54.60000260614989,
+            1.4499991238122423,
+            68.08514362463274
+          ],
+          "active_contact_point_trunk_mm": [
+            54.600001636742306,
+            20.4499991238119,
+            68.08514710092311
+          ],
+          "contact_point_error_mm": 10.000000000000004,
+          "axis_radial_error_mm": 3.3625747802571216e-20,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "trunk_base",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 10.000000000000004,
+          "id": 30,
+          "label_zh": "颈部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_pitch",
+          "parent_link": "neck",
+          "child_link": "neck_pitch",
+          "R0_pivot_trunk_mm": [
+            8.897397667169571,
+            14.49999026954174,
+            79.40554618835449
+          ],
+          "axis_trunk": [
+            -5.102145550495122e-08,
+            0.9999999999999942,
+            9.553986757282418e-08
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck_pitch",
+          "vendor_R": [
+            [
+              -0.9396810270828612,
+              -0.3420519950833448,
+              -5.102145550495122e-08
+            ],
+            [
+              -1.526429139887176e-08,
+              -1.0722899153571682e-07,
+              0.9999999999999942
+            ],
+            [
+              -0.3420519950833482,
+              0.9396810270828565,
+              9.553986757282418e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            18.6845351010561,
+            30.449979566037655,
+            166.75164699554443
+          ],
+          "motor_R": [
+            [
+              -0.9396810270828679,
+              -0.34205199508334755,
+              -5.1021455429000403e-08
+            ],
+            [
+              -1.5264291398871895e-08,
+              -1.0722899175776234e-07,
+              0.9999999999999946
+            ],
+            [
+              -0.34205199508335077,
+              0.9396810270828642,
+              9.553986736417307e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453607046375,
+            11.449979566037765,
+            166.75164518028694
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684535101056095,
+            30.449979566037662,
+            166.75164699554443
+          ],
+          "contact_point_error_mm": 7.944109290391274e-15,
+          "axis_radial_error_mm": 3.552713316271316e-15,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427538865584e-15,
+          "id": 31,
+          "label_zh": "头部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_yaw",
+          "parent_link": "neck_pitch",
+          "child_link": "yaw_roll_motion",
+          "R0_pivot_trunk_mm": [
+            8.89739952981472,
+            -1.1099161589811501e-05,
+            98.09865057468414
+          ],
+          "axis_trunk": [
+            1.470274213488649e-07,
+            -2.0041952097926478e-08,
+            0.9999999999999891
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -2.9670597283903613,
+            2.9670597283903595
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw_roll_motion",
+          "vendor_R": [
+            [
+              -0.9999999999999813,
+              -1.26519365356478e-07,
+              -1.470274213488649e-07
+            ],
+            [
+              -1.2651936830319585e-07,
+              0.9999999999999921,
+              2.0041952097926478e-08
+            ],
+            [
+              1.4702741881316864e-07,
+              2.0041970699742575e-08,
+              -0.9999999999999891
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338604153e-05,
+            206.0071662068367
+          ],
+          "motor_R": [
+            [
+              -0.9999999657714469,
+              -1.2651936061932797e-07,
+              -1.4702742139059786e-07
+            ],
+            [
+              -1.265193644157811e-07,
+              0.9999999657714574,
+              2.0041952062864657e-08
+            ],
+            [
+              1.470274137389026e-07,
+              2.004197004879701e-08,
+              -0.999999999999989
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453996828915,
+            -2.3438512027240677e-05,
+            212.50716620683664
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338832056e-05,
+            206.0071662068367
+          ],
+          "contact_point_error_mm": 2.2790268478824205e-16,
+          "axis_radial_error_mm": 2.2790268478824205e-16,
+          "motor_housing_link": "yaw_roll_motion",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 4.567614691514784e-24,
+          "id": 32,
+          "label_zh": "头部偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_roll",
+          "parent_link": "yaw_roll_motion",
+          "child_link": "jaw_soft",
+          "R0_pivot_trunk_mm": [
+            -9.002598002552986,
+            -1.2303054575113492e-05,
+            112.59864270687103
+          ],
+          "axis_trunk": [
+            -0.999999999999974,
+            -5.102146971580491e-08,
+            2.225253297183314e-07
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.43633231299858327,
+            0.4363323129985815
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "jaw_soft",
+          "vendor_R": [
+            [
+              -2.2252532688888723e-07,
+              -5.102148205615744e-08,
+              0.999999999999974
+            ],
+            [
+              -5.5455951396335204e-08,
+              0.9999999999999973,
+              5.102146971580491e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.5455940042764534e-08,
+              -2.225253297183314e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            -18.90545580536127,
+            -2.5836414607738334e-05,
+            236.45714968442917
+          ],
+          "motor_R": [
+            [
+              -2.2252532674984217e-07,
+              -5.1021482034724406e-08,
+              0.9999999999999731
+            ],
+            [
+              -5.545595140201424e-08,
+              0.9999999999999974,
+              5.10214697372379e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.54559400370855e-08,
+              -2.225253298573763e-07
+            ]
+          ],
+          "motor_t_mm": [
+            -25.4054558053611,
+            -2.6168054160891064e-05,
+            236.4571511308438
+          ],
+          "active_contact_point_trunk_mm": [
+            -18.905455805361274,
+            -2.5836414607599017e-05,
+            236.45714968442917
+          ],
+          "contact_point_error_mm": 3.555444219232406e-15,
+          "axis_radial_error_mm": 1.3931677229951458e-16,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "yaw_roll_motion",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 3.5527136716922713e-15,
+          "id": 33,
+          "label_zh": "头部侧倾",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "mouth_candidate",
+          "parent_link": "jaw_soft",
+          "child_link": "mouth_link",
+          "R0_pivot_trunk_mm": [
+            8.997399449409572,
+            41.999988347291946,
+            115.59864787152186
+          ],
+          "axis_trunk": [
+            -5.10214839266608e-08,
+            0.9999999999999971,
+            -5.545593495526175e-08
+          ],
+          "evidence": "R0 visual42_xl330 local-X shaft line; selected source-local x=-16.5mm output-side geometric datum, matching shaft-side reference of most native R0 joints. Not an upstream articulated mouth joint or vendor face certification.",
+          "source_object": "42_xl330",
+          "source_native_reference_mm": [
+            -16.5,
+            0,
+            0
+          ],
+          "upstream_joint_present": false,
+          "vendor_R": [
+            [
+              -2.2252532971833166e-07,
+              -0.999999999999974,
+              -5.10214839266608e-08
+            ],
+            [
+              -5.545594630883299e-08,
+              -5.1021471586309256e-08,
+              0.9999999999999971
+            ],
+            [
+              -0.9999999999999738,
+              2.225253325477757e-07,
+              -5.545593495526175e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.894538843760103,
+            88.1999755293131,
+            242.75716053019593
+          ],
+          "motor_R": [
+            [
+              -2.2252532990528226e-07,
+              -0.9999999999999742,
+              -5.1021483742310184e-08
+            ],
+            [
+              -5.545594630873008e-08,
+              -5.1021471770659856e-08,
+              0.9999999999999961
+            ],
+            [
+              -0.9999999999999739,
+              2.2252533236082519e-07,
+              -5.5455934955364665e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.894539889700525,
+            67.69997552931315,
+            242.75716166704262
+          ],
+          "active_contact_point_trunk_mm": [
+            18.89453955806088,
+            74.19997552931312,
+            242.75716130657904
+          ],
+          "contact_point_error_mm": 14.00000000000001,
+          "axis_radial_error_mm": 1.464821565555111e-14,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "mouth_link",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -14.00000000000001,
+          "id": 34,
+          "label_zh": "嘴部开合",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        }
+      ],
+      "mass_and_arm_sensitivity_factor": 1.0601621486078634,
+      "torque_sensitivity": {
+        "right_hip_yaw": {
+          "sensitivity_peak_Nm": 0.43176074732563946,
+          "capacity_required_for_15_percent_reserve_Nm": 0.5079538203831052,
+          "ratio_to_old_unqualified_limit": 0.4797341636951549
+        },
+        "right_hip_roll": {
+          "sensitivity_peak_Nm": 0.8501730505596389,
+          "capacity_required_for_15_percent_reserve_Nm": 1.0002035888936929,
+          "ratio_to_old_unqualified_limit": 0.9446367228440432
+        },
+        "right_hip_pitch": {
+          "sensitivity_peak_Nm": 1.2408222329473642,
+          "capacity_required_for_15_percent_reserve_Nm": 1.4597908622910167,
+          "ratio_to_old_unqualified_limit": 0.9191275799610105
+        },
+        "right_knee": {
+          "sensitivity_peak_Nm": 1.1057015364837137,
+          "capacity_required_for_15_percent_reserve_Nm": 1.3008253370396632,
+          "ratio_to_old_unqualified_limit": 0.8190381751731213
+        },
+        "right_ankle": {
+          "sensitivity_peak_Nm": 0.8494232711966037,
+          "capacity_required_for_15_percent_reserve_Nm": 0.999321495525416,
+          "ratio_to_old_unqualified_limit": 0.8494232711966037
+        },
+        "left_hip_yaw": {
+          "sensitivity_peak_Nm": 0.434596925456559,
+          "capacity_required_for_15_percent_reserve_Nm": 0.5112905005371282,
+          "ratio_to_old_unqualified_limit": 0.48288547272951
+        },
+        "left_hip_roll": {
+          "sensitivity_peak_Nm": 0.8751193534076178,
+          "capacity_required_for_15_percent_reserve_Nm": 1.0295521804795504,
+          "ratio_to_old_unqualified_limit": 0.9723548371195754
+        },
+        "left_hip_pitch": {
+          "sensitivity_peak_Nm": 1.2454426746544833,
+          "capacity_required_for_15_percent_reserve_Nm": 1.4652266760640982,
+          "ratio_to_old_unqualified_limit": 0.9225501293736913
+        },
+        "left_knee": {
+          "sensitivity_peak_Nm": 1.0993610597977843,
+          "capacity_required_for_15_percent_reserve_Nm": 1.2933659527032757,
+          "ratio_to_old_unqualified_limit": 0.8143415257761365
+        },
+        "left_ankle": {
+          "sensitivity_peak_Nm": 0.8551948899997478,
+          "capacity_required_for_15_percent_reserve_Nm": 1.0061116352938209,
+          "ratio_to_old_unqualified_limit": 0.8551948899997478
+        }
+      }
+    },
+    {
+      "name": "B_sagittal_10_percent",
+      "sagittal_extension_fraction": 0.1,
+      "upper_axis_distance_mm": 97.22028385192145,
+      "lower_axis_distance_mm": 112.0121205642522,
+      "sum_axis_distances_mm": 209.23240441617367,
+      "HOME_height_proxy_mm": 586.1331436716199,
+      "R21_same_angles_height_proxy_mm": 594.2950191730156,
+      "left_foot_reanchor_delta_mm": [
+        3.0794350093953162,
+        1.7074875996443,
+        16.46537404402626
+      ],
+      "right_foot_reanchor_delta_mm": [
+        3.0794343338771473,
+        -1.7074869695237749,
+        16.46537431906603
+      ],
+      "joints": [
+        {
+          "joint": "right_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "bearing_roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            -17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.523598775598297,
+            0.43633231299858416
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "bearing_roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            -36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            -36.75000015646228,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            -36.75000015646215,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 1.016932509880479e-14,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "bearing_roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 10,
+          "label_zh": "右髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_roll",
+          "parent_link": "bearing_roll",
+          "child_link": "hip_l_2",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            -17.500001937150955,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999887,
+            -7.537905588605924e-08,
+            -1.3096770601350579e-07
+          ],
+          "source_home_joint_angle_rad": 0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354387507,
+            0.38397243543875426
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l_2",
+          "vendor_R": [
+            [
+              7.537904443649945e-08,
+              1.3096771260335107e-07,
+              0.9999999999999887
+            ],
+            [
+              0.9999999999999933,
+              8.742276390332911e-08,
+              -7.537905588605924e-08
+            ],
+            [
+              -8.742277377555064e-08,
+              0.9999999999999877,
+              -1.3096770601350579e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            -36.750004068017006,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.537904482387064e-08,
+              1.3096771230922208e-07,
+              0.999999999999989
+            ],
+            [
+              0.9999999999999937,
+              8.742276392238099e-08,
+              -7.537905549868812e-08
+            ],
+            [
+              -8.742277375649885e-08,
+              0.9999999999999875,
+              -1.3096770630763483e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991714,
+            -36.750002635814944,
+            -36.75000940274022
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            -36.750004068017,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591456282383e-14,
+          "motor_housing_link": "bearing_roll",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427752582037e-15,
+          "id": 11,
+          "label_zh": "右髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_pitch",
+          "parent_link": "hip_l_2",
+          "child_link": "upper_leg_right",
+          "R0_pivot_trunk_mm": [
+            3.9999964646995068,
+            -42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -2.326480019491055e-07,
+            -0.9961917846151318,
+            -0.08718903752917913
+          ],
+          "source_home_joint_angle_rad": 0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.57079632679494,
+            1.570796326794853
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_right",
+          "vendor_R": [
+            [
+              -0.44206525342957514,
+              0.8969828937667603,
+              2.326480019491055e-07
+            ],
+            [
+              -0.07820697273372626,
+              -0.03854345185819416,
+              0.9961917846151318
+            ],
+            [
+              0.8935669986778113,
+              0.440381755535653,
+              0.08718903752917913
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.399992575868964,
+            -89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              -0.4420652534295754,
+              0.8969828937667603,
+              2.3264800238213827e-07
+            ],
+            [
+              -0.0782069727337263,
+              -0.03854345185819369,
+              0.9961917846151308
+            ],
+            [
+              0.8935669986778116,
+              0.44038175553565284,
+              0.08718903752917923
+            ]
+          ],
+          "motor_t_mm": [
+            8.39998815555693,
+            -107.97770963372929,
+            -42.9840302165582
+          ],
+          "active_contact_point_trunk_mm": [
+            8.399992575868975,
+            -89.05006572604181,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 1.7763568394002505e-14,
+          "axis_radial_error_mm": 1.0729922541428285e-14,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156734240048229e-14,
+          "id": 12,
+          "label_zh": "右髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_knee",
+          "parent_link": "upper_leg_right",
+          "child_link": "leg_2",
+          "R0_pivot_trunk_mm": [
+            -18.3660127222538,
+            -35.320498049259186,
+            -54.745033383369446
+          ],
+          "axis_trunk": [
+            1.5404283033553224e-07,
+            0.996191787850822,
+            0.08718900055946953
+          ],
+          "source_home_joint_angle_rad": 0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949339,
+            1.5707963267948593
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg_2",
+          "vendor_R": [
+            [
+              0.8969828693032282,
+              0.442065303067911,
+              1.5404283033553224e-07
+            ],
+            [
+              -0.03854336960409595,
+              0.07820697205585292,
+              0.996191787850822
+            ],
+            [
+              0.44038181256281433,
+              -0.8935669741800728,
+              0.08718900055946953
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -43.26548864599317,
+            -74.17304590344429,
+            -122.32828326523304
+          ],
+          "motor_R": [
+            [
+              0.896982869303229,
+              0.44206530306791114,
+              1.5404283026412493e-07
+            ],
+            [
+              -0.03854336960409599,
+              0.07820697205585278,
+              0.9961917878508226
+            ],
+            [
+              0.44038181256281456,
+              -0.8935669741800728,
+              0.0871890005594697
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862964354676,
+            -93.1006898726099,
+            -116.62116111570576
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56862671673298,
+            -74.17304590344428,
+            -114.96457010507584
+          ],
+          "contact_point_error_mm": 1.4210854715202004e-14,
+          "axis_radial_error_mm": 1.2390302197162216e-15,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "leg_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156736765625367e-14,
+          "id": 13,
+          "label_zh": "右膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_ankle",
+          "parent_link": "leg_2",
+          "child_link": "ankle_right",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            -57.9288974404335,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -2.4146562531594267e-07,
+            -0.9961917878508046,
+            -0.08718900055946802
+          ],
+          "source_home_joint_angle_rad": -0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949028,
+            1.5707963267948903
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_right",
+          "vendor_R": [
+            [
+              -0.8991382056494909,
+              0.43766481140406466,
+              -2.4146562531594267e-07
+            ],
+            [
+              0.03815977377053513,
+              0.07839485623686543,
+              -0.9961917878508046
+            ],
+            [
+              -0.4359980720223375,
+              -0.8957141058252045,
+              -0.08718900055946802
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -0.8032584143802524,
+            -121.65068462491035,
+            -214.46703784167767
+          ],
+          "motor_R": [
+            [
+              -0.8991382056494919,
+              0.43766481140406477,
+              -2.4146562507802626e-07
+            ],
+            [
+              0.038159773770535185,
+              0.07839485623686493,
+              -0.9961917878508042
+            ],
+            [
+              -0.4359980720223381,
+              -0.8957141058252047,
+              -0.08718900055946845
+            ]
+          ],
+          "motor_t_mm": [
+            0.03340535439838277,
+            -102.72304065574507,
+            -197.07048325485016
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551506283,
+            -121.65068462491035,
+            -198.72707426548007
+          ],
+          "contact_point_error_mm": 3.073003525308052e-14,
+          "axis_radial_error_mm": 3.062995751054908e-14,
+          "motor_housing_link": "leg_2",
+          "rotating_interface_link": "ankle_right",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 2.478057617879198e-15,
+          "id": 14,
+          "label_zh": "右踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "yaw2roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.4363323129985824,
+            0.5235987755982988
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw2roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            36.750000156462114,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            36.75000015646224,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 3.0638977412046497e-15,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "yaw2roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 20,
+          "label_zh": "左髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_roll",
+          "parent_link": "yaw2roll",
+          "child_link": "hip_l",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            17.499998211860657,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999838,
+            -7.838819016114813e-08,
+            -1.6263317093034592e-07
+          ],
+          "source_home_joint_angle_rad": -0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354386992,
+            0.38397243543880577
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l",
+          "vendor_R": [
+            [
+              7.838817594330622e-08,
+              1.6263317778325767e-07,
+              0.9999999999999838
+            ],
+            [
+              0.9999999999999931,
+              8.742275912197683e-08,
+              -7.838819016114813e-08
+            ],
+            [
+              -8.742277187049587e-08,
+              0.999999999999983,
+              -1.6263317093034592e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            36.74999624490738,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.838817633067742e-08,
+              1.6263317748912866e-07,
+              0.9999999999999841
+            ],
+            [
+              0.9999999999999934,
+              8.742275914102871e-08,
+              -7.838818977377701e-08
+            ],
+            [
+              -8.742277185144409e-08,
+              0.9999999999999828,
+              -1.6263317122447496e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991806,
+            36.74999773428299,
+            -36.750008801096385
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            36.749996244907386,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591312304507e-14,
+          "motor_housing_link": "yaw2roll",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427956197478e-15,
+          "id": 21,
+          "label_zh": "左髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_pitch",
+          "parent_link": "hip_l",
+          "child_link": "upper_leg_left",
+          "R0_pivot_trunk_mm": [
+            4.000000189989805,
+            42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -8.2227273305618e-08,
+            0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "source_home_joint_angle_rad": -0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.570796326794949,
+            1.5707963267948442
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_left",
+          "vendor_R": [
+            [
+              0.44206538775591364,
+              0.8969828275659502,
+              8.2227273305618e-08
+            ],
+            [
+              -0.07820728987312225,
+              0.038543455654607914,
+              -0.9961917595708684
+            ],
+            [
+              -0.8935669044670999,
+              0.44038189004316963,
+              0.08718932367607021
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.400000398978591,
+            89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              0.44206538775591325,
+              0.89698282756595,
+              8.222727307857997e-08
+            ],
+            [
+              -0.07820728987312217,
+              0.038543455654608164,
+              -0.996191759570869
+            ],
+            [
+              -0.8935669044670995,
+              0.4403818900431698,
+              0.0871893236760702
+            ]
+          ],
+          "motor_t_mm": [
+            8.399998836660398,
+            107.97770915788828,
+            -42.98403565334913
+          ],
+          "active_contact_point_trunk_mm": [
+            8.400000398978586,
+            89.05006572604177,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 2.8916994303251375e-14,
+          "axis_radial_error_mm": 5.877061039143072e-15,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -2.8313472289291173e-14,
+          "id": 22,
+          "label_zh": "左髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_knee",
+          "parent_link": "upper_leg_left",
+          "child_link": "leg",
+          "R0_pivot_trunk_mm": [
+            -18.3660089969635,
+            35.32049059867859,
+            -54.74502965807915
+          ],
+          "axis_trunk": [
+            1.6083244051871935e-07,
+            -0.9961917563351718,
+            0.08718936064577935
+          ],
+          "source_home_joint_angle_rad": -0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948983,
+            1.5707963267948948
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg",
+          "vendor_R": [
+            [
+              -0.896982857655158,
+              0.44206532670269516,
+              1.6083244051871935e-07
+            ],
+            [
+              -0.03854353691342643,
+              -0.0782072910414942,
+              -0.9961917563351718
+            ],
+            [
+              -0.44038182164457,
+              -0.8935669345690843,
+              0.08718936064577935
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -43.265480822883546,
+            74.17303025722504,
+            -122.32827465981245
+          ],
+          "motor_R": [
+            [
+              -0.8969828576551586,
+              0.44206532670269555,
+              1.6083244060193335e-07
+            ],
+            [
+              -0.03854353691342648,
+              -0.07820729104149451,
+              -0.9961917563351721
+            ],
+            [
+              -0.4403818216445703,
+              -0.8935669345690852,
+              0.08718936064577916
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862194943972,
+            93.1006736275933,
+            -116.62116013423602
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56861889362335,
+            74.17303025722502,
+            -114.96456228196622
+          ],
+          "contact_point_error_mm": 2.0097183471152322e-14,
+          "axis_radial_error_mm": 1.53957716546099e-14,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "leg",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.291770098091252e-14,
+          "id": 23,
+          "label_zh": "左膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_ankle",
+          "parent_link": "leg",
+          "child_link": "ankle_left",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            57.92887508869171,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -1.6083246768668704e-07,
+            0.9961917485695175,
+            -0.08718944937308186
+          ],
+          "source_home_joint_angle_rad": 0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949063,
+            1.5707963267948868
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_left",
+          "vendor_R": [
+            [
+              0.8991382335412338,
+              0.4376647541033249,
+              -1.6083246768668704e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011075,
+              0.9961917485695175
+            ],
+            [
+              0.43599800406893,
+              -0.8957140952144986,
+              -0.08718944937308186
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -0.803259196691215,
+            121.6506376862526,
+            -214.46703784167767
+          ],
+          "motor_R": [
+            [
+              0.8991382335412332,
+              0.4376647541033248,
+              -1.60832467783041e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011101,
+              0.9961917485695174
+            ],
+            [
+              0.43599800406892963,
+              -0.8957140952144982,
+              -0.08718944937308157
+            ]
+          ],
+          "motor_t_mm": [
+            0.033403822368370584,
+            102.72299446343176,
+            -197.07047472739148
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551482705,
+            121.6506376862526,
+            -198.72707426548004
+          ],
+          "contact_point_error_mm": 1.189326415129699e-14,
+          "axis_radial_error_mm": 1.1893264151296835e-14,
+          "motor_housing_link": "leg",
+          "rotating_interface_link": "ankle_left",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.9128230223027065e-21,
+          "id": 24,
+          "label_zh": "左踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "neck_pitch",
+          "parent_link": "trunk_base",
+          "child_link": "neck",
+          "R0_pivot_trunk_mm": [
+            26.000000536441803,
+            14.499999582767487,
+            32.421499490737915
+          ],
+          "axis_trunk": [
+            5.102145195223692e-08,
+            -0.999999999999982,
+            -1.8296265125172467e-07
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948974,
+            1.0471975511965967
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck",
+          "vendor_R": [
+            [
+              0.9396809887666355,
+              0.34205210034518996,
+              -5.102145195223692e-08
+            ],
+            [
+              -1.4638870726590452e-08,
+              1.8937851983850975e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666179,
+              1.8296265125172467e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            54.600001126527786,
+            30.449999123811722,
+            68.08514893054962
+          ],
+          "motor_R": [
+            [
+              0.9396809887666354,
+              0.3420521003451899,
+              -5.102145191426139e-08
+            ],
+            [
+              -1.4638870726590402e-08,
+              1.8937851994953227e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666178,
+              1.8296265114739895e-07
+            ]
+          ],
+          "motor_t_mm": [
+            54.60000260614989,
+            1.4499991238122423,
+            68.08514362463274
+          ],
+          "active_contact_point_trunk_mm": [
+            54.600001636742306,
+            20.4499991238119,
+            68.08514710092311
+          ],
+          "contact_point_error_mm": 10.000000000000004,
+          "axis_radial_error_mm": 3.3625747802571216e-20,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "trunk_base",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 10.000000000000004,
+          "id": 30,
+          "label_zh": "颈部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_pitch",
+          "parent_link": "neck",
+          "child_link": "neck_pitch",
+          "R0_pivot_trunk_mm": [
+            8.897397667169571,
+            14.49999026954174,
+            79.40554618835449
+          ],
+          "axis_trunk": [
+            -5.102145550495122e-08,
+            0.9999999999999942,
+            9.553986757282418e-08
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck_pitch",
+          "vendor_R": [
+            [
+              -0.9396810270828612,
+              -0.3420519950833448,
+              -5.102145550495122e-08
+            ],
+            [
+              -1.526429139887176e-08,
+              -1.0722899153571682e-07,
+              0.9999999999999942
+            ],
+            [
+              -0.3420519950833482,
+              0.9396810270828565,
+              9.553986757282418e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            18.6845351010561,
+            30.449979566037655,
+            166.75164699554443
+          ],
+          "motor_R": [
+            [
+              -0.9396810270828679,
+              -0.34205199508334755,
+              -5.1021455429000403e-08
+            ],
+            [
+              -1.5264291398871895e-08,
+              -1.0722899175776234e-07,
+              0.9999999999999946
+            ],
+            [
+              -0.34205199508335077,
+              0.9396810270828642,
+              9.553986736417307e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453607046375,
+            11.449979566037765,
+            166.75164518028694
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684535101056095,
+            30.449979566037662,
+            166.75164699554443
+          ],
+          "contact_point_error_mm": 7.944109290391274e-15,
+          "axis_radial_error_mm": 3.552713316271316e-15,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427538865584e-15,
+          "id": 31,
+          "label_zh": "头部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_yaw",
+          "parent_link": "neck_pitch",
+          "child_link": "yaw_roll_motion",
+          "R0_pivot_trunk_mm": [
+            8.89739952981472,
+            -1.1099161589811501e-05,
+            98.09865057468414
+          ],
+          "axis_trunk": [
+            1.470274213488649e-07,
+            -2.0041952097926478e-08,
+            0.9999999999999891
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -2.9670597283903613,
+            2.9670597283903595
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw_roll_motion",
+          "vendor_R": [
+            [
+              -0.9999999999999813,
+              -1.26519365356478e-07,
+              -1.470274213488649e-07
+            ],
+            [
+              -1.2651936830319585e-07,
+              0.9999999999999921,
+              2.0041952097926478e-08
+            ],
+            [
+              1.4702741881316864e-07,
+              2.0041970699742575e-08,
+              -0.9999999999999891
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338604153e-05,
+            206.0071662068367
+          ],
+          "motor_R": [
+            [
+              -0.9999999657714469,
+              -1.2651936061932797e-07,
+              -1.4702742139059786e-07
+            ],
+            [
+              -1.265193644157811e-07,
+              0.9999999657714574,
+              2.0041952062864657e-08
+            ],
+            [
+              1.470274137389026e-07,
+              2.004197004879701e-08,
+              -0.999999999999989
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453996828915,
+            -2.3438512027240677e-05,
+            212.50716620683664
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338832056e-05,
+            206.0071662068367
+          ],
+          "contact_point_error_mm": 2.2790268478824205e-16,
+          "axis_radial_error_mm": 2.2790268478824205e-16,
+          "motor_housing_link": "yaw_roll_motion",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 4.567614691514784e-24,
+          "id": 32,
+          "label_zh": "头部偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_roll",
+          "parent_link": "yaw_roll_motion",
+          "child_link": "jaw_soft",
+          "R0_pivot_trunk_mm": [
+            -9.002598002552986,
+            -1.2303054575113492e-05,
+            112.59864270687103
+          ],
+          "axis_trunk": [
+            -0.999999999999974,
+            -5.102146971580491e-08,
+            2.225253297183314e-07
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.43633231299858327,
+            0.4363323129985815
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "jaw_soft",
+          "vendor_R": [
+            [
+              -2.2252532688888723e-07,
+              -5.102148205615744e-08,
+              0.999999999999974
+            ],
+            [
+              -5.5455951396335204e-08,
+              0.9999999999999973,
+              5.102146971580491e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.5455940042764534e-08,
+              -2.225253297183314e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            -18.90545580536127,
+            -2.5836414607738334e-05,
+            236.45714968442917
+          ],
+          "motor_R": [
+            [
+              -2.2252532674984217e-07,
+              -5.1021482034724406e-08,
+              0.9999999999999731
+            ],
+            [
+              -5.545595140201424e-08,
+              0.9999999999999974,
+              5.10214697372379e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.54559400370855e-08,
+              -2.225253298573763e-07
+            ]
+          ],
+          "motor_t_mm": [
+            -25.4054558053611,
+            -2.6168054160891064e-05,
+            236.4571511308438
+          ],
+          "active_contact_point_trunk_mm": [
+            -18.905455805361274,
+            -2.5836414607599017e-05,
+            236.45714968442917
+          ],
+          "contact_point_error_mm": 3.555444219232406e-15,
+          "axis_radial_error_mm": 1.3931677229951458e-16,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "yaw_roll_motion",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 3.5527136716922713e-15,
+          "id": 33,
+          "label_zh": "头部侧倾",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "mouth_candidate",
+          "parent_link": "jaw_soft",
+          "child_link": "mouth_link",
+          "R0_pivot_trunk_mm": [
+            8.997399449409572,
+            41.999988347291946,
+            115.59864787152186
+          ],
+          "axis_trunk": [
+            -5.10214839266608e-08,
+            0.9999999999999971,
+            -5.545593495526175e-08
+          ],
+          "evidence": "R0 visual42_xl330 local-X shaft line; selected source-local x=-16.5mm output-side geometric datum, matching shaft-side reference of most native R0 joints. Not an upstream articulated mouth joint or vendor face certification.",
+          "source_object": "42_xl330",
+          "source_native_reference_mm": [
+            -16.5,
+            0,
+            0
+          ],
+          "upstream_joint_present": false,
+          "vendor_R": [
+            [
+              -2.2252532971833166e-07,
+              -0.999999999999974,
+              -5.10214839266608e-08
+            ],
+            [
+              -5.545594630883299e-08,
+              -5.1021471586309256e-08,
+              0.9999999999999971
+            ],
+            [
+              -0.9999999999999738,
+              2.225253325477757e-07,
+              -5.545593495526175e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.894538843760103,
+            88.1999755293131,
+            242.75716053019593
+          ],
+          "motor_R": [
+            [
+              -2.2252532990528226e-07,
+              -0.9999999999999742,
+              -5.1021483742310184e-08
+            ],
+            [
+              -5.545594630873008e-08,
+              -5.1021471770659856e-08,
+              0.9999999999999961
+            ],
+            [
+              -0.9999999999999739,
+              2.2252533236082519e-07,
+              -5.5455934955364665e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.894539889700525,
+            67.69997552931315,
+            242.75716166704262
+          ],
+          "active_contact_point_trunk_mm": [
+            18.89453955806088,
+            74.19997552931312,
+            242.75716130657904
+          ],
+          "contact_point_error_mm": 14.00000000000001,
+          "axis_radial_error_mm": 1.464821565555111e-14,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "mouth_link",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -14.00000000000001,
+          "id": 34,
+          "label_zh": "嘴部开合",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        }
+      ],
+      "mass_and_arm_sensitivity_factor": 1.1661783634686498,
+      "torque_sensitivity": {
+        "right_hip_yaw": {
+          "sensitivity_peak_Nm": 0.4749368220582035,
+          "capacity_required_for_15_percent_reserve_Nm": 0.5587492024214159,
+          "ratio_to_old_unqualified_limit": 0.5277075800646706
+        },
+        "right_hip_roll": {
+          "sensitivity_peak_Nm": 0.9351903556156028,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1002239477830622,
+          "ratio_to_old_unqualified_limit": 1.0391003951284477
+        },
+        "right_hip_pitch": {
+          "sensitivity_peak_Nm": 1.3649044562421007,
+          "capacity_required_for_15_percent_reserve_Nm": 1.6057699485201185,
+          "ratio_to_old_unqualified_limit": 1.0110403379571116
+        },
+        "right_knee": {
+          "sensitivity_peak_Nm": 1.2162716901320851,
+          "capacity_required_for_15_percent_reserve_Nm": 1.4309078707436296,
+          "ratio_to_old_unqualified_limit": 0.9009419926904334
+        },
+        "right_ankle": {
+          "sensitivity_peak_Nm": 0.934365598316264,
+          "capacity_required_for_15_percent_reserve_Nm": 1.0992536450779578,
+          "ratio_to_old_unqualified_limit": 0.934365598316264
+        },
+        "left_hip_yaw": {
+          "sensitivity_peak_Nm": 0.4780566180022149,
+          "capacity_required_for_15_percent_reserve_Nm": 0.562419550590841,
+          "ratio_to_old_unqualified_limit": 0.531174020002461
+        },
+        "left_hip_roll": {
+          "sensitivity_peak_Nm": 0.9626312887483797,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1325073985275056,
+          "ratio_to_old_unqualified_limit": 1.069590320831533
+        },
+        "left_hip_pitch": {
+          "sensitivity_peak_Nm": 1.3699869421199318,
+          "capacity_required_for_15_percent_reserve_Nm": 1.611749343670508,
+          "ratio_to_old_unqualified_limit": 1.0148051423110604
+        },
+        "left_knee": {
+          "sensitivity_peak_Nm": 1.2092971657775629,
+          "capacity_required_for_15_percent_reserve_Nm": 1.4227025479736033,
+          "ratio_to_old_unqualified_limit": 0.8957756783537502
+        },
+        "left_ankle": {
+          "sensitivity_peak_Nm": 0.9407143789997225,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1067227988232031,
+          "ratio_to_old_unqualified_limit": 0.9407143789997225
+        }
+      }
+    },
+    {
+      "name": "C_sagittal_15_percent",
+      "sagittal_extension_fraction": 0.15,
+      "upper_axis_distance_mm": 101.53810751076514,
+      "lower_axis_distance_mm": 116.20529685026953,
+      "sum_axis_distances_mm": 217.74340436103466,
+      "HOME_height_proxy_mm": 594.0031254597187,
+      "R21_same_angles_height_proxy_mm": 602.5277061950287,
+      "left_foot_reanchor_delta_mm": [
+        4.619152514092985,
+        2.561231399466429,
+        24.69806106603939
+      ],
+      "right_foot_reanchor_delta_mm": [
+        4.619151500815717,
+        -2.5612304542856483,
+        24.698061478599044
+      ],
+      "joints": [
+        {
+          "joint": "right_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "bearing_roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            -17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.523598775598297,
+            0.43633231299858416
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "bearing_roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            -36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            -36.75000015646228,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            -36.75000015646215,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 1.016932509880479e-14,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "bearing_roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 10,
+          "label_zh": "右髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_roll",
+          "parent_link": "bearing_roll",
+          "child_link": "hip_l_2",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            -17.500001937150955,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999887,
+            -7.537905588605924e-08,
+            -1.3096770601350579e-07
+          ],
+          "source_home_joint_angle_rad": 0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354387507,
+            0.38397243543875426
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l_2",
+          "vendor_R": [
+            [
+              7.537904443649945e-08,
+              1.3096771260335107e-07,
+              0.9999999999999887
+            ],
+            [
+              0.9999999999999933,
+              8.742276390332911e-08,
+              -7.537905588605924e-08
+            ],
+            [
+              -8.742277377555064e-08,
+              0.9999999999999877,
+              -1.3096770601350579e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            -36.750004068017006,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.537904482387064e-08,
+              1.3096771230922208e-07,
+              0.999999999999989
+            ],
+            [
+              0.9999999999999937,
+              8.742276392238099e-08,
+              -7.537905549868812e-08
+            ],
+            [
+              -8.742277375649885e-08,
+              0.9999999999999875,
+              -1.3096770630763483e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991714,
+            -36.750002635814944,
+            -36.75000940274022
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            -36.750004068017,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591456282383e-14,
+          "motor_housing_link": "bearing_roll",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427752582037e-15,
+          "id": 11,
+          "label_zh": "右髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_hip_pitch",
+          "parent_link": "hip_l_2",
+          "child_link": "upper_leg_right",
+          "R0_pivot_trunk_mm": [
+            3.9999964646995068,
+            -42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -2.326480019491055e-07,
+            -0.9961917846151318,
+            -0.08718903752917913
+          ],
+          "source_home_joint_angle_rad": 0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.57079632679494,
+            1.570796326794853
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_right",
+          "vendor_R": [
+            [
+              -0.44206525342957514,
+              0.8969828937667603,
+              2.326480019491055e-07
+            ],
+            [
+              -0.07820697273372626,
+              -0.03854345185819416,
+              0.9961917846151318
+            ],
+            [
+              0.8935669986778113,
+              0.440381755535653,
+              0.08718903752917913
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.399992575868964,
+            -89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              -0.4420652534295754,
+              0.8969828937667603,
+              2.3264800238213827e-07
+            ],
+            [
+              -0.0782069727337263,
+              -0.03854345185819369,
+              0.9961917846151308
+            ],
+            [
+              0.8935669986778116,
+              0.44038175553565284,
+              0.08718903752917923
+            ]
+          ],
+          "motor_t_mm": [
+            8.39998815555693,
+            -107.97770963372929,
+            -42.9840302165582
+          ],
+          "active_contact_point_trunk_mm": [
+            8.399992575868975,
+            -89.05006572604181,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 1.7763568394002505e-14,
+          "axis_radial_error_mm": 1.0729922541428285e-14,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "hip_l_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156734240048229e-14,
+          "id": 12,
+          "label_zh": "右髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_knee",
+          "parent_link": "upper_leg_right",
+          "child_link": "leg_2",
+          "R0_pivot_trunk_mm": [
+            -18.3660127222538,
+            -35.320498049259186,
+            -54.745033383369446
+          ],
+          "axis_trunk": [
+            1.5404283033553224e-07,
+            0.996191787850822,
+            0.08718900055946953
+          ],
+          "source_home_joint_angle_rad": 0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949339,
+            1.5707963267948593
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg_2",
+          "vendor_R": [
+            [
+              0.8969828693032282,
+              0.442065303067911,
+              1.5404283033553224e-07
+            ],
+            [
+              -0.03854336960409595,
+              0.07820697205585292,
+              0.996191787850822
+            ],
+            [
+              0.44038181256281433,
+              -0.8935669741800728,
+              0.08718900055946953
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -45.61391961062327,
+            -74.17304590344429,
+            -126.01013984531164
+          ],
+          "motor_R": [
+            [
+              0.896982869303229,
+              0.44206530306791114,
+              1.5404283026412493e-07
+            ],
+            [
+              -0.03854336960409599,
+              0.07820697205585278,
+              0.9961917878508226
+            ],
+            [
+              0.44038181256281456,
+              -0.8935669741800728,
+              0.0871890005594697
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862964354676,
+            -93.1006898726099,
+            -116.62116111570576
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56862671673298,
+            -74.17304590344428,
+            -114.96457010507584
+          ],
+          "contact_point_error_mm": 1.4210854715202004e-14,
+          "axis_radial_error_mm": 1.2390302197162216e-15,
+          "motor_housing_link": "upper_leg_right",
+          "rotating_interface_link": "leg_2",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.4156736765625367e-14,
+          "id": 13,
+          "label_zh": "右膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "right_ankle",
+          "parent_link": "leg_2",
+          "child_link": "ankle_right",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            -57.9288974404335,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -2.4146562531594267e-07,
+            -0.9961917878508046,
+            -0.08718900055946802
+          ],
+          "source_home_joint_angle_rad": -0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949028,
+            1.5707963267948903
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_right",
+          "vendor_R": [
+            [
+              -0.8991382056494909,
+              0.43766481140406466,
+              -2.4146562531594267e-07
+            ],
+            [
+              0.03815977377053513,
+              0.07839485623686543,
+              -0.9961917878508046
+            ],
+            [
+              -0.4359980720223375,
+              -0.8957141058252045,
+              -0.08718900055946802
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -1.2215880048461258,
+            -121.65068462491035,
+            -222.33701962977648
+          ],
+          "motor_R": [
+            [
+              -0.8991382056494919,
+              0.43766481140406477,
+              -2.4146562507802626e-07
+            ],
+            [
+              0.038159773770535185,
+              0.07839485623686493,
+              -0.9961917878508042
+            ],
+            [
+              -0.4359980720223381,
+              -0.8957141058252047,
+              -0.08718900055946845
+            ]
+          ],
+          "motor_t_mm": [
+            0.03340535439838277,
+            -102.72304065574507,
+            -197.07048325485016
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551506283,
+            -121.65068462491035,
+            -198.72707426548007
+          ],
+          "contact_point_error_mm": 3.073003525308052e-14,
+          "axis_radial_error_mm": 3.062995751054908e-14,
+          "motor_housing_link": "leg_2",
+          "rotating_interface_link": "ankle_right",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 2.478057617879198e-15,
+          "id": 14,
+          "label_zh": "右踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_yaw",
+          "parent_link": "trunk_base",
+          "child_link": "yaw2roll",
+          "R0_pivot_trunk_mm": [
+            6.000000052154064,
+            17.500000074505806,
+            -5.000002682209015
+          ],
+          "axis_trunk": [
+            -8.742277657347553e-08,
+            6.600236155551304e-15,
+            -0.9999999999999962
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.4363323129985824,
+            0.5235987755982988
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw2roll",
+          "vendor_R": [
+            [
+              8.742277657347602e-08,
+              0.9999999999999925,
+              -8.742277657347553e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277657347578e-08,
+              6.600236155551304e-15
+            ],
+            [
+              -1.0425057082645893e-15,
+              -8.742277657347578e-08,
+              -0.9999999999999962
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            12.600000109523535,
+            36.75000015646219,
+            -10.500005632638931
+          ],
+          "motor_R": [
+            [
+              8.742277668449856e-08,
+              0.999999999999992,
+              -8.742277657347546e-08
+            ],
+            [
+              0.9999999999999962,
+              -8.742277646245321e-08,
+              6.600236168324975e-15
+            ],
+            [
+              -1.0425057247606348e-15,
+              -8.742277657347574e-08,
+              -0.9999999999999961
+            ]
+          ],
+          "motor_t_mm": [
+            12.600001071174077,
+            36.750000156462114,
+            0.4999943673610261
+          ],
+          "active_contact_point_trunk_mm": [
+            12.599999410141322,
+            36.75000015646224,
+            -18.5000056326389
+          ],
+          "contact_point_error_mm": 7.999999999999998,
+          "axis_radial_error_mm": 3.0638977412046497e-15,
+          "motor_housing_link": "trunk_base",
+          "rotating_interface_link": "yaw2roll",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 0,
+          "axial_installation_shift_mm": 8,
+          "id": 20,
+          "label_zh": "左髋偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_roll",
+          "parent_link": "yaw2roll",
+          "child_link": "hip_l",
+          "R0_pivot_trunk_mm": [
+            22.499999031424522,
+            17.499998211860657,
+            -17.500005662441254
+          ],
+          "axis_trunk": [
+            0.9999999999999838,
+            -7.838819016114813e-08,
+            -1.6263317093034592e-07
+          ],
+          "source_home_joint_angle_rad": -0.0873,
+          "source_limits_rad_unvalidated": [
+            -0.3839724354386992,
+            0.38397243543880577
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "hip_l",
+          "vendor_R": [
+            [
+              7.838817594330622e-08,
+              1.6263317778325767e-07,
+              0.9999999999999838
+            ],
+            [
+              0.9999999999999931,
+              8.742275912197683e-08,
+              -7.838819016114813e-08
+            ],
+            [
+              -8.742277187049587e-08,
+              0.999999999999983,
+              -1.6263317093034592e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            47.2499979659915,
+            36.74999624490738,
+            -36.75001189112663
+          ],
+          "motor_R": [
+            [
+              7.838817633067742e-08,
+              1.6263317748912866e-07,
+              0.9999999999999841
+            ],
+            [
+              0.9999999999999934,
+              8.742275914102871e-08,
+              -7.838818977377701e-08
+            ],
+            [
+              -8.742277185144409e-08,
+              0.9999999999999828,
+              -1.6263317122447496e-07
+            ]
+          ],
+          "motor_t_mm": [
+            28.249997965991806,
+            36.74999773428299,
+            -36.750008801096385
+          ],
+          "active_contact_point_trunk_mm": [
+            47.249997965991504,
+            36.749996244907386,
+            -36.75001189112664
+          ],
+          "contact_point_error_mm": 1.2306961192854808e-14,
+          "axis_radial_error_mm": 1.0048591312304507e-14,
+          "motor_housing_link": "yaw2roll",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427956197478e-15,
+          "id": 21,
+          "label_zh": "左髋侧摆",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_hip_pitch",
+          "parent_link": "hip_l",
+          "child_link": "upper_leg_left",
+          "R0_pivot_trunk_mm": [
+            4.000000189989805,
+            42.404793202877045,
+            -19.679732620716095
+          ],
+          "axis_trunk": [
+            -8.2227273305618e-08,
+            0.9961917595708684,
+            -0.08718932367607021
+          ],
+          "source_home_joint_angle_rad": -0.4579,
+          "source_limits_rad_unvalidated": [
+            -1.570796326794949,
+            1.5707963267948442
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "upper_leg_left",
+          "vendor_R": [
+            [
+              0.44206538775591364,
+              0.8969828275659502,
+              8.2227273305618e-08
+            ],
+            [
+              -0.07820728987312225,
+              0.038543455654607914,
+              -0.9961917595708684
+            ],
+            [
+              -0.8935669044670999,
+              0.44038189004316963,
+              0.08718932367607021
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            8.400000398978591,
+            89.0500657260418,
+            -41.3274385035038
+          ],
+          "motor_R": [
+            [
+              0.44206538775591325,
+              0.89698282756595,
+              8.222727307857997e-08
+            ],
+            [
+              -0.07820728987312217,
+              0.038543455654608164,
+              -0.996191759570869
+            ],
+            [
+              -0.8935669044670995,
+              0.4403818900431698,
+              0.0871893236760702
+            ]
+          ],
+          "motor_t_mm": [
+            8.399998836660398,
+            107.97770915788828,
+            -42.98403565334913
+          ],
+          "active_contact_point_trunk_mm": [
+            8.400000398978586,
+            89.05006572604177,
+            -41.3274385035038
+          ],
+          "contact_point_error_mm": 2.8916994303251375e-14,
+          "axis_radial_error_mm": 5.877061039143072e-15,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "hip_l",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -2.8313472289291173e-14,
+          "id": 22,
+          "label_zh": "左髋俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_knee",
+          "parent_link": "upper_leg_left",
+          "child_link": "leg",
+          "R0_pivot_trunk_mm": [
+            -18.3660089969635,
+            35.32049059867859,
+            -54.74502965807915
+          ],
+          "axis_trunk": [
+            1.6083244051871935e-07,
+            -0.9961917563351718,
+            0.08718936064577935
+          ],
+          "source_home_joint_angle_rad": -0.0049,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948983,
+            1.5707963267948948
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "leg",
+          "vendor_R": [
+            [
+              -0.896982857655158,
+              0.44206532670269516,
+              1.6083244051871935e-07
+            ],
+            [
+              -0.03854353691342643,
+              -0.0782072910414942,
+              -0.9961917563351718
+            ],
+            [
+              -0.44038182164457,
+              -0.8935669345690843,
+              0.08718936064577935
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -45.61391178751364,
+            74.17303025722504,
+            -126.01013084873557
+          ],
+          "motor_R": [
+            [
+              -0.8969828576551586,
+              0.44206532670269555,
+              1.6083244060193335e-07
+            ],
+            [
+              -0.03854353691342648,
+              -0.07820729104149451,
+              -0.9961917563351721
+            ],
+            [
+              -0.4403818216445703,
+              -0.8935669345690852,
+              0.08718936064577916
+            ]
+          ],
+          "motor_t_mm": [
+            -38.56862194943972,
+            93.1006736275933,
+            -116.62116013423602
+          ],
+          "active_contact_point_trunk_mm": [
+            -38.56861889362335,
+            74.17303025722502,
+            -114.96456228196622
+          ],
+          "contact_point_error_mm": 2.0097183471152322e-14,
+          "axis_radial_error_mm": 1.53957716546099e-14,
+          "motor_housing_link": "upper_leg_left",
+          "rotating_interface_link": "leg",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.291770098091252e-14,
+          "id": 23,
+          "label_zh": "左膝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "left_ankle",
+          "parent_link": "leg",
+          "child_link": "ankle_left",
+          "R0_pivot_trunk_mm": [
+            0.015905126929283142,
+            57.92887508869171,
+            -94.63194012641907
+          ],
+          "axis_trunk": [
+            -1.6083246768668704e-07,
+            0.9961917485695175,
+            -0.08718944937308186
+          ],
+          "source_home_joint_angle_rad": 0.453,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267949063,
+            1.5707963267948868
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "ankle_left",
+          "vendor_R": [
+            [
+              0.8991382335412338,
+              0.4376647541033249,
+              -1.6083246768668704e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011075,
+              0.9961917485695175
+            ],
+            [
+              0.43599800406893,
+              -0.8957140952144986,
+              -0.08718944937308186
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            -1.2215891783125699,
+            121.6506376862526,
+            -222.33701962977648
+          ],
+          "motor_R": [
+            [
+              0.8991382335412332,
+              0.4376647541033248,
+              -1.60832467783041e-07
+            ],
+            [
+              0.038159892980182436,
+              -0.07839529737011101,
+              0.9961917485695174
+            ],
+            [
+              0.43599800406892963,
+              -0.8957140952144982,
+              -0.08718944937308157
+            ]
+          ],
+          "motor_t_mm": [
+            0.033403822368370584,
+            102.72299446343176,
+            -197.07047472739148
+          ],
+          "active_contact_point_trunk_mm": [
+            0.033400766551482705,
+            121.6506376862526,
+            -198.72707426548004
+          ],
+          "contact_point_error_mm": 1.189326415129699e-14,
+          "axis_radial_error_mm": 1.1893264151296835e-14,
+          "motor_housing_link": "leg",
+          "rotating_interface_link": "ankle_left",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 1.9128230223027065e-21,
+          "id": 24,
+          "label_zh": "左踝",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "neck_pitch",
+          "parent_link": "trunk_base",
+          "child_link": "neck",
+          "R0_pivot_trunk_mm": [
+            26.000000536441803,
+            14.499999582767487,
+            32.421499490737915
+          ],
+          "axis_trunk": [
+            5.102145195223692e-08,
+            -0.999999999999982,
+            -1.8296265125172467e-07
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948974,
+            1.0471975511965967
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck",
+          "vendor_R": [
+            [
+              0.9396809887666355,
+              0.34205210034518996,
+              -5.102145195223692e-08
+            ],
+            [
+              -1.4638870726590452e-08,
+              1.8937851983850975e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666179,
+              1.8296265125172467e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            54.600001126527786,
+            30.449999123811722,
+            68.08514893054962
+          ],
+          "motor_R": [
+            [
+              0.9396809887666354,
+              0.3420521003451899,
+              -5.102145191426139e-08
+            ],
+            [
+              -1.4638870726590402e-08,
+              1.8937851994953227e-07,
+              0.999999999999982
+            ],
+            [
+              0.34205210034519345,
+              -0.9396809887666178,
+              1.8296265114739895e-07
+            ]
+          ],
+          "motor_t_mm": [
+            54.60000260614989,
+            1.4499991238122423,
+            68.08514362463274
+          ],
+          "active_contact_point_trunk_mm": [
+            54.600001636742306,
+            20.4499991238119,
+            68.08514710092311
+          ],
+          "contact_point_error_mm": 10.000000000000004,
+          "axis_radial_error_mm": 3.3625747802571216e-20,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "trunk_base",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 10.000000000000004,
+          "id": 30,
+          "label_zh": "颈部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_pitch",
+          "parent_link": "neck",
+          "child_link": "neck_pitch",
+          "R0_pivot_trunk_mm": [
+            8.897397667169571,
+            14.49999026954174,
+            79.40554618835449
+          ],
+          "axis_trunk": [
+            -5.102145550495122e-08,
+            0.9999999999999942,
+            9.553986757282418e-08
+          ],
+          "source_home_joint_angle_rad": 0.3491,
+          "source_limits_rad_unvalidated": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "neck_pitch",
+          "vendor_R": [
+            [
+              -0.9396810270828612,
+              -0.3420519950833448,
+              -5.102145550495122e-08
+            ],
+            [
+              -1.526429139887176e-08,
+              -1.0722899153571682e-07,
+              0.9999999999999942
+            ],
+            [
+              -0.3420519950833482,
+              0.9396810270828565,
+              9.553986757282418e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 19,
+          "mpn": "XM430-W350-T",
+          "motor_model": "XM430",
+          "pivot_trunk_mm": [
+            18.6845351010561,
+            30.449979566037655,
+            166.75164699554443
+          ],
+          "motor_R": [
+            [
+              -0.9396810270828679,
+              -0.34205199508334755,
+              -5.1021455429000403e-08
+            ],
+            [
+              -1.5264291398871895e-08,
+              -1.0722899175776234e-07,
+              0.9999999999999946
+            ],
+            [
+              -0.34205199508335077,
+              0.9396810270828642,
+              9.553986736417307e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453607046375,
+            11.449979566037765,
+            166.75164518028694
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684535101056095,
+            30.449979566037662,
+            166.75164699554443
+          ],
+          "contact_point_error_mm": 7.944109290391274e-15,
+          "axis_radial_error_mm": 3.552713316271316e-15,
+          "motor_housing_link": "neck",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 7.105427538865584e-15,
+          "id": 31,
+          "label_zh": "头部俯仰",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_yaw",
+          "parent_link": "neck_pitch",
+          "child_link": "yaw_roll_motion",
+          "R0_pivot_trunk_mm": [
+            8.89739952981472,
+            -1.1099161589811501e-05,
+            98.09865057468414
+          ],
+          "axis_trunk": [
+            1.470274213488649e-07,
+            -2.0041952097926478e-08,
+            0.9999999999999891
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -2.9670597283903613,
+            2.9670597283903595
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "yaw_roll_motion",
+          "vendor_R": [
+            [
+              -0.9999999999999813,
+              -1.26519365356478e-07,
+              -1.470274213488649e-07
+            ],
+            [
+              -1.2651936830319585e-07,
+              0.9999999999999921,
+              2.0041952097926478e-08
+            ],
+            [
+              1.4702741881316864e-07,
+              2.0041970699742575e-08,
+              -0.9999999999999891
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338604153e-05,
+            206.0071662068367
+          ],
+          "motor_R": [
+            [
+              -0.9999999657714469,
+              -1.2651936061932797e-07,
+              -1.4702742139059786e-07
+            ],
+            [
+              -1.265193644157811e-07,
+              0.9999999657714574,
+              2.0041952062864657e-08
+            ],
+            [
+              1.470274137389026e-07,
+              2.004197004879701e-08,
+              -0.999999999999989
+            ]
+          ],
+          "motor_t_mm": [
+            18.68453996828915,
+            -2.3438512027240677e-05,
+            212.50716620683664
+          ],
+          "active_contact_point_trunk_mm": [
+            18.684539012610912,
+            -2.3308239338832056e-05,
+            206.0071662068367
+          ],
+          "contact_point_error_mm": 2.2790268478824205e-16,
+          "axis_radial_error_mm": 2.2790268478824205e-16,
+          "motor_housing_link": "yaw_roll_motion",
+          "rotating_interface_link": "neck_pitch",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 4.567614691514784e-24,
+          "id": 32,
+          "label_zh": "头部偏航",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "head_roll",
+          "parent_link": "yaw_roll_motion",
+          "child_link": "jaw_soft",
+          "R0_pivot_trunk_mm": [
+            -9.002598002552986,
+            -1.2303054575113492e-05,
+            112.59864270687103
+          ],
+          "axis_trunk": [
+            -0.999999999999974,
+            -5.102146971580491e-08,
+            2.225253297183314e-07
+          ],
+          "source_home_joint_angle_rad": 0,
+          "source_limits_rad_unvalidated": [
+            -0.43633231299858327,
+            0.4363323129985815
+          ],
+          "evidence": "Direct R0 EMPTY joint_name/axis_local and actual trunk inverse transform",
+          "source_object": "jaw_soft",
+          "vendor_R": [
+            [
+              -2.2252532688888723e-07,
+              -5.102148205615744e-08,
+              0.999999999999974
+            ],
+            [
+              -5.5455951396335204e-08,
+              0.9999999999999973,
+              5.102146971580491e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.5455940042764534e-08,
+              -2.225253297183314e-07
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": -1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            -18.90545580536127,
+            -2.5836414607738334e-05,
+            236.45714968442917
+          ],
+          "motor_R": [
+            [
+              -2.2252532674984217e-07,
+              -5.1021482034724406e-08,
+              0.9999999999999731
+            ],
+            [
+              -5.545595140201424e-08,
+              0.9999999999999974,
+              5.10214697372379e-08
+            ],
+            [
+              -0.9999999999999738,
+              -5.54559400370855e-08,
+              -2.225253298573763e-07
+            ]
+          ],
+          "motor_t_mm": [
+            -25.4054558053611,
+            -2.6168054160891064e-05,
+            236.4571511308438
+          ],
+          "active_contact_point_trunk_mm": [
+            -18.905455805361274,
+            -2.5836414607599017e-05,
+            236.45714968442917
+          ],
+          "contact_point_error_mm": 3.555444219232406e-15,
+          "axis_radial_error_mm": 1.3931677229951458e-16,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "yaw_roll_motion",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": 3.5527136716922713e-15,
+          "id": 33,
+          "label_zh": "头部侧倾",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        },
+        {
+          "joint": "mouth_candidate",
+          "parent_link": "jaw_soft",
+          "child_link": "mouth_link",
+          "R0_pivot_trunk_mm": [
+            8.997399449409572,
+            41.999988347291946,
+            115.59864787152186
+          ],
+          "axis_trunk": [
+            -5.10214839266608e-08,
+            0.9999999999999971,
+            -5.545593495526175e-08
+          ],
+          "evidence": "R0 visual42_xl330 local-X shaft line; selected source-local x=-16.5mm output-side geometric datum, matching shaft-side reference of most native R0 joints. Not an upstream articulated mouth joint or vendor face certification.",
+          "source_object": "42_xl330",
+          "source_native_reference_mm": [
+            -16.5,
+            0,
+            0
+          ],
+          "upstream_joint_present": false,
+          "vendor_R": [
+            [
+              -2.2252532971833166e-07,
+              -0.999999999999974,
+              -5.10214839266608e-08
+            ],
+            [
+              -5.545594630883299e-08,
+              -5.1021471586309256e-08,
+              0.9999999999999971
+            ],
+            [
+              -0.9999999999999738,
+              2.225253325477757e-07,
+              -5.545593495526175e-08
+            ]
+          ],
+          "vendor_active_axis_sign_to_joint": 1,
+          "native_active_face_z_mm": 6.5,
+          "mpn": "XC330-T181-T",
+          "motor_model": "XC330",
+          "pivot_trunk_mm": [
+            18.894538843760103,
+            88.1999755293131,
+            242.75716053019593
+          ],
+          "motor_R": [
+            [
+              -2.2252532990528226e-07,
+              -0.9999999999999742,
+              -5.1021483742310184e-08
+            ],
+            [
+              -5.545594630873008e-08,
+              -5.1021471770659856e-08,
+              0.9999999999999961
+            ],
+            [
+              -0.9999999999999739,
+              2.2252533236082519e-07,
+              -5.5455934955364665e-08
+            ]
+          ],
+          "motor_t_mm": [
+            18.894539889700525,
+            67.69997552931315,
+            242.75716166704262
+          ],
+          "active_contact_point_trunk_mm": [
+            18.89453955806088,
+            74.19997552931312,
+            242.75716130657904
+          ],
+          "contact_point_error_mm": 14.00000000000001,
+          "axis_radial_error_mm": 1.464821565555111e-14,
+          "motor_housing_link": "jaw_soft",
+          "rotating_interface_link": "mouth_link",
+          "vendor_relative_output_sign_to_R0_joint": 1,
+          "raw_encoder_home": "UNMEASURED_DO_NOT_COMMAND",
+          "axial_contact_offset_from_R0_pivot_mm": -14.00000000000001,
+          "id": 34,
+          "label_zh": "嘴部开合",
+          "home_delta_deg": 0,
+          "limits_are_not_approved_from_R0": true
+        }
+      ],
+      "mass_and_arm_sensitivity_factor": 1.2191864708990428,
+      "torque_sensitivity": {
+        "right_hip_yaw": {
+          "sensitivity_peak_Nm": 0.4965248594244853,
+          "capacity_required_for_15_percent_reserve_Nm": 0.584146893440571,
+          "ratio_to_old_unqualified_limit": 0.5516942882494281
+        },
+        "right_hip_roll": {
+          "sensitivity_peak_Nm": 0.9776990081435847,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1502341272277468,
+          "ratio_to_old_unqualified_limit": 1.0863322312706496
+        },
+        "right_hip_pitch": {
+          "sensitivity_peak_Nm": 1.4269455678894687,
+          "capacity_required_for_15_percent_reserve_Nm": 1.678759491634669,
+          "ratio_to_old_unqualified_limit": 1.056996716955162
+        },
+        "right_knee": {
+          "sensitivity_peak_Nm": 1.2715567669562706,
+          "capacity_required_for_15_percent_reserve_Nm": 1.4959491375956124,
+          "ratio_to_old_unqualified_limit": 0.9418939014490892
+        },
+        "right_ankle": {
+          "sensitivity_peak_Nm": 0.976836761876094,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1492197198542282,
+          "ratio_to_old_unqualified_limit": 0.976836761876094
+        },
+        "left_hip_yaw": {
+          "sensitivity_peak_Nm": 0.49978646427504275,
+          "capacity_required_for_15_percent_reserve_Nm": 0.5879840756176974,
+          "ratio_to_old_unqualified_limit": 0.5553182936389364
+        },
+        "left_hip_roll": {
+          "sensitivity_peak_Nm": 1.0063872564187604,
+          "capacity_required_for_15_percent_reserve_Nm": 1.1839850075514828,
+          "ratio_to_old_unqualified_limit": 1.1182080626875115
+        },
+        "left_hip_pitch": {
+          "sensitivity_peak_Nm": 1.4322590758526557,
+          "capacity_required_for_15_percent_reserve_Nm": 1.6850106774737126,
+          "ratio_to_old_unqualified_limit": 1.0609326487797448
+        },
+        "left_knee": {
+          "sensitivity_peak_Nm": 1.264265218767452,
+          "capacity_required_for_15_percent_reserve_Nm": 1.487370845608767,
+          "ratio_to_old_unqualified_limit": 0.9364927546425569
+        },
+        "left_ankle": {
+          "sensitivity_peak_Nm": 0.9834741234997099,
+          "capacity_required_for_15_percent_reserve_Nm": 1.157028380587894,
+          "ratio_to_old_unqualified_limit": 0.9834741234997099
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Mass-and-arm multiplication is neither an upper bound nor a replacement for inverse dynamics.",
+    "New stance must solve both feet, contact distribution, mass/COM/inertia and collisions together.",
+    "Height proxies keep the same joint angles, motor housings and foot offsets; no new CAD exists.",
+    "Factory stall torque is not a continuous output rating.",
+    "Old model actuator caps are unqualified assumptions, not measured low-battery capabilities."
+  ]
+}
