@@ -1,0 +1,249 @@
+{
+  "status": "SPRING_BODY_ONLY_PACKING_PASS_INTERFACE_UNDESIGNED",
+  "installed_in_R29": false,
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "source_selection_sha256": "2ae5396ed3840d8202c7660ce1f805f335a5aecfa0e7bede06a1f2720fd7f340",
+  "source_mesh_sha256": {
+    "R29_lower_head_shell_mouth_10deg_3mm": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+    "R25_top_head_shell_closed_side": "5f1036184a6c5fd8e3de72aeb66fac5bcbf3cb3a37e885b957931561bad403a4",
+    "R12_mouth_load_carrier": "cdf15b243e205f2329a9ed1fb5ee3d964431a43cdc65b68099541421abbb7d09"
+  },
+  "envelope_mesh": "work/r29-mouth-counterbalance/spring_body_clearance_envelope.ply",
+  "envelope_sha256": "2b17cc3fb0d2fccfcbd6f67b77e4bc168fae9270c87455bf0be98dedc0880d63",
+  "envelope_is_manufacturing_master": false,
+  "envelope": {
+    "pivot_mm": [
+      18.894538843760103,
+      88.1999755293131,
+      242.75716053019593
+    ],
+    "y_mm": [
+      79.0,
+      85.7
+    ],
+    "radial_outer_bound_mm": 6.11,
+    "intended_spring_body_OD_mm": 12.2,
+    "icosphere_inradius_mm": 3.45
+  },
+  "home_all_rigid": {
+    "part_count": 1193,
+    "broadphase_pairs": [
+      {
+        "name": "R25_top_head_shell_closed_side",
+        "common_mm3": 0.0
+      },
+      {
+        "name": "R12_mouth_load_carrier",
+        "common_mm3": 0.0
+      }
+    ],
+    "max_true_overlap_mm3": 0.0
+  },
+  "continuous_carrier_clearance": {
+    "sample_count": 41,
+    "sample_step_deg": 0.25,
+    "max_inflated_common_mm3": 0.0,
+    "carrier_vertex_radius_mm": 179.64028227767548,
+    "interpolation_displacement_bound_mm": 0.3919142216457786,
+    "nominal_lower_bound_mm": 3.0580857783542217,
+    "pose_rows": [
+      {
+        "angle_deg": 0.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 0.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 0.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 0.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 6.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 6.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 6.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 6.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 7.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 7.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 7.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 7.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 8.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 8.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 8.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 8.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 9.0,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 9.25,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 9.5,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 9.75,
+        "inflated_common_mm3": 0.0
+      },
+      {
+        "angle_deg": 10.0,
+        "inflated_common_mm3": 0.0
+      }
+    ]
+  },
+  "static_inflated_common_mm3": {
+    "R29_lower_head_shell_mouth_10deg_3mm": 0.0,
+    "R25_top_head_shell_closed_side": 0.0
+  },
+  "spring_study": {
+    "count": 2,
+    "wire_d_mm": 0.7,
+    "mean_D_mm": 11.5,
+    "active_turns_each": 3.0,
+    "E_assumed_GPa": 200.0,
+    "free_body_length_each_mm": 3.15,
+    "body_spacer_allowance_mm": 0.4,
+    "pair_preload_at_0deg_Nm": 0.02,
+    "pair_rate_Nm_rad": 0.0434963768115942,
+    "pair_closing_torque_at_10deg_Nm": 0.027591549880504322,
+    "corrected_bending_stress_0deg_MPa": 312.4969896256963,
+    "corrected_bending_stress_10deg_MPa": 431.11381383824204,
+    "inside_diameter_10deg_estimate_mm": 10.425592082844686,
+    "proposed_mandrel_OD_mm": 9.5,
+    "material_grade_and_allowable_stress": "UNSPECIFIED",
+    "fatigue_life_approved": false,
+    "geometry_attachment_approved": false
+  },
+  "manufacturer_guide_url": "https://www.federnshop.com/download/pdf/Gutekunst-Federn-1x1-2013-E.pdf",
+  "manufacturer_guide_pages": "20–21, section 1.4.4",
+  "excluded_geometry": [
+    "spring wire legs",
+    "rotating arbor and horn fasteners",
+    "fixed anchor and fasteners",
+    "axial retainer",
+    "31 flexible harness parts"
+  ]
+}

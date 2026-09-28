@@ -4,6 +4,7 @@ from pathlib import Path
 from microduck_interaction.schema import validate_intent,command_values,ROBOT_PROFILE
 from microduck_interaction.executor import Arbiter,CommandWriter
 from microduck_rk.safety import read_command,Guard
+from microduck_rk.motion_limits import MOUTH_MAX, DEFAULT_MOUTH_OPEN_RAD, CONTRACT
 from test_mixed_drive import data,load,Registers
 import test_power_r8 as power_tests
 
@@ -15,15 +16,33 @@ class HeadLimitsTests(unittest.TestCase):
                 validate_intent({'duration_s':.2,'head':h})
                 h[i]+=sign*1e-8
                 with self.subTest(i=i,sign=sign),self.assertRaises(ValueError):validate_intent({'duration_s':.2,'head':h})
-        validate_intent({'duration_s':.2,'mouth':math.radians(12)})
-        for v in (-1e-8,math.radians(12)+1e-8):
+        validate_intent({'duration_s':.2,'mouth':math.radians(10)})
+        for v in (-1e-8,math.radians(10)+1e-8,math.radians(12)):
             with self.assertRaises(ValueError):validate_intent({'duration_s':.2,'mouth':v})
     def test_invalid_submission_preserves_sequence_and_deadline(self):
         a=Arbiter(clock=lambda:1.);s=a.start_session('test',2.)['session_id'];a.submit(s,1,ROBOT_PROFILE,{'duration_s':.2})
         before=(a.intent_until,a.session['sequence'])
         with self.assertRaises(ValueError):a.submit(s,2,ROBOT_PROFILE,{'duration_s':3.,'head':[0,.3,0,0]})
         self.assertEqual(before,(a.intent_until,a.session['sequence']))
+    def test_final_cad_mouth_contract_and_current_template_bindings(self):
+        root=Path(__file__).parents[1]
+        self.assertEqual(MOUTH_MAX, math.radians(10))
+        self.assertEqual(DEFAULT_MOUTH_OPEN_RAD, math.radians(8))
+        self.assertEqual(CONTRACT['mouth_absolute_degrees'], (0., 10.))
+        snapshot=json.loads((root/'config/motion_limits.snapshot.json').read_text())
+        from microduck_rk.motion_limits import limits_sha256
+        self.assertEqual(snapshot, json.loads(json.dumps({'motion_limits_sha256':limits_sha256(), **CONTRACT})))
+        for name in ('calibration.template.json','dynamics.template.json',
+                     'bam_xm430.template.json','bam_t288.template.json','bam_xc330.template.json'):
+            template=json.loads((root/'config'/name).read_text())
+            if 'r8_actuator' in template:
+                self.assertEqual(template['r8_actuator']['motion_limits_sha256'], limits_sha256())
+            else:
+                self.assertEqual(template['motion_limits_sha256'], limits_sha256())
+
     def test_audio_endpoints_reject_old_travel(self):
+        self.assertLess(Arbiter().opened, MOUTH_MAX)
+        with self.assertRaises(ValueError):Arbiter(mouth_open=.2)
         with self.assertRaises(ValueError):Arbiter(mouth_open=.3)
         with self.assertRaises(ValueError):Arbiter(mouth_closed=-.01)
         # Safe closure is the mechanical zero, never a held-open audio idle.
@@ -34,7 +53,7 @@ class HeadLimitsTests(unittest.TestCase):
             p=Path(t)/'cmd.json';frame={'monotonic_s':1.,'commands':[0.]*13,'mouth_rad':0.}
             with CommandWriter(p) as w:
                 w.write(frame);good=p.read_bytes();self.assertEqual(json.loads(good)['motion_limits_sha256'],limits_sha256())
-                for bad in ({**frame,'mouth_rad':.3},{**frame,'commands':[0,0,0,0,.3,0,0,0,0,0,0,0,0]}):
+                for bad in ({**frame,'mouth_rad':math.radians(12)},{**frame,'commands':[0,0,0,0,.3,0,0,0,0,0,0,0,0]}):
                     with self.assertRaises(ValueError):w.write(bad)
                     self.assertEqual(p.read_bytes(),good)
             read_command(p)
@@ -46,12 +65,14 @@ class HeadLimitsTests(unittest.TestCase):
         # Head contract is delta from the measured home, not absolute encoder zero.
         for j,(lo,hi) in zip(d['joints'][5:9],((-20,5),(-15,15),(-15,15),(-8,8))):
             j['home_rad']=.3491;j['min_rad']=.3491+math.radians(lo);j['max_rad']=.3491+math.radians(hi)
-        d['joints'][9].update(home_rad=0,min_rad=0,max_rad=math.radians(12))
+        d['joints'][9].update(home_rad=0,min_rad=0,max_rad=math.radians(10))
         load(d,True)
         for key,value in [('motion_limits_sha256','old')]:
             bad=copy.deepcopy(d);bad[key]=value
             with self.assertRaises(ValueError):load(bad,True)
         bad=copy.deepcopy(d);bad['joints'][6]['max_rad']+=.001
+        with self.assertRaises(ValueError):load(bad,True)
+        bad=copy.deepcopy(d);bad['joints'][9]['max_rad']=math.radians(12)
         with self.assertRaises(ValueError):load(bad,True)
         bad=copy.deepcopy(d);bad['joints'][9]['min_rad']=-.001
         with self.assertRaises(ValueError):load(bad,True)
@@ -59,7 +80,7 @@ class HeadLimitsTests(unittest.TestCase):
         from microduck_interaction.providers import SYSTEM_PROMPT
         from microduck_rk.motion_limits import limits_sha256
         self.assertIn(limits_sha256(),SYSTEM_PROMPT)
-        self.assertIn(str(math.radians(12)),SYSTEM_PROMPT)
+        self.assertIn(str(math.radians(10)),SYSTEM_PROMPT)
         self.assertNotIn('[0.35,0.35,0.5,0.35]',SYSTEM_PROMPT)
 
     def test_neck_positive_old_command_rejected_before_any_write(self):

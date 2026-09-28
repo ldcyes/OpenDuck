@@ -1,0 +1,1336 @@
+{
+  "status": "FIXED_SEED_REPLAY_INSTRUCTIONS",
+  "cases": [
+    {
+      "index": 0,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_00.json",
+      "evidence_sha256": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70"
+    },
+    {
+      "index": 1,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_00.json",
+      "seed_sha256": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_01.json",
+      "evidence_sha256": "c4b1605499f67555d072887e2a59bc42af5b2f4c6116da5f5e5d296ac0fb6a02"
+    },
+    {
+      "index": 2,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_01.json",
+      "seed_sha256": "c4b1605499f67555d072887e2a59bc42af5b2f4c6116da5f5e5d296ac0fb6a02",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_02.json",
+      "evidence_sha256": "175d2ef60cfb67a5eea9b78dad2bd460c0ba31d68bdfebfc4567a476da9b1a56"
+    },
+    {
+      "index": 3,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_00.json",
+      "seed_sha256": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_03.json",
+      "evidence_sha256": "176abfcf1f4aaaeda8d07f8d054c6320d4cfaf507253f4eb461e4c632b83bd87"
+    },
+    {
+      "index": 4,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16.json",
+      "seed_sha256": "4ee0eab24ca425a3aca40f46cee909c9aacf901c571bf2ff2090a7a16490fb16",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_04.json",
+      "evidence_sha256": "4213e07a41ce6e1be9c4d13d152b93a7a79be030ad6003aca7f431f662d5ebbd"
+    },
+    {
+      "index": 5,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_04.json",
+      "seed_sha256": "4213e07a41ce6e1be9c4d13d152b93a7a79be030ad6003aca7f431f662d5ebbd",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_05.json",
+      "evidence_sha256": "cd9e9999197779311a0f0e178491d324109a2d93d0dbcb5265389bad72a9b90b"
+    },
+    {
+      "index": 6,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_04.json",
+      "seed_sha256": "4213e07a41ce6e1be9c4d13d152b93a7a79be030ad6003aca7f431f662d5ebbd",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_06.json",
+      "evidence_sha256": "6d20f9b0dbb245557f67813882eed41328b397dfb7476822547d0b6aeeda993d"
+    },
+    {
+      "index": 7,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_04.json",
+      "seed_sha256": "4213e07a41ce6e1be9c4d13d152b93a7a79be030ad6003aca7f431f662d5ebbd",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_07.json",
+      "evidence_sha256": "242df858a13d7716f25a65246f79ea9ee148f35cd75167925c79abe9d5864727"
+    },
+    {
+      "index": 8,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_04.json",
+      "seed_sha256": "4213e07a41ce6e1be9c4d13d152b93a7a79be030ad6003aca7f431f662d5ebbd",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_08.json",
+      "evidence_sha256": "03a5f13f5b7e94c14700b072880b8eb431183e08f4b3025730ad6a9f266e44a5"
+    },
+    {
+      "index": 9,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_00.json",
+      "seed_sha256": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_09.json",
+      "evidence_sha256": "64ca39ee26e938cd76328ad1d9629c287979f1e35b40e43dafbbf8c3c1319faa"
+    },
+    {
+      "index": 10,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_10.json",
+      "evidence_sha256": "03938a090a6ad2d864ed9688026ba235a61214dea8af98097c7070b148e89e09"
+    },
+    {
+      "index": 11,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_02.json",
+      "seed_sha256": "175d2ef60cfb67a5eea9b78dad2bd460c0ba31d68bdfebfc4567a476da9b1a56",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_11.json",
+      "evidence_sha256": "be7892f2d507280003e3c754dfe8552bca54ae277cb6bcbd12409ef440cf6872"
+    },
+    {
+      "index": 12,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_12.json",
+      "evidence_sha256": "ae34f09e764ab8e25dd18943d8170b302c0beb8102195f50ec8965a719536e88"
+    },
+    {
+      "index": 13,
+      "target_q": {
+        "neck_pitch": -10.0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16.json",
+      "seed_sha256": "4ee0eab24ca425a3aca40f46cee909c9aacf901c571bf2ff2090a7a16490fb16",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_13.json",
+      "evidence_sha256": "25319400ffa6d57133d3772e51d3b3bd2b4bbe68c59bf9493ef6f5aaa90a6bc4"
+    },
+    {
+      "index": 14,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_05.json",
+      "seed_sha256": "cd9e9999197779311a0f0e178491d324109a2d93d0dbcb5265389bad72a9b90b",
+      "iterations": 400,
+      "stages": 6,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_14.json",
+      "evidence_sha256": "ad82a51dc177200e686db471e6d9d7e9fbf8d2886be0e2012d2896cd06f5083d"
+    },
+    {
+      "index": 15,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_12.json",
+      "seed_sha256": "ae34f09e764ab8e25dd18943d8170b302c0beb8102195f50ec8965a719536e88",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_15_step01.json",
+      "evidence_sha256": "d4fd19c6aa1214738a6d49a3850ea5dc4103a0ecce632df421ae5bbfe9468ba7"
+    },
+    {
+      "index": 16,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_17.json",
+      "seed_sha256": "26e5635e8d67e3bad4a0deb3cccb9b4f0c2a39793af5c0f0ce43da1d278eb6a9",
+      "iterations": 400,
+      "stages": 6,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_16.json",
+      "evidence_sha256": "7a91300ed9f1cc4e6549d3de37880d2d8f47b380c9b9bf9c3dd5f1f6aff03488"
+    },
+    {
+      "index": 17,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_08.json",
+      "seed_sha256": "03a5f13f5b7e94c14700b072880b8eb431183e08f4b3025730ad6a9f266e44a5",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_17.json",
+      "evidence_sha256": "26e5635e8d67e3bad4a0deb3cccb9b4f0c2a39793af5c0f0ce43da1d278eb6a9"
+    },
+    {
+      "index": 18,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_09.json",
+      "seed_sha256": "64ca39ee26e938cd76328ad1d9629c287979f1e35b40e43dafbbf8c3c1319faa",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_18_step02.json",
+      "evidence_sha256": "355d09c92834c593b84b3ca61337627a3dbb013afb57c47bb21440cb0270cdb5"
+    },
+    {
+      "index": 19,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_10.json",
+      "seed_sha256": "03938a090a6ad2d864ed9688026ba235a61214dea8af98097c7070b148e89e09",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_19_step02.json",
+      "evidence_sha256": "8cc859ec6c7f7c9797bb34460af509836e9ddb20a098aa0ec0948cc7044d9842"
+    },
+    {
+      "index": 20,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_11.json",
+      "seed_sha256": "be7892f2d507280003e3c754dfe8552bca54ae277cb6bcbd12409ef440cf6872",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_20.json",
+      "evidence_sha256": "ddd6d161205c64a7cef44a73bb8982424eddfb2e5e5f22259b67caa46250662f"
+    },
+    {
+      "index": 21,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_12.json",
+      "seed_sha256": "ae34f09e764ab8e25dd18943d8170b302c0beb8102195f50ec8965a719536e88",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_21.json",
+      "evidence_sha256": "79d32589e87437d5dd6645ec659d5afd9618467eddd9e5a2e76a532778f659d3"
+    },
+    {
+      "index": 22,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_21.json",
+      "seed_sha256": "79d32589e87437d5dd6645ec659d5afd9618467eddd9e5a2e76a532778f659d3",
+      "iterations": 400,
+      "stages": 6,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_22_step01.json",
+      "evidence_sha256": "ef5b2e6ad365155f9bf74295d27706e39770ab7a3e857727dc3a556919793f46"
+    },
+    {
+      "index": 23,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_14.json",
+      "seed_sha256": "ad82a51dc177200e686db471e6d9d7e9fbf8d2886be0e2012d2896cd06f5083d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_23_step02.json",
+      "evidence_sha256": "f4362ac80b847385227fce4d286849155da57ce93fef3f021e2b9e186b213c58"
+    },
+    {
+      "index": 24,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_21.json",
+      "seed_sha256": "79d32589e87437d5dd6645ec659d5afd9618467eddd9e5a2e76a532778f659d3",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_24_step02.json",
+      "evidence_sha256": "2bc12c2214c1cfa580f2542b2ff1610471c32342972118288fe8a1fd491247ee"
+    },
+    {
+      "index": 25,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json",
+      "seed_sha256": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_25_step01.json",
+      "evidence_sha256": "94ad8e8c5639b93527562bfcd312d0b1587596aedde3f36464dbfdd39456b99a"
+    },
+    {
+      "index": 26,
+      "target_q": {
+        "neck_pitch": -10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_17.json",
+      "seed_sha256": "26e5635e8d67e3bad4a0deb3cccb9b4f0c2a39793af5c0f0ce43da1d278eb6a9",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_26.json",
+      "evidence_sha256": "b75b73989470872d9a691a70244c4eb29d47941ce5909f04c7b61480d9b43c63"
+    },
+    {
+      "index": 27,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_00.json",
+      "seed_sha256": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_27.json",
+      "evidence_sha256": "3ed1adf886075f373b744716037b3007d6f38926dec993707d9ba2ba4803080d"
+    },
+    {
+      "index": 28,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_28.json",
+      "evidence_sha256": "6d9c9761ae895198d8b4e2b0b2716ffe564fdf0e0e71ccf1618a4e805a1da54e"
+    },
+    {
+      "index": 29,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_02.json",
+      "seed_sha256": "175d2ef60cfb67a5eea9b78dad2bd460c0ba31d68bdfebfc4567a476da9b1a56",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_29.json",
+      "evidence_sha256": "010ab37f480f4f606fcdfbedff4feca4da5fdcf303ae4d2c4ca394e2fc2cc83d"
+    },
+    {
+      "index": 30,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_30.json",
+      "evidence_sha256": "fb7841a375df08877719d7cafeacdd1d1db2711bd268897ef23790aa2d05f619"
+    },
+    {
+      "index": 31,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17.json",
+      "seed_sha256": "829116869de07ed247e3f126f2787a7ae7d93cd3afd11225d123a29933cd8265",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_31.json",
+      "evidence_sha256": "2208f7d304bed2e071b09bf7227e61d9d7f102e10e5ef8e973dc18dc48d398ba"
+    },
+    {
+      "index": 32,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17.json",
+      "seed_sha256": "829116869de07ed247e3f126f2787a7ae7d93cd3afd11225d123a29933cd8265",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_32.json",
+      "evidence_sha256": "4cb6ed8a6dd1083101b66dc1ff721eb98846e8de92a5abe1edb747e281ea18ef"
+    },
+    {
+      "index": 33,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_06.json",
+      "seed_sha256": "6d20f9b0dbb245557f67813882eed41328b397dfb7476822547d0b6aeeda993d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_33.json",
+      "evidence_sha256": "70f0b520d324aee45c2086e95e6b4a76f13eed6e5d7cb441e800e041678d85c5"
+    },
+    {
+      "index": 34,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json",
+      "seed_sha256": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_34.json",
+      "evidence_sha256": "2942341849492c26898b4a1a2799a0fa0779ed2c02048ed0540ba6186d8aa475"
+    },
+    {
+      "index": 35,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_08.json",
+      "seed_sha256": "03a5f13f5b7e94c14700b072880b8eb431183e08f4b3025730ad6a9f266e44a5",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_35.json",
+      "evidence_sha256": "291fadef067939c2418fd7b07f03443dbb8fece51e1009043b77cd8215368667"
+    },
+    {
+      "index": 36,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_36.json",
+      "evidence_sha256": "28a4183ea39a1c1e848accdfd7a736648dfd326d826c29282db720bc0159a153"
+    },
+    {
+      "index": 37,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_37.json",
+      "evidence_sha256": "6dbff132b2a362ea009eb901a0a5205ef844d033711a23e1ecd918017ba26ecc"
+    },
+    {
+      "index": 38,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_38.json",
+      "evidence_sha256": "460c959ca534710508eca8e0751b397d98ed87d77b5ca6f5d928fe7d6d3df171"
+    },
+    {
+      "index": 39,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_39.json",
+      "evidence_sha256": "7a96c1856a3bb9c8dab48b40532894f1f248b95d9459eb3d85e50e300875087f"
+    },
+    {
+      "index": 40,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01.json",
+      "seed_sha256": "d88d109356029233ac49742d79cef21d7b2abc9f9539507f48adfb8bf0cf0d6f",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_40.json",
+      "evidence_sha256": "1bd3625e00bcedda337b722179034f48e72fc111e80c7aa0276afadeaf24315e"
+    },
+    {
+      "index": 41,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_18.json",
+      "seed_sha256": "750a6f2c92652c4e18b9fe79e222aee416f079dfdb4c3804107fc95ad53235a4",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_41.json",
+      "evidence_sha256": "8bddd4999d6390ab8b90a573b3bd2ef3754156fadd473f0a4c5d92fe94a21389"
+    },
+    {
+      "index": 42,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_42_step03.json",
+      "evidence_sha256": "a7fb13e217e1a4bd3a19b5099b0f800c54d288cfe9f94d39e333b961bc779d30"
+    },
+    {
+      "index": 43,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 30.0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json",
+      "seed_sha256": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_43.json",
+      "evidence_sha256": "272ea1802889daf4b50df03f43810f261756ed65d90e420e6a010bee1b1c8360"
+    },
+    {
+      "index": 44,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json",
+      "seed_sha256": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_44.json",
+      "evidence_sha256": "281dc1b5c2e59f7aaf3fc8961eef0d88fedcdc07a7566901b2b14fb38638c0d8"
+    },
+    {
+      "index": 45,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_36.json",
+      "seed_sha256": "28a4183ea39a1c1e848accdfd7a736648dfd326d826c29282db720bc0159a153",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_45_step02.json",
+      "evidence_sha256": "4c7ad44d5144b7ba9fbeb5a8c9e9e6aeabe71f9a74d27614a8809a3b12893faf"
+    },
+    {
+      "index": 46,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_46_step01.json",
+      "evidence_sha256": "baf6185dfae905086f3d9a8c72ecc96f91700e3020da07a3d7d8d2fdf7417c59"
+    },
+    {
+      "index": 47,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_20.json",
+      "seed_sha256": "ddd6d161205c64a7cef44a73bb8982424eddfb2e5e5f22259b67caa46250662f",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_47_step01.json",
+      "evidence_sha256": "fd9521508687d4fe23b878cc7ea481e02f4670b82bba28ba67c1b80122f8127e"
+    },
+    {
+      "index": 48,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_48.json",
+      "evidence_sha256": "a34b9bd35349857fecef4002e511e92f150dabaf5df4c7ffcc9d1e0cb1464cd1"
+    },
+    {
+      "index": 49,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json",
+      "seed_sha256": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_49.json",
+      "evidence_sha256": "aa3a04443877d68b865e8eff45319256c07cd8a556491784a50660c098292e2f"
+    },
+    {
+      "index": 50,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json",
+      "seed_sha256": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_50_step01.json",
+      "evidence_sha256": "520d060cfe6be6d75b72c444ca2b7c1d239ce02c7684680a681f8af35eebe803"
+    },
+    {
+      "index": 51,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_48.json",
+      "seed_sha256": "a34b9bd35349857fecef4002e511e92f150dabaf5df4c7ffcc9d1e0cb1464cd1",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_51_step03.json",
+      "evidence_sha256": "33e3b0893208e96e607010ce56dda2b96e8ef079f54591cf681dcee5aef23d8c"
+    },
+    {
+      "index": 52,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json",
+      "seed_sha256": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_52_step02.json",
+      "evidence_sha256": "508133973cd072b4e5164fed820ed508f77bc4ff94ec08ef4b16db3eabc3290c"
+    },
+    {
+      "index": 53,
+      "target_q": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_26.json",
+      "seed_sha256": "b75b73989470872d9a691a70244c4eb29d47941ce5909f04c7b61480d9b43c63",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_53.json",
+      "evidence_sha256": "1e8ea9eddf462e5a82352307c5dc330ae97ec0e104980d292bb70b2819548e93"
+    },
+    {
+      "index": 54,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_28.json",
+      "seed_sha256": "6d9c9761ae895198d8b4e2b0b2716ffe564fdf0e0e71ccf1618a4e805a1da54e",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_54.json",
+      "evidence_sha256": "251c4910c7afd44fde2582f92450c7248b6bf9b6110aa0f27e4db980ac14c479"
+    },
+    {
+      "index": 55,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_28.json",
+      "seed_sha256": "6d9c9761ae895198d8b4e2b0b2716ffe564fdf0e0e71ccf1618a4e805a1da54e",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_55.json",
+      "evidence_sha256": "1dbc43a9ed9870bf3622de648f4dd1cdb447ddcc12c4730cdfbfa78f19165b49"
+    },
+    {
+      "index": 56,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_28.json",
+      "seed_sha256": "6d9c9761ae895198d8b4e2b0b2716ffe564fdf0e0e71ccf1618a4e805a1da54e",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_56.json",
+      "evidence_sha256": "2a3b33ec30d4a9c6779d1dd4d79d88721d45854633c1255ef5453e82dc943856"
+    },
+    {
+      "index": 57,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_30.json",
+      "seed_sha256": "fb7841a375df08877719d7cafeacdd1d1db2711bd268897ef23790aa2d05f619",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_57.json",
+      "evidence_sha256": "51b133e2d937a6442ab5747f03e6df9c70a94f667d612849a6e7207ad4e7f631"
+    },
+    {
+      "index": 58,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json",
+      "seed_sha256": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_58.json",
+      "evidence_sha256": "feb22f6e0fd4778e4aac26ce98c1aa970b57dc92193d73ef131471a79edd50a0"
+    },
+    {
+      "index": 59,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_32.json",
+      "seed_sha256": "4cb6ed8a6dd1083101b66dc1ff721eb98846e8de92a5abe1edb747e281ea18ef",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_59.json",
+      "evidence_sha256": "25003aeadb8196f38d5c40e41701affbebb89c1b634a695993a260851b1a7621"
+    },
+    {
+      "index": 60,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_30.json",
+      "seed_sha256": "fb7841a375df08877719d7cafeacdd1d1db2711bd268897ef23790aa2d05f619",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_60_step02.json",
+      "evidence_sha256": "00d15a83c1b54db4153918920117f3e8034da3dc0c62d55e7c845240b0e70e63"
+    },
+    {
+      "index": 61,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_34.json",
+      "seed_sha256": "2942341849492c26898b4a1a2799a0fa0779ed2c02048ed0540ba6186d8aa475",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_61.json",
+      "evidence_sha256": "596aa4c00f8ba4b7e4def36bb43901b76cc9d288af2be0fd6bd911672caf0bca"
+    },
+    {
+      "index": 62,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": -15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_32.json",
+      "seed_sha256": "4cb6ed8a6dd1083101b66dc1ff721eb98846e8de92a5abe1edb747e281ea18ef",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_62.json",
+      "evidence_sha256": "d737a3a85eb9991ecfbf40a372ff79ea5d627ca06d65eac64a10a8621a597929"
+    },
+    {
+      "index": 63,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_36.json",
+      "seed_sha256": "28a4183ea39a1c1e848accdfd7a736648dfd326d826c29282db720bc0159a153",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_63.json",
+      "evidence_sha256": "93a0c583015b52b9b9e988b414563f7dd559d4c3d772e376f7cc148c4e0309fe"
+    },
+    {
+      "index": 64,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json",
+      "seed_sha256": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_64.json",
+      "evidence_sha256": "d078e1890328228e7953d59aa3b72d6508315da00a26514634a7eacf1d104498"
+    },
+    {
+      "index": 65,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_38.json",
+      "seed_sha256": "460c959ca534710508eca8e0751b397d98ed87d77b5ca6f5d928fe7d6d3df171",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_65.json",
+      "evidence_sha256": "9ad9d7889db822b41fb98a4b99e0571979772a19fbf3b636782922e57cd4030f"
+    },
+    {
+      "index": 66,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json",
+      "seed_sha256": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_66.json",
+      "evidence_sha256": "80e3012a169716a5f2e6ffc93896f2cffea101000370c5e9b09f1f351210f4f2"
+    },
+    {
+      "index": 67,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json",
+      "seed_sha256": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_67.json",
+      "evidence_sha256": "a8e10b6684fea05bda96a0697875a0779b165d27a1d44787e35c08c676d84383"
+    },
+    {
+      "index": 68,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json",
+      "seed_sha256": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_68.json",
+      "evidence_sha256": "d51c5ec7f96849b09b2f71d191dae920b50c0576303803129f0ab834be987de2"
+    },
+    {
+      "index": 69,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_66.json",
+      "seed_sha256": "80e3012a169716a5f2e6ffc93896f2cffea101000370c5e9b09f1f351210f4f2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_69_step03.json",
+      "evidence_sha256": "ee437221ecb4c91e5051f4c7bf3720290d3b15153df0add707fda0b4c8c57353"
+    },
+    {
+      "index": 70,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json",
+      "seed_sha256": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_70.json",
+      "evidence_sha256": "4e93d13f1bfc2687ce0b508c8eacccc63cc562a3113cc9dabbcce6de4fdb1a78"
+    },
+    {
+      "index": 71,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_44.json",
+      "seed_sha256": "281dc1b5c2e59f7aaf3fc8961eef0d88fedcdc07a7566901b2b14fb38638c0d8",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_71.json",
+      "evidence_sha256": "b35eb957d3fafba2cf547d9bc31e7b319c6fe7e3c5ae3577414c245c54f75876"
+    },
+    {
+      "index": 72,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_36.json",
+      "seed_sha256": "28a4183ea39a1c1e848accdfd7a736648dfd326d826c29282db720bc0159a153",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_72_step01.json",
+      "evidence_sha256": "750bfbb3e1b03c8451e9e0cb197e76aaa9fc4fb083cb6fb145ba19602d8376e2"
+    },
+    {
+      "index": 73,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_64.json",
+      "seed_sha256": "d078e1890328228e7953d59aa3b72d6508315da00a26514634a7eacf1d104498",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_73_step01.json",
+      "evidence_sha256": "c739fa94c6bafc58a1d85531efae902fef1faa160c901f473ac2f86feea73ab4"
+    },
+    {
+      "index": 74,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": -30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_38.json",
+      "seed_sha256": "460c959ca534710508eca8e0751b397d98ed87d77b5ca6f5d928fe7d6d3df171",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_74.json",
+      "evidence_sha256": "1c8fdf36a8179eb0b8166972c60ab242de28109af5d9e8daf9fa6e94e39f242d"
+    },
+    {
+      "index": 75,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_48.json",
+      "seed_sha256": "a34b9bd35349857fecef4002e511e92f150dabaf5df4c7ffcc9d1e0cb1464cd1",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_75_step01.json",
+      "evidence_sha256": "6713f62722d758fadda56ba71dce70d8f8882e63c36e63ba863c4fc0809b11dc"
+    },
+    {
+      "index": 76,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "seed": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json",
+      "seed_sha256": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_76_step01.json",
+      "evidence_sha256": "513be7240b535d73812a24ac859e801ea61812eda8fe3db2df5c73c6129b0baf"
+    },
+    {
+      "index": 77,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_68.json",
+      "seed_sha256": "d51c5ec7f96849b09b2f71d191dae920b50c0576303803129f0ab834be987de2",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_77_step02.json",
+      "evidence_sha256": "a5790ea85334d8e9def239490820b678e5db5e707faff150189ffd6a44b8bf1d"
+    },
+    {
+      "index": 78,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": -10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_48.json",
+      "seed_sha256": "a34b9bd35349857fecef4002e511e92f150dabaf5df4c7ffcc9d1e0cb1464cd1",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "BOUNDED_SOLVE_UNRESOLVED",
+      "evidence": "work/r29-closure/harness/combined81/cases/attempt_78_step03.json",
+      "evidence_sha256": "6db53e7071a0558a097da5f0b4ac60a91f9ca4e2bd7fce2b969b21363bd331aa"
+    },
+    {
+      "index": 79,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 0
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_70.json",
+      "seed_sha256": "4e93d13f1bfc2687ce0b508c8eacccc63cc562a3113cc9dabbcce6de4fdb1a78",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_79.json",
+      "evidence_sha256": "f998e9cf0b3523dd44e930bd594862b247b2a4844915c9f196b90d8fd33484c9"
+    },
+    {
+      "index": 80,
+      "target_q": {
+        "neck_pitch": 10,
+        "head_pitch": 15,
+        "head_yaw": 30,
+        "head_roll": 10
+      },
+      "seed": "work/r29-closure/harness/combined81/cases/case_44.json",
+      "seed_sha256": "281dc1b5c2e59f7aaf3fc8961eef0d88fedcdc07a7566901b2b14fb38638c0d8",
+      "iterations": 250,
+      "stages": 4,
+      "outcome": "ROUTE_WITNESS_FOUND",
+      "evidence": "work/r29-closure/harness/combined81/cases/case_80.json",
+      "evidence_sha256": "9c4c7c74d8fc52df8304735771a33a05d0f2008cc714befa530f3713313f96df"
+    }
+  ],
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "package_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.6.0+cu124",
+    "trimesh": "5.1.0",
+    "manifold3d": "3.5.3",
+    "cadquery-ocp": "bundled dependency; see module paths"
+  },
+  "module_paths": {
+    "numpy": "/home/ldcyes/.local/lib/python3.10/site-packages/numpy/__init__.py",
+    "scipy": "/home/ldcyes/.local/lib/python3.10/site-packages/scipy/__init__.py",
+    "torch": "/home/ldcyes/.local/lib/python3.10/site-packages/torch/__init__.py",
+    "trimesh": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/rk-mechanics/python-deps/trimesh/__init__.py",
+    "manifold3d": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r12-motion/python-deps/manifold3d.cpython-310-x86_64-linux-gnu.so",
+    "OCP": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r3-mechanics/python-deps/OCP/__init__.py"
+  },
+  "torch_threads": 1,
+  "source_hashes": {
+    "work/r29-closure/harness/combined81/bootstrap.py": "91615a1c78c1ee95d19a90960a434d3b37e6c11205670b0163370d8b6e62b63a",
+    "work/r29-closure/harness/combined81/refine_bending.py": "38e4ed69a0b2b9196617c1e17d9fe51101d65c150129c0ba613ab80f7d2a32d6",
+    "work/r29-closure/harness/combined81/solve_family.py": "223de9e7830491134ee2c1f1824d1701f1ec1ad78c621d3f5447162b44702163",
+    "work/r29-closure/harness/combined81/audit_bodies.py": "a7cb5c723d66877dbc670f090bcd969e360d0882e262ccb7bdff0559599e6915",
+    "work/r29-closure/harness/combined81/summarize.py": "250257dbbab5d0f238d0dfa4afa04ff5e5817327d20519d3a2b0c97e343f440f",
+    "work/r29-closure/harness/combined81/freeze_replay.py": "01ec27376aaeec3b2ca70ebce3ecbc8edd008b0a9c7c1b40953ff4f53ba7491f",
+    "work/r29-closure/harness/combined81/reproduce.py": "38893e5b97a4eb725b1b5df03b6c6ea3d90f9acb726acb1a0c6c076abfc5c587"
+  },
+  "selection_sha256": "2ae5396ed3840d8202c7660ce1f805f335a5aecfa0e7bede06a1f2720fd7f340",
+  "notes": [
+    "Use reproduce.py to write to the sibling combined81-rerun directory; frozen evidence is not overwritten.",
+    "The parallel discovery scheduler is intentionally not the deterministic replay entry point. Every replay uses the recorded exact seed, target and iteration budget.",
+    "Floating point libraries and hardware must match for bitwise behavior; acceptance comparisons use geometry tolerances, not JSON byte identity.",
+    "Archived revisions include a robustness fix for empty failed route sets and the explicit seed argument. These changes do not alter the bending objective or successful-route constraints."
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "status": "R29_10DEG_BOSS_GEOMETRY_MEASURED_LOAD_UNQUALIFIED",
+  "old_shell_sha256": "c48ff4dbdb8a015155e4bb6684340ec24e82215bce7b90e699543f9cb9e22251",
+  "new_shell_sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+  "print_master_sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+  "original_mass_g": 77.67300530401066,
+  "new_mass_g": 77.335314191052,
+  "manufacturing_master_readback": [
+    {
+      "file": "R29_lower_head_shell_mouth_10deg_3mm.ply",
+      "sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+      "vertex_error_mm": 0.0,
+      "volume_error_mm3": 0.0,
+      "indexed_faces_identical": true,
+      "watertight": true,
+      "single_body": true
+    },
+    {
+      "file": "R29_lower_head_shell_mouth_10deg_3mm.3mf",
+      "sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+      "vertex_error_mm": 0.0,
+      "volume_error_mm3": 0.0,
+      "indexed_faces_identical": true,
+      "watertight": true,
+      "single_body": true
+    }
+  ],
+  "mounts": [
+    {
+      "center_xy_mm": [
+        -60,
+        -60
+      ],
+      "height_mm": [
+        207,
+        227
+      ],
+      "support": {
+        "radius_4_mm": {
+          "old_mm3": 453.71359663290553,
+          "new_mm3": 453.71359663290553,
+          "retained_percent": 100.0
+        },
+        "radius_6_mm": {
+          "old_mm3": 702.1824633862625,
+          "new_mm3": 702.1824633862625,
+          "retained_percent": 100.0
+        },
+        "radius_10_mm": {
+          "old_mm3": 759.4585981222825,
+          "new_mm3": 759.4585981222825,
+          "retained_percent": 100.0
+        }
+      }
+    },
+    {
+      "center_xy_mm": [
+        -60,
+        60
+      ],
+      "height_mm": [
+        207,
+        227
+      ],
+      "support": {
+        "radius_4_mm": {
+          "old_mm3": 453.7135966329054,
+          "new_mm3": 453.7135966329054,
+          "retained_percent": 100.0
+        },
+        "radius_6_mm": {
+          "old_mm3": 702.1824583077346,
+          "new_mm3": 702.1824583077346,
+          "retained_percent": 100.00000000000001
+        },
+        "radius_10_mm": {
+          "old_mm3": 759.4278193085576,
+          "new_mm3": 759.4278193085576,
+          "retained_percent": 100.0
+        }
+      }
+    },
+    {
+      "center_xy_mm": [
+        55,
+        -60
+      ],
+      "height_mm": [
+        207,
+        227
+      ],
+      "support": {
+        "radius_4_mm": {
+          "old_mm3": 443.2958786433239,
+          "new_mm3": 443.2958786433239,
+          "retained_percent": 100.0
+        },
+        "radius_6_mm": {
+          "old_mm3": 655.8101772619148,
+          "new_mm3": 655.8101772619148,
+          "retained_percent": 100.0
+        },
+        "radius_10_mm": {
+          "old_mm3": 724.8062603104926,
+          "new_mm3": 724.805035306898,
+          "retained_percent": 99.99983098882258
+        }
+      }
+    },
+    {
+      "center_xy_mm": [
+        55,
+        60
+      ],
+      "height_mm": [
+        207,
+        227
+      ],
+      "support": {
+        "radius_4_mm": {
+          "old_mm3": 453.71359663290553,
+          "new_mm3": 450.5823953973057,
+          "retained_percent": 99.30987273495062
+        },
+        "radius_6_mm": {
+          "old_mm3": 704.7586293719652,
+          "new_mm3": 669.3940285325128,
+          "retained_percent": 94.98202655979297
+        },
+        "radius_10_mm": {
+          "old_mm3": 764.7870085308369,
+          "new_mm3": 723.7909954995147,
+          "retained_percent": 94.63955159096177
+        }
+      }
+    }
+  ],
+  "boss_section": [
+    {
+      "z_mm": 212.5,
+      "old_outer_boundary_min_radius_mm": 4.794219375458207,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1942193754582067,
+      "new_outer_boundary_min_radius_mm": 3.7117533625443664,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.1117533625443663
+    },
+    {
+      "z_mm": 212.75,
+      "old_outer_boundary_min_radius_mm": 4.794217426135809,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.194217426135809,
+      "new_outer_boundary_min_radius_mm": 3.709026806853728,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.109026806853728
+    },
+    {
+      "z_mm": 213.0,
+      "old_outer_boundary_min_radius_mm": 4.794217883697275,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.194217883697275,
+      "new_outer_boundary_min_radius_mm": 3.706942902483588,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.106942902483588
+    },
+    {
+      "z_mm": 213.25,
+      "old_outer_boundary_min_radius_mm": 4.794225298797141,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1942252987971407,
+      "new_outer_boundary_min_radius_mm": 3.704812630659534,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.104812630659534
+    },
+    {
+      "z_mm": 213.5,
+      "old_outer_boundary_min_radius_mm": 4.156230451874731,
+      "old_radial_ligament_from_1p6mm_bore_mm": 2.556230451874731,
+      "new_outer_boundary_min_radius_mm": 3.2887584940507875,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.6887584940507874
+    },
+    {
+      "z_mm": 213.75,
+      "old_outer_boundary_min_radius_mm": 3.7162430579527057,
+      "old_radial_ligament_from_1p6mm_bore_mm": 2.1162430579527056,
+      "new_outer_boundary_min_radius_mm": 3.015420011915004,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.4154200119150038
+    },
+    {
+      "z_mm": 214.0,
+      "old_outer_boundary_min_radius_mm": 3.3467203373731538,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.7467203373731537,
+      "new_outer_boundary_min_radius_mm": 3.3467203373731538,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.7467203373731537
+    },
+    {
+      "z_mm": 214.25,
+      "old_outer_boundary_min_radius_mm": 3.073186493121918,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.473186493121918,
+      "new_outer_boundary_min_radius_mm": 3.073186493121918,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.473186493121918
+    },
+    {
+      "z_mm": 214.5,
+      "old_outer_boundary_min_radius_mm": 2.922717413733566,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.322717413733566,
+      "new_outer_boundary_min_radius_mm": 2.922717413733566,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.322717413733566
+    },
+    {
+      "z_mm": 214.75,
+      "old_outer_boundary_min_radius_mm": 2.9001399700022503,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.3001399700022502,
+      "new_outer_boundary_min_radius_mm": 2.9031700622664225,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.3031700622664224
+    },
+    {
+      "z_mm": 215.0,
+      "old_outer_boundary_min_radius_mm": 2.966599507918472,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.366599507918472,
+      "new_outer_boundary_min_radius_mm": 2.9108793848757952,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.3108793848757951
+    },
+    {
+      "z_mm": 215.25,
+      "old_outer_boundary_min_radius_mm": 3.1693023032323864,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.5693023032323863,
+      "new_outer_boundary_min_radius_mm": 2.904222935509284,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.304222935509284
+    },
+    {
+      "z_mm": 215.5,
+      "old_outer_boundary_min_radius_mm": 3.484552366126905,
+      "old_radial_ligament_from_1p6mm_bore_mm": 1.884552366126905,
+      "new_outer_boundary_min_radius_mm": 2.971369543666905,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.3713695436669049
+    },
+    {
+      "z_mm": 215.75,
+      "old_outer_boundary_min_radius_mm": 3.885047869640948,
+      "old_radial_ligament_from_1p6mm_bore_mm": 2.2850478696409477,
+      "new_outer_boundary_min_radius_mm": 3.4323092885561595,
+      "new_radial_ligament_from_1p6mm_bore_mm": 1.8323092885561594
+    },
+    {
+      "z_mm": 216.0,
+      "old_outer_boundary_min_radius_mm": 4.347292532213264,
+      "old_radial_ligament_from_1p6mm_bore_mm": 2.747292532213264,
+      "new_outer_boundary_min_radius_mm": 3.744835452257968,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.144835452257968
+    },
+    {
+      "z_mm": 216.25,
+      "old_outer_boundary_min_radius_mm": 4.79438163179827,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.19438163179827,
+      "new_outer_boundary_min_radius_mm": 3.754074340360926,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.1540743403609257
+    },
+    {
+      "z_mm": 216.5,
+      "old_outer_boundary_min_radius_mm": 4.7942390100731584,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1942390100731584,
+      "new_outer_boundary_min_radius_mm": 3.7631311815490696,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.1631311815490695
+    },
+    {
+      "z_mm": 216.75,
+      "old_outer_boundary_min_radius_mm": 4.7942271268013394,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1942271268013394,
+      "new_outer_boundary_min_radius_mm": 3.773315666837136,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.173315666837136
+    },
+    {
+      "z_mm": 217.0,
+      "old_outer_boundary_min_radius_mm": 4.7943459829549395,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1943459829549394,
+      "new_outer_boundary_min_radius_mm": 3.785177325730801,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.185177325730801
+    },
+    {
+      "z_mm": 217.25,
+      "old_outer_boundary_min_radius_mm": 4.794464255700284,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1944642557002836,
+      "new_outer_boundary_min_radius_mm": 3.7985097704543254,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.1985097704543253
+    },
+    {
+      "z_mm": 217.5,
+      "old_outer_boundary_min_radius_mm": 4.794223625232799,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.1942236252327993,
+      "new_outer_boundary_min_radius_mm": 3.8120208376176716,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.2120208376176715
+    },
+    {
+      "z_mm": 217.75,
+      "old_outer_boundary_min_radius_mm": 4.794326742184653,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.194326742184653,
+      "new_outer_boundary_min_radius_mm": 3.826345651531203,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.226345651531203
+    },
+    {
+      "z_mm": 218.0,
+      "old_outer_boundary_min_radius_mm": 4.794773730411128,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.194773730411128,
+      "new_outer_boundary_min_radius_mm": 3.8411882385788823,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.241188238578882
+    },
+    {
+      "z_mm": 218.25,
+      "old_outer_boundary_min_radius_mm": 4.795564542419174,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.195564542419174,
+      "new_outer_boundary_min_radius_mm": 3.8566799373352016,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.2566799373352016
+    },
+    {
+      "z_mm": 218.5,
+      "old_outer_boundary_min_radius_mm": 4.796699008154378,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.196699008154378,
+      "new_outer_boundary_min_radius_mm": 3.873789431979881,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.273789431979881
+    },
+    {
+      "z_mm": 218.75,
+      "old_outer_boundary_min_radius_mm": 4.798176883859541,
+      "old_radial_ligament_from_1p6mm_bore_mm": 3.198176883859541,
+      "new_outer_boundary_min_radius_mm": 3.8924345797145072,
+      "new_radial_ligament_from_1p6mm_bore_mm": 2.292434579714507
+    }
+  ],
+  "old_min_radial_ligament_mm": 1.3001399700022502,
+  "new_min_radial_ligament_mm": 1.3031700622664224,
+  "mouth_hard_stop_named_parts": [],
+  "has_verified_hard_stop": false,
+  "stud_strength_approved": false,
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

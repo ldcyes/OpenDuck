@@ -8,14 +8,15 @@ HEAD_DEGREES=((-20.,5.),(-15.,15.),(-15.,15.),(-8.,8.))
 HEAD_RANGES=tuple(tuple(math.radians(x) for x in pair) for pair in HEAD_DEGREES)
 # Absolute magnitudes retained only for symmetric non-head sampling helpers.
 HEAD_CAPS=tuple(max(abs(lo),abs(hi)) for lo,hi in HEAD_RANGES)
-MOUTH_MAX=math.radians(12.)
+MOUTH_MAX=math.radians(10.)
+DEFAULT_MOUTH_OPEN_RAD=math.radians(8.)
 MOUTH_STRUCTURAL_TORQUE_NM=.05
 INTENT_LIMITS={'vx':.15,'vy':.10,'yaw':.5,'head':HEAD_RANGES,'body':(.03,.15,.15),'mouth':MOUTH_MAX}
 COMMAND_CAPS=(.15,.10,.5)+HEAD_CAPS+(0.,0.,.03,.15,.15,0.)
 COMMAND_RANGES=tuple((-x,x) for x in COMMAND_CAPS[:3])+HEAD_RANGES+tuple((-x,x) for x in COMMAND_CAPS[7:])
 SUPPORT_CONTEXT_CONTRACT={'default':'head_home_locked','stable_s':.5,'sample_max_age_s':.1,'sample_max_gap_s':.1,'position_tolerance_rad':math.radians(.5),'velocity_tolerance_rad_s':.03,'supported_gyro_max_rad_s':.05,'supported_tilt_max_deg':5.,'supported_contact_automatically_proven':False}
-CONTRACT={'support_context':SUPPORT_CONTEXT_CONTRACT,'revision':'R8-V11-head-envelope-provisional-20260906-3','head_names':HEAD_NAMES,'head_delta_degrees':HEAD_DEGREES,
- 'mouth_absolute_degrees':(0.,12.),'mouth_structural_torque_limit_Nm':MOUTH_STRUCTURAL_TORQUE_NM,'mouth_load_acceptance_required':True,'head_reference':'measured_home_rad','command_ranges':COMMAND_RANGES,'geometry_basis':'V11 synchronized head envelope; final skin recheck pending',
+CONTRACT={'support_context':SUPPORT_CONTEXT_CONTRACT,'revision':'R8-R29-mouth-10deg-provisional-20260928-1','head_names':HEAD_NAMES,'head_delta_degrees':HEAD_DEGREES,
+ 'mouth_absolute_degrees':(0.,10.),'mouth_audio_default_open_degrees':8.,'mouth_structural_torque_limit_Nm':MOUTH_STRUCTURAL_TORQUE_NM,'mouth_load_acceptance_required':True,'head_reference':'measured_home_rad','command_ranges':COMMAND_RANGES,'geometry_basis':'V11 synchronized head envelope; R29 CAD mouth ceiling 10deg; physical sweep pending',
  'physical_sweep_approved':False,'single_support_dynamic_approved':False}
 def limits_sha256():return hashlib.sha256(json.dumps(CONTRACT,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 def valid_number(x):return not isinstance(x,bool) and isinstance(x,(int,float)) and math.isfinite(x)
@@ -34,7 +35,7 @@ def validate_joint_range(j):
         lo,hi=HEAD_RANGES[HEAD_NAMES.index(name)]
         if j['min_rad']<j['home_rad']+lo-1e-12 or j['max_rad']>j['home_rad']+hi+1e-12:raise ValueError(name+': measured range exceeds head contract')
     elif name=='mouth':
-        if j['home_rad']!=0 or j['min_rad']!=0 or not 0<j['max_rad']<=MOUTH_MAX:raise ValueError('mouth requires closed zero and range inside0..12degrees')
+        if j['home_rad']!=0 or j['min_rad']!=0 or not 0<j['max_rad']<=MOUTH_MAX:raise ValueError('mouth requires closed zero and range inside0..10degrees')
 
 
 def validate_mouth_acceptance(d):

@@ -1,0 +1,271 @@
+{
+  "status": "CONDITIONAL_ANALYTICAL_SPRING_TORQUE_FEASIBILITY_ONLY",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "active_runtime_guard_Nm": 0.05,
+  "spring_design_assumption": {
+    "springs": 2,
+    "wire_diameter_mm": 0.7,
+    "mean_coil_diameter_mm": 11.5,
+    "active_turns_each": 3,
+    "assumed_elastic_modulus_N_mm2": 200000.0,
+    "pair_closing_preload_at_0deg_Nm": 0.02,
+    "pair_stiffness_Nm_rad": 0.0434963768115942,
+    "passive_torque_formula": "-0.020 - stiffness_Nm_rad * q_rad",
+    "vendor_rate_formula": "single spring M_per_rad_Nmm = E_N_mm2 * d_mm^4 / (64 * D_mm * n)",
+    "manufacturer_handbook_url": "https://www.federnshop.com/download/pdf/Gutekunst-Federn-1x1-2013-E.pdf",
+    "manufacturer_handbook_section": "Gutekunst Metal Springs 1x1, section 1.4.4, PDF pages 20-21",
+    "CAD_anchors_rated_material_stress_fatigue_unverified": true
+  },
+  "four_frozen_trace_analytical_subtractions": [
+    {
+      "case": "R29_final_nominal",
+      "motor_peak_all_integration_steps_without_spring_Nm": 0.0587599716194223,
+      "motor_RMS_all_integration_steps_without_spring_Nm": 0.056671777223260014,
+      "saved_samples": 9774,
+      "saved_sample_signed_torque_without_spring_range_Nm": [
+        -0.058344437402824086,
+        -0.055035782167139564
+      ],
+      "saved_sample_signed_torque_with_hypothetical_spring_range_Nm": [
+        -0.038344395421801514,
+        -0.035037048857494243
+      ],
+      "saved_sample_peak_absolute_with_spring_Nm": 0.038344395421801514,
+      "saved_samples_exceeding_0p05_with_spring": 0,
+      "saved_sample_over_limit_duration_s": 0.0,
+      "saved_sample_mouth_angle_range_deg": [
+        -0.0016685530288498398,
+        0.0029462472436046694
+      ],
+      "all_integration_step_mouth_angle_bound_deg": [
+        -0.0040340729870969975,
+        0.002970794215803238
+      ],
+      "minimum_spring_assist_in_all_integration_states_Nm": 0.019996937513369686,
+      "maximum_spring_assist_in_all_integration_states_Nm": 0.0200022552932474
+    },
+    {
+      "case": "R29_final_halfdt",
+      "motor_peak_all_integration_steps_without_spring_Nm": 0.058369617821716305,
+      "motor_RMS_all_integration_steps_without_spring_Nm": 0.05667185327981672,
+      "saved_samples": 9774,
+      "saved_sample_signed_torque_without_spring_range_Nm": [
+        -0.05834482590979419,
+        -0.05519340491396249
+      ],
+      "saved_sample_signed_torque_with_hypothetical_spring_range_Nm": [
+        -0.038344781306830444,
+        -0.03519371231269576
+      ],
+      "saved_sample_peak_absolute_with_spring_Nm": 0.038344781306830444,
+      "saved_samples_exceeding_0p05_with_spring": 0,
+      "saved_sample_over_limit_duration_s": 0.0,
+      "saved_sample_mouth_angle_range_deg": [
+        -0.0006156564955449585,
+        0.0010699063873955514
+      ],
+      "all_integration_step_mouth_angle_bound_deg": [
+        -0.0023782294786835762,
+        0.0013455633394775612
+      ],
+      "minimum_spring_assist_in_all_integration_states_Nm": 0.01999819455522853,
+      "maximum_spring_assist_in_all_integration_states_Nm": 0.0200010214911209
+    },
+    {
+      "case": "R29_final_friction05",
+      "motor_peak_all_integration_steps_without_spring_Nm": 0.05876115231584855,
+      "motor_RMS_all_integration_steps_without_spring_Nm": 0.05667177152719193,
+      "saved_samples": 9774,
+      "saved_sample_signed_torque_without_spring_range_Nm": [
+        -0.058347934306420164,
+        -0.05503471365179837
+      ],
+      "saved_sample_signed_torque_with_hypothetical_spring_range_Nm": [
+        -0.03834787029114886,
+        -0.035035982341805154
+      ],
+      "saved_sample_peak_absolute_with_spring_Nm": 0.03834787029114886,
+      "saved_samples_exceeding_0p05_with_spring": 0,
+      "saved_sample_over_limit_duration_s": 0.0,
+      "saved_sample_mouth_angle_range_deg": [
+        -0.0016711870787286644,
+        0.0029504221224814515
+      ],
+      "all_integration_step_mouth_angle_bound_deg": [
+        -0.004027560568946502,
+        0.0029745746883399035
+      ],
+      "minimum_spring_assist_in_all_integration_states_Nm": 0.01999694245730441,
+      "maximum_spring_assist_in_all_integration_states_Nm": 0.02000225816321198
+    },
+    {
+      "case": "R29_final_contact9",
+      "motor_peak_all_integration_steps_without_spring_Nm": 0.0592504966419347,
+      "motor_RMS_all_integration_steps_without_spring_Nm": 0.05667492116048779,
+      "saved_samples": 9774,
+      "saved_sample_signed_torque_without_spring_range_Nm": [
+        -0.058340229630162756,
+        -0.05471740554573546
+      ],
+      "saved_sample_signed_torque_with_hypothetical_spring_range_Nm": [
+        -0.03834019956130593,
+        -0.03471962044587622
+      ],
+      "saved_sample_peak_absolute_with_spring_Nm": 0.03834019956130593,
+      "saved_samples_exceeding_0p05_with_spring": 0,
+      "saved_sample_over_limit_duration_s": 0.0,
+      "saved_sample_mouth_angle_range_deg": [
+        -0.0029175862315584103,
+        0.003640351683331301
+      ],
+      "all_integration_step_mouth_angle_bound_deg": [
+        -0.0031100411071451253,
+        0.0037934290967743104
+      ],
+      "minimum_spring_assist_in_all_integration_states_Nm": 0.01999763899678047,
+      "maximum_spring_assist_in_all_integration_states_Nm": 0.020002879800620633
+    }
+  ],
+  "static_gravity_curve_head_HOME": [
+    {
+      "mouth_open_deg": 0,
+      "motor_static_without_spring_Nm": -0.05611857431351044,
+      "spring_closing_torque_Nm": -0.02,
+      "motor_static_with_spring_Nm": -0.03611857431351044
+    },
+    {
+      "mouth_open_deg": 1,
+      "motor_static_without_spring_Nm": -0.05577996699061488,
+      "spring_closing_torque_Nm": -0.02075915498805043,
+      "motor_static_with_spring_Nm": -0.03502081200256445
+    },
+    {
+      "mouth_open_deg": 2,
+      "motor_static_without_spring_Nm": -0.05542436854942135,
+      "spring_closing_torque_Nm": -0.021518309976100866,
+      "motor_static_with_spring_Nm": -0.033906058573320484
+    },
+    {
+      "mouth_open_deg": 3,
+      "motor_static_without_spring_Nm": -0.0550518873086597,
+      "spring_closing_torque_Nm": -0.022277464964151297,
+      "motor_static_with_spring_Nm": -0.032774422344508405
+    },
+    {
+      "mouth_open_deg": 4,
+      "motor_static_without_spring_Nm": -0.05466263672972426,
+      "spring_closing_torque_Nm": -0.02303661995220173,
+      "motor_static_with_spring_Nm": -0.03162601677752253
+    },
+    {
+      "mouth_open_deg": 5,
+      "motor_static_without_spring_Nm": -0.05425673538211209,
+      "spring_closing_torque_Nm": -0.02379577494025216,
+      "motor_static_with_spring_Nm": -0.030460960441859933
+    },
+    {
+      "mouth_open_deg": 6,
+      "motor_static_without_spring_Nm": -0.0538343069073057,
+      "spring_closing_torque_Nm": -0.02455492992830259,
+      "motor_static_with_spring_Nm": -0.02927937697900311
+    },
+    {
+      "mouth_open_deg": 7,
+      "motor_static_without_spring_Nm": -0.053395479981110716,
+      "spring_closing_torque_Nm": -0.025314084916353025,
+      "motor_static_with_spring_Nm": -0.02808139506475769
+    },
+    {
+      "mouth_open_deg": 8,
+      "motor_static_without_spring_Nm": -0.05294038827445986,
+      "spring_closing_torque_Nm": -0.026073239904403456,
+      "motor_static_with_spring_Nm": -0.026867148370056406
+    },
+    {
+      "mouth_open_deg": 9,
+      "motor_static_without_spring_Nm": -0.05246917041269557,
+      "spring_closing_torque_Nm": -0.026832394892453888,
+      "motor_static_with_spring_Nm": -0.02563677552024168
+    },
+    {
+      "mouth_open_deg": 10,
+      "motor_static_without_spring_Nm": -0.0519819699333433,
+      "spring_closing_torque_Nm": -0.027591549880504322,
+      "motor_static_with_spring_Nm": -0.02439042005283898
+    }
+  ],
+  "adverse_static_grid": {
+    "head_ranges_deg": {
+      "neck_pitch": [
+        -20.0,
+        0.0,
+        5.0
+      ],
+      "head_pitch": [
+        -15.0,
+        0.0,
+        15.0
+      ],
+      "head_yaw": [
+        -15.0,
+        0.0,
+        15.0
+      ],
+      "head_roll": [
+        -8.0,
+        0.0,
+        8.0
+      ]
+    },
+    "base_roll_samples_deg": [
+      -18.3,
+      0,
+      18.3
+    ],
+    "mouth_samples_deg": [
+      0,
+      2,
+      5,
+      8,
+      10
+    ],
+    "grid_samples": 1215,
+    "worst_residual_pose": {
+      "base_roll_deg": 0.0,
+      "neck_pitch_deg": 5.0,
+      "head_pitch_deg": -15.0,
+      "head_yaw_deg": 0.0,
+      "head_roll_deg": 0.0,
+      "mouth_open_deg": 0.0,
+      "motor_static_without_spring_Nm": -0.05920250064196533,
+      "motor_static_with_spring_Nm": -0.03920250064196533
+    },
+    "maximum_absolute_static_motor_torque_with_spring_Nm": 0.03920250064196533
+  },
+  "limitations": [
+    "Analytical subtraction uses preexisting no-spring motor-torque samples; it is not a new integrated controller run.",
+    "Saved actuator torques are sampled every 20 ms, so full integration-step spring-compensated peaks remain unproved.",
+    "Finite static head/body-roll grid does not prove the continuous combined-pose envelope or dynamic head/mouth motion.",
+    "The spring has no frozen CAD anchors, spring-leg clearance, manufacturer-rated preload, material stress, or fatigue evidence yet.",
+    "Original R29 no-spring blocked status and 0.05 Nm active software guard remain unchanged."
+  ],
+  "sources": {
+    "work/r29-spring-study/analyze_analytical.py": "91f71e1c3d5dcea88a8ccd51f5149949b4eb1c933b08890efc6211d85b989be4",
+    "work/openduck-publish/repository/software/r8/rk_runtime/microduck_rk/motion_limits.py": "efafe0f60c993b5e46346227dc672807d8d9b44c0eed329119045ad05fce1527",
+    "work/r29-r26-dynamics/current_robot_r26_mouth10_films_contact4.xml": "09d16308606b41d43e31eb59a1902edda54dfe671d42e2c3bf3536c6a9f24829",
+    "work/r29-r26-dynamics/model_contract_r26_mouth10_films_contact4.json": "3ef292b08949d3daf64df143b09602ad53250e876430226d11fc1056f6f65963",
+    "work/r29-r26-dynamics/R29_final_nominal/trajectory.json": "157134c9f1e13297653a5de3c84d1df64c1fcc9375ae080dafd53736757dff2a",
+    "work/r29-r26-dynamics/R29_final_nominal/report.json": "a7bcf9d0db57eea3a074d6cc0a0a2b16a38894cb06ca6aee250435176bdf215c",
+    "work/r29-r26-dynamics/R29_final_nominal/interval_joint_bounds.json": "352bc031ce1513e0e9e5aca4c24143188501d66fd269a0b7643f8352a3e65a94",
+    "work/r29-r26-dynamics/R29_final_halfdt/trajectory.json": "f5a23ca102da9ca45ecfd9bbd1b57cbf085afeba4894e9916455f76482d41096",
+    "work/r29-r26-dynamics/R29_final_halfdt/report.json": "5bf1413520e624fdba16235b6247fe6f172d1f0adcd61c67cda1256a2993f711",
+    "work/r29-r26-dynamics/R29_final_halfdt/interval_joint_bounds.json": "29e61527676323b6d5c08eed1984338bf5454cef79d77433bbde0ef651246f94",
+    "work/r29-r26-dynamics/R29_final_friction05/trajectory.json": "c38ac3150c4d25d9a7015f8f3282c61c51bdf8ab72eff6ea3aba466a7af8a926",
+    "work/r29-r26-dynamics/R29_final_friction05/report.json": "3d271b9014d7c6fb90af6a096800acf49f1cc09f2b019b8e8b2e29abb69d03e3",
+    "work/r29-r26-dynamics/R29_final_friction05/interval_joint_bounds.json": "e2fa528a06e85a529656387a592aff06ec5e52b45512574ba6d576f56fc79423",
+    "work/r29-r26-dynamics/R29_final_contact9/trajectory.json": "0bff8a109ecb65bf226df0d66ac8c4a987d2d78dfe89cb3517407a0720eb6635",
+    "work/r29-r26-dynamics/R29_final_contact9/report.json": "96adf4060c17b3685b6f1023c8dbbc5de34878ca16f569bb89c544391a4a47c5",
+    "work/r29-r26-dynamics/R29_final_contact9/interval_joint_bounds.json": "cd42e340364c5e2aca9f66e67c6f672833cddfc352b07449e6aab999e0cd0b58"
+  }
+}

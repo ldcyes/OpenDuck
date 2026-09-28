@@ -1,0 +1,179 @@
+{
+  "status": "NUMERIC_WALK_PASSES_FROZEN_THRESHOLDS_BUT_MOTOR_DESIGN_MARGIN_BELOW_15_PERCENT",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "case": "R29_final_contact9",
+  "mass_kg": 4.442728967589001,
+  "mass_increase_vs_R21_kg": 0.24763541731947214,
+  "duration_s": 195.4417499971064,
+  "completed_full_duration": true,
+  "frozen_acceptance_status": "SIMULATION_THRESHOLDS_MET",
+  "frozen_acceptance_checks": {
+    "completed_requested_duration": true,
+    "root_orientation_tracking": true,
+    "joint_tracking": true,
+    "saturation_duration": true,
+    "torque_caps_preserved": true,
+    "stance_slip": true,
+    "two_forward_steps_each": true,
+    "net_forward_each_foot": true,
+    "swing_clearance": true,
+    "numerical_interval_coverage": true
+  },
+  "actual_loaded_contact_groups_within_3mm": true,
+  "actual_loaded_contact_max_slip_mm": {
+    "ankle_left": 0.575815237123426,
+    "ankle_right": 0.29482718192475255
+  },
+  "root_orientation_reference_error_deg": 0.4366924902444906,
+  "max_joint_tracking_error_deg": 0.16411410853297861,
+  "roll_peak_to_peak_deg": 33.3009279587739,
+  "R21_roll_peak_to_peak_deg": 33.36921708047582,
+  "root_Y_peak_to_peak_mm": 23.30289312478026,
+  "motor_peak": [
+    {
+      "joint": "right_hip_roll",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.8388997451028803,
+      "RMS_Nm": 0.4876230949954021,
+      "peak_fraction_of_unmeasured_cap": 0.9321108278920892,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "left_hip_roll",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.8344804198715856,
+      "RMS_Nm": 0.4525291020746778,
+      "peak_fraction_of_unmeasured_cap": 0.927200466523984,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "right_knee",
+      "engineering_cap_Nm": 1.35,
+      "peak_Nm": 1.22889278595437,
+      "RMS_Nm": 0.7541322670800602,
+      "peak_fraction_of_unmeasured_cap": 0.9102909525587924,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "left_hip_pitch",
+      "engineering_cap_Nm": 1.35,
+      "peak_Nm": 1.223156640528058,
+      "RMS_Nm": 0.5422665456961493,
+      "peak_fraction_of_unmeasured_cap": 0.9060419559467097,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "right_hip_pitch",
+      "engineering_cap_Nm": 1.35,
+      "peak_Nm": 1.1415480805195313,
+      "RMS_Nm": 0.5128025145282651,
+      "peak_fraction_of_unmeasured_cap": 0.8455911707552083,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "left_ankle",
+      "engineering_cap_Nm": 1.0,
+      "peak_Nm": 0.8276876707796106,
+      "RMS_Nm": 0.4599034669338684,
+      "peak_fraction_of_unmeasured_cap": 0.8276876707796106,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "right_ankle",
+      "engineering_cap_Nm": 1.0,
+      "peak_Nm": 0.822830519246093,
+      "RMS_Nm": 0.44521339363042384,
+      "peak_fraction_of_unmeasured_cap": 0.822830519246093,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "mouth_candidate",
+      "engineering_cap_Nm": 0.08,
+      "peak_Nm": 0.0592504966419347,
+      "RMS_Nm": 0.05667492116048779,
+      "peak_fraction_of_unmeasured_cap": 0.7406312080241837,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "left_knee",
+      "engineering_cap_Nm": 1.35,
+      "peak_Nm": 0.9964505503139698,
+      "RMS_Nm": 0.6640769738737714,
+      "peak_fraction_of_unmeasured_cap": 0.7381115187510887,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "head_yaw",
+      "engineering_cap_Nm": 0.13,
+      "peak_Nm": 0.0792944558015692,
+      "RMS_Nm": 0.04888637788778622,
+      "peak_fraction_of_unmeasured_cap": 0.609957352319763,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "neck_pitch",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.5050556879811906,
+      "RMS_Nm": 0.39755625605175604,
+      "peak_fraction_of_unmeasured_cap": 0.5611729866457673,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "left_hip_yaw",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.42822129746370763,
+      "RMS_Nm": 0.18804647642206843,
+      "peak_fraction_of_unmeasured_cap": 0.4758014416263418,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "right_hip_yaw",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.4032516030276554,
+      "RMS_Nm": 0.1804980741649753,
+      "peak_fraction_of_unmeasured_cap": 0.4480573366973949,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "head_roll",
+      "engineering_cap_Nm": 0.13,
+      "peak_Nm": 0.04173994561995272,
+      "RMS_Nm": 0.024603978755787077,
+      "peak_fraction_of_unmeasured_cap": 0.32107650476886707,
+      "max_continuous_saturation_s": 0.0
+    },
+    {
+      "joint": "head_pitch",
+      "engineering_cap_Nm": 0.9,
+      "peak_Nm": 0.28177035053332977,
+      "RMS_Nm": 0.16468513504169138,
+      "peak_fraction_of_unmeasured_cap": 0.3130781672592553,
+      "max_continuous_saturation_s": 0.0
+    }
+  ],
+  "maximum_peak_fraction_of_unmeasured_cap": 0.9321108278920892,
+  "minimum_design_cap_headroom_fraction": 0.06788917210791079,
+  "low_battery_continuous_torque_measured": false,
+  "low_battery_10p30_to_10p35V_40C_7200s_qualification": "NOT_RUN",
+  "limitations": [
+    "R26/R29 mass and body inertias are material-density/purchase estimates; no weighing or motor bench data.",
+    "R25 free harness has a 50/50 trunk/head rigid surrogate; no flexible dynamics.",
+    "R20 contact shape remains frozen; changed R26 skins/head are not contact meshes in MuJoCo.",
+    "Actuator caps are unmeasured engineering targets, not qualified continuous torque at low battery.",
+    "This is a very slow four-step diagnostic, not normal walking-speed or endurance proof.",
+    "No real encoder zero, latency, voltage sag, thermal response, floor variation or structural compliance."
+  ],
+  "sources": {
+    "work/r29-r26-dynamics/mouth10_films_contact9_model_binding.json": "90b54abb80f956a09d892556e63cd628ad6c7109349238acd0ed00b7d73c6130",
+    "work/r29-r26-dynamics/current_robot_r26_mouth10_films_contact9.xml": "2c142a1762926973ea752256a2af088dc28e2b8f0b1091e0f12f15397477b615",
+    "work/r29-r26-dynamics/model_contract_r26_mouth10_films_contact9.json": "70d647aafa2410339fd6a40be0ab42d67eefe5174870cca752b44f448a13ec9e",
+    "work/r29-r26-dynamics/feedforward_R29_final_contact9.json": "f543beef4da71e5cc2dd3d0e54aac0f905b60a5987095dc3db53e69d4cacbe86",
+    "work/r29-r26-dynamics/R29_final_contact9/report.json": "96adf4060c17b3685b6f1023c8dbbc5de34878ca16f569bb89c544391a4a47c5",
+    "work/r29-r26-dynamics/R29_final_contact9/trajectory.json": "0bff8a109ecb65bf226df0d66ac8c4a987d2d78dfe89cb3517407a0720eb6635",
+    "work/r29-r26-dynamics/R29_final_contact9/acceptance.json": "1aadbf4577481af44d4e66cbf2183cc126c69dbe19ea20c94f691fdfbd2788ba",
+    "work/r29-r26-dynamics/R29_final_contact9/actual_contact_supplement.json": "6f5e059dcd2ce85921df1376e5bfc39532f31eaa886f1f6eab717522ca8af933",
+    "work/r29-r26-dynamics/analyze_r26.py": "dfea0cf2318755dba348bda605e2f924462f184b76e7f839a5fc15a0dcc37e21",
+    "work/r20-walking-fix/dynamics/acceptance_criteria.json": "40c0635714c37afed95456e3ccadd26dff92b0253b09b70815fd940d9ba4ab73"
+  }
+}

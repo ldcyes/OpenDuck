@@ -1,0 +1,35 @@
+{
+  "status": "R29_PEEK_EXIT_LIP_9_POSE_WIRE_SCREEN_NO_POSITIVE_VOLUME_OVERLAP",
+  "all_wire_film_pose_pairs": 1116,
+  "native_near_pairs": 610,
+  "minimum_gap": {
+    "case_index": 16,
+    "film": "R29_neck_lower_P5_PEEK_exit_lip",
+    "wire": "P5",
+    "gap_mm": 0.1109999999983396,
+    "common_mm3": 0.0,
+    "nominal_mating_wire": true
+  },
+  "positive_volume_overlap_count": 0,
+  "positive_volume_overlaps": [],
+  "source_sha256": {
+    "work/r29-closure/harness/wear_lip_manifest.json": "db48ea765e74787b3eb5fcfde1861c7810224272f9884e1b80c5faa69711c299",
+    "work/r26-cover-first/assembly_selection.json": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01.json": "d88d109356029233ac49742d79cef21d7b2abc9f9539507f48adfb8bf0cf0d6f",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16.json": "4ee0eab24ca425a3aca40f46cee909c9aacf901c571bf2ff2090a7a16490fb16",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17.json": "829116869de07ed247e3f126f2787a7ae7d93cd3afd11225d123a29933cd8265",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_18.json": "750a6f2c92652c4e18b9fe79e222aee416f079dfdb4c3804107fc95ad53235a4"
+  },
+  "limits": [
+    "Nine independently fitted static wire poses only; no elastic continuous path.",
+    "AABB screen includes each maximum wire OD and a conservative 0.25 mm arc-sampling travel margin.",
+    "No other-body, guide-retention, film creep, abrasion or as-built tolerance approval."
+  ],
+  "manufacturing_approved": false,
+  "physical_approved": false
+}

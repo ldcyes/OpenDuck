@@ -1,0 +1,15 @@
+{
+  "status": "NORMALIZED_BENDING_INTEGRAL_AND_GRADIENT_CHECK_PASS",
+  "analytic_control_energy_per_mm": 9.205130637883666,
+  "independent_segment_integral_per_mm": 9.205130637883666,
+  "energy_error": 0.0,
+  "analytic_gradient": 0.0029593384872555716,
+  "finite_difference_gradient": 0.002959338463170979,
+  "gradient_error": 2.4084592393364135e-11,
+  "finite_gradient": true,
+  "physical_equilibrium_claim": false,
+  "source_hashes": {
+    "work/r29-closure/harness/combined81/refine_bending.py": "38e4ed69a0b2b9196617c1e17d9fe51101d65c150129c0ba613ab80f7d2a32d6",
+    "work/r29-closure/harness/combined81/cases/case_00.json": "5a216219af549be68280e2fc3b2d258ef0d9b6c1d5be28cd1f05c5d63d349b70"
+  }
+}

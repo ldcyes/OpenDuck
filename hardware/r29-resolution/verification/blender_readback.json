@@ -1,0 +1,116 @@
+{
+  "status": "R29_BLENDER_READBACK_PASS",
+  "blend_sha256": "22d6583047ba8b6fe08b6a8743c55f3271abf48be50d800b43a171a4efd662df",
+  "selection_sha256": "2ae5396ed3840d8202c7660ce1f805f335a5aecfa0e7bede06a1f2720fd7f340",
+  "trace_sha256": "18c88537f29bdc1f58752ca969612dc5b06b51fd656afd9e1129b2e5d231e0c5",
+  "installed_part_count": 1224,
+  "joint_count": 15,
+  "changed_geometry": {
+    "R29_neck_upper_P5_PEEK_exit_lip": {
+      "source_sha256": "f4bb97ef85aee8333ee0fd0493a7ab9c723fd040b3b7412d82812c559e178de0",
+      "bounds_mm": [
+        [
+          7.75,
+          -68.0,
+          196.5
+        ],
+        [
+          10.25,
+          -66.75,
+          210.0
+        ]
+      ],
+      "bound_error_mm": 0.0,
+      "vertices": 172,
+      "faces": 340
+    },
+    "R29_neck_upper_P6_PEEK_exit_lip": {
+      "source_sha256": "102ae7ce3200dfd6e8e17d20d098f3993a595224366c28f38c9e4a9baeb3ec66",
+      "bounds_mm": [
+        [
+          4.75,
+          -68.0,
+          196.5
+        ],
+        [
+          7.25,
+          -66.75,
+          210.0
+        ]
+      ],
+      "bound_error_mm": 0.0,
+      "vertices": 172,
+      "faces": 340
+    },
+    "R29_lower_head_shell_mouth_10deg_3mm": {
+      "source_sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+      "bounds_mm": [
+        [
+          -99.72267150878906,
+          -96.31251525878906,
+          200.89100646972656
+        ],
+        [
+          145.41592407226562,
+          96.31257629394531,
+          230.5
+        ]
+      ],
+      "bound_error_mm": 0.0,
+      "vertices": 14569,
+      "faces": 29226
+    },
+    "R29_neck_lower_P5_PEEK_exit_lip": {
+      "source_sha256": "37331e5b3bc6a33feecff24075d5873f30a5696ab972db81e22655a85a80113e",
+      "bounds_mm": [
+        [
+          41.75,
+          -69.23113250732422,
+          110.40415954589844
+        ],
+        [
+          44.25,
+          -56.98179626464844,
+          118.3653564453125
+        ]
+      ],
+      "bound_error_mm": 0.0,
+      "vertices": 172,
+      "faces": 340
+    },
+    "R29_neck_lower_P6_PEEK_exit_lip": {
+      "source_sha256": "64c7ac21976eea7c9bcdc0a890a85aa36f80209aa7937ceb95d10e1443680f3e",
+      "bounds_mm": [
+        [
+          38.75,
+          -69.23113250732422,
+          110.40415954589844
+        ],
+        [
+          41.25,
+          -56.98179626464844,
+          118.3653564453125
+        ]
+      ],
+      "bound_error_mm": 0.0,
+      "vertices": 172,
+      "faces": 340
+    }
+  },
+  "checked_poses": [
+    {
+      "frame": 1,
+      "root_position_error_m": 0.0,
+      "root_angle_error_rad": 0.0,
+      "worst_joint_error_rad": 1.3914490393229784e-08
+    },
+    {
+      "frame": 7819,
+      "root_position_error_m": 0.0,
+      "root_angle_error_rad": 0.0,
+      "worst_joint_error_rad": 1.3819786759405872e-08
+    }
+  ],
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

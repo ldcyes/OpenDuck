@@ -1,0 +1,324 @@
+{
+  "status": "COMMON_COMPACT_SLEEVE_REQUIRES_FULL_ROUTE_REDESIGN",
+  "source": "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01.json",
+  "source_sha256": "d88d109356029233ac49742d79cef21d7b2abc9f9539507f48adfb8bf0cf0d6f",
+  "section_z_mm": 150.0,
+  "center_to_center_span_lower_mm": 55.160618053356174,
+  "maximum_z_sampling_error_mm": 0.19111297223685142,
+  "comparison_sleeve_nominal_ID_mm": 14.0,
+  "current_route_fits_14mm_common_sleeve": false,
+  "note": "The 55 mm span is a lower bound from one near-plane point per wire; insulation and braid thickness only increase the required bore. No common 14 mm sleeve is selected for R26.",
+  "rows": [
+    {
+      "port": "P1",
+      "xyz_mm": [
+        94.28556746778837,
+        -80.14951918292272,
+        150.0824290369963
+      ],
+      "z_sampling_error_mm": 0.08242903699630233,
+      "outer_diameter_max_mm": 1.778
+    },
+    {
+      "port": "P2",
+      "xyz_mm": [
+        96.36873200606409,
+        -77.75964327455449,
+        149.9803903293761
+      ],
+      "z_sampling_error_mm": 0.019609670623907505,
+      "outer_diameter_max_mm": 1.778
+    },
+    {
+      "port": "P3",
+      "xyz_mm": [
+        93.20916852515276,
+        -70.66444495168801,
+        150.0167016662389
+      ],
+      "z_sampling_error_mm": 0.01670166623890168,
+      "outer_diameter_max_mm": 1.778
+    },
+    {
+      "port": "P4",
+      "xyz_mm": [
+        97.45534173365652,
+        -74.64702983903544,
+        149.87183944831398
+      ],
+      "z_sampling_error_mm": 0.12816055168602247,
+      "outer_diameter_max_mm": 1.778
+    },
+    {
+      "port": "S01",
+      "xyz_mm": [
+        92.42395642603415,
+        -66.31063994101346,
+        149.95844931341819
+      ],
+      "z_sampling_error_mm": 0.04155068658181449,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S02",
+      "xyz_mm": [
+        95.7531065744758,
+        -64.28940869222849,
+        149.9121670394583
+      ],
+      "z_sampling_error_mm": 0.08783296054170364,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S03",
+      "xyz_mm": [
+        100.82987444054868,
+        -68.37231142600254,
+        150.09524882838605
+      ],
+      "z_sampling_error_mm": 0.09524882838604753,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S04",
+      "xyz_mm": [
+        103.32919355251839,
+        -71.14790087608634,
+        150.02651860531645
+      ],
+      "z_sampling_error_mm": 0.026518605316454114,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S05",
+      "xyz_mm": [
+        106.59299794939294,
+        -69.59282407760712,
+        150.07966500194868
+      ],
+      "z_sampling_error_mm": 0.07966500194868331,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S06",
+      "xyz_mm": [
+        93.52998797983894,
+        -65.86686554889917,
+        149.98123296634995
+      ],
+      "z_sampling_error_mm": 0.01876703365005028,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S07",
+      "xyz_mm": [
+        97.4471740413249,
+        -68.58966722512372,
+        149.96563477474365
+      ],
+      "z_sampling_error_mm": 0.03436522525635155,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S08",
+      "xyz_mm": [
+        99.25230999525112,
+        -67.05579273517034,
+        150.08148279271495
+      ],
+      "z_sampling_error_mm": 0.08148279271495085,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S09",
+      "xyz_mm": [
+        103.26428237303907,
+        -68.97922633917085,
+        149.99046673337762
+      ],
+      "z_sampling_error_mm": 0.009533266622383962,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S10",
+      "xyz_mm": [
+        108.76926287841133,
+        -66.59044712076553,
+        150.17752332777636
+      ],
+      "z_sampling_error_mm": 0.17752332777635615,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S11",
+      "xyz_mm": [
+        95.0678205857723,
+        -70.30005044469202,
+        150.04440034882649
+      ],
+      "z_sampling_error_mm": 0.04440034882648547,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S12",
+      "xyz_mm": [
+        96.38311773528257,
+        -66.02033183637019,
+        149.89859905169794
+      ],
+      "z_sampling_error_mm": 0.10140094830205726,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S13",
+      "xyz_mm": [
+        101.41144871798174,
+        -65.08127259888659,
+        150.0343163860883
+      ],
+      "z_sampling_error_mm": 0.03431638608830667,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S14",
+      "xyz_mm": [
+        106.04055204338515,
+        -65.80629477246167,
+        150.1106743641795
+      ],
+      "z_sampling_error_mm": 0.11067436417948784,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S15",
+      "xyz_mm": [
+        110.01119455528935,
+        -63.722844778386815,
+        150.19111297223685
+      ],
+      "z_sampling_error_mm": 0.19111297223685142,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S16",
+      "xyz_mm": [
+        100.36156978544139,
+        -64.31295261904661,
+        150.06428499950124
+      ],
+      "z_sampling_error_mm": 0.06428499950123978,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S17",
+      "xyz_mm": [
+        99.26404078546092,
+        -65.0149173859221,
+        150.01605620179524
+      ],
+      "z_sampling_error_mm": 0.016056201795237257,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S18",
+      "xyz_mm": [
+        103.81880830197973,
+        -66.48790598981302,
+        149.97806305379652
+      ],
+      "z_sampling_error_mm": 0.021936946203481966,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S19",
+      "xyz_mm": [
+        106.78410405561546,
+        -62.86263306901412,
+        150.06769735550074
+      ],
+      "z_sampling_error_mm": 0.06769735550074074,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S20",
+      "xyz_mm": [
+        109.5096897003026,
+        -61.753247473655904,
+        150.08176976288254
+      ],
+      "z_sampling_error_mm": 0.08176976288254423,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S21",
+      "xyz_mm": [
+        98.19798490549422,
+        -64.26255143222852,
+        150.0017639838285
+      ],
+      "z_sampling_error_mm": 0.001763983828510618,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S22",
+      "xyz_mm": [
+        104.05152663933976,
+        -61.12165133701231,
+        149.95168769153096
+      ],
+      "z_sampling_error_mm": 0.048312308469036225,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S23",
+      "xyz_mm": [
+        105.03869099198401,
+        -63.62864753205029,
+        150.1117159775161
+      ],
+      "z_sampling_error_mm": 0.11171597751609852,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S24",
+      "xyz_mm": [
+        107.53426424265335,
+        -58.681419799010655,
+        150.1537000209812
+      ],
+      "z_sampling_error_mm": 0.15370002098120494,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "S25",
+      "xyz_mm": [
+        108.58056046167115,
+        -58.72774265040991,
+        150.06570683102683
+      ],
+      "z_sampling_error_mm": 0.06570683102683006,
+      "outer_diameter_max_mm": 0.7366
+    },
+    {
+      "port": "P5",
+      "xyz_mm": [
+        73.17340016408373,
+        -97.87371344305623,
+        149.98823536931084
+      ],
+      "z_sampling_error_mm": 0.01176463068915723,
+      "outer_diameter_max_mm": 1.778
+    },
+    {
+      "port": "P6",
+      "xyz_mm": [
+        70.16100289771845,
+        -98.30843719482597,
+        149.9761202567113
+      ],
+      "z_sampling_error_mm": 0.02387974328868836,
+      "outer_diameter_max_mm": 1.778
+    }
+  ],
+  "manufacturing_approved": false
+}

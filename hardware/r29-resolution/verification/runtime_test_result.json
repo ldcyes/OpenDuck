@@ -1,0 +1,17 @@
+{
+  "status": "R29_RUNTIME_TESTS_PASS_BUT_PHYSICAL_MOTION_BLOCKED",
+  "command": "python3 -m unittest discover -s tests -q",
+  "test_count": 214,
+  "exit_code": 0,
+  "mouth_limit_deg": 10,
+  "mouth_structural_limit_Nm": 0.05,
+  "motion_contract_sha256": "40f1dbf48a528664247c9a2164a9f43f3f84f87a515d77cf14c095d9aefc706f",
+  "source_sha256": {
+    "software/r8/rk_runtime/microduck_rk/motion_limits.py": "efafe0f60c993b5e46346227dc672807d8d9b44c0eed329119045ad05fce1527",
+    "software/r8/rk_runtime/config/motion_limits.snapshot.json": "6c610dd0ff68dbd222a64acb2df3b1c5712c9d8d62e022f7a9ed85e0d488cef8",
+    "software/r8/rk_runtime/tests/test_limits_r8.py": "4af66dd3e36a0b1f9a54323cb6b2f707af6cd96a64f5021ca1c72534d63b8baf",
+    "software/r8/rk_runtime/tests/test_mouth_load_r8.py": "e1c61348c6a7fb7590b064d91a6f6e4552857cc8082d1e5bcf18ce9b65e31e48"
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

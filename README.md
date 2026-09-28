@@ -4,17 +4,19 @@
 
 本仓库整理 Microduck 的结构、电气、步态数值验证，以及 RK3576 驱动和训练适配源。**当前是工程仿真预发布，尚未通过实物制造与正常步速行走验收。**
 
-![OpenDuck R26 正交正视](hardware/r26-cover-first/images/01-front.jpg)
+![OpenDuck R29 正视运动模型](hardware/r29-resolution/images/R29_walk_frame.png)
 
 ![头部摄像头前盖特写](hardware/r25-bottom-head-entry/images/02-head-camera-cover.png)
 
-**本次更新：[R26 A方案大腿覆盖件](hardware/r26-cover-first/README.md) · [完整Blender与工程下载](https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924)。**
+**本次更新：[R29 干涉、线束与质量重算](hardware/r29-resolution/README.md) · [完整 Blender 与证据下载](https://github.com/ldcyes/OpenDuck/releases/tag/r29-r26-closure-candidate-20260929)。**
+
+R29 将嘴部软件行程收至 0–10° 并修正下头壳；指定腿罩/电机配对在四条新质量慢速轨迹中的最低保守名义间隙下界为 11.407 mm。31 根线的防磨件和四工况动力学已补充，但嘴部闭合扭矩仍超过现行 0.05 Nm 结构限制，连续线束及制造公差尚无实物证明，**不能放行行走**。
 
 沿用R25：31根头部导线改为底部接入，保留前盖与原外形比例；收拢活动线束并取消原侧面专用线孔。[底部走线特写](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png)。仍为工程候选，离散转头检查不代表连续运动或实物验收。
 
-**四步行走模拟：[R27：R26整机运动回放](hardware/r27-walk-replay/README.md)。** 使用已保存的195.44秒实际积分轨迹，逐帧驱动完整R26装配并复核覆盖件的刚体干涉增量；R26质量下的动力学和实物行走仍待验收。
+**历史四步回放：[R27：R26整机运动回放](hardware/r27-walk-replay/README.md)。** 使用已保存的195.44秒实际积分轨迹，逐帧驱动完整R26装配并复核覆盖件的刚体干涉增量；R26质量下的动力学和实物行走仍待验收。
 
-**R26干涉复核：[R28直接区间检查](hardware/r28-r26-interference/README.md)。** 两块新腿罩在四步轨迹的2,345组动态配对中没有新增穿透；最小保守间隙证明仅0.015 mm，制造公差未通过。旧头壳与嘴部在张嘴约8.75°后仍有真实相交。
+**修复前干涉记录：[R28直接区间检查](hardware/r28-r26-interference/README.md)。** 两块新腿罩在四步轨迹的2,345组动态配对中没有新增穿透；最小保守间隙证明仅0.015 mm，制造公差未通过。旧头壳与嘴部在张嘴约8.75°后仍有真实相交。
 
 **2026-09-24设计复核：[腿部比例与电机筛选](docs/proportion-study-20260924/README.md)。前期比较三种方案，现已采用A修改覆盖件；电机和腿长不变，实物步态未验收。**
 
@@ -66,7 +68,7 @@
 
 正式四步从已经检查的新准备站姿开始；站姿过渡候选没有同等级完整验证。没有完成正常步速、温升、低电量持续扭矩或实物验收，也没有据此放行所有装配间隙。待安装件已有估算质量，实际安装时须替换，不能重复计重。
 
-R8软件保留其原profile、限位、策略及标定门禁。代码、模拟输入测试和61→14策略接口均不能替代新机械结构的实测标定或批准策略。软件入口默认使用未批准模板或dry-run，当前资料不构成上机运动许可。
+R8运行时的嘴部限位已按R29改为10°，旧标定/命令绑定会失效；其余硬件、策略及标定仍须重新核准。代码、模拟输入测试和61→14策略接口均不能替代新机械结构的实测标定或批准策略。软件入口默认使用未批准模板或dry-run，当前资料不构成上机运动许可。
 
 项目派生自 Pollen Robotics 的 Microduck。软件、模型、KiCad库和Linux参考源码的许可分别见 [NOTICE.md](NOTICE.md)；本仓库没有给不明第三方资料统一增加商业许可。
 

@@ -3,7 +3,7 @@
   "sample_rate": 48000,
   "gain": 0.2,
   "mouth_closed_rad": 0.0,
-  "mouth_open_rad": 0.2,
+  "mouth_open_rad": 0.13962634015954636,
   "points": [
     {
       "t_s": 0.0,
@@ -13,62 +13,62 @@
     {
       "t_s": 0.02,
       "rms_level": 0.03981370348344146,
-      "mouth_target_rad": 0.007962740696688292
+      "mouth_target_rad": 0.005559041705590313
     },
     {
       "t_s": 0.04,
       "rms_level": 0.0969430437052238,
-      "mouth_target_rad": 0.019388608741044762
+      "mouth_target_rad": 0.013535802396487348
     },
     {
       "t_s": 0.06,
       "rms_level": 0.16857756394204182,
-      "mouth_target_rad": 0.03371551278840836
+      "mouth_target_rad": 0.02353786828623921
     },
     {
       "t_s": 0.08,
       "rms_level": 0.23935418069607817,
-      "mouth_target_rad": 0.04787083613921564
+      "mouth_target_rad": 0.03342014825248014
     },
     {
       "t_s": 0.1,
       "rms_level": 0.29589739231493434,
-      "mouth_target_rad": 0.05917947846298687
+      "mouth_target_rad": 0.04131506995168776
     },
     {
       "t_s": 0.12,
       "rms_level": 0.33070096201145543,
-      "mouth_target_rad": 0.06614019240229109
+      "mouth_target_rad": 0.046174565012900695
     },
     {
       "t_s": 0.14,
       "rms_level": 0.3270625772248724,
-      "mouth_target_rad": 0.06541251544497449
+      "mouth_target_rad": 0.04566655066105794
     },
     {
       "t_s": 0.16,
       "rms_level": 0.29693126794434643,
-      "mouth_target_rad": 0.05938625358886929
+      "mouth_target_rad": 0.04145942622200272
     },
     {
       "t_s": 0.18,
       "rms_level": 0.23844989296315225,
-      "mouth_target_rad": 0.04768997859263045
+      "mouth_target_rad": 0.033293885865880515
     },
     {
       "t_s": 0.2,
       "rms_level": 0.16890101146991482,
-      "mouth_target_rad": 0.033780202293982965
+      "mouth_target_rad": 0.02358303008078977
     },
     {
       "t_s": 0.22,
       "rms_level": 0.0963284554665908,
-      "mouth_target_rad": 0.01926569109331816
+      "mouth_target_rad": 0.01344998969002192
     },
     {
       "t_s": 0.24,
       "rms_level": 0.039019473207777065,
-      "mouth_target_rad": 0.007803894641555413
+      "mouth_target_rad": 0.005448146238955386
     },
     {
       "t_s": 0.26,
@@ -138,62 +138,62 @@
     {
       "t_s": 0.52,
       "rms_level": 0.03981370348344146,
-      "mouth_target_rad": 0.007962740696688292
+      "mouth_target_rad": 0.005559041705590313
     },
     {
       "t_s": 0.54,
       "rms_level": 0.0969430437052238,
-      "mouth_target_rad": 0.019388608741044762
+      "mouth_target_rad": 0.013535802396487348
     },
     {
       "t_s": 0.56,
       "rms_level": 0.16857756394204182,
-      "mouth_target_rad": 0.03371551278840836
+      "mouth_target_rad": 0.02353786828623921
     },
     {
       "t_s": 0.58,
       "rms_level": 0.23935418069607817,
-      "mouth_target_rad": 0.04787083613921564
+      "mouth_target_rad": 0.03342014825248014
     },
     {
       "t_s": 0.6,
       "rms_level": 0.29589739231493434,
-      "mouth_target_rad": 0.05917947846298687
+      "mouth_target_rad": 0.04131506995168776
     },
     {
       "t_s": 0.62,
       "rms_level": 0.33070096201145543,
-      "mouth_target_rad": 0.06614019240229109
+      "mouth_target_rad": 0.046174565012900695
     },
     {
       "t_s": 0.64,
       "rms_level": 0.3270625772248724,
-      "mouth_target_rad": 0.06541251544497449
+      "mouth_target_rad": 0.04566655066105794
     },
     {
       "t_s": 0.66,
       "rms_level": 0.29693126794434643,
-      "mouth_target_rad": 0.05938625358886929
+      "mouth_target_rad": 0.04145942622200272
     },
     {
       "t_s": 0.68,
       "rms_level": 0.23844989296315225,
-      "mouth_target_rad": 0.04768997859263045
+      "mouth_target_rad": 0.033293885865880515
     },
     {
       "t_s": 0.7000000000000001,
       "rms_level": 0.16890101146991482,
-      "mouth_target_rad": 0.033780202293982965
+      "mouth_target_rad": 0.02358303008078977
     },
     {
       "t_s": 0.72,
       "rms_level": 0.0963284554665908,
-      "mouth_target_rad": 0.01926569109331816
+      "mouth_target_rad": 0.01344998969002192
     },
     {
       "t_s": 0.74,
       "rms_level": 0.039019473207777065,
-      "mouth_target_rad": 0.007803894641555413
+      "mouth_target_rad": 0.005448146238955386
     },
     {
       "t_s": 0.76,

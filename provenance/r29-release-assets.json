@@ -1,0 +1,21 @@
+{
+  "status": "R29_ENGINEERING_CANDIDATE_NOT_PHYSICAL_RELEASE",
+  "tag": "r29-r26-closure-candidate-20260929",
+  "assets": [
+    {
+      "name": "R29-engineering-evidence.zip",
+      "bytes": 332314633,
+      "sha256": "b8c5383284cf0523c48c827f83b6019951d0c2bedbb90eb9ed2652c8e43395de"
+    },
+    {
+      "name": "OpenDuck-R29-R26-mass-motion.blend",
+      "bytes": 130563946,
+      "sha256": "22d6583047ba8b6fe08b6a8743c55f3271abf48be50d800b43a171a4efd662df"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 196,
+      "sha256": "59597f438f71c79de5d581ef72c2511c4fbe56b9f83ee62680935388fad0d506"
+    }
+  ]
+}

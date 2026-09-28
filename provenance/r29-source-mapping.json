@@ -1,0 +1,481 @@
+{
+  "status": "R29_ENGINEERING_CANDIDATE",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "files": [
+    {
+      "source_path": "work/r29-closure/harness/HARNESS_REVIEW.md",
+      "repository_path": "hardware/r29-resolution/verification/HARNESS_REVIEW.md",
+      "sha256": "563c08fca6bbf457ed4357a7b6bf81fef31e629296b7c4585e63098d9c0bfde7",
+      "bytes": 7168
+    },
+    {
+      "source_path": "work/r29-closure/harness/WEAR_LIP_REVIEW.md",
+      "repository_path": "hardware/r29-resolution/verification/WEAR_LIP_REVIEW.md",
+      "sha256": "af3694abe210a3971e9c69cdd2c88b9d661b2eea518775bf3f5fddb1e42392bd",
+      "bytes": 3158
+    },
+    {
+      "source_path": "work/r29-closure/harness/anchor81_length_screen.json",
+      "repository_path": "hardware/r29-resolution/verification/anchor81_length_screen.json",
+      "sha256": "3719100d79336885b4dc7305197d0568595029f74379f89416c668bd5122f082",
+      "bytes": 1332
+    },
+    {
+      "source_path": "work/r29-closure/harness/audit_r26_flex.py",
+      "repository_path": "hardware/r29-resolution/verification/audit_r26_flex.py",
+      "sha256": "45190962445c6f7132383e8fc17b3227132d36c020c84ddd5b4e93d806367e3e",
+      "bytes": 9270
+    },
+    {
+      "source_path": "work/r29-closure/harness/build_wear_lips.py",
+      "repository_path": "hardware/r29-resolution/sources/build_wear_lips.py",
+      "sha256": "285cbb657703fb74648c7896323ee548ae5cb737db8aa3703c0b9ae9de932830",
+      "bytes": 4838
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/FINAL_REVIEW.md",
+      "repository_path": "hardware/r29-resolution/verification/COMBINED81_REVIEW.md",
+      "sha256": "f72a93fa0acf051720aaf7c762daee96890db3931e93a5204cce3b9112e0a427",
+      "bytes": 4187
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/abrasion_contacts.json",
+      "repository_path": "hardware/r29-resolution/verification/combined81_abrasion_contacts.json",
+      "sha256": "af8545a2f9aae8e0917daaa8bae232a7300e96be439bf189465ad4b3e4b56d97",
+      "bytes": 6446169
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/evidence_freeze.json",
+      "repository_path": "hardware/r29-resolution/verification/combined81_evidence_freeze.json",
+      "sha256": "0e584880ba4eda94ce4c965054ef6afcca519c6ad83cb087b800cff6a661b11f",
+      "bytes": 50505
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/reproduce.py",
+      "repository_path": "hardware/r29-resolution/sources/reproduce_combined81.py",
+      "sha256": "38893e5b97a4eb725b1b5df03b6c6ea3d90f9acb726acb1a0c6c076abfc5c587",
+      "bytes": 2013
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/rerun_manifest.json",
+      "repository_path": "hardware/r29-resolution/verification/combined81_rerun_manifest.json",
+      "sha256": "56df846fd4e2261dc73885677f877026b8df01150c7c89d039f8eab55c2ed950",
+      "bytes": 49985
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/solver_math_check.json",
+      "repository_path": "hardware/r29-resolution/verification/combined81_solver_math_check.json",
+      "sha256": "3395cae2ab60205e31db0831ad5166d8faddb3be1357296c66cdd91135f3e179",
+      "bytes": 702
+    },
+    {
+      "source_path": "work/r29-closure/harness/combined81/summary.json",
+      "repository_path": "hardware/r29-resolution/verification/combined81_summary.json",
+      "sha256": "a950279487ec1b735ba7dbc815a17c1934305c19d417312f48330776e06bcb43",
+      "bytes": 823874
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_lower_P5_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_lower_P5_PEEK_exit_lip.step",
+      "sha256": "1ddcc75ffa3bb4a3d824174410e74a4c2ed96a9c7497df03896f944d6cd070da",
+      "bytes": 17021
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_lower_P5_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_lower_P5_PEEK_exit_lip.step",
+      "sha256": "1ddcc75ffa3bb4a3d824174410e74a4c2ed96a9c7497df03896f944d6cd070da",
+      "bytes": 17021
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_lower_P6_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_lower_P6_PEEK_exit_lip.step",
+      "sha256": "de59bd3514375d54b792ff86cae36750eb481abc985e50e95f3bb2185b045a25",
+      "bytes": 17021
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_lower_P6_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_lower_P6_PEEK_exit_lip.step",
+      "sha256": "de59bd3514375d54b792ff86cae36750eb481abc985e50e95f3bb2185b045a25",
+      "bytes": 17021
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_upper_P5_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_upper_P5_PEEK_exit_lip.step",
+      "sha256": "6bb551bf106100a69aad3ee7b98dffb401fbde7c20ae6c1619d04120c8a2bc7e",
+      "bytes": 15980
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_upper_P5_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_upper_P5_PEEK_exit_lip.step",
+      "sha256": "6bb551bf106100a69aad3ee7b98dffb401fbde7c20ae6c1619d04120c8a2bc7e",
+      "bytes": 15980
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_upper_P6_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_upper_P6_PEEK_exit_lip.step",
+      "sha256": "0dee4a83e7f70c9058f785392c889e8ec490eaf26958c602ea64ee35495d15a2",
+      "bytes": 15974
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STEP_毫米/R29_neck_upper_P6_PEEK_exit_lip.step",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_upper_P6_PEEK_exit_lip.step",
+      "sha256": "0dee4a83e7f70c9058f785392c889e8ec490eaf26958c602ea64ee35495d15a2",
+      "bytes": 15974
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_lower_P5_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_lower_P5_PEEK_exit_lip.stl",
+      "sha256": "37331e5b3bc6a33feecff24075d5873f30a5696ab972db81e22655a85a80113e",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_lower_P5_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_lower_P5_PEEK_exit_lip.stl",
+      "sha256": "37331e5b3bc6a33feecff24075d5873f30a5696ab972db81e22655a85a80113e",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_lower_P6_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_lower_P6_PEEK_exit_lip.stl",
+      "sha256": "64c7ac21976eea7c9bcdc0a890a85aa36f80209aa7937ceb95d10e1443680f3e",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_lower_P6_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_lower_P6_PEEK_exit_lip.stl",
+      "sha256": "64c7ac21976eea7c9bcdc0a890a85aa36f80209aa7937ceb95d10e1443680f3e",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_upper_P5_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_upper_P5_PEEK_exit_lip.stl",
+      "sha256": "f4bb97ef85aee8333ee0fd0493a7ab9c723fd040b3b7412d82812c559e178de0",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_upper_P5_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_upper_P5_PEEK_exit_lip.stl",
+      "sha256": "f4bb97ef85aee8333ee0fd0493a7ab9c723fd040b3b7412d82812c559e178de0",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_upper_P6_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_neck_upper_P6_PEEK_exit_lip.stl",
+      "sha256": "102ae7ce3200dfd6e8e17d20d098f3993a595224366c28f38c9e4a9baeb3ec66",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/geometry/STL_装配坐标_毫米/R29_neck_upper_P6_PEEK_exit_lip.stl",
+      "repository_path": "hardware/r29-resolution/verification/geometry/R29_neck_upper_P6_PEEK_exit_lip.stl",
+      "sha256": "102ae7ce3200dfd6e8e17d20d098f3993a595224366c28f38c9e4a9baeb3ec66",
+      "bytes": 17084
+    },
+    {
+      "source_path": "work/r29-closure/harness/guide_near_clearance.json",
+      "repository_path": "hardware/r29-resolution/verification/guide_near_clearance.json",
+      "sha256": "41c5acbc81448630391ff40f160bd616cd146164f3fc5daa9eb105f04c76d735",
+      "bytes": 1790
+    },
+    {
+      "source_path": "work/r29-closure/harness/r26_flex_audit.json",
+      "repository_path": "hardware/r29-resolution/verification/r26_flex_audit.json",
+      "sha256": "3e92a230fe578a9e6cbfa861bbd69f253dd6232e0d1cb09696e0779e31cd8fde",
+      "bytes": 7551
+    },
+    {
+      "source_path": "work/r29-closure/harness/r26_selection_patch.json",
+      "repository_path": "hardware/r29-resolution/verification/harness_assembly_patch.json",
+      "sha256": "41ca3234a30e842933244e675ccc769147e26fedc1312723f7cb8433da9f8f92",
+      "bytes": 11559
+    },
+    {
+      "source_path": "work/r29-closure/harness/r26_selection_patch.json",
+      "repository_path": "hardware/r29-resolution/verification/r26_selection_patch.json",
+      "sha256": "41ca3234a30e842933244e675ccc769147e26fedc1312723f7cb8433da9f8f92",
+      "bytes": 11559
+    },
+    {
+      "source_path": "work/r29-closure/harness/s25_probe.json",
+      "repository_path": "hardware/r29-resolution/verification/s25_probe.json",
+      "sha256": "9900104a728a637cc15f3da7ade1f8de1ddb1be6c324bbdafaf2d4572963d71f",
+      "bytes": 2551
+    },
+    {
+      "source_path": "work/r29-closure/harness/sleeve_feasibility.json",
+      "repository_path": "hardware/r29-resolution/verification/sleeve_feasibility.json",
+      "sha256": "1ded9b255285d6c42cffdab9cc0a9d1c5b226707b2c712d5fc6c014ad029cfe4",
+      "bytes": 7866
+    },
+    {
+      "source_path": "work/r29-closure/harness/wear_lip_contact_review.json",
+      "repository_path": "hardware/r29-resolution/verification/wear_lip_contact_review.json",
+      "sha256": "ab2ce1cde69a8c26d36302d2f8768f9e26aeb6fe8b3f3bd44d876f7fcd9b0cdf",
+      "bytes": 2067
+    },
+    {
+      "source_path": "work/r29-closure/harness/wear_lip_manifest.json",
+      "repository_path": "hardware/r29-resolution/verification/wear_lip_manifest.json",
+      "sha256": "db48ea765e74787b3eb5fcfde1861c7810224272f9884e1b80c5faa69711c299",
+      "bytes": 11650
+    },
+    {
+      "source_path": "work/r29-closure/harness/wear_lip_rigid_delta_screen.json",
+      "repository_path": "hardware/r29-resolution/verification/wear_lip_rigid_delta_screen.json",
+      "sha256": "4ead2ea63f95ce1565885171d30d7a98d992e528d458fa989748dd02bf0382de",
+      "bytes": 61678
+    },
+    {
+      "source_path": "work/r29-closure/harness/wear_lip_wire_screen.json",
+      "repository_path": "hardware/r29-resolution/verification/wear_lip_wire_screen.json",
+      "sha256": "725226adc040ac3229a0217f5bb28ff5f2067ea39dbc16ab4664f1d31463b810",
+      "bytes": 2328
+    },
+    {
+      "source_path": "work/r29-mouth-counterbalance/README.md",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/CAD_REVIEW.md",
+      "sha256": "9bbb66ca0025423781adbfbf3f16475fc4f8286b79cb721d00d909ecf7442b74",
+      "bytes": 3995
+    },
+    {
+      "source_path": "work/r29-mouth-counterbalance/build_study.py",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/build_study.py",
+      "sha256": "838c46a3f7d449a1e15c58866a39b8deecbf2868892b7b65c09792ad93f6ebe5",
+      "bytes": 9340
+    },
+    {
+      "source_path": "work/r29-mouth-counterbalance/hinge_sections.png",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/hinge_sections.png",
+      "sha256": "c5ce7cb827ef6afd28eabe5482009c6924b56a8e4c4c364010910c1e829a4b18",
+      "bytes": 52705
+    },
+    {
+      "source_path": "work/r29-mouth-counterbalance/spring_body_clearance_envelope.ply",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/spring_body_clearance_envelope.ply",
+      "sha256": "2b17cc3fb0d2fccfcbd6f67b77e4bc168fae9270c87455bf0be98dedc0880d63",
+      "bytes": 7535
+    },
+    {
+      "source_path": "work/r29-mouth-counterbalance/spring_body_study.json",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/spring_body_study.json",
+      "sha256": "49c6ebc2e277922b0fb202a4f20db3cb18aef99119693bec615632f37c6effa1",
+      "bytes": 6119
+    },
+    {
+      "source_path": "work/r29-mouth-relief/FINAL_REVIEW.md",
+      "repository_path": "hardware/r29-resolution/verification/FINAL_MOUTH_REVIEW.md",
+      "sha256": "663888e5ef655678ff41de9dcc3e136b04ec6697be55cbae6b0dc3f6bc7835b2",
+      "bytes": 3924
+    },
+    {
+      "source_path": "work/r29-mouth-relief/assembly_patch_10deg.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_assembly_patch_10deg.json",
+      "sha256": "2ad2f4d6410ef61430244fd909eb6be1852882717bb457b5fbb8bc15ad84aa3c",
+      "bytes": 3178
+    },
+    {
+      "source_path": "work/r29-mouth-relief/build_10deg.py",
+      "repository_path": "hardware/r29-resolution/sources/build_mouth_10deg.py",
+      "sha256": "08442f8dcb5b677acd00cfdc308566a25b782b00f9260adad5ccb1886df7b7d5",
+      "bytes": 5862
+    },
+    {
+      "source_path": "work/r29-mouth-relief/clearance_review_10deg.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_clearance_review_10deg.json",
+      "sha256": "bd186ad7bc1b59fa90a4cb1606e9ec3c9d8d04e940fbd4c662c09aba7bf560e3",
+      "bytes": 3401
+    },
+    {
+      "source_path": "work/r29-mouth-relief/manifest_10deg.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_manifest_10deg.json",
+      "sha256": "0ab55207f447ce968f17f40c1a32a9df9d80d6891f96abfd8b881bd889f4bed8",
+      "bytes": 3051
+    },
+    {
+      "source_path": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.3mf",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_lower_head_shell_mouth_10deg_3mm.3mf",
+      "sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+      "bytes": 515775
+    },
+    {
+      "source_path": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+      "repository_path": "hardware/r29-resolution/mechanics/R29_lower_head_shell_mouth_10deg_3mm.ply",
+      "sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+      "bytes": 729799
+    },
+    {
+      "source_path": "work/r29-mouth-relief/mount_review_10deg.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_mount_review_10deg.json",
+      "sha256": "47536ff5922d11b2439d04364836387cc60bce2a3767e64761929126d2e7991b",
+      "bytes": 11451
+    },
+    {
+      "source_path": "work/r29-mouth-relief/neighbor_review_10deg.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_neighbor_review_10deg.json",
+      "sha256": "693b39039163f14de0d4f07d703ed4c5d7cce8797b26cc435d7d1e8e9800bbda",
+      "bytes": 1294
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/R29_dynamics_validation.json",
+      "repository_path": "hardware/r29-resolution/verification/R29_dynamics_validation.json",
+      "sha256": "694016ad2cb05d65e46c1ebd01221e4374f442adcd545a3675cb249896c83ae3",
+      "bytes": 22621
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/R29_final_contact9_review.json",
+      "repository_path": "hardware/r29-resolution/verification/R29_final_contact9_review.json",
+      "sha256": "f49d134fad22fa5ea64f137f78b7ecc4caed86ea760da5164e03593baeb52898",
+      "bytes": 7257
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/R29_final_friction05_review.json",
+      "repository_path": "hardware/r29-resolution/verification/R29_final_friction05_review.json",
+      "sha256": "d09db6bb9058fe8883cdbbca498282ced6b455f6187df05542c4ab15538be095",
+      "bytes": 7266
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/R29_final_halfdt_review.json",
+      "repository_path": "hardware/r29-resolution/verification/R29_final_halfdt_review.json",
+      "sha256": "2cf3ff87199d86f8d3140ff93fc171cc4b88db0d59cd672ec24b15dea8124e81",
+      "bytes": 7248
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/R29_final_nominal_review.json",
+      "repository_path": "hardware/r29-resolution/verification/R29_final_nominal_review.json",
+      "sha256": "b0f80c44b22dc2c561334bca352a4ec1b7180aa75702e2ea731084bfdf983033",
+      "bytes": 7247
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/README.md",
+      "repository_path": "hardware/r29-resolution/verification/DYNAMICS_REVIEW.md",
+      "sha256": "50a0abbdfdf0d1defb1adc6ec9bf4a643126c16215c6a869820af463fb7e5e3e",
+      "bytes": 8463
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/mouth_structural_guard_audit.json",
+      "repository_path": "hardware/r29-resolution/verification/mouth_structural_guard_audit.json",
+      "sha256": "910b7e91ce8a4f55db544d2f3c5d4b9e28b88e2673f0f84eb7277d618bc33bbe",
+      "bytes": 6193
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/stability_sample_audit.json",
+      "repository_path": "hardware/r29-resolution/verification/stability_sample_audit.json",
+      "sha256": "9dac3382fbe5bbb76e6f80c92a5b5abd60c56620add5d2bce7aecc02f4e1ba9f",
+      "bytes": 2741
+    },
+    {
+      "source_path": "work/r29-r26-dynamics/swing_contact_audit.json",
+      "repository_path": "hardware/r29-resolution/verification/swing_contact_audit.json",
+      "sha256": "13dab4d3f9baf2daa884872aaaf762ee45047d8fde2d8acf510cbe43d4cdaae2",
+      "bytes": 31951
+    },
+    {
+      "source_path": "work/r29-r26-resolution/R29_walk_frame.png",
+      "repository_path": "hardware/r29-resolution/images/R29_walk_frame.png",
+      "sha256": "b82c37cd387b72dae1a56ca662ac1553e8072b4528648ed165f4304845952332",
+      "bytes": 706361
+    },
+    {
+      "source_path": "work/r29-r26-resolution/assembly_selection.json",
+      "repository_path": "hardware/r29-resolution/verification/assembly_selection.json",
+      "sha256": "2ae5396ed3840d8202c7660ce1f805f335a5aecfa0e7bede06a1f2720fd7f340",
+      "bytes": 3365933
+    },
+    {
+      "source_path": "work/r29-r26-resolution/blender_build_index.json",
+      "repository_path": "hardware/r29-resolution/verification/blender_build_index.json",
+      "sha256": "a8ce3f06ef1b7ad69162bceb3bb8949f8b25b2e88080891a0a2e53c25664237d",
+      "bytes": 84104
+    },
+    {
+      "source_path": "work/r29-r26-resolution/blender_readback.json",
+      "repository_path": "hardware/r29-resolution/verification/blender_readback.json",
+      "sha256": "e8559a720ce86486a7f91643ed13bc3f8f9c50aeb0154157c4ae3ad60c8a54fd",
+      "bytes": 2871
+    },
+    {
+      "source_path": "work/r29-r26-resolution/blender_source_geometry.json",
+      "repository_path": "hardware/r29-resolution/verification/blender_source_geometry.json",
+      "sha256": "82ac6575d20bf875e3d9c1775e1e2f162c599aa12fbfdb588a345da8a9fe7f51",
+      "bytes": 1123
+    },
+    {
+      "source_path": "work/r29-r26-resolution/build_blender.py",
+      "repository_path": "hardware/r29-resolution/sources/build_blender.py",
+      "sha256": "1af8577390e63c7d7f753827d1209e9fdc4b33d9d8aef0ed4d31620e608ba6c8",
+      "bytes": 7468
+    },
+    {
+      "source_path": "work/r29-r26-resolution/clearance_acceptance.md",
+      "repository_path": "hardware/r29-resolution/verification/cover_clearance_acceptance.md",
+      "sha256": "06d90b7ad6809a844b8d87a1e7ec1f11693d5c208bd9e29e70a7bdc9b72e1846",
+      "bytes": 4489
+    },
+    {
+      "source_path": "work/r29-r26-resolution/cover_motor_r29_final_10mm_certificate.json",
+      "repository_path": "hardware/r29-resolution/verification/cover_motor_r29_final_10mm_certificate.json",
+      "sha256": "3b6ad4695021cf4e59c5419db6f98f72afc24cc06f198afbda4a8ae9d4cd0c47",
+      "bytes": 4501
+    },
+    {
+      "source_path": "work/r29-r26-resolution/cover_motor_r29_final_contact9_10mm_certificate.json",
+      "repository_path": "hardware/r29-resolution/verification/cover_motor_r29_final_contact9_10mm_certificate.json",
+      "sha256": "addd62ceb98b6c550adf23eb8de3fa2fd6cd1ce11db966240564b323b8f15150",
+      "bytes": 4505
+    },
+    {
+      "source_path": "work/r29-r26-resolution/cover_motor_r29_final_friction05_10mm_certificate.json",
+      "repository_path": "hardware/r29-resolution/verification/cover_motor_r29_final_friction05_10mm_certificate.json",
+      "sha256": "7ceefa2ced454ca61dcbe1fa52a75899d7e52dd80d7bea05e32969676319e2a0",
+      "bytes": 4510
+    },
+    {
+      "source_path": "work/r29-r26-resolution/cover_motor_r29_final_halfdt_10mm_certificate.json",
+      "repository_path": "hardware/r29-resolution/verification/cover_motor_r29_final_halfdt_10mm_certificate.json",
+      "sha256": "b1f4ca7c1e754f89af13d537862e253142e0715f95f1ad066ddef9258a7c277c",
+      "bytes": 4502
+    },
+    {
+      "source_path": "work/r29-r26-resolution/integrate_assembly.py",
+      "repository_path": "hardware/r29-resolution/sources/integrate_assembly.py",
+      "sha256": "60c55bc3ff128a861d066d3aa0f9bc1e1b191d2a7b89518d907706f3130bd007",
+      "bytes": 4234
+    },
+    {
+      "source_path": "work/r29-r26-resolution/refine_cover_motor_r29.py",
+      "repository_path": "hardware/r29-resolution/sources/refine_cover_motor_r29.py",
+      "sha256": "92f0ad6c909f4a68f84e5b588343e8e6695eff6282790b73ef63fd4aff254921",
+      "bytes": 7374
+    },
+    {
+      "source_path": "work/r29-r26-resolution/runtime_test_result.json",
+      "repository_path": "hardware/r29-resolution/verification/runtime_test_result.json",
+      "sha256": "40ccae8f7fcbf153c0d8cce17e31de62b325884c11fcff064b9accad893afd6f",
+      "bytes": 922
+    },
+    {
+      "source_path": "work/r29-r26-resolution/verify_blender.py",
+      "repository_path": "hardware/r29-resolution/sources/verify_blender.py",
+      "sha256": "e7152fa82aa006c2b5bd4deb49993adc71a9701b7a453a76a4b516ee113c5ca2",
+      "bytes": 4670
+    },
+    {
+      "source_path": "work/r29-spring-study/README.md",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/TORQUE_REVIEW.md",
+      "sha256": "d34dd45b508504c9af0b948504d961a16ddfa49fe79d51c9d78043752ad4d57c",
+      "bytes": 2760
+    },
+    {
+      "source_path": "work/r29-spring-study/analytical_torque.json",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/analytical_torque.json",
+      "sha256": "366fd72796751b9fa9c9d7c6c66cd18b8998493825a50ed64a81b97bd802ef7c",
+      "bytes": 11457
+    },
+    {
+      "source_path": "work/r29-spring-study/analyze_analytical.py",
+      "repository_path": "hardware/r29-resolution/studies/mouth-counterbalance/analyze_analytical.py",
+      "sha256": "91f71e1c3d5dcea88a8ccd51f5149949b4eb1c933b08890efc6211d85b989be4",
+      "bytes": 7481
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "status": "R29_R26_ITEM_PATCH_CANDIDATE",
+  "source_selection": "work/r26-cover-first/assembly_selection.json",
+  "source_selection_sha256": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+  "remove_name": "R25_lower_head_shell_bottom_entry",
+  "add_item": {
+    "readback": [
+      {
+        "file": "R29_lower_head_shell_mouth_10deg_3mm.ply",
+        "sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+        "vertex_error_mm": 0.0,
+        "volume_error_mm3": 0.0,
+        "indexed_faces_identical": true,
+        "watertight": true,
+        "single_body": true
+      },
+      {
+        "file": "R29_lower_head_shell_mouth_10deg_3mm.3mf",
+        "sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+        "vertex_error_mm": 0.0,
+        "volume_error_mm3": 0.0,
+        "indexed_faces_identical": true,
+        "watertight": true,
+        "single_body": true
+      }
+    ],
+    "mesh_load_process": false,
+    "topology_policy": "Preserve indexed vertices and faces; no tolerance welding. Units mm.",
+    "name": "R29_lower_head_shell_mouth_10deg_3mm",
+    "mesh": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+    "mesh_sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+    "manufacturing_master": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.3mf",
+    "manufacturing_master_sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t_mm": [
+      0,
+      0,
+      0
+    ],
+    "link_frame": "jaw_soft",
+    "kind": "printed_mouth_clearance",
+    "material": "PA2200 PA12 SLS",
+    "density_assumption_g_cm3": 0.93,
+    "mass_from_CAD_g": 77.335314191052,
+    "volume_mm3": 83156.25181833548,
+    "center_mm": [
+      25.136930376113998,
+      1.2405138839167102,
+      214.16905454993426
+    ],
+    "is_new": true,
+    "input_group": "R29_mouth_relief",
+    "replaces": [
+      "R25_lower_head_shell_bottom_entry"
+    ],
+    "physical_approved": false,
+    "manufacturing_approved": false,
+    "nominal_COM": [
+      25.136930376113998,
+      1.2405138839167102,
+      214.16905454993426
+    ],
+    "inertia_g_mm2": [
+      [
+        258198.40074885768,
+        1032.4304561937186,
+        -36204.26390188086
+      ],
+      [
+        1032.4304561937186,
+        472270.5451540834,
+        1338.9750718162165
+      ],
+      [
+        -36204.26390188086,
+        1338.9750718162165,
+        716796.3048106966
+      ]
+    ],
+    "source_mesh": "work/r25-bottom-head-entry/mechanics/R25_lower_head_shell_bottom_entry.ply",
+    "source_mesh_sha256": "c48ff4dbdb8a015155e4bb6684340ec24e82215bce7b90e699543f9cb9e22251",
+    "mouth_operating_range_deg": [
+      0,
+      10
+    ],
+    "mouth_clearance_nominal_lower_bound_mm": 3.058
+  },
+  "manufacturer_master_policy": "Indexed 3MF is the print master; PLY is exact analysis mesh. STL/STEP are not masters.",
+  "full_25deg_travel_approved": false
+}

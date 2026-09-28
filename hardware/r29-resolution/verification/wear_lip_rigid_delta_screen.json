@@ -1,0 +1,2113 @@
+{
+  "status": "R29_ADDED_PEEK_LIP_RIGID_9_POSE_NO_POSITIVE_VOLUME_OVERLAP",
+  "installed_other_rigid_count": 1189,
+  "pose_count": 9,
+  "broad_phase_pairs": 42804,
+  "near_candidate_pairs": 260,
+  "mesh_only_near_pairs": 20,
+  "positive_volume_overlap_count": 0,
+  "positive_volume_overlaps": [],
+  "unresolved": [],
+  "near_pairs": [
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 1,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_PEEK_comb_housing",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 3,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 4,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 6,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 8,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_PEEK_comb_housing",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 13,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 16,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 17,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P5_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_top_head_shell_closed_side",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_lower_head_shell_bottom_entry",
+      "method": "triangulated_mesh",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P2",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_upper_P6_PEEK_exit_lip",
+      "body": "R25_HEAD_BOTTOM_FIXED_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P5_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P5_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_P6_VMQ_installed",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_power_pair_band_1",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": true
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P5",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    },
+    {
+      "case_index": 18,
+      "film": "R29_neck_lower_P6_PEEK_exit_lip",
+      "body": "R23_HEAD_SERVO_LOWER_P6",
+      "method": "native_STEP",
+      "common_mm3": 0.0,
+      "likely_intended_support": false
+    }
+  ],
+  "source_sha256": {
+    "work/r26-cover-first/assembly_selection.json": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+    "work/r29-closure/harness/wear_lip_manifest.json": "db48ea765e74787b3eb5fcfde1861c7810224272f9884e1b80c5faa69711c299",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01.json": "d88d109356029233ac49742d79cef21d7b2abc9f9539507f48adfb8bf0cf0d6f",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16.json": "4ee0eab24ca425a3aca40f46cee909c9aacf901c571bf2ff2090a7a16490fb16",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17.json": "829116869de07ed247e3f126f2787a7ae7d93cd3afd11225d123a29933cd8265",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_18.json": "750a6f2c92652c4e18b9fe79e222aee416f079dfdb4c3804107fc95ad53235a4"
+  },
+  "limits": [
+    "Only newly added PEEK lip material is checked; old film contacts are inherited.",
+    "Nine discrete head/neck poses, not all 81 combinations or continuous sweeps.",
+    "Mesh Boolean threshold 1e-5 mm^3 is numerical, not a manufacturing tolerance."
+  ],
+  "manufacturing_approved": false,
+  "physical_approved": false
+}

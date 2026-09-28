@@ -1,0 +1,719 @@
+{
+  "status": "POST_HOC_SAVED_SAMPLE_SWING_CONTACT_AUDIT",
+  "physical_approved": false,
+  "force_threshold_loaded_N": 2.0,
+  "sample_period_s": 0.02,
+  "interpretation": "All >2 N saved-sample contacts are lift/land transitions in outer 10% of planned swing; central 80% is unloaded in saved samples. These are observed facts, not a predeclared acceptance criterion or continuous-time guarantee.",
+  "cases": [
+    {
+      "case": "R29_final_nominal",
+      "intervals": [
+        {
+          "foot": "ankle_left",
+          "swing_number": 1,
+          "planned_start_s": 63.10000000021028,
+          "planned_end_s": 78.359999999875,
+          "saved_samples": 764,
+          "maximum_contact_force_N": 6.727425047341493,
+          "maximum_contact_force_time_s": 78.29999999987642,
+          "minimum_sole_z_at_max_force_mm": -0.08461360117763272,
+          "total_sampled_contact_normal_impulse_Ns": 5.4399106944732,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.14705646490786634,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 63.10000000021028,
+              "end_s": 63.4400000002119,
+              "start_fraction": 0.0,
+              "end_fraction": 0.022280471822352137,
+              "sampled_duration_s": 0.3600000000011505,
+              "peak_force_N": 6.692006392237504,
+              "maximum_center_displacement_from_first_mm": 0.026175773456334404
+            },
+            {
+              "start_s": 63.520000000212285,
+              "end_s": 63.54000000021238,
+              "start_fraction": 0.02752293578055264,
+              "end_fraction": 0.028833551770102765,
+              "sampled_duration_s": 0.03999999999962256,
+              "peak_force_N": 2.0485133806897666,
+              "maximum_center_displacement_from_first_mm": 0.003613955275352671
+            },
+            {
+              "start_s": 77.73999999988966,
+              "end_s": 78.359999999875,
+              "start_fraction": 0.9593709043251009,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.639999999984866,
+              "peak_force_N": 6.727425047341493,
+              "maximum_center_displacement_from_first_mm": 0.14705646490786634
+            }
+          ]
+        },
+        {
+          "foot": "ankle_left",
+          "swing_number": 2,
+          "planned_start_s": 160.83999999792462,
+          "planned_end_s": 176.07999999756424,
+          "saved_samples": 763,
+          "maximum_contact_force_N": 6.788867745004402,
+          "maximum_contact_force_time_s": 175.99999999756614,
+          "minimum_sole_z_at_max_force_mm": -0.07850617951436073,
+          "total_sampled_contact_normal_impulse_Ns": 5.315959876166168,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.14737379977481427,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 160.83999999792462,
+              "end_s": 161.13999999791753,
+              "start_fraction": 0.0,
+              "end_fraction": 0.01968503937007874,
+              "sampled_duration_s": 0.319999999992433,
+              "peak_force_N": 6.3996687565422965,
+              "maximum_center_displacement_from_first_mm": 0.021111271096728303
+            },
+            {
+              "start_s": 161.23999999791516,
+              "end_s": 161.2599999979147,
+              "start_fraction": 0.026246719160104987,
+              "end_fraction": 0.027559055118110236,
+              "sampled_duration_s": 0.039999999999054126,
+              "peak_force_N": 2.0400369072690085,
+              "maximum_center_displacement_from_first_mm": 0.0037120677257279568
+            },
+            {
+              "start_s": 175.4599999975789,
+              "end_s": 176.07999999756424,
+              "start_fraction": 0.9593175853018373,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.639999999984866,
+              "peak_force_N": 6.788867745004402,
+              "maximum_center_displacement_from_first_mm": 0.14737379977481427
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 1,
+          "planned_start_s": 20.60000000000735,
+          "planned_end_s": 33.62000000006952,
+          "saved_samples": 652,
+          "maximum_contact_force_N": 7.591766247384852,
+          "maximum_contact_force_time_s": 20.60000000000735,
+          "minimum_sole_z_at_max_force_mm": -0.07737998975058946,
+          "total_sampled_contact_normal_impulse_Ns": 7.814303927004429,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.1794531900777784,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 20.60000000000735,
+              "end_s": 21.060000000009545,
+              "start_fraction": 0.0,
+              "end_fraction": 0.03533026113671275,
+              "sampled_duration_s": 0.4800000000022919,
+              "peak_force_N": 7.591766247384852,
+              "maximum_center_displacement_from_first_mm": 0.032460853086325236
+            },
+            {
+              "start_s": 32.68000000006503,
+              "end_s": 33.62000000006952,
+              "start_fraction": 0.9278033794162827,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.9600000000045839,
+              "peak_force_N": 7.529382123057314,
+              "maximum_center_displacement_from_first_mm": 0.1794531900777784
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 2,
+          "planned_start_s": 118.31999999893007,
+          "planned_end_s": 131.31999999862268,
+          "saved_samples": 651,
+          "maximum_contact_force_N": 7.556511001039604,
+          "maximum_contact_force_time_s": 118.31999999893007,
+          "minimum_sole_z_at_max_force_mm": -0.0766600800389608,
+          "total_sampled_contact_normal_impulse_Ns": 7.6700062119369115,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.17659368433400013,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 118.31999999893007,
+              "end_s": 118.7799999989192,
+              "start_fraction": 0.0,
+              "end_fraction": 0.03538461538461535,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 7.556511001039604,
+              "maximum_center_displacement_from_first_mm": 0.03152391340776194
+            },
+            {
+              "start_s": 130.39999999864443,
+              "end_s": 131.31999999862268,
+              "start_fraction": 0.9292307692307693,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.939999999977772,
+              "peak_force_N": 7.478410890044924,
+              "maximum_center_displacement_from_first_mm": 0.17659368433400013
+            }
+          ]
+        }
+      ],
+      "no_saved_middle_80pct_contact_above_2N": true,
+      "loaded_runs_only_outer_10pct": true,
+      "maximum_loaded_run_center_displacement_mm": 0.1794531900777784
+    },
+    {
+      "case": "R29_final_halfdt",
+      "intervals": [
+        {
+          "foot": "ankle_left",
+          "swing_number": 1,
+          "planned_start_s": 63.119999999371394,
+          "planned_end_s": 78.35999999901102,
+          "saved_samples": 763,
+          "maximum_contact_force_N": 6.784645324569938,
+          "maximum_contact_force_time_s": 78.29999999901244,
+          "minimum_sole_z_at_max_force_mm": -0.08439050514299357,
+          "total_sampled_contact_normal_impulse_Ns": 5.33567992121919,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.14771794231465793,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 63.119999999371394,
+              "end_s": 63.4199999993643,
+              "start_fraction": 0.0,
+              "end_fraction": 0.01968503937007873,
+              "sampled_duration_s": 0.319999999992433,
+              "peak_force_N": 6.4562594003150116,
+              "maximum_center_displacement_from_first_mm": 0.01927713882912218
+            },
+            {
+              "start_s": 63.519999999361936,
+              "end_s": 63.53999999936146,
+              "start_fraction": 0.026246719160104976,
+              "end_fraction": 0.027559055118110222,
+              "sampled_duration_s": 0.039999999999054126,
+              "peak_force_N": 2.0422645016698993,
+              "maximum_center_displacement_from_first_mm": 0.0036818333511785158
+            },
+            {
+              "start_s": 77.73999999902568,
+              "end_s": 78.35999999901102,
+              "start_fraction": 0.9593175853018373,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.639999999984866,
+              "peak_force_N": 6.784645324569938,
+              "maximum_center_displacement_from_first_mm": 0.14771794231465793
+            }
+          ]
+        },
+        {
+          "foot": "ankle_left",
+          "swing_number": 2,
+          "planned_start_s": 160.83999999706063,
+          "planned_end_s": 176.07999999670025,
+          "saved_samples": 763,
+          "maximum_contact_force_N": 6.858229994273049,
+          "maximum_contact_force_time_s": 175.99999999670214,
+          "minimum_sole_z_at_max_force_mm": -0.07833785943090615,
+          "total_sampled_contact_normal_impulse_Ns": 5.330559698193023,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.0866541165138469,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 160.83999999706063,
+              "end_s": 161.13999999705354,
+              "start_fraction": 0.0,
+              "end_fraction": 0.01968503937007874,
+              "sampled_duration_s": 0.319999999992433,
+              "peak_force_N": 6.42873342683592,
+              "maximum_center_displacement_from_first_mm": 0.020576461138125713
+            },
+            {
+              "start_s": 161.23999999705117,
+              "end_s": 161.2599999970507,
+              "start_fraction": 0.026246719160104987,
+              "end_fraction": 0.027559055118110236,
+              "sampled_duration_s": 0.039999999999054126,
+              "peak_force_N": 2.0309475473910696,
+              "maximum_center_displacement_from_first_mm": 0.0038040665422908763
+            },
+            {
+              "start_s": 175.4599999967149,
+              "end_s": 175.57999999671208,
+              "start_fraction": 0.9593175853018373,
+              "end_fraction": 0.9671916010498688,
+              "sampled_duration_s": 0.13999999999668944,
+              "peak_force_N": 2.200817847619388,
+              "maximum_center_displacement_from_first_mm": 0.05115480029756994
+            },
+            {
+              "start_s": 175.61999999671113,
+              "end_s": 176.07999999670025,
+              "start_fraction": 0.9698162729658792,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 6.858229994273049,
+              "maximum_center_displacement_from_first_mm": 0.0866541165138469
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 1,
+          "planned_start_s": 20.600000000052855,
+          "planned_end_s": 33.62000000006898,
+          "saved_samples": 652,
+          "maximum_contact_force_N": 7.621268891239724,
+          "maximum_contact_force_time_s": 20.600000000052855,
+          "minimum_sole_z_at_max_force_mm": -0.07719831342105354,
+          "total_sampled_contact_normal_impulse_Ns": 7.848864249644156,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.18173732219149902,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 20.600000000052855,
+              "end_s": 21.06000000005505,
+              "start_fraction": 0.0,
+              "end_fraction": 0.0353302611368377,
+              "sampled_duration_s": 0.4800000000022919,
+              "peak_force_N": 7.621268891239724,
+              "maximum_center_displacement_from_first_mm": 0.03281550546069585
+            },
+            {
+              "start_s": 32.680000000091205,
+              "end_s": 33.62000000006898,
+              "start_fraction": 0.9278033794180792,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.9599999999778674,
+              "peak_force_N": 7.591121019468798,
+              "maximum_center_displacement_from_first_mm": 0.18173732219149902
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 2,
+          "planned_start_s": 118.3199999980661,
+          "planned_end_s": 131.31999999775869,
+          "saved_samples": 651,
+          "maximum_contact_force_N": 7.578370794419101,
+          "maximum_contact_force_time_s": 118.3199999980661,
+          "minimum_sole_z_at_max_force_mm": -0.07669855195906183,
+          "total_sampled_contact_normal_impulse_Ns": 7.690581003782744,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.1793838856842286,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 118.3199999980661,
+              "end_s": 118.77999999805522,
+              "start_fraction": 0.0,
+              "end_fraction": 0.03538461538461538,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 7.578370794419101,
+              "maximum_center_displacement_from_first_mm": 0.03247497461155733
+            },
+            {
+              "start_s": 130.39999999778044,
+              "end_s": 131.31999999775869,
+              "start_fraction": 0.9292307692307692,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.939999999977772,
+              "peak_force_N": 7.466619540852215,
+              "maximum_center_displacement_from_first_mm": 0.1793838856842286
+            }
+          ]
+        }
+      ],
+      "no_saved_middle_80pct_contact_above_2N": true,
+      "loaded_runs_only_outer_10pct": true,
+      "maximum_loaded_run_center_displacement_mm": 0.18173732219149902
+    },
+    {
+      "case": "R29_final_friction05",
+      "intervals": [
+        {
+          "foot": "ankle_left",
+          "swing_number": 1,
+          "planned_start_s": 63.10000000021028,
+          "planned_end_s": 78.359999999875,
+          "saved_samples": 764,
+          "maximum_contact_force_N": 6.732279864391295,
+          "maximum_contact_force_time_s": 78.29999999987642,
+          "minimum_sole_z_at_max_force_mm": -0.08462895059402342,
+          "total_sampled_contact_normal_impulse_Ns": 5.4605113349589685,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.08729855379369397,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 63.10000000021028,
+              "end_s": 63.42000000021181,
+              "start_fraction": 0.0,
+              "end_fraction": 0.02096985583280201,
+              "sampled_duration_s": 0.340000000001055,
+              "peak_force_N": 6.687280301524995,
+              "maximum_center_displacement_from_first_mm": 0.022318728421965212
+            },
+            {
+              "start_s": 63.520000000212285,
+              "end_s": 63.54000000021238,
+              "start_fraction": 0.02752293578055264,
+              "end_fraction": 0.028833551770102765,
+              "sampled_duration_s": 0.03999999999962256,
+              "peak_force_N": 2.0510522302305767,
+              "maximum_center_displacement_from_first_mm": 0.003344359838709195
+            },
+            {
+              "start_s": 77.73999999988966,
+              "end_s": 77.8399999998873,
+              "start_fraction": 0.9593709043251009,
+              "end_fraction": 0.9659239842726652,
+              "sampled_duration_s": 0.11999999999716238,
+              "peak_force_N": 2.1448969264719278,
+              "maximum_center_displacement_from_first_mm": 0.046373441645989145
+            },
+            {
+              "start_s": 77.89999999988588,
+              "end_s": 78.359999999875,
+              "start_fraction": 0.9698558322412039,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 6.732279864391295,
+              "maximum_center_displacement_from_first_mm": 0.08729855379369397
+            }
+          ]
+        },
+        {
+          "foot": "ankle_left",
+          "swing_number": 2,
+          "planned_start_s": 160.83999999792462,
+          "planned_end_s": 176.07999999756424,
+          "saved_samples": 763,
+          "maximum_contact_force_N": 6.794084659882311,
+          "maximum_contact_force_time_s": 175.99999999756614,
+          "minimum_sole_z_at_max_force_mm": -0.07858339871759379,
+          "total_sampled_contact_normal_impulse_Ns": 5.330789706573188,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.08740134543321426,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 160.83999999792462,
+              "end_s": 161.13999999791753,
+              "start_fraction": 0.0,
+              "end_fraction": 0.01968503937007874,
+              "sampled_duration_s": 0.319999999992433,
+              "peak_force_N": 6.394565179544715,
+              "maximum_center_displacement_from_first_mm": 0.024127434268993112
+            },
+            {
+              "start_s": 161.23999999791516,
+              "end_s": 161.2599999979147,
+              "start_fraction": 0.026246719160104987,
+              "end_fraction": 0.027559055118110236,
+              "sampled_duration_s": 0.039999999999054126,
+              "peak_force_N": 2.0426671237692053,
+              "maximum_center_displacement_from_first_mm": 0.0034171231562266833
+            },
+            {
+              "start_s": 175.4599999975789,
+              "end_s": 175.55999999757654,
+              "start_fraction": 0.9593175853018373,
+              "end_fraction": 0.9658792650918635,
+              "sampled_duration_s": 0.11999999999716238,
+              "peak_force_N": 2.1270351876270004,
+              "maximum_center_displacement_from_first_mm": 0.046596935780212255
+            },
+            {
+              "start_s": 175.61999999757512,
+              "end_s": 176.07999999756424,
+              "start_fraction": 0.9698162729658792,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 6.794084659882311,
+              "maximum_center_displacement_from_first_mm": 0.08740134543321426
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 1,
+          "planned_start_s": 20.60000000000735,
+          "planned_end_s": 33.62000000006952,
+          "saved_samples": 652,
+          "maximum_contact_force_N": 7.58269778875521,
+          "maximum_contact_force_time_s": 20.60000000000735,
+          "minimum_sole_z_at_max_force_mm": -0.07769885729672771,
+          "total_sampled_contact_normal_impulse_Ns": 7.801774338136221,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.17743002299624916,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 20.60000000000735,
+              "end_s": 21.060000000009545,
+              "start_fraction": 0.0,
+              "end_fraction": 0.03533026113671275,
+              "sampled_duration_s": 0.4800000000022919,
+              "peak_force_N": 7.58269778875521,
+              "maximum_center_displacement_from_first_mm": 0.03459832437213192
+            },
+            {
+              "start_s": 32.68000000006503,
+              "end_s": 33.62000000006952,
+              "start_fraction": 0.9278033794162827,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.9600000000045839,
+              "peak_force_N": 7.535188077941027,
+              "maximum_center_displacement_from_first_mm": 0.17743002299624916
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 2,
+          "planned_start_s": 118.31999999893007,
+          "planned_end_s": 131.31999999862268,
+          "saved_samples": 651,
+          "maximum_contact_force_N": 7.550487690445922,
+          "maximum_contact_force_time_s": 118.31999999893007,
+          "minimum_sole_z_at_max_force_mm": -0.07690334627652451,
+          "total_sampled_contact_normal_impulse_Ns": 7.653116927299976,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.17478732667974994,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 118.31999999893007,
+              "end_s": 118.7799999989192,
+              "start_fraction": 0.0,
+              "end_fraction": 0.03538461538461535,
+              "sampled_duration_s": 0.4799999999886495,
+              "peak_force_N": 7.550487690445922,
+              "maximum_center_displacement_from_first_mm": 0.03414519815495955
+            },
+            {
+              "start_s": 130.39999999864443,
+              "end_s": 131.31999999862268,
+              "start_fraction": 0.9292307692307693,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.939999999977772,
+              "peak_force_N": 7.482727319385474,
+              "maximum_center_displacement_from_first_mm": 0.17478732667974994
+            }
+          ]
+        }
+      ],
+      "no_saved_middle_80pct_contact_above_2N": true,
+      "loaded_runs_only_outer_10pct": true,
+      "maximum_loaded_run_center_displacement_mm": 0.17743002299624916
+    },
+    {
+      "case": "R29_final_contact9",
+      "intervals": [
+        {
+          "foot": "ankle_left",
+          "swing_number": 1,
+          "planned_start_s": 63.10000000021028,
+          "planned_end_s": 78.359999999875,
+          "saved_samples": 764,
+          "maximum_contact_force_N": 5.038861318866491,
+          "maximum_contact_force_time_s": 63.10000000021028,
+          "minimum_sole_z_at_max_force_mm": -0.04056268197497742,
+          "total_sampled_contact_normal_impulse_Ns": 3.1389924620161818,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.024059006210211713,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 63.10000000021028,
+              "end_s": 63.340000000211425,
+              "start_fraction": 0.0,
+              "end_fraction": 0.01572739187460151,
+              "sampled_duration_s": 0.260000000000673,
+              "peak_force_N": 5.038861318866491,
+              "maximum_center_displacement_from_first_mm": 0.007168043353866129
+            },
+            {
+              "start_s": 77.97999999988399,
+              "end_s": 78.01999999988304,
+              "start_fraction": 0.9750982961992554,
+              "end_fraction": 0.9777195281782811,
+              "sampled_duration_s": 0.05999999999858119,
+              "peak_force_N": 2.045758487429138,
+              "maximum_center_displacement_from_first_mm": 0.0158206092515037
+            },
+            {
+              "start_s": 78.1399999998802,
+              "end_s": 78.359999999875,
+              "start_fraction": 0.9855832241153584,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.23999999999432475,
+              "peak_force_N": 4.99427118438649,
+              "maximum_center_displacement_from_first_mm": 0.024059006210211713
+            }
+          ]
+        },
+        {
+          "foot": "ankle_left",
+          "swing_number": 2,
+          "planned_start_s": 160.83999999792462,
+          "planned_end_s": 176.07999999756424,
+          "saved_samples": 763,
+          "maximum_contact_force_N": 4.932184775217297,
+          "maximum_contact_force_time_s": 176.07999999756424,
+          "minimum_sole_z_at_max_force_mm": -0.03125273588567429,
+          "total_sampled_contact_normal_impulse_Ns": 3.03366398310793,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.024037637562864735,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 160.83999999792462,
+              "end_s": 161.05999999791942,
+              "start_fraction": 0.0,
+              "end_fraction": 0.014435695538057743,
+              "sampled_duration_s": 0.23999999999432475,
+              "peak_force_N": 4.67193177439481,
+              "maximum_center_displacement_from_first_mm": 0.007744652287246488
+            },
+            {
+              "start_s": 175.69999999757323,
+              "end_s": 175.73999999757228,
+              "start_fraction": 0.9750656167979003,
+              "end_fraction": 0.9776902887139107,
+              "sampled_duration_s": 0.05999999999858119,
+              "peak_force_N": 2.046277337595815,
+              "maximum_center_displacement_from_first_mm": 0.01596447880496021
+            },
+            {
+              "start_s": 175.85999999756945,
+              "end_s": 176.07999999756424,
+              "start_fraction": 0.9855643044619422,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.23999999999432475,
+              "peak_force_N": 4.932184775217297,
+              "maximum_center_displacement_from_first_mm": 0.024037637562864735
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 1,
+          "planned_start_s": 20.60000000000735,
+          "planned_end_s": 33.62000000006952,
+          "saved_samples": 652,
+          "maximum_contact_force_N": 5.123373031552237,
+          "maximum_contact_force_time_s": 33.62000000006952,
+          "minimum_sole_z_at_max_force_mm": -0.03071272272490294,
+          "total_sampled_contact_normal_impulse_Ns": 3.981777960994408,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.041960408340857826,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 20.60000000000735,
+              "end_s": 20.8200000000084,
+              "start_fraction": 0.0,
+              "end_fraction": 0.016897081413210446,
+              "sampled_duration_s": 0.24000000000114596,
+              "peak_force_N": 4.913065482845249,
+              "maximum_center_displacement_from_first_mm": 0.01475141425361327
+            },
+            {
+              "start_s": 32.960000000066366,
+              "end_s": 33.06000000006684,
+              "start_fraction": 0.9493087557603687,
+              "end_fraction": 0.956989247311828,
+              "sampled_duration_s": 0.12000000000057298,
+              "peak_force_N": 2.1370173512065844,
+              "maximum_center_displacement_from_first_mm": 0.024074302439844774
+            },
+            {
+              "start_s": 33.20000000006751,
+              "end_s": 33.62000000006952,
+              "start_fraction": 0.967741935483871,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.44000000000210093,
+              "peak_force_N": 5.123373031552237,
+              "maximum_center_displacement_from_first_mm": 0.041960408340857826
+            }
+          ]
+        },
+        {
+          "foot": "ankle_right",
+          "swing_number": 2,
+          "planned_start_s": 118.31999999893007,
+          "planned_end_s": 131.31999999862268,
+          "saved_samples": 651,
+          "maximum_contact_force_N": 5.030858404585688,
+          "maximum_contact_force_time_s": 131.31999999862268,
+          "minimum_sole_z_at_max_force_mm": -0.032254031314508935,
+          "total_sampled_contact_normal_impulse_Ns": 3.8790764997332015,
+          "maximum_mid_20_to_80pct_contact_force_N": 0.0,
+          "all_above_2N_contact_in_first_or_last_10pct": true,
+          "maximum_loaded_run_center_displacement_mm": 0.03973127745854858,
+          "loaded_above_2N_runs": [
+            {
+              "start_s": 118.31999999893007,
+              "end_s": 118.53999999892487,
+              "start_fraction": 0.0,
+              "end_fraction": 0.016923076923076905,
+              "sampled_duration_s": 0.23999999999432475,
+              "peak_force_N": 4.871385066695253,
+              "maximum_center_displacement_from_first_mm": 0.015246040484856279
+            },
+            {
+              "start_s": 130.69999999863734,
+              "end_s": 130.77999999863545,
+              "start_fraction": 0.9523076923076924,
+              "end_fraction": 0.9584615384615385,
+              "sampled_duration_s": 0.09999999999763531,
+              "peak_force_N": 2.1361045050549583,
+              "maximum_center_displacement_from_first_mm": 0.018732776183991526
+            },
+            {
+              "start_s": 130.91999999863214,
+              "end_s": 131.31999999862268,
+              "start_fraction": 0.9692307692307692,
+              "end_fraction": 1.0,
+              "sampled_duration_s": 0.4199999999900683,
+              "peak_force_N": 5.030858404585688,
+              "maximum_center_displacement_from_first_mm": 0.03973127745854858
+            }
+          ]
+        }
+      ],
+      "no_saved_middle_80pct_contact_above_2N": true,
+      "loaded_runs_only_outer_10pct": true,
+      "maximum_loaded_run_center_displacement_mm": 0.041960408340857826
+    }
+  ],
+  "limitations": [
+    "Forces sampled every 20 ms; contact between samples is not excluded.",
+    "Impulse uses trapezoidal integration of saved force samples.",
+    "Foot center motion during loaded runs is measured from CAD outline mean, not individual contact patch stick/slip.",
+    "No prototype/floor/motor qualification."
+  ],
+  "sources": {
+    "work/r29-r26-dynamics/audit_swing_contact.py": "9f0abbbd8a85a531d28bacdb81d0d0b37ab589e2da55d05532eea4ed563e4b11",
+    "work/r29-r26-dynamics/R29_final_nominal/acceptance.json": "18164bdc6341853bb3c3ccf255c8e4426f179a31f8fe5013327bb5486feca5e7",
+    "work/r29-r26-dynamics/R29_final_nominal/trajectory.json": "157134c9f1e13297653a5de3c84d1df64c1fcc9375ae080dafd53736757dff2a",
+    "work/r29-r26-dynamics/R29_final_halfdt/acceptance.json": "6ef2e7aa4840f2d227ba91e387dbcf68314dfe10dea0ca30268a357ff30793ce",
+    "work/r29-r26-dynamics/R29_final_halfdt/trajectory.json": "f5a23ca102da9ca45ecfd9bbd1b57cbf085afeba4894e9916455f76482d41096",
+    "work/r29-r26-dynamics/R29_final_friction05/acceptance.json": "0eb5f24308e5262c12afa7f55853253182c5bb5e22a074a17bf7e71f932a7535",
+    "work/r29-r26-dynamics/R29_final_friction05/trajectory.json": "c38ac3150c4d25d9a7015f8f3282c61c51bdf8ab72eff6ea3aba466a7af8a926",
+    "work/r29-r26-dynamics/R29_final_contact9/acceptance.json": "1aadbf4577481af44d4e66cbf2183cc126c69dbe19ea20c94f691fdfbd2788ba",
+    "work/r29-r26-dynamics/R29_final_contact9/trajectory.json": "0bff8a109ecb65bf226df0d66ac8c4a987d2d78dfe89cb3517407a0720eb6635"
+  }
+}

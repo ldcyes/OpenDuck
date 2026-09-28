@@ -5,7 +5,7 @@ from test_mixed_drive import data,load,Registers
 def approval():
     return {'verified':True,'structural_limit_Nm':.05,'observed_peak_upper_bound_Nm':.04,
       'tested_goal_current_raw':300,'tested_p_gain':100,'tested_max_step_rad':.03,
-      'tested_range_rad':[0,math.radians(12)],'tested_voltage_range_V':[10.2,11.8],
+      'tested_range_rad':[0,math.radians(10)],'tested_voltage_range_V':[10.2,11.8],
       'tested_temperature_max_C':70,'full_travel_and_blocked_load_verified':True,
       'report':'SYNTHETIC TEST ONLY - does not establish an actual300mA torque'}
 def approved_data():

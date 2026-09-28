@@ -4,17 +4,19 @@
 
 OpenDuck brings together mechanical design, electronics, numerical gait studies, and RK3576 runtime and training adaptation sources derived from Microduck. **This is an engineering simulation prerelease. Physical fabrication and normal-speed walking acceptance have not been completed.**
 
-![OpenDuck R26 orthographic front view](hardware/r26-cover-first/images/01-front.jpg)
+![OpenDuck R29 front-view motion model](hardware/r29-resolution/images/R29_walk_frame.png)
 
 ![Head camera front cover](hardware/r25-bottom-head-entry/images/02-head-camera-cover.png)
 
-**Latest assembly: [R26 cover-first option A](hardware/r26-cover-first/README_EN.md) · [Complete Blender and engineering downloads](https://github.com/ldcyes/OpenDuck/releases/tag/r26-cover-first-20260924).**
+**Latest review: [R29 interference, harness and mass-resolved gait](hardware/r29-resolution/README_EN.md) · [Complete Blender and evidence downloads](https://github.com/ldcyes/OpenDuck/releases/tag/r29-r26-closure-candidate-20260929).**
+
+R29 revises the lower head shell and limits mouth commands to 0–10°. The designated thigh-cover/ankle-motor pair has a worst-case 11.407 mm conservative nominal clearance bound across four new-mass slow gait traces. Four numerical cases and neck wire-exit protection are updated, but the modeled closed-mouth holding torque still exceeds the active 0.05 Nm structural limit. Cable deformation and fabrication tolerance remain unqualified; **physical walking is not approved**.
 
 The 31 head conductors now enter from below. R25 retains the camera front cover and existing body proportions, uses a more compact moving harness, and closes the former dedicated side cable window. See the [bottom-entry detail](hardware/r25-bottom-head-entry/images/03-bottom-head-entry.png). The separate motor access opening remains in the published R25 shell; its permanent closure is a subsequent design decision. Discrete head-pose checks do not establish continuous-motion or physical acceptance.
 
-**Four-step walking replay:** [R27 motion on the complete R26 assembly](hardware/r27-walk-replay/README_EN.md) uses the recorded 195.44-second integration trace. Rigid collision changes due to the shorter covers are checked; R26 dynamics and physical walking remain unqualified.
+**Historical four-step walking replay:** [R27 motion on the complete R26 assembly](hardware/r27-walk-replay/README_EN.md) uses the recorded 195.44-second integration trace. Rigid collision changes due to the shorter covers are checked; R26 dynamics and physical walking remain unqualified.
 
-**R26 interference review:** [R28 direct interval check](hardware/r28-r26-interference/README_EN.md) found no new cover penetration in 2,345 moving pairs along the four-step trace. Its smallest conservative clearance bound is only 0.015 mm, so manufacturing margin is unproven. The existing head-shell/mouth-carrier collision remains at about 8.75° of mouth opening.
+**Pre-revision R26 interference review:** [R28 direct interval check](hardware/r28-r26-interference/README_EN.md) found no new cover penetration in 2,345 moving pairs along the four-step trace. Its smallest conservative clearance bound is only 0.015 mm, so manufacturing margin is unproven. The existing head-shell/mouth-carrier collision remains at about 8.75° of mouth opening.
 
 **Design review, September 24:** [leg proportions and actuator screening](docs/proportion-study-20260924/README_EN.md). The earlier review compares alternatives. R26 now implements option A with shorter covers; leg lengths and actuator selection remain unchanged.
 
@@ -68,7 +70,7 @@ Sizes and hashes are recorded in [release-assets.json](release-assets.json) and 
 
 The four-step sequence starts from the checked preparation stance. The transition into that stance has not received the same complete validation. Normal walking speed, temperature rise, low-battery sustained torque, physical acceptance and all assembly clearances remain unqualified. Estimated masses for parts awaiting detailed installation must be replaced by their actual installed masses, without double-counting.
 
-The R8 software retains its original profiles, limits, policies and calibration gates. Source code, synthetic-input tests and the 61-to-14 policy interface do not replace measured calibration and approved policies for a new mechanical revision. Entry points default to unapproved templates or dry runs. These materials do not authorize physical motion.
+The R8 runtime now limits mouth opening to 10° for R29, invalidating older command and calibration bindings. Other hardware, policy and calibration gates still require qualification. Source code, synthetic-input tests and the 61-to-14 policy interface do not replace measured calibration and approved policies for a new mechanical revision. Entry points default to unapproved templates or dry runs. These materials do not authorize physical motion.
 
 OpenDuck derives from Pollen Robotics' Microduck. Software, models, KiCad libraries and Linux reference sources have separate licenses listed in [NOTICE.md](NOTICE.md). This repository does not assign a blanket commercial license to third-party materials with unclear terms.
 

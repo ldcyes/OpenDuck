@@ -42,7 +42,8 @@ class AudioTests(unittest.TestCase):
         now=[5.];a=Arbiter(clock=lambda:now[0]);sid=a.start_session('test',2)['session_id']
         a.submit(sid,0,ROBOT_PROFILE,{'mouth':.15,'duration_s':1.})
         p=Audio();a.attach_audio(sid,1,p)
-        self.assertAlmostEqual(a.frame()['mouth_rad'],.1)
+        from microduck_rk.motion_limits import DEFAULT_MOUTH_OPEN_RAD
+        self.assertAlmostEqual(a.frame()['mouth_rad'],DEFAULT_MOUTH_OPEN_RAD/2)
         p.on=False;self.assertEqual(a.frame()['mouth_rad'],0.)
         now[0]=7.1;self.assertIsNone(a.frame())
     def test_dry_playback_stops_at_end_of_real_wav(self):

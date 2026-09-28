@@ -1,0 +1,176 @@
+{
+  "status": "R26_NEW_COVERS_CLEAR_OF_CONDITIONAL_9_POSE_NECK_WIRE_ENVELOPE;_FLEX_MANUFACTURING_NOT_QUALIFIED",
+  "R26_flexible_wire_count": 31,
+  "R26_wire_geometry_identical_to_R25": true,
+  "R26_joint_table_identical_to_R25": true,
+  "nine_pose_route_case_count": 9,
+  "nine_pose_body_pairs_screened_in_R25": 17131,
+  "nine_pose_minimum_nominal_wire_pair_gap_lower_mm": 0.01610514040248456,
+  "worst_wire_pair": {
+    "case_index": 17,
+    "a": "S19",
+    "b": "S25"
+  },
+  "nine_pose_wire_arc_envelope_with_max_OD_mm": [
+    [
+      -28.43868793964382,
+      -150.2911635321261,
+      72.14213963105736
+    ],
+    [
+      139.2946105079684,
+      4.807585845165624,
+      223.9714819633859
+    ]
+  ],
+  "R26_cover_finite_gait_interval_count": 9773,
+  "cover_rows": [
+    {
+      "name": "R26_L_thigh_short_cover",
+      "maximum_z_mm_continuous_numerical_interval_bound": 20.287067305114917,
+      "maximum_per_interval_motion_bound_mm": 0.47362213622517
+    },
+    {
+      "name": "R26_R_thigh_short_cover",
+      "maximum_z_mm_continuous_numerical_interval_bound": 18.9895038622962,
+      "maximum_per_interval_motion_bound_mm": 0.47796222447757697
+    }
+  ],
+  "conditional_minimum_vertical_gap_to_new_covers_mm": 51.855072325942444,
+  "hard_part_clearance_target_mm": 2.2,
+  "conditional_new_cover_gap_target_met": true,
+  "case_rows": [
+    {
+      "index": 1,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.16185738823646345,
+      "wire_body_pairs_screened": 1846
+    },
+    {
+      "index": 3,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": -30,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.1004653620766498,
+      "wire_body_pairs_screened": 1857
+    },
+    {
+      "index": 4,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": -10
+      },
+      "wire_pair_gap_lower_mm": 0.16526384683745776,
+      "wire_body_pairs_screened": 2156
+    },
+    {
+      "index": 6,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.12069305371018435,
+      "wire_body_pairs_screened": 2055
+    },
+    {
+      "index": 8,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 10,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.16877311811839835,
+      "wire_body_pairs_screened": 1687
+    },
+    {
+      "index": 13,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 30.0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.17075327948939795,
+      "wire_body_pairs_screened": 2034
+    },
+    {
+      "index": 16,
+      "q_HOME_delta_deg": {
+        "neck_pitch": -10.0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.03812649008863722,
+      "wire_body_pairs_screened": 1798
+    },
+    {
+      "index": 17,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": -15,
+        "head_yaw": 0,
+        "head_roll": 0
+      },
+      "wire_pair_gap_lower_mm": 0.01610514040248456,
+      "wire_body_pairs_screened": 1684
+    },
+    {
+      "index": 18,
+      "q_HOME_delta_deg": {
+        "neck_pitch": 0,
+        "head_pitch": 0,
+        "head_yaw": 0,
+        "head_roll": 10
+      },
+      "wire_pair_gap_lower_mm": 0.11128066565282929,
+      "wire_body_pairs_screened": 2014
+    }
+  ],
+  "source_sha256": {
+    "work/r25-bottom-head-entry/assembly_selection.json": "54ceda0385e4abd6f6ea28ad294918d2e5cd0da9a7f3e0f645165b9cfb1f19ad",
+    "work/r26-cover-first/assembly_selection.json": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+    "work/r21-reduced-sway/dynamics/full_v3/nominal/interval_joint_bounds.json": "9d2e3e387096741ca300561c40f09581c2af3c0f55d83af7eafc910a2f9e9a6f",
+    "work/r25-bottom-head-entry/flex/compact_bundle_home/manifest.json": "30f36b3d49dbb75f756ecb4f03b74e45224a2085f470eb60209b007a2ffd193a",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01.json": "d88d109356029233ac49742d79cef21d7b2abc9f9539507f48adfb8bf0cf0d6f",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_01_bodies.json": "31c6ce6e75edac2d1d73490da018c2ad2a17c83d19a4e55cd616178eafd1ed01",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03.json": "80fd7572fe36aebc28a0e10592f1fbaf68a7fdc069613173ca047aa120231cd2",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_03_bodies.json": "28acad2b1b0785c74f1ab7a7e662b69a8dd99c576666de156ff7fb1cacd7f67f",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04.json": "828c9649c1137597908cbe91dab6f592a7934330eb0726c13442edb0f53ae02b",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_04_bodies.json": "86ff87e21cc544a5bf4c3fbfbab61a60e7b8c30fe5cbe250bb676244074169d3",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06.json": "fcbd54797d8f596297476bc51d6e66f45767a83ad7fb4652013142fedd90f909",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_06_bodies.json": "762b75aaff98ff6d5a8e1593fc50d30865530a52707c97b939c1edadbf343a1c",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08.json": "7f860e5ee3d8bc852bd1d867eb974d32f1ffbc04ae99c78167b92c538872e82d",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_08_bodies.json": "e62721a9027a5a34795663f3861efa73ebf3abe8c843a3af7bbbb3a8150aabe7",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13.json": "de10f81b6f6666646595d3c8734c3b95c6de0eb87c3366f23bec9e0fda299649",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_13_bodies.json": "5510e69cb254ff0280b1ddabfa9c37fcfb72e5a5ccf8ea9ad5ee6b98d1cb5395",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16.json": "4ee0eab24ca425a3aca40f46cee909c9aacf901c571bf2ff2090a7a16490fb16",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_16_bodies.json": "522a43ca687abb0c5894b9620859713238585a6ca8f6451b0d468530c5a5ef5c",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17.json": "829116869de07ed247e3f126f2787a7ae7d93cd3afd11225d123a29933cd8265",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_17_bodies.json": "2199afc98ebddc19279ec4f207ffb5a13037ad7d7f8f26998685f065b11b1145",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_18.json": "750a6f2c92652c4e18b9fe79e222aee416f079dfdb4c3804107fc95ad53235a4",
+    "work/r25-bottom-head-entry/flex/compact_bundle_family/case_18_bodies.json": "06fea8841b8868eccf6246d80e11db1e629176bc9adfe11bc24149a44afde199"
+  },
+  "limits": [
+    "The nine feasible cable shapes are separate kinematic references; no continuous elastic transition or real wire sag is proven.",
+    "The R21 gait interval q(t) is a numerical trace, not a recalculated R26 gait or hardware trajectory.",
+    "Only the two new R26 thigh covers are added to the prior R25 wire-body audit; previously retained moving body-to-wire combinations are not newly proven here.",
+    "The 0.0161 mm S19-S25 nominal gap cannot absorb independently installed wire placement errors and is not a manufacturing clearance.",
+    "No harness manufacturing or physical acceptance is granted."
+  ],
+  "manufacturing_approved": false,
+  "physical_approved": false
+}

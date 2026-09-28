@@ -1,0 +1,493 @@
+{
+  "status": "R29_WALK_BLOCKED_BY_ACTIVE_MOUTH_STRUCTURAL_GUARD_AND_MOTOR_MARGIN",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "selected_shell_range_deg": [
+    0,
+    10
+  ],
+  "frozen_numerical_walking_checks_only_passed": true,
+  "active_mouth_structural_guard_Nm": 0.05,
+  "worst_simulated_mouth_peak_Nm": 0.0592504966419347,
+  "all_four_walks_violate_active_mouth_guard": true,
+  "mouth_structural_guard_audit": "work/r29-r26-dynamics/mouth_structural_guard_audit.json",
+  "mouth_structural_guard_audit_sha256": "910b7e91ce8a4f55db544d2f3c5d4b9e28b88e2673f0f84eb7277d618bc33bbe",
+  "stability_sample_audit": "work/r29-r26-dynamics/stability_sample_audit.json",
+  "stability_sample_audit_sha256": "9dac3382fbe5bbb76e6f80c92a5b5abd60c56620add5d2bce7aecc02f4e1ba9f",
+  "final_mass_kg": 4.44272896758897,
+  "final_COM_HOME_mm": [
+    2.92563562886598,
+    -1.6270563738896433,
+    25.124310433193823
+  ],
+  "baseline_R26_mass_kg": 4.443059766833077,
+  "r26_four_frozen_cases": [
+    {
+      "case": "nominal",
+      "mass_kg": 4.443059766833077,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5134347247234106,
+      "joint_tracking_max_error_deg": 0.2414708039454729,
+      "roll_peak_to_peak_deg": 33.38288886327835,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.8599656311778219,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9555173679753576,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.23506702554029,
+          "peak_swing_sole_clearance_mm": 3.37944641830612,
+          "peak_contact_N_during_planned_swing": 6.789166436245815,
+          "actual_loaded_contact_max_slip_mm": 0.9334051193427372
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.104667808053662,
+          "peak_swing_sole_clearance_mm": 3.273531223952686,
+          "peak_contact_N_during_planned_swing": 7.600781729775907,
+          "actual_loaded_contact_max_slip_mm": 0.6460934981414953
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/nominal/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/nominal_review.json"
+    },
+    {
+      "case": "R26_halfdt",
+      "mass_kg": 4.443059766833077,
+      "duration_s": 195.4417499962424,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5141443435816183,
+      "joint_tracking_max_error_deg": 0.2426996315013859,
+      "roll_peak_to_peak_deg": 33.38461602103537,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.8370007121385434,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9300007912650482,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.293026797285528,
+          "peak_swing_sole_clearance_mm": 3.378529212620461,
+          "peak_contact_N_during_planned_swing": 6.858569102915587,
+          "actual_loaded_contact_max_slip_mm": 0.9204578742546198
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.15370979077013,
+          "peak_swing_sole_clearance_mm": 3.27327341922852,
+          "peak_contact_N_during_planned_swing": 7.617246954694345,
+          "actual_loaded_contact_max_slip_mm": 0.6372029316293532
+        }
+      },
+      "numerical_integration_steps": 1563534,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R26_halfdt/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R26_halfdt_review.json"
+    },
+    {
+      "case": "R26_friction05",
+      "mass_kg": 4.443059766833077,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5136964838248144,
+      "joint_tracking_max_error_deg": 0.24212044721634612,
+      "roll_peak_to_peak_deg": 33.38335598142963,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.8597633899627368,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.955292655514152,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.273132766090182,
+          "peak_swing_sole_clearance_mm": 3.3794022970992446,
+          "peak_contact_N_during_planned_swing": 6.794379810811745,
+          "actual_loaded_contact_max_slip_mm": 0.9335467033583278
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.12560762831695,
+          "peak_swing_sole_clearance_mm": 3.2734317090285723,
+          "peak_contact_N_during_planned_swing": 7.586177319898829,
+          "actual_loaded_contact_max_slip_mm": 0.646839303705107
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R26_friction05/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R26_friction05_review.json"
+    },
+    {
+      "case": "R26_contact9",
+      "mass_kg": 4.443059766833077,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.4366281430528828,
+      "joint_tracking_max_error_deg": 0.16352297940384775,
+      "roll_peak_to_peak_deg": 33.300847886666816,
+      "worst_joint": "right_hip_roll",
+      "worst_joint_peak_Nm": 0.8407946447141619,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9342162719046243,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.195386136984627,
+          "peak_swing_sole_clearance_mm": 3.628997907477227,
+          "peak_contact_N_during_planned_swing": 5.036577820204888,
+          "actual_loaded_contact_max_slip_mm": 0.5831646741326691
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.019761419464018,
+          "peak_swing_sole_clearance_mm": 3.645996668595476,
+          "peak_contact_N_during_planned_swing": 5.123210819905726,
+          "actual_loaded_contact_max_slip_mm": 0.29475139537348866
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R26_contact9/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R26_contact9_review.json"
+    }
+  ],
+  "r29_selected_four_frozen_cases": [
+    {
+      "case": "R29_final_nominal",
+      "mass_kg": 4.442728967589001,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5134772543729328,
+      "joint_tracking_max_error_deg": 0.24635289205318664,
+      "roll_peak_to_peak_deg": 33.38152187896586,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.8595515834755467,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9550573149728296,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.251123458437043,
+          "peak_swing_sole_clearance_mm": 3.379409436756485,
+          "peak_contact_N_during_planned_swing": 6.788867745004402,
+          "actual_loaded_contact_max_slip_mm": 0.94018115606989
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.09708260762124,
+          "peak_swing_sole_clearance_mm": 3.273406376830358,
+          "peak_contact_N_during_planned_swing": 7.591766247384852,
+          "actual_loaded_contact_max_slip_mm": 0.6464959347162996
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R29_final_nominal/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R29_final_nominal_review.json"
+    },
+    {
+      "case": "R29_final_halfdt",
+      "mass_kg": 4.442728967589001,
+      "duration_s": 195.4417499962424,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5141892057957527,
+      "joint_tracking_max_error_deg": 0.24468996431552764,
+      "roll_peak_to_peak_deg": 33.38316874362285,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.8355045048046108,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9283383386717897,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.314836386912845,
+          "peak_swing_sole_clearance_mm": 3.37852332201978,
+          "peak_contact_N_during_planned_swing": 6.858229994273049,
+          "actual_loaded_contact_max_slip_mm": 0.9261319055931537
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.14436431123263,
+          "peak_swing_sole_clearance_mm": 3.2731473900600023,
+          "peak_contact_N_during_planned_swing": 7.621268891239724,
+          "actual_loaded_contact_max_slip_mm": 0.6351414516415164
+        }
+      },
+      "numerical_integration_steps": 1563534,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R29_final_halfdt/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R29_final_halfdt_review.json"
+    },
+    {
+      "case": "R29_final_friction05",
+      "mass_kg": 4.442728967589001,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.5137497057973714,
+      "joint_tracking_max_error_deg": 0.24744779751441837,
+      "roll_peak_to_peak_deg": 33.381781047486655,
+      "worst_joint": "left_hip_roll",
+      "worst_joint_peak_Nm": 0.859514434676985,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9550160385299833,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.285986425026024,
+          "peak_swing_sole_clearance_mm": 3.3793724055437497,
+          "peak_contact_N_during_planned_swing": 6.794084659882311,
+          "actual_loaded_contact_max_slip_mm": 0.9338101077526249
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.12118568375703,
+          "peak_swing_sole_clearance_mm": 3.2733049823127636,
+          "peak_contact_N_during_planned_swing": 7.58269778875521,
+          "actual_loaded_contact_max_slip_mm": 0.645546738286707
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R29_final_friction05/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R29_final_friction05_review.json"
+    },
+    {
+      "case": "R29_final_contact9",
+      "mass_kg": 4.442728967589001,
+      "duration_s": 195.4417499971064,
+      "acceptance_status": "SIMULATION_THRESHOLDS_MET",
+      "root_tracking_max_error_deg": 0.4366924902444906,
+      "joint_tracking_max_error_deg": 0.16411410853297861,
+      "roll_peak_to_peak_deg": 33.3009279587739,
+      "worst_joint": "right_hip_roll",
+      "worst_joint_peak_Nm": 0.8388997451028803,
+      "worst_joint_assumed_cap_Nm": 0.9,
+      "worst_peak_utilization_of_assumed_cap": 0.9321108278920892,
+      "actual_saturation_max_s": 0.0,
+      "feet": {
+        "ankle_left": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.19950537539772,
+          "peak_swing_sole_clearance_mm": 3.6290270223661922,
+          "peak_contact_N_during_planned_swing": 5.038861318866491,
+          "actual_loaded_contact_max_slip_mm": 0.575815237123426
+        },
+        "ankle_right": {
+          "completed_forward_steps": 2,
+          "net_forward_mm": 20.023558277925595,
+          "peak_swing_sole_clearance_mm": 3.645897659211486,
+          "peak_contact_N_during_planned_swing": 5.123373031552237,
+          "actual_loaded_contact_max_slip_mm": 0.29482718192475255
+        }
+      },
+      "numerical_integration_steps": 781767,
+      "interval_joint_bounds": "work/r29-r26-dynamics/R29_final_contact9/interval_joint_bounds.json",
+      "review": "work/r29-r26-dynamics/R29_final_contact9_review.json"
+    }
+  ],
+  "worst_final_case": "R29_final_nominal",
+  "worst_final_joint": "left_hip_roll",
+  "worst_final_peak_Nm": 0.8595515834755467,
+  "worst_final_assumed_cap_Nm": 0.9,
+  "worst_final_assumed_cap_utilization": 0.9550573149728296,
+  "worst_final_required_measured_sustained_Nm_for_15pct_margin": 1.011237157030055,
+  "final_joints_above_85pct_assumed_cap": [
+    {
+      "joint": "left_hip_roll",
+      "worst_case": "R29_final_nominal",
+      "worst_peak_Nm": 0.8595515834755467,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.9550573149728296,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.011237157030055
+    },
+    {
+      "joint": "right_hip_roll",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.8388997451028803,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.9321108278920892,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.986940876591624
+    },
+    {
+      "joint": "right_knee",
+      "worst_case": "R29_final_halfdt",
+      "worst_peak_Nm": 1.231268082427093,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.9120504314274762,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.4485506852083447
+    },
+    {
+      "joint": "left_hip_pitch",
+      "worst_case": "R29_final_nominal",
+      "worst_peak_Nm": 1.2289351210358972,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.9103223118784423,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.4458060247481144
+    }
+  ],
+  "all_joints_worst_case_required_cap_Nm": [
+    {
+      "joint": "left_hip_roll",
+      "worst_case": "R29_final_nominal",
+      "worst_peak_Nm": 0.8595515834755467,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.9550573149728296,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.011237157030055
+    },
+    {
+      "joint": "right_hip_roll",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.8388997451028803,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.9321108278920892,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.986940876591624
+    },
+    {
+      "joint": "right_knee",
+      "worst_case": "R29_final_halfdt",
+      "worst_peak_Nm": 1.231268082427093,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.9120504314274762,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.4485506852083447
+    },
+    {
+      "joint": "left_hip_pitch",
+      "worst_case": "R29_final_nominal",
+      "worst_peak_Nm": 1.2289351210358972,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.9103223118784423,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.4458060247481144
+    },
+    {
+      "joint": "right_hip_pitch",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 1.1415480805195313,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.8455911707552083,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.342997741787684
+    },
+    {
+      "joint": "left_ankle",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.8276876707796106,
+      "assumed_design_cap_Nm": 1.0,
+      "utilization": 0.8276876707796106,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.973750200917189
+    },
+    {
+      "joint": "right_ankle",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.822830519246093,
+      "assumed_design_cap_Nm": 1.0,
+      "utilization": 0.822830519246093,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.9680359049954035
+    },
+    {
+      "joint": "mouth_candidate",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.0592504966419347,
+      "assumed_design_cap_Nm": 0.08,
+      "utilization": 0.7406312080241837,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.06970646663757024
+    },
+    {
+      "joint": "left_knee",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.9964505503139698,
+      "assumed_design_cap_Nm": 1.35,
+      "utilization": 0.7381115187510887,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 1.1722947650752586
+    },
+    {
+      "joint": "head_yaw",
+      "worst_case": "R29_final_halfdt",
+      "worst_peak_Nm": 0.08019101375446351,
+      "assumed_design_cap_Nm": 0.13,
+      "utilization": 0.6168539519574116,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.09434236912289826
+    },
+    {
+      "joint": "neck_pitch",
+      "worst_case": "R29_final_friction05",
+      "worst_peak_Nm": 0.5092965948494412,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.565885105388268,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.5991724645287544
+    },
+    {
+      "joint": "left_hip_yaw",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.42822129746370763,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.4758014416263418,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.503789761722009
+    },
+    {
+      "joint": "right_hip_yaw",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.4032516030276554,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.4480573366973949,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.47441365062077107
+    },
+    {
+      "joint": "head_roll",
+      "worst_case": "R29_final_halfdt",
+      "worst_peak_Nm": 0.04236534198396896,
+      "assumed_design_cap_Nm": 0.13,
+      "utilization": 0.3258872460305305,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.04984157880466937
+    },
+    {
+      "joint": "head_pitch",
+      "worst_case": "R29_final_contact9",
+      "worst_peak_Nm": 0.28177035053332977,
+      "assumed_design_cap_Nm": 0.9,
+      "utilization": 0.3130781672592553,
+      "minimum_qualified_low_voltage_continuous_cap_for_15pct_margin_Nm": 0.33149453003921153
+    }
+  ],
+  "nominal_CAD_trace": "work/r29-r26-dynamics/R29_final_nominal/dynamic_trace_for_CAD.json",
+  "nominal_CAD_trace_sha256": "18c88537f29bdc1f58752ca969612dc5b06b51fd656afd9e1129b2e5d231e0c5",
+  "nominal_CAD_trace_samples": 9774,
+  "nominal_joint_bound_intervals": 9773,
+  "nominal_integration_steps": 781767,
+  "swing_contact_posthoc_audit": "work/r29-r26-dynamics/swing_contact_audit.json",
+  "swing_contact_posthoc_audit_sha256": "13dab4d3f9baf2daa884872aaaf762ee45047d8fde2d8acf510cbe43d4cdaae2",
+  "all_final_saved_mid_swing_20_to_80pct_unloaded": true,
+  "low_battery_10p30_to_10p35V_40C_7200s_continuous_torque_bench": "NOT_RUN",
+  "limits": [
+    "No prototype, purchased servo continuous-torque bench, thermal run, battery sag, compliant structure or real floor test.",
+    "Very slow 195.44-second four-step diagnostic; no normal speed or endurance qualification.",
+    "31 flexible harness sections represented by paired rigid-mass surrogate rows, not deformable cables.",
+    "R20 foot-contact geometry retained; revised covers and mouth shell are not MuJoCo collision bodies.",
+    "The frozen acceptance check requires peak swing clearance, not zero contact force throughout planned swing.",
+    "CAD trace and joint interval bounds need a separate R29 rigid-body/clearance replay.",
+    "All four R29 walks use a 0.08 Nm modeled mouth cap, while active runtime/structure limits mouth torque to 0.05 Nm; this is a hard integration blocker."
+  ],
+  "sources": {
+    "work/r29-mouth-relief/manifest_10deg.json": "0ab55207f447ce968f17f40c1a32a9df9d80d6891f96abfd8b881bd889f4bed8",
+    "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+    "work/r29-closure/harness/r26_selection_patch.json": "41ca3234a30e842933244e675ccc769147e26fedc1312723f7cb8433da9f8f92",
+    "work/r29-r26-dynamics/mouth10_films_model_binding.json": "4b85d484bb709c78bd3b929e892c3b78eb77241125c32db3ec8904aede2e36b5",
+    "work/r29-r26-dynamics/mouth10_films_contact9_model_binding.json": "90b54abb80f956a09d892556e63cd628ad6c7109349238acd0ed00b7d73c6130",
+    "work/r29-r26-dynamics/R29_final_nominal/dynamic_trace_for_CAD.json": "18c88537f29bdc1f58752ca969612dc5b06b51fd656afd9e1129b2e5d231e0c5",
+    "work/r29-r26-dynamics/R29_final_nominal/interval_joint_bounds.json": "352bc031ce1513e0e9e5aca4c24143188501d66fd269a0b7643f8352a3e65a94",
+    "work/r29-r26-dynamics/swing_contact_audit.json": "13dab4d3f9baf2daa884872aaaf762ee45047d8fde2d8acf510cbe43d4cdaae2",
+    "work/r29-r26-dynamics/mouth_structural_guard_audit.json": "910b7e91ce8a4f55db544d2f3c5d4b9e28b88e2673f0f84eb7277d618bc33bbe",
+    "work/r29-r26-dynamics/stability_sample_audit.json": "9dac3382fbe5bbb76e6f80c92a5b5abd60c56620add5d2bce7aecc02f4e1ba9f",
+    "work/r29-r26-dynamics/build_validation_summary.py": "e75209fb2b9c1d6dfd776970c392b9fd3a935c9ab29396536611d72a5e20b19b",
+    "work/r29-r26-dynamics/nominal_review.json": "60342868b752bcc8cd03eecf9607992fb5a8bd1bb24e735835fd0a5c29e74ba6",
+    "work/r29-r26-dynamics/R26_halfdt_review.json": "18aae6b8cd42e8ad4b698545dfa140f6da2fcfa445ff2c87b424bff31a2a2080",
+    "work/r29-r26-dynamics/R26_friction05_review.json": "786c553a4dd207b764098d1823023fa55cedad0b13752d9022c3794d4db9cdc0",
+    "work/r29-r26-dynamics/R26_contact9_review.json": "f313e50e57baea107d66c08f323993c5636e5d16e0b58e38ad22100be01f0659",
+    "work/r29-r26-dynamics/R29_final_nominal_review.json": "b0f80c44b22dc2c561334bca352a4ec1b7180aa75702e2ea731084bfdf983033",
+    "work/r29-r26-dynamics/R29_final_halfdt_review.json": "2cf3ff87199d86f8d3140ff93fc171cc4b88db0d59cd672ec24b15dea8124e81",
+    "work/r29-r26-dynamics/R29_final_friction05_review.json": "d09db6bb9058fe8883cdbbca498282ced6b455f6187df05542c4ab15538be095",
+    "work/r29-r26-dynamics/R29_final_contact9_review.json": "f49d134fad22fa5ea64f137f78b7ecc4caed86ea760da5164e03593baeb52898"
+  }
+}

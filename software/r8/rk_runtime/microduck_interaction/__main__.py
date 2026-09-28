@@ -13,6 +13,7 @@ import tempfile
 import time
 import wave
 from .audio import DEFAULT_DEVICE,capture_push_to_talk
+from microduck_rk.motion_limits import DEFAULT_MOUTH_OPEN_RAD
 from .executor import Arbiter,Executor
 from .providers import ProviderError,Providers,exchange
 from .schema import ROBOT_PROFILE,number,strict_json,validate_plan
@@ -124,7 +125,7 @@ def main():
     s.add_argument('--command',default='/tmp/microduck-r8-command.json');s.add_argument('--stop-file',default='/tmp/microduck-r8.STOP')
     s.add_argument('--dry-log');s.add_argument('--live-command',action='store_true');s.add_argument('--arm-interaction',action='store_true')
     s.add_argument('--live-audio',action='store_true',help='use ALSA even while command output remains a dry run')
-    s.add_argument('--runtime-telemetry',default='/tmp/microduck-r8-state.json');s.add_argument('--calibration');s.add_argument('--mouth-closed',type=float,default=0.);s.add_argument('--mouth-open',type=float,default=.2)
+    s.add_argument('--runtime-telemetry',default='/tmp/microduck-r8-state.json');s.add_argument('--calibration');s.add_argument('--mouth-closed',type=float,default=0.);s.add_argument('--mouth-open',type=float,default=DEFAULT_MOUTH_OPEN_RAD)
     s.add_argument('--gain',type=float,default=float(os.environ.get('MICRODUCK_AUDIO_GAIN','.2')))
     s.add_argument('--playback-device',default=os.environ.get('MICRODUCK_PLAYBACK_DEVICE',DEFAULT_DEVICE))
     s=sub.add_parser('text');s.add_argument('text');s.add_argument('--no-speech',action='store_true')

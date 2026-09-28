@@ -6,7 +6,7 @@
 
 当前默认head_home_locked需要真实HOME连续稳定读回，禁止交互头/嘴和音频嘴运动；supported_double须确认实体支持并使用对应策略，锁十腿后才允许上述头部范围。两模式的实际状态在每次非零租约及播放前复核，见[README_MOTION_CONTEXT.md](README_MOTION_CONTEXT.md)。motion_limits.py是唯一限位源码；读写command和模型/标定/训练均绑定其SHA。V18有244个有限离散头姿态几何筛查记录，当前头壳修订需重新复核；它不等于任意连续姿态或物理运动批准。
 
-嘴部0..12°角度目标还须满足独立0.05Nm结构载荷验收。音量包络不测力矩，初始300mA不表示薄嘴托已合格；实测标定、限流、P增益、步幅仍有效。
+嘴部0..10°角度目标还须满足独立0.05Nm结构载荷验收。语音联动默认开度为8°，留出软件目标余量；实际机械止挡、装配公差和动态接触仍须首件验证。音量包络不测力矩，初始300mA不表示薄嘴托已合格；实测标定、限流、P增益、步幅仍有效。
 
 ## 离线启动和演示
 
@@ -65,7 +65,7 @@ Plan JSON：
      "intent":{"duration_s":0.5,"vx":0,"vy":0,"yaw":0,
                "head":[0,0,0,0],"body":[0,0,0],"mouth":0}}
 
-仅允许这些键。say 最多 1000 字符；duration_s 必填 0.02..3 秒。vx ±0.15 m/s，vy ±0.10 m/s，yaw ±0.5 rad/s。head 按 neck_pitch/head_pitch/head_yaw/head_roll 排列，相对实测 HOME 的增量上限依次 [-20,+5]°、±15°、±15°、±8°（接口使用弧度）；body 按 z/roll/pitch 排列，±0.03 m/0.15 rad/0.15 rad；mouth 为 0..12°（0..0.20943951023931956 rad），0为闭嘴，最终还受实测标定。未填字段归零，超界直接拒绝。禁止模型提供任意关节数组、寄存器、shell、文件路径或新的 profile。
+仅允许这些键。say 最多 1000 字符；duration_s 必填 0.02..3 秒。vx ±0.15 m/s，vy ±0.10 m/s，yaw ±0.5 rad/s。head 按 neck_pitch/head_pitch/head_yaw/head_roll 排列，相对实测 HOME 的增量上限依次 [-20,+5]°、±15°、±15°、±8°（接口使用弧度）；body 按 z/roll/pitch 排列，±0.03 m/0.15 rad/0.15 rad；mouth 为 0..10°（0..0.17453292519943295 rad），0为闭嘴，最终还受实测标定。未填字段归零，超界直接拒绝。禁止模型提供任意关节数组、寄存器、shell、文件路径或新的 profile。
 
 * POST /v1/sessions：{source:"manual",duration_s:30} → session_id、expires_in_s、robot_profile。
 * POST /v1/intents：{session_id,sequence,robot_profile,intent} → accepted、sequence、valid_for_s。source=vla时另须vla_context={capture_monotonic_s,deadline_monotonic_s,calibration_sha256,motion_limits_sha256,motion_context}；由相机客户端根据原观察构造，本地重新核期限与实际模式，缺失/过期不接受。

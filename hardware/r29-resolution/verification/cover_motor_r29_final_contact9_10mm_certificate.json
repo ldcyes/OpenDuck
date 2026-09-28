@@ -1,0 +1,123 @@
+{
+  "status": "TARGET_CLEARANCE_CERTIFIED_R29_MASS_TRACE_R26_GEOMETRY",
+  "pair": [
+    "R26_R_thigh_short_cover",
+    "left_ankle_motor"
+  ],
+  "interval_count": 9773,
+  "certificate_count": 12,
+  "minimum_conservative_clearance_mm": 11.407070360882873,
+  "target_mm": 10.0,
+  "exact_partition_coverage": true,
+  "failures": [],
+  "certificates": [
+    {
+      "start_interval": 0,
+      "end_interval_exclusive": 1221,
+      "anchor_interval": 610,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 15.041747438129253,
+      "movement_bound_mm": 134.05962879314293
+    },
+    {
+      "start_interval": 1221,
+      "end_interval_exclusive": 1832,
+      "anchor_interval": 1526,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 97.39898188144383,
+      "movement_bound_mm": 50.38308714081015
+    },
+    {
+      "start_interval": 1832,
+      "end_interval_exclusive": 2443,
+      "anchor_interval": 2137,
+      "method": "interval_box_support_plane",
+      "lower_bound_mm": 31.761063971966397,
+      "movement_bound_mm": 133.29876580001556
+    },
+    {
+      "start_interval": 2443,
+      "end_interval_exclusive": 3664,
+      "anchor_interval": 3053,
+      "method": "interval_box_support_plane",
+      "lower_bound_mm": 30.54879054035543,
+      "movement_bound_mm": 127.70632477820904
+    },
+    {
+      "start_interval": 3664,
+      "end_interval_exclusive": 4275,
+      "anchor_interval": 3969,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 11.407070360882873,
+      "movement_bound_mm": 91.74723144836791
+    },
+    {
+      "start_interval": 4275,
+      "end_interval_exclusive": 4886,
+      "anchor_interval": 4580,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 15.884455814750613,
+      "movement_bound_mm": 110.87575551185112
+    },
+    {
+      "start_interval": 4886,
+      "end_interval_exclusive": 6107,
+      "anchor_interval": 5496,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 15.267771729350532,
+      "movement_bound_mm": 133.83490169621916
+    },
+    {
+      "start_interval": 6107,
+      "end_interval_exclusive": 6718,
+      "anchor_interval": 6412,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 97.42311806591854,
+      "movement_bound_mm": 50.35952105207681
+    },
+    {
+      "start_interval": 6718,
+      "end_interval_exclusive": 7329,
+      "anchor_interval": 7023,
+      "method": "interval_box_support_plane",
+      "lower_bound_mm": 31.753583464820426,
+      "movement_bound_mm": 133.30668929661175
+    },
+    {
+      "start_interval": 7329,
+      "end_interval_exclusive": 8551,
+      "anchor_interval": 7940,
+      "method": "interval_box_support_plane",
+      "lower_bound_mm": 30.446680990476427,
+      "movement_bound_mm": 127.8019694483316
+    },
+    {
+      "start_interval": 8551,
+      "end_interval_exclusive": 9162,
+      "anchor_interval": 8856,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 11.554220457103515,
+      "movement_bound_mm": 91.63836867677293
+    },
+    {
+      "start_interval": 9162,
+      "end_interval_exclusive": 9773,
+      "anchor_interval": 9467,
+      "method": "interval_box_AABB",
+      "lower_bound_mm": 15.67988978708441,
+      "movement_bound_mm": 111.14750044097926
+    }
+  ],
+  "sources": {
+    "work/r28-r26-interference/mechanics/motion_delta/inputs.json": "050cdcd24983ba0732428d710906a5bf7ca47a52f6a3ae9dd139e58a9dbbc5e3",
+    "work/r29-r26-dynamics/R29_final_contact9/interval_joint_bounds.json": "cd42e340364c5e2aca9f66e67c6f672833cddfc352b07449e6aab999e0cd0b58",
+    "work/r26-cover-first/mechanics/print/R26_R_thigh_short_cover.ply": "57a2635239bc2f7cf1dea21b0d971757a031424e056f83ec795cfd0e45f82aa9",
+    "outputs/Microduck_RK_R8_\u5236\u9020\u8bbe\u8ba1/\u7ed3\u6784/\u5ba1\u67e5\u5feb\u7167/V18_STRENGTH_REVISED/assets/173cee4c01_x-430_idle.stp.stl": "e8fdd939739fa2f7a6747105152af1b2a2577cdc46f069f2f061d6435f72b4fd",
+    "work/r18-leg-hip-covers/review/motion_core.py": "aac85b1b0784de4c4e32b2899b37acab82dfb5d7e77c8dd5187906ff54fa38e3",
+    "work/r29-r26-resolution/refine_cover_motor_r29.py": "92f0ad6c909f4a68f84e5b588343e8e6695eff6282790b73ef63fd4aff254921",
+    "work/r29-r26-resolution/assembly_selection.json": "2ae5396ed3840d8202c7660ce1f805f335a5aecfa0e7bede06a1f2720fd7f340"
+  },
+  "motion_basis": "R29 final nominal free-base integration with R29 assembled mass and inertias",
+  "geometry_basis": "Unchanged R26 right thigh cover and left ankle motor in R29 five-part selection",
+  "integration_steps": 781767
+}

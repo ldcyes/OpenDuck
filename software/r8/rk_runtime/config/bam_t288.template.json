@@ -25,7 +25,7 @@
     "max_pwm": null,
     "hardware_platform_sha256": "d0557995ea758281473a28a7b51692a925037cf84505db43aca5011adce30e3d",
     "power_configuration_sha256": null,
-    "motion_limits_sha256": "9afd167d27a2f63da1ac767f2307cd5f98c75a4e255bb06eca08b0024b980366",
+    "motion_limits_sha256": "40f1dbf48a528664247c9a2164a9f43f3f84f87a515d77cf14c095d9aefc706f",
     "drive_profile_sha256": "67a60cf9873c6865da1a1b8fc7c0df25ca025803c6628c7b782af0be32e8eefb"
   }
 }

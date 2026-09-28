@@ -1,0 +1,41 @@
+{
+  "status": "R29_SHELL_R26_HOME_NEIGHBOR_REVIEW",
+  "part_count": 1193,
+  "broadphase_pair_count": 116,
+  "new_interference_pairs": [],
+  "existing_contact_count": 4,
+  "new_contact_count": 4,
+  "invalid_parts": [],
+  "contact_rows": [
+    {
+      "name": "R23_head_shell_-60_-60_M3_DIN934_nut",
+      "link_frame": "jaw_soft",
+      "old_common_mm3": 0.0002772169809610776,
+      "new_common_mm3": 0.0002772169809610776,
+      "delta_mm3": 0.0
+    },
+    {
+      "name": "R23_head_shell_-60_60_M3_DIN934_nut",
+      "link_frame": "jaw_soft",
+      "old_common_mm3": 0.00027721698095544323,
+      "new_common_mm3": 0.00027721698095544323,
+      "delta_mm3": 0.0
+    },
+    {
+      "name": "R23_head_shell_55_-60_M3_DIN934_nut",
+      "link_frame": "jaw_soft",
+      "old_common_mm3": 0.00027721698101069536,
+      "new_common_mm3": 0.00027721698101069536,
+      "delta_mm3": 0.0
+    },
+    {
+      "name": "R23_head_shell_55_60_M3_DIN934_nut",
+      "link_frame": "jaw_soft",
+      "old_common_mm3": 0.0002772169809156233,
+      "new_common_mm3": 0.0002772169809156233,
+      "delta_mm3": 0.0
+    }
+  ],
+  "source_selection_sha256": "050cdcd24983ba0732428d710906a5bf7ca47a52f6a3ae9dd139e58a9dbbc5e3",
+  "new_shell_sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3"
+}

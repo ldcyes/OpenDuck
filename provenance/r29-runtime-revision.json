@@ -1,0 +1,103 @@
+{
+  "status": "R29_RUNTIME_10DEG_PROVISIONAL",
+  "physical_approved": false,
+  "original_source_preserved": true,
+  "files": [
+    {
+      "repository_path": "software/r8/rk_runtime/README_INTERACTION.md",
+      "original_source_sha256": "2eb1d6b76ee97367daa2ef7e7f04644dfc4f9c8b14e705f7df24b306a672c832",
+      "r29_published_sha256": "daed359f8b092a52521e1f8165e079b0521689c015d1ecc81237161c404860e0",
+      "r29_bytes": 15300
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/README_MOTION_CONTEXT.md",
+      "original_source_sha256": "c848b1b3437bd473ef1fa550a6f00591b51b9a4360b5f7e373ec166f5bb79a49",
+      "r29_published_sha256": "06bb2a1e54cf846d7a703e9a35aea8e38391c37a554879e4d1385a662bc78f4f",
+      "r29_bytes": 3634
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/README_R8.md",
+      "original_source_sha256": "55e577256a5c1b28f68ebf7402daa291086833e959b0b344d67161aa0d908623",
+      "r29_published_sha256": "052761173d3fa87a0dfdf1e4f4443d9cc3671a6a7d89d983fd4210ec825e5bc3",
+      "r29_bytes": 10959
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/bam_t288.template.json",
+      "original_source_sha256": "c1501726ddeaa3adee604fd0aa78a3f5c6d50906c64e568789e78ab6bb351781",
+      "r29_published_sha256": "ca19c1acf9dccf182b43e7472cbc5efa99a215c0448def76d161784d395ac3d3",
+      "r29_bytes": 990
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/bam_xc330.template.json",
+      "original_source_sha256": "ee38c2f9b3345c6e8dd8e7aa8a62bf909ff9bc4cdbc6f36a7f78d8715dbf3c25",
+      "r29_published_sha256": "10555370cce4c295dc6a86802fcdb028a5ebd0e40ec9c6f22ef786c5b85b417e",
+      "r29_bytes": 985
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/bam_xm430.template.json",
+      "original_source_sha256": "d1fbdb81447920f4c2b082f088f1c1ac8371ef7c81caae12438acd2317f06b66",
+      "r29_published_sha256": "1be7276c9e3b36ab3377949b17f2aba0aecab5f5096cb40c0c5e2ea0bcecf4d4",
+      "r29_bytes": 985
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/calibration.template.json",
+      "original_source_sha256": "429d405967fcea853363d73fbd94015ad4435a64cff6ae03376db3d99cad0f52",
+      "r29_published_sha256": "30b506c16654480a74897785a8c1c55d0eb841fab2a30748c6b6edd354b22234",
+      "r29_bytes": 7921
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/dynamics.template.json",
+      "original_source_sha256": "f1f88e690260bd0556e9414d265875972f2dbe189554461373ad9da72a10c8c3",
+      "r29_published_sha256": "abed0c43fed5843e407447f66125c575ef7054b4155ae3b212f12c22295ecf6e",
+      "r29_bytes": 3119
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/config/motion_limits.snapshot.json",
+      "original_source_sha256": "3b5cece88524112516b0c767434ec488295e13d6e039b7d8b25336e93a5cf230",
+      "r29_published_sha256": "6c610dd0ff68dbd222a64acb2df3b1c5712c9d8d62e022f7a9ed85e0d488cef8",
+      "r29_bytes": 1801
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/examples/synthetic_duck_envelope_50hz.json",
+      "original_source_sha256": "373779928e4616e681b77f639d3176bc3ba3d816994a4b690831d2f0f9a8c1f6",
+      "r29_published_sha256": "9e4e31db676aacc56987d7650c115c2eee3d19275d0429a0a1230f966a979f82",
+      "r29_bytes": 5314
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/microduck_interaction/__main__.py",
+      "original_source_sha256": "2c0210eeec5952c39185b54c0e810b2de134076b54b946651930eb79e4a4143d",
+      "r29_published_sha256": "09c8c5c1b97b8b01e148bc02c4e54509790767dd58e09e53e4935875af4d21fd",
+      "r29_bytes": 8927
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/microduck_interaction/executor.py",
+      "original_source_sha256": "b705c73d5671aa955a9556b246ac5970f45307811f822494ea8d4a70eca0d690",
+      "r29_published_sha256": "9db243b1f545d324a7b1cb32f7fcfec21083b365c93a6b9fdd1c5f7036987d14",
+      "r29_bytes": 10864
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/microduck_rk/motion_limits.py",
+      "original_source_sha256": "f67bd44f1e2f18aa6a45ec70342e22e86a2baf11370a8baf8021ac98dfe4bc0c",
+      "r29_published_sha256": "efafe0f60c993b5e46346227dc672807d8d9b44c0eed329119045ad05fce1527",
+      "r29_bytes": 5989
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/tests/test_interaction_audio.py",
+      "original_source_sha256": "0933bb4844883cac2eb304c299ee4d94b1bb8d26d19362075a18fb2c6b5f1997",
+      "r29_published_sha256": "fcb476b7ccd43a1e1f28965290183ea4a0c7bbc5da71c7ea1afe83a7e51cd9f8",
+      "r29_bytes": 3096
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/tests/test_limits_r8.py",
+      "original_source_sha256": "5f6042c35dbba26e7268d9fb22365ff5c37beecb5baf991c86414216f033d64b",
+      "r29_published_sha256": "4af66dd3e36a0b1f9a54323cb6b2f707af6cd96a64f5021ca1c72534d63b8baf",
+      "r29_bytes": 8290
+    },
+    {
+      "repository_path": "software/r8/rk_runtime/tests/test_mouth_load_r8.py",
+      "original_source_sha256": "a582a6c85f5df42a987178f0303d32e12ffcac7f942fbd14ab6a82a7676bebfa",
+      "r29_published_sha256": "e1c61348c6a7fb7590b064d91a6f6e4552857cc8082d1e5bcf18ce9b65e31e48",
+      "r29_bytes": 3375
+    }
+  ]
+}

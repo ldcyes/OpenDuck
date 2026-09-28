@@ -1,0 +1,60 @@
+{
+  "status": "SAVED_SAMPLE_MODEL_STABILITY_DIAGNOSTIC",
+  "physical_approved": false,
+  "force_threshold_loaded_N": 2.0,
+  "sample_period_s": 0.02,
+  "cases": [
+    {
+      "case": "R29_final_nominal",
+      "saved_samples": 9774,
+      "maximum_absolute_root_tilt_deg": 18.297966867483403,
+      "minimum_root_height_mm": 250.62025252980163,
+      "maximum_root_height_mm": 259.76502189428527,
+      "no_loaded_foot_after_startup_samples": 0,
+      "no_loaded_foot_after_startup_times_s": [],
+      "minimum_total_saved_normal_force_N": 43.18551691596481
+    },
+    {
+      "case": "R29_final_halfdt",
+      "saved_samples": 9774,
+      "maximum_absolute_root_tilt_deg": 18.298213141591646,
+      "minimum_root_height_mm": 250.62092821377163,
+      "maximum_root_height_mm": 259.7658585072705,
+      "no_loaded_foot_after_startup_samples": 0,
+      "no_loaded_foot_after_startup_times_s": [],
+      "minimum_total_saved_normal_force_N": 43.25378015579121
+    },
+    {
+      "case": "R29_final_friction05",
+      "saved_samples": 9774,
+      "maximum_absolute_root_tilt_deg": 18.298132165578213,
+      "minimum_root_height_mm": 250.61999183610882,
+      "maximum_root_height_mm": 259.76612293860154,
+      "no_loaded_foot_after_startup_samples": 0,
+      "no_loaded_foot_after_startup_times_s": [],
+      "minimum_total_saved_normal_force_N": 43.2905954570825
+    },
+    {
+      "case": "R29_final_contact9",
+      "saved_samples": 9774,
+      "maximum_absolute_root_tilt_deg": 18.27627543864094,
+      "minimum_root_height_mm": 250.71982289950196,
+      "maximum_root_height_mm": 259.828287245488,
+      "no_loaded_foot_after_startup_samples": 0,
+      "no_loaded_foot_after_startup_times_s": [],
+      "minimum_total_saved_normal_force_N": 43.30611950716632
+    }
+  ],
+  "limitations": [
+    "Only saved 20 ms samples; intersample contact continuity not proved.",
+    "Root tilt/height and contact continuity are not ZMP, capture-point, or real fall-resistance margins.",
+    "No realistic structural compliance, servo delay, battery sag, or floor disturbance."
+  ],
+  "sources": {
+    "work/r29-r26-dynamics/audit_stability_samples.py": "3cc46f919d759a1f24843f49381e1f6c4f85ef7ea9917caac6d1a75dac260a3a",
+    "work/r29-r26-dynamics/R29_final_nominal/trajectory.json": "157134c9f1e13297653a5de3c84d1df64c1fcc9375ae080dafd53736757dff2a",
+    "work/r29-r26-dynamics/R29_final_halfdt/trajectory.json": "f5a23ca102da9ca45ecfd9bbd1b57cbf085afeba4894e9916455f76482d41096",
+    "work/r29-r26-dynamics/R29_final_friction05/trajectory.json": "c38ac3150c4d25d9a7015f8f3282c61c51bdf8ab72eff6ea3aba466a7af8a926",
+    "work/r29-r26-dynamics/R29_final_contact9/trajectory.json": "0bff8a109ecb65bf226df0d66ac8c4a987d2d78dfe89cb3517407a0720eb6635"
+  }
+}

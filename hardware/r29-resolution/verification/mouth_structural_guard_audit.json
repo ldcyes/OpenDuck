@@ -1,0 +1,119 @@
+{
+  "status": "ACTIVE_MOUTH_STRUCTURAL_GUARD_VIOLATED_BY_ALL_FOUR_WALKING_RUNS",
+  "physical_approved": false,
+  "manufacturing_approved": false,
+  "active_guard_Nm": 0.05,
+  "simulated_model_cap_Nm": 0.08,
+  "worst_case": "R29_final_contact9",
+  "worst_peak_Nm": 0.0592504966419347,
+  "minimum_counter_torque_at_worst_observed_peak_for_hard_limit_Nm": 0.009250496641934697,
+  "minimum_counter_torque_at_worst_observed_peak_for_15pct_guard_headroom_Nm": 0.016750496641934697,
+  "static_level_base_gravity_curve": [
+    {
+      "mouth_open_deg": 0,
+      "required_motor_gravity_hold_torque_Nm": -0.05611857431351044
+    },
+    {
+      "mouth_open_deg": 2,
+      "required_motor_gravity_hold_torque_Nm": -0.05542436854942135
+    },
+    {
+      "mouth_open_deg": 5,
+      "required_motor_gravity_hold_torque_Nm": -0.05425673538211209
+    },
+    {
+      "mouth_open_deg": 8,
+      "required_motor_gravity_hold_torque_Nm": -0.05294038827445986
+    },
+    {
+      "mouth_open_deg": 10,
+      "required_motor_gravity_hold_torque_Nm": -0.0519819699333433
+    }
+  ],
+  "cases": [
+    {
+      "case": "R29_final_nominal",
+      "model_cap_Nm": 0.08,
+      "runtime_structural_guard_Nm": 0.05,
+      "integration_step_peak_Nm": 0.0587599716194223,
+      "integration_step_RMS_Nm": 0.056671777223260014,
+      "integration_step_peak_over_guard_Nm": 0.008759971619422297,
+      "saved_sample_min_signed_Nm": -0.058344437402824086,
+      "saved_sample_max_signed_Nm": -0.055035782167139564,
+      "saved_sample_min_absolute_Nm": 0.055035782167139564,
+      "saved_samples": 9774,
+      "saved_samples_over_guard": 9774,
+      "sampled_duration_over_guard_s": 195.4417499971064,
+      "mouth_joint_angle_min_deg": -0.0016685530288498398,
+      "mouth_joint_angle_max_deg": 0.0029462472436046694
+    },
+    {
+      "case": "R29_final_halfdt",
+      "model_cap_Nm": 0.08,
+      "runtime_structural_guard_Nm": 0.05,
+      "integration_step_peak_Nm": 0.058369617821716305,
+      "integration_step_RMS_Nm": 0.05667185327981672,
+      "integration_step_peak_over_guard_Nm": 0.008369617821716302,
+      "saved_sample_min_signed_Nm": -0.05834482590979419,
+      "saved_sample_max_signed_Nm": -0.05519340491396249,
+      "saved_sample_min_absolute_Nm": 0.05519340491396249,
+      "saved_samples": 9774,
+      "saved_samples_over_guard": 9774,
+      "sampled_duration_over_guard_s": 195.4417499962424,
+      "mouth_joint_angle_min_deg": -0.0006156564955449585,
+      "mouth_joint_angle_max_deg": 0.0010699063873955514
+    },
+    {
+      "case": "R29_final_friction05",
+      "model_cap_Nm": 0.08,
+      "runtime_structural_guard_Nm": 0.05,
+      "integration_step_peak_Nm": 0.05876115231584855,
+      "integration_step_RMS_Nm": 0.05667177152719193,
+      "integration_step_peak_over_guard_Nm": 0.00876115231584855,
+      "saved_sample_min_signed_Nm": -0.058347934306420164,
+      "saved_sample_max_signed_Nm": -0.05503471365179837,
+      "saved_sample_min_absolute_Nm": 0.05503471365179837,
+      "saved_samples": 9774,
+      "saved_samples_over_guard": 9774,
+      "sampled_duration_over_guard_s": 195.4417499971064,
+      "mouth_joint_angle_min_deg": -0.0016711870787286644,
+      "mouth_joint_angle_max_deg": 0.0029504221224814515
+    },
+    {
+      "case": "R29_final_contact9",
+      "model_cap_Nm": 0.08,
+      "runtime_structural_guard_Nm": 0.05,
+      "integration_step_peak_Nm": 0.0592504966419347,
+      "integration_step_RMS_Nm": 0.05667492116048779,
+      "integration_step_peak_over_guard_Nm": 0.009250496641934697,
+      "saved_sample_min_signed_Nm": -0.058340229630162756,
+      "saved_sample_max_signed_Nm": -0.05471740554573546,
+      "saved_sample_min_absolute_Nm": 0.05471740554573546,
+      "saved_samples": 9774,
+      "saved_samples_over_guard": 9774,
+      "sampled_duration_over_guard_s": 195.4417499971064,
+      "mouth_joint_angle_min_deg": -0.0029175862315584103,
+      "mouth_joint_angle_max_deg": 0.003640351683331301
+    }
+  ],
+  "interpretation": "The current gait requires more than the active 0.05 Nm structural guard even for closed-mouth holding. This is a hard integration blocker until a source-bound, physically realizable mechanical counterbalance or equivalent redesign is built and all four cases are rerun under the guard.",
+  "limitations": [
+    "Static curve uses level base and all other joint angles at HOME; the four integrated runs include torso motion.",
+    "Saved trace is 20 ms sampled, while peak/RMS come from controller integration-step report.",
+    "This audit does not approve a spring or authorize increasing the runtime guard."
+  ],
+  "sources": {
+    "work/r29-r26-dynamics/audit_mouth_guard.py": "91d87510bef9ccb7227db0cdf3a1187b3dd537fa6d4eaf4531478727f9bcd55d",
+    "work/openduck-publish/repository/software/r8/rk_runtime/microduck_rk/motion_limits.py": "efafe0f60c993b5e46346227dc672807d8d9b44c0eed329119045ad05fce1527",
+    "work/r29-r26-dynamics/current_robot_r26_mouth10_films_contact4.xml": "09d16308606b41d43e31eb59a1902edda54dfe671d42e2c3bf3536c6a9f24829",
+    "work/r29-r26-dynamics/model_contract_r26_mouth10_films_contact4.json": "3ef292b08949d3daf64df143b09602ad53250e876430226d11fc1056f6f65963",
+    "work/r29-r26-dynamics/R29_final_nominal/report.json": "a7bcf9d0db57eea3a074d6cc0a0a2b16a38894cb06ca6aee250435176bdf215c",
+    "work/r29-r26-dynamics/R29_final_nominal/trajectory.json": "157134c9f1e13297653a5de3c84d1df64c1fcc9375ae080dafd53736757dff2a",
+    "work/r29-r26-dynamics/R29_final_halfdt/report.json": "5bf1413520e624fdba16235b6247fe6f172d1f0adcd61c67cda1256a2993f711",
+    "work/r29-r26-dynamics/R29_final_halfdt/trajectory.json": "f5a23ca102da9ca45ecfd9bbd1b57cbf085afeba4894e9916455f76482d41096",
+    "work/r29-r26-dynamics/R29_final_friction05/report.json": "3d271b9014d7c6fb90af6a096800acf49f1cc09f2b019b8e8b2e29abb69d03e3",
+    "work/r29-r26-dynamics/R29_final_friction05/trajectory.json": "c38ac3150c4d25d9a7015f8f3282c61c51bdf8ab72eff6ea3aba466a7af8a926",
+    "work/r29-r26-dynamics/R29_final_contact9/report.json": "96adf4060c17b3685b6f1023c8dbbc5de34878ca16f569bb89c544391a4a47c5",
+    "work/r29-r26-dynamics/R29_final_contact9/trajectory.json": "0bff8a109ecb65bf226df0d66ac8c4a987d2d78dfe89cb3517407a0720eb6635"
+  }
+}

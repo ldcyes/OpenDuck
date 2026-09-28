@@ -1,5 +1,5 @@
 {
-  "policy": "Original JSON and source code copied byte-for-byte. Only reader-facing documentation links transformed in publication copies; hashes kept separately. Release files renamed without changing bytes.",
+  "policy": "Original R8 source hashes remain in source_sha256. R29 intentionally revises the runtime mouth limit, audio default, configuration bindings, tests and related documentation; their current bytes are in published_sha256 and provenance/r29-runtime-revision.json. Other copied source files retain their original bytes.",
   "files": [
     {
       "source": "outputs/PCB_功能_DRC与尺寸复核_2026-09-13/00_PCB检查与缩板结论.md",
@@ -2437,17 +2437,19 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/README_INTERACTION.md",
       "repository_path": "software/r8/rk_runtime/README_INTERACTION.md",
       "source_sha256": "2eb1d6b76ee97367daa2ef7e7f04644dfc4f9c8b14e705f7df24b306a672c832",
-      "published_sha256": "2eb1d6b76ee97367daa2ef7e7f04644dfc4f9c8b14e705f7df24b306a672c832",
-      "bytes": 15171,
-      "changed": false
+      "published_sha256": "daed359f8b092a52521e1f8165e079b0521689c015d1ecc81237161c404860e0",
+      "bytes": 15300,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/README_MOTION_CONTEXT.md",
       "repository_path": "software/r8/rk_runtime/README_MOTION_CONTEXT.md",
       "source_sha256": "c848b1b3437bd473ef1fa550a6f00591b51b9a4360b5f7e373ec166f5bb79a49",
-      "published_sha256": "c848b1b3437bd473ef1fa550a6f00591b51b9a4360b5f7e373ec166f5bb79a49",
+      "published_sha256": "06bb2a1e54cf846d7a703e9a35aea8e38391c37a554879e4d1385a662bc78f4f",
       "bytes": 3634,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/README_MOTOR_QUALIFICATION.md",
@@ -2469,57 +2471,64 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/README_R8.md",
       "repository_path": "software/r8/rk_runtime/README_R8.md",
       "source_sha256": "55e577256a5c1b28f68ebf7402daa291086833e959b0b344d67161aa0d908623",
-      "published_sha256": "55e577256a5c1b28f68ebf7402daa291086833e959b0b344d67161aa0d908623",
+      "published_sha256": "052761173d3fa87a0dfdf1e4f4443d9cc3671a6a7d89d983fd4210ec825e5bc3",
       "bytes": 10959,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/bam_t288.template.json",
       "repository_path": "software/r8/rk_runtime/config/bam_t288.template.json",
       "source_sha256": "c1501726ddeaa3adee604fd0aa78a3f5c6d50906c64e568789e78ab6bb351781",
-      "published_sha256": "c1501726ddeaa3adee604fd0aa78a3f5c6d50906c64e568789e78ab6bb351781",
+      "published_sha256": "ca19c1acf9dccf182b43e7472cbc5efa99a215c0448def76d161784d395ac3d3",
       "bytes": 990,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/bam_xc330.template.json",
       "repository_path": "software/r8/rk_runtime/config/bam_xc330.template.json",
       "source_sha256": "ee38c2f9b3345c6e8dd8e7aa8a62bf909ff9bc4cdbc6f36a7f78d8715dbf3c25",
-      "published_sha256": "ee38c2f9b3345c6e8dd8e7aa8a62bf909ff9bc4cdbc6f36a7f78d8715dbf3c25",
+      "published_sha256": "10555370cce4c295dc6a86802fcdb028a5ebd0e40ec9c6f22ef786c5b85b417e",
       "bytes": 985,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/bam_xm430.template.json",
       "repository_path": "software/r8/rk_runtime/config/bam_xm430.template.json",
       "source_sha256": "d1fbdb81447920f4c2b082f088f1c1ac8371ef7c81caae12438acd2317f06b66",
-      "published_sha256": "d1fbdb81447920f4c2b082f088f1c1ac8371ef7c81caae12438acd2317f06b66",
+      "published_sha256": "1be7276c9e3b36ab3377949b17f2aba0aecab5f5096cb40c0c5e2ea0bcecf4d4",
       "bytes": 985,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/calibration.template.json",
       "repository_path": "software/r8/rk_runtime/config/calibration.template.json",
       "source_sha256": "429d405967fcea853363d73fbd94015ad4435a64cff6ae03376db3d99cad0f52",
-      "published_sha256": "429d405967fcea853363d73fbd94015ad4435a64cff6ae03376db3d99cad0f52",
+      "published_sha256": "30b506c16654480a74897785a8c1c55d0eb841fab2a30748c6b6edd354b22234",
       "bytes": 7921,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/dynamics.template.json",
       "repository_path": "software/r8/rk_runtime/config/dynamics.template.json",
       "source_sha256": "f1f88e690260bd0556e9414d265875972f2dbe189554461373ad9da72a10c8c3",
-      "published_sha256": "f1f88e690260bd0556e9414d265875972f2dbe189554461373ad9da72a10c8c3",
+      "published_sha256": "abed0c43fed5843e407447f66125c575ef7054b4155ae3b212f12c22295ecf6e",
       "bytes": 3119,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/motion_limits.snapshot.json",
       "repository_path": "software/r8/rk_runtime/config/motion_limits.snapshot.json",
       "source_sha256": "3b5cece88524112516b0c767434ec488295e13d6e039b7d8b25336e93a5cf230",
-      "published_sha256": "3b5cece88524112516b0c767434ec488295e13d6e039b7d8b25336e93a5cf230",
-      "bytes": 1734,
-      "changed": false
+      "published_sha256": "6c610dd0ff68dbd222a64acb2df3b1c5712c9d8d62e022f7a9ed85e0d488cef8",
+      "bytes": 1801,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/config/power.template.json",
@@ -3101,9 +3110,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/examples/synthetic_duck_envelope_50hz.json",
       "repository_path": "software/r8/rk_runtime/examples/synthetic_duck_envelope_50hz.json",
       "source_sha256": "373779928e4616e681b77f639d3176bc3ba3d816994a4b690831d2f0f9a8c1f6",
-      "published_sha256": "373779928e4616e681b77f639d3176bc3ba3d816994a4b690831d2f0f9a8c1f6",
-      "bytes": 5295,
-      "changed": false
+      "published_sha256": "9e4e31db676aacc56987d7650c115c2eee3d19275d0429a0a1230f966a979f82",
+      "bytes": 5314,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/__init__.py",
@@ -3117,9 +3127,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/__main__.py",
       "repository_path": "software/r8/rk_runtime/microduck_interaction/__main__.py",
       "source_sha256": "2c0210eeec5952c39185b54c0e810b2de134076b54b946651930eb79e4a4143d",
-      "published_sha256": "2c0210eeec5952c39185b54c0e810b2de134076b54b946651930eb79e4a4143d",
-      "bytes": 8845,
-      "changed": false
+      "published_sha256": "09c8c5c1b97b8b01e148bc02c4e54509790767dd58e09e53e4935875af4d21fd",
+      "bytes": 8927,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/audio.py",
@@ -3133,9 +3144,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/executor.py",
       "repository_path": "software/r8/rk_runtime/microduck_interaction/executor.py",
       "source_sha256": "b705c73d5671aa955a9556b246ac5970f45307811f822494ea8d4a70eca0d690",
-      "published_sha256": "b705c73d5671aa955a9556b246ac5970f45307811f822494ea8d4a70eca0d690",
-      "bytes": 10821,
-      "changed": false
+      "published_sha256": "9db243b1f545d324a7b1cb32f7fcfec21083b365c93a6b9fdd1c5f7036987d14",
+      "bytes": 10864,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_interaction/providers.py",
@@ -3253,9 +3265,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_rk/motion_limits.py",
       "repository_path": "software/r8/rk_runtime/microduck_rk/motion_limits.py",
       "source_sha256": "f67bd44f1e2f18aa6a45ec70342e22e86a2baf11370a8baf8021ac98dfe4bc0c",
-      "published_sha256": "f67bd44f1e2f18aa6a45ec70342e22e86a2baf11370a8baf8021ac98dfe4bc0c",
-      "bytes": 5888,
-      "changed": false
+      "published_sha256": "efafe0f60c993b5e46346227dc672807d8d9b44c0eed329119045ad05fce1527",
+      "bytes": 5989,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/microduck_rk/policy.py",
@@ -3637,9 +3650,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_interaction_audio.py",
       "repository_path": "software/r8/rk_runtime/tests/test_interaction_audio.py",
       "source_sha256": "0933bb4844883cac2eb304c299ee4d94b1bb8d26d19362075a18fb2c6b5f1997",
-      "published_sha256": "0933bb4844883cac2eb304c299ee4d94b1bb8d26d19362075a18fb2c6b5f1997",
-      "bytes": 3004,
-      "changed": false
+      "published_sha256": "fcb476b7ccd43a1e1f28965290183ea4a0c7bbc5da71c7ea1afe83a7e51cd9f8",
+      "bytes": 3096,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_interaction_core.py",
@@ -3685,9 +3699,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_limits_r8.py",
       "repository_path": "software/r8/rk_runtime/tests/test_limits_r8.py",
       "source_sha256": "5f6042c35dbba26e7268d9fb22365ff5c37beecb5baf991c86414216f033d64b",
-      "published_sha256": "5f6042c35dbba26e7268d9fb22365ff5c37beecb5baf991c86414216f033d64b",
-      "bytes": 6875,
-      "changed": false
+      "published_sha256": "4af66dd3e36a0b1f9a54323cb6b2f707af6cd96a64f5021ca1c72534d63b8baf",
+      "bytes": 8290,
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_mixed_drive.py",
@@ -3725,9 +3740,10 @@
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_mouth_load_r8.py",
       "repository_path": "software/r8/rk_runtime/tests/test_mouth_load_r8.py",
       "source_sha256": "a582a6c85f5df42a987178f0303d32e12ffcac7f942fbd14ab6a82a7676bebfa",
-      "published_sha256": "a582a6c85f5df42a987178f0303d32e12ffcac7f942fbd14ab6a82a7676bebfa",
+      "published_sha256": "e1c61348c6a7fb7590b064d91a6f6e4552857cc8082d1e5bcf18ce9b65e31e48",
       "bytes": 3375,
-      "changed": false
+      "changed": true,
+      "revision": "R29 mouth 0..10 degree safety binding"
     },
     {
       "source": "outputs/Microduck_RK_R8_制造设计/软件与训练/rk_runtime/tests/test_power_io_r8.py",

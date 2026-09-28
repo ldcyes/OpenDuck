@@ -7,7 +7,7 @@ import tempfile
 import threading
 import time
 import uuid
-from microduck_rk.motion_limits import MOUTH_MAX, validate_frame, limits_sha256
+from microduck_rk.motion_limits import MOUTH_MAX, DEFAULT_MOUTH_OPEN_RAD, validate_frame, limits_sha256
 from .schema import ROBOT_PROFILE, command_values, number, validate_intent
 
 
@@ -44,7 +44,7 @@ class CommandWriter:
 
 
 class Arbiter:
-    def __init__(self,clock=time.monotonic,robot_profile=ROBOT_PROFILE,mouth_closed=0.,mouth_open=.20,context_check=None):
+    def __init__(self,clock=time.monotonic,robot_profile=ROBOT_PROFILE,mouth_closed=0.,mouth_open=DEFAULT_MOUTH_OPEN_RAD,context_check=None):
         self.clock=clock;self.robot_profile=robot_profile;self.context_check=context_check
         self.closed=number(mouth_closed,'mouth_closed',0.,0.)
         self.opened=number(mouth_open,'mouth_open',self.closed,MOUTH_MAX)

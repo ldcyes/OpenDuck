@@ -1,0 +1,75 @@
+{
+  "status": "R29_10DEG_NOMINAL_MOUTH_CLEARANCE_PASS_PHYSICAL_TOLERANCE_PENDING",
+  "assembly_shell": "R29_lower_head_shell_mouth_10deg_3mm",
+  "shell_mesh": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+  "shell_sha256": "a498871307dd3cb4fab6493529b748d02d31e2311a8489179fbd15450c0f19e3",
+  "printing_master": "work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.3mf",
+  "print_master_sha256": "761ed66bbcfe119d8b3fe68610e65566040e3f9b8025218c9ff46f53e3751905",
+  "source_mouth": "work/r12-motion/mechanics/mouth_v7_bent_entry/STL_\u88c5\u914d\u5750\u6807_\u6beb\u7c73/R12_mouth_load_carrier.stl",
+  "source_mouth_sha256": "cdf15b243e205f2329a9ed1fb5ee3d964431a43cdc65b68099541421abbb7d09",
+  "source_selection_sha256": "9f4f2e7169d0563b642215f4ef6607c51ce09b03e201cdbb3a3ab9318a6788b3",
+  "certification": {
+    "sweep_min_deg": 0,
+    "sweep_max_deg": 10,
+    "envelope_sample_step_deg": 0.25,
+    "envelope_inradius_mm": 3.45,
+    "max_carrier_vertex_radius_mm": 179.64028227767548,
+    "max_angular_displacement_to_nearest_pose_mm": 0.3919142216457786,
+    "continuous_nominal_clearance_lower_bound_mm": 3.0580857783542217,
+    "manufacturing_target_mm": 2.2,
+    "maximum_combined_unverified_deviation_mm": 0.8580857783542215,
+    "method": "Lipschitz displacement bound on every carrier vertex between nearest sampled pose; circumscribed manifold icosphere CSG cutter; assumes exact source geometry and rigid joint."
+  },
+  "operating_range_test": {
+    "shell_path": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+    "angles_checked": 81,
+    "angle_step_deg": 0.125,
+    "clearance_target_mm": 3.0,
+    "penetration_count": 0,
+    "clearance_failure_count": 0,
+    "first_penetration": null,
+    "first_clearance_failure": null,
+    "max_penetration_mm3": 0,
+    "max_clearance_failure_mm3": 0
+  },
+  "above_limit_3mm_test": {
+    "shell_path": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+    "angles_checked": 241,
+    "angle_step_deg": 0.05,
+    "clearance_target_mm": 3.0,
+    "penetration_count": 0,
+    "clearance_failure_count": 31,
+    "first_penetration": null,
+    "first_clearance_failure": [
+      10.5,
+      0.9742862416461214
+    ],
+    "max_penetration_mm3": 0,
+    "max_clearance_failure_mm3": 126.73737378095585
+  },
+  "above_limit_2p2mm_and_true_test": {
+    "shell_path": "/mnt/c/users/administrator/documents/codex/2026-09-05/microduck-x20/work/r29-mouth-relief/mechanics_10deg/R29_lower_head_shell_mouth_10deg_3mm.ply",
+    "angles_checked": 281,
+    "angle_step_deg": 0.05,
+    "clearance_target_mm": 2.2,
+    "penetration_count": 10,
+    "clearance_failure_count": 55,
+    "first_penetration": [
+      13.55,
+      0.002294430441700249
+    ],
+    "first_clearance_failure": [
+      11.3,
+      0.47658652038702953
+    ],
+    "max_penetration_mm3": 3.994223857040509,
+    "max_clearance_failure_mm3": 191.8028243937894
+  },
+  "first_sampled_3mm_failure_deg": 10.5,
+  "first_sampled_2p2mm_failure_deg": 11.3,
+  "first_sampled_true_penetration_deg": 13.55,
+  "mechanical_hard_stop_verified": false,
+  "tolerance_stack_verified": false,
+  "physical_approved": false,
+  "manufacturing_approved": false
+}

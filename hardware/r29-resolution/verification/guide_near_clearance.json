@@ -1,0 +1,51 @@
+{
+  "status": "GUIDE_PROXIMITY_NOT_MANUFACTURING_TOLERANCE_QUALIFIED",
+  "note": "These are selected nine-pose rigid-to-flex mesh distances. Guide capture and own fixed-wire mating are intentional, but a near-zero mesh gap does not prove an as-built wire will not pinch or abrade.",
+  "near_pair_count": 2709,
+  "guide_groups": {
+    "upper_PEEK_power_film": {
+      "minimum_nominal_gap_mm": 0.11029962841669162,
+      "case_index": 13,
+      "wire": "R25_NECK_FREE_P5",
+      "body": "R25_neck_upper_P5_PEEK_film",
+      "near_pair_count": 36
+    },
+    "lower_PEEK_power_film": {
+      "minimum_nominal_gap_mm": 0.11032398759750033,
+      "case_index": 1,
+      "wire": "R25_NECK_FREE_P5",
+      "body": "R23_neck_lower_P5_PEEK_film",
+      "near_pair_count": 36
+    },
+    "upper_PEEK_comb_housing": {
+      "minimum_nominal_gap_mm": 0.16137380050191455,
+      "case_index": 13,
+      "wire": "R25_NECK_FREE_S15",
+      "body": "R25_neck_upper_PEEK_comb_housing",
+      "near_pair_count": 261
+    },
+    "lower_PEEK_comb_housing": {
+      "minimum_nominal_gap_mm": 0.1614007463602655,
+      "case_index": 1,
+      "wire": "R25_NECK_FREE_S06",
+      "body": "R23_neck_lower_PEEK_comb_housing_P5_entry_slot",
+      "near_pair_count": 261
+    },
+    "upper_6061_bridge": {
+      "minimum_nominal_gap_mm": 0.36012546271184387,
+      "case_index": 13,
+      "wire": "R25_NECK_FREE_P5",
+      "body": "R25_neck_upper_6061_bottom_bridge",
+      "near_pair_count": 18
+    },
+    "lower_6061_bridge": {
+      "minimum_nominal_gap_mm": 0.3601486984338282,
+      "case_index": 1,
+      "wire": "R25_NECK_FREE_P5",
+      "body": "R23_neck_lower_6061_with_power_pair_P5_entry_slot_reinforced",
+      "near_pair_count": 45
+    }
+  },
+  "physical_approved": false,
+  "manufacturing_approved": false
+}
